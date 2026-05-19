@@ -1,0 +1,17 @@
+[Unit]
+Description=rag-service (RAG FastAPI pour Débloque-moi)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/rag-service
+EnvironmentFile=/opt/rag-service/.env
+ExecStart=/opt/rag-service/.venv/bin/uvicorn server:app --host 127.0.0.1 --port 8001
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
