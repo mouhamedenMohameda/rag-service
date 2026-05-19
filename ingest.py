@@ -32,6 +32,7 @@ from common import (
     normalize_text,
     split_text,
 )
+from vision_ocr import get_groq_client, ocr_page_via_vision
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 
@@ -57,11 +58,15 @@ def pdf_fingerprint(path: Path) -> str:
     return f"{st.st_size}-{int(st.st_mtime)}"
 
 
-def extract_pages(path: Path) -> list[tuple[int, str]]:
-    """Retourne [(page_num, text), ...] pour les pages contenant du texte
-    natif. Skip silencieusement les pages 100 % scannées (où get_text renvoie
-    une chaîne vide ou quasi vide) — la prise en charge OCR scannée sera
-    ajoutée plus tard si besoin.
+def extract_pages(path: Path, use_vision: bool = True) -> list[tuple[int, str]]:
+    """Retourne [(page_num, text), ...].
+
+    Pour chaque page : (1) tente le texte natif via PyMuPDF, (2) si la page
+    semble scannée (< 80 caractères extraits), tente Groq Vision OCR si
+    disponible (clé GROQ_API_KEY présente).
+
+    Une page sans texte natif ET sans OCR (clé absente ou OCR échoué) est
+    skippée silencieusement.
     """
     out: list[tuple[int, str]] = []
     try:
@@ -69,6 +74,7 @@ def extract_pages(path: Path) -> list[tuple[int, str]]:
     except Exception as e:
         log.warning("Impossible d'ouvrir %s : %s", path.name, e)
         return out
+    n_vision = 0
     try:
         for i, page in enumerate(doc, start=1):
             try:
@@ -76,10 +82,20 @@ def extract_pages(path: Path) -> list[tuple[int, str]]:
             except Exception:
                 continue
             txt = normalize_text(txt)
-            if len(txt) >= 80:  # seuil minimal pour éviter les pages bruit
+            if len(txt) >= 80:
                 out.append((i, txt))
+                continue
+            if not use_vision:
+                continue
+            # Page scannée → tentative OCR Vision
+            ocr_text = ocr_page_via_vision(page)
+            if ocr_text:
+                out.append((i, normalize_text(ocr_text)))
+                n_vision += 1
     finally:
         doc.close()
+    if n_vision > 0:
+        log.info("  ↳ %d page(s) extraites via Vision OCR", n_vision)
     return out
 
 
@@ -124,6 +140,11 @@ def main() -> int:
         "--dry-run",
         action="store_true",
         help="Liste les PDFs et chunks qui SERAIENT indexés, sans appel API",
+    )
+    parser.add_argument(
+        "--no-vision",
+        action="store_true",
+        help="Désactive l'OCR Vision sur les PDFs scannés (skip silencieux)",
     )
     args = parser.parse_args()
 
@@ -185,7 +206,9 @@ def main() -> int:
             log.info("[skip] %s (déjà indexé)", pdf_path.name)
             continue
 
-        pages = extract_pages(pdf_path)
+        # En dry-run, on ne déclenche pas l'OCR Vision (gratuit garanti).
+        use_vision = (not args.no_vision) and (not args.dry_run)
+        pages = extract_pages(pdf_path, use_vision=use_vision)
         if not pages:
             log.info("[skip] %s (aucun texte natif — scanné ?)", pdf_path.name)
             continue
@@ -262,9 +285,10 @@ def main() -> int:
     for s, n in by_subject.items():
         if n > 0:
             log.info("  %-10s : %d chunks", s, n)
-    log.info(
-        "Total dans la collection : %d", coll.count() if not args.dry_run else "n/a"
-    )
+    if args.dry_run:
+        log.info("Total dans la collection : (dry-run, pas écrit)")
+    else:
+        log.info("Total dans la collection : %d", coll.count())
     return 0
 
 
