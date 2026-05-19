@@ -10,49 +10,41 @@ from typing import Iterator, Optional
 # Sujets correspondent aux IDs côté Débloque-moi (src/lib/subjects.ts).
 SUBJECTS = ("math", "physique", "chimie", "svt")
 
-# Mots-clés (en minuscules, fautes de frappe et variantes courantes inclus)
-# associés à chaque matière. La classification matche n'importe lequel.
-SUBJECT_KEYWORDS = {
-    "math": ["math", "algebre", "algébre", "analyse", "arithmétique", "geometrie", "géométrie"],
-    "physique": ["physique", "phisique", "physics", "mécanique", "electromagnetisme"],
-    "chimie": ["chimie", "chemistry"],
-    "svt": [
-        "sciences naturelles",
-        "science naturelle",
-        "sciences naturelle",  # variantes orthographiques
-        "science naturelles",
-        "svt",
-        "biologie",
-        "bac d sn",
-        " sn ",  # « Bac C ... SN corr.pdf »
-        "/sn/",
-    ],
-}
+# Mappings dossier parent → liste de matières.
+# Classification basée EXCLUSIVEMENT sur le chemin (dossier parent), pas sur
+# le nom de fichier — car « sn » dans un filename signifie souvent
+# « session normale » (date d'examen) et non « Sciences Naturelles ».
+FOLDER_PATTERNS = [
+    # (substring à chercher dans le path en minuscules, liste de matières)
+    ("sujets corrigés math", ["math"]),
+    ("sujets corriges math", ["math"]),
+    ("/math/", ["math"]),
+    ("phisique et chimie", ["physique", "chimie"]),
+    ("physique et chimie", ["physique", "chimie"]),
+    ("physique & chimie", ["physique", "chimie"]),
+    ("/physique/", ["physique"]),
+    ("/chimie/", ["chimie"]),
+    ("science naturelle", ["svt"]),
+    ("sciences naturelles", ["svt"]),
+    ("sciences naturelle", ["svt"]),
+    ("science naturelles", ["svt"]),
+    ("/svt/", ["svt"]),
+]
 
 
 def classify_pdf(path: Path) -> list[str]:
-    """Retourne la liste des subject_id ('math', 'physique', 'chimie', 'svt')
-    auxquels ce PDF s'applique.
+    """Retourne la liste des subject_id auxquels ce PDF s'applique, déduite
+    EXCLUSIVEMENT du dossier parent. Pas de fallback filename pour éviter
+    les ambigüités du type « sn » qui peut être « session normale » plutôt
+    que « Sciences Naturelles ».
 
-    - Retourne une liste vide si le PDF n'est pas pertinent.
-    - Retourne plusieurs sujets pour un PDF qui en couvre plusieurs (ex :
-      « Bac C PC corrigé.pdf » → ['physique', 'chimie']).
-    - Tolère les fautes de frappe (« phisique ») et les variantes
-      orthographiques (« Science naturelle »).
+    Retourne [] si le PDF est dans un dossier non reconnu.
     """
     s = str(path).lower()
-    matched: list[str] = []
-    for subject, keywords in SUBJECT_KEYWORDS.items():
-        if any(kw in s for kw in keywords):
-            matched.append(subject)
-    # Heuristique : si "pc" apparaît dans le nom de fichier comme abréviation
-    # de « Physique & Chimie » → ajouter les deux.
-    name = path.name.lower()
-    if " pc " in f" {name} " or name.startswith("pc "):
-        for s_id in ("physique", "chimie"):
-            if s_id not in matched:
-                matched.append(s_id)
-    return matched
+    for pattern, subjects in FOLDER_PATTERNS:
+        if pattern in s:
+            return list(subjects)
+    return []
 
 
 # Séparateurs utilisés en cascade par le chunker (le plus structurant d'abord).
