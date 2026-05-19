@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import re
+import unicodedata
 from pathlib import Path
 from typing import Iterator, Optional
 
@@ -39,8 +40,11 @@ def classify_pdf(path: Path) -> list[str]:
     que « Sciences Naturelles ».
 
     Retourne [] si le PDF est dans un dossier non reconnu.
+
+    Normalise le chemin en NFC parce que macOS renvoie les paths en NFD
+    (e+accent décomposés) alors que nos patterns sont en NFC (é composé).
     """
-    s = str(path).lower()
+    s = unicodedata.normalize("NFC", str(path)).lower()
     for pattern, subjects in FOLDER_PATTERNS:
         if pattern in s:
             return list(subjects)
