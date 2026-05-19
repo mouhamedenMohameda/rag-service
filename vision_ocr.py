@@ -88,7 +88,7 @@ def ocr_page_via_vision(page: "fitz.Page") -> Optional[str]:
             completion = client.chat.completions.create(
                 model=VISION_MODEL,
                 temperature=0,
-                max_completion_tokens=MAX_TOKENS,
+                max_tokens=MAX_TOKENS,
                 messages=[
                     {
                         "role": "user",
