@@ -168,15 +168,19 @@ def main() -> int:
     by_subject: dict[str, int] = {s: 0 for s in SUBJECTS}
 
     for pdf_path in iter_pdfs(pdf_root):
-        subject = classify_pdf(pdf_path)
-        if subject is None:
+        subjects_matched = classify_pdf(pdf_path)
+        if not subjects_matched:
             continue
-        if args.subject and subject != args.subject:
-            continue
+        if args.subject:
+            if args.subject not in subjects_matched:
+                continue
+            subjects_matched = [args.subject]
         total_pdfs += 1
 
         fp = pdf_fingerprint(pdf_path)
-        pdf_key = f"{subject}|{pdf_path.name}|{fp}"
+        # Une "fingerprint" unique englobe tous les sujets : si le PDF a été
+        # indexé pour tous, on saute. Sinon on (ré)indexe.
+        pdf_key = f"{'+'.join(sorted(subjects_matched))}|{pdf_path.name}|{fp}"
         if pdf_key in existing_fingerprints:
             log.info("[skip] %s (déjà indexé)", pdf_path.name)
             continue
@@ -186,18 +190,54 @@ def main() -> int:
             log.info("[skip] %s (aucun texte natif — scanné ?)", pdf_path.name)
             continue
 
-        # Pour chaque page → chunks → batch embeddings → upsert
-        batch_ids: list[str] = []
-        batch_docs: list[str] = []
-        batch_metas: list[dict] = []
-
-        chunk_count_this_pdf = 0
+        # Calcule les chunks une seule fois, puis upsert pour chaque sujet.
+        chunks_per_page: list[tuple[int, list[str]]] = []
         for page_num, page_text in pages:
-            chunks = split_text(page_text)
-            for j, chunk in enumerate(chunks):
-                cid = chunk_id(subject, pdf_path, page_num, j)
-                batch_ids.append(cid)
-                batch_docs.append(chunk)
+            chunks_per_page.append((page_num, split_text(page_text)))
+
+        total_chunks_this_pdf = sum(len(c) for _, c in chunks_per_page)
+        if total_chunks_this_pdf == 0:
+            continue
+
+        if args.dry_run:
+            log.info(
+                "[dry-run] %s → %d chunks × %d sujet(s) (%s)",
+                pdf_path.name,
+                total_chunks_this_pdf,
+                len(subjects_matched),
+                ",".join(subjects_matched),
+            )
+            for s in subjects_matched:
+                by_subject[s] += total_chunks_this_pdf
+            total_chunks_added += total_chunks_this_pdf * len(subjects_matched)
+            continue
+
+        log.info(
+            "Indexing %s → %d chunks × %s",
+            pdf_path.name,
+            total_chunks_this_pdf,
+            ",".join(subjects_matched),
+        )
+
+        # Embedding une seule fois (les chunks ne dépendent pas du sujet),
+        # puis upsert avec un ID + metadata différents par sujet.
+        flat_docs: list[str] = []
+        flat_meta_keys: list[tuple[int, int]] = []  # (page_num, chunk_idx)
+        for page_num, page_chunks in chunks_per_page:
+            for j, chunk in enumerate(page_chunks):
+                flat_docs.append(chunk)
+                flat_meta_keys.append((page_num, j))
+
+        all_embeddings: list[list[float]] = []
+        for k in range(0, len(flat_docs), EMBED_BATCH):
+            sub = flat_docs[k : k + EMBED_BATCH]
+            all_embeddings.extend(embed_batch(client, sub))
+
+        for subject in subjects_matched:
+            batch_ids: list[str] = []
+            batch_metas: list[dict] = []
+            for (page_num, j) in flat_meta_keys:
+                batch_ids.append(chunk_id(subject, pdf_path, page_num, j))
                 batch_metas.append(
                     {
                         "subject": subject,
@@ -206,35 +246,14 @@ def main() -> int:
                         "fingerprint": pdf_key,
                     }
                 )
-                chunk_count_this_pdf += 1
-
-        if not batch_docs:
-            continue
-
-        if args.dry_run:
-            log.info("[dry-run] %s → %d chunks (%s)", pdf_path.name, len(batch_docs), subject)
-            total_chunks_added += len(batch_docs)
-            by_subject[subject] += len(batch_docs)
-            continue
-
-        log.info(
-            "Indexing %s → %d chunks (%s)", pdf_path.name, len(batch_docs), subject
-        )
-        # Embeddings par mini-batchs
-        all_embeddings: list[list[float]] = []
-        for k in range(0, len(batch_docs), EMBED_BATCH):
-            sub = batch_docs[k : k + EMBED_BATCH]
-            all_embeddings.extend(embed_batch(client, sub))
-
-        # Upsert atomique pour ce PDF
-        coll.upsert(
-            ids=batch_ids,
-            documents=batch_docs,
-            metadatas=batch_metas,
-            embeddings=all_embeddings,
-        )
-        total_chunks_added += chunk_count_this_pdf
-        by_subject[subject] += chunk_count_this_pdf
+            coll.upsert(
+                ids=batch_ids,
+                documents=flat_docs,
+                metadatas=batch_metas,
+                embeddings=all_embeddings,
+            )
+            by_subject[subject] += total_chunks_this_pdf
+            total_chunks_added += total_chunks_this_pdf
 
     log.info("─" * 60)
     log.info("PDFs scannés        : %d", total_pdfs)

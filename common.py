@@ -10,28 +10,49 @@ from typing import Iterator, Optional
 # Sujets correspondent aux IDs côté Débloque-moi (src/lib/subjects.ts).
 SUBJECTS = ("math", "physique", "chimie", "svt")
 
+# Mots-clés (en minuscules, fautes de frappe et variantes courantes inclus)
+# associés à chaque matière. La classification matche n'importe lequel.
+SUBJECT_KEYWORDS = {
+    "math": ["math", "algebre", "algébre", "analyse", "arithmétique", "geometrie", "géométrie"],
+    "physique": ["physique", "phisique", "physics", "mécanique", "electromagnetisme"],
+    "chimie": ["chimie", "chemistry"],
+    "svt": [
+        "sciences naturelles",
+        "science naturelle",
+        "sciences naturelle",  # variantes orthographiques
+        "science naturelles",
+        "svt",
+        "biologie",
+        "bac d sn",
+        " sn ",  # « Bac C ... SN corr.pdf »
+        "/sn/",
+    ],
+}
 
-def classify_pdf(path: Path) -> Optional[str]:
-    """Retourne le subject_id ('math', 'physique', 'chimie', 'svt') déduit du
-    chemin du PDF dans drive_archive, ou None si non pertinent.
 
-    Les chemins typiques :
-      drive_archive/Matieres de Base/Math/...                -> math
-      drive_archive/Matieres de Base/Physique & Chimie/Physics/... -> physique
-      drive_archive/Matieres de Base/Physique & Chimie/Chimie/...  -> chimie
-      drive_archive/Matieres de Base/Sciences Naturelles/... -> svt
-      drive_archive/Olympiades/Math/...                      -> math
+def classify_pdf(path: Path) -> list[str]:
+    """Retourne la liste des subject_id ('math', 'physique', 'chimie', 'svt')
+    auxquels ce PDF s'applique.
+
+    - Retourne une liste vide si le PDF n'est pas pertinent.
+    - Retourne plusieurs sujets pour un PDF qui en couvre plusieurs (ex :
+      « Bac C PC corrigé.pdf » → ['physique', 'chimie']).
+    - Tolère les fautes de frappe (« phisique ») et les variantes
+      orthographiques (« Science naturelle »).
     """
     s = str(path).lower()
-    if "sciences naturelles" in s:
-        return "svt"
-    if "/chimie/" in s or "\\chimie\\" in s:
-        return "chimie"
-    if "physics" in s or "physique" in s:
-        return "physique"
-    if "/math/" in s or "\\math\\" in s or s.endswith(".math.pdf"):
-        return "math"
-    return None
+    matched: list[str] = []
+    for subject, keywords in SUBJECT_KEYWORDS.items():
+        if any(kw in s for kw in keywords):
+            matched.append(subject)
+    # Heuristique : si "pc" apparaît dans le nom de fichier comme abréviation
+    # de « Physique & Chimie » → ajouter les deux.
+    name = path.name.lower()
+    if " pc " in f" {name} " or name.startswith("pc "):
+        for s_id in ("physique", "chimie"):
+            if s_id not in matched:
+                matched.append(s_id)
+    return matched
 
 
 # Séparateurs utilisés en cascade par le chunker (le plus structurant d'abord).
