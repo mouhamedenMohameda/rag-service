@@ -34,6 +34,32 @@ log = logging.getLogger("rag-admin")
 _lock = threading.RLock()
 
 
+# Ordre canonique de tri chronologique pour l'admin :
+#   1) Année DESC (plus récente d'abord)
+#   2) Session : normale (0) avant complémentaire (1)
+#   3) Matière : physique et chimie ensemble (PDF unique), puis math, puis svt
+#   4) Numéro d'exercice ASC
+_SESSION_ORDER = {"normale": 0, "complementaire": 1, "complémentaire": 1}
+_MAT_ORDER = {"physique": 0, "chimie": 1, "math": 2, "svt": 3}
+
+
+def _chronological_key(e: dict) -> tuple:
+    try:
+        annee = int(e.get("annee") or 0)
+    except (TypeError, ValueError):
+        annee = 0
+    sess = str(e.get("session") or "").strip().lower()
+    sess_rank = _SESSION_ORDER.get(sess, 9)
+    mat_rank = _MAT_ORDER.get(e.get("matiere_id", ""), 9)
+    raw = e.get("exercice_numero")
+    try:
+        ex_num = int(raw)
+    except (TypeError, ValueError):
+        # Si c'est un string non-numérique (ex. "BAC-2022-..."), on met à la fin.
+        ex_num = 999
+    return (-annee, sess_rank, mat_rank, ex_num)
+
+
 # ─── Store ──────────────────────────────────────────────────────────────────
 
 
@@ -122,16 +148,19 @@ def build_admin_router(store: AdminStore, api_key: str) -> APIRouter:
     @router.get("/exercises", dependencies=[Depends(require_admin)])
     def list_exercises(
         matiere: Optional[str] = Query(None, description="math|physique|chimie|svt"),
+        filiere: Optional[str] = Query(None, description="C|D|TM|M"),
         annee: Optional[int] = Query(None),
         validated: Optional[bool] = Query(None),
         q: Optional[str] = Query(None, description="recherche texte libre"),
-        sort: str = Query("unvalidated_first", description="unvalidated_first|id"),
+        sort: str = Query("chronological", description="chronological|unvalidated_first|id"),
         limit: int = Query(50, ge=1, le=500),
         offset: int = Query(0, ge=0),
     ) -> dict[str, Any]:
         data = store.load()
         if matiere:
             data = [e for e in data if e.get("matiere_id") == matiere]
+        if filiere:
+            data = [e for e in data if e.get("filiere_id") == filiere]
         if annee:
             data = [e for e in data if e.get("annee") == annee]
         if validated is not None:
@@ -146,9 +175,12 @@ def build_admin_router(store: AdminStore, api_key: str) -> APIRouter:
                 or ql in (e.get("fichier") or "").lower()
             ]
         if sort == "unvalidated_first":
-            data.sort(key=lambda e: (bool(e.get("validated_by_admin")), e.get("id", "")))
-        else:
+            data.sort(key=lambda e: (bool(e.get("validated_by_admin")), _chronological_key(e)))
+        elif sort == "id":
             data.sort(key=lambda e: e.get("id", ""))
+        else:  # chronological (défaut) : année récente d'abord, normale avant
+               # complémentaire, physique+chimie ensemble, puis ex_num.
+            data.sort(key=_chronological_key)
         total = len(data)
         # Pour la liste on renvoie un payload allégé (pas l'énoncé complet) pour
         # éviter de charger 81×1ko à chaque rafraîchissement du tableau.
@@ -201,15 +233,24 @@ def build_admin_router(store: AdminStore, api_key: str) -> APIRouter:
         eid: str,
         only_unvalidated: bool = Query(False),
         matiere: Optional[str] = Query(None),
+        filiere: Optional[str] = Query(None),
     ) -> dict:
         """Renvoie l'id précédent et suivant dans la liste filtrée. Permet à
-        l'UI de naviguer "exo suivant à corriger" sans recharger la liste."""
+        l'UI de naviguer "exo suivant à corriger" sans recharger la liste.
+
+        Même ordre que la liste : chronologique par défaut, mais on garde
+        l'option "non validés en premier" via flag.
+        """
         data = store.load()
         if matiere:
             data = [e for e in data if e.get("matiere_id") == matiere]
+        if filiere:
+            data = [e for e in data if e.get("filiere_id") == filiere]
         if only_unvalidated:
             data = [e for e in data if not e.get("validated_by_admin")]
-        data.sort(key=lambda e: (bool(e.get("validated_by_admin")), e.get("id", "")))
+        # Tri identique à la liste pour cohérence prev/next
+        data.sort(key=lambda e: (bool(e.get("validated_by_admin")), _chronological_key(e))
+                  if only_unvalidated else _chronological_key(e))
         ids = [e.get("id") for e in data]
         if eid not in ids:
             return {"prev": None, "next": None, "position": None, "total": len(ids)}
