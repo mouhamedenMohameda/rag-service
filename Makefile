@@ -1,6 +1,8 @@
 .PHONY: eval eval-quiet ingest serve health
 
-PYTHON ?= python3
+# Préfère le Python du venv s'il existe (déploiement prod), sinon python3 système.
+VENV_PY := $(wildcard .venv/bin/python)
+PYTHON ?= $(if $(VENV_PY),$(VENV_PY),python3)
 RAG_URL ?= http://127.0.0.1:8001
 
 # ─── Eval ────────────────────────────────────────────────────────────────
