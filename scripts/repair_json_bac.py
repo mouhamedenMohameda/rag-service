@@ -210,20 +210,17 @@ def detect_matiere(matiere: str) -> str:
 
 
 def detect_filiere(filiere: str) -> str:
+    """Mauritanie 2026 — seulement 2 filières scientifiques :
+    - C : math / math-tech / "C" / "M" / "TM" — toutes variantes historiques
+    - D : SVT / Sciences Naturelles
+    """
     if not filiere:
-        return "autre"
+        return "C"  # défaut prudent (la majorité du corpus est C)
     s = unicodedata.normalize("NFC", filiere).upper()
-    if re.search(r"\bT\.?M\.?G\.?M\.?\b", s) or re.search(r"\bT\.?M\.?\b", s):
-        return "TM"
-    if re.search(r"\bS[EÉ]RIE\s+C\b", s) or "BAC C" in s:
-        return "C"
     if re.search(r"\bS[EÉ]RIE\s+D\b", s) or "BAC D" in s:
         return "D"
-    if re.search(r"\bS[EÉ]RIE\s+M\b", s):
-        return "M"
-    if "MATH" in s:
-        return "M"  # défaut prudent
-    return "autre"
+    # Tous les autres (M, TM, TMGM, C, MA, math, …) → C
+    return "C"
 
 
 def make_id(mat: str, annee, session: str, ex_num) -> str:

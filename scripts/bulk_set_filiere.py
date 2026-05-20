@@ -33,8 +33,6 @@ BACKUP_DIR = ROOT / "json_backups"
 FILIERE_LABEL = {
     "C": "Série C",
     "D": "Série D",
-    "TM": "Série TM",
-    "M": "Série M",
 }
 
 

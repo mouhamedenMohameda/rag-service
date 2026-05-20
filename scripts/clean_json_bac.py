@@ -79,30 +79,17 @@ def detect_matiere(matiere: str) -> str:
 
 # Mapping filière verbose → filiere_id
 def detect_filiere(filiere: str) -> str:
-    """Renvoie C|D|TM|M depuis la chaîne verbose.
+    """Mauritanie 2026 — 2 filières scientifiques effectives.
 
-    Conventions Bac mauritanien :
-    - C  = scientifique math forte
-    - D  = scientifique math allégée
-    - TM = Technique Math
-    - M  = Math
+    - C : toutes les variantes math/scientifiques (C, M, TM, TMGM, MA)
+    - D : SVT
     """
     if not filiere:
-        return "autre"
-    s = unicodedata.normalize("NFC", filiere).upper()
-    # Heuristique : on cherche les signaux les plus spécifiques d'abord
-    if re.search(r"\bT\.?M\.?G\.?M\.?\b", s) or re.search(r"\bT\.?M\.?\b", s):
-        return "TM"
-    if re.search(r"\bS[EÉ]RIE\s+C\b", s) or re.search(r"\bBAC\s*C\b", s):
         return "C"
+    s = unicodedata.normalize("NFC", filiere).upper()
     if re.search(r"\bS[EÉ]RIE\s+D\b", s) or re.search(r"\bBAC\s*D\b", s):
         return "D"
-    if re.search(r"\bS[EÉ]RIE\s+M\b", s):
-        return "M"
-    if re.search(r"MATH[EÉ]MATIQUES", s):
-        # "Série Mathématiques" sans précision → M par défaut
-        return "M"
-    return "autre"
+    return "C"
 
 
 def make_id(matiere_id: str, annee, session: str, ex_num) -> str:
