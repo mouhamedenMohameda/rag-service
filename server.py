@@ -7,8 +7,10 @@ public — il est appelé depuis le backend Débloque-moi (ou autre app interne)
 
 from __future__ import annotations
 
+import json
 import logging
 import os
+import time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
@@ -29,6 +31,16 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("rag-server")
+
+# Logger dédié aux traces de recherche : une ligne JSON par requête /search,
+# pour pouvoir auditer en prod ce que le RAG ramène (préparation Phase 4).
+trace_log = logging.getLogger("rag-trace")
+trace_log.propagate = False
+if not trace_log.handlers:
+    _h = logging.StreamHandler()
+    _h.setFormatter(logging.Formatter("%(message)s"))
+    trace_log.addHandler(_h)
+    trace_log.setLevel(logging.INFO)
 
 EMBED_MODEL = "text-embedding-3-small"
 
@@ -117,6 +129,8 @@ def search(body: SearchBody) -> SearchResponse:
     if state.coll.count() == 0:
         return SearchResponse(chunks=[], subject=body.subject, query=body.query)
 
+    t0 = time.perf_counter()
+
     # Embedding de la requête
     try:
         emb_resp = state.openai.embeddings.create(model=EMBED_MODEL, input=[body.query])
@@ -153,6 +167,18 @@ def search(body: SearchBody) -> SearchResponse:
                 score=round(score, 4),
             )
         )
+
+    latency_ms = (time.perf_counter() - t0) * 1000
+    trace_log.info(json.dumps({
+        "evt": "search",
+        "subject": body.subject,
+        "query_len": len(body.query),
+        "top_k": body.top_k,
+        "returned": len(chunks),
+        "top_score": chunks[0].score if chunks else None,
+        "sources": [c.source for c in chunks],
+        "latency_ms": round(latency_ms, 1),
+    }, ensure_ascii=False))
 
     return SearchResponse(chunks=chunks, subject=body.subject, query=body.query)
 
