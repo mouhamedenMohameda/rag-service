@@ -21,6 +21,7 @@ from fastapi import Depends, FastAPI, Header, HTTPException
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
+from admin_api import AdminStore, build_admin_router
 from common import SUBJECTS, get_env
 from retrieval import BM25Index, rrf_fuse
 
@@ -106,6 +107,14 @@ async def lifespan(_app: FastAPI):
             state.bm25 = None
     else:
         log.info("BM25 désactivé (RAG_USE_BM25=false ou corpus vide)")
+
+    # Admin API — édition manuelle du JSON Bac
+    json_path = Path(os.environ.get("RAG_JSON_BAC", "json_bac.json")).resolve()
+    backup_dir = json_path.parent / "json_backups"
+    store = AdminStore(json_path=json_path, backup_dir=backup_dir)
+    admin_router = build_admin_router(store, api_key=state.api_key)
+    _app.include_router(admin_router)
+    log.info("Admin API mountée sur /admin (JSON: %s)", json_path)
     yield
 
 
