@@ -53,6 +53,7 @@ class State:
     chroma: Optional[chromadb.PersistentClient] = None
     coll = None
     api_key: str = ""
+    min_score: float = 0.55
 
 
 state = State()
@@ -70,6 +71,9 @@ async def lifespan(_app: FastAPI):
         name="bac_corpus",
         metadata={"hnsw:space": "cosine"},
     )
+    # Seuil de confiance configurable (Phase 1). En dessous, la réponse est
+    # marquée low_confidence=true. Défaut prudent : 0.55 (cosine similarity).
+    state.min_score = float(os.environ.get("RAG_MIN_SCORE", "0.55"))
     log.info(
         "RAG ready — collection bac_corpus contient %d chunks", state.coll.count()
     )
@@ -107,6 +111,11 @@ class SearchResponse(BaseModel):
     chunks: list[Chunk]
     subject: str
     query: str
+    # Phase 1 — anti-hallucination : true si aucun chunk n'a un score >=
+    # RAG_MIN_SCORE. Le client peut afficher un avertissement à l'élève et/ou
+    # adapter le prompt (« raisonne sans corrigé proche »).
+    low_confidence: bool
+    min_score_threshold: float
 
 
 # ─── Routes ─────────────────────────────────────────────────────────────────
@@ -127,7 +136,13 @@ def search(body: SearchBody) -> SearchResponse:
     if state.coll is None or state.openai is None:
         raise HTTPException(status_code=503, detail="Service non initialisé.")
     if state.coll.count() == 0:
-        return SearchResponse(chunks=[], subject=body.subject, query=body.query)
+        return SearchResponse(
+            chunks=[],
+            subject=body.subject,
+            query=body.query,
+            low_confidence=True,
+            min_score_threshold=state.min_score,
+        )
 
     t0 = time.perf_counter()
 
@@ -169,18 +184,29 @@ def search(body: SearchBody) -> SearchResponse:
         )
 
     latency_ms = (time.perf_counter() - t0) * 1000
+    top_score = chunks[0].score if chunks else None
+    low_confidence = (not chunks) or (top_score is not None and top_score < state.min_score)
+
     trace_log.info(json.dumps({
         "evt": "search",
         "subject": body.subject,
         "query_len": len(body.query),
         "top_k": body.top_k,
         "returned": len(chunks),
-        "top_score": chunks[0].score if chunks else None,
+        "top_score": top_score,
+        "min_score": state.min_score,
+        "low_confidence": low_confidence,
         "sources": [c.source for c in chunks],
         "latency_ms": round(latency_ms, 1),
     }, ensure_ascii=False))
 
-    return SearchResponse(chunks=chunks, subject=body.subject, query=body.query)
+    return SearchResponse(
+        chunks=chunks,
+        subject=body.subject,
+        query=body.query,
+        low_confidence=low_confidence,
+        min_score_threshold=state.min_score,
+    )
 
 
 if __name__ == "__main__":

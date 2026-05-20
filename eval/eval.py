@@ -70,9 +70,9 @@ def first_match_rank(expected: list[str], chunks: list[dict[str, Any]]) -> int:
 
 def call_search(
     base_url: str, api_key: str, subject: str, query: str, top_k: int, timeout: float
-) -> tuple[list[dict[str, Any]], float]:
-    """Appelle POST /search. Retourne (chunks, latency_ms).
-    Lève RuntimeError sur erreur HTTP."""
+) -> tuple[dict[str, Any], float]:
+    """Appelle POST /search. Retourne (data, latency_ms) où data contient
+    chunks, low_confidence, min_score_threshold. Lève RuntimeError sur HTTP."""
     t0 = time.perf_counter()
     r = httpx.post(
         f"{base_url.rstrip('/')}/search",
@@ -83,8 +83,7 @@ def call_search(
     latency_ms = (time.perf_counter() - t0) * 1000
     if r.status_code >= 400:
         raise RuntimeError(f"/search HTTP {r.status_code}: {r.text[:300]}")
-    data = r.json()
-    return data.get("chunks", []), latency_ms
+    return r.json(), latency_ms
 
 
 # ─── Rapport ────────────────────────────────────────────────────────────────
@@ -115,24 +114,38 @@ def render_report(results: list[dict[str, Any]], top_k: int) -> str:
     p95 = percentile(lats, 0.95)
     mean_lat = statistics.mean(lats) if lats else 0.0
 
+    # Phase 1 — confiance retrieval
+    scores = [r["top_score"] for r in results if r.get("top_score") is not None]
+    mean_top_score = statistics.mean(scores) if scores else 0.0
+    low_conf = sum(1 for r in results if r.get("low_confidence"))
+    low_conf_rate = low_conf / n if n else 0.0
+    threshold = next((r["min_score"] for r in results if r.get("min_score") is not None), None)
+
     lines = [
         f"# Eval RAG — {datetime.now().isoformat(timespec='seconds')}",
         "",
         f"- Cas évalués : **{n}**",
         f"- Recall@{top_k} : **{recall:.0%}** ({hits}/{n})",
         f"- MRR : **{mrr:.3f}**",
+        f"- Top score moyen : **{mean_top_score:.3f}**"
+        + (f" (seuil low_confidence = {threshold:.2f})" if threshold is not None else ""),
+        f"- Taux low_confidence : **{low_conf_rate:.0%}** ({low_conf}/{n})",
         f"- Latence : moyenne {mean_lat:.0f} ms · p50 {p50:.0f} ms · p95 {p95:.0f} ms",
         "",
         "## Détail par cas",
         "",
-        "| ID | Subject | Rank | Latence (ms) | Top source |",
-        "|---|---|---|---|---|",
+        "| ID | Subject | Rank | Top score | Low conf. | Latence (ms) | Top source |",
+        "|---|---|---|---|---|---|---|",
     ]
     for r in results:
         rank_str = str(r["rank"]) if r["rank"] > 0 else "—"
         top_src = r["top_source"] or "(rien)"
         lat = f"{r['latency_ms']:.0f}" if r["latency_ms"] is not None else "ERR"
-        lines.append(f"| {r['id']} | {r['subject']} | {rank_str} | {lat} | {top_src} |")
+        ts = f"{r['top_score']:.3f}" if r.get("top_score") is not None else "—"
+        lc = "⚠️" if r.get("low_confidence") else "ok"
+        lines.append(
+            f"| {r['id']} | {r['subject']} | {rank_str} | {ts} | {lc} | {lat} | {top_src} |"
+        )
 
     errs = [r for r in results if r.get("error")]
     if errs:
@@ -188,19 +201,27 @@ def main() -> int:
             })
             continue
         try:
-            chunks, lat = call_search(
+            data, lat = call_search(
                 args.rag_url, api_key, subject, query, args.top_k, args.timeout
             )
+            chunks = data.get("chunks", [])
             rank = first_match_rank(expected, chunks)
             top_src = str(chunks[0].get("source")) if chunks else None
+            top_score = float(chunks[0].get("score")) if chunks else None
             results.append({
                 "id": cid, "subject": subject, "rank": rank,
-                "latency_ms": lat, "top_source": top_src, "error": None,
+                "latency_ms": lat, "top_source": top_src,
+                "top_score": top_score,
+                "low_confidence": bool(data.get("low_confidence", False)),
+                "min_score": data.get("min_score_threshold"),
+                "error": None,
             })
         except Exception as e:
             results.append({
                 "id": cid, "subject": subject, "rank": 0, "latency_ms": None,
-                "top_source": None, "error": str(e),
+                "top_source": None, "top_score": None,
+                "low_confidence": True, "min_score": None,
+                "error": str(e),
             })
 
     report = render_report(results, args.top_k)
