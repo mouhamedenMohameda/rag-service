@@ -1,4 +1,4 @@
-.PHONY: eval eval-quiet ingest serve health
+.PHONY: eval eval-quiet ingest serve health install
 
 # Préfère le Python du venv s'il existe (déploiement prod), sinon python3 système.
 VENV_PY := $(wildcard .venv/bin/python)
@@ -16,6 +16,9 @@ eval-quiet:
 	$(PYTHON) eval/eval.py --rag-url $(RAG_URL) --quiet
 
 # ─── Service ─────────────────────────────────────────────────────────────
+
+install:
+	$(PYTHON) -m pip install -r requirements.txt
 
 serve:
 	$(PYTHON) server.py

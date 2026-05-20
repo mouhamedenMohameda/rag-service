@@ -47,3 +47,26 @@ Une ligne JSON par cas de test :
 2. Identifier le(s) PDF(s) qui devraient ressortir → `expected_sources`.
 3. Ajouter une ligne dans `gold.jsonl`.
 4. `make eval` pour vérifier que ça tourne.
+
+## A/B test baseline vs hybrid (Phase 2)
+
+Pour comparer le mode embeddings-only au mode hybride BM25+embeddings, bascule
+via le `.env` puis redémarre le service :
+
+```bash
+# Baseline (embeddings seuls)
+sed -i 's/^RAG_USE_BM25=.*/RAG_USE_BM25=false/' /opt/rag-service/.env || \
+  echo 'RAG_USE_BM25=false' >> /opt/rag-service/.env
+systemctl restart rag-service && sleep 3
+make health   # vérifier "mode": "embeddings"
+make eval     # rapport sauvé dans eval/runs/<timestamp>.md
+
+# Hybride
+sed -i 's/^RAG_USE_BM25=.*/RAG_USE_BM25=true/' /opt/rag-service/.env
+systemctl restart rag-service && sleep 3
+make health   # vérifier "mode": "hybrid"
+make eval
+```
+
+Compare ensuite les deux rapports dans `eval/runs/`. Recall@5, MRR et latence
+sont chiffrés ; le delta te dit si la fusion RRF aide.

@@ -22,6 +22,7 @@ from openai import OpenAI
 from pydantic import BaseModel, Field
 
 from common import SUBJECTS, get_env
+from retrieval import BM25Index, rrf_fuse
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 
@@ -54,6 +55,10 @@ class State:
     coll = None
     api_key: str = ""
     min_score: float = 0.55
+    # Phase 2 — hybride
+    bm25: Optional[BM25Index] = None
+    use_bm25: bool = True
+    hybrid_pool: int = 20
 
 
 state = State()
@@ -74,9 +79,33 @@ async def lifespan(_app: FastAPI):
     # Seuil de confiance configurable (Phase 1). En dessous, la réponse est
     # marquée low_confidence=true. Défaut prudent : 0.55 (cosine similarity).
     state.min_score = float(os.environ.get("RAG_MIN_SCORE", "0.55"))
-    log.info(
-        "RAG ready — collection bac_corpus contient %d chunks", state.coll.count()
-    )
+
+    # Phase 2 — hybride. RAG_USE_BM25=false pour A/B test / fallback rapide.
+    state.use_bm25 = os.environ.get("RAG_USE_BM25", "true").lower() in ("1", "true", "yes")
+    state.hybrid_pool = int(os.environ.get("RAG_HYBRID_POOL", "20"))
+
+    n = state.coll.count()
+    log.info("RAG ready — collection bac_corpus contient %d chunks", n)
+
+    if state.use_bm25 and n > 0:
+        try:
+            log.info("BM25 : construction de l'index lexical depuis Chroma…")
+            existing = state.coll.get(include=["documents", "metadatas"])
+            items = list(zip(
+                existing.get("ids") or [],
+                existing.get("documents") or [],
+                existing.get("metadatas") or [],
+            ))
+            bm25 = BM25Index()
+            bm25.build_from_chroma(items)
+            state.bm25 = bm25
+        except Exception as e:
+            # On dégrade gracieusement vers embeddings-only plutôt que de
+            # bloquer le service entier.
+            log.error("BM25 indexation échouée, fallback embeddings-only : %s", e)
+            state.bm25 = None
+    else:
+        log.info("BM25 désactivé (RAG_USE_BM25=false ou corpus vide)")
     yield
 
 
@@ -126,6 +155,12 @@ def health() -> dict:
     return {
         "ok": True,
         "chunks": state.coll.count() if state.coll else 0,
+        # Phase 2 — visibilité opérationnelle
+        "mode": "hybrid" if (state.use_bm25 and state.bm25) else "embeddings",
+        "bm25_chunks": state.bm25.total_chunks() if state.bm25 else 0,
+        "bm25_subjects": state.bm25.subjects if state.bm25 else [],
+        "min_score_threshold": state.min_score,
+        "hybrid_pool": state.hybrid_pool,
     }
 
 
@@ -146,7 +181,13 @@ def search(body: SearchBody) -> SearchResponse:
 
     t0 = time.perf_counter()
 
-    # Embedding de la requête
+    # Taille du pool à récupérer côté Chroma. En mode hybride, on en prend plus
+    # que ``top_k`` pour donner à RRF un vrai espace de fusion. En mode pur
+    # embeddings, on prend juste ``top_k``.
+    bm25_active = state.use_bm25 and state.bm25 is not None
+    chroma_pool = state.hybrid_pool if bm25_active else body.top_k
+
+    # ─── 1. Embedding de la requête ────────────────────────────────────────
     try:
         emb_resp = state.openai.embeddings.create(model=EMBED_MODEL, input=[body.query])
     except Exception as e:
@@ -154,11 +195,11 @@ def search(body: SearchBody) -> SearchResponse:
         raise HTTPException(status_code=502, detail="Erreur embedding OpenAI.")
     qvec = emb_resp.data[0].embedding
 
-    # Recherche dans Chroma, filtrée par subject
+    # ─── 2. Recherche vectorielle (embeddings) ─────────────────────────────
     try:
         res = state.coll.query(
             query_embeddings=[qvec],
-            n_results=body.top_k,
+            n_results=chroma_pool,
             where={"subject": body.subject},
             include=["documents", "metadatas", "distances"],
         )
@@ -166,37 +207,90 @@ def search(body: SearchBody) -> SearchResponse:
         log.error("Chroma query failed : %s", e)
         raise HTTPException(status_code=502, detail="Erreur recherche vectorielle.")
 
+    emb_ids: list[str] = (res.get("ids") or [[]])[0]
+    emb_docs: list[str] = (res.get("documents") or [[]])[0]
+    emb_metas: list[dict] = (res.get("metadatas") or [[]])[0]
+    emb_dists: list[float] = (res.get("distances") or [[]])[0]
+
+    # Lookup id → (doc, meta, cosine_score) pour pouvoir reconstruire les
+    # chunks après fusion RRF dans n'importe quel ordre.
+    pool: dict[str, dict] = {}
+    for cid, doc, meta, dist in zip(emb_ids, emb_docs, emb_metas, emb_dists):
+        cosine = max(0.0, 1.0 - float(dist) / 2.0)
+        pool[cid] = {"doc": doc, "meta": meta, "score": cosine}
+
+    # ─── 3. Recherche lexicale (BM25) si activée ───────────────────────────
+    bm25_ids: list[str] = []
+    bm25_scores: dict[str, float] = {}
+    if bm25_active:
+        bm25_hits = state.bm25.search(body.subject, body.query, top_k=state.hybrid_pool)
+        bm25_ids = [cid for cid, _ in bm25_hits]
+        bm25_scores = dict(bm25_hits)
+
+        # Pour les hits BM25 absents du pool embeddings, on récupère leur
+        # texte/meta depuis Chroma (par batch, 1 seul appel).
+        missing = [cid for cid in bm25_ids if cid not in pool]
+        if missing:
+            try:
+                got = state.coll.get(ids=missing, include=["documents", "metadatas"])
+                for cid, doc, meta in zip(
+                    got.get("ids") or [],
+                    got.get("documents") or [],
+                    got.get("metadatas") or [],
+                ):
+                    # Score cosine inconnu pour ces hits (Chroma ne les a pas
+                    # ressortis dans son top). On met 0 — ils ne compteront
+                    # pas dans low_confidence sauf si reranke en tête.
+                    pool[cid] = {"doc": doc, "meta": meta, "score": 0.0}
+            except Exception as e:
+                log.warning("BM25 hits missing fetch a échoué : %s", e)
+
+    # ─── 4. Fusion RRF ──────────────────────────────────────────────────────
+    if bm25_active and bm25_ids:
+        fused = rrf_fuse([emb_ids, bm25_ids])
+        ranked_ids = [cid for cid, _ in fused if cid in pool][: body.top_k]
+    else:
+        ranked_ids = emb_ids[: body.top_k]
+
     chunks: list[Chunk] = []
-    docs = (res.get("documents") or [[]])[0]
-    metas = (res.get("metadatas") or [[]])[0]
-    dists = (res.get("distances") or [[]])[0]
-    for doc, meta, dist in zip(docs, metas, dists):
-        # Chroma cosine renvoie une distance ∈ [0, 2]. Convertit en score [0, 1]
-        # similarité : 1 - dist/2.
-        score = max(0.0, 1.0 - float(dist) / 2.0)
+    for cid in ranked_ids:
+        entry = pool.get(cid)
+        if not entry:
+            continue
+        meta = entry["meta"] or {}
         chunks.append(
             Chunk(
-                text=doc,
+                text=entry["doc"],
                 source=str(meta.get("source", "?")),
                 page=int(meta.get("page", 0)),
-                score=round(score, 4),
+                score=round(float(entry["score"]), 4),
             )
         )
 
     latency_ms = (time.perf_counter() - t0) * 1000
-    top_score = chunks[0].score if chunks else None
-    low_confidence = (not chunks) or (top_score is not None and top_score < state.min_score)
+
+    # low_confidence : on regarde le meilleur cosine parmi les chunks renvoyés
+    # (le top peut être un hit BM25-only avec cosine=0, donc max plutôt que [0]).
+    cosines = [c.score for c in chunks if c.score > 0]
+    best_cosine = max(cosines) if cosines else None
+    low_confidence = best_cosine is None or best_cosine < state.min_score
 
     trace_log.info(json.dumps({
         "evt": "search",
+        "mode": "hybrid" if bm25_active else "embeddings",
         "subject": body.subject,
         "query_len": len(body.query),
         "top_k": body.top_k,
+        "pool": chroma_pool,
         "returned": len(chunks),
-        "top_score": top_score,
+        "top_score": chunks[0].score if chunks else None,
+        "best_cosine": best_cosine,
         "min_score": state.min_score,
         "low_confidence": low_confidence,
         "sources": [c.source for c in chunks],
+        "bm25_overlap": (
+            len(set(bm25_ids) & set(emb_ids)) if bm25_active and bm25_ids else None
+        ),
         "latency_ms": round(latency_ms, 1),
     }, ensure_ascii=False))
 
