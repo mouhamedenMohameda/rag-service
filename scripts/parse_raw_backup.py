@@ -80,8 +80,26 @@ EXO_PATTERNS = [
     # `Exercice (Xpts)` sans numéro
     re.compile(r"(?P<full>Exercice\s*\([^)]+\))", re.IGNORECASE),
     # `<Titre>: (Xpts)` — titre court suivi de deux-points + parenthèses
-    # ex "Reproduction: (7pts)", "Physiologie nerveuse: (6pts)"
     re.compile(r"(?P<full>(?<=\n)[A-ZÉÈ][A-Za-zÉÈéèàâêîôûç\s']{3,40}\s*:\s*\([^)]+\))"),
+    # `<Titre> (Xpts)` SANS deux-points — pour les vieux formats Bac D SN
+    # Doit être en début de ligne OU après "Sujet X/Premier sujet"
+    # Le titre est un mot connu (whitelist) pour éviter les faux positifs
+    re.compile(
+        r"(?P<full>"
+        r"(?:Reproduction|Muscle|G[ée]n[ée]tique|Physiologie(?:\s+\w+)?|"
+        r"Activit[ée]\s+\w+|Calc[ée]mie|Immunit[ée]|Hormones?(?:\s+\w+)?|"
+        r"Glyc[ée]mie|Transmission\s+\w+|Humaine|Nerveuse|G[ée]nie\s+g[ée]n[ée]tique|"
+        r"Divisions?\s+cellulaires?|Cellule|Embryologie|"
+        r"Syst[èe]me\s+\w+|R[ée]flexe|H[ée]r[ée]dit[ée]|Communication\s+\w+)"
+        r"\s*\(\s*[\d&]+\s*(?:pts?|points?)\b[^)]*\))",
+        re.IGNORECASE,
+    ),
+    # `Sujet I/II/III`, `Premier sujet`, `Deuxième sujet`
+    re.compile(
+        r"(?P<full>(?:Sujet\s+[IVX]+|Premier\s+[Ss]ujet|"
+        r"Deuxi[èe]me\s+[Ss]ujet|Troisi[èe]me\s+[Ss]ujet))(?=\s|\n)",
+        re.IGNORECASE,
+    ),
 ]
 
 
