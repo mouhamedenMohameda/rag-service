@@ -1,0 +1,585 @@
+{
+  "bac-c-2001-sc-math-ex3": [
+    "Exercice de mathématiques — analyse de l'énoncé",
+    "Résolution d'exercice — méthode structurée",
+    "Rédaction de solution — justification des étapes",
+    "Vérification de résultat — cohérence numérique"
+  ],
+  "bac-c-2012-sn-math-ex5": [
+    "Triangle équilatéral — milieux de côtés et symétrie",
+    "Rotation — identification par images de deux points",
+    "Rotation — angle et centre caractéristiques",
+    "Translation — composition avec une rotation",
+    "Symétries axiales — décomposition en symétries glissantes",
+    "Similitude directe — rapport et angle",
+    "Similitude — centre sur cercles circonscrits",
+    "Itérées de similitude — suite de points et somme de longueurs"
+  ],
+  "bac-c-2013-sn-math-ex1": [
+    "Équation diophantienne linéaire — algorithme d'Euclide",
+    "Équation diophantienne — solution particulière et ensemble des solutions",
+    "PGCD de deux entiers — valeurs possibles dans une solution",
+    "Nombres premiers entre eux — restriction sur les solutions",
+    "Congruences — caractérisation des solutions par modules"
+  ],
+  "bac-c-2013-sn-math-ex2": [
+    "Polynôme complexe — évaluation et factorisation",
+    "Équation polynomiale dans ℂ — résolution du second degré",
+    "Similitude directe — expression complexe et affixes",
+    "Similitude directe — rapport et angle",
+    "Lieu géométrique — partie imaginaire pure d'une expression complexe",
+    "Conique — équation cartésienne et éléments (hyperbole)"
+  ],
+  "bac-c-2013-sn-math-ex3": [
+    "Fonction exponentielle polynomiale — limites et asymptotes",
+    "Fonction — tableau de variations et tracé de courbe",
+    "Équation différentielle du premier ordre — vérification de solution",
+    "Aire sous courbe — intégrale entre deux abscisses",
+    "Suite — majoration géométrique et limite nulle",
+    "Intégrale dépendant d'un paramètre — intégration par parties",
+    "Suite de sommes partielles — lien avec intégrale et limite e³"
+  ],
+  "bac-c-2013-sn-math-ex4": [
+    "Fonction auxiliaire — continuité en 0⁺ et limites",
+    "Fonction auxiliaire — tableau de variations et signe",
+    "Fonction rationnelle logarithmique — dérivée et variations",
+    "Fonction intégrale — dérivabilité et sens de variation",
+    "Inégalité d'encadrement — comparaison d'intégrandes",
+    "Intégrale — intégration par parties et décomposition en éléments simples",
+    "Limite d'intégrale — encadrement et valeur approchée"
+  ],
+  "bac-c-2013-sn-math-ex5": [
+    "Carré — rotation envoyant sommets sur milieux",
+    "Rotation — angle et centre",
+    "Symétries axiales — composition et forme réduite",
+    "Similitude directe — rapport et angle dans un carré",
+    "Similitude — centre sur cercles de diamètre",
+    "Composition de similitudes — angle somme et centre",
+    "Angle orienté de vecteurs — orthogonalité"
+  ],
+  "bac-c-2013-sc-math-ex1": [
+    "Famille de polynômes — tableau de variations",
+    "Équation polynomiale — unicité de racine dans un intervalle",
+    "Courbe paramétrée par n — point fixe commun",
+    "Courbes — positions relatives de deux membres d'une famille",
+    "Suite de racines — monotonie et convergence"
+  ],
+  "bac-c-2013-sc-math-ex2": [
+    "Polynôme complexe — factorisation après racine connue",
+    "Équation du troisième degré dans ℂ — modules des racines",
+    "Barycentre — affixe complexe",
+    "Puissance de distance à points — forme réduite",
+    "Cercle — équation à partir d'une forme quadratique"
+  ],
+  "bac-c-2013-sc-math-ex3": [
+    "Fonction logarithmique rationnelle — continuité en 0⁺",
+    "Fonction — dérivabilité à droite en 0 et interprétation",
+    "Fonction — tableau de variations et tangente",
+    "Fonction intégrale — dérivée et croissance",
+    "Inégalité d'encadrement — majoration d'intégrande",
+    "Limite d'intégrale — divergence en +∞"
+  ],
+  "bac-c-2013-sc-math-ex4": [
+    "Losange — rotation et similitude directe",
+    "Rotation — identification par images de points",
+    "Similitude directe — rapport, angle et centre",
+    "Projection orthogonale — centre de similitude",
+    "Repère orthonormé — coordonnées et affixe complexe",
+    "Similitude — expression complexe dans un repère"
+  ],
+  "bac-c-2013-sc-math-ex5": [
+    "Fonction avec exponentielle — limites en ±∞",
+    "Fonction impaire — symétrie et tableau de variations",
+    "Aire — intégrale entre courbe et axes",
+    "Suite d'intégrales — formule de récurrence par IPP",
+    "Inégalité — majoration d'intégrale et limite",
+    "Suite de Riemann modifiée — limite en ln 2"
+  ],
+  "bac-c-2014-sn-math-ex1": [
+    "Polynôme complexe — racines et ordre par partie imaginaire",
+    "Transformation z ↦ 1/(z²+z+1) — image d'une droite",
+    "Affixe complexe — formule avec module 1",
+    "Cercle unité — paramétrisation et image",
+    "Lieu géométrique — hyperbole et éléments"
+  ],
+  "bac-c-2014-sn-math-ex2": [
+    "Fonction xeˣ — tableau de variations",
+    "Équation différentielle linéaire du second ordre — solution",
+    "Aire sous courbe — intégrale définie",
+    "Suite d'intégrales — intégration par parties et encadrement",
+    "Intégrale — décomposition rationnelle avec eˣ"
+  ],
+  "bac-c-2014-sn-math-ex3": [
+    "Fonction x ln(1+1/x) — continuité et dérivabilité en 0",
+    "Fonction — asymptote horizontale en +∞",
+    "Fonction — concavité et tableau de variations",
+    "Suite d'aires — majoration et limite nulle",
+    "Intégrale avec ln x — intégration par parties",
+    "Suite Jₙ — relation de récurrence par IPP"
+  ],
+  "bac-c-2014-sn-math-ex4": [
+    "Carré — rotation et similitudes directes",
+    "Similitude — centre sur cercles de diamètre",
+    "Composition de similitudes — homothétie",
+    "Barycentre — coefficients et point d'intersection",
+    "Cube — réflexions par plans de faces",
+    "Composition de symétries — demi-tour et translation"
+  ],
+  "bac-c-2014-sc-math-ex1": [
+    "Équation diophantienne — vérification et ensemble des solutions",
+    "Probabilités — loi à trois valeurs et système linéaire",
+    "Espérance et variance — variable aléatoire discrète",
+    "Équation complexe — lieu affine des solutions",
+    "Points à coordonnées entières — sur un lieu"
+  ],
+  "bac-c-2014-sc-math-ex2": [
+    "Polynôme complexe — factorisation et racines",
+    "Similitude directe — centre, rapport et angle",
+    "Triangle rectangle — propriété après transformation",
+    "Barycentre — points cocycliques",
+    "Cercle — équation à partir de forme quadratique"
+  ],
+  "bac-c-2014-sc-math-ex3": [
+    "Fonction auxiliaire — variations et encadrement de racine",
+    "Fonction rationnelle logarithmique — asymptotes et variations",
+    "Famille de fonctions — asymptotes communes et homothétie",
+    "Homothétie — image d'une courbe par rapport à un point"
+  ],
+  "bac-c-2014-sc-math-ex4": [
+    "Triangle équilatéral — rotations et composition",
+    "Antidéplacement — symétrie glissante",
+    "Similitude directe — rapport et angle",
+    "Triangle variable — équilatéralité et lieu",
+    "Optimisation — rapport OM/OB et aire minimale"
+  ],
+  "bac-c-2014-sc-math-ex5": [
+    "Fonction rationnelle exponentielle — asymptotes",
+    "Fonction — tableau de variations",
+    "Aire — encadrement entre intégrale et valeur",
+    "Suite d'intégrales — majoration et limite nulle",
+    "Somme de suites d'intégrales — convergence vers aire"
+  ],
+  "bac-c-2015-sn-math-ex1": [
+    "Polynôme complexe — factorisation et racines",
+    "Application affine — point invariant et lieu",
+    "Puissance de distances — nature de courbes",
+    "Barycentre — affixe et lieu géométrique"
+  ],
+  "bac-c-2015-sn-math-ex2": [
+    "Rectangle — rotation et antidéplacement",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe — centre sur deux cercles",
+    "Parabole — foyer, directrice et tangente",
+    "Points alignés — propriété de symétrie"
+  ],
+  "bac-c-2015-sn-math-ex3": [
+    "Fonction 1/(1+eˣ) — limites et variations",
+    "Fonction — bijection et fonction réciproque",
+    "Centre de symétrie — point et courbe symétrique",
+    "Aire — intégrale entre courbes",
+    "Suite d'intégrales — récurrence et encadrement"
+  ],
+  "bac-c-2015-sn-math-ex4": [
+    "Fonction rationnelle — décomposition en éléments simples",
+    "Fonction logarithmique — asymptotes et position relative",
+    "Équation f(x)=0 — unicité de solution",
+    "Aire — intégrale et changement de variable",
+    "Intégration par parties — calcul d'aires"
+  ],
+  "bac-c-2015-sc-math-ex1": [
+    "Forme linéaire entière — évaluation en puissances",
+    "Équation diophantienne — solutions dans ℤ²",
+    "Congruences — reste d'une suite par 7",
+    "Divisibilité — preuve par congruence"
+  ],
+  "bac-c-2015-sc-math-ex2": [
+    "Polynôme complexe — factorisation après z=i",
+    "Similitude directe — expression complexe",
+    "Lieu — rapport imaginaire pur",
+    "Transformation — image d'un cercle par similitude"
+  ],
+  "bac-c-2015-sc-math-ex3": [
+    "Triangle équilatéral — rotations de centre et angle",
+    "Composition de rotations — translation",
+    "Similitude directe — rapport et angle",
+    "Ellipse — foyers et passage par un point"
+  ],
+  "bac-c-2015-sc-math-ex4": [
+    "Fonction (1+x)/eˣ — tableau de variations",
+    "Famille d'intégrales — récurrence par IPP",
+    "Suite Iₙ — décroissance et encadrement",
+    "Suite Uₙ — lien avec série exponentielle et limite e"
+  ],
+  "bac-c-2015-sc-math-ex5": [
+    "Fonction x ln(1+x) — limites et dérivée",
+    "Aire — intégrale et domaine plan",
+    "Suite Uₙ — majoration et limite nulle",
+    "Série géométrique finie — expression et somme alternée",
+    "Suite Vₙ — encadrement et limite ln 2"
+  ],
+  "bac-c-2016-sn-math-ex1": [
+    "Équation diophantienne — existence et solutions",
+    "Divisibilité — conséquence sur les solutions",
+    "Fraction rationnelle — condition d'entier",
+    "Congruence — fraction rationnelle entière pour m entier"
+  ],
+  "bac-c-2016-sn-math-ex2": [
+    "Polynôme complexe — racines et ordre par module",
+    "Barycentre — affixe complexe",
+    "Lieu — partie imaginaire pure (conique)",
+    "Conique — sommets, excentricité et construction"
+  ],
+  "bac-c-2016-sn-math-ex3": [
+    "Fonction xe^(1/x) — limites en 0 et en ±∞",
+    "Fonction — asymptote et tableau de variations",
+    "Famille de courbes — homothétie et rapport",
+    "Lieu — points à tangente horizontale"
+  ],
+  "bac-c-2016-sn-math-ex4": [
+    "Fonction ln(1+x)−x/(x+1) — limites et variations",
+    "Fonction — point d'inflexion",
+    "Primitive — intégrale de ln(1+t)",
+    "Série alternée — développement limité de ln(1+x)",
+    "Encadrement d'intégrale — majoration du reste"
+  ],
+  "bac-c-2016-sn-math-ex5": [
+    "Carré — rotation et similitudes",
+    "Similitude directe — centre et image du carré",
+    "Composition de similitudes — caractérisation",
+    "Alignement — lieu de points M₁, M₂",
+    "Barycentre — coefficients et cercle"
+  ],
+  "bac-c-2016-sc-math-ex1": [
+    "Polynôme complexe — factorisation et racines",
+    "Triangle — nature et barycentre",
+    "Cercle — équation MA²+MB²+MC²=k",
+    "Similitude directe — expression complexe",
+    "Parabole — foyer, directrice et équation cartésienne"
+  ],
+  "bac-c-2016-sc-math-ex2": [
+    "Fonction (1+x)e⁻ˣ — limites et aire",
+    "Suite fₙ — majoration et intégrale",
+    "Intégrale Iₙ — récurrence par IPP",
+    "Suite Uₙ — limite e par encadrement de Iₙ"
+  ],
+  "bac-c-2016-sc-math-ex3": [
+    "Fonction impaire — limites et tableau de variations",
+    "Équation f(x)=x — nombre de solutions",
+    "Bijection — dérivée de la réciproque",
+    "Rotation — image de courbe et réciproque",
+    "Aire entre courbe et réciproque"
+  ],
+  "bac-c-2016-sc-math-ex4": [
+    "Triangle équilatéral — rotations et symétrie glissante",
+    "Composition rotation-antidéplacement — caractérisation",
+    "Parallélogramme — propriété d'alignement",
+    "Lieu — points M, M₁, M₂ alignés"
+  ],
+  "bac-c-2017-sn-math-ex1": [
+    "Équation du second degré dans ℂ — paramètre réel",
+    "Application affine — translation et rotation",
+    "Triangle rectangle isocèle — affixes et lieux",
+    "Isobarycentre — affixe et ellipse"
+  ],
+  "bac-c-2017-sn-math-ex2": [
+    "Triangle équilatéral — antidéplacement et rotation",
+    "Similitude directe — rapport, angle et centre",
+    "Composition similitude-rotation — éléments",
+    "Rectangle — propriété sur cercle circonscrit",
+    "Itérées de similitude — somme de longueurs et limite"
+  ],
+  "bac-c-2017-sn-math-ex3": [
+    "Famille de fonctions — point fixe",
+    "Fonction — symétrie et tableau de variations",
+    "Intégrale uₙ — calcul et relation de récurrence",
+    "Suite d'intégrales — convergence"
+  ],
+  "bac-c-2017-sn-math-ex4": [
+    "Fonction ln x / x² — variations et suite aₙ",
+    "Inégalité — encadrement d'intégrale par terme",
+    "Somme Sₙ — encadrement par intégrales",
+    "Suite uₙ et Iₙ — limite et série exponentielle"
+  ],
+  "bac-c-2017-sc-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Congruence — inverse modulo un premier",
+    "Anneau ℤ/nℤ — carré et inverses modulo premier",
+    "Congruence — entiers égaux à leur inverse modulo premier"
+  ],
+  "bac-c-2017-sc-math-ex2": [
+    "Équation polynomiale dans ℂ — racine réelle",
+    "Transformation affine — expression complexe",
+    "Somme de modules au carré — forme réduite et cercles",
+    "Triangle — nature à partir des affixes des sommets"
+  ],
+  "bac-c-2017-sc-math-ex3": [
+    "Rectangle — rotation et symétrie glissante",
+    "Similitude directe — centre sur cercles",
+    "Image de cercle — par similitude",
+    "Parabole — directrice, foyer et tangentes"
+  ],
+  "bac-c-2017-sc-math-ex4": [
+    "Fonction (ln x)ⁿ — limites selon parité",
+    "Courbes — positions relatives d'une famille",
+    "Intégrale Iₙ — IPP et lien avec suite factorielle",
+    "Suite uₙ — limite e⁻¹"
+  ],
+  "bac-c-2017-sc-math-ex5": [
+    "Inégalité eˣ ≥ x+1 — encadrement d'intégrale",
+    "Fonction définie par intégrale — continuité en 0",
+    "Dérivée — théorème fondamental et changement de borne",
+    "Encadrement — limite en +∞ et variations"
+  ],
+  "bac-c-2018-sn-math-ex1": [
+    "Équation diophantienne — PGCD et solutions",
+    "Congruence — résolution modulo composé",
+    "Restes quadratiques — par module premier",
+    "Équation diophantienne — existence de (x²,y²) solution"
+  ],
+  "bac-c-2018-sn-math-ex2": [
+    "Polynôme complexe — racines et barycentre",
+    "Ellipse — centre, excentricité et équation",
+    "Ellipse — foyers, directrices et construction",
+    "Triangle — nature à partir des affixes ordonnées"
+  ],
+  "bac-c-2018-sn-math-ex3": [
+    "Parallélogramme — rotation et translation composées",
+    "Rectangle isocèle — vecteurs et orthogonalité",
+    "Antidéplacement — symétrie glissante",
+    "Similitude directe — centre et image de cercle"
+  ],
+  "bac-c-2018-sn-math-ex4": [
+    "Équation différentielle linéaire — solutions générales",
+    "Fonction e^(4x)−2e^(2x) — variations et bijection",
+    "Fonction réciproque — limite et intersection de courbes",
+    "Aire entre courbe et droite — intégrale"
+  ],
+  "bac-c-2018-sn-math-ex5": [
+    "Fonction — limites et dérivées successives",
+    "Primitive — intégrale par parties",
+    "Suite Uₙ — lien avec harmonique et factorielle",
+    "Encadrement — série harmonique et 1/k²"
+  ],
+  "bac-c-2018-sc-math-ex1": [
+    "Polynôme complexe — racines et triangle",
+    "Barycentre — formes quadratiques et cercles",
+    "Similitude — itérées et périodicité",
+    "Homothétie — puissance d'une similitude"
+  ],
+  "bac-c-2018-sc-math-ex2": [
+    "Fonction (x+1)e^(-1/x) — continuité en 0",
+    "Asymptote oblique — encadrement et bijection",
+    "Famille fₙ — racine et convergence de αₙ",
+    "Famille fₙ — continuité et dérivabilité en 0"
+  ],
+  "bac-c-2018-sc-math-ex3": [
+    "Carré — rotation, similitude et homothétie",
+    "Symétrie glissante — antidéplacement",
+    "Hyperbole — foyers, équation et excentricité",
+    "Droite fixe — alignement M'M''"
+  ],
+  "bac-c-2018-sc-math-ex4": [
+    "Fonction −x+2ln(1+eˣ) — asymptotes",
+    "Bijection — restriction et réciproque",
+    "Suite uₙ d'intégrales de dérivées — encadrement",
+    "Relation dérivée² — récurrence et somme vₙ"
+  ],
+  "bac-c-2019-sn-math-ex1": [
+    "Équation diophantienne — solutions et congruences",
+    "Système de congruences — théorème chinois",
+    "Numération — base et conversion décimale",
+    "Congruence — système x≡3 [5] et y≡4 [7]"
+  ],
+  "bac-c-2019-sn-math-ex2": [
+    "Polynôme complexe — racines et ordre",
+    "Barycentre — cercle et hyperbole",
+    "Hyperbole — sommets, foyers et asymptotes",
+    "Triangle — nature à partir des affixes"
+  ],
+  "bac-c-2019-sn-math-ex3": [
+    "Fonction x³−x ln x — continuité en 0",
+    "Fonction — point d'inflexion et variations",
+    "Bijection — courbe et réciproque",
+    "Primitive et aire — entre courbe et réciproque"
+  ],
+  "bac-c-2019-sn-math-ex4": [
+    "Triangle équilatéral — antidéplacement et rotation",
+    "Similitude directe — rapport et angle",
+    "Itérées — rectangle et nature du triangle",
+    "Rotation — centre sur médiatrice et cercle"
+  ],
+  "bac-c-2019-sn-math-ex5": [
+    "Fonction 1/√(1+eˣ) — variations",
+    "Équation f(x)=x — unicité de solution",
+    "Aire — changement de variable et éléments simples",
+    "Suite d'intégrales — récurrence et limite de somme"
+  ],
+  "bac-c-2019-sc-math-ex1": [
+    "Polynôme complexe — factorisation et racines",
+    "Similitude directe — itérées et alignement",
+    "Ellipse — équation réduite et excentricité",
+    "Barycentre — affixe du centre de similitude"
+  ],
+  "bac-c-2019-sc-math-ex2": [
+    "Intégrale — IPP et encadrement",
+    "Suite Iₙ — récurrence et convergence",
+    "Suite uₙ — majoration géométrique",
+    "Série exponentielle — limite e²"
+  ],
+  "bac-c-2019-sc-math-ex3": [
+    "Triangle rectangle isocèle — symétrie glissante",
+    "Similitude directe — centre et barycentre",
+    "Homothétie — composition avec similitude",
+    "Symétrie glissante — forme réduite de l'antidéplacement"
+  ],
+  "bac-c-2019-sc-math-ex4": [
+    "Fonction ln x / (1+x³) — limites et variations",
+    "Fonction auxiliaire u(x) — signe et encadrement",
+    "Suite vₙ d'intégrales — convergence",
+    "Suite wₙ — IPP et limite nulle"
+  ],
+  "bac-c-2020-sn-math-ex1": [
+    "Équation diophantienne — solution particulière",
+    "Système de congruences — classe modulo 195",
+    "Numération — écriture en base n",
+    "Congruence — plus petit entier ≥ 2000 dans une classe"
+  ],
+  "bac-c-2020-sn-math-ex2": [
+    "Polynôme complexe — racines et barycentre",
+    "Cercle — formes quadratiques MA²",
+    "Application z ↦ mz+b — point invariant et similitude",
+    "Cercle — intersection de deux formes quadratiques"
+  ],
+  "bac-c-2020-sn-math-ex3": [
+    "Triangle isocèle — produits scalaires et distances",
+    "Barycentre — coefficients et hauteur",
+    "Cercle — points cocycliques et angles",
+    "Angle — relations dans configuration isocèle"
+  ],
+  "bac-c-2020-sn-math-ex4": [
+    "Fonction x ln((x+1)/x) — continuité en 0",
+    "Fonction — asymptote 1 et variations",
+    "Somme télescopique — limite 1/2",
+    "Encadrement — série et intégrale 1/x"
+  ],
+  "bac-c-2020-sn-math-ex5": [
+    "Fonction (x+2)e⁻ˣ — limites et bijection",
+    "Intégrale Iₙ — IPP et série e²",
+    "Suite vₙ — majoration géométrique",
+    "Courbe réciproque — tracé de (C')"
+  ],
+  "bac-c-2021-sn-math-ex1": [
+    "Congruences — puissances modulo 11",
+    "Numération — multiple de 101 et de 20",
+    "Matrice 2×2 — inverse et déterminant",
+    "Divisibilité — 2021^n par 11"
+  ],
+  "bac-c-2021-sn-math-ex2": [
+    "Rectangle — cocyclicité et symétrie glissante",
+    "Similitude directe — centre et itérées",
+    "Triangle équilatéral — construction géométrique",
+    "Cercle — points cocycliques et centre"
+  ],
+  "bac-c-2021-sn-math-ex3": [
+    "Équation du second degré — paramètre m",
+    "Homothétie et rotation — composition",
+    "Ellipse — foyers, grand axe et équation",
+    "Rotation — angle et centre de M₁→M₂"
+  ],
+  "bac-c-2021-sn-math-ex4": [
+    "Fonction — dérivée et tableau de variations",
+    "Bijection — fonction réciproque",
+    "Équation g(x)=0 — encadrement de racine",
+    "Courbe — position relative avec y=x"
+  ],
+  "bac-c-2021-sn-math-ex5": [
+    "Fonction e^(1−1/x)/x² — continuité en 0",
+    "Suite Iₙ — IPP et encadrement",
+    "Limite — suite décroissante positive",
+    "Aire — intégrale entre courbe et axe des abscisses"
+  ],
+  "bac-c-2002-sn-pc-ex1": [
+    "Couple redox — bilan de réaction spontanée",
+    "Cinétique — concentration restante en fonction du volume de gaz",
+    "Courbe [réactif]=f(t) — lecture graphique",
+    "Vitesse instantanée — définition et calcul",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-c-2002-sn-pc-ex4": [
+    "Ion accéléré — vitesse en fonction de U, m, e",
+    "Champ magnétique — mouvement circulaire uniforme",
+    "Rayon de trajectoire — expression en B, U, m, e",
+    "Spectromètre de masse — séparation d'isotopes"
+  ],
+  "bac-c-2002-sn-pc-ex5": [
+    "Dipôle R, L, C — identification par U/I continu et alternatif",
+    "Impédance — rapport Ueff/Ieff et déphasage",
+    "Circuit RLC série — résonance et fréquence f₀",
+    "Facteur de qualité — bande passante"
+  ],
+  "bac-c-2002-sc-pc-ex1": [
+    "Tampon acide-base faible — courbe pH=f(VB/VA)",
+    "Relation pH = ax + b — détermination graphique",
+    "Rapport [base]/[acide] — expression du pH",
+    "pKa — déduction à partir du graphique"
+  ],
+  "bac-c-2002-sc-pc-ex2": [
+    "Ester — formule brute CnH2nO2",
+    "Isomères d'ester — formules semi-développées",
+    "Saponification — équation avec soude",
+    "Oxydation ménagée — identification aldéhyde/cétone",
+    "Tests DNPH et Schiff — déduction de structure"
+  ],
+  "bac-c-2002-sc-pc-ex3": [
+    "Énergie mécanique — quart de cercle sans frottement",
+    "Réaction normale — expression en fonction de l'angle",
+    "Frottement — force constante sur segment rectiligne",
+    "Décollement — angle limite et vitesse initiale",
+    "Mouvement parabolique — équations et durée de chute"
+  ],
+  "bac-c-2002-sc-pc-ex4": [
+    "Solénoïde — champ magnétique et déviation d'aiguille",
+    "Courant i(t) — expression par morceaux",
+    "Bobine — tension aux bornes et loi d'Ohm",
+    "Oscillogramme — représentation de u(t)"
+  ],
+  "bac-c-2002-sc-pc-ex5": [
+    "Réaction nucléaire — azote et neutron",
+    "Radioactivité — loi de décroissance du ¹⁴C",
+    "Datation — comparaison activités bois ancien/récent",
+    "Âge — déduction graphique et calcul"
+  ],
+  "bac-c-2003-sn-pc-ex2": [
+    "Acide carboxylique chloré — formules et bases conjuguées",
+    "Acide faible — concentration à partir du pH",
+    "Dosage acide-base — équivalence et masse de soude",
+    "Indicateur coloré — choix selon pH à l'équivalence",
+    "pKa — classement et influence des substituants Cl"
+  ],
+  "bac-c-2003-sn-pc-ex3": [
+    "Pendule — énergie cinétique au passage par l'équilibre",
+    "Pendule — vitesse minimale pour tour complet",
+    "Mouvement dans champ électrique — trajectoire parabolique",
+    "Force électrique — mouvement rectiligne uniforme et charge q",
+    "Équation de trajectoire — dans un repère adapté"
+  ],
+  "bac-c-2003-sn-pc-ex5": [
+    "Circuit RL série — intensité et diagramme de Fresnel",
+    "Bobine — résistance interne et inductance",
+    "Circuit LC série — inductance à fréquence donnée",
+    "Résonance — pulsation ω₀ et intensité maximale",
+    "Bande passante — relation I/I₀ et ω₁ω₂=ω₀²"
+  ],
+  "bac-c-2003-sc-pc-ex1": [
+    "Estérification — équation et nom des produits",
+    "Méthode de la trempe — rôle cinétique",
+    "Dosage de l'acide restant — relation nE=f(vb)",
+    "Courbe nE=f(t) — vitesse instantanée et moyenne"
+  ],
+  "bac-c-2003-sc-pc-ex2": [
+    "Soude — concentration à partir du pH",
+    "Acide faible — espèces en solution et α",
+    "Mélange acide-base — pH et solution tampon",
+    "Ajout de soude — masse pour modifier le pH"
+  ]
+}

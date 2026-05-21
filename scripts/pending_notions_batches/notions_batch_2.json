@@ -1,0 +1,630 @@
+{
+  "bac-c-2020-sn-pc-ex4": [
+    "Accélération d'un électron dans un champ électrique uniforme",
+    "Signe de la tension d'accélération cathode-anode",
+    "Équation de trajectoire parabolique dans un condensateur",
+    "Déviation angulaire électrique et tension U",
+    "Mouvement circulaire d'une charge dans un champ magnétique",
+    "Rayon de courbure en fonction de B, m, e et U₀",
+    "Déviation angulaire magnétique et quart de cercle"
+  ],
+  "bac-c-2020-sn-pc-ex5": [
+    "Force de Laplace sur une tige conductrice",
+    "Équilibre d'une tige sur rails dans un champ magnétique",
+    "Sens du champ magnétique pour l'équilibre",
+    "Relation graphique masse en fonction de l'intensité",
+    "Détermination expérimentale de l'intensité du champ B",
+    "Rails inclinés — équilibre avec le poids"
+  ],
+  "bac-c-2021-sn-pc-ex2": [
+    "Comparaison de bases faibles par le pH initial",
+    "Équivalence acido-basique et volume versé",
+    "pH à l'équivalence — confirmation de la force relative des bases",
+    "pH après équivalence à volume égal",
+    "Détermination des pKa par dosage (NH₄⁺/NH₃ et CH₃NH₃⁺/CH₃NH₂)"
+  ],
+  "bac-c-2021-sn-pc-ex3": [
+    "Raideur d'un ressort à l'équilibre",
+    "Équation différentielle du mouvement harmonique",
+    "Équation horaire x(t) d'un oscillateur",
+    "Énergie mécanique du système masse-ressort",
+    "Identification des courbes Ec et Ep",
+    "Détermination de K et m à partir des graphes énergétiques"
+  ],
+  "bac-c-2021-sn-pc-ex4": [
+    "Inductance d'une bobine solénoïdale",
+    "Tensions aux bornes en régime transitoire RL",
+    "Équation différentielle du courant i(t)",
+    "Solution i(t) = I₀(1 − e^(−t/τ) et constante de temps",
+    "Établissement non instantané du courant",
+    "Détermination graphique de I₀, τ, r et L"
+  ],
+  "bac-c-2021-sn-pc-ex5": [
+    "Fréquence et amplitudes d'une tension alternative",
+    "Déphasage tension-courant en RLC série",
+    "Expression de l'intensité instantanée i(t)",
+    "Résistance et capacité du dipôle RLC",
+    "Résonance d'intensité et intensité efficace I₀",
+    "Fréquence de résonance et coefficient de surtension"
+  ],
+  "bac-c-2022-sn-pc-ex4": [
+    "Structure histologique du testicule pubère",
+    "Rôle des cellules de Sertoli dans la spermatogenèse",
+    "Identification de la FSH et de sa cible",
+    "Légendation d'une coupe de testicule"
+  ],
+  "bac-c-2022-sn-pc-ex5": [
+    "Identification des hormones ovariennes H1 et H2",
+    "Structures ovarienne aux temps T1, T2, T3 et T4",
+    "Jour d'ovulation et premier jour de menstruation",
+    "Évolution de l'endomètre sur un cycle",
+    "Rétrocontrôles hormonaux aux jours clés du cycle"
+  ],
+  "bac-c-2022-sc-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "Expression de i(t) par morceaux",
+    "Force électromotrice d'induction — expression",
+    "Calcul de la f.e.m. induite sur chaque intervalle"
+  ],
+  "bac-c-2023-sn-pc-ex1": [
+    "Définition d'aquifère, nappe et nappe phréatique",
+    "Différence entre nappe libre et nappe captive",
+    "Unités hydrogéologiques de la Mauritanie",
+    "Stockage et circulation de l'eau souterraine"
+  ],
+  "bac-c-2023-sn-pc-ex2": [
+    "Schéma d'un gisement de pétrole — légendation",
+    "Roche mère, roche réservoir et roche couverture",
+    "Anticlinal et piège structural",
+    "Répartition pétrole, gaz et eau dans le gisement"
+  ],
+  "bac-c-2023-sc-pc-ex1": [
+    "Action de la FSH sur les tubes séminifères",
+    "Régulation de la FSH par GnRH et testostérone",
+    "Effet de la LH sur la sécrétion de testostérone",
+    "Nombre chromosomique des cellules germinales",
+    "Cellules germinales vs cellules de soutien",
+    "Comparaison spermatozoïde et ovocyte II"
+  ],
+  "bac-c-2024-sn-pc-ex1": [
+    "Paléontologie et stratigraphie — intérêt et exemple",
+    "Fossiles guides et datation relative des couches",
+    "Niveau piézométrique — définition",
+    "Position du niveau piézométrique (nappe libre et captive)",
+    "Relation niveau piézométrique et pression de la nappe"
+  ],
+  "bac-c-2004-sn-svt-ex4": [
+    "Induction électromagnétique — courant dans un circuit mobile",
+    "Force électromagnétique et puissance dissipée",
+    "Sens du champ magnétique et déplacement de la tige",
+    "Équation horaire du mouvement sous force de Laplace",
+    "Rails verticaux — sens de B et intensité minimale",
+    "Vitesse de sortie d'une zone de champ magnétique"
+  ],
+  "bac-c-2006-sc-svt-ex4": [
+    "Équilibre d'une tige sur rails inclinés",
+    "Vitesse d'entrée dans une zone de champ magnétique",
+    "Distance minimale D pour traverser la zone de champ",
+    "Courant induit et sens du courant",
+    "Force électromagnétique sur une tige en mouvement"
+  ],
+  "bac-c-2007-sc-svt-ex4": [
+    "Apparition d'un courant induit — loi de Faraday",
+    "Sens du courant induit — règle de Lenz",
+    "Flux magnétique Φ(t) = Φ₀ + at",
+    "f.e.m. induite et intensité du courant",
+    "Bilan des forces sur la tige en mouvement"
+  ],
+  "bac-c-2010-sn-svt-ex1": [
+    "Identification des phases de méiose et mitose",
+    "Comparaison de l'information génétique des cellules filles",
+    "Courbe de quantité d'ADN en gamétogenèse",
+    "Correspondance figures cytologiques et courbe d'ADN",
+    "Croisement souris — dominance et indépendance des gènes",
+    "Interprétation des proportions en F2 et test-cross"
+  ],
+  "bac-c-2010-sn-svt-ex2": [
+    "Croisement initial — dominance des allèles",
+    "Interprétation des proportions en F2 (9:3:3:1 modifié)",
+    "Test-cross F1 × récessif — proportions 1:1:1:1",
+    "Gènes liés ou indépendants — analyse des effectifs"
+  ],
+  "bac-c-2011-sn-svt-ex1": [
+    "Structures de la fécondation — identification",
+    "Cellules A et B en fécondation",
+    "Étapes entre fécondation et implantation",
+    "Potentiel de repos et potentiel d'action — enregistrements",
+    "Propriétés de la fibre nerveuse (seuil, période réfractaire)",
+    "Vitesse de propagation du potentiel d'action",
+    "Pédigrée — dominance et localisation du gène"
+  ],
+  "bac-c-2011-sn-svt-ex2": [
+    "Potentiel de repos et potentiel d'action",
+    "Période réfractaire absolue et relative",
+    "Propriétés de la fibre nerveuse (seuil, tout ou rien)",
+    "Vitesse de propagation du potentiel d'action",
+    "Calcul de distance entre points d'enregistrement"
+  ],
+  "bac-c-2011-sn-svt-ex3": [
+    "Pédigrée — allèle dominant ou récessif",
+    "Hérédité autosomale ou gonosomique",
+    "Proportion d'hétérozygotes dans une population",
+    "Probabilité d'enfant atteint — parents normaux",
+    "Génotypes à partir d'un pédigrée"
+  ],
+  "bac-c-2011-sn-svt-ex4": [
+    "Pédigrée — dominance et localisation chromosomique",
+    "Probabilité et proportion d'hétérozygotes",
+    "Génotypes des individus d'un arbre généalogique",
+    "Étapes de la conception humaine (FIVETE)",
+    "Rôle hormonal des étapes b et c",
+    "Cas de stérilité et FIVETE",
+    "Rôle du placenta"
+  ],
+  "bac-c-2011-sn-svt-ex5": [
+    "Enregistrements pré et post-synaptiques",
+    "Durée de propagation et vitesse de l'influx",
+    "Sens unidirectionnel de la synapse",
+    "Rôle du calcium dans la transmission synaptique",
+    "Mécanisme de la transmission synaptique",
+    "Pédigrée — dominance et localisation du gène"
+  ],
+  "bac-c-2011-sc-svt-ex1": [
+    "Ovulation — définition et structures",
+    "Schéma annoté du follicule ovulatoire",
+    "Nombre de chromosomes des éléments de fécondation",
+    "Graphique délai-distance et vitesse de propagation",
+    "Génétique du tabac — génotypes et proportions"
+  ],
+  "bac-c-2011-sc-svt-ex2": [
+    "Graphique délai en fonction de la distance",
+    "Calcul de la vitesse de propagation nerveuse",
+    "Propagation sans atténuation d'amplitude le long de la fibre",
+    "Conclusion sur la propagation de l'influx nerveux"
+  ],
+  "bac-c-2011-sc-svt-ex3": [
+    "Race pure et génotypes du tabac",
+    "Pourcentages théoriques par couple de gènes",
+    "Génotypes de M et N expliquant la descendance",
+    "Gamètes produits et échiquier de croisement",
+    "Compatibilité hypothèse et résultats expérimentaux"
+  ],
+  "bac-c-2012-sn-svt-ex1": [
+    "Étapes de la conception humaine",
+    "Ordre chronologique des étapes a, b, c",
+    "Déterminisme hormonal des étapes",
+    "FIVETE — indications et stérilité",
+    "Rôle du placenta",
+    "Transmission synaptique — expériences calmar",
+    "Rôle du Ca²⁺ dans la synapse"
+  ],
+  "bac-c-2012-sc-svt-ex5": [
+    "Inventaire des forces sur une tige sur rails inclinés",
+    "Équilibre — sens et valeur du champ magnétique",
+    "Courant induit à l'entrée dans le champ",
+    "Forces à t = 0 et vitesse limite V1",
+    "Intensité du courant induit en régime limite"
+  ],
+  "bac-c-2015-sn-svt-ex1": [
+    "Cellules du testicule et spermatogenèse",
+    "Stades de division en gamétogenèse",
+    "Corps jaunes et nombre d'embryons",
+    "Hypophysectomie et caractères sexuels secondaires",
+    "Potentiel d'action — seuil et intensité critique",
+    "Enregistrement intracellulaire vs extracellulaire",
+    "Section de racine nerveuse et potentiel d'action"
+  ],
+  "bac-c-2015-sc-svt-ex1": [
+    "Cellule effectrice du système immunitaire",
+    "Croisement de maïs — dominance et épistasie",
+    "Gamètes de F1 et échiquier de croisement",
+    "Proportions phénotypiques en F2",
+    "Croisement de grains ridés et violets"
+  ],
+  "bac-c-2016-sn-svt-ex1": [
+    "Génotype et phénotype — définitions",
+    "Croisement dihybride et dominance",
+    "Test-cross et phénotypes nouveaux",
+    "Brassage et crossing-over",
+    "Échiquier de croisement F2"
+  ],
+  "bac-c-2016-sn-svt-ex2": [
+    "Pédigrée — dominance et localisation",
+    "Fond d'œil et maladie oculaire héréditaire",
+    "Génotypes et probabilités (III1, III2)",
+    "Fréquence des hétérozygotes dans la population"
+  ],
+  "bac-c-2016-sn-svt-ex3": [
+    "État des femmes A, B, C à partir du tableau ovarien",
+    "Explication de l'état de la femme C",
+    "Courbe de LH chez A, B et C",
+    "Corps jaune — légende et effets hormonaux",
+    "Rétrocontrôle sur hypophyse et utérus"
+  ],
+  "bac-c-2016-sc-svt-ex1": [
+    "Amniocentèse — colchicine et milieu hypotonique",
+    "Critères de classement des chromosomes",
+    "Anomalie chromosomique et phénotype normal",
+    "Gamètes et descendance — risques génétiques",
+    "Greffe et rejet — types et courbes de survie",
+    "Réaction à médiation cellulaire"
+  ],
+  "bac-c-2017-sn-svt-ex1": [
+    "Test-cross et pourcentage de recombinaison",
+    "Carte factorielle de trois gènes",
+    "Génotypes et échiquier de croisement",
+    "Linkage et distance génétique"
+  ],
+  "bac-c-2017-sn-svt-ex2": [
+    "Légendation du testicule et rôle des cellules de Sertoli",
+    "FSH — identification et rôle",
+    "Hormones ovariennes H1 et H2",
+    "Structures ovarienne et cycle",
+    "Ovulation, menstruation et endomètre",
+    "Rétrocontrôles du cycle ovarien"
+  ],
+  "bac-c-2017-sn-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Propriétés du message nerveux (codage en fréquence)",
+    "Représentation des réponses à I1 et I7",
+    "Complétion d'un tableau d'enregistrements",
+    "Aquifère, nappe phréatique et gisement de pétrole"
+  ],
+  "bac-c-2017-sc-svt-ex1": [
+    "Structures du cycle ovarien — titre et ordre",
+    "Hormones sécrétées par follicule et corps jaune",
+    "Effets des hormones sur hypophyse et utérus",
+    "Stérilité par absence d'ovulation — extraits hypophysaires",
+    "Extraits placentaires vs hypophysaires"
+  ],
+  "bac-c-2017-sc-svt-ex2": [
+    "Courbes d'excitabilité I = f(t)",
+    "Rhéobase, chronaxie et temps utile",
+    "Comparaison de l'excitabilité de deux fibres",
+    "Réponse à une excitation de 9 mA"
+  ],
+  "bac-c-2017-sc-svt-ex3": [
+    "Électrophorèse ADN et allèle de la maladie",
+    "Maladie récessive ou dominante — autosomale ou liée au sexe",
+    "Phénotypes et génotypes des enfants",
+    "Génotype d'un garçon E3 — explication"
+  ],
+  "bac-c-2018-sn-svt-ex1": [
+    "Identification des hormones A et B",
+    "Événements E1, E2, E3 du cycle",
+    "Évolution hormonale sur un mois précédent",
+    "Organe X (placenta) et ses effets",
+    "Vrais jumeaux — formule chromosomique"
+  ],
+  "bac-c-2018-sn-svt-ex2": [
+    "Grenouille décérébrée",
+    "Sections nerveuses et maintien du réflexe",
+    "Parties de neurones détruites (A, B, C, D)",
+    "Circuit nerveux d'un réflexe monosynaptique"
+  ],
+  "bac-c-2018-sn-svt-ex3": [
+    "Dominance et phénotypes parentaux (plante)",
+    "Test-cross et proportions en descendance",
+    "Gènes liés ou indépendants",
+    "Échiquier de croisement F2",
+    "Position relative des gènes"
+  ],
+  "bac-c-2018-sn-svt-ex4": [
+    "Brassage inter et intrachromosomique — gamètes",
+    "Crossing-over et proportion de gamètes recombinants",
+    "Croisement et proportions phénotypiques",
+    "Discussion d'hypothèses sur un pédigrée",
+    "Électrophorèse et conclusion génétique"
+  ],
+  "bac-c-2018-sn-svt-ex5": [
+    "Hormones urinaires A et B — identification",
+    "Disparition des menstruations et grossesse",
+    "Évolution de la progestérone et son déterminisme",
+    "Fécondation — légendation et pénétration",
+    "Transformations post-fécondation",
+    "Rôle du corps jaune dans le maintien de la grossesse"
+  ],
+  "bac-c-2018-sc-svt-ex1": [
+    "Rhéobase, chronaxie et temps utile",
+    "Courbes d'excitabilité et comparaison de fibres",
+    "Potentiel de repos et seuil d'excitation",
+    "Propriétés de la fibre (tout ou rien, période réfractaire)",
+    "Vitesse de propagation — expérience à trois électrodes"
+  ],
+  "bac-c-2018-sc-svt-ex2": [
+    "Identification des hormones H1 à H7",
+    "Organes O1, O2, O3 de la reproduction",
+    "Cellules X, Y, Z, F (Leydig, Sertoli, follicule, ovocyte)",
+    "Rétrocontrôles hypophysaires",
+    "Effets des hormones sur l'utérus"
+  ],
+  "bac-c-2018-sc-svt-ex3": [
+    "Pédigrée — dominance et hérédité liée au sexe",
+    "Électrophorèse — confirmation de l'hypothèse",
+    "Allèle normal et allèle muté",
+    "Correspondance résultats ADN et individus",
+    "Risque pour le fœtus selon le sexe"
+  ],
+  "bac-c-2019-sc-svt-ex1": [
+    "Brassage chromosomique et gamètes",
+    "Crossing-over et gamète recombinant",
+    "Croisement dihybride — proportions",
+    "Hypothèses sur pédigrée et électrophorèse",
+    "Fécondation, nidation et hormones urinaires"
+  ],
+  "bac-c-2021-sn-svt-ex1": [
+    "Potentiel de récepteur — propriété graduée",
+    "Potentiel d'action — propriété tout ou rien",
+    "Codage du message nerveux en fréquence",
+    "Rôle du fuseau neuromusculaire"
+  ],
+  "bac-c-2021-sn-svt-ex2": [
+    "Électrophorèse — gène non autosomal",
+    "Localisation du gène responsable",
+    "Construction du pédigrée",
+    "Mère saine de P2 — information génétique",
+    "Probabilité de fœtus sain",
+    "Résultat d'électrophorèse du fœtus"
+  ],
+  "bac-c-2021-sn-svt-ex3": [
+    "Électrophorèse — gène non autosomal",
+    "Localisation chromosomique du gène",
+    "Pédigrée à partir des données moléculaires",
+    "Probabilité de fœtus sain",
+    "Représentation de l'électrophorèse fœtale"
+  ],
+  "bac-c-2022-sn-svt-ex1": [
+    "Test-cross et recombinaison (3 % et 25 %)",
+    "Distance génétique entre gènes liés",
+    "Carte factorielle de trois gènes",
+    "Croisement [AB] × [AB] — génotypes et échiquier",
+    "Linkage et écart à l'indépendance"
+  ],
+  "bac-c-2022-sn-svt-ex2": [
+    "Testicule — légendation et cellules de Sertoli",
+    "FSH et spermatogenèse",
+    "Cycle ovarien — hormones et structures",
+    "Ovulation, menstruation et endomètre",
+    "Rétrocontrôles hormonaux"
+  ],
+  "bac-c-2022-sn-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Codage en fréquence du message nerveux",
+    "Représentation des réponses à I1 et I7",
+    "Complétion du tableau d'enregistrements"
+  ],
+  "bac-c-2022-sc-svt-ex2": [
+    "Évolution des structures ovariennes sur 28 jours",
+    "Courbes hormonales parallèles au cycle",
+    "Effet des hormones sur myomètre et endomètre",
+    "Corps jaune — annotation et déterminisme",
+    "Devenir du corps jaune"
+  ],
+  "bac-c-2022-sc-svt-ex3": [
+    "Potentiel d'action — phases et mécanisme ionique",
+    "Propagation de l'influx nerveux",
+    "Vitesse de propagation — calcul",
+    "Fuseau neuromusculaire et arc réflexe"
+  ],
+  "bac-c-2022-sc-svt-ex5": [
+    "Force de Laplace et équilibre de la tige",
+    "Graphique m = f(I) et équation de la droite",
+    "Détermination de B par méthode graphique",
+    "Rails inclinés — angle α d'équilibre"
+  ],
+  "bac-c-2023-sn-svt-ex1": [
+    "Ovariectomie et hormones hypophysaires",
+    "Rôle de l'ovaire dans le cycle sexuel",
+    "Identification de l'hormone H1 (LH)",
+    "Dates d'ovulation, menstruation et corps jaune",
+    "Durée du cycle et courbe de H2",
+    "Évolution de l'endomètre"
+  ],
+  "bac-c-2023-sn-svt-ex2": [
+    "Courbe intensité-amplitude — seuil et PA",
+    "Potentiel local gradué vs potentiel d'action",
+    "Propriété tout ou rien du potentiel d'action",
+    "Représentation du PA à distance — vitesse 40 m/s",
+    "Période réfractaire et stimulations répétées"
+  ],
+  "bac-c-2023-sn-svt-ex3": [
+    "Croisement initial et dominance",
+    "Test-cross et linkage",
+    "Génotypes parents et F1",
+    "F2 et crossing-over — échiquier",
+    "Pourcentage de gamète parental et répartition"
+  ],
+  "bac-c-2023-sc-svt-ex1": [
+    "Allèle responsable de la maladie",
+    "Discussion des hypothèses d'hérédité",
+    "Électrophorèse et génotypes",
+    "Caryotype fœtal — sexe et confirmation"
+  ],
+  "bac-c-2023-sc-svt-ex2": [
+    "Durée du cycle et courbe de température",
+    "Ovulation et menstruation — dates",
+    "Période de fécondation possible",
+    "Méthode thermique et échec de contraception",
+    "Synapses excitatrice et inhibitrice — sommation",
+    "Nature des synapses et potentiels post-synaptiques"
+  ],
+  "bac-c-2023-sc-svt-ex3": [
+    "Courbe de température et cycle sexuel",
+    "Durée du cycle et pic thermique",
+    "Ovulation et menstruation — datation",
+    "Fenêtre de fécondation",
+    "Méthode thermique et méthodes contraceptives alternatives"
+  ],
+  "bac-c-2023-sc-svt-ex4": [
+    "Sommation de potentiels post-synaptiques",
+    "Synapses excitatrice vs inhibitrice",
+    "Complétion du tableau de ddp",
+    "Enregistrement avec stimulations simultanées",
+    "Événements entre R1 et R2"
+  ],
+  "bac-c-2024-sn-svt-ex1": [
+    "Identification de H1, H2, H3",
+    "Relations entre sécrétions hormonales",
+    "Graphe de H1 chez une femme Y",
+    "Hypothèses sur baisse de H1 après J18",
+    "Substance S (HCG) et état de grossesse",
+    "Origine de la substance S"
+  ],
+  "bac-c-2024-sn-svt-ex2": [
+    "Dominance et phénotypes parentaux",
+    "Test-cross et proportions",
+    "Génotypes et échiquier",
+    "Carte factorielle avec trois gènes",
+    "Répartition phénotypique en F1 × F1"
+  ],
+  "bac-c-2024-sn-svt-ex3": [
+    "Stimulation F1 — enregistrements et synapses",
+    "Synapse excitatrice vs inhibitrice",
+    "Substances X et Y — agoniste et antagoniste",
+    "Mode d'action sur les récepteurs post-synaptiques",
+    "Succession des événements de la synapse"
+  ],
+  "bac-c-2024-sn-svt-ex4": [
+    "Transmission synaptique — expérience 1",
+    "Nature des synapses S1, S2 et S3",
+    "Inhibition et excitation synaptique (X, Y)",
+    "Potentiels post-synaptiques excitateurs et inhibiteurs",
+    "Enchaînement des événements jusqu'à O3"
+  ],
+  "bac-c-2024-sn-svt-ex5": [
+    "Discussion des hypothèses d'hérédité",
+    "Électrophorèse — deux types d'ADN",
+    "Sexe et phénotype du fœtus",
+    "Génotypes I2, II2, III1 et fœtus"
+  ],
+  "bac-d-2010-sn-math-ex1": [
+    "Lecture d'un tableau de variations",
+    "Domaine de définition et solutions de f(x)=0",
+    "Asymptotes verticales et horizontales",
+    "Parité d'une fonction",
+    "Équation de tangente en un point"
+  ],
+  "bac-d-2010-sn-math-ex2": [
+    "Factorisation d'un polynôme complexe P(z)",
+    "Résolution d'équation polynomiale dans C",
+    "Affixes complexes et placement de points",
+    "Milieu de segment et nature d'un quadrilatère",
+    "Lieu géométrique |z − a| = |z − b|"
+  ],
+  "bac-d-2010-sn-math-ex3": [
+    "Suite Un = (n²+n+1)/(n(n+1)) — premiers termes",
+    "Suite non arithmétique, non géométrique, convergente",
+    "Télescopage Un = Vn+1 − Vn",
+    "Somme Sn des n premiers termes",
+    "Somme S'n de logarithmes et factorielle"
+  ],
+  "bac-d-2010-sn-math-ex4": [
+    "Limites et asymptotes de f(x) = x + 2 + eˣ",
+    "Tableau de variations et bijection",
+    "Encadrement de la solution de f(x) = 0",
+    "Primitive et aire sous la courbe",
+    "Tangente et dérivée de la réciproque",
+    "Fonction g(x) = ln(x + 2 + eˣ)"
+  ],
+  "bac-d-2010-sc-math-ex1": [
+    "Suite arithmétique — terme général",
+    "Somme des termes d'une suite arithmétique",
+    "Somme géométrique 1 + 2 + … + 2ⁿ",
+    "Convergence d'une suite",
+    "Suite Un = 10ⁿ/n! — croissance",
+    "Suite majorée par comparaison"
+  ],
+  "bac-d-2010-sc-math-ex2": [
+    "Équation du second degré dans C",
+    "Formes algébrique et trigonométrique",
+    "Triangle OAB et parallélogramme OACB",
+    "Lieu imaginaire pur d'un rapport complexe"
+  ],
+  "bac-d-2010-sc-math-ex3": [
+    "Limites de f(x) = 1/x + ln x",
+    "Dérivée et tableau de variations",
+    "Bijection de la restriction sur ]1, +∞[",
+    "Position courbe réciproque et tangente",
+    "Intégrale de ln x et aire sous la courbe"
+  ],
+  "bac-d-2010-sc-math-ex4": [
+    "Limites et asymptotes de f(x) = eˣ/(eˣ−1)",
+    "Dérivée et tableau de variations",
+    "Bijection et réciproque sur ]0, +∞[",
+    "Symétrie par rapport à (0, 1/2)",
+    "Primitive et suite d'aires Un",
+    "Limite de Un quand n → +∞"
+  ],
+  "bac-d-2011-sc-math-ex1": [
+    "Probabilités d'événements A, B, C, D",
+    "Probabilité conditionnelle pB(A)",
+    "Probabilité totale et formule des probabilités",
+    "Probabilité conditionnelle pD(A)"
+  ],
+  "bac-d-2011-sc-math-ex2": [
+    "Factorisation et résolution de P(z) = 0",
+    "Affixes et forme trigonométrique",
+    "Transformation f(z) = (z−4)/(z−4−4i)",
+    "Lieux |f(z)| = 1 et f(z) imaginaire pur",
+    "Puissances d'affixe et distance OMn"
+  ],
+  "bac-d-2011-sc-math-ex3": [
+    "Continuité et dérivabilité à droite en 0",
+    "Limites et dérivée de f(x) = 3x − 3 − 2x ln x",
+    "Tableau de variations et signe de f",
+    "Primitive via g'(x)",
+    "Suite Un d'intégrales — décroissance et limite"
+  ],
+  "bac-d-2011-sc-math-ex4": [
+    "Limites et asymptote de f(x) = (x−2)(1+eˣ)",
+    "Dérivée seconde et point d'inflexion",
+    "Tableau de variations et bijection",
+    "Intersection courbe-axes et tangente parallèle",
+    "Discussion graphique f(x) = g(x)",
+    "Calcul d'aires et intégration par parties"
+  ],
+  "bac-d-2011-sc-math-ex5": [
+    "Limites de gn(x) = xⁿ e^(−x)",
+    "Dérivée et variations selon la parité de n",
+    "Suite d'intégrales In — relation de récurrence",
+    "Encadrement de In et limite",
+    "Suite un et développement limité de e"
+  ],
+  "bac-d-2015-sn-math-ex1": [
+    "Probabilités d'événements avec intersection",
+    "Probabilité de l'union et événement complémentaire",
+    "Probabilité conditionnelle",
+    "Formule des probabilités totales"
+  ],
+  "bac-d-2015-sn-math-ex2": [
+    "Factorisation de P(z) = z³ − 10z² + 33z − 34",
+    "Résolution dans C et affixes",
+    "Transformation complexe et lieux géométriques",
+    "Puissances d'affixe ZA^n"
+  ],
+  "bac-d-2015-sn-math-ex3": [
+    "Fonction x ln x — limites et continuité",
+    "Dérivée et extremum en √e",
+    "Tangente et encadrement du zéro",
+    "Primitive et suite d'intégrales Un"
+  ],
+  "bac-d-2015-sn-math-ex4": [
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Point d'inflexion et variations",
+    "Bijection et courbe réciproque",
+    "Aires et intégrales entre 0 et 2"
+  ],
+  "bac-d-2016-sn-math-ex1": [
+    "Probabilité conditionnelle pM(R)",
+    "Probabilité de l'intersection M ∩ R",
+    "Probabilité totale p(R)",
+    "Probabilité conditionnelle pR(M)"
+  ],
+  "bac-d-2016-sn-math-ex2": [
+    "Factorisation de P(z) = z³ − 7z² + 19z − 13",
+    "Triangle ABC et parallélogramme ABDC",
+    "Transformation f(z) et lieux |f(z)| = 1",
+    "Imaginaire pur et |f(z) − 1| = √2"
+  ]
+}

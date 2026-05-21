@@ -1,0 +1,892 @@
+{
+  "bac-c-2003-sc-pc-ex3": [
+    "Élongation du ressort vertical — état à l'équilibre",
+    "Masse-ressort vertical — équation différentielle du mouvement",
+    "Masse-ressort vertical — équation horaire après excitation initiale",
+    "Chute libre d'un solide — vitesse juste avant choc inélastique",
+    "Système masse-ressort — expression de l'énergie mécanique",
+    "Choc inélastique sur ressort — conservation de l'énergie mécanique",
+    "Amplitude d'oscillation — positions limites du plateau",
+    "Masse-ressort — accélération en fonction de la position"
+  ],
+  "bac-c-2003-sc-pc-ex4": [
+    "Ion accéléré par tension U — énergie cinétique en sortie",
+    "Filtre de vitesse E×B — sens du champ électrique",
+    "Filtre de vitesse E×B — vitesse sélectionnée indépendante de q",
+    "Déviation magnétique d'un ion — mouvement circulaire uniforme",
+    "Spectrographe de masse — rayon de trajectoire en fonction de m",
+    "Isotopes du brome — distance entre impacts sur détecteur",
+    "Champ magnétique — sens pour atteindre les points de détection",
+    "Accélération d'ions — calcul numérique de V₀"
+  ],
+  "bac-c-2003-sc-pc-ex5": [
+    "Onde transversale sur corde — équation d'élongation y(x,t)",
+    "Longueur d'onde — calcul à partir de N et de la célérité",
+    "Élongation d'un point M — calcul à un instant donné",
+    "Stroboscope — fréquence pour corde apparente immobile",
+    "Stroboscope — mouvement apparent et vitesse pour Ne ≠ N",
+    "Interférences de deux sources — équation de superposition",
+    "Interférences sur nappe d'eau — points immobiles",
+    "Phase des sources — condition d'excitation sinusoïdale"
+  ],
+  "bac-c-2004-sn-pc-ex1": [
+    "Couples redox I₂/I⁻ et S₂O₈²⁻/SO₄²⁻ — équation bilan",
+    "Mélange de solutions — concentrations initiales après dilution",
+    "Dosage iodométrique du diiode — relation C = C₁V₁/(2V)",
+    "Dosage iodométrique — complétion d'un tableau de concentrations",
+    "Vitesse instantanée de formation du diiode — définition et calcul",
+    "Vitesse moyenne de formation du diiode — calcul entre deux instants",
+    "Courbe [I₂]=f(t) — lecture graphique de la vitesse",
+    "Réaction iodure-peroxodisulfate — potentiels standard des couples"
+  ],
+  "bac-c-2004-sn-pc-ex3": [
+    "Satellite en orbite circulaire — vitesse en fonction de r, M et G",
+    "Satellite-terre — énergie mécanique en fonction de G, m, M, r et R",
+    "Changement d'orbite — énergie à fournir pour passer de r à r'",
+    "Terre autour du Soleil — vitesse angulaire et période",
+    "Orbite terrestre — rapport T²/r³ en fonction de G et M'",
+    "Période de révolution terrestre — calcul et vraisemblance",
+    "Énergie potentielle gravitationnelle — expression avec R terrestre",
+    "Orbite circulaire — lien entre vitesse et rayon orbital"
+  ],
+  "bac-c-2004-sc-pc-ex1": [
+    "Composés organiques — formules semi-développées et fonctions",
+    "Oxydation ménagée d'un aldéhyde — demi-équations et bilan redox",
+    "Réaction acide chlorure-alcool — équation et caractéristiques",
+    "Réaction d'acylation — rendement et masse de produit obtenu",
+    "Identification d'alcool et d'ester — déduction à partir du rendement",
+    "Fonctions organiques — aldéhyde, anhydride, acide, chlorure d'acyle",
+    "Oxydation au permanganate — produit qui fait rougir le pH",
+    "Stœchiométrie d'une réaction d'estérification — calcul de masse"
+  ],
+  "bac-c-2004-sc-pc-ex2": [
+    "Dosage acido-basique — courbe pH = f(Vb)",
+    "Point d'équivalence — coordonnées sur courbe de dosage",
+    "Acide carboxylique faible — concentration et masse molaire par dosage",
+    "Couple acide-base — détermination du pKa au dosage",
+    "Mélange acide-base — concentrations des espèces à Vb donné",
+    "Solution tampon pH = pKa — volumes Va et Vb à mélanger",
+    "Dissolution d'acide carboxylique — préparation de solution Sa",
+    "Échelle graphique pH-Vb — construction de la courbe"
+  ],
+  "bac-c-2004-sc-pc-ex3": [
+    "Plan incliné avec frottement — intensité de f pour doubler la vitesse",
+    "Trajet avec frottement — vitesse au point D (partie horizontale)",
+    "Plan incliné — longueur pour vitesse nulle en bout de pente",
+    "Quart de cercle sans frottement — vitesse en fonction de θ",
+    "Réaction normale sur trajectoire curviligne — expression en fonction de θ",
+    "Mobile sur trajet ABC — énergie cinétique entre B et C",
+    "Frottement sur portion inclinée — sixième du poids sur CD",
+    "Coordonnées curvilignes — angle θ pour repérage sur arc"
+  ],
+  "bac-c-2004-sc-pc-ex4": [
+    "Fentes de Young — observation sur écran monochromatique",
+    "Différence de marche — expression et calcul au point M",
+    "Frange brillante — déduction de λ à partir du numéro de frange",
+    "Lumière blanche — longueurs d'onde des franges obscures en un point",
+    "Onde sur corde verticale — équations yA et yM",
+    "Élongations — calcul aux instants t₁ et t₂",
+    "Stroboscope sur corde — fréquence maximale pour aspect immobile",
+    "Réflexion évitée — rôle du poids immergé en extrémité"
+  ],
+  "bac-c-2004-sc-pc-ex5": [
+    "Solénoïde — spires jointives ou non",
+    "Enroulement — longueur de fil de cuivre utilisé",
+    "Inductance d'un solénoïde — calcul avec µ₀",
+    "Bobine parcourue par I — tension aux bornes et champ B",
+    "Flux magnétique — intervalles de variation selon i(t)",
+    "Force électromotrice d'auto-induction — calcul sur intervalles",
+    "Tension aux bornes de la bobine — expression littérale u(t)",
+    "Courant variable — lecture du graphe i(t)"
+  ],
+  "bac-c-2005-sn-pc-ex2": [
+    "Acide carboxylique — masse molaire par dosage alcalin",
+    "Acide saturé — formule brute et isomères semi-développés",
+    "Acide et chlorure de thionyle — équation et gaz produits",
+    "Chlorure d'acyle — fonction et nom du composé B",
+    "Synthèse d'ester — identification de l'alcool C",
+    "Oxydation ménagée d'un alcool — équation et produits",
+    "Ester C₆H₁₂O₂ — autres méthodes de synthèse",
+    "Dosage acide-base — volume à l'équivalence"
+  ],
+  "bac-c-2005-sn-pc-ex3": [
+    "Plan incliné — équation graphique V² = f(x)",
+    "Théorème de l'énergie cinétique — vitesse en fonction de x",
+    "Frottement sur plan incliné — valeur de f et de V₀",
+    "Énergie mécanique — plan de référence du potentiel de pesanteur",
+    "Énergies Ec et Ep — expressions et représentation graphique",
+    "Énergie mécanique totale — courbe E = h(x)",
+    "Projectile après plan incliné — caractéristiques de la vitesse en A",
+    "Mouvement parabolique — équations paramétriques après départ du plan"
+  ],
+  "bac-c-2005-sn-pc-ex5": [
+    "Circuit RLC série — impédance Z en fonction de r, C, L et ω",
+    "Impédances — calcul de Z, Z₁ (bobine) et Z₂ (condensateur)",
+    "Diagramme de Fresnel — déphasage tension-courant et résistance r",
+    "Résonance — inductance L pour C et N₀ donnés",
+    "Résonance d'intensité — intensité efficace I₀",
+    "Courbe I(N) — variation de l'intensité avec la fréquence",
+    "Rapport I/I₀ — expression en fonction de Q et ω/ω₀",
+    "Facteur de qualité — définition Q = Lω₀/r"
+  ],
+  "bac-c-2005-sc-pc-ex1": [
+    "Estérification propanol-acide éthanoïque — équation et nom",
+    "Quantités de matière — n₁ et n₂ des réactifs initiaux",
+    "Équilibre d'estérification — composition molaire à l'équilibre",
+    "Constante d'équilibre K — déduction des quantités à l'équilibre",
+    "Vitesse instantanée de formation de l'ester — à t = 30 min",
+    "Temps de demi-réaction — détermination graphique",
+    "Déplacement d'équilibre — ajout d'alcool pour plus d'ester",
+    "Élimination de l'eau — composition finale du mélange"
+  ],
+  "bac-c-2005-sc-pc-ex2": [
+    "Base faible — définition de la méthylamine",
+    "Réaction base-eau — équation et espèces en solution",
+    "Mélange base-acide fort — espèces et concentrations en fonction de V₂",
+    "Rapport [base]/[acide] — déduction de V₂ pour pH = 10",
+    "pH = pKa — volume V₂ pour demi-équivalence",
+    "Couple CH₃NH₃⁺/CH₃NH₂ — pKa à 25 °C",
+    "Concentrations négligeables — approximation [H₃O⁺] et [OH⁻]",
+    "Dosage partiel d'une base faible par acide fort"
+  ],
+  "bac-c-2005-sc-pc-ex3": [
+    "Enregistrement chronophotographique — nature du mouvement et accélération",
+    "Force motrice F — frottement ou non sur AB",
+    "Réaction de la piste — intensité et angle α avec la verticale",
+    "Vitesse au point B — calcul après phase rectiligne",
+    "Trajectoire curviligne sans frottement — vitesse au point C",
+    "Réaction normale — valeur au point C sur arc de cercle",
+    "Mouvement de projectile — équation de trajectoire après C",
+    "Projectile — coordonnées des points extrêmes de la trajectoire"
+  ],
+  "bac-c-2005-sc-pc-ex4": [
+    "Inductance de solénoïde — formule en R, l et N",
+    "Force électromotrice d'auto-induction — pour i(t) donné",
+    "f.e.m. d'auto-induction — valeurs selon graphe i(t)",
+    "Circuit RL — équation différentielle à l'établissement",
+    "Solénoïde — caractéristiques géométriques et N spires",
+    "Courant i₁(t) et i₂(t) — calcul de e pour expressions données",
+    "Établissement du régime permanent — interrupteur fermé à t = 0",
+    "Représentation graphique e(t) — sur intervalle [0 ; 0,7] s"
+  ],
+  "bac-c-2005-sc-pc-ex5": [
+    "Interférences de Young — observation avec source monochromatique",
+    "Distance entre fentes — calcul à partir de frange et de D",
+    "Interfrange — calcul et nature des franges en x₁ et x₂",
+    "Deux radiations — première coïncidence de franges brillantes",
+    "Lumière blanche — longueurs d'onde éteintes en un point P",
+    "Fentes de Young — géométrie S, S₁, S₂ et écran E",
+    "Frange brillante — position du milieu de la 5ᵉ frange",
+    "Spectre visible — bornes 0,4 µm et 0,8 µm"
+  ],
+  "bac-c-2006-sn-pc-ex1": [
+    "Demi-équations redox — iodure et peroxodisulfate",
+    "Concentrations initiales — après mélange de volumes",
+    "Réactif limitant — déduction des quantités initiales",
+    "Méthode de la trempe — rôle du refroidissement des prélèvements",
+    "Vitesse moyenne de formation du diiode — entre t₁ et t₂",
+    "Vitesse instantanée du diiode — calcul à t = 20 min",
+    "Vitesse de disparition de l'iodure — lien avec formation du I₂",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-c-2006-sn-pc-ex4": [
+    "Solénoïde — schéma, sens du courant et champ B au centre",
+    "Aiguille aimantée — angle de déviation dans le solénoïde",
+    "Flux magnétique — expression à travers bobine carrée",
+    "f.e.m. induite — valeur maximale pour courant variable",
+    "Oscilloscope en circuit ouvert — allure de la tension induite",
+    "Circuit RL série — tension UCD aux bornes de la bobine",
+    "Courant cosinusoïdal — champ magnétique créé par solénoïde",
+    "Induction mutuelle — bobine plate dans champ variable"
+  ],
+  "bac-c-2006-sn-pc-ex5": [
+    "Circuit RLC — tensions maximales et fréquence du générateur",
+    "Déphasage intensité-tension — avance ou retard",
+    "cos φ — expression en fonction de R, r, L et impédances",
+    "Résistances R et r — calcul à partir de l'ampèremètre",
+    "Résonance d'intensité — identification par trois voltmètres",
+    "Fréquence de résonance N₂ — expression et calcul",
+    "Circuit sans résistor — Fresnel et nature du circuit",
+    "Inductance L et capacité C — déduction à N₃ = 55,7 Hz"
+  ],
+  "bac-c-2006-sc-pc-ex1": [
+    "Concentration en H₃O⁺ — pour solutions de même pH",
+    "Acide fort vs faible — identification à concentration et pH donnés",
+    "Dissolution d'acide dans l'eau — équations pour A1H et A2H",
+    "pKa du couple — déduction pour acide faible A2H",
+    "Dosage acide faible par soude — volume à l'équivalence",
+    "Espèces à l'équivalence — présence résiduelle d'acide faible",
+    "pH après ajout partiel de soude — calcul à 40 mL versés",
+    "Formule semi-développée — identification de l'acide A2H"
+  ],
+  "bac-c-2006-sc-pc-ex2": [
+    "Ester — formule brute à partir de la masse molaire",
+    "Isomères d'ester — formules semi-développées et noms",
+    "Acides et alcools — correspondance avec chaque ester",
+    "Saponification — identification de A et ion carboxylate B",
+    "Rendement de saponification — calcul à partir de masse obtenue",
+    "Réaction d'hydrolyse basique — bilan et produits",
+    "Volume d'ester — stœchiométrie du dosage",
+    "Masse molaire — déduction du rendement r = nB/nE"
+  ],
+  "bac-c-2006-sc-pc-ex3": [
+    "Force de gravitation sur satellite — caractéristiques",
+    "Orbite circulaire — mouvement uniforme du satellite",
+    "Vitesse orbitale — en fonction de g₀, R, r ou G, M, r",
+    "Satellite géostationnaire — plan et altitude de l'orbite",
+    "Vitesse angulaire et linéaire — satellite géostationnaire",
+    "Masse de la Terre — calcul à partir de T et r",
+    "Champ gravitationnel — lien vitesse et rayon orbital",
+    "Constante G — application numérique"
+  ],
+  "bac-c-2006-sc-pc-ex5": [
+    "Désintégration α du plutonium 238 — équation nucléaire",
+    "Loi de décroissance radioactive — définition de la période",
+    "Activité — relation avec T et nombre de noyaux N",
+    "Particule α dans champ B — sens du champ pour sortie en R",
+    "Mouvement dans champ B — nature circulaire uniforme",
+    "Vitesse de sortie — calcul au point R du carré",
+    "Constante radioactive λ — déduction de la période",
+    "Charge et masse de la particule α — application au MCUA"
+  ],
+  "bac-c-2007-sn-pc-ex2": [
+    "Acide carboxylique faible — identification par pH et concentration",
+    "Dissolution d'acide faible — équation bilan avec l'eau",
+    "Réaction endothermique — effet de la température sur le pH",
+    "Dilution d'acide faible — effet sur le coefficient d'ionisation",
+    "Oxydation d'alcool primaire — masse molaire de l'alcool A",
+    "Dosage de l'acide obtenu — volume de soude à l'équivalence",
+    "Formule semi-développée — alcool primaire oxydé en acide",
+    "Concentration 0,1 mol/L — pH = 3 à 25 °C"
+  ],
+  "bac-c-2007-sn-pc-ex3": [
+    "Force horizontale constante — vitesse VB en fonction de F, l, m",
+    "Trajectoire circulaire — vitesse en M en fonction de θ",
+    "Réaction normale sur arc — expression en fonction de θ",
+    "Force minimale Fm — condition pour atteindre le point C",
+    "Décrochage en D — angle θ₀ et vitesse VD",
+    "Projectile — équation de trajectoire dans repère (D;x;y)",
+    "Point d'impact — abscisse sur plan horizontal AB",
+    "Énergie mécanique — passage de rectiligne à circulaire"
+  ],
+  "bac-c-2007-sn-pc-ex5": [
+    "Résonance RLC — relation entre L et C à N₀",
+    "Résistance R — calcul à U et I₀ donnés",
+    "Oscilloscope bicourbe — grandeurs sur voies 1 et 2",
+    "Déphasage — mesure par décalage horizontal",
+    "Inductance L — déduction du déphasage à N₀",
+    "Capacité C — retour à la première expérience",
+    "Diagramme de Fresnel — impédances à N = 50 Hz",
+    "Déphasage u-i — déduction graphique à fréquence fixe"
+  ],
+  "bac-c-2007-sc-pc-ex1": [
+    "Dissolution de NaOH — équation et ions en solution",
+    "Concentration OH⁻ et H₃O⁺ — comparaison dans solution basique",
+    "Masse d'hydroxyde — calcul à partir de pH et volume",
+    "Dilution de solution basique — volumes SB et eau",
+    "Courbes pH = f(t) — comparaison acide fort et faible",
+    "Concentrations C1 et C2 — dosages de A1H et A2H",
+    "pKa de l'acide faible — déduction graphique",
+    "Indicateur coloré — choix pour chaque dosage"
+  ],
+  "bac-c-2007-sc-pc-ex2": [
+    "Aldéhyde 2-méthylbutanal — formule et fonction",
+    "Oxydation au dichromate — équation bilan en milieu acide",
+    "Cétone 3-méthylbutan-2-one — formule et fonction",
+    "Cétone — alcool d'oxydation ménagée correspondant",
+    "Hydratation d'alcène — hydrocarbure précurseur",
+    "Tests d'identification — commun et différenciant pour isomères",
+    "Isomérie C5H10O — aldéhyde vs cétone",
+    "Groupement carbonyle — encadrement sur formule semi-développée"
+  ],
+  "bac-c-2007-sc-pc-ex3": [
+    "Système masse-ressort horizontal — bilan des forces",
+    "Système masse-ressort — caractère conservatif",
+    "Énergie mécanique — expression en K, m, x et V",
+    "Énergie mécanique — en fonction de K et x₀ seuls",
+    "Vitesse — expression en fonction de K, m et x",
+    "Énergie potentielle élastique — forme aV² + b",
+    "Constantes m et K — déduction de Epe = f(V)",
+    "Vitesse au passage par équilibre — calcul"
+  ],
+  "bac-c-2007-sc-pc-ex5": [
+    "Interfrange — définition et calcul à partir de franges",
+    "Longueur d'onde — déduction de i et de D",
+    "Deux radiations — observation sur écran",
+    "Coïncidence de franges brillantes — distance de la frange centrale",
+    "Lumière blanche — observation sur écran E",
+    "Spectroscope — franges brillantes en un point donné",
+    "Géométrie Young — fentes à 3 mm, écran à 3 m",
+    "Troisième frange brillante — distance entre maxima symétriques"
+  ],
+  "bac-c-2008-sn-pc-ex2": [
+    "Acide nitrique fort — équation de dissolution",
+    "Solution commerciale HNO₃ — concentration à partir de densité et % masse",
+    "Dilution — volume commercial pour pH = 1,5",
+    "Éthanoate de sodium — concentration de solution",
+    "Base faible ou forte — justification par pH = 8,9",
+    "Réaction éthanoate-eau — équation et couples acide-base",
+    "Masse molaire — calcul de concentration",
+    "Données molaires — application H, O, N, Na"
+  ],
+  "bac-c-2008-sn-pc-ex4": [
+    "Solénoïde — champ B direction sens et valeur",
+    "Coefficient d'auto-induction — calcul du solénoïde",
+    "Variation de flux — lors de l'extinction du courant",
+    "f.e.m. moyenne — pendant la rupture du courant",
+    "f.e.m. d'auto-induction — valeurs selon graphe i(t)",
+    "Courant dans solénoïde — schéma sens courant et B",
+    "Flux à travers spires — loi Φ = L·i",
+    "Graphique e(t) — représentation des variations"
+  ],
+  "bac-c-2008-sn-pc-ex5": [
+    "Courbe de résonance I(N) — fréquence N₀ et inductance L",
+    "Résonance aiguë vs floue — identification des courbes",
+    "Rapport R₁/R₂ — déduction des courbes de résonance",
+    "Oscilloscope — nature du circuit à N₁ = 72 Hz",
+    "Facteur de puissance — calcul du circuit",
+    "Valeurs R₁, R₂ et U — déduction des mesures",
+    "Facteur de qualité — à la résonance d'intensité",
+    "Circuit RLC série — tension efficace constante"
+  ],
+  "bac-c-2008-sc-pc-ex1": [
+    "Réaction I⁻ et H₂O₂ — équation bilan redox",
+    "Concentrations initiales — réactif limitant à t = 0",
+    "Vitesse instantanée du diiode — calcul à t = 200 min",
+    "Facteur cinétique — variation de la vitesse dans le temps",
+    "Concentration à l'infini — [I₂]∞ et accord avec courbe",
+    "Temps de demi-réaction — détermination graphique",
+    "Potentiels standard — couples I₂/I⁻ et H₂O₂/H₂O",
+    "Mélange acide-iodure-peroxyde — quantités initiales"
+  ],
+  "bac-c-2008-sc-pc-ex2": [
+    "Classement de bases — par pH de solutions de même C",
+    "Hydroxyde de sodium — identification de la base forte",
+    "Concentration de solution forte — calcul à partir du pH",
+    "pKa de base faible — expression en pH, C et pKe",
+    "Identification de bases faibles — tableau de pKa",
+    "Solutions non étiquetées — méthode par mesure de pH",
+    "pH des solutions S1, S2, S3 — comparaison",
+    "Dissolution de base dans l'eau — espèces en solution"
+  ],
+  "bac-c-2008-sc-pc-ex3": [
+    "Enregistrement chronophotographique — vitesses aux points Ai",
+    "Graphique v(t) — représentation à partir des mesures",
+    "Force de frottement f — calcul par RFD",
+    "Force de frottement f — calcul par énergie entre A1 et A6",
+    "Mobile sur table — force motrice F = 1 N",
+    "Intervalle de temps — θ = 60 ms entre positions",
+    "Théorème de l'énergie cinétique — application expérimentale",
+    "Relation fondamentale de la dynamique — sur trajet horizontal"
+  ],
+  "bac-c-2008-sc-pc-ex4": [
+    "Ion He²⁺ dans champ B — sens de B et trajectoire circulaire",
+    "Vitesse d'injection V₀ — calcul et caractéristiques en R",
+    "Tension accélératrice U — calcul pour ions hélium",
+    "Isotopes ⁶Li⁺ et ⁷Li⁺ — relation V/V' = √(m/m')",
+    "Distance MA entre traces — expression et calcul numérique",
+    "Accélération par champ E — vitesse en fonction de U' et m",
+    "Déviation magnétique — rayon en fonction de m, q, B, V",
+    "Spectrométrie de masse — séparation d'isotopes du lithium"
+  ],
+  "bac-c-2008-sc-pc-ex5": [
+    "Longueur d'onde — calcul à partir de N et c",
+    "Stroboscope — aspect de la corde pour diverses Ne",
+    "Équation horaire yO — source à l'extrémité O",
+    "Élongation yM — en fonction de x et t",
+    "Points en phase avec O — abscisses et nombre",
+    "Points en opposition de phase — abscisses et nombre",
+    "Aspect de la corde — représentation à t = 0,03 s",
+    "Onde transversale — célérité et absence de réflexion"
+  ],
+  "bac-c-2009-sn-pc-ex1": [
+    "Vitesse instantanée de formation d'aspirine — définition et calcul",
+    "Temps de demi-réaction — définition et valeur graphique",
+    "Dosage de l'aspirine — équivalence avec indicateur coloré",
+    "Réaction acide-base du dosage — équation bilan",
+    "Concentration de solution S — calcul à partir de VBE",
+    "Masse d'acide par comprimé — déduction du dosage",
+    "Synthèse d'aspirine — chlorure d'acétyle et acide salicylique",
+    "Courbe de suivi — évolution de la réaction dans le temps"
+  ],
+  "bac-c-2009-sn-pc-ex2": [
+    "Alcool C3H7OH — isomères, noms et classes",
+    "Oxydation par dichromate — produit et test DNPH",
+    "Identification alcool primaire/secondaire — expérience complémentaire",
+    "Précipité jaune DNPH — fonction cétone ou aldéhyde",
+    "Demi-équations redox — dichromate en milieu acide",
+    "Isomères propanol — formules semi-développées",
+    "Test différenciant — liqueur de Fehling ou autre",
+    "Couple redox Cr₂O₇²⁻/Cr³⁺ — teinte verte"
+  ],
+  "bac-c-2009-sn-pc-ex3": [
+    "Masse-ressort horizontal — équation différentielle du mouvement",
+    "Pulsation du mouvement — déduction de a + 400x = 0",
+    "Équation horaire — mouvement sinusoïdal du solide",
+    "Onde sur corde — longueur d'onde à partir de T et c",
+    "Points P et Q sur corde — comparaison de phase avec G",
+    "Propagation transversale — célérité C = λ/T",
+    "Excitation sinusoïdale — amplitude et conditions initiales",
+    "Ressort sur tige — raideur K = 40 N/m"
+  ],
+  "bac-c-2009-sn-pc-ex5": [
+    "Impédance au carré — expression théorique Z²(ω)",
+    "Graphe Z² = f(ω²) — déduction de r et L",
+    "Intensité efficace — calcul à ω = 50 rad/s",
+    "Résonance série — capacité C pour I maximale",
+    "Puissance moyenne P₀ — à la résonance",
+    "Demi-puissance — relation I = I₀/√2",
+    "Bobine réelle — modèle r + L en série",
+    "Tension efficace constante — U = 150 V"
+  ],
+  "bac-c-2009-sc-pc-ex1": [
+    "Estérification — nom, équation et caractéristiques",
+    "Isomères C6H12O2 — formules et noms d'esters",
+    "Oxydation ménagée — identification alcool B par tests",
+    "Isomères de position et de fonction — dérivés de B",
+    "Formule de l'ester C — déduction de B et de l'acide",
+    "DNPH positive, Fehling négatif — cétone vs aldéhyde",
+    "Acide éthanoïque et alcool — réactifs de l'estérification",
+    "Classification des alcools — primaire, secondaire, tertiaire"
+  ],
+  "bac-c-2009-sc-pc-ex2": [
+    "Acide carboxylique en eau — équation bilan",
+    "Rapport [base]/[acide] — à partir de pH et pKa",
+    "Concentrations des espèces — solution d'acide faible",
+    "Concentration molaire de solution — à partir de masse dissoute",
+    "Formule semi-développée — identification de R-COOH",
+    "pH = 3 et pKa = 4,9 — degré d'ionisation",
+    "Dissolution 5,92 g dans 1 L — masse molaire implicite",
+    "Couple acide-base — relation de Henderson-Hasselbalch"
+  ],
+  "bac-c-2009-sc-pc-ex3": [
+    "Théorème de l'énergie cinétique — énoncé",
+    "Énergie cinétique Ec(x) — intervalle [0 ; 100 m] avec câble",
+    "Énergie cinétique Ec(x) — intervalle [100 ; 120 m] sans câble",
+    "Forces f et F — déduction du diagramme Ec(x)",
+    "Équilibre au point C — réaction totale de la piste",
+    "Énergie potentielle Epp(0) — théorème de l'énergie mécanique",
+    "Piste inclinée α = 30° — travail du câble et des frottements",
+    "Skieur m = 80 kg — énergie nulle en C"
+  ],
+  "bac-c-2009-sc-pc-ex4": [
+    "Distance entre fentes — calcul par angle d'observation",
+    "Interfrange — calcul et nature des franges en x₁, x₂",
+    "Différence de marche δ — expression en fonction de a, x, D",
+    "Coïncidence de franges — deux longueurs d'onde λ₁ et λ₂",
+    "Interférences Young — source monochromatique λ = 0,6 µm",
+    "Géométrie — écran à D = 2,5 m",
+    "Frange centrale — repère pour abscisses",
+    "Angle S1SS2 — méthode de mesure de a"
+  ],
+  "bac-c-2009-sc-pc-ex5": [
+    "Courant induit — sens selon variation de B(t)",
+    "Intensité du courant induit — pour t > 2 s",
+    "Flux magnétique — expression périodique à travers spire",
+    "f.e.m. induite e(t) — valeurs et courbe sur une période",
+    "Spire carrée en champ variable — loi de Lenz-Faraday",
+    "Oscilloscope — visualisation de la tension induite",
+    "Champ B(t) — lecture du graphe 1 et graphe 2",
+    "Norme de B — variation en fonction du temps"
+  ],
+  "bac-c-2010-sn-pc-ex3": [
+    "Rail de Laplace — orientation du champ B perpendiculaire",
+    "Circuit rail-barre — sens et intensité du courant",
+    "Force de Laplace — direction, sens et intensité sur MN",
+    "Flux balayé — calcul lors du déplacement de la barre",
+    "f.e.m. induite — mouvement de la barre en 1 ms",
+    "Barre mobile — court-circuit et f.é.m. E du générateur",
+    "Champ B = 0,2 T — dans entrefer d'aimant",
+    "Conducteur sur rails — équilibre des forces"
+  ],
+  "bac-c-2010-sn-pc-ex4": [
+    "Inductance théorique — formule du solénoïde",
+    "Inductance expérimentale — résonance à 50 Hz et C = 318 µF",
+    "Résistance R' de la bobine — déduction du circuit",
+    "Montage r + bobine — schéma et trois voltmètres",
+    "Diagramme de Fresnel — tensions u, u₁, u₂",
+    "Impédance de la bobine — calcul",
+    "Phase de u₂ par rapport à i — déduction",
+    "R et L de la bobine — calcul et puissance moyenne"
+  ],
+  "bac-c-2010-sn-pc-ex5": [
+    "Mouvement sinusoïdal — équation horaire à élongation maximale initiale",
+    "Stroboscope — fréquences Ne pour lame immobile (10 < Ne < 50)",
+    "Longueur d'onde — sur corde à c = 5 m/s",
+    "Équation de vibration — point M à distance x de O",
+    "État vibratoire — phase de M par rapport à O",
+    "Lame vibrante — N = 50 Hz, a = 0,5 cm",
+    "Onde progressive — sans réflexion ni amortissement",
+    "Éclairs stroboscopiques — synchronisation avec fréquence propre"
+  ],
+  "bac-c-2010-sc-pc-ex1": [
+    "Demi-équations redox — I₂/I⁻ et H₂O₂/H₂O",
+    "Quantités initiales — I⁻, H₂O₂, H₃O⁺ à t = 0",
+    "Réactif limitant — déduction des mélanges",
+    "Concentration maximale de I₂ — à partir du limitant",
+    "Potentiels standard — validation du sens de réaction",
+    "Mélange volumes — dilution des concentrations",
+    "Réaction lente — formation progressive du diiode",
+    "Acide sulfurique — rôle dans le milieu réactionnel"
+  ],
+  "bac-c-2010-sc-pc-ex2": [
+    "Composés organiques — noms et fonctions (A à D)",
+    "Oxydation ménagée d'un alcool — demi-équations et bilan",
+    "Produit d'oxydation — test DNPH et absence Fehling",
+    "Suivi spectrophotométrique — concentration de I₂ dans le temps",
+    "Concentration à long terme — accord avec bilan stoéchiométrique",
+    "Vitesse de formation du I₂ — calcul à t = 30 min",
+    "Vitesse de disparition des I⁻ — coefficient stœchiométrique",
+    "Alcool secondaire — oxydation en cétone"
+  ],
+  "bac-c-2010-sc-pc-ex3": [
+    "Bobine longue — intensité I pour B = 10⁻² T au centre",
+    "Aiguille aimantée — schéma sens du courant et position",
+    "Champ résultant — superposition aimant + bobine",
+    "Angle α de l'aiguille — avec Ba = 1,5×10⁻² T",
+    "Flux Φ(t) — bobine tournante à vitesse angulaire ω",
+    "Flux initial Φ₀ — normale parallèle à B",
+    "Flux à t = 0,25 s — calcul numérique",
+    "Rotation de bobine — Φ = NBScos(ωt)"
+  ],
+  "bac-c-2010-sc-pc-ex4": [
+    "Noyau radioactif — définition",
+    "Polonium 210 — composition du noyau",
+    "Désintégration α — équation nucléaire",
+    "Loi N(t) = N₀e⁻λt — vérification graphique",
+    "Graphique -ln[N/N₀] — pente et constante λ",
+    "Tableau de mesures — complétion des -ln[N/N₀]",
+    "Activité et période — relation avec λ",
+    "Classification périodique — symboles Th, Pb, Bi, Po"
+  ],
+  "bac-c-2010-sc-pc-ex5": [
+    "Oscillateur masse-ressort — équation différentielle par RFD",
+    "Solution x = xm cos(2πt/T + φ) — amplitude et phase",
+    "Période propre T₀ — lecture graphique et formule",
+    "Raideur k — déduction de T₀, m et k",
+    "Énergies Ep, Ec et E — expressions et conservation",
+    "Vitesse au passage par équilibre — calcul par énergie",
+    "Courbes E, Ep, Ec(t) — identification sur schéma",
+    "Enregistrement x(t) — détermination de xm et φ"
+  ],
+  "bac-c-2011-sn-pc-ex2": [
+    "HCl gazeux en eau — équation et quantité d'H₃O⁺ par litre",
+    "Volume de gaz HCl — calcul avec Vm = 24 L/mol",
+    "Acide éthanoïque faible — équation et n₁ dans 10 mL",
+    "Dilution — protocole pour passer de C1 à C2",
+    "Effet de dilution — comparaison n₁ et n₂ d'ions H₃O⁺",
+    "Dilution d'acide fort — pH de la solution diluée",
+    "pH acide faible vs fort — à concentrations comparables",
+    "Acide chlorhydrique — pH = 2,1"
+  ],
+  "bac-c-2011-sn-pc-ex3": [
+    "Plan incliné — calcul de l'angle α par géométrie",
+    "Énergie cinétique — variation O→B sans frottement",
+    "Travail des forces — interprétation du résultat",
+    "Frottement — valeur par théorème de l'énergie cinétique",
+    "Énergie mécanique E(x) — expression graphique et théorique",
+    "Plan de référence Ep — position par rapport à O",
+    "Expressions Ep(x) et Ec(x) — position où Ec = Ep",
+    "Chronométrage A→C — vitesse instantanée en B"
+  ],
+  "bac-c-2011-sn-pc-ex5": [
+    "Circuit RLC — résistance R et impédance ZL",
+    "Tension aux bornes du condensateur — UQN et ZC",
+    "Déphasage tension-courant — calcul",
+    "Puissance moyenne — circuit RLC série",
+    "Résonance en phase — pulsation ω₀ et L, C",
+    "Mesures efficaces — I, UMP, UPQ à ω fixé",
+    "Tension d'alimentation — UMN = 120 V constant",
+    "Impédance du condensateur — comparaison avec bobine"
+  ],
+  "bac-c-2011-sc-pc-ex1": [
+    "Hydrolyse d'ester — identification fonctions de A, B, C",
+    "Composé A — masse molaire par dosage de 3 g",
+    "Composé B — formule et nom par oxydation et tests",
+    "Ester E C6H12O2 — formule et nom",
+    "Équation bilan — hydrolyse de E",
+    "Tests organiques — permanganate, DNPH, Fehling",
+    "Dosage acide A — soude 0,5 mol/L, 100 mL",
+    "Couples acide-base — espèces après hydrolyse"
+  ],
+  "bac-c-2011-sc-pc-ex2": [
+    "Indicateur HInd — degré de dissociation par pH",
+    "Constante Ka — calcul et pKa du couple HInd/Ind⁻",
+    "Identification d'indicateur — tableau zone de virage",
+    "HCl concentré 33% — dilution 1000 fois",
+    "Dosage S1 — équation et concentration C1",
+    "Concentration C0 — solution commerciale d'acide",
+    "Équivalence — relation C1 V1 = CB VE",
+    "Acide fort commercial — étiquette en masse %"
+  ],
+  "bac-c-2011-sc-pc-ex3": [
+    "Force de gravitation — expression vectorielle sur satellite",
+    "Mouvement circulaire — vitesse du satellite",
+    "Satellite le plus rapide — choix justifié parmi quatre propositions",
+    "Période de révolution — expression en fonction de r, M, G",
+    "Troisième loi de Kepler — établissement T²/r³ = constante",
+    "Masse de Jupiter — déduction de la droite T² = f(r³)",
+    "Graphique (r³, T²) — vérification linéaire",
+    "Symétrie sphérique — hypothèse sur répartition de masse"
+  ],
+  "bac-c-2011-sc-pc-ex4": [
+    "Force de Laplace — équilibre avec tension du fil",
+    "Sens du courant — déduction de la force sur MN",
+    "Intensité du champ B — calcul à l'équilibre horizontal",
+    "Rails inclinés α = 30° — B pour nouvel équilibre",
+    "Mouvement sous Laplace — nature et accélération OA",
+    "Vitesse au point A — après parcours dans champ",
+    "Durée O→C — parcours au-delà de la zone de champ",
+    "Conducteur sur rails — masse m = 40 g, I = 10 A"
+  ],
+  "bac-c-2011-sc-pc-ex5": [
+    "Interfrange — définition",
+    "Distance D1 et λ — déduction de i₁ et i₂",
+    "Champ d'interférences — largeur l et hachurage",
+    "Nombre de franges — brillantes et sombres sur écran",
+    "Coïncidence de franges — λ et λ' = 0,64 µm",
+    "Sources en concordance de phase — interférences constructives",
+    "Fentes à a = 2 mm — écran à distance D",
+    "Angle d'ouverture α — géométrie des faisceaux"
+  ],
+  "bac-c-2012-sn-pc-ex4": [
+    "Établissement du courant — f.e.m. d'auto-induction e(t)",
+    "Équation différentielle — circuit RL à t = 0",
+    "f.e.m. à t = 0 — déduction de L",
+    "Régime permanent — résistance r de la bobine",
+    "Champ magnétique — valeur dans le solénoïde",
+    "Flux dans bobine S' — induction mutuelle",
+    "f.e.m. dans S' — décroissance affine du courant",
+    "Rotation de bobine S — flux et f.e.m. maximales"
+  ],
+  "bac-c-2012-sn-pc-ex5": [
+    "Montage oscilloscope — schéma voies A et B",
+    "Tension excitatrice — Um, ω et fréquence N",
+    "Décalage temporel Δt — retard ou avance de u sur uR",
+    "Tension uR(t) — expression à partir de l'oscillogramme",
+    "Intensité i(t) — déduction de uR = Ri",
+    "Impédance du circuit — et résistance r de bobine",
+    "Résonance d'intensité — fréquence N₀ et Im",
+    "Déphasage u-uR — selon N vs N₀"
+  ],
+  "bac-c-2012-sc-pc-ex1": [
+    "2-méthylbutanoate d'éthyle — formule semi-développée",
+    "Isomère d'ester — même alcool, autre acide",
+    "Synthèse d'ester — acide et alcool correspondants",
+    "Hydrolyse d'ester — équation bilan",
+    "Déplacement d'équilibre — technique pour plus d'acide",
+    "Cinétique d'hydrolyse — facteur pour accélérer la réaction",
+    "Ester dans les pommes — contexte du composé naturel",
+    "Réaction lente d'hydrolyse — caractéristique"
+  ],
+  "bac-c-2012-sc-pc-ex2": [
+    "Courbe pH = f(VB) — volume VE et pH à l'équivalence",
+    "Concentration CA — valeur approchée par dosage",
+    "Masse molaire et nom — acide carboxylique",
+    "Espèces en solution — à VB = 2 mL",
+    "Dosage acide faible — soude 0,1 mol/L",
+    "Point d'équivalence — lecture graphique",
+    "pH après ajout partiel de base — calcul",
+    "Dissolution 7,4 g dans 1 L — préparation"
+  ],
+  "bac-c-2012-sc-pc-ex3": [
+    "Énergie cinétique Ec(x) — théorème entre B et M",
+    "Force de frottement f — déduction du diagramme",
+    "Abscisse xA — point de départ sans vitesse initiale",
+    "Chute parabolique — conservation de l'énergie mécanique",
+    "Énergie mécanique Em — calcul avant chute",
+    "Vitesse à l'impact I — déduction de Em",
+    "Plan incliné α = 10° — entre A et O",
+    "Diagramme Ec(x) — lecture expérimentale"
+  ],
+  "bac-c-2012-sc-pc-ex4": [
+    "Accélération d'ions — vitesse VB en fonction de U et m",
+    "Déviation magnétique — mouvement circulaire",
+    "Distance BC — expression en m, n, e, U, B",
+    "Identification de l'élément X — comparaison BC calculé",
+    "Isotopes Ni²⁺, Al³⁺, Ag⁺ — distances BC numériques",
+    "Chambre d'ionisation — production d'ions Xn+",
+    "Spectrométrie de masse — principe P1-P2-B-C",
+    "Charge élémentaire e — dans les expressions"
+  ],
+  "bac-c-2013-sn-pc-ex4": [
+    "Amine en eau — équation bilan de réaction",
+    "Dosage par HNO₃ — équation et concentration Cb",
+    "pKa du couple — déduction à pH = 11,8",
+    "Masse molaire de l'amine — à partir de 1,8 g dans 0,4 L",
+    "Formules semi-développées — classes et noms possibles",
+    "Solution tampon — volumes Va et Vb à mélanger",
+    "Acide nitrique commercial — concentration C à 65% masse",
+    "Équivalence acido-basique — Va = 40 mL pour Vb = 20 mL"
+  ],
+  "bac-c-2014-sn-pc-ex1": [
+    "HCl en eau — équation et pH de solution 0,1 mol/L",
+    "Amine RNH₂ en eau — réaction partielle ou totale",
+    "Solution tampon pH = 10,8 — volumes Va et Vb",
+    "Réaction de mélange — équation bilan acide + amine",
+    "Espèces en solution tampon — concentrations et pKa",
+    "Base amine faible — pH = 11,4 à Cb donnée",
+    "Préparation 116 mL — calcul des volumes",
+    "Couple RNH₃⁺/RNH₂ — constante d'acidité"
+  ],
+  "bac-c-2014-sn-pc-ex2": [
+    "Quantités initiales — acide méthanoïque et propan-2-ol",
+    "Estérification — équation et nom du produit",
+    "Effet de la température — sur l'équilibre d'estérification",
+    "Composition à l'équilibre — à partir de masse d'acide restante",
+    "Constante K — calcul à l'équilibre",
+    "Déplacement d'équilibre — ajout de réactifs",
+    "Vitesse instantanée — définition et valeur à t = 20 min",
+    "Vitesse moyenne — entre t = 10 et 40 min"
+  ],
+  "bac-c-2014-sn-pc-ex3": [
+    "Énergie potentielle Epp(z) — expression avec Epp0",
+    "Courbe Epp = az + b — déduction de g, Epp0 et z₀",
+    "Vitesse en C — expression en r, L, α et g",
+    "Réaction normale en C — sur trajectoire circulaire",
+    "Décrochage en C — valeur de L",
+    "Frottement sur BA — diagramme Ec(x)",
+    "Frottement f — calcul par énergie cinétique",
+    "Piste inclinée puis arc — énergie du système {S, terre}"
+  ],
+  "bac-c-2014-sn-pc-ex4": [
+    "Montage RLC — branchement oscilloscope",
+    "Période et fréquence — lecture oscillogramme",
+    "Tensions maximales — voies 1 et 2",
+    "Valeurs efficaces — voltmètre et ampèremètre",
+    "Résonance ou déphasage — déduction de r et L",
+    "Modification de C — avance de phase de u sur i",
+    "Charge de condensateur — Q et énergie W",
+    "Oscillations libres LC — charge q(t) et i(t)"
+  ],
+  "bac-c-2014-sn-pc-ex5": [
+    "Mouvement sinusoïdal — équation horaire de l'extrémité A",
+    "Corde fixée à lame — rôle du liquide (anti-réflexion)",
+    "Stroboscope N = 100 Hz — célérité sur corde",
+    "Temps de propagation — onde jusqu'au point M",
+    "Équation du mouvement de M — à 12,5 cm de S",
+    "Diagrammes yS(t) et yM(t) — retard et phase",
+    "Lame électromagnétique — pulsation ω = 200π rad/s",
+    "Période spatiale λ = 10 cm — déduction de c"
+  ],
+  "bac-c-2016-sn-pc-ex1": [
+    "Amine B en eau — équation bilan",
+    "Dosage HNO₃ — concentration Cb de la solution S",
+    "pKa — à pH = 11,8 de la solution d'amine",
+    "Masse molaire — formules et classes de l'amine",
+    "Solution tampon 40 mL — volumes acide et base",
+    "HNO₃ commercial — concentration à 65% masse",
+    "Équivalence — Va = 40 mL pour Vb = 20 mL",
+    "Réaction acide-amine — lors du dosage"
+  ],
+  "bac-c-2016-sn-pc-ex2": [
+    "Hydrolyse ester C5H10O2 — acide éthanoïque et composé A",
+    "Famille du composé A — alcool par hydrolyse",
+    "Oxydation de A — produit B (DNPH+, Fehling-)",
+    "Formules de A et B — identification",
+    "Ester E — formule semi-développée et nom",
+    "Hydrolyse — équation et caractéristiques",
+    "Acide éthanoïque → chlorure d'éthanoyle — équation",
+    "Chlorure d'éthanoyle + éthylamine — amidation"
+  ],
+  "bac-c-2016-sn-pc-ex3": [
+    "Bobine sur ressort — forces de Laplace et équilibre",
+    "Champ B — expression en k, Δl, m, g, a, I, N",
+    "Entrée de bobine dans champ — surface immergée",
+    "Flux et f.e.m. — translation à vitesse constante",
+    "Rotation ω = 40 rad/s — flux et f.e.m. sinusoïdaux",
+    "Valeurs maximales — flux et f.e.m. induite",
+    "Forces sur spires — F_CD, F_AC, F_DE",
+    "Coupe du courant — chute du ressort"
+  ],
+  "bac-c-2016-sn-pc-ex4": [
+    "Skieur sur AB — vitesse VB pour arriver en C avec v = 0",
+    "Force F constante — valeur pour atteindre VB",
+    "Mouvement B→C — nature sans force motrice",
+    "Arc DE — vitesse VM en fonction de θ",
+    "Réaction sur piste — expression en M sur arc",
+    "Projectile après E — équation de trajectoire",
+    "Point de chute P — abscisse sur le sol",
+    "Énergie mécanique — piste inclinée α = 60°"
+  ],
+  "bac-c-2017-sc-pc-ex1": [
+    "Tableau de composés — formules et fonctions organiques",
+    "Précurseurs de B et C — noms et fonctions",
+    "Réactions de synthèse — équations pour A, B, C",
+    "Chiralité — identification et énantiomères",
+    "Ester, anhydride, chlorure, amide — nomenclature",
+    "Isomérie — propanoate et dérivés méthylés",
+    "Fonctions organiques — association nom-structure",
+    "Énantiomères — représentation des deux formes"
+  ],
+  "bac-c-2017-sc-pc-ex2": [
+    "Dosage de trois acides — équation avec soude",
+    "Volumes à l'équivalence — relation entre concentrations",
+    "Acide le plus fort — identification A3H",
+    "Dilution au dixième — ΔpH = 1 pour acide fort",
+    "Acides faibles A1H et A2H — justification",
+    "Concentrations C1, C2, C3 et CB — calculs",
+    "Comparaison des courbes de dosage — méthode",
+    "Solutions S1, S2, S3 — même volume Va dosé"
+  ],
+  "bac-c-2017-sc-pc-ex3": [
+    "Particule dans champ E — équation de trajectoire",
+    "Vitesse de sortie — coordonnées et tan α₁",
+    "Quotient q/(mV₀²) — expression en champ E",
+    "Champ B — arc de cercle et rayon",
+    "Quotient q/(mV₀) — en fonction de α₂, B et l",
+    "Charge massique q/m — calcul numérique",
+    "Vitesse V₀ — déduction des déviations α₁ = α₂",
+    "Enchaînement E puis B — spectrographie"
+  ],
+  "bac-c-2017-sc-pc-ex4": [
+    "Solénoïde — champ B à l'intérieur pour I = 0,6 A",
+    "Extinction du courant — variation de flux en 0,04 s",
+    "f.e.m. moyenne — bobine interne 50 spires",
+    "f.e.m. par intervalles — lecture graphe i(t)",
+    "Flux à travers petite bobine — calcul de ΔΦ",
+    "Induction — loi e = -dΦ/dt",
+    "Courant variable i(t) — intervalles [0;4], [4;8], etc.",
+    "Caractéristiques du solénoïde — N = 500, l = 40 cm"
+  ],
+  "bac-c-2018-sn-pc-ex4": [
+    "Lame vibrante — équation horaire de la source O",
+    "Équation horaire — point M à distance x",
+    "Phase relative — M à x = 2,25 cm par rapport à O",
+    "Fourche à deux branches — équation de superposition",
+    "Interférences — positions des maxima d'amplitude",
+    "Célérité C = 50 cm/s — longueur d'onde",
+    "Fréquence f = 50 Hz — pulsation ω",
+    "Distance S1S2 = 3,5 cm — interférences localisées"
+  ],
+  "bac-c-2019-sn-pc-ex2": [
+    "Acide RCOOH — concentration et masse molaire par dosage",
+    "Formule semi-développée — identification de l'acide",
+    "Acide propanoïque — coefficient α et pKa",
+    "Équilibre estérification — composition si 3,7 g d'acide formé",
+    "Constante K — déduction des masses à l'équilibre",
+    "Déplacement d'équilibre — ajout d'eau pour 0,12 mol d'acide",
+    "Dosage soude 0,02 mol/L — équivalence à 10 mL",
+    "Mélange propanoate d'éthyle-eau — bilan"
+  ],
+  "bac-c-2019-sn-pc-ex3": [
+    "Ion ⁶Li⁺ accéléré — vitesse V₀ pour U₀ = 1252,5 V",
+    "Champ B — sens pour sortie en S, mouvement MCU",
+    "Rayon r et déviation α — dans zone de largeur l",
+    "Champ E entre plaques — équation de trajectoire",
+    "Vitesse V₀ — recalcul dans zone électrique",
+    "Distance d entre armatures — condition de passage",
+    "Déviation combinée E et B — analyse de trajectoire",
+    "Charge q et masse m — particule positive"
+  ],
+  "bac-c-2020-sn-pc-ex3": [
+    "Plan incliné — nature du mouvement et équation horaire",
+    "Travail de la tension T — caractère moteur ou résistant",
+    "Travaux des autres forces — poids et réaction",
+    "Frottement f — déduction de F' = 162,5 N",
+    "Énergies Ep, Ec, Em — expressions entre A et B",
+    "Distance BC — arrêt en C après suppression de F",
+    "Force F sur corde — angle β avec pente",
+    "Applications numériques — m = 25 kg, α = 30°"
+  ]
+}

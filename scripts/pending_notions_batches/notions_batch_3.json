@@ -1,0 +1,636 @@
+{
+  "bac-d-2016-sn-math-ex3": [
+    "Dérivée d'une fonction auxiliaire g(x)=1-x+e^x",
+    "Signe de g(x) — étude des variations",
+    "Limites et asymptote oblique y=x-1",
+    "Lien f'(x)=g(x)/e^x — tableau de variation de f",
+    "Tangente parallèle à l'asymptote oblique",
+    "Primitive de f via H'(x)=f(x)-x+1",
+    "Aire entre courbe, asymptote et droites x=1 et x=3"
+  ],
+  "bac-d-2016-sn-math-ex4": [
+    "Fonction auxiliaire g(x)=x²-2+4ln x — bijection et signe",
+    "Encadrement de la solution α de g(x)=0",
+    "Limites en 0⁺ et +∞ — asymptote oblique x-1",
+    "Dérivée f'(x)=g(x)/x³ — tableau de variation",
+    "Tangente perpendiculaire à l'asymptote oblique",
+    "Discussion graphique — équation paramétrique en m",
+    "Intégration par parties de ∫(ln x)/x² dx",
+    "Aire sous la courbe entre x=1 et x=β"
+  ],
+  "bac-d-2016-sc-math-ex1": [
+    "Nature d'une suite géométrique de raison e/4",
+    "Limite d'une suite — majoration par (1/2)^n",
+    "Somme des termes d'une suite géométrique",
+    "Suite arithmétique — raison et terme initial",
+    "Suite croissante et majorée — convergence",
+    "Théorème des gendarmes — limite de w_n"
+  ],
+  "bac-d-2016-sc-math-ex2": [
+    "Factorisation d'un polynôme complexe P(z)",
+    "Résolution d'équation du 3e degré dans ℂ",
+    "Module et argument d'affixes — placement dans le plan",
+    "Nature d'un triangle — rapport de modules",
+    "Parallélogramme — affixe du quatrième sommet",
+    "Lieu |z-a/z-b|=1 — cercle de diamètre [AB]",
+    "Milieu de segment — nature du triangle IBC"
+  ],
+  "bac-d-2016-sc-math-ex3": [
+    "Limites en ±∞ — asymptote oblique x-1",
+    "Dérivée première et seconde — signe de f'",
+    "Tableau de variation d'une fonction avec e^x",
+    "Intersections courbe / axes de coordonnées",
+    "Primitive via relation f=f'-e^x+x-2",
+    "Aire du domaine limité par la courbe et les axes"
+  ],
+  "bac-d-2016-sc-math-ex4": [
+    "Limites en 0⁺ et +∞ — asymptote oblique",
+    "Tableau de variation de f(x)=x-2-ln x",
+    "Tangente au point d'abscisse e",
+    "Équation f(x)=0 — deux solutions et relation e^α/e^β",
+    "Bijection de la restriction sur [1;+∞[",
+    "Dérivée de la fonction réciproque",
+    "Intégration par parties de ∫ln x dx",
+    "Aire entre courbe, Ox et x=1, x=e"
+  ],
+  "bac-d-2017-sc-math-ex1": [
+    "Terme général d'une suite dérivée de u_n=2^n-2n",
+    "Nature et convergence de suites numériques",
+    "Somme des n premiers termes d'une suite",
+    "Suite géométrique — convergence",
+    "Suite w_n=ln(nv_n) — nature",
+    "Produit de factorielles — détermination de n"
+  ],
+  "bac-d-2017-sc-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Placement de points — affixes complexes",
+    "Nature du triangle et du quadrilatère OABC",
+    "Application f(z) — module et argument",
+    "Lieu |f(z)|=1 — cercle",
+    "Lieu f(z) imaginaire pur",
+    "Lieu |f(z)-1|=2 — cercle"
+  ],
+  "bac-d-2017-sc-math-ex3": [
+    "Limites en -∞ et +∞ — asymptote oblique x+2",
+    "Position relative courbe / asymptote",
+    "Variations de f' — signe de f'",
+    "Tableau de variation de f",
+    "Tangente parallèle à l'asymptote",
+    "Intégrales ∫e^{-x}dx et ∫xe^{-x}dx par parties",
+    "Aire entre asymptote, courbe et droites verticales",
+    "Discussion graphique — équation avec paramètre m"
+  ],
+  "bac-d-2017-sc-math-ex4": [
+    "Fonction u(x)=1+x ln x — variations et minimum",
+    "Limites en 0⁺ et 1± — interprétation graphique",
+    "Décomposition de f(x) — asymptote horizontale y=2",
+    "Dérivée f'(x)=-u(x)/(x(x-1)²)",
+    "Bijection de la restriction sur ]0,1[",
+    "Tableau de variation de g^{-1}",
+    "Point d'intersection avec l'axe des abscisses"
+  ],
+  "bac-d-2018-sn-math-ex1": [
+    "Probabilité d'un événement — lecture d'un tableau",
+    "Probabilité conditionnelle p_A(B)",
+    "Formule des probabilités totales",
+    "Loi uniforme — densité sur un intervalle",
+    "Probabilité P(X>a) en loi uniforme"
+  ],
+  "bac-d-2018-sn-math-ex2": [
+    "Racines carrées d'un nombre complexe",
+    "Factorisation de P(z) et résolution dans ℂ",
+    "Nature du triangle ABC — affixes",
+    "Parallélogramme — affixe du quatrième sommet",
+    "Lieu |z-a/z-b|=1",
+    "Suite géométrique des modules |z_C|^n",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2018-sn-math-ex3": [
+    "Asymptote oblique y=2x-1",
+    "Dérivée seconde et point d'inflexion",
+    "Variations de f' — f' positive",
+    "Encadrement de la solution de f(x)=0",
+    "Tangente parallèle à l'asymptote",
+    "Discussion graphique — nombre de solutions selon m"
+  ],
+  "bac-d-2018-sn-math-ex4": [
+    "Limites en 0⁺ et +∞ — interprétation",
+    "Tableau de variation de f(x)=(2+x+x ln x)/x",
+    "Tangente au point d'abscisse 1",
+    "Bijection et réciproque sur ]0;2]",
+    "Dérivée de g^{-1} en un point donné",
+    "Suite u_{n+1}=f(u_n) — récurrence et convergence",
+    "Intégration par parties de ∫ln x dx",
+    "Aire sous la courbe entre x=1 et x=e"
+  ],
+  "bac-d-2018-sc-math-ex1": [
+    "Suite définie par récurrence u_{n+1}=½u_n+n+2",
+    "Suite auxiliaire v_n=u_n-2n — nature géométrique",
+    "Expression de v_n et de w_n=ln(v_n)",
+    "Convergence et somme d'une suite géométrique",
+    "Produit de termes d'une suite géométrique"
+  ],
+  "bac-d-2018-sc-math-ex2": [
+    "Équation du second degré dans ℂ",
+    "Forme trigonométrique et algébrique d'affixes",
+    "Interprétation géométrique du quotient z_B/z_A",
+    "Résolution f(z)=i — interprétation",
+    "Lieu |f(z)|=1 — cercle",
+    "Lieu f(z) imaginaire pur",
+    "Lieu |f(z)-1|=√5 — cercle"
+  ],
+  "bac-d-2018-sc-math-ex3": [
+    "Asymptote oblique y=x+2",
+    "Tableau de variation — deux racines encadrées",
+    "Relation α+f'(α)=β+f'(β)",
+    "Bijection de la restriction sur ]-∞;0]",
+    "Dérivée de h^{-1}",
+    "Tangente perpendiculaire à l'asymptote"
+  ],
+  "bac-d-2018-sc-math-ex4": [
+    "Fonction auxiliaire g(x)=-x+3-2ln x — bijection",
+    "Signe de g et lien avec f'(x)=g(x)/x³",
+    "Limites et asymptote horizontale",
+    "Valeur f(λ) en fonction de λ",
+    "Discussion graphique selon le paramètre m",
+    "Intégration par parties ∫(ln x)/x² dx",
+    "Aire entre courbe, Ox et x=1, x=e"
+  ],
+  "bac-d-2019-sn-math-ex1": [
+    "Nature de u_n=3^n+n-1",
+    "Somme des termes d'une suite",
+    "Suite des différences v_n=u_{n+1}-u_n",
+    "Inégalité v_n≥2019 — plus petit entier n",
+    "Somme T_n des termes de w_n=ln((v_n-1)/2)"
+  ],
+  "bac-d-2019-sn-math-ex2": [
+    "Racines carrées dans ℂ et équation du 2e degré",
+    "Nature du triangle ABC",
+    "Parallélogramme ABDC",
+    "Lieux géométriques |f(z)|=1, f(z) imaginaire pur",
+    "Lieu |f(z)-1|=√2",
+    "Forme trigonométrique de Z_n=(z_A)^n"
+  ],
+  "bac-d-2019-sn-math-ex3": [
+    "Équation différentielle y''-4y'+4y=0",
+    "Solution particulière avec conditions initiales",
+    "Asymptote oblique et position relative",
+    "Point d'inflexion — dérivées première et seconde",
+    "Tangente parallèle à l'asymptote",
+    "Discussion graphique x-1=me^{-2x}"
+  ],
+  "bac-d-2019-sn-math-ex4": [
+    "Fonction auxiliaire g(x)=1/x-ln x — signe",
+    "Encadrement de α solution de g(x)=0",
+    "f'(x)=g(x) — tableau de variation",
+    "f(α) en fonction de α",
+    "Bijection et dérivée de h^{-1}",
+    "Intégration par parties ∫(x-1)ln x dx",
+    "Aire sous Γ entre x=1 et x=e"
+  ],
+  "bac-d-2019-sc-math-ex1": [
+    "Lecture d'un tableau de variations",
+    "Ensemble de définition et parité",
+    "Nombre de racines et d'asymptotes",
+    "Tangentes horizontales",
+    "Nombre de solutions de f(x)=-2"
+  ],
+  "bac-d-2019-sc-math-ex2": [
+    "Factorisation de P(z) et résolution",
+    "Parallélogramme et nature du triangle ACD",
+    "Lieu |f(z)|=1",
+    "Lieu |f(z)-1|=√20",
+    "Suite géométrique u_n=|α^n| et somme"
+  ],
+  "bac-d-2019-sc-math-ex3": [
+    "Continuité et dérivabilité en -1",
+    "Limites en +∞ — interprétation graphique",
+    "Signe de f' via ln(x+1)",
+    "Bijection de g sur [0;+∞[",
+    "Dérivée de g^{-1} en 0",
+    "Construction courbe et réciproque"
+  ],
+  "bac-d-2019-sc-math-ex4": [
+    "Asymptote oblique y=2x-2",
+    "f''(x)=(2x+2)e^x — variations de f'",
+    "Tableau de variation de f",
+    "Tangente en x=0",
+    "Discussion graphique (2x-2)e^x=m+2",
+    "Intégration par parties et aire sur [0;1]"
+  ],
+  "bac-d-2020-sn-math-ex1": [
+    "Réciproque u_n — limite de u_n",
+    "Suite géométrique (1/3)^n",
+    "Suite x_n=1/u_n — nature",
+    "Terme général y_n=-n ln 3",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2020-sn-math-ex2": [
+    "Factorisation P(z) et résolution",
+    "Nature du triangle ABC",
+    "Parallélogramme — affixe de D",
+    "Lieux |f(z)|=1 et |f(z)-1|=√2",
+    "Forme exponentielle de Z_0",
+    "Plus petit n tel que |z_n|≥2020"
+  ],
+  "bac-d-2020-sn-math-ex3": [
+    "Asymptote oblique y=x-2",
+    "Limites en -∞ — interprétation",
+    "Tableau de variation — deux solutions",
+    "Relation f'(α)=α-1"
+  ],
+  "bac-d-2020-sn-math-ex4": [
+    "Continuité et dérivabilité en 0",
+    "Limites en +∞ de f(x)=x-x ln x",
+    "Tableau de variation",
+    "Bijection sur [1;+∞[ et (g^{-1})'(0)",
+    "Discussion graphique 2x-x ln x=m",
+    "Intégration par parties ∫x ln x dx",
+    "Aire sous Γ entre x=1 et x=e"
+  ],
+  "bac-d-2021-sn-math-ex1": [
+    "Suite récurrente linéaire d'ordre 2",
+    "Suite auxiliaire v_n=u_{n+1}-u_n/3",
+    "Nature géométrique de (v_n)",
+    "Somme S_n des termes de (v_n)",
+    "Convergence de (v_n)"
+  ],
+  "bac-d-2021-sn-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Nature du triangle et du quadrilatère ABCD",
+    "Lieu |f(z)|=1 et arg(f(z))=π/2",
+    "Suite géométrique d_n=|z_B-i|^n",
+    "Somme des distances OM_n"
+  ],
+  "bac-d-2021-sn-math-ex3": [
+    "Limites en ±∞ de f(x)=1+(x+2)e^{-x}",
+    "Tableau de variation",
+    "Encadrement de la racine α",
+    "Point d'inflexion et tangente en I(0;3)",
+    "Aire S via primitive h(x)=-(x+3)e^{-x}"
+  ],
+  "bac-d-2021-sn-math-ex4": [
+    "Fonction auxiliaire g(x)=x²+2-2ln x positive",
+    "Asymptote oblique y=x-2",
+    "f'(x)=g(x)/x² — tableau de variation",
+    "Bijection et (f^{-1})'(-1)",
+    "Discussion graphique (m+2)x=2ln x"
+  ],
+  "bac-d-2022-sn-math-ex1": [
+    "Loi binomiale B(n;0,05)",
+    "Probabilité P(X=2) et P(X≥1)",
+    "Limite de p_n quand n→+∞",
+    "Inégalité p_n≥0,99 — nombre minimal n"
+  ],
+  "bac-d-2022-sn-math-ex2": [
+    "Résolution de P(z)=0 et ordre des modules",
+    "Barycentre et affixe z_D=i",
+    "Hyperbole — foyers, centre, excentricité",
+    "Équation réduite (x-1)²-(y-1)²/3=1",
+    "Directrices et asymptotes de l'hyperbole"
+  ],
+  "bac-d-2022-sn-math-ex3": [
+    "Rotation transformant B en C et O en D",
+    "Composition translation ∘ rotation",
+    "Symétrie glissante — forme réduite",
+    "Similitude h∘f — centre et rapport",
+    "Suite itérée S^n(M) — période 3"
+  ],
+  "bac-d-2022-sn-math-ex4": [
+    "Fonction auxiliaire u(x)=x²-3+3ln x",
+    "Asymptote oblique et position relative",
+    "f'(x)=u(x)/x²",
+    "Aire entre courbe, Ox et x=1, x=e",
+    "Bijection de φ sur ]0;α]"
+  ],
+  "bac-d-2022-sn-math-ex5": [
+    "Limites de g_n(x)=x^n e^{-x}",
+    "Dérivée g_n'(x)=(n-x)x^{n-1}e^{-x}",
+    "Suite d'intégrales I_n — relation de récurrence",
+    "Encadrement de I_n et limite",
+    "Suite u_n=I_n/n! et somme des 1/k!"
+  ],
+  "bac-d-2022-sc-math-ex4": [
+    "Limites de f(x)=(x²+1)e^{-x}",
+    "Bijection et tableau de f^{-1}",
+    "Points d'inflexion",
+    "Primitive F(x)=(ax²+bx+c)e^{-x}",
+    "Suite u_n=∫_0^n f(x)dx croissante"
+  ],
+  "bac-d-2022-sc-math-ex5": [
+    "f(x)=(1-x)²ln x sur ]0;1] — limites",
+    "Bijection et courbe réciproque",
+    "Famille f_n(x)=(1-x)^n ln x",
+    "Intégrale F_n et intégration par parties",
+    "Série géométrique (1-t)^k/t — formule fermée"
+  ],
+  "bac-d-2023-sn-math-ex2": [
+    "Homothétie définie par images de deux points",
+    "Rotation et composition avec translation",
+    "Symétrie glissante",
+    "Similitude directe S=h∘r — angle -2π/3",
+    "Itérée S^2023 — homothétie"
+  ],
+  "bac-d-2023-sn-math-ex3": [
+    "Résolution polynôme paramétrique P(z)",
+    "Transformations f et g dans le plan complexe",
+    "Lieu de M_1 quand M parcourt un cercle",
+    "Parabole — foyer, directrice, équation y²=2x-1",
+    "Tangente à une parabole en un point"
+  ],
+  "bac-d-2023-sn-math-ex4": [
+    "Limites de f(x)=(1+ln(2x+2))/(2(x+1))",
+    "Point d'inflexion et tangente en A",
+    "Bijection de g sur I=[-½;+∞[",
+    "Équation f(x)=x — encadrement de α",
+    "Aire du domaine entre (C) et (C')"
+  ],
+  "bac-d-2023-sn-math-ex5": [
+    "Limites de f(x)=1/(1+e^x)",
+    "Symétrie f(x)+f(-x)=1 — centre I(0;½)",
+    "Point d'inflexion et tangente en I",
+    "Suite I_n d'intégrales — décroissance",
+    "Encadrement de I_n et limites de nI_n"
+  ],
+  "bac-d-2023-sc-math-ex2": [
+    "Translation et rotation — composition f=R∘T",
+    "Similitude S=h∘f — rapport et angle",
+    "Similitude S' et composition S∘S'",
+    "Centre Ω comme barycentre de B et I"
+  ],
+  "bac-d-2023-sc-math-ex3": [
+    "Asymptote oblique de f(x)=1-x+ln(x+1)/(x+1)",
+    "Fonction auxiliaire u(x) — signe",
+    "f'(x)=-u(x)/(x+1)²",
+    "Bijection de g sur [0;+∞[",
+    "Construction courbe et réciproque"
+  ],
+  "bac-d-2023-sc-math-ex4": [
+    "Résolution P(z)=0 et forme exponentielle",
+    "Changement de variable (z-i)/(z+i)",
+    "Similitude directe S(B)=C de centre A",
+    "Suite M_{n+1}=S(M_n) — alignement périodique"
+  ],
+  "bac-d-2023-sc-math-ex5": [
+    "Famille f_n(x)=x^n e^{-x}/n! — variations",
+    "Position relative des courbes C_n et C_{n+1}",
+    "Suite I_n=∫_0^1 f_n — récurrence I_n-I_{n-1}=-1/n!",
+    "Expression I_n=e-Σ_{k=0}^n 1/k!",
+    "Encadrement 0≤I_n≤e/n! et limites"
+  ],
+  "bac-d-2024-sn-math-ex2": [
+    "Suite I_n=∫x(1+ln x)^n — décroissante",
+    "Relation 2I_{n+1}+(n+1)I_n=1",
+    "Encadrement de I_n",
+    "Suite u_n et limite de Σ(-2)^p/(p+1)!"
+  ],
+  "bac-d-2024-sn-math-ex3": [
+    "Factorisation P(z) et résolution dans ℂ",
+    "Barycentre — affixe du point D",
+    "Ellipse — foyers A, B et foyer C",
+    "Axe focal et troisième sommet D",
+    "Équation réduite (x-2)²/16+y²/25=1"
+  ],
+  "bac-d-2024-sn-math-ex4": [
+    "Limites de f(x)=x/(e^{2x}-x)",
+    "Bijection de h sur [½;+∞[",
+    "Tangente en x=0",
+    "Encadrement de l'aire entre x=½ et x=1"
+  ],
+  "bac-d-2024-sn-math-ex5": [
+    "Rotation r(C)=D, r(K)=I",
+    "Symétrie glissante f(C)=A, f(A)=D, f(D)=B",
+    "Similitude directe s — rapport, angle, centre",
+    "Points cocycliques et droite passant par point fixe"
+  ],
+  "bac-d-2024-sc-math-ex1": [
+    "Représentation paramétrique d'une droite",
+    "Équation cartésienne d'un plan",
+    "Intersection plan / plan — équation 2x+5y=24",
+    "Solutions entières — points à coordonnées naturelles"
+  ],
+  "bac-d-2024-sc-math-ex2": [
+    "Continuité et dérivabilité en 0 de f(x)=x²(1-ln x)",
+    "Limites en +∞ et tableau de variation",
+    "Bijection de h sur ]√e;+∞[",
+    "Courbe réciproque h^{-1}"
+  ],
+  "bac-d-2024-sc-math-ex3": [
+    "Rotation de centre I — angle et image de A",
+    "Composition f=r∘t_{KJ} — nature et caractéristiques",
+    "Similitude S=h∘r — rapport et angle",
+    "Centre de S comme barycentre de A, B et C"
+  ],
+  "bac-d-2024-sc-math-ex4": [
+    "Équation du 2e degré paramétrique en cos²α",
+    "Lieu Γ_k — équation du 2e degré en x,y",
+    "Hyperbole passant par trois points — système (a,b,c)",
+    "Centre, sommets, excentricité et asymptotes"
+  ],
+  "bac-d-2024-sc-math-ex5": [
+    "f_n(x)=e^{-x}/(2-x)^n — limites et dérivée",
+    "Position relative des courbes C_n et C_{n+1}",
+    "Suite I_n d'intégrales — limite et relation de récurrence",
+    "Somme S_n et limite quand n→+∞"
+  ],
+  "bac-d-2003-sn-pc-ex1": [
+    "Automatisme cardiaque — interprétation de données",
+    "Action orthosympathique et parasympathique sur la fréquence",
+    "Enregistrements de potentiels — zones A et B du cœur",
+    "Culture cellulaire — origine de l'automatisme",
+    "Succession des événements — contraction des oreillettes"
+  ],
+  "bac-d-2003-sn-pc-ex2": [
+    "Analyse d'un pédigrée — maladie dominante",
+    "Gène sur autosome ou chromosome sexuel",
+    "Système ABO et indépendance génétique",
+    "Génotypes et schémas de méiose anormale",
+    "Cycle ovarien — schéma et évolution du follicule",
+    "Dosage de prégnandiol et courbe thermique"
+  ],
+  "bac-d-2003-sn-pc-ex4": [
+    "Asques de Neurospora — types pré et post-réductionnels",
+    "Nombre de gènes impliqués dans la couleur des spores",
+    "Schéma de crossing-over post-réductionnel",
+    "Distance gène-centromère",
+    "Carte factorielle"
+  ],
+  "bac-d-2004-sn-pc-ex2": [
+    "Chaîne neuronale — identification et schéma",
+    "Transmission synaptique — potentiels postsynaptiques",
+    "Action du GABA sur la synapse",
+    "Arc réflexe de flexion — annotation et influx",
+    "Étape de la réponse immunitaire — identification et légende"
+  ],
+  "bac-d-2004-sc-pc-ex2": [
+    "Transmission neuromusculaire — curare et acétylcholine",
+    "Mécanisme d'une synapse chimique",
+    "Recharge musculaire en ATP — voies métaboliques",
+    "Analyse de documents sur le métabolisme musculaire"
+  ],
+  "bac-d-2004-sc-pc-ex3": [
+    "Cycle de reproduction du chlamydomonas",
+    "Méiose et formation de spores",
+    "Cycle du Fucus spiralis — alternance",
+    "Comparaison cycles haplontique et diplontique",
+    "Rejet de greffe — immunologie"
+  ],
+  "bac-d-2005-sc-pc-ex1": [
+    "Cycle ovarien — dosages hormonaux et graphiques",
+    "Courbe de température et ovulation",
+    "Modifications de l'endomètre au microscope",
+    "Rôle de l'œstradiol et de la progestérone",
+    "Génétique de la couleur du pelage chez la souris"
+  ],
+  "bac-d-2006-sn-pc-ex1": [
+    "Durée de vie des ovules et spermatozoïdes — courbes de fécondité",
+    "Insémination artificielle — protocole expérimental",
+    "Réflexe myotatique — enregistrements D1 et D2",
+    "Rôle des récepteurs musculaires et du nerf moteur"
+  ],
+  "bac-d-2006-sn-pc-ex2": [
+    "B-thalassémie — deux formes et génotypes",
+    "Hémoglobines normale et anormale — hétérozygote",
+    "Probabilité d'enfant atteint de Cooley",
+    "Risque génétique selon antécédents familiaux"
+  ],
+  "bac-d-2006-sc-pc-ex1": [
+    "Éléments de l'oviducte — légende et identification",
+    "Phénomènes entre stade a et stade b",
+    "Caryotype et nombre de chromosomes",
+    "Évolution de la quantité d'ADN",
+    "Régulation de la pression artérielle — sympathique/parasympathique",
+    "Anatoxine tétanique — nature de la réponse immunitaire"
+  ],
+  "bac-d-2006-sc-pc-ex2": [
+    "Régulation du calcium — thyroïde et parathyroïdes",
+    "Schéma fonctionnel des hormones calciques",
+    "Pédigrée maladie de Gaucher — autosomal récessif",
+    "Activité enzymatique et génotypes",
+    "Probabilité de malade dans la population"
+  ],
+  "bac-d-2007-sn-pc-ex1": [
+    "Synthèse des protéines — étapes et localisation",
+    "Schéma de l'ARNm et traduction",
+    "Synapse neuromusculaire — acétylcholine",
+    "Synapse médullaire — GABA inhibiteur",
+    "Immunité antidiphtérique — type de défense"
+  ],
+  "bac-d-2008-sn-pc-ex1": [
+    "Synthèse de l'aspirine — équation et rendement",
+    "Anhydride vs acide carboxylique — intérêt",
+    "Saponification de la tristéarine",
+    "Propriétés du savon"
+  ],
+  "bac-d-2009-sn-pc-ex1": [
+    "Mélange acide acétique — base forte",
+    "Quantités de matière initiales",
+    "Nature du mélange final et pH",
+    "Propriétés d'une solution tampon ou basique"
+  ],
+  "bac-d-2010-sn-pc-ex2": [
+    "Courbes intensité-fréquence — neurone A et B",
+    "Vitesse de propagation de l'influx nerveux",
+    "Glycémie post-prandiale — diabète",
+    "Récepteurs à l'insuline — cellules hépatiques"
+  ],
+  "bac-d-2010-sc-pc-ex1": [
+    "Appareil génital féminin — légende",
+    "Action hormonale sur la muqueuse utérine",
+    "RU486 — mode d'action sur les récepteurs",
+    "Cycle menstruel modifié par RU486",
+    "Anticorps — structure et neutralisation d'antigène"
+  ],
+  "bac-d-2011-sn-pc-ex1": [
+    "Cycle ovarien — hormones H1 et H2",
+    "Évolution de l'endomètre",
+    "Activité musculaire — tracés EMG et contraction",
+    "Réactions chimiques de la contraction musculaire",
+    "VIH — structure du virus"
+  ],
+  "bac-d-2011-sc-pc-ex1": [
+    "Méiose — étapes et garniture chromosomique",
+    "Causes de stérilité et traitements",
+    "Muqueuse utérine après fécondation",
+    "Test d'hyperglycémie provoquée — diabète de type 1 et 2"
+  ],
+  "bac-d-2012-sn-pc-ex1": [
+    "Estérification acide éthanoïque — méthanol",
+    "Caractéristiques d'une réaction d'estérification",
+    "Rendement et constante d'équilibre K",
+    "Effet de la température sur vitesse et limite"
+  ],
+  "bac-d-2012-sc-pc-ex5": [
+    "Désintégration β⁻ de l'iode 131 — lois de conservation",
+    "Constante radioactive λ et activité",
+    "Activité après 24 jours — demi-vie T=8 jours",
+    "Temps pour atteindre 1% de l'activité initiale"
+  ],
+  "bac-d-2013-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Concentration Ca à l'équivalence",
+    "pKa à la demi-équivalence",
+    "Choix d'un indicateur coloré"
+  ],
+  "bac-d-2013-sc-pc-ex4": [
+    "Circuit RL — équation différentielle i(t)",
+    "Résistance r de la bobine en régime permanent",
+    "Constante de temps et inductance L",
+    "Énergie magnétique emmagasinée"
+  ],
+  "bac-d-2014-sn-pc-ex1": [
+    "Formule brute d'une amine — % masse d'azote",
+    "Isomères d'une amine primaire",
+    "Réaction anhydride éthanoïque — amide",
+    "Avantages de l'anhydride sur l'acide"
+  ],
+  "bac-d-2014-sc-pc-ex1": [
+    "Isomères d'un alcool C3H8O",
+    "Oxydation ménagée — réactif de Schiff",
+    "Estérification acide éthanoïque — alcool",
+    "Rendement à l'équilibre"
+  ],
+  "bac-d-2015-sn-pc-ex1": [
+    "Acide faible propanoïque — pKa et α",
+    "Effet de la dilution sur α",
+    "Comportement d'un acide très dilué",
+    "Chlorure d'acyle et formation d'amide",
+    "Oxydation ménagée en deux étapes"
+  ],
+  "bac-d-2015-sn-pc-ex2": [
+    "Estérification pentan-1-ol — acide méthanoïque",
+    "Dosage de l'acide restant par soude",
+    "Rôle du refroidissement lors du prélèvement",
+    "Vitesse instantanée et vitesse moyenne d'estérification"
+  ],
+  "bac-d-2015-sn-pc-ex3": [
+    "Mouvement circulaire uniforme en champ B",
+    "Période cyclotron et fréquence",
+    "Sélection vitesse — champs E et B croisés",
+    "Déviation dans un champ électrique seul"
+  ],
+  "bac-d-2015-sn-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une bobine",
+    "f.e.m. induite — courant variable par morceaux",
+    "Flux lors d'une rotation θ=100πt"
+  ],
+  "bac-d-2015-sc-pc-ex1": [
+    "Fonctions chimiques possibles de CnH2nO2",
+    "Formule brute à partir du % d'oxygène",
+    "Réaction acide — alcool — ester",
+    "Dosage d'un acide par la soude"
+  ],
+  "bac-d-2015-sc-pc-ex2": [
+    "Base faible NH3 — pKa et concentrations",
+    "Comparaison force des bases amines",
+    "Dosage d'une amine par HCl",
+    "Définition de l'équivalence"
+  ],
+  "bac-d-2015-sc-pc-ex3": [
+    "Énergie potentielle élastique d'un ressort",
+    "Vitesse de sortie et hauteur maximale",
+    "Oscillations libres — équation différentielle",
+    "Période et fréquence du mouvement harmonique"
+  ]
+}

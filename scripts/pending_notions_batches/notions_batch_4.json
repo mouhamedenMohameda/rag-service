@@ -1,0 +1,600 @@
+{
+  "bac-d-2015-sc-pc-ex4": [
+    "Rôle de la pelote de coton — absorption de l'onde",
+    "Onde transversale sur corde élastique",
+    "Détermination graphique de la longueur d'onde λ",
+    "Célérité des ondes — relation V = λN",
+    "Équation horaire d'un point M d'une onde progressive",
+    "Phase initiale φs d'une source vibrante",
+    "Retard de phase et quadrature entre points de la corde"
+  ],
+  "bac-d-2015-sc-pc-ex5": [
+    "Équation de désintégration β⁻ du phosphore-32",
+    "Relation entre masse, masse molaire et nombre de noyaux N₀",
+    "Activité radioactive — définition et calcul de A₀",
+    "Décroissance radioactive — loi exponentielle",
+    "Calcul d'activité après un temps donné (demi-vie)"
+  ],
+  "bac-d-2016-sn-pc-ex1": [
+    "Réaction d'une amine avec l'eau — équation bilan",
+    "Dosage acido-basique amine par acide fort",
+    "Concentration à l'équivalence — relation CbVa = CaVb",
+    "Détermination du pKa à partir du pH",
+    "Masse molaire à partir de la dissolution",
+    "Préparation d'une solution tampon acide-base",
+    "Concentration d'acide concentré commercial (densité, % masse)"
+  ],
+  "bac-d-2016-sn-pc-ex2": [
+    "Hydrolyse d'un ester — identification des produits",
+    "Oxydation ménagée par permanganate — alcool vers cétone",
+    "Tests DNPH et liqueur de Fehling — aldéhyde vs cétone",
+    "Formules semi-développées et familles organiques",
+    "Caractéristiques de l'hydrolyse (lente, totale)",
+    "Synthèse du chlorure d'acyle et de l'anhydride d'acide",
+    "Réaction acyle chlorure + amine — formation d'amide"
+  ],
+  "bac-d-2016-sn-pc-ex3": [
+    "Forces de Laplace sur un conducteur dans un champ B",
+    "Équilibre ressort — bobine dans un champ magnétique",
+    "Flux magnétique à travers une surface variable",
+    "Loi de Faraday — f.é.m. induite",
+    "Induction par déplacement à vitesse constante",
+    "Induction par rotation — expressions de Φ et e maximales"
+  ],
+  "bac-d-2016-sn-pc-ex4": [
+    "Théorème de l'énergie cinétique — piste avec force motrice",
+    "Conservation de l'énergie mécanique — montée inclinée",
+    "Nature du mouvement sur trajet incliné sans frottement",
+    "Mouvement circulaire — vitesse et réaction normale",
+    "Mouvement de projectile — équation cartésienne",
+    "Point de chute d'un projectile"
+  ],
+  "bac-d-2016-sc-pc-ex1": [
+    "Demi-équations et bilan redox H₂O₂ / I⁻ en milieu acide",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Vitesse moyenne de disparition d'un réactif",
+    "Vitesse instantanée — lecture graphique",
+    "Volume de thiosulfate à l'équivalence du dosage",
+    "Temps de demi-réaction"
+  ],
+  "bac-d-2016-sc-pc-ex2": [
+    "Indicateur coloré et domaine de virage (vert de malachite)",
+    "Base faible en solution — ammoniac et pH",
+    "Équilibre acide-base de l'ammoniac — constante Ka",
+    "Mélange acide fort + base faible — solution tampon à pH = pKa"
+  ],
+  "bac-d-2016-sc-pc-ex3": [
+    "Force gravitationnelle — caractéristiques et expression",
+    "Loi de gravitation universelle et RFD",
+    "Mouvement circulaire uniforme — accélération centripète",
+    "Vitesse orbitale en fonction de G, Ms et r",
+    "Période de révolution d'un satellite"
+  ],
+  "bac-d-2016-sc-pc-ex4": [
+    "Élongation sinusoïdale d'une source vibrante",
+    "Retard de propagation — élongation d'un point distant",
+    "Observation stroboscopique d'une onde",
+    "Superposition de deux sources en opposition de phase",
+    "Interférences — points d'amplitude maximale"
+  ],
+  "bac-d-2017-sn-pc-ex1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Concentrations initiales après mélange de volumes",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Vitesse de formation du diiode — lecture graphique",
+    "Vitesse moyenne entre deux instants",
+    "Réactif limitant et concentration finale de I₂"
+  ],
+  "bac-d-2017-sn-pc-ex2": [
+    "Tests DNPH et Fehling — aldéhyde, cétone, alcool",
+    "Réaction estérification — identification des réactifs",
+    "Détermination du nombre de carbones par masse molaire",
+    "Hydratation d'un alcène — alcène précurseur",
+    "Dosage d'un alcool par la soude"
+  ],
+  "bac-d-2017-sn-pc-ex3": [
+    "Équation différentielle du mouvement harmonique",
+    "Équation horaire x(t) d'un oscillateur",
+    "Énergie mécanique d'un système masse-ressort",
+    "Énergie cinétique à un instant donné",
+    "Conservation de l'énergie — vitesse sur trajet curviligne"
+  ],
+  "bac-d-2017-sn-pc-ex4": [
+    "Dispositif de Young — figure d'interférences",
+    "Différence de marche δ entre deux fentes",
+    "Interfrange i — expression et calcul de λ",
+    "Franges brillantes et franges sombres",
+    "Coïncidence de franges pour deux longueurs d'onde"
+  ],
+  "bac-d-2017-sc-pc-ex1": [
+    "Noms et fonctions des dérivés organiques (ester, alcool, chlorure d'acyle, amide)",
+    "Synthèse organique — équations de formation de A, B et C",
+    "Réactifs permettant d'obtenir un alcool et un chlorure d'acyle",
+    "Chiralité et représentation des énantiomères"
+  ],
+  "bac-d-2017-sc-pc-ex2": [
+    "Dosage acido-basique de mélange d'acides par soude",
+    "Relations entre concentrations à l'équivalence",
+    "Distinction acide fort / acide faible par dilution",
+    "Calcul des concentrations C₁, C₂, C₃ et C_B"
+  ],
+  "bac-d-2017-sc-pc-ex3": [
+    "Déviation dans un champ électrique uniforme",
+    "Équation de trajectoire parabolique",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Détermination de la charge massique q/m"
+  ],
+  "bac-d-2017-sc-pc-ex4": [
+    "Champ magnétique d'un solénoïde — caractéristiques",
+    "Variation du flux magnétique lors de l'extinction du courant",
+    "F.é.m. induite moyenne — loi de Faraday",
+    "F.é.m. induite pour un courant variable par intervalles"
+  ],
+  "bac-d-2017-sc-pc-ex5": [
+    "Niveaux d'énergie de l'atome d'hydrogène — formule En",
+    "Transition électronique — émission ou absorption",
+    "Longueur d'onde du photon émis",
+    "Énergie d'ionisation de l'hydrogène"
+  ],
+  "bac-d-2018-sn-pc-ex1": [
+    "Isomères d'un ester C₄H₈O₂",
+    "Hydrolyse des esters — acide et alcool formés",
+    "Identification de l'ester par bilan de masse à l'équilibre",
+    "Constante d'équilibre et masses à l'équilibre",
+    "Caractéristiques de l'hydrolyse (lente, limitée)"
+  ],
+  "bac-d-2018-sn-pc-ex2": [
+    "Dosage acide faible par soude — courbe pH = f(Vb)",
+    "pKa à la demi-équivalence",
+    "Réaction du ion carboxylate avec l'eau",
+    "Expression du Ka en fonction des concentrations à l'équivalence",
+    "Effet de la dilution sur pH initial, demi-équivalence et VE"
+  ],
+  "bac-d-2018-sn-pc-ex3": [
+    "Force gravitationnelle sur un satellite",
+    "Mouvement circulaire uniforme — vitesse orbitale",
+    "Loi de Kepler — T²/r³ constant",
+    "Calcul de la masse de la Terre",
+    "Satellite géostationnaire — altitude"
+  ],
+  "bac-d-2018-sn-pc-ex4": [
+    "Équation horaire d'une source vibrante sinusoïdale",
+    "Équation d'une onde progressive le long d'une corde",
+    "Représentation d'une onde à un instant donné",
+    "Interférences de deux sources en phase",
+    "Points d'amplitude maximale entre deux sources"
+  ],
+  "bac-d-2018-sc-pc-ex1": [
+    "Demi-équations redox peroxodisulfate / iodure",
+    "Tableau d'avancement d'une réaction redox",
+    "Méthode de la trempe — facteur cinétique température",
+    "Dosage iodométrique du diiode",
+    "Concentration théorique de diiode à la fin",
+    "Vitesse de réaction et vitesse volumique"
+  ],
+  "bac-d-2018-sc-pc-ex2": [
+    "Comparaison acide fort / acide faible par pH",
+    "Dissociation d'un acide faible dans l'eau",
+    "Effet de la dilution sur le pH et l'ionisation",
+    "Réaction acide carboxylique + amine — formation d'amide"
+  ],
+  "bac-d-2018-sc-pc-ex3": [
+    "Théorème de l'énergie cinétique sur plan incliné",
+    "Mouvement rectiligne uniformément accéléré",
+    "Conservation de l'énergie mécanique — sommet du plan",
+    "Mouvement de projectile — équation cartésienne",
+    "Coordonnées du point d'impact et vitesse d'arrivée"
+  ],
+  "bac-d-2018-sc-pc-ex4": [
+    "Force de Laplace sur une barre mobile",
+    "Sens du champ B et déplacement de la barre",
+    "Équilibre barre-ressort dans un champ magnétique",
+    "Flux magnétique et f.é.m. induite par déplacement",
+    "Courant induit — sens et intensité",
+    "Force électromagnétique de freinage (Lenz)"
+  ],
+  "bac-d-2019-sn-pc-ex1": [
+    "Concentration initiale des ions iodure",
+    "Réactif limitant — peroxodisulfate",
+    "Tableau d'évolution d'une réaction",
+    "Vitesse volumique — expression initiale",
+    "Dosage du diiode par thiosulfate",
+    "Effet de la dilution sur avancement maximal et t₁/₂"
+  ],
+  "bac-d-2019-sn-pc-ex2": [
+    "Dosage d'un acide carboxylique par NaOH",
+    "Masse molaire et formule d'un acide RCOOH",
+    "Coefficient d'ionisation α d'un acide faible",
+    "pKa du couple acide-base",
+    "Hydrolyse d'un ester — équilibre et constante K"
+  ],
+  "bac-d-2019-sn-pc-ex3": [
+    "Accélération d'ions par différence de potentiel",
+    "Déviation dans un champ magnétique — rayon de courbure",
+    "Déviation angulaire dans un champ B",
+    "Déviation dans un champ électrique — trajectoire parabolique",
+    "Séparateur de charges massiques"
+  ],
+  "bac-d-2019-sn-pc-ex4": [
+    "Équation différentielle d'un oscillateur harmonique",
+    "Équation horaire avec conditions initiales",
+    "Énergie mécanique et vitesse maximale",
+    "Projectile après détachement — trajectoire",
+    "Composantes de la vitesse au sol"
+  ],
+  "bac-d-2019-sc-pc-ex1": [
+    "Formules semi-développées et fonctions organiques",
+    "Chiralité et énantiomères",
+    "Oxydation ménagée par dichromate",
+    "Réaction acide + alcool — estérification limitée"
+  ],
+  "bac-d-2019-sc-pc-ex2": [
+    "Dispositif de dosage acido-basique",
+    "Base faible — pKb et concentration",
+    "pH à l'équivalence d'un dosage acide-base",
+    "Identification d'une amine primaire par masse molaire"
+  ],
+  "bac-d-2019-sc-pc-ex3": [
+    "Flux magnétique à travers un circuit mobile",
+    "F.é.m. induite — loi de Faraday",
+    "Courant induit — sens (loi de Lenz)",
+    "Force électromagnétique sur une tige mobile",
+    "Plan incliné pour compenser la force de Laplace"
+  ],
+  "bac-d-2019-sc-pc-ex4": [
+    "Fentes de Young — interfrange et nature des franges",
+    "Longueur d'onde par mesure d'interfrange",
+    "Effet photoélectrique — définition",
+    "Longueur d'onde seuil et énergie d'extraction",
+    "Énergie cinétique maximale et potentiel d'arrêt"
+  ],
+  "bac-d-2020-sn-pc-ex1": [
+    "Isomères d'une amine primaire C₄H₁₁N",
+    "Chiralité d'une amine — énantiomères",
+    "Réaction anhydride d'acide + amine — amide",
+    "Avantage de l'anhydride sur l'acide carboxylique"
+  ],
+  "bac-d-2020-sc-pc-ex1": [
+    "Rôle des ions H⁺ en catalyse acide",
+    "Réactif limitant — comparaison de deux expériences",
+    "Vitesse instantanée — lecture graphique",
+    "Facteur cinétique concentration",
+    "Temps de demi-réaction"
+  ],
+  "bac-d-2020-sc-pc-ex2": [
+    "Dilution d'une solution — matériel et calcul",
+    "Dosage du vinaigre par soude — équivalence",
+    "Degré d'acidité du vinaigre",
+    "Préparation d'une solution tampon acétique"
+  ],
+  "bac-d-2020-sc-pc-ex3": [
+    "Équation différentielle du mouvement harmonique",
+    "Équation horaire d'un oscillateur libre",
+    "Énergie mécanique du système masse-ressort",
+    "Projectile après détachement — équation de trajectoire",
+    "Vitesse d'arrivée au sol"
+  ],
+  "bac-d-2020-sc-pc-ex4": [
+    "Mouvement circulaire d'un satellite — nature",
+    "Vitesse orbitale en fonction de l'altitude",
+    "Période de révolution",
+    "Énergie mécanique d'un satellite en orbite",
+    "Changement d'orbite — énergie fournie par les moteurs"
+  ],
+  "bac-d-2021-sn-pc-ex1": [
+    "Équation de la réaction I⁻ / S₂O₈²⁻",
+    "Vitesse instantanée de formation du diiode",
+    "Influence de la température sur la cinétique",
+    "Attribution des courbes cinétiques à T₁ et T₂"
+  ],
+  "bac-d-2021-sc-pc-ex1": [
+    "Isomères d'une amine primaire C₃H₉N — formules et noms",
+    "Chiralité d'une amine — identification de l'isomère",
+    "Réaction anhydride éthanoïque + amine — équation et amide",
+    "Nom du produit d'acylation d'une amine"
+  ],
+  "bac-d-2022-sc-pc-ex1": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse ADN à bande unique",
+    "Localisation d'un gène sur autosome ou chromosome X",
+    "Caryotype fœtal et déduction génotypique",
+    "Génotypes à partir de données généalogiques",
+    "Méiose anormale — anomalie chromosomique"
+  ],
+  "bac-d-2022-sc-pc-ex2": [
+    "Cycle ovarien — évolution des structures",
+    "Courbes hormonales du cycle sexuel",
+    "Effet des hormones ovariennes sur l'utérus",
+    "Corps jaune — formation, hormonalité et devenir"
+  ],
+  "bac-d-2022-sc-pc-ex3": [
+    "Potentiel d'action — phases et mécanisme ionique",
+    "Propagation de l'influx nerveux le long d'une fibre",
+    "Vitesse de propagation nerveuse",
+    "Fuseau neuromusculaire — sites et rôle",
+    "Arc réflexe myotatique"
+  ],
+  "bac-d-2022-sc-pc-ex4": [
+    "Noms systématiques de composés organiques",
+    "Estérification acide + alcool",
+    "Hydrolyse d'un ester — identification acide et alcool",
+    "Oxydation ménagée d'un alcool — tests DNPH et Schiff",
+    "Isomères de position et de chaîne"
+  ],
+  "bac-d-2022-sc-pc-ex5": [
+    "Identification de solutions par pH (acide fort, base faible, sel, tampon)",
+    "Concentrations des espèces en solution d'acide faible",
+    "Mélange acide fort + base forte pour pH neutre",
+    "pH d'un mélange acide fort + sel",
+    "Préparation d'une solution tampon"
+  ],
+  "bac-d-2023-sn-pc-ex1": [
+    "Plantes monoïques, dioïques et hermaphrodites",
+    "Origine de la graine — transformation de l'ovule",
+    "Allergène et réaction allergique (mastocytes, IgE)",
+    "Allogreffe et histocompatibilité",
+    "Gamétophyte et sporophyte chez les angiospermes",
+    "VIH — réponses immunitaire humorale et cellulaire",
+    "Cœur transplanté — dénervation et fréquence cardiaque",
+    "Génétique des drosophiles — croisements et linkage"
+  ],
+  "bac-d-2023-sn-pc-ex3": [
+    "Stimulation croissante d'une fibre nerveuse",
+    "Réponse tout ou rien d'une fibre",
+    "Propriété du message nerveux (codage en fréquence)",
+    "Propriété de la fibre nerveuse (seuil, période réfractaire)"
+  ],
+  "bac-d-2023-sn-pc-ex5": [
+    "Identification de la réponse à une stimulation efficace",
+    "Analyse d'un tracé oscilloscopique nerveux",
+    "Propriété du message nerveux déduite des documents",
+    "Propriété de la fibre nerveuse déduite des documents"
+  ],
+  "bac-d-2023-sc-pc-ex1": [
+    "Spermatogenèse et ovogenèse — identification des phénomènes",
+    "Cellules gamétiques A, B et C — noms et origine",
+    "Hormones peptidiques hypophysaires du cycle sexuel",
+    "Aménorrhée — causes selon le profil de la patiente"
+  ],
+  "bac-d-2024-sn-pc-ex1": [
+    "Génétique des drosophiles — proportions de descendants",
+    "Mémoire immunitaire — lymphocytes mémoires",
+    "Vaccin et immunité active",
+    "Réaction allergique — IgE, mastocytes et histamine",
+    "Taux de recombinaison et test-cross",
+    "VIH — récepteur CD4",
+    "Alternance haplophase / diplophase chez les angiospermes",
+    "Régulation de la pression artérielle"
+  ],
+  "bac-d-2024-sn-pc-ex4": [
+    "Types de neurones — afférent, efférent, interneurone",
+    "Propagation du potentiel d'action le long d'un axone",
+    "Transmission synaptique — dépolarisation et hyperpolarisation",
+    "Enregistrements électriques aux synapses"
+  ],
+  "bac-d-2024-sn-pc-ex5": [
+    "Stimulations et réponses d'une chaîne nerveuse",
+    "Interprétation d'expériences de section nerveuse",
+    "Blocage de la transmission synaptique",
+    "Reconstruction d'un circuit neuronal"
+  ],
+  "bac-d-2024-sc-pc-ex1": [
+    "Noms systématiques de composés organiques",
+    "Estérification acide + alcool",
+    "Hydrolyse d'un ester — identification acide et alcool",
+    "Oxydation ménagée d'un alcool — tests DNPH et Schiff",
+    "Isomères de position et de chaîne"
+  ],
+  "bac-d-2024-sc-pc-ex2": [
+    "Identification de solutions par pH",
+    "Espèces en solution d'acide faible — pKa",
+    "Mélange pour pH neutre",
+    "Préparation d'une solution tampon"
+  ],
+  "bac-d-2024-sc-pc-ex3": [
+    "Accélération à partir du graphe v = f(t)",
+    "Distance parcourue — aire sous la courbe",
+    "Mouvement sur plan incliné avec forces motrice et frottement",
+    "Projectile — équation de trajectoire et largeur du fossé"
+  ],
+  "bac-d-2024-sc-pc-ex4": [
+    "Interfrange de Young — définition et expression",
+    "Longueur d'onde et couleur des radiations",
+    "Franges brillantes — position sur l'écran",
+    "Interférences en lumière blanche et spectroscope"
+  ],
+  "bac-d-2003-sn-svt-ex1": [
+    "Enzyme de restriction — sites complémentaires et ligation",
+    "Extrémités cohésives de l'ADN recombinant",
+    "Schéma d'un plasmide recombinant",
+    "Génétique des haploïdes — asques de Neurospora",
+    "Asques pré-réductionnels et post-réductionnels",
+    "Distance gène-centromère et carte factorielle"
+  ],
+  "bac-d-2003-sn-svt-ex2": [
+    "Génie génétique — production d'insuline humaine",
+    "Plasmide recombinant et enzyme de restriction",
+    "Génétique des haploïdes — Neurospora",
+    "Carte factorielle et distance gène-centromère"
+  ],
+  "bac-d-2003-sn-svt-ex3": [
+    "Enzyme de restriction — compatibilité des extrémités cohésives",
+    "Séquences des extrémités de l'ADN humain isolé",
+    "Plasmide recombinant — schéma et zones de ligation",
+    "Production d'insuline humaine par génie génétique"
+  ],
+  "bac-d-2003-sn-svt-ex4": [
+    "Insérion d'un gène humain dans un plasmide bactérien",
+    "Génétique des haploïdes — types d'asques",
+    "Méiose anormale — asque post-réductionnel",
+    "Carte factorielle des gènes"
+  ],
+  "bac-d-2004-sn-svt-ex1": [
+    "Chaîne neuronale — identification et trajet de l'influx",
+    "Transmission synaptique — facilitation et inhibition",
+    "Action du GABA sur la synapse",
+    "Arc réflexe de flexion — annotation et influx",
+    "Enregistrements électriques d'un arc réflexe"
+  ],
+  "bac-d-2004-sn-svt-ex2": [
+    "Réponse immunitaire — étape de sensibilisation",
+    "Légende d'un schéma immunitaire",
+    "Rôles des lymphocytes B et T",
+    "Mode d'action du VIH sur les lymphocytes T"
+  ],
+  "bac-d-2004-sn-svt-ex3": [
+    "Groupes sanguins ABO — attribution parent-enfant",
+    "Compatibilité des groupes sanguins dans les croisements",
+    "Possibilité d'un frère de groupe O",
+    "Raisonnement génétique sur les allèles Iᴬ, Iᴮ et i"
+  ],
+  "bac-d-2004-sc-svt-ex1": [
+    "Conjugaison de Chlamydomonas — fusion et repos",
+    "Méiose après conjugaison — formation de spores",
+    "Cycle du Fucus — alternance haplo-diplo",
+    "Comparaison des cycles reproducteurs des algues"
+  ],
+  "bac-d-2004-sc-svt-ex2": [
+    "Rejet de greffe — mémoire immunitaire",
+    "Rôle du thymus dans l'immunité à médiation cellulaire",
+    "Rôle des anticorps dans le rejet (sérum)",
+    "Tolérance immunitaire — greffe in utero"
+  ],
+  "bac-d-2004-sc-svt-ex3": [
+    "Dihybridisme — croisement Hambourg × Leghorn",
+    "Interprétation des proportions phénotypiques F2 (9:3:3:1)",
+    "Dominance incomplète de la crête « en rose »",
+    "Sélection pour stabiliser un phénotype en élevage"
+  ],
+  "bac-d-2004-sc-svt-ex4": [
+    "Génétique dihybride — deux caractères indépendants",
+    "Proportions phénotypiques en F2",
+    "Sélection génétique pour combiner deux avantages",
+    "Stabilisation par autofécondation ou croisement test"
+  ],
+  "bac-d-2004-sc-svt-ex5": [
+    "Croisement de races de poules — proportions F2",
+    "Interprétation statistique du dihybridisme",
+    "Sélection du phénotype « crête rose, plumage blanc »",
+    "Obtention d'une lignée pure par sélection"
+  ],
+  "bac-d-2005-sn-svt-ex1": [
+    "Anatomie de l'ovaire — structures du cycle",
+    "Hormones du cycle sexuel (FSH, LH, œstrogènes, progestérone)",
+    "Conditions de l'ovulation",
+    "Modifications de l'endomètre au cours du cycle",
+    "Épistasie et gènes complémentaires — couleur des bovins"
+  ],
+  "bac-d-2005-sn-svt-ex2": [
+    "HCG et détection de grossesse",
+    "Immunisation du lapin par injection de HCG",
+    "Test au latex — agglutination si grossesse",
+    "Principe du test immunologique de grossesse"
+  ],
+  "bac-d-2005-sc-svt-ex1": [
+    "Dosages hormonaux urinaires — cycle menstruel",
+    "Courbe de température basale et ovulation",
+    "Modifications histologiques de l'endomètre",
+    "Rôle de l'œstradiol et de la progestérone",
+    "Génétique de la couleur du pelage chez la souris"
+  ],
+  "bac-d-2005-sc-svt-ex2": [
+    "Structure et nature des anticorps (immunoglobulines)",
+    "Sites paratopiques et épitopiques",
+    "Diversité des anticorps — recombinaison somatique",
+    "Modèle clonal de la réponse immunitaire"
+  ],
+  "bac-d-2005-sc-svt-ex3": [
+    "Réflexe barorécepteur — sinus carotidien",
+    "Enregistrement du nerf de Hering",
+    "Cycle de Neurospora — alternance haplo-diplo",
+    "Distance gène-centromère chez Neurospora",
+    "Immunité contre le bacille de Koch"
+  ],
+  "bac-d-2005-sc-svt-ex4": [
+    "Gamétogenèse — étapes en testicule et ovaire",
+    "Moments du déroulement de la méiose I et II",
+    "Ovocyte II — structure et rôle dans la fécondation",
+    "Tableau comparatif des étapes de spermatogenèse et ovogenèse"
+  ],
+  "bac-d-2005-sc-svt-ex5": [
+    "Sections des racines rachidiennes — potentiels d'action",
+    "Réflexe inné et arc réflexe",
+    "Rôle de la thyroïde — croissance et métabolisme",
+    "Thyroxine et correction des effets de thyroïdectomie"
+  ],
+  "bac-d-2006-sn-svt-ex1": [
+    "Réflexe myotatique — réponse du muscle à l'étirement",
+    "Temps de latence L1, L2, L3 — franchissement synaptique",
+    "Trajet de l'influx dans l'arc réflexe",
+    "Type d'activité réflexe mise en évidence"
+  ],
+  "bac-d-2006-sn-svt-ex2": [
+    "Rôle du thymus dans la maturation des lymphocytes T",
+    "Rôle de la moelle osseuse — lymphocytes B",
+    "Agglutination des pneumocoques — anticorps",
+    "Coopération lymphocytes T et B dans l'immunité"
+  ],
+  "bac-d-2006-sn-svt-ex3": [
+    "Énergie de la contraction musculaire — analyse gazeuse",
+    "Chaleur initiale et chaleur retardée (myothermie)",
+    "Contraction en anaérobiose — lactate",
+    "Régulation de la glycémie"
+  ],
+  "bac-d-2006-sn-svt-ex4": [
+    "Source d'énergie musculaire — ATP et glycogène",
+    "Myothermie — chaleur initiale et retardée",
+    "Fermentation lactique en anaérobiose",
+    "Régulation hormonale de la glycémie"
+  ],
+  "bac-d-2006-sc-svt-ex1": [
+    "Ovogenèse — stades dans l'oviducte",
+    "Évolution de la quantité d'ADN",
+    "Régulation de la pression artérielle — sympathique et parasympathique",
+    "Réponse immunitaire humorale — anatoxine tétanique"
+  ],
+  "bac-d-2006-sc-svt-ex2": [
+    "Caryotype — obtention par culture et colchicine",
+    "Différences caryotype homme (XY) / femme (XX)",
+    "Translocation réciproque 5/10 — gamètes possibles",
+    "Probabilité de grossesse viable après translocation"
+  ],
+  "bac-d-2006-sc-svt-ex3": [
+    "Fuseau neuromusculaire — enregistrements N2 et N3",
+    "Motoneurone extenseur vs fléchisseur",
+    "Neurotransmetteurs excitateurs (aspartate) et inhibiteurs (GABA)",
+    "Rôle des parathyroïdes sur le calcium plasmatique"
+  ],
+  "bac-d-2007-sn-svt-ex1": [
+    "Synapse cholinergique — effet de l'acétylcholine",
+    "Synapse GABAergique — inhibition postsynaptique",
+    "Comparaison synapse excitatrice / inhibitrice",
+    "Rôle des neurotransmetteurs dans la transmission"
+  ],
+  "bac-d-2007-sn-svt-ex2": [
+    "Immunité active par anatoxine diphtérique",
+    "Sérum antidiphtérique — immunité passive",
+    "Vaccin vs sérum — propriétés et mode d'action",
+    "Génétique des drosophiles — gène lié au sexe",
+    "Proportions phénotypiques en F2"
+  ],
+  "bac-d-2007-sn-svt-ex3": [
+    "Fécondation — évolution de la quantité d'ADN",
+    "Comportement des chromosomes lors de la fécondation",
+    "Régulation de la sécrétion de LH par les œstrogènes",
+    "Effets de la progestérone et des œstrogènes sur LH",
+    "Diabète auto-immun — rat BB et thymus"
+  ],
+  "bac-d-2007-sn-svt-ex4": [
+    "États de la cellule lors de la fécondation (quantité d'ADN)",
+    "Comportement des chromosomes aux états X2 et X3",
+    "Régulation de la LH par l'œstradiol",
+    "Effets comparés de progestérone et œstrogènes sur LH"
+  ],
+  "bac-d-2007-sn-svt-ex5": [
+    "Diabète de type 1 — origine auto-immune",
+    "Destruction des cellules β des îlots de Langerhans",
+    "Anticorps anti-cellules β et lymphocytes T",
+    "Daltonisme lié à l'X — analyse généalogique"
+  ]
+}

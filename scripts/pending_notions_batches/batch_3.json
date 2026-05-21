@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bac-d-2016-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nOn considère la fonction g définie sur R par: $g(x)=1-x+e^{x}$.a) Calculer $g^{\\prime}(x)$ où $g^{\\prime}$ est la dérivée de g.b) Etudier les variations de g et en déduire le signe de $g(x)$ sur R.2.a) Calculer les limites suivantes: $lim_{x\\rightarrow-\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$ et puis interpréter graphiquement.b) Calculer $lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}$ et $lim_{x\\rightarrow-\\infty}f(x)$ [sic]. Montrer que la droite ($\\Delta$) d'équation $y=x-1$ est une asymptote oblique à (C) et étudier la position relative de (C) et ($\\Delta$).3.a) Calculer la dérivée $f^{\\prime}(x)$ puis vérifier que $f^{\\prime}(x)=\\frac{g(x)}{e^{x}}$.b) Dresser le tableau de variation de f sur R.4.a) Déterminer le point A de (C) où la tangente T à la courbe (C) est parallèle à l'asymptote ($\\Delta$). Donner une équation de T.b) Tracer T, ($\\Delta$) et (C).  Soit H la fonction définie sur R par: $H(x)=-(x+1)e^{-x}$.a) Vérifier que $H^{\\prime}(x)=f(x)-x+1$. En déduire une primitive F de f sur R.b) Calculer l'aire du domaine plan limité par (C), ($\\Delta$) et les droites d'équations $x=1$ et $x=3$."
+  },
+  {
+    "id": "bac-d-2016-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nPartie AOn considère la fonction g définie sur $]0,+\\infty[$ par: $g(x)=x^2-2+4lnx$.1.a) Montrer que g est strictement croissante sur $]0,+\\infty[$.b) Dresser le tableau de variation de g.2.a) Montrer que g réalise une bijection de $]0,+\\infty[$ sur un intervalle J que l'on déterminera.b) Montrer que l'équation $g(x)=0$ admet une unique solution $\\alpha$. Vérifier que $1,1<\\alpha<1,2$.c) En déduire le signe de $g(x)$ sur $]0,+\\infty[$.Partie BSoit f la fonction définie sur $]0,+\\infty[$ par: $f(x)=x-1-\\frac{2~ln~x}{x^{2}}$. Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1.a) Montrer que $lim_{x\\rightarrow0^{+}}f(x)=+\\infty$ et interpréter graphiquement.b) Calculer $lim_{x\\rightarrow+\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}(f(x)-(x-1))$. En déduire que la courbe (C) admet une asymptote oblique $\\Delta$ dont on donnera une équation.c) Etudier la position relative de (C) et $\\Delta$.2.a) Calculer $f^{\\prime}(x)$ et vérifier que pour tout x de $]0,+\\infty[$ on a : $f^{\\prime}(x)=\\frac{g(x)}{x^{3}}$.b) Montrer que $f(\\alpha)=\\frac{3\\alpha^{3}-2\\alpha^{2}-2}{2\\alpha^{2}}$.c) Dresser le tableau de variation de f.3.a) Donner l'équation de la tangente T à la courbe (C) au point A d'abscisse 1. Vérifier que T est perpendiculaire à $\\Delta$.b) Montrer que la courbe (C) coupe (Ox) en un point B autre que A d'abscisse $\\beta$ telle que $1,3<\\beta<1,4$.c) Représenter la courbe (C) et les droites $\\Delta$ et (T) dans le repère $(0;\\vec{i},\\vec{j})$.d) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de solutions de l'équation $2x^{3}-(m+1)x^{2}-2~ln~x=0$.4) Soit S l'aire du domaine plan délimité par la courbe (C), l'axe des abscisses et les droites d'équation respectives $x=1$ et $x=\\beta$.a) Justifier que: $S=-\\int_{1}^{\\beta}f(x)dx$.b) En utilisant une intégration par parties, calculer $I=\\int_{1}^{\\beta}\\frac{ln~x}{x^{2}}dx$. Calculer S en fonction de $\\beta$."
+  },
+  {
+    "id": "bac-d-2016-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nPour chaque question, trois réponses sont proposées dont une seule est exacte. Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :N°QuestionRéponse ARéponse BRéponse C1La suite de terme général $(\\frac{e}{4})^{n}$ estdécroissantecroissantedivergente2Si, pour tout n de N, $u_{n}-3\\le(\\frac{1}{2})^{n}$ alors$lim_{n\\rightarrow+\\infty}u_{n}=0$3Si $s=1+2+2^{2}+\\dots+2^{2015}$ alors :$s=2^{2015}+1$$s=1-2^{2016}$$s=2^{2016}-1$4Si $(v_{n})$ est une suite arithmétique de raison r telle que $v_{3}=0$ et $v_{5}=-6$ alors:$\\begin{cases}r=-3\\\\ v_{0}=8\\end{cases}$$\\begin{cases}r=-2\\\\ v_{0}=-\\end{cases}$$\\begin{cases}r=-3\\\\ v_{0}=9\\end{cases}$5Toute suite croissante et majorée est :non bornéeconvergentedivergente6Soit $(W_{n})$ une suite définie sur $\\mathbb{N}^{*}$ telle que $0\\le w_{n}\\le ln(1+\\frac{2}{n})$ alors:$lim_{n\\rightarrow+\\infty}w_{n}=2$$lim_{n\\rightarrow+\\infty}w_{n}=1$$lim_{n\\rightarrow+\\infty}w_{n}=0$"
+  },
+  {
+    "id": "bac-d-2016-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\nOn pose $P(z)=z^{3}-7z^{2}+18z-12$ où z est un nombre complexe.a) Calculer $P(1)$.b) Déterminer deux réels a et b tels que: $P(z)=(z-1)(z^{2}+az+b)$.c) Résoudre, dans l'ensemble des nombres complexes, l'équation: $P(z)=0$.Le plan complexe est rapporté à un repère orthonormal direct (O;u, v). Soient les points A, B et C d'affixes respectives: $Z_{A}=1$, $z_{B}=3-i\\sqrt{3}$ et $z_{C}=3+i\\sqrt{3}$.a) Calculer le module et un argument de chacun des nombres $Z_{A}$, $Z_{B}$ et $z_{C}$.b) Placer les points A, B et C dans le repère $(0;\\vec{u},\\vec{v})$.3.a) Calculer le module du complexe suivant: $\\frac{z_{C}-z_{A}}{z_{B}-z_{A}}$.b) En déduire la nature du triangle ABC.4.a) Déterminer $Z_{D}$ affixe du point D tel que ABCD soit un parallélogramme. Placer D.b) Déterminer et construire l'ensemble des points M d'affixe z telle que $\\frac{z-1-2i\\sqrt{3}}{z-1}=1$.c) Déterminer $Z_{I}$ affixe du point I milieu de [AD]. Déterminer la nature du triangle IBC."
+  },
+  {
+    "id": "bac-d-2016-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nSoit f la fonction définie sur R par: $f(x)=xe^{x}-e^{x}+x-1$. Soit C sa courbe représentative dans un repère orthonormal $(0;\\vec{i},\\vec{j})$ d'unité 1cm.1.a) Calculer et interpréter $lim_{x\\rightarrow-\\infty}f(x)$ et $lim_{x\\rightarrow-\\infty}(f(x)-(x-1))$.b) En remarquant que $f(x)=(x-1)(e^{x}+1)$ calculer $lim_{x\\rightarrow+\\infty}f(x)$.c) Déterminer et interpréter $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$.2.a) Calculer $f^{\\prime}(x)$ et $f^{\\prime\\prime}(x)$ où $f^{\\prime}$ et $f^{\\prime\\prime}$ sont respectivement la dérivée et la dérivée seconde de f.b) Calculer $f^{\\prime}(-1)$ et préciser son signe.c) Etudier les variations de f' et en déduire le signe de $f^{\\prime}(x)$.3. Dresser le tableau de variation f.4. Déterminer les points d'intersection de (C) avec les axes de coordonnées puis la construire.5.a) Vérifier que pour tout $x\\in\\mathbb{R}$ on a: $f(x)=f^{\\prime}(x)-e^{x}+x-2$. En déduire une primitive F de f sur R.b) Calculer l'aire S du domaine plan délimité par la courbe (C) et les axes de coordonnées."
+  },
+  {
+    "id": "bac-d-2016-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nSoit f la fonction définie sur $]0;+\\infty[$ par: $f(x)=x-2-ln~x$.1.a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$.b) Calculer et interpréter graphiquement $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ et $lim_{x\\rightarrow+\\infty}(f(x)-x)$.2. Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de f.3. Donner une équation de la tangente T à (C) au point A d'abscisse $x_{0}=e$.4.a) Montrer que l'équation $f(x)=0$ admet exactement deux solutions $\\alpha$ et $\\beta$ ($\\alpha<\\beta$) et que $0,1<\\alpha<0,2$; $3,1<\\beta<3,2$. Démontrer que: $\\frac{e^{\\alpha}}{e^{\\beta}}=\\frac{\\alpha}{\\beta}$.b) En déduire le signe de $f(x)$ sur $]0;+\\infty[$.5. Soit g la restriction de f sur $I=[1;+\\infty[$.a) Montrer que g réalise une bijection de I sur un intervalle J que l'on déterminera.b) Calculer $(g^{-1})^{\\prime}(e-3)$, (On pourra utiliser la question 3).6. Tracer (C) et (C') courbes respectives des fonctions f et $g^{-1}$ dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.7.a) En utilisant une intégration par parties, calculer $\\int_{1}^{e}ln~xdx$.b) Calculer l'aire du domaine plan délimité par la courbe (C), l'axe des abscisses et les droites d'équations $x=1$ et $x=e$."
+  },
+  {
+    "id": "bac-d-2017-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nOn définit les suites numériques $(u_{n})$, $(v_{n})$ et $(w_{n})$ pour tout $n\\ge1$ par $u_{n}=2^{n}-2n$, et $w_{n}=ln(nv_{n})$. Soit $S_{n}=u_{1}+u_{2}+u_{3}+\\dots+u_{n}$ la somme des n premiers termes de la suite $(u_{n})$. Parmi les réponses proposées pour chaque question ci-après, une seule est exacte. Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :N°QuestionRéponse ARéponse BRéponse C1Le terme général de $(v_{n})$ est$v_{n}=1$$v_{n}=2^{n}$$v_{n}=\\frac{2^{n-1}}{n}$2La suite $(u_{n})$ estcroissantedécroissanteconstante3La valeur de $S_{n}$ est$S_{n}=2^{n+1}-n^{2}-n-2$$S_{n}=2^{n+1}-n^{2}-n-2$$S_{n}=2^{n+1}-n^{2}-n+2$4La suite $(v_{n})$ estconvergentedivergenteconstante5La suite $(w_{n})$ estarithmétiquegéométriqueconvergente6Si $e^{ln~1+ln~2+ln~3+\\dots+ln~n}=120$ alors la valeur de n est$n=3$$n=4$$n=5$"
+  },
+  {
+    "id": "bac-d-2017-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\nPour tout nombre complexe z on pose: $P(z)=z^{3}-4\\sqrt{2}z^{2}+12z-8\\sqrt{2}$a) Calculer $P(2\\sqrt{2})$.b) Déterminer les réels a et b tels que pour tout z on a: $P(z)=(z-2\\sqrt{2})(z^{2}+az+b)$c) Résoudre, dans l'ensemble des nombres complexes, l'équation $P(z)=0$Le plan complexe est rapporté à un repère orthonormé direct $(0;\\vec{u},\\vec{v})$. Soient les points A, B et C d'affixes respectives: $z_{A}=\\sqrt{2}-i\\sqrt{2}$, $z_{B}=2\\sqrt{2}$ et $z_{C}=\\sqrt{2}+i\\sqrt{2}$.a) Placer les points A, B et C dans le repère $(0;\\vec{u},\\vec{v})$.b) Déterminer la nature du triangle ABC et celle du quadrilatère OABC.Pour tout nombre $z\\ne\\sqrt{2}-i\\sqrt{2}$; on pose : $f(z)=\\frac{z-\\sqrt{2}-i\\sqrt{2}}{z-\\sqrt{2}+i\\sqrt{2}}$.a) Vérifier que $f(z_{B})=-i$ et interpréter graphiquement.b) Déterminer et construire $\\Gamma_{1}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)|=1$.c) Déterminer et construire $\\Gamma_{2}$ l'ensemble des points M d'affixe z tel que $f(z)$ soit imaginaire pur.d) Déterminer et construire $\\Gamma_{3}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)-1|=2$.e) Vérifier que les trois ensembles $\\Gamma_{1}$, $\\Gamma_{2}$ et $\\Gamma_{3}$ passent par les points O et B."
+  },
+  {
+    "id": "bac-d-2017-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nSoit f la fonction définie sur R par $f(x)=(x+2)(1+e^{-x})$ et soit sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1º a) Montrer que $lim_{x\\rightarrow-\\infty}f(x)=-\\infty$ et que $lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}=+\\infty$. Interpréter graphiquement.b) Montrer que $f(x)=x+2+\\frac{x}{e^{x}}+\\frac{2}{e^{x}}$, puis calculer $lim_{x\\rightarrow+\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}(f(x)-(x+2))$.c) En déduire que f admet une asymptote oblique D dont on donnera une équation.d) Etudier la position relative entre (C) et D.2º a) Montrer que $f^{\\prime}(x)=1-(x+1)e^{-x}$ où $f^{\\prime}$ est la dérivée première de f.b) Etudier les variations de f' et en déduire le signe de $f^{\\prime}(x)$.c) Dresser le tableau de variation de f.3º a) Déterminer le point A de (C) où la tangente T à la courbe est parallèle à l'asymptote D. Donner une équation de T.b) Déterminer les points d'intersection de (C) avec les axes de coordonnées.c) Tracer D, T et (C) dans le repère $(0;\\vec{i},\\vec{j})$.4º a) calculer l'intégrale $I=\\int_{-2}^{0}2e^{-x}dx$.b) A l'aide d'une intégration par parties calculer l'intégrale $J=\\int_{-2}^{0}xe^{-x}dx$.c) En déduire l'aire du domaine délimité par l'asymptote D, la courbe (C) et les droites d'équations $x=-2$ et $x=0$.5º Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de solutions de l'équation $x+2=(m-2)e^{x}$."
+  },
+  {
+    "id": "bac-d-2017-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nSoit f la fonction définie sur $D_{f}=]0,1[\\cup]1,+\\infty[$ par: $f(x)=\\frac{2x-1+ln~x}{x-1}$ et soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1º On considère la fonction u définie sur $]0,+\\infty[$ par: $u(x)=1+x~ln~x$.a) Calculer $lim_{x\\rightarrow0^{+}}u(x)$ et $lim_{x\\rightarrow+\\infty}u(x)$.b) Calculer $u^{\\prime}(x)$ où $u^{\\prime}$ est la dérivée de u, puis dresser le tableau de variation de u.c) Montrer que $\\forall x>0$ on a $u(x)\\ge1-\\frac{1}{e}$. En déduire le signe de u(x).2º a) Montrer que $lim_{x\\rightarrow0^{+}}f(x)=+\\infty$ et interpréter graphiquement.b) Calculer et interpréter les limites $lim_{x\\rightarrow1^{-}}f(x)$ et $lim_{x\\rightarrow1^{+}}f(x)$.3º a) Monter que $f(x)$ peut s'écrire sous la forme $f(x)=2+\\frac{1}{x-1}+\\frac{ln~x}{x-1}$.b) Calculer $lim_{x\\rightarrow+\\infty}f(x)$ et en déduire que la courbe (C) admet une asymptote horizontale ($\\Delta$) dont on donnera une équation.c) Etudier la position relative de (C) et ($\\Delta$).4 a) Calculer $f^{\\prime}(x)$ et vérifier que pour tout x de $D_{f}$ on a: $f^{\\prime}(x)=\\frac{-u(x)}{x(x-1)^{2}}$.b) Dresser le tableau de variation de f.5º Soit g la restriction de f sur l'intervalle $]0,1[$.a) Montrer que g est une bijection de $]0,1[$ sur un intervalle I que l'on précisera.b) Dresser le tableau de variation de $g^{-1}$, où $g^{-1}$ est la réciproque de g.6º a) Montrer que la courbe (C) coupe (Ox) en un unique point A d'abscisse $\\alpha$ avec $0.6<\\alpha<0.8$.b) Tracer ($\\Delta$); (C) et (C') dans le repère $(0;\\vec{i},\\vec{j})$, où (C') est la courbe de $g^{-1}$.\nSérie Sciences de la Nature= serie D ou filiere D"
+  },
+  {
+    "id": "bac-d-2018-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nUn groupe de 100 candidats ont passé un test d'inscription dans un centre de formation professionnelle. Le test est composé de deux épreuves obligatoires: une écrite et une orale. Les résultats ont montré que: 60 candidats ont réussi l'épreuve écrite dont 45 ont réussi aussi l'épreuve orale. Parmi ceux qui ont échoué dans l'épreuve écrite 25% ont réussi l'épreuve orale. On choisit au hasard un candidat de ce groupe et on considère les évènements suivants: A: « le candidat a réussi l'épreuve écrite»; B: « le candidat a réussi l'épreuve orale». Pour chacune des questions de cet exercice, une seule des trois réponses proposées est correcte.La probabilité $p(A)$ est : 0.6 / 0.45 / 0.25La probabilité $p(A\\cap B)$ est : 0.6 / 0.45 / 0.25La probabilité $p_{A}(B)$ est : 0.75 / 0.45 / 0.25La probabilité $p_{\\overline{A}}(B)$ est : 0.75 / 0.45 / 0.25La probabilité $p(B)$ est : 0.75 / 0.55 / 0.1La durée de l'épreuve écrite varie de 20 à 60 minutes. On suppose que le temps X, exprimé en minutes, mis par un candidat avant de remettre sa copie, lors de cette épreuve, est une variable aléatoire qui suit une loi uniforme.La fonction de densité de X est : $f(x)=\\frac{1}{20}$ / $f(x)=\\frac{1}{40}$ / $f(x)=\\frac{1}{60}$La probabilité que ce candidat remet sa copie après 30 minutes est : $\\frac{1}{6}$ / $\\frac{1}{2}$ / $\\frac{3}{4}$Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée."
+  },
+  {
+    "id": "bac-d-2018-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\nLe plan complexe est muni d'un repère orthonormé $(O;\\vec{u},\\vec{v})$. Pour tout nombre complexe $z$ on pose: $P(z)=z^{3}-(3+2i)z^{2}+(3+3i)z-4i$.a) Déterminer les racines carrées du nombre complexe $-8+6i$.b) Calculer $P(i)$.c) Déterminer les nombres $a$ et $b$ tels que pour tout nombre complexe $z$ on a: $P(z)=(z-i)(z^{2}+az+b)$.d) En déduire l'ensemble des solutions de l'équation $P(z)=0$.Soit A, B et C les points d'affixes respectives $z_{A}=i,$ $z_{B}=1-i$ et $z_{C}=2+2i$.a) Placer les points A, B et C.b) Déterminer la nature du triangle ABC.c) Déterminer l'affixe du point D tel que ABDC soit un parallélogramme.d) Déterminer et construire l'ensemble des points M du plan d'affixe $z$ tel que $|\\frac{z-2-2i}{z-1+i}|=1$.3° Pour tout entier naturel $n$, on pose $Z_{n}=(z_{C})^{n}$ et $v_{n}=|Z_{n}|$.a) Vérifier que $z_{C}=2\\sqrt{2}e^{i\\frac{\\pi}{4}}$ puis en déduire l'écriture trigonométrique de $z_{C}$.b) Montrer que $(v_{n})$ est une suite géométrique dont on donnera la raison et le premier terme.c) Calculer la limite de $(v_{n})$ et exprimer en fonction de $n$ la somme $S_{n}=v_{0}+v_{1}+....+v_{n}$."
+  },
+  {
+    "id": "bac-d-2018-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nSoit $f$ la fonction numérique définie sur $\\mathbb{R}$ par $f(x)=2x-1+2xe^{-x}$ et soit (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow-\\infty}f(x)=-\\infty$ et que $\\lim_{x\\rightarrow+\\infty}f(x)=+\\infty$.b) Montrer que $\\lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}=+\\infty$. Interpréter graphiquement.c) Montrer que la droite D d'équation $y=2x-1$ est une asymptote oblique à (C) et étudier la position relative entre (C) et D.2º a) Calculer la dérivée $f^{\\prime}$ puis montrer que l'expression de la dérivée seconde de $f$ est $f^{\\prime\\prime}(x)=(2x-4)e^{-x}$.b) Montrer que la courbe (C) admet un point d'inflexion A dont on donnera les coordonnées.c) Etudier les variations de $f^{\\prime}$ et en déduire que $f^{\\prime}$ est positive.d) Dresser le tableau de variation de $f$.3º a) Montrer que la courbe (C) coupe (Ox) en un unique point d'abscisse $\\alpha$ avec $0.2<\\alpha<0.3$.b) Déterminer le point B de (C) où la tangente T est parallèle à l'asymptote D. Donner une équation de T.c) Tracer D, T et (C) dans le repère $(O;\\vec{i},\\vec{j})$.d) Discuter graphiquement, suivant les valeurs du paramètre réel $m$, le nombre de solutions de l'équation: $-m-1+2xe^{-x}=0$."
+  },
+  {
+    "id": "bac-d-2018-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nSoit $f$ la fonction définie sur $]0,+\\infty[$ par: $f(x)=\\frac{2+x+x\\ln x}{x}$ et soit (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow0^{+}}f(x)=+\\infty$ et interpréter graphiquement.b) Vérifier que $f(x)=\\frac{2}{x}+1+\\ln x$.c) Calculer $\\lim_{x\\rightarrow+\\infty}f(x)$ et $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$. Interpréter graphiquement.2º a) Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de $f$.b) Donner une équation de la tangente T à la courbe (C) au point d'abscisse $x_{0}=1$.3º Soit $g$ la restriction de $f$ sur l'intervalle $I=]0;2]$.a) Montrer que $g$ est une bijection de $I$ sur un intervalle J que l'on précisera.b) Dresser le tableau de variation de $g^{-1}$, où $g^{-1}$ est la fonction réciproque de $g$.c) Calculer $(g^{-1})^{\\prime}(3)$ (on pourra utiliser 2º b)).d) Construire (C), (C') et T dans le repère $(O;\\vec{i},\\vec{j})$, où (C') est la courbe de $g^{-1}$.4°) On considère la fonction $h$ définie sur $]0,+\\infty[$ par $h(x)=f(x)-x$.a) Dresser le tableau de variation de $h$.b) Montrer que l'équation $h(x)=0$ admet une unique solution $\\alpha$, telle que $2<\\alpha<3$. Vérifier que $f(\\alpha)=\\alpha$ et en déduire que $\\forall x\\ge\\alpha$ on a $f(x)-x\\le0$.5°) Soit $(u_{n})$ la suite définie par $\\begin{cases}u_{0}=3\\\\ u_{n+1}=f(u_{n}),\\forall n\\in\\mathbb{N}\\end{cases}$.a) Montrer par récurrence que $u_{n}\\ge\\alpha$ $\\forall n\\in\\mathbb{N}$.b) Montrer que $(u_{n})$ est décroissante (on pourra utiliser $4^{\\circ}b$). En déduire que $(u_{n})$ est convergente.6°) a) Utiliser une intégration par parties pour calculer l'intégrale $K=\\int_{1}^{e}\\ln x dx$.b) En déduire l'aire du domaine délimité par la courbe (C), l'axe des abscisses et les droites d'équations $x=1$ et $x=e$."
+  },
+  {
+    "id": "bac-d-2018-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nSoit $(u_{n})$ et $(v_{n})$ les suites numériques définies par $u_{0}=1$, $u_{n+1}=\\frac{1}{2}u_{n}+n+2$ et $v_{n}=u_{n}-2n$.Parmi les réponses proposées pour chaque question ci-après, une seule est correcte.1° $(v_{n})$ est une suite : A: arithmétique, B: géométrique, C: ni arithmétique et ni géométrique2º L'expression de $v_{n}$ en fonction de $n$ est : A: $v_{n}=2^{n}+2n$, B: $v_{n}=2+\\frac{1}{2}n$, C: $v_{n}=(\\frac{1}{2})^{n}$3° Si $(w_{n})$ est la suite définie par $w_{n}=\\ln(v_{n})$ alors : A: $w_{n}=-(\\ln 2)^{n}$, B: $w_{n}=-n\\ln 2$, C: $w_{n}=1-2\\ln n$4° La suite $(w_{n})$ est : A: bornée, B: convergente, C: divergente5° La somme $S_{n}=w_{0}+w_{1}+w_{2}+...+w_{n}$ est égale à : A: $\\frac{-(n^{2}+n)\\ln 2}{2}$, B: $\\frac{(n+1)(1-2\\ln n)}{2}$, C: $\\frac{(n+1)(1-2\\ln n)}{2}$6° Le produit $P_{n}=v_{0}\\times v_{1}\\times v_{2}\\times....\\times v_{n}$ est égal à : A: $e^{\\frac{-(n^{2}+n)\\ln 2}{2}}$, B: $e$, C: $\\frac{1-(\\ln 2)^{n+1}}{1-\\ln 2}$Recopier sur la feuille de réponse et compléter le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :"
+  },
+  {
+    "id": "bac-d-2018-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\n1º a) Calculer $(4-2i)^{2}$.b) Résoudre, dans l'ensemble des nombres complexes, l'équation $z^{2}+(2-4i)z-6=0$.2º Le plan complexe est rapporté à un repère orthonormé direct $(O;\\vec{u},\\vec{v})$. On considère les points A, B et C d'affixes respectives: $z_{A}=1+i$, $z_{B}=-3+3i$ et $z_{C}=\\frac{(z_{B})^{3}}{(z_{A})^{5}}$a) Ecrire sous forme trigonométrique chacun des nombres $z_{A}$, $z_{B}$ puis en déduire celle de $z_{C}$.b) Placer les points A et B dans le repère $(O;\\vec{u},\\vec{v})$.c) Ecrire sous forme algébrique le nombre $\\frac{z_{B}}{z_{A}}$ puis interpréter géométriquement.3º Pour tout nombre complexe $z\\ne1+i$; on pose: $f(z)=\\frac{z+3-3i}{z-1-i}$a) Résoudre, dans l'ensemble des nombres complexes, l'équation $f(z)=i$. Interpréter géométriquement.b) Déterminer et construire $\\Gamma_{1}$ l'ensemble des points M du plan d'affixe $z$ tel que $|f(z)|=1$.c) Déterminer et construire $\\Gamma_{2}$ l'ensemble des points M d'affixe $z$ tel que $f(z)$ soit imaginaire pur ou nul.d) Déterminer et construire $\\Gamma_{3}$ l'ensemble des points M du plan d'affixe $z$ tel que $|f(z)-1|=\\sqrt{5}$."
+  },
+  {
+    "id": "bac-d-2018-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nSoit $f$ la fonction définie sur $\\mathbb{R}$ par $f(x)=x+2-e^{x}$ et soit $\\Gamma$ sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow+\\infty}f(x)=-\\infty$ et calculer $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$. Interpréter graphiquement.b) Calculer $\\lim_{x\\rightarrow-\\infty}f(x)$ et $\\lim_{x\\rightarrow-\\infty}(f(x)-(x+2))$. En déduire que $\\Gamma$ admet une asymptote oblique D dont on donnera une équation.c) Etudier la position relative entre $\\Gamma$ et D.2º a) Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de $f$.b) Montrer que l'équation $f(x)=0$ admet exactement deux solutions $\\alpha$ et $\\beta$, $(\\alpha<\\beta)$, et que $-1.9<\\alpha<-1.8;1.1<\\beta<1.2.$c) Montrer que: $\\alpha+f^{\\prime}(\\alpha)=\\beta+f^{\\prime}(\\beta)$.3º Soit $h$ la restriction de $f$ sur l'intervalle $I=]-\\infty;0]$.a) Montrer que $h$ admet une réciproque, notée $h^{-1}$.b) Dresser le tableau de variation de $h^{-1}$.c) Montrer que $(h^{-1})^{\\prime}(0)=\\frac{-1}{1+\\alpha}$.4º a) Déterminer le point A de la courbe $\\Gamma$ auquel la tangente T est perpendiculaire à D. Donner une équation de T.b) Tracer D, T, $\\Gamma$ et $\\Gamma^{\\prime}$ dans le repère $(O;\\vec{i},\\vec{j})$, où $\\Gamma^{\\prime}$ est la courbe de $h^{-1}$ dans ce repère."
+  },
+  {
+    "id": "bac-d-2018-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nPartie A: On considère la fonction $g$ définie sur $]0,+\\infty[$ par: $g(x)=-x+3-2\\ln x$.1º a) Calculer $\\lim_{x\\rightarrow0^{+}}g(x)$ et $\\lim_{x\\rightarrow+\\infty}g(x)$.b) Calculer $g^{\\prime}(x)$ où $g^{\\prime}$ est la dérivée de $g$, puis dresser le tableau de variation de $g$.2º a) Montrer que $g$ réalise une bijection de $]0, +\\infty[$ sur un intervalle J que l'on déterminera.b) Montrer que l'équation $g(x)=0$ admet une unique solution et que $1.8\\le\\lambda\\le1.9$.c) En déduire le signe de $g$ sur l'intervalle $]0,+\\infty[$.Partie B: Soit $f$ la fonction définie sur $I=]0,+\\infty[$ par: $f(x)=\\frac{x-1+\\ln x}{x^{2}}$ et soit (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow0^{+}}f(x)=-\\infty$ et interpréter graphiquement.b) Montrer que $\\lim_{x\\rightarrow+\\infty}f(x)=0$ et interpréter graphiquement.2º a) Calculer $f^{\\prime}(x)$ et vérifier que pour tout $x$ de $I$ on a: $f^{\\prime}(x)=\\frac{g(x)}{x^{3}}$.b) Montrer que $f(\\lambda)=\\frac{\\lambda+1}{2\\lambda^{2}}$ et donner une valeur approchée de $f(\\lambda)$ à $10^{-1}$ près.c) Dresser le tableau de variation de $f$.3º a) Donner une équation de la tangente T à (C) au point d'abscisse $x_{0}=1$.b) Tracer (C) et T dans le repère $(O;\\vec{i},\\vec{j})$.c) Discuter graphiquement suivant les valeurs du paramètre réel $m$ le nombre de solutions de l'équation: $\\ln x=1-x+2x^{3}+mx^{2}$.4º a) A l'aide d'une intégration par parties calculer l'intégrale $J=\\int_{1}^{e}\\frac{\\ln x}{x^{2}}dx$.b) En déduire l'aire du domaine plan délimité par la courbe (C), l'axe des abscisses et les droites d'équations $x=1$ et $x=e$."
+  },
+  {
+    "id": "bac-d-2019-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nSoit $(u_{n})$ la suite numérique définie par $u_{n}=3^{n}+n-1$. On pose $v_{n}=u_{n+1}-u_{n}$ et $w_{n}=\\ln(\\frac{-1+v_{n}}{2})$. Parmi les réponses proposées pour chaque question ci-après, une seule est correcte.La suite $(u_{n})$ est : arithmétique / géométrique / ni arithmétique, ni géométriqueLa suite $(u_{n})$ est : convergente / divergente / bornéeSi $S_{n}=u_{0}+u_{1}+...+u_{n}$, alors la valeur de $S_{n}$ est : $\\frac{3^{n+1}-1}{2}+\\frac{(n+1)(n-2)}{2}$ / $\\frac{1-3^{n+1}}{-2}+\\frac{(n+1)(n-1)}{2}$ / $\\frac{1-3^{n+1}}{2}+\\frac{(n+1)(n-2)}{2}$Le terme général de la suite $(v_{n})$ est : $v_{n}=2\\times3^{n}+1$ / $v_{n}=2\\times3^{n}+2n+1$ / $v_{n}=3^{n}+1$Le plus petit entier naturel $n$ tel que $v_{n}\\ge2019$ est : $n=6$ / $n=7$ / $n=8$Si $T_{n}=w_{0}+w_{1}+...+w_{n}$, alors la valeur de $T_{n}$ : $\\frac{(n+1)^{2}}{2}\\ln 3$ / $\\ln(\\frac{3^{n+1}-1}{2})$ / $\\frac{n^{2}+n}{2}\\ln 3$Recopier sur la feuille de réponse et compléter le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée."
+  },
+  {
+    "id": "bac-d-2019-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\n1º a) Déterminer les racines carrées du nombre complexe $-3+4i$.b) En déduire les solutions, dans $\\mathbb{C}$, de l'équation $z^{2}+(3-6i)z-6-10i=0$.2º Dans le plan complexe muni d'un repère orthonormé $(O;\\vec{u},\\vec{v})$, on considère les points A, B et C d'affixes respectives $z_{A}=-2+2i$; $z_{B}=1$; $z_{C}=-1+4i$.a) Placer les points A, B et C.b) Déterminer la nature du triangle ABC.c) Déterminer l'affixe du point D tel que ABDC soit un parallélogramme.3º Pour tout nombre complexe $z\\ne i$; on pose: $f(z)=\\frac{z+1-4i}{z-i}$.a) Déterminer et construire l'ensemble $\\Gamma_{1}$ des points M du plan d'affixe $z$ tel que $|f(z)|=1$.b) Déterminer et construire l'ensemble $\\Gamma_{2}$ des points M d'affixe $z$ tel que $f(z)$ soit imaginaire pur.c) Déterminer et construire l'ensemble $\\Gamma_{3}$ des points M du plan d'affixe $z$ tel que $|f(z)-1|=\\sqrt{2}$.4º On pose, pour tout entier $n\\ge1$; $Z_{n}=(z_{A})^{n}$.a) Ecrire $Z_{n}$ sous forme trigonométrique.b) Déterminer la longueur du segment $OM_{2019}$, où $M_{2019}$ est le point d'affixe $Z_{2019}$."
+  },
+  {
+    "id": "bac-d-2019-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6 points)\nA. 1º Déterminer la solution générale de l'équation différentielle (E): $y^{\\prime\\prime}-4y^{\\prime}+4y=0$.2º Soit $h$ la solution de (E) qui vérifie $h(0)=-1$ et $h^{\\prime}(0)=-1$. Montrer que $h(x)=(x-1)e^{2x}$.B. On considère la fonction $f$ définie sur $\\mathbb{R}$ par $f(x)=h(x)+2x-2=(x-1)(2+e^{2x})$ et soit (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow-\\infty}f(x)=-\\infty$ et $\\lim_{x\\rightarrow+\\infty}f(x)=+\\infty$ et $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}=+\\infty$. Interpréter graphiquement.b) Montrer que la droite D d'équation $y=2x-2$ est asymptote à (C) et étudier leurs positions relatives.2º a) Montrer que $f^{\\prime}(x)=2+(2x-1)e^{2x}$ et en déduire l'expression de $f^{\\prime\\prime}(x)$.b) Montrer que le point $A(0;-3)$ est un point d'inflexion pour la courbe (C).c) Etudier les variations de $f^{\\prime}$ et en déduire qu'elle est strictement positive sur $\\mathbb{R}$.d) Dresser le tableau de variation de $f$.3º a) Déterminer le point B de (C) où la tangente T est parallèle à la droite D. Ecrire une équation de T.b) Tracer D, T et (C) dans le repère $(O;\\vec{i},\\vec{j})$.c) Discuter graphiquement suivant les valeurs du paramètre réel $m$ le nombre de solutions de l'équation $x-1=me^{-2x}$."
+  },
+  {
+    "id": "bac-d-2019-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (6 points)\nSoit $f$ la fonction définie sur $]0;+\\infty[$ par $f(x)=(x-1)(1-\\ln x)$ et $\\Gamma$ sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º On considère la fonction $g$ définie sur l'intervalle $]0;+\\infty[$ par $g(x)=\\frac{1}{x}-\\ln x$.a) Calculer $\\lim_{x\\rightarrow0^{+}}g(x)$, $\\lim_{x\\rightarrow+\\infty}g(x)$.b) Calculer la dérivée $g^{\\prime}(x)$ puis dresser le tableau de variation de $g$.c) Montrer que l'équation $g(x)=0$ admet sur $]0;+\\infty[$ une unique solution $\\alpha$ telle que $1,7<\\alpha<1,8$.d) En déduire le signe de $g(x)$ sur $]0;+\\infty[$.2º a) Calculer $\\lim_{x\\rightarrow0^{+}}f(x)$, $\\lim_{x\\rightarrow+\\infty}f(x)$, $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ et interpréter graphiquement.b) Montrer que pour tout $x>0$, $f^{\\prime}(x)=g(x)$, où $f^{\\prime}$ est la dérivée de $f$.c) Dresser le tableau de variation de $f$.3º a) Montrer que $f(\\alpha)=\\frac{(\\alpha-1)^{2}}{\\alpha}$ où $\\alpha$ est le réel trouvé dans la question 1ºc).b) Déterminer les points d'intersection de la courbe $\\Gamma$ avec l'axe (Ox).4º Soit $h$ la restriction de $f$ sur l'intervalle $I=[\\alpha;+\\infty[$.a) Montrer que $h$ réalise une bijection de l'intervalle I sur l'intervalle $J=]-\\infty;f(\\alpha)]$.b) Calculer $(h^{-1})^{\\prime}(0)$.c) Construire $\\Gamma$ et $\\Gamma^{\\prime}$ dans le repère $(O;\\vec{i},\\vec{j})$ où $\\Gamma^{\\prime}$ est la courbe de $h^{-1}$.5º a) A l'aide d'une intégration par parties, montrer que $\\int_{1}^{e}(x-1)\\ln x dx=\\frac{e^{2}-3}{4}$.b) En déduire l'aire du domaine plan délimité par la courbe $\\Gamma$, l'axe des abscisses et les droites d'équations respectives $x=1$ et $x=e$."
+  },
+  {
+    "id": "bac-d-2019-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nSoit $f$ une fonction numérique dérivable sur son domaine de définition et (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$. On donne, ci-contre, le tableau de variation de $f$. Parmi les réponses proposées pour chaque question ci-après, une seule est correcte.L'ensemble de définition de $f$ est : $]-\\infty,3[\\cup]3,+\\infty[$ / $]-\\infty,3[\\cup[3,+\\infty[$ / $] -\\infty, 3[\\cup]3,+\\infty[$La fonction $f$ est : paire / impaire / ni paire ni impaireLa courbe (C) coupe (Ox) en : 3 points / 2 points / 1 seul pointLe nombre d'asymptotes de la courbe (C) est : une seule / deux / troisLe nombre de tangentes horizontales de (C) est : 1 / 2 / 3Le nombre de solutions de l'équation $f(x)=-2$ est : 1 / 2 / 3Recopier sur la feuille de réponse et compléter le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée."
+  },
+  {
+    "id": "bac-d-2019-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\n1º Pour tout nombre complexe $z$, on pose $P(z)=z^{3}-(4-i)z^{2}+7z-4+7i$.a) Déterminer les racines carrées du nombre complexe $-12-16i$.b) Calculer $P(-i)$.c) Déterminer les réels $a$ et $b$ tels que, $\\forall z\\in\\mathbb{C}$, on a $P(z)=(z+1)(z^{2}+az+b)$.d) Résoudre, dans l'ensemble des nombres complexes, l'équation $P(z)=0$.2º Dans le plan complexe muni d'un repère orthonormé $(O;\\vec{u},\\vec{v})$, on considère les points A, B et C d'affixes respectives: $z_{A}=1+2i$ , $z_{B}=-i$, $z_{C}=3-2i$.a) Placer les points A, B et C.b) Soit D le point tel que ABCD soit un parallélogramme. Justifier que $z_{D}=4+i$.c) Ecrire sous forme algébrique $\\frac{z_{D}-z_{C}}{z_{D}-z_{A}}$ et en déduire la nature du triangle ACD.3º Pour tout nombre complexe $z\\ne1+2i$; on pose: $f(z)=\\frac{z-3+2i}{z-1-2i}$.a) Déterminer et construire l'ensemble $\\Gamma$ des points M du plan d'affixe $z$ tel que $|f(z)|=1$.b) Déterminer et construire l'ensemble $\\Gamma_{1}$ des points M du plan d'affixe $z$ tel que $|f(z)-1|=\\sqrt{20}$.4º On pose $\\alpha=\\frac{z_{A}+z_{B}}{2\\sqrt{2}}$ et pour tout entier naturel $n$, on note $u_{n}=|\\alpha^{n}|$.a) Ecrire $\\alpha$ sous forme algébrique et vérifier que $u_{n}=\\frac{(\\sqrt{2})^{n}}{2^{n}}$.b) En déduire que $(u_{n})$ est une suite géométrique et montrer que $u_{0}+u_{1}+...+u_{2n}=2-\\frac{1}{2^{n}}$."
+  },
+  {
+    "id": "bac-d-2019-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nSoit $f$ la fonction définie sur $[-1,+\\infty[$ par $f(-1)=0$ et $\\forall x>-1$, $f(x)=(x+1)^{2}\\ln(x+1)-(x+1)$. On note (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Vérifier que $\\forall x>-1$, $f(x)=(x+1)[(x+1)\\ln(x+1)-1]$.b) Montrer que $\\lim_{x\\rightarrow-1^{+}}f(x)=0$ et $\\lim_{x\\rightarrow-1^{+}}\\frac{f(x)}{x+1}=-1$.c) En déduire que $f$ est continue et dérivable à droite de -1.d) Calculer $\\lim_{x\\rightarrow+\\infty}f(x)$ et vérifier que $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}=+\\infty$. Interpréter graphiquement.2º a) Montrer que $\\forall x>-1$, $f^{\\prime}(x)=2(x+1)\\ln(x+1)+x$ ($f^{\\prime}$ étant la dérivée de $f$).b) En remarquant que $\\forall x>-1$, le signe de $2(x+1)\\ln(x+1)$ est celui de $x$, montrer que $f^{\\prime}$ est négative sur $]-1,0[$ et positive sur $]0,+\\infty[$.c) Dresser le tableau de variation de $f$.3º Soit $g$ la restriction de $f$ sur l'intervalle $[0,+\\infty[$.a) Montrer que $g$ réalise une bijection de $[0,+\\infty[$ sur un intervalle J, à déterminer.b) Montrer que l'équation $g(x)=0$ admet une unique solution $\\alpha$, avec $0.7\\le\\alpha\\le0.8$.c) Justifier que $g^{\\prime}(\\alpha)=(\\alpha+2)$ et en déduire la valeur de $(g^{-1})^{\\prime}(0)$, où $g^{-1}$ est la réciproque de $g$.4º Tracer dans le même repère les courbes (C) et (C'), ((C') étant la courbe de $g^{-1}$)."
+  },
+  {
+    "id": "bac-d-2019-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nSoit $f$ la fonction définie sur $\\mathbb{R}$ par $f(x)=(2x-2)(1+e^{x})$ et soit (C) sa courbe représentative dans un repère orthonormé $(O;\\vec{i},\\vec{j})$.1º a) Montrer que $\\lim_{x\\rightarrow+\\infty}f(x)=+\\infty$ et que $\\lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}=+\\infty$. Interpréter graphiquement.b) Calculer $\\lim_{x\\rightarrow-\\infty}f(x)$ et $\\lim_{x\\rightarrow-\\infty}(f(x)-(2x-2))$.c) En déduire que la droite D d'équation $y=2x-2$ est une asymptote oblique pour (C). Etudier la position relative entre (C) et D.2º a) Calculer $f^{\\prime}(x)$ et justifier que $f^{\\prime\\prime}(x)=(2x+2)e^{x}$.b) Etudier les variations de $f^{\\prime}$ et en déduire que $\\forall x\\in\\mathbb{R}$, $f^{\\prime}(x)>0$.c) Dresser le tableau de variation de $f$.3º a) Déterminer le point d'intersection de (C) avec (Ox).b) Ecrire une équation de la tangente T au point d'abscisse 0 de (C).c) Tracer T et (C) dans le repère $(O;\\vec{i},\\vec{j})$.d) Discuter graphiquement, selon les valeurs du paramètre réel $m$, le nombre de solutions de l'équation $(2x-2)e^{x}=m+2$.4º a) Calculer, à l'aide d'une intégration par parties, l'intégrale $I=\\int_{0}^{1}(2x-2)e^{x}dx$.b) En déduire l'aire A de la partie du plan délimitée par (C), l'axe (Ox) et les droites d'équations $x=0$ et $x=1$."
+  },
+  {
+    "id": "bac-d-2020-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\n: (3 points)On considère les deux suites $(u_{n})$ et $(v_{n})$ définies pour tout entier naturel non nul n par:$u_{n}=\\frac{n}{2n^{2}+n}$ et $v_{n}=(\\frac{1}{3})^{n}$. Pour tout entier naturel $n\\ge1$ on donne $x_{n}=\\frac{1}{u_{n}}$ et $y_{n}=ln(v_{n})$.Pour chacune des six questions suivantes, une seule des réponses proposées est correcte.N∘QuestionRéponse ARéponse BRéponse C1La valeur de $x_{5}$ est61116(0.5 pt)2La limite de la suite $(u_{n})$ est0$\\frac{1}{2}$1(0.5 pt)3La suite $(v_{n})$ est une suiteCroissanteDécroissanteNon monotone(0.5 pt)4La suite $(X_{n})$ est une suiteArithmétiqueGéométriqueConvergente(0.5 pt)5Le terme général de la suite $(y_{n})$ est$y_{n}=\\frac{1}{3}ln~n$$y_{n}=-n~ln~3$$y_{n}=n~ln~3$(0.5 pt)6La somme $v_{1}+v_{2}+\\cdot\\cdot\\cdot+v_{n}$ est égale à$\\frac{1}{2}(1-(\\frac{1}{3})^{n+1})$$\\frac{1}{2}(1-(\\frac{1}{3})^{n})$$\\frac{1}{2}(1-(\\frac{1}{3})^{n-1})$(0.5pt)Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée"
+  },
+  {
+    "id": "bac-d-2020-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\n: (6 points)1º Pour tout complexe z on pose: $P(z)=z^{3}-(7+7i)z^{2}+(-2+30i)z+32-16i$a) Calculer $P(2i)$b) Déterminer les nombres complexes a et b tels que pour tout z, on a: $P(z)=(z-2i)(z^{2}+az+b)$c) Résoudre, dans l'ensemble des nombres complexes, l'équation $P(z)=0$2º Dans le plan complexe muni d'un repère orthonormé direct (O; $\\vec{u}, \\vec{v}$). On considère les points A, B et C d'affixes respectives: $z_{A}=3+i$, $z_{B}=2i$ et $z_{C}=4+4i$.a) Placer les points A, B et C dans le repère (O; $\\vec{u}, \\vec{v}$)b) Déterminer la nature du triangle ABCc) Déterminer l'affixe $Z_{D}$ du point D tel que ABDC soit un parallélogramme. Placer D.3º Pour tout nombre complexe $z\\ne3+i$; on pose: $f(z)=\\frac{z-2i}{z-4-4i}$a) Vérifier que $f(z_{D})=-i$ interpréter graphiquement.b) Déterminer et construire l'ensemble $\\Gamma_{1}$ des points M du plan d'affixe z tels que $|f(z)|=1$c) Déterminer et construire l'ensemble $\\Gamma_{2}$ des points M du plan d'affixez tels que $|f(z)-1|=\\sqrt{2}$4° On posez $z_{0}=f(6)$ et pour tout entier naturel n on note $Z_{n}=Z_{0}^{n}$a) Ecrire $Z_{0}$ sous forme algébrique, puis vérifier que $z_{o}=\\sqrt{2}e^{i\\frac{\\pi}{4}}$b) Déterminer la plus petite valeur de l'entier naturel n telle que $|z_{n}|\\ge2020$c) Vérifier que le point d'affixe $Z_{2020}$ appartient à l'axe des abscisses."
+  },
+  {
+    "id": "bac-d-2020-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\n: (4 points)Soit f la fonction définie sur R par: $f(x)=x-2+e^{-x}$ et soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1º a) Justifier que $lim_{x\\rightarrow+\\infty}f(x)=+\\infty$ et $lim_{x\\rightarrow+\\infty}(f(x)-(x-2))=0$b) En déduire que la droite ($\\Delta$) d'équation $y=x-2$ est asymptote à la courbe (C) puis étudier leur position relative.2º a) Montre que $f(x)=\\frac{xe^{x}-2e^{x}+1}{e^{x}}$ et que $\\frac{f(x)}{x}=1-\\frac{2}{x}+\\frac{1}{xe^{x}}$b) En déduire que $lim_{x\\rightarrow-\\infty}f(x)=+\\infty$ et que $lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}=-\\infty$. Interpréter graphiquement3º Justifier que $f^{\\prime}(x)=1-e^{-x}$ et dresser le tableau de variation de f.4° a) Montrer que l'équation $f(x)=0$ admet deux solutions $\\alpha$ et $\\beta$ avec $\\beta<\\alpha$ puis vérifier que $1,8<\\alpha<1,9$.b) Justifier que $f^{\\prime}(\\alpha)=\\alpha-1$5º Construire la courbe (C) et son asymptote ($\\Delta$) dans le repère $(0;\\vec{i},\\vec{j})$."
+  },
+  {
+    "id": "bac-d-2020-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4\n: (7 points)Soit f la fonction définie sur [0,+$\\infty$[ par: $\\begin{cases}f(x)=x-x~ln~x\\\\ f(0)=0\\end{cases}$ $\\forall x>0$ et soit ($\\Gamma$) sa courbe représentative dans un repère orthonormé $(0,\\vec{i},\\vec{j})$.1°a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$ et en déduire que f est continue en $0^{+}$b) Calculer $lim_{x\\rightarrow0^{+}}\\frac{f(x)-f(0)}{x-0};$ et interpréter graphiquement.c) Montrer que $lim_{x\\rightarrow+\\infty}f(x)=-\\infty$ et que $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}=-\\infty$ puis interpréter graphiquement.2º Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de f.3º a) Déterminer les points d'intersection de la courbe ($\\Gamma$) avec l'axe des abscisses.b) Donner une équation de la tangente (T) à ($\\Gamma$) au point d'abscisse e.4° Soit g la restriction de f sur l'intervalle $I=[1,+\\infty[$.a) Montrer que g est une bijection de I sur un intervalle J que l'on déterminera.b) Montrer que $(g^{-1})^{\\prime}(0)=-1$ où $g^{-1}$ est la réciproque de g.c) Construire (T), ($\\Gamma$) et ($\\Gamma^{\\prime}$) dans le repère $(0,\\vec{i},\\vec{j})$, ($\\Gamma^{\\prime}$) étant la courbe représentative de $g^{-1}$.d) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de solutions de l'équation $2x-x~ln~x=m$5º a) Utiliser une intégration par parties pour calculer l'intégrale $A=\\int_{1}^{e}x~ln~xdx$.b) En déduire l'aire du domaine plan délimité par la courbe ($\\Gamma$), l'axe des abscisses et les droites d'équations $x=1$ et $x=e$."
+  },
+  {
+    "id": "bac-d-2021-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\n: (3 points)On considère la suite $(u_{n})$ définie par $u_{0}=0$, $u_{1}=2$ et $\\forall n\\in\\mathbb{N}$, $u_{n+2}=u_{n+1}-\\frac{2}{9}u_{n}.$Soient $v_{n}=u_{n+1}-\\frac{1}{3}u_{n}$ et $S_{n}=v_{0}+v_{1}+\\cdot\\cdot\\cdot+v_{n}$Pour chacune des six questions suivantes, une seule des réponses proposées est correcte.N∘QuestionsRéponse ARéponse BRéponse C1La valeur de $u_{3}$ est$\\frac{17}{9}$$\\frac{16}{9}$$\\frac{14}{9}$0,5 pt2La suite $(u_{n})$ estCroissanteDécroissanteNon monotone0,5 pt3La suite $(v_{n})$ estArithmétiqueGéométriqueNi arithmétique, ni géométrique0,5 pt4Le terme général $de(v_{n})$ est$2\\times(\\frac{2}{3})^{n}$$2+\\frac{2n}{3}$$2-(\\frac{2}{3})^{n}$0,5 pt5La valeur de $S_{n}$ est$6-4\\times(\\frac{2}{3})^{n}$$\\frac{(n+1)(n+6)}{3}$$2n-1+2(\\frac{2}{3})^{n}$0,5 pt6La suite $(v_{n})$Converge vers 0Converge vers 1Diverge0,5 ptRecopier sur la feuille de réponse et compléter le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée"
+  },
+  {
+    "id": "bac-d-2021-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\n: (5 points)Pour tout nombre complexe z, on pose: $P(z)=z^{3}-(1+4i)z^{2}-3z-1-8i$.1º a) Calculer $P(-i)$.b) Déterminer les complexes a et b tels que $\\forall z\\in\\mathbb{C}:P(z)=(z+i)(z^{2}+az+b).$c) Résoudre, dans l'ensemble des nombres complexes C, l'équation $P(z)=0.$2º Dans le plan complexe muni d'un repère orthonormé (O, $\\vec{u}, \\vec{v}$), on considère les points A, B et C d'affixes respectives: $z_{A}=-i$; $z_{B}=-1+2i$ et $z_{C}=2+3i$.a) Placer les points A, B et C dans le repère (O, $\\vec{u}, \\vec{v}$). Déterminer la nature du triangle ABC.b) Placer le point D d'affixe $Z_{D}=3$ et préciser la nature du quadrilatère ABCD.3º Pour tout nombre complexe $z\\ne2+3i$, on pose $f(z)=\\frac{z+i}{z-2-3i}$a) Déterminer et construire l'ensemble $\\Gamma_{1}$ des points M d'affixe z tels que $|f(z)|=1$b) Déterminer et construire l'ensemble $\\Gamma_{2}$ des points M d'affixe z tels que $arg[f(z)]=\\frac{\\pi}{2}[\\pi]$c) Justifier que les ensembles $\\Gamma_{1}$ et $\\Gamma_{2}$ passent par les points B et D.4º Pour tout entier $n\\in\\mathbb{N}$, on pose $z_{n}=(z_{B}-i)^{n}$. Soit $M_{n}$ le point d'affixe $Z_{n}$ et $d_{n}=|z_{n}|$a) Déterminer les valeurs de n pour lesquelles $M_{n}$ appartient à l'axe des abscisses.b) Montrer que $(d_{n})$ est une suite géométrique et en déduire que $OM_{n}=(\\sqrt{2})^{n}$c) Exprimer en fonction de n la valeur de la somme $L_{n}=OM_{1}+OM_{2}+...+OM_{n}$, où $n\\in\\mathbb{N}^{\\wedge}$."
+  },
+  {
+    "id": "bac-d-2021-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\n: (5,5 points)Soit f la fonction numérique définie sur R par $f(x)=1+(x+2)e^{-x}$ et soit (C) sa courbe représentative dans un repère orthonormé (0;$\\vec{i}$,$\\vec{j}$), d'unité graphique 1cm.1º a) Montrer que $lim_{x\\rightarrow-\\infty}f(x)=-\\infty$ puis calculer $lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}$ et interpréter graphiquement.b) Justifier que $f(x)=1+\\frac{x}{e^{x}}+\\frac{2}{e^{x}}$ puis calculer $lim_{x\\rightarrow+\\infty}f(x)$ et interpréter graphiquement.2º Calculer $f^{\\prime}(x)$, où f' est la fonction dérivée de f. Dresser le tableau de variation de f.3º Montrer que l'équation $f(x)=0$ admet une unique solution $\\alpha$. Justifier que $-2,2<\\alpha<-2$4° a) Montrer que I(0;3) est un point d'inflexion pour la courbe (C). Ecrire une équation de la tangente T à (C) en ce point.b) Construire la courbe (C) et sa tangente T dans le repère (0;$\\vec{i}$,$\\vec{j}$).5º Soit S l'aire, en $cm^{2}$, de la partie du plan fermée par la courbe (C) et les axes de coordonnées.a) Montrer que $S=\\int_{\\alpha}^{0}f(x)dx$.b) Vérifier que $\\forall x\\in\\mathbb{R}$, $f(x)=1+h^{\\prime}(x)$, où $h(x)=-(x+3)e^{-x}$. En déduire une primitive de f sur R.c) Justifier que $e^{-\\alpha}=\\frac{-1}{\\alpha+2}$ et en déduire que $S=\\frac{-(\\alpha+3)^{2}}{\\alpha+2}$"
+  },
+  {
+    "id": "bac-d-2021-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4\n: (6,5 points)Soit f la fonction définie sur l'intervalle $I=]0,+\\infty[$ par $f(x)=x-2+2(\\frac{ln~x}{x})$, et soit ($\\Gamma$) sa courbe représentative dans un repère orthonormé (0;$\\vec{i}$,$\\vec{j}$).1º On considère la fonction g définie sur I par $g(x)=x^{2}+2-2~ln~x$a) Calculer $g^{\\prime}(x)$ pour tout $x\\in I$ et étudier son signe sur cet intervalle.b) Calculer $g(1)$, puis en déduire que g est positive sur I.2º a) Montrer que $lim_{x\\rightarrow0^{+}}f(x)=-\\infty$ et $lim_{x\\rightarrow+\\infty}f(x)=+\\infty$. Interpréter graphiquement.b) Montrer que la droite $\\Delta$ d'équation $y=x-2$ est asymptote à $\\Gamma$ et étudier leur position relative.3º a) Montrer que $\\forall x>0$ $f^{\\prime}(x)=\\frac{g(x)}{x^{2}}$ (g étant la fonction définie en 1°).b) En déduire le signe de f' puis dresser le tableau de variation de la fonction f.c) Montrer que la courbe $\\Gamma$ coupe l'axe des abscisses en un seul point A d'abscisse $\\beta$. Vérifier que $1,47<\\beta<1,48$4° a) Déterminer une équation de la tangente T à $\\Gamma$ au point d'abscisse e.b) Construire la courbe $\\Gamma$ , l'asymptote $\\Delta$ ainsi que la tangente T dans le même repère (0;$\\vec{i}$,$\\vec{j}$)c) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de solutions de l'équation $(m+2)x=2~ln~x$.5º a) Montrer que f réalise une bijection de I dans un intervalle J à déterminer.b) Vérifier que $f^{-1}(-1)=1$ et calculer $(f^{-1})^{\\prime}(-1)$ où $f^{-1}$ est la réciproque de f.c) Construire la courbe ($\\Gamma^{\\prime}$) de $f^{-1}$ dans le même repère (0,$\\vec{i}$,$\\vec{j}$)."
+  },
+  {
+    "id": "bac-d-2022-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\n: (3 points)Les statistiques montrent que 5% des candidats au bac national 2019 étaient en série C. On choisit, de façon aléatoire, de l'ensemble des candidats de 2019, un échantillon de n candidats $(n\\ge2)$. On suppose que ce choix peut être assimilé à un tirage successif avec remise. Soit X la variable aléatoire égale au nombre de candidats au bac C choisis dans cet échantillon.Déterminer la loi de probabilité de X et son espérance mathématique.Calculer en fonction de n la probabilité de chacun des événements A et B suivants :A « Seulement deux candidats au bac C ont été choisis »B « Au moins un candidat au bac C a été choisi ».Soit $P_{n}$ la probabilité d'avoir choisi au moins un candidat au bac C donc $p_{n}=p(B)$.a) Calculer $lim_{n\\rightarrow+\\infty}p_{n}$ et interpréter le résultat.b) Quel est le nombre minimal de candidats qu'il faut choisir pour que $p_{n}\\ge0,99$ ?"
+  },
+  {
+    "id": "bac-d-2022-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\n: (5 points)Soit $P(z)=z^{3}-(5+6i)z^{2}+(-6+16i)z+20+10i$, $z\\in\\mathbb{C}$a) Calculer $P(-1+i)$ puis déterminer les complexes a et b tels que $P(z)=(z+1-i)(z^{2}+az+b)$b) En déduire les solutions de l'équation $P(z)=0$. On note $z_{1}$, $z_{2}$ et $z_{3}$ les solutions de cette équation avec $|z_{1}|<|z_{2}|<|z_{3}|$.Dans le plan complexe, muni d'un repère orthonormal direct $(0,\\vec{u},\\vec{v})$, on considère les points A, B et C d'affixes respectives $z_{1}$, $z_{2}$ et $z_{3}$.a) Placer les points A, B, C et I, où I est le milieu du segment [AB].b) Soit D le barycentre du système $\\{(A;3),(B;1)\\}$. Vérifier que $z_{D}=i$ et placer D.Soit H l'hyperbole de foyers A et B dont D est un sommet.a) Déterminer le centre et l'excentricité de H.b) Vérifier que l'équation réduite de H dans le repère $(0,\\vec{u},\\vec{v})$, s'écrit $(x-1)^{2}-\\frac{(y-1)^{2}}{3}=1$.c) Déterminer le $2^{e}$ sommet, les directrices et les asymptotes de l'hyperbole H et la construire."
+  },
+  {
+    "id": "bac-d-2022-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (4 points)\nSoit ABC un triangle équilatéral direct de centre O et D le symétrique de O par rapport à (AC). On note I, J et K les milieux respectifs des segments [AB], [BC] et [CA].Faire une figure soignée illustrant les données précédentes.a) Montrer qu'il existe un unique déplacement f qui transforme B en C et O en D.b) Justifier que f est une rotation et préciser ses éléments caractéristiques.c) En utilisant une décomposition convenable, déterminer la nature et les éléments caractéristiques de la transformation $\\mathfrak{t}_{\\vec{AB}}\\circ f$.a) Montrer qu'il existe un unique antidéplacement g qui transforme A en C et K en J.b) Prouver que g est une symétrie glissante et donner sa forme réduite.On considère la transformation $S=h\\circ f$ où h est l'homothétie de centre B et de rapport $\\frac{1}{2}$ et f la transformation définie dans la question 2.a) Déterminer S(O) puis caractériser S.b) On considère la suite des points $(M_{n})$ définie par $M_{0}=A$ et $\\forall n\\in\\mathbb{N}$, $M_{n+1}=S(M_{n})$. Montrer que $\\forall n\\in\\mathbb{N}$, $(\\vec{OM_{n}},\\vec{OM_{n+3}})=\\pi$ puis en déduire que $M_{2022}\\in[OA]$"
+  },
+  {
+    "id": "bac-d-2022-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4\n: (4 points)Soit f la fonction définie sur $]0;+\\infty[$ par $f(x)=x-3-\\frac{3~ln~x}{x}$ et (C) sa courbe représentative dans un repère orthonormé $(0,\\vec{i},\\vec{j})$.Soit u la fonction définie sur $]0;+\\infty[$ par $u(x)=x^{2}-3+3~ln~x$.a) Dresser le tableau de variations de la fonction u.b) Montrer que l'équation $u(x)=0$ admet une unique solution $\\alpha$ et que $1.4<\\alpha<1.41$.c) En déduire le signe de $u(x)$ sur $]0;+\\infty[$.a) Calculer les limites suivantes: $lim_{x\\rightarrow0^{+}}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$.b) Montrer que la courbe (C) admet une asymptote oblique D et étudier sa position relative par rapport à (C).a) Montrer que $f^{\\prime}(x)=\\frac{u(x)}{x^{2}}$ puis dresser le tableau de variation de f.b) Construire la courbe (C).Calculer l'aire du domaine plan délimité par la courbe (C), l'axe des abscisses et les droites d'équations respectives $x=1$ et $x=e$.Soit $\\varphi$ la restriction de f sur l'intervalle $I=]0;\\alpha]$.a) Montrer que $\\varphi$ réalise une bijection de I sur un intervalle J à déterminer.b) Construire, dans le repère précédent, la courbe $(C^{\\prime})$ de la réciproque $\\varphi^{-1}$ de $\\varphi$."
+  },
+  {
+    "id": "bac-d-2022-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5\n: (4 points)Pour tout entier naturel n, non nul, on définit sur R la fonction $g_{n}$ par $g_{n}(x)=x^{n}e^{-x}$.a) Calculer, suivant la parité de n, $lim_{x\\rightarrow-\\infty}\\frac{g_{n}(x)}{x}$ et $lim_{x\\rightarrow-\\infty}g_{n}(x)$.b) Calculer $lim_{x\\rightarrow+\\infty}g_{n}(x)$.a) Montrer que $\\forall n\\in\\mathbb{N}$, $g_{n}^{\\prime}(x)=(n-x)x^{n-1}e^{-x}$.b) Dresser le tableau de variation de $g_{n}$ selon la parité de n.On pose $I_{0}=\\int_{0}^{1}e^{-x}dx$ et $\\forall n\\in\\mathbb{N}$, $I_{n}=\\int_{0}^{1}g_{n}(x)dx$.a) Justifier que $I_{0}=1-\\frac{1}{e}$.b) A l'aide d'une intégration par parties, montrer que $\\forall n\\in\\mathbb{N}$, $I_{n+1}=(n+1)I_{n}-e^{-1}$.Montrer que $\\forall n\\in\\mathbb{N}$, $\\frac{1}{(n+1)e}\\le I_{n}\\le\\frac{1}{n+1}$ et en déduire la limite de la suite $(I_{n})$.$\\forall n\\in\\mathbb{N}$, on pose $u_{n}=\\frac{1}{n!}I_{n}$. Montrer que $\\forall n\\in\\mathbb{N}$, $u_{n+1}-u_{n}=-\\frac{e^{-1}}{(n+1)!}$ et en déduire que $e(1-u_{n})=\\sum_{k=0}^{n}\\frac{1}{k!}$"
+  },
+  {
+    "id": "bac-d-2022-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5 points)\nSoit f la fonction définie sur R par $f(x)=(x^{2}+1)e^{-x}$. On note (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1.a) Calculer $lim_{x\\rightarrow+\\infty}f(x)$, interpréter graphiquement cette limite.b) Calculer $lim_{x\\rightarrow-\\infty}f(x)$ et $lim_{x\\rightarrow-\\infty}\\frac{f(x)}{x}$, interpréter graphiquement ce résultat.2.a) Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de f.b) Montrer que f admet une fonction réciproque, notée $f^{-1}$, définie sur un intervalle à préciser.c) Dresser le tableau de variation de $f^{-1}$.3.a) Montrer que la courbe (C) admet deux points d'inflexion à préciser.b) Déterminer une équation de la tangente T à (C) au point d'abscisse 0.c) Construire T, (C) et (C'), ((C') étant la courbe représentative de $f^{-1}$).4.a) Soit $F(x)=(ax^{2}+bx+c)e^{-x}$ Déterminer a, b et c tels que F soit une primitive de f.b) Montrer que la suite de terme général $u_{n}=\\int_{0}^{n}f(x)dx$ est croissante puis exprimer $u_{n}$ en fonction de n."
+  },
+  {
+    "id": "bac-d-2022-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5 (5 points)\n1º Soit f la fonction définie sur $I=]0;1]$ par $f(x)=(1-x)^{2}ln~x$ et soit sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 2 cm.a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$ puis interpréter graphiquement le résultat.b) Etudier la dérivabilité de f à gauche de 1 et interpréter graphiquement.c) Montrer que $\\forall x\\in I$ $f^{\\prime}(x)\\ge0$ puis dresser le tableau de variation de f.d) Montrer que f réalise une bijection de I sur un intervalle J à déterminer.e) Tracer, dans le repère $(0;i,j)$, les courbes $\\Gamma$ et $\\Gamma^{\\prime}$, ($\\Gamma^{\\prime}$ la courbe représentative de $f^{-1}$).2º Pour tout entier naturel n non nul, on définit la fonction $f_{n}$ sur $I=]0;1]$ par $f_{n}(x)=(1-x)^{n}ln~x$ On pose $F_{n}(x)=\\int_{x}^{1}f_{n}(t)dt,x\\in I$a) En utilisant une intégration par parties, montrer que pour tout x de I, on a: $F_{n}(x)=\\frac{(1-x)^{n+1}ln~x}{n+1}+\\frac{1}{n+1}\\int_{x}^{1}\\frac{(1-t)^{n+1}}{t}dt$b) Vérifier que $\\forall t\\in]0;1]$, $1+(1-t)+(1-t)^{2}+(1-t)^{3}+...+(1-t)^{n}=\\frac{1-(1-t)^{n+1}}{t}$c) Déduire que pour tout x de I, $\\int_{x}^{1}\\frac{(1-t)^{n+1}}{t}dt=-ln~x-\\sum_{k=0}^{n}\\frac{1}{k+1}(1-x)^{k+1}$d) Déduire que pour tout x de I, $(n+1)F_{n}(x)=(-1+(1-x)^{n+1})ln~x-\\sum_{k=1}^{n+1}\\frac{(1-x)^{k}}{k}$"
+  },
+  {
+    "id": "bac-d-2023-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4 points)\nSoit ABD un triangle rectangle en B tel que $(\\vec{AB},\\vec{AD})=\\frac{\\pi}{3}[2\\pi]$. On définit les points: O le milieu de [AD], C le symétrique de O par rapport à (BD), E et F les symétriques par rapport à O des points B et C respectivement. On note également G, H, I, J et K les milieux respectifs des segments [OB], [OC], [OD], [OE] et [OF].Faire une figure soignée.Caractériser l'homothétie h définie par $h(A)=I$ et $h(B)=J$.Montrer qu'il existe une seule rotation r qui transforme A en B et G en H à caractériser.a) Montrer qu'il existe un unique antidéplacement f qui transforme A en F et O en E.b) Montrer que f est une symétrie glissante et donner sa forme réduite.a) Montrer que $S=h\\circ r$ est une similitude directe d'angle $\\frac{-2\\pi}{3}$. Préciser son centre et son rapport.b) On note $S^{2}=S\\circ S$, $S^{3}=S\\circ S\\circ S$ et $S^{n+1}=S\\circ S^{n}$ pour tout entier $n\\ge2$. Caractériser $S^{3}$ et montrer que $S^{2023}$ est une homothétie de rapport positif."
+  },
+  {
+    "id": "bac-d-2023-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (4 points)\nI. Soit m un nombre complexe non nul. Pour tout nombre complexe z, on note $P(z)=2z^{3}-(4-2i+2m)z^{2}+(m^{2}+(3-i)m+2-3i)z-(m+1)(m-i)$.Résoudre, dans $\\mathbb{C}$, l'équation $2z^{2}-2(1-i+m)z+(m+1)(m-i)=0$.Calculer P(1) et en déduire les solutions, dans $\\mathbb{C}$, de l'équation $P(z)=0$.II. Le plan complexe est muni d'un repère orthonormal direct $(O;\\vec{u},\\vec{v})$. On considère les points A, B, C, M, $M_{1}$ et $M_{2}$ d'affixes respectives $z_{A}=1$, $z_{B}=-i$, $z_{C}=1-i$, $z_{M}=m$, $z_{M_{1}}=z_{1}=\\frac{(1-i)(1+m)}{2}$ et $z_{M_{2}}=z_{2}=\\frac{(1-i)(1+im)}{2}$.Préciser les transformations f et g telles que, pour tout $m\\in\\mathbb{C^{*}}$, $f(M)=M_{1}$ et $g(M)=M_{2}$.Montrer que $z_{2}=iz_{1}-i$ et en déduire que $M_{2}=R(M_{1})$ où R est une rotation à préciser.On suppose, dans cette question, que M décrit le cercle de diamètre [AB] privé de O.a) Déterminer le lieu géométrique du point $M_{1}$.b) Justifier que, si $m\\ne-i$ alors $\\frac{z_{2}-m}{z_{1}-m}=-i\\frac{m-1}{i+m}$ puis en déduire que les points M, $M_{1}$ et $M_{2}$ sont alignés.On considère la parabole P de directrice (OB) et de foyer A.a) Déterminer le paramètre p et le sommet S de P.b) Justifier que l'équation réduite de P s'écrit $y^{2}=2x-1$ puis construire P.c) Donner une équation de la tangente à P au point C."
+  },
+  {
+    "id": "bac-d-2023-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (4 points)\nSoit f la fonction définie sur $]-1;+\\infty[$ par $f(x)=\\frac{1+ln(2x+2)}{2(x+1)}$. On note (C) sa courbe représentative dans un repère orthonormé $(0,\\vec{i},\\vec{j})$ d'unité 2cm.Calculer $lim_{x\\rightarrow-1^{+}}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$.Calculer $f^{\\prime}(x)$ et dresser le tableau de variation de f.a) Montrer que la courbe (C) admet un point d'inflexion A à préciser.b) Justifier que la tangente T, à (C) en A, a pour équation $y=-\\frac{1}{e}x-\\frac{1}{e}+\\frac{2}{\\sqrt{e}}$.Déterminer l'intersection de (C) avec les axes de coordonnées.Soit g la restriction de f sur l'intervalle $I=[-\\frac{1}{2};+\\infty[$. Montrer que g est une bijection de I sur un intervalle J à préciser. On note $g^{-1}$ sa réciproque.Construire T, (C) et $(C^{\\prime})$ dans le repère $(0,\\vec{i},\\vec{j})$, ($(C^{\\prime})$ étant la courbe de $g^{-1}$).a) Montrer que, sur l'intervalle I, l'équation $f(x)=x$ admet une unique solution $\\alpha$ et que $0.6<\\alpha<0.7$.b) Calculer l'aire en $cm^{2}$ du domaine plan D délimité par les axes de coordonnées et les courbes (C) et $(C^{\\prime})$."
+  },
+  {
+    "id": "bac-d-2023-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5 (5 points)\nOn considère la fonction f définie sur $\\mathbb{R}$ par $f(x)=\\frac{1}{1+e^{x}}$ et on note $\\Gamma$ sa courbe représentative dans un repère orthonormal $(0;\\vec{i},\\vec{j})$.a) Calculer et interpréter graphiquement $lim_{x\\rightarrow-\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$.b) Calculer $f^{\\prime}(x)$ puis dresser le tableau de variation de f.a) Calculer $f(x)+f(-x)$. En déduire que le point $I(0;\\frac{1}{2})$ est centre de symétrie pour $\\Gamma$.b) Montrer que I est un point d'inflexion pour $\\Gamma$ et déterminer une équation de la tangente T à $\\Gamma$ en I.c) Construire $\\Gamma$ et sa tangente T en I dans le repère $(0;\\vec{i},\\vec{j})$.On considère la suite $(I_{n})$ définie par: $I_{0}=\\int_{0}^{1}f(x)dx$ et $\\forall n\\in\\mathbb{N}^{*}$, $I_{n}=\\int_{0}^{1}\\frac{e^{-nx}}{1+e^{x}}dx$.a) Calculer $I_{0}$ et montrer que $(I_{n})$ est décroissante et convergente.b) Calculer $I_{n}+I_{n+1}$.c) Montrer que $\\forall n\\in\\mathbb{N}^{*}$, $\\frac{1-e^{-n-1}}{2(n+1)}\\le I_{n}\\le\\frac{1-e^{-n}}{2n}$ puis en déduire $lim_{n\\rightarrow+\\infty} I_{n}$ et $lim_{n\\rightarrow+\\infty}(nI_{n})$."
+  },
+  {
+    "id": "bac-d-2023-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4 points)\nSoit ABC un triangle rectangle isocèle direct en A, on construit les carrés directs ACDE et AFGB. On note O et O' leurs centres respectifs et soit I le milieu de [BC] et J le symétrique de A par rapport à I.Déterminer les images des points D et E par la translation T de vecteur $\\vec{CB}$.Soit R la rotation de centre A et d'angle $\\frac{\\pi}{2}$ et $f=R\\circ T$.a) Montrer que f est une rotation et préciser son angle.b) A l'aide d'une décomposition convenable de R et de T déterminer le centre de f.Soit h l'homothétie de centre J et de rapport $\\frac{1}{2}$ et $S=h\\circ f$.a) Démontrer que S est une similitude directe.b) Préciser son rapport et une mesure de son angle puis construire son centre K.Soit S' la similitude directe de centre E transformant F en O.a) Caractériser S' et vérifier que $S\\circ S^{\\prime}(B)=I$.b) Montrer que $S\\circ S^{\\prime}$ une homothétie dont on donnera le rapport.c) Ecrire le centre $\\Omega$ de $S\\circ S^{\\prime}$ comme barycentre de B et I. Placer $\\Omega$."
+  },
+  {
+    "id": "bac-d-2023-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (4 points)\nSoit f la fonction définie sur $]-1;+\\infty[$ par $f(x)=1-x+\\frac{ln(x+1)}{x+1}$ et soit sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1.a) Calculer les limites suivantes $lim_{x\\rightarrow0^{+}}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$.b) Montrer que la courbe admet une asymptote oblique D et préciser leur position relative.2. Soit u la fonction définie sur $]-1;+\\infty[$ par $u(x)=x^{2}+2x+ln(x+1)$. Etudier les variations de u puis calculer u(0) et en déduire le signe de u.3. a) Montrer que $\\forall x\\in]-1;+\\infty[$, $f^{\\prime}(x)=-\\frac{u(x)}{(x+1)^{2}}$.b) En déduire le signe de $f^{\\prime}$ puis dresser le tableau de variations de f.4. Soit g la restriction de f sur l'intervalle $I=[0,+\\infty]$. Montrer que g est une bijection de I sur un intervalle J à préciser.5. Construire la droite D et les courbes $\\Gamma$ et $\\Gamma^{*}$ ($\\Gamma^{*}$ la courbe représentative de la réciproque $g^{-1}$ de g)."
+  },
+  {
+    "id": "bac-d-2023-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (4 points)\nSoit $P(z)=z^{3}-4iz^{2}-6z+4i$ où z est un nombre complexe.a) Calculer $P(2i)$ puis résoudre dans $\\mathbb{C}$ l'équation $P(z)=0$. On notera $z_{D}, z_{1}$ et $z_{2}$ les solutions de cette équation avec $Re(z_{1})>Re(z_{2})>Re(z_{D})$.b) Ecrire sous forme exponentielle chacun des trois complexes $z_{D}, z_{1}$ et $z_{2}$.c) En déduire les solutions de l'équation $(\\frac{z-i}{z+i})^{3}-4i(\\frac{z-i}{z+i})^{2}-6\\frac{z-i}{z+i}+4i=0$.Dans le plan complexe muni d'un repère orthonormé direct $(0;\\vec{u},\\vec{v})$, on note A, B, C et D les points d'affixes respectives $z_{A}=z_{1}$, $z_{B}=z_{2}$, $z_{C}=z_{2}$ et $z_{D}=1$. ($z_{D}, z_{1}$ et $z_{2}$ sont ceux définis au-dessus).a) Préciser les affixes des points A, B et C puis déterminer la nature du triangle ABC.b) Déterminer l'écriture complexe de la similitude directe S de centre A telle que S(B)=C.Soit $(M_{n})$ la suite des points définie par $M_{0}=B$ et $\\forall n\\in\\mathbb{N}, M_{n+1}=S(M_{n})$.a) Montrer que $\\forall n\\in\\mathbb{N}$, le triangle $AM_{n}M_{n+1}$ est rectangle isocèle direct en $M_{n+1}$.b) Montrer que $\\forall n\\in\\mathbb{N}$, les points A, $M_{n}$ et $M_{n+2}$ sont alignés et que $M_{2023}\\in(AD)$."
+  },
+  {
+    "id": "bac-d-2023-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5 (5 points)\nPour tout entier $n\\in\\mathbb{N}$, on considère la fonction f définie sur $[0;+\\infty[$ par: $f_{n}(x)=\\frac{x^{n}}{n!}e^{-x}$ soit $C_{n}$ la courbe de $f_{n}$ dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.a) Montrer que $\\forall n\\in\\mathbb{N}^{*}$, $lim_{x\\rightarrow+\\infty}f_{n}(x)=0$.b) Etudier les variations de $f_{n}$ et dresser son tableau de variation.c) Etudier la position relative entre les courbes $C_{n}$ et $C_{n+1}$.On note $I_{n}=\\int_{0}^{1}f_{n}(x)dx$, pour tout $n\\in\\mathbb{N}^{*}$.a) Montrer que $I_{1}=e-2$.b) Montrer que la suite $(I_{n})$ est décroissante et minorée. Que peut-on conclure ?c) Soit $n\\in\\mathbb{N}^{*}$, vérifier que $f_{n}^{\\prime}(x)=f_{n-1}(x)-f_{n}(x)$ puis justifier que $I_{n}-I_{n-1}=-\\frac{1}{n!}$.d) En déduire que $\\forall n\\in\\mathbb{N}^{*}$, $I_{n}=e-\\sum_{k=0}^{n}\\frac{1}{k!}$.e) Montrer que $\\forall n\\in\\mathbb{N}, 0\\le I_{n}\\le\\frac{e}{n!}$. En déduire les valeurs de $lim_{n\\rightarrow+\\infty} I_{n}$ et $lim_{n\\rightarrow+\\infty}(\\sum_{k=0}^{n}\\frac{1}{k!})$."
+  },
+  {
+    "id": "bac-d-2024-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (3 points)\nPour tout entier naturel n, on pose $I_{n}=\\int_{c^{-1}}^{1}x(1+ln~x)^{n}dx$ et $u_{n}=\\frac{(-2)^{n}}{n!}I_{n}$Montrer que la suite $(I_{n})$ est décroissante et positive.Montrer que $\\forall n\\ge0$ $2I_{n+1}+(n+1)I_{n}=1$ Déduire que $\\forall n\\ge0$; $\\frac{1}{n+3}\\le I_{n}\\le\\frac{1}{n+1}$a) Montrer que $u_{n}=u_{n+1}+\\frac{(-2)^{n}}{(n+1)!}$ ; $\\forall n\\ge0$b) Vérifier que $\\forall n\\ge3$, $\\frac{u_{n+1}}{u_{n}}|\\le\\frac{1}{2}$c) Déterminer $lim_{n\\rightarrow+\\infty}\\sum_{p=0}^{n}\\frac{(-2)^{p}}{(p+1)!}.$ puis en déduire $lim_{n\\rightarrow+\\infty}u_{n}$ ."
+  },
+  {
+    "id": "bac-d-2024-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nLe plan complexe est muni d'un repère orthonormé $(0;\\vec{i},\\vec{j})$. Pour tout nombre complexe z on pose $P(z)=z^{3}-(2+2i)z^{2}+11z+38+8i$.1.a) Calculer $P(-2)$ puis déterminer les complexes a et b tels que $P(z)=(z+2)(z^{2}+az+b)$b) Résoudre, dans C, l'équation $P(z)=0$ On note $Z_{1}$, $Z_{2}$ et $Z_{3}$ les solutions de cette équation avec $Im(z_{1})>Im(z_{2})>Im(z_{3})$2. On considère les points A, B et C d'affixes respectives $Z_{1}$, $Z_{2}$ et $Z_{3}$.a) Placer les points A, B et C.b) Montrer que le point D d'affixe 6 est le barycentre de $e\\{(A,3);(B,-4);(C,5)\\}$.3. On définit l'ellipse E, dont A et B sont deux sommets et dont C est un foyer.a) Reconnaitre l'axe focal de E et en déduire que D est un $3^{e}$ sommet de E.b) Préciser le centre et le $4^{e}$ sommet de E.c) Justifier que $\\frac{(x-2)^{2}}{16}+\\frac{y^{2}}{25}=1$ est une équation de E, puis construire E."
+  },
+  {
+    "id": "bac-d-2024-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (4 points)\nOn considère la fonction numérique f définie sur R par $f(x)=\\frac{x}{e^{2x}-x}$ et soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité graphique 2 cm.1.a) Montrer que $lim_{x\\rightarrow-\\infty}f(x)=-1$ . Interpréter graphiquement.b) Montrer que $lim_{x\\rightarrow+\\infty}f(x)=0$. Interpréter graphiquement.c) Dresser le tableau de variation de f.2. Soit h la restriction de f sur $I=[\\frac{1}{2};+\\infty]$a) Montrer que h réalise une bijection de I sur un intervalle J à déterminer.b) Dresser le tableau de variation de $h^{-1}$ ($h^{-1}$ étant la réciproque de h).3.a) Déterminer une équation de la tangente Tà (C) au point d'abscisse 0.b) Construire la courbe (C) et la courbe $(C^{\\prime})$ de $h^{-1}$ dans le repère $(0;\\vec{i},\\vec{j})$4) Soit A l'aire de la partie du plan délimitée par (C), l'axe des abscisses et les droites d'équations $x=\\frac{1}{2}$ et $x=1$. Montrer que $\\frac{1}{2e^{2}-2}\\le A\\le\\frac{1}{4e-2}.$"
+  },
+  {
+    "id": "bac-d-2024-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5 (5 points)\nABC est un triangle isocèle en A tel que $(\\vec{AB},\\vec{AC})=\\frac{2\\pi}{3}[2\\pi]$ , I est le milieu de [BC] et $D=S_{1}(A)$. Soient J, K, L les milieux respectifs de [DC], [CA], [DJ] et soit  le cercle circonscrit au triangle ADC.1º Faire une figure.2°a) Montrer qu'il existe un unique déplacement r tel que $r(C)=D$ et $r(K)=I$b) Vérifier que r est une rotation puis déterminer son angle et son centre.3° Soit f l'isométrie plane telle que $f(C)=A$, $f(A)=D$ et $f(D)=B$a) Montrer que f est un antidéplacement.b) Justifier que f est une symétrie glissante puis donner sa forme réduite.4° Soit s la similitude directe qui transforme A en D et C en J.a) Déterminer le rapport et un angle de s.b) Montrer que le centre des appartient à  .c) Déterminer $s(K)$ puis en déduire que  , C, K et L sont cocycliques.d) Soit M un point de  diffèrent de  , et $M^{\\prime}=s(M)$ montrer que la droite (MM') passe par un point fixe à préciser."
+  },
+  {
+    "id": "bac-d-2024-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nDans l'espace muni d'un repère orthonormé $(0;\\vec{i},\\vec{j},\\vec{k})$ on considère les vecteurs $\\overline{u}(5;-2;0)$ et $\\vec{n}(2;5;1)$ et le point $A(2;4;2)$.1.a) Déterminer une représentation paramétrique de la droite passant par A et de vecteur directeur üb) Déterminer une équation du plan P passant par A et de vecteur normal  .2. Soit Q le plan d'équation $z-2=0$a) Montrer que si le point $M(x,y,z)$ appartient aux plans Pet Q alors $2x+5y=24$b) Résoudre l'équation $2x+5y=24$ où x et y sont des entiers relatifs.c) Déduire que parmi les points d'intersection de P et Q, il y a exactement trois points dont les coordonnées sont des entiers naturels."
+  },
+  {
+    "id": "bac-d-2024-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4 points)\nSoit f la fonction définie par $f(0)=0$ et $\\forall x\\in]0;+\\infty[$, $f(x)=x^{2}(1-ln~x)$ et soit ( ) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.Etudier la continuité et la dérivabilité de f en 0.2.a) Calculer $lim_{x\\rightarrow+\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ puis interpréter graphiquement.b) Calculer $f^{\\prime}(x)$, $\\forall x\\in]0;+\\infty[$ et dresser le tableau de variation de f.Déterminer les points d'intersection de (Γ) avec l'axe (Ox) puis construire (Γ)4.a) Soit h la restriction de f sur l'intervalle $]\\sqrt{e};+\\infty[$, montrer que h admet une réciproque.b) Dresser le tableau de variation de $h^{-1}$, réciproque de h, puis construire sa courbe dans le repère précèdent."
+  },
+  {
+    "id": "bac-d-2024-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5 points)\nABC est un triangle rectangle isocèle en A, direct et soient I, Jet K et les milieux respectifs de [BC], [CA] et [AB]. Soit r la rotation de centre I transformant J en K.Faire une figure illustrant les données de l'exercice.a) Déterminer une mesure de l'angle de r et montrer que $r(A)=B$b) On pose $f=r\\circ t_{\\overline{K}j}$. Déterminer f(K) puis déterminer et caractériser f.Soit $S=h\\circ r$ h est l'homothétie de centre B et de rapport 2.a) Montrer que S est une similitude directe, puis déterminer son rapport et une mesure de son angle.b) Déterminer $S(A)$, $S(I)$ et $S(J)$.c) Exprimer le centre de S comme barycentre de A, B et C. Placer sur la figure."
+  },
+  {
+    "id": "bac-d-2024-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (4 points)\nLe plan complexe est muni d'un repère orthonormé (O;ü,v). On considère l'équation (E): $z^{2}-4z+4(1+cos^{2}\\alpha)=0,$ avec $\\alpha\\in[0,\\frac{\\pi}{2}[$Résoudre, dans C, l'équation (E) (on note $Z_{1}$ et $Z_{2}$ les solutions de cette équation avec $Im(z_{1})>Im(z_{2}))$Dans la suite de l'exercice, on suppose que $\\alpha=\\frac{\\pi}{3}$ et on considère les points A, B, C et D d'affixes respectives $Z_{A}=Z_{1}$ $Z_{B}=Z_{2}$, $z_{c}=5+2i$ et $Z_{D}=-1-2i$.a) Déterminer, suivant les valeurs du réel k, l'ensemble $\\Gamma_{k}$ de points M du plan tel que $2MO^{2}+MA^{2}-MB^{2}=k$b) Déterminer l'ensemble A de points M du plan tel que $2MO^{2}-MA^{2}-MB^{2}=-10$Soient a, b et c trois réels et H l'hyperbole d'équation $x^{2}+ay^{2}+bx+c=0$ qui passe par les points A, C et D.a) Montrer que le triplet (a,b,c) vérifie le système $\\begin{cases}a+2b+c=-4\\\\ 4a+5b+c=-25\\\\ 4a-b+c=-1\\end{cases}$b) Résoudre le système et donner l'équation réduite de H.c) Déterminer le centre, les sommets, l'excentricité et les asymptotes de H"
+  },
+  {
+    "id": "bac-d-2024-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 5 (4 points)\nPour tout entier naturel n non nul, on définit la fonction $f_{n}(x)=\\frac{e^{-x}}{(2-x)^{n}}$ sur $]-\\infty,2[$ et soit $(C_{n})$ sa courbe représentative dans un repère orthonormé (O; ,j)1.a) Montrer que $lim_{x\\rightarrow-\\infty}f_{n}(x)=+\\infty$ puis calculer et interpréter graphiquement $lim_{x\\rightarrow2^{-}}f_{n}(x)$b) Montrer que $\\forall x<2$, ${f_{n}}^{\\prime}(x)=\\frac{e^{-x}(x-2+n)}{(2-x)^{n+1}}$ et dresser le tableau de variation de $f_{n}$c) Etudier la position relative des courbes $(C_{n})$ et $(C_{n+1})$2. Pour tout entier naturel n non nul, on pose $I_{n}=\\int_{-1}^{1}f_{n}(x)dx$ et $S_{n}=\\sum_{k=1}^{n}(k-2)I_{k}$a) Justifier que $lim_{n\\rightarrow+\\infty}I_{n}=0$b) Montrer que $\\forall x<2,$ $f_{n}^{\\prime}(x)=-f_{n}(x)+nf_{n+1}(x)$, neNc) Déduire que $\\forall n\\in\\mathbb{N}^{\\bullet}$, $nI_{n+1}-I_{n}=\\frac{1}{c}-\\frac{e}{3^{n}}$d) Justifier que $\\forall n\\in\\mathbb{N}^{\\bullet}$, $S_{n}=-I_{n}+\\frac{n-1}{c}+\\frac{e}{2}(\\frac{1}{3^{n-1}}-1)$. En déduire $lim_{n\\rightarrow+\\infty}S_{n}$"
+  },
+  {
+    "id": "bac-d-2003-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "Sujet I\n\nL Activité cardiaque (& points)\nChez une personne volontaire, au repos, ont été mesurées les fréquences de battements cardiaques dans différentes conditions d'administration de drogues qui bloquent préférentiellement les effets des nerfs orthosympathiques ou des nerfs parasympathiques cardiaques. Les résultats obtenus sont reportés dans le tableau du document 1.\n1.1.A partir de l'étude de ces résultats: Montrez qu'il existe un automatisme cardiaque. (1pt)\n1.2. Montrez quelle est l'action des nerfs orthosympathiques et parasympathiques sur la fréquence cardiaque du sujet au repos. (1 pt)\n\nPour compléter cette étude sur l'activité cardiaque et ses modifications, des enregistrements électrophysiologiques intracellulaires ont été réalisés à différents endroits d'un cœur de Mammifère (notamment A et B du document 2) dans différentes conditions expérimentales présentées en a, b et c.\na) Le document 3 présente des enregistrements de potentiels membranaires effectués avec une électrode intracellulaire, simultanément dans les cellules de la zone A et dans les cellules de la zone B, chez un animal au repos, dont le fonctionnement des nerfs orthosympathiques et sympathiques a été bloqué. Parallèlement sont enregistrées les contractions de l'oreillette droite.\nb) Si on détruit les cellules de la zone A, les contractions cessent et les cellules de la zone B ne présentent pas de variations de leur potentiel de membrane.\nc) On a pu mettre en culture, d'une part, des cellules de la zone A et, d'autre part, des cellules de la zone B. Dans ces conditions, seules les cellules de la zone A présentent des modifications rythmiques de leur potentiel de membrane.\nA partir de l'analyse précise de tous les documents et à partir de vos connaissances, dites quel est le tissu à l'origine de l'automatisme cardiaque et reconstituez la succession des événements aboutissant à la contraction des oreillettes. (3 pts)\n\nOn enregistre maintenant des potentiels de membrane dans les cellules de l"
+  },
+  {
+    "id": "bac-d-2003-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "humaine (6 points)\n1.Le document 8 indique l'arbre généalogique d'une famille dont certains membres sont atteins d'une maladic héréditaire rare, l'ostéo-arthro-onychodysplasie, entraînant une malformation des os, des articulations et des ongles. L'allèle responsable de cette maladie M est dominant sur l'allèle normal n.\n1.1. Sur quelles données de l'arbre généalogique pouvez-vous vous appuyer pour argumenter cette proposition ? Développer votre argumentation. (1pt)\n1.2. Déterminez si le gène est porté ou non par un chromosome sexuel. Justifiez votre réponse. (1 pt)\n2.On a indiqué le groupe sanguin des parents [V4] et IVL et de leurs enfants sauf V1. On rappelle que le groupe sanguin dépend d'un système de 3 allèles A, B et O; A et B étant codominants, O récessif. Ces allèles sont situés sur la paire de chromosomes n° 9.\n2.1. Que montre la comparaison de la transmission des groupes sanguins et de l'ostéo-arthro-onychodysplasie dans cette famille? Quelle hypothèse pouvez-vous faire concernant la localisation des allèles M ci n? Argumentez votre réponse en proposant les génotypes des individus IV, et IV et de leur descendance hormis la fille V2 (2 pts)\n2.2. La fille V2 est du groupe B. En accord avec l'hypothèse précédente que peut-on proposer pour expliquer son phenotype\" Illustrez avec des schémas appropriés. (2 pls)\n\nSujet II\n\nReproduction humaine (10 pomts)\n\nMadame X rencontre des difficultés pour avoir un enfant, elle se décide de consulter un gynécologue Celui-ci commence par lui expliquer cominent se déroule le cycle ovarien 11 dispose pour cela du document 9.\n1.1. Shématisez les documents 9A et 9B sur votre copic cl annotez-les. (2 pts)\n1.2. Quelle sera l'évolution de la structure représentée en 9A -lors d'un cycle normal? (0,5 pt) -lors d'une grossesse (0,5 pt)\n2.Le gynécologue demande à madame X de faire effectuer des dosages réguliers du prégnandiol (forme d'élimination urinaire d'une hormone ovarienne) et de relever soigneusement sa température au lever. Le"
+  },
+  {
+    "id": "bac-d-2003-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "des haploïdes (5 points)\nLe croisement d'une souche de Neurospora à spores noires et d'une souche de Neurospora à spores roses a permis d'obtenir des fructifications. On y observe des asques que l'on classe en 6 types (document 13). On a recensé les asques des différents types observés. Les chiffres indiquent les résultats obtenus.\n\nQuel est le nombre de gènes impliqués dans la transmission de ce caractère ? (1 pt)\n\nQuels sont les asques pré-réductionnels et post-réductionnels ? (1 pt)\n3.Schématisez le phénomène cellulaire qui a abouti à la formation d'un asque post-réductionnel. (1pt)\n\nCalculez la distance entre le(s) gène(s) et le centromère. (1pt)\n\nDressez la carte factorielle. (1 pt)"
+  },
+  {
+    "id": "bac-d-2004-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Physiologie nerveuse (11 points)\n\nLe document représente 2 chaînes neuroniques X et Y.\n1.1. Indiquez, en le justifiant, la chaîne neuronique exacte. (1pt)\n1.2.Reproduisez schématiquement la chaîne neuronique exacte en précisant par des flèches le trajet de l'influx nerveux (1pt)\n2.On se propose maintenant d'étudier la transmission du message nerveux à un motoneurone. Pour cela, on considère 4 terminaisons nerveuses A, B, C et D appartenant à des neurones présynaptiques différents reliés à un motoneurone M (document 2). On enregistre les phénomènes électriques au niveau du motoneurone M suite à des stimulations électriques efficaces de même intensité et durée portées sur les fibres présynaptiques A, B, C et D dans différentes conditions comme indiqué sur le document 3.\n2.1. Analysez les phénomènes électriques enregistrés de l'étape 1 à l'étape 8. Qu'en tirez-vous? (3,5 pts)\n2.2. Il est possible d'injecter à l'aide d'une micropipette dans la fente synaptique de la terminaison D, une substance chimique, l'acide gamma-aminobutyrique à des doses minuscules, A la suite de cette injection, on obtient le tracé du document 4. Comparez ce tracé à l'étape 4 du document 3. Que peut-on en conclure? (1 pt)\n3.Le schéma du document 5 représente l'arc réflexe correspondant au mouvement de flexion du pied chez la grenouille suite à une stimulation efficace de la peau.\n3.1. Annotez le schéma sur votre copie en mettant devant chaque numéro le nom correspondant. (2,5 pts)\n3.2 Fa utilisant les numéros indiquez le sens de l'influx nerveux. (1 pt)\n3.3. En vous référant aux enregistrements du document 3 représentez l'aspect des enregistrements électriques au niveau des points A, B, C et D suite à la stimulation de la peau. (1 pt)\n\nImmunologie (6 points)\ndocument 6 représente un schéma concernant une étape essentielle dans la réponse iminunitaire.\n1 Identifiez, tout en justifiant votre réponse, l'étape représentée. (1 pt)\n2. Ecrire la légende correspondant aux numéros figurant sur le documen"
+  },
+  {
+    "id": "bac-d-2004-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Physiologie: Transmission synaptique (11 points)\n\nPour analyser le mécanisme de la transmission de l'influx nerveux au muscle, on enregistre les différences de potentiels musculaires à l'aide de deux oscillographes O1 et O2 reliés chacun à deux électrodes, une microélectrode étant implantée dans la fibre musculaire, l'autre étant à la surface de cette fibre. (document 1) Plusieurs expériences sont réalisées : Expérience 1: on provoque un choc électrique isolé sur la fibre nerveuse. On obtient les enregistrements du document 2 et on observe une contraction de toute la fibre musculaire. Expérience 2: même expérience mais le muscle est curarisé (= traité par une substance toxique, le curare); on obtient les enregistrements du document 3, et on n'observe pas de contraction de la fibre.\n1.1. Analysez et comparez les résultats de ces deux expériences. (1,5pt)\n1.2. Interprétez les variations de potentiels et leurs conséquences. (1pt)\n1.3.Où se situe l'action du curare? (1pt)\nExpérience 3: On dispose une microgoutte d'acétylcholine au niveau des électrodes reliées à Ol sur la surface externe d'une fibre musculaire non curarisée. On obtient une perturbation identique à celle de l'enregistrement Ol du document 2.\n1.4. Que pensez-vous de l'action de l'acétylcholine dans ce cas précis? (1,5pt)\n1.5. En utilisant les analyses de ces 3 expériences, et vos connaissances, décrivez le fonctionnement d'une synapse. (1,5pt)\n\nPour se contracter, le muscle strié utilise l'énergie fournie par la dégradation d'un composé cellulaire phosphoré, l'A.T.P. Chez l'Homme, le contenu cellulaire en ATP est très faible, et ne peut assurer la couverture énergétique que durant quelques secondes lors d'un exercice musculaire. Il existe différents mécanismes de recharge des muscles en ATP.\n2.1. Enumérez ces mécanismes. (1,5 pt)\nDes expériences dans ce domaines ont permis d'obtenir les documents 4 et 5.\n2.2.Analysez soigneusement chacun de ces documents. (2 pts)\n2.3.Précisez quels sont les points des méc"
+  },
+  {
+    "id": "bac-d-2004-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Reproduction (8 points)\n\nLe cycle du chlamydomonas\nLe chlamydomonas est une algue verte flagellée unicellulaire qui vit dans les eaux douces où elle se déplace grâce à ses deux flagelles (figure 1 du document 9). Quand les conditions sont défavorables, deux chlamydomonas provenant de souches différentes se rapprochent et s'unissent. L'élément A qui résulte de cette union s'entoure d'une membrane épaisse (élément B) et demeure ainsi quelque temps à l'état de repos.\n1.1. Interprétez ce phénomène. (1 pt)\nPlus tard, le noyau de l'élément B subit une série de deux divisions et, autour des quatre noyaux ainsi formés, quatre nouvelles cellules s'organisent. Elles seront libérées après rupture de la membrane épaisse; ces cellules grossissent et deviendront de nouveaux chlamydomonas capables de s'unir à nouveau.\n1.2. Quel phénomène chromosomique a pu se produire pour arriver à ce résultat ? (1 pt)\n1.3. A partir de ce qui précède, établir le cycle de développement de cette algue sous forme d'un schéma où les principaux événements seront localisés. (2 pts)\n1.4, Comment qualifier ce type de cycle? La réponse sera justifiée. (0,5 pt)\n\nLe cycle du Fucus spiralis\nCette algue brune, porte des organes reproducteurs contenant à la fois des cellules de type a et des cellules de type b (document 10). Celles-ci proviennent respectivement des cellules mères a0 et b0 qui possèdent 64 chromosomes. Chaque cellule mère a0 donne 8 cellules a à 32 chromosomes. Chaque cellule mère b0 donne 64 cellules b a 32 chromosomes.\n2.1. Sachant que la cellule de type z, qui résulte de l'union d'une cellule a avec une cellule b, redonnent directement, en se développant, un Fucus, établir sous forme d'un schéma le cycle de développement de cette algue. Faire figurer les principaux événements. (2 pts)\n2.2. Comment qualifier ce type de cycle? La réponse sera justifiée. (0,5 pt)\n\nComparez les deux types de cycles. (1 pt)\n\nImmunologie (8 points)\nPour mieux comprendre le phénomène de rejet de greffes, on réalise"
+  },
+  {
+    "id": "bac-d-2005-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "SUJET I\nREPRODUCTION (12 points)\nOn dose les hormones ovariennes dans les urines d'une femme; les hormones oestrogènes sont éliminées sous forme phénolstéroïdes et la progestérone sous forme de prégnandiol. Les résultats de ces dosages sont indiqués dans le tableau (document 1):\n1.Traduire graphiquement ces résultats (on prendra 2 cm pour représenter 10 µg de phénolstéroïdes et 1cm pour 1 mg de prégnandiol). Commenter brièvement les graphes. (4 pts)\n2. Par ailleurs, pour cette même femme, on représente par la courbe du document 2 la température rectale prise chaque matin, à la même heure, avant toute activité et au cours de son cycle. Comparez cette courbe aux précédentes et essayez de trouver une explication aux variations essentielles de la température. (2 pts)\n3.Le document 3 représente une coupe de muqueuse utérine (endomètre) effectuée à deux moments du cycle et observée au microscope optique. Décrire les modifications constatées et leur finalité. (2 pts)\n4.Chez une guenon ovariéctomisée et soumise à des injections d'extraits ovariens, la menstruation ne se produit pas. L'arrêt des injections entraîne la menstruation. Si au moment de l'arrêt des injections d'oestradiol, on injecte de la progestérone, la menstruation ne se produit pas. Elle a lieu lorsque les injections de progestérone cessent. Interprétez. (2 pts)\n5.Conclure en donnant les origines et les fonctions essentielles de l'oestradiol et de la progestérone. (2 pts)\n\nGENETIQUE (4 points)\nChez la Souris, la couleur du pelage est gouvernée par plusieurs gènes. Nous envisagerons successivement l'intervention de certains d'entre eux. Un gène (A) est responsable de l'existence même de la pigmentation. Les individus homozygotes pour l'un de ses allèles ne fabriquent aucun pigment. Leur pelage, non coloré, apparaît blanc; leurs mélanocytes contiennent des mélanosomes dépourvus de mélanine. Un second gène (B) gouverne la densité du pigment dans le grain. Les homozygotes pour un allèle ont des grains de forme ov"
+  },
+  {
+    "id": "bac-d-2006-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "REPRODUCTION SEXUEE (7 points)\nChez la Lapine, l'ovulation a lieu la 10e heure suivant le rapprochement sexuel avec le mâle. On se propose de déterminer la durée de vie des ovules et de spermatozoïdes dans les voies génitales de la Lapine. Dans ce but on procède à deux séries d'expériences portant sur plusieurs lots de Lapines.\n1ère série: Elle porte sur dix lots de Lapines. A 6 heures, on provoque le rapprochement sexuel (R.S) des Lapines des dix lots avec des mâles stériles: on procède ensuite à des inséminations artificielles (I.A.) et ceci toutes les deux heures. Un mois après, il y a des mises bas, et l'on évalue le pourcentage de fécondité. On obtient la courbe du document 1.\n2ème série: Elle porte sur dix-huit lots de Lapines et dure deux jours. Le rapprochement sexuel avec des mâles stériles (R.S.) a lieu le deuxième jour à 6 heures. Les inséminations artificielles (I.A.) s'échelonnent ainsi : -1 jour à 6 h. I.A. pour le premier lot; -à 8 h. I.A. pour le deuxième lot; -à 10 h. I.A. pour le troisième lot, et ainsi de suite jusqu'au lendemain 16 heures; donc à 16 h. I.A. pour le dix-huitième et dernier lot. On évalue de la même façon que précédemment le pourcentage de fécondité et l'on obtient la courbe du document 2.\nAnalyser les courbes (documents 1 et 2) et en déduire la durée de vie des gamètes. (7 pts)\n\nPHYSIOLOGIE NERVEUSE (4 points)\nLa réponse du muscle à un étirement est une contraction survenant quelques centièmes de seconde après le début de l'étirement. Cette contraction n'a pas lieu si, accidentellement, les fibres issues de R (document 3-a) sont détruites ou si le nerf moteur du muscle, issu de la moelle épinière est sectionné. On exerce une traction brève T sur un muscle m (document 3-a) au temps t et on enregistre sur la racine ventrale du nerf rachidien la réponse électrique D1, et sur la racine dorsale la réponse électrique D2 (document 3-b) Ces réponses sont obtenues par deux oscillographes placés en 1 et 2 (document 3-a).\n\nQue représentent l"
+  },
+  {
+    "id": "bac-d-2006-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "4 représente l'arbre généalogique d'une famille dans laquelle sévit une B-thalassémie sous ses deux formes, mineure et majeure. On pense qu'un gène codant pour l'hémoglobine, une protéine du sang, intervient dans cette maladie. En effet, on constate que les individus atteints de la forme mineure présentent des hémoglobines normale et anormale alors que ceux atteints de la forme majeure ne possèdent que de l'hémoglobine anormale.\n\nExpliquez l'existence simultanée de deux types d'hémoglobines chez un même individu? (1 pt)\n\nDonnez le génotype des individus atteints de la forme mineure et de ceux atteints de la forme majeure. (1 pt)\n\nLes individus 1 et 2 pouvaient-t-ils avoir des enfants normaux? (1 pt)\nII- La forme mineure de la B-thalassémie passe le plus souvent inaperçue. Seule la forme majeure appelée maladie de Cooley est grave. Son évolution est lente mais mortelle vers l'âge de douze ans. Un dépistage systématique dans certaines régions d'Italie a montré l'existence de 30% d'individus atteints de la forme mineure.\n\nEn utilisant ce résultat, calculez la probabilité pour un couple pris au hasard dans la population, de mettre au monde un enfant atteint de la maladie de Cooley. (1 pt)\n\nQue devient le risque si l'homme ou la femme a un frère ou une sœur atteint de cette maladie? (1 pt)"
+  },
+  {
+    "id": "bac-d-2006-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "REPRODUCTION (4 pts)\nLe document 1 montre des éléments prélevés dans un oviducte de deux souris adultes.\n\nQue représentent-ils? (0.25 pt)\n\nLégendez ces schémas en utilisant des numéros relevés sur votre copie. (1 pt)\n\nLa présence dans les oviductes d'une souris adulte d'éléments tels que a, est assurée à des périodes déterminées, celle de b est aléatoire. Expliquez cette observation (0.25 pt)\n\nRelatez les phénomènes cellulaires intervenus entre le stade a et b (0.5 pt)\n\nSachant que le caryotype de la souris est 2n=4 dites quel est le nombre des chromosomes dans les noyaux 4-5-7-9-10 (1pt)\n\nReprésentez l'évolution de la quantité d'ADN depuis le stade a jusqu'au stade b (1pt)\n\nSYSTEME NERVEUX ET PRESSION ARTERIELLE (5 pts)\nDes enregistrements de potentiels d'actions sont réalisés, lors de variation de la pression artérielle, sur des fibres nerveuses orthosympathiques et parasympathiques en relation avec le cœur et les vaisseaux sanguins. Ils sont mis en relation avec diverses observations réalisées sur le fonctionnement cardiaque et vasculaire. (document 2)\n\nDécrivez et analyser les phénomènes observés et enregistrés lors d'une baisse de pression artérielle (2pts)\n\nRéalisez le même travail lors d'une augmentation de pression artérielle (1 pt)\n\nExpliquez par quels mécanismes ces divers phénomènes permettent à l'organisme de retrouver une pression artérielle normale ? (2 pts)\n\nNATURE DE LA REPONSE IMMUNITAIRE (5)\nLe tétanos est une maladie grave due à un bacille qui sécrète une toxine. A partir de la toxine tétanique on peut fabriquer de l'anatoxine.\n\nOn injecte de l'anatoxine tétanique à un lapin A1. Au bout de 15 jours, on prélève du sang sur ce lapin devenu A1 et on prépare du sérum (document 3). A une solution d'anatoxine tétanique on ajoute du sérum du lapin A1 et on constate un précipité.\na. Quelle est la nature de la réaction? que contient le sérum du lapin A? (1 pt)\nb. Quelle est la propriété qu'a conservée l'anatoxine? (1 pt)\nc. Quelle serait la réaction du lap"
+  },
+  {
+    "id": "bac-d-2006-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "'ablation de la thyroïde provoque une hypercalcémie. Les troubles de cette ablation sont corrigées par des injections d'extraits thyroïdiens\n\nDonnez la conclusion de ces deux expériences (0.5 pt)\n\nComparez le rôle de la thyroïde avec celui des parathyroïdes (0.5 pt)\n\nA partir de ces données, et de vos connaissances, faites un schéma explicatif fonctionnel de la régulation du calcium plasmatique. (vous citez les organes intervenant, les hormones et leur mode d'action.) (1 pt)\n\nGENETIQUE (6 pts)\nLa maladie de Gaucher est une maladie caractérisée par un déficit en enzyme, qui catalyse la destruction des glycolipides dans les cellules.\n\nLe document 6 représente un arbre généalogique concernant huit sujets d'une meme famille; seul l'individu H est atteint par la maladie. L'analyse de ce document permet-elle de dire si le gène de la maladie est porté par un autosome ou par un chromosome sexuel? (1 pt)\n\nLa mesure de l'activité enzymatique dans les cellules issues des huit sujets de la famille donne les résultats suivants: A,C,E,F, G=60%; B et D=100%; H=0%.\n2.1: Quels renseignements, concernant la maladie, cette expérience fournit-elle? (2 pts)\n2.2 Donnez le génotype des membres de cette famille (2 pts)\n\nEn France les individus qui ont le meme génotype que l'individu A ont une fréquence de 1sur 20. Quelle est la probabilité de trouver un individu malade à partir de deux individus non apparentés? (1 pt)"
+  },
+  {
+    "id": "bac-d-2007-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "Sujet I\n\nSYNTHESE DES PROTEINES (4pts)\nLe document 1 présente des moments de la synthèse d'une protéine,\n\nMentionner le nom des molécules X, Y, Z, le nom des étapes 1 et 2 et leur localisation cellulaire. (1pt)\n\nCompléter le schéma de la molécule Y dans l'étape 1. (1 pt)\n\nIndiquer le nom de chaque élément désigné par les numéros de 1 à 5. (1 pt)\n\nQuelle est la molécule qui doit venir se positionner au moment b de l'étape 2 et dessinez-la en place. (1pt)\n\nPHYSIOLOGIE NERVEUSE (5pts)\nOn réalise diverses expériences au niveau d'une plaque motrice (doc. 2) dans un premier temps, l'élément présynaptique est stimulé avec des intensités i1 puis i2 (i1 < i2) dans un second temps, on dépose entre les membranes présynaptique et postsynaptique une microgoutte G1 d'acétyl-choline, puis une microgoutte G2 (plus concentrée en acétyl-choline que G1). On obtient les résultats ci-dessous (doc. 3). On opère ensuite au niveau d'une synapse de la moelle épinière: dans un premier temps l'élément présynaptique est stimulé avec des intensités i1 puis i2 (i1 < i2) dans un second temps, on introduit dans la fente synaptique une microgoutte G1 d'une molécule de GABA, puis une microgoutte G2 (plus concentrée que G1) molécule. (document 4)\n\nAnalyser les résultats obtenus pour chaque expériences; (2pts)\n\nCes résultats confirment-t-ils vos connaissances quant à l'existence de deux types de synapses? (1pt)\n\nMontrer que si les synapses ont un fonctionnement globalement identique, la nature des molécules mises en jeu influe sur les phénomènes qui se déroulent du côté post-synaptique. (2pts)\n\nIMMUNOLOGIE (2pts)\nLa diphtérie est une maladie due à l'action d'une toxine diphtérique libérée par une bactérie dans l'organisme infecté. Le document 5 récapitule un ensemble d'expériences, réalisées sur des cobayes, pour déterminer comment un organisme peut lutter contre la diphtérie.\n\nEn vous appuyant sur l'analyse rationnelle de l'opération effectuée sur le cobaye C, dégager le type de défense développée pa"
+  },
+  {
+    "id": "bac-d-2008-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "D",
+    "ennonce": "L'aspirine (acide acétylsalicylique) est synthétisée à partir de l'acide salicylique et de l'anhydride éthanoïque.\n1. Écrire l'équation de la réaction. Pourquoi utilise-t-on l'anhydride éthanoïque plutôt que l'acide éthanoïque ?\n2. On utilise $10 \\text{ g}$ d'acide salicylique et un excès d'anhydride. On obtient $9,1 \\text{ g}$ d'aspirine. Calculer le rendement de la synthèse.\n3. Par ailleurs, on traite un corps gras (tristéarine) par de la soude.\n3.1. Écrire l'équation de la réaction. Comment appelle-t-on cette réaction ?\n3.2. Citer deux propriétés du produit obtenu (savon)."
+  },
+  {
+    "id": "bac-d-2009-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "D",
+    "ennonce": "On considère un mélange de $V_a = 50 \\text{ mL}$ d'une solution d'acide acétique de concentration $C_a = 0,1 \\text{ mol/L}$ et $V_b = 25 \\text{ mL}$ d'une solution de soude de concentration $C_b = 0,2 \\text{ mol/L}$. \n1. Écrire l'équation de la réaction qui a lieu. \n2. Calculer les quantités de matière initiales d'acide et de base. \n3. En déduire la nature du mélange final. Quel est son $pH$ sachant que le $pK_a$ du couple est $4,8$ ? \n4. Citer deux propriétés caractéristiques d'une telle solution."
+  },
+  {
+    "id": "bac-d-2010-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Physiologie nerveuse (6 pts)\nOn porte des stimulations sur deux structures nerveuses A et B. Les résultats sont consignés dans le tableau 2: a-Construisez les courbes de réponses des deux structures nerveuses A et B en fonction de l'intensité des stimulations. (1pt). b-Analyser ces deux courbes (1pt). c-Identifier les deux structures A et B, et déduisez les propriétés de chacune de ces structures. (1pt). 2- Pour préciser les caractéristiques de la propagation de l'influx le long du nerf, on réalise l'expérience suivante : On porte une stimulation sur un nerf sciatique de grenouille. Dans chacune des expériences illustrées par le document 5, le stimulus unique présente les mêmes caractéristiques. En revanche la distance séparant les électrodes stimulatrices de la première électrode réceptrice est variable. a- Interpréter le tracé 5a. (1pt). b- Quelle explication peut-on proposer pour justifier la forme des tracés b et c (nombre de sommets et amplitude). (1pt). c- Calculer la (les) vitesse(s) de propagation de l'influx nerveux. (1pt).\n\nGlycémie (5 pts)\nSoit trois souris A, B et C initialement à jeun, reçoivent une même quantité de nourriture riche en glucide. Leur glycémie, à la suite de cette même expérience, est représentée par le document 6. 1- Deux souris parmi les trois, sont atteintes d'une maladie qui se manifeste par une déficience de régulation de la glycémie. a-Préciser ces deux souris, justifiez votre réponse. (1pt). b-Nommer la maladie en question. (0.5pt). Dans le but de comprendre l'origine de la maladie de ces deux souris, on réalise l'expérience suivante: Les cellules hépatiques CA, CB et Cc, prélevées respectivement des trois souris A, B et C, sont placées, pendant 30 minutes, dans un milieu nutritif contenant de l'insuline radioactive. Le document 7 présente la radioactivité mesurée à la surface de la membrane cytoplasmique des cellules CA, CB et Cc à la fin de cette expérience. - Les cellules hépatiques, sont-elles des cellules cibles de l'insuline?"
+  },
+  {
+    "id": "bac-d-2010-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Reproduction (6pts)\nIl est connu que certaines substances exercent une action importante sur l'un des organes représentés sur le document 1. 1- Mettez une légende et un titre au document 1 (1pt). On se propose d'étudier l'action de ces substances, sur la muqueuse utérine. Pour cela on réalise sur 5 lots de lapines impubères une série d'expériences. Le protocole expérimental et les résultats sont regroupés dans le document 2. 2-La coupe A étant considérée comme témoin, donnez une conclusion pour chacune des coupes d'utérus B, C, D et E (1pt). 3- Quelles hypothèses pouvez-vous formuler quant au mode d'action de RU486? (0.5pt). On a pu, au laboratoire, isoler les récepteurs de la progestérone à partir de muqueuses utérines. Ces récepteurs ont été mis en présence de progestérone et de RU486 dans les conditions indiquées dans le tableau 1. 4- Après avoir analysé les données de ce tableau, laquelle de vos hypothèses pouvez-vous retenir? (0.5pt). Des chercheurs ont fait prendre du RU486 à des femmes ayant un cycle menstruel normal de 28 jours. Le schéma b du document 3 montre le moment de la prise de RU486 et les modifications constatées. Par ailleurs une analyse de sang faite chez ces femmes à la suite de l'absorption d'une dose de RU486 supérieure à 15 mg/Kg de poids, montre une chute brutale du taux de progestérone identique à celle qui se produit à la fin d'un cycle menstruel normal. 5- légendez le schéma a du document 3. (0.5pt). 6- Quelle est la conséquence de l'absorption de RU486? (0.5pt). 7- Quelle hypothèse pouvez-vous avancer pour expliquer ce deuxième mode d'action de ce produit chimique? (1pt). 3- On pense utiliser RU486 pour limiter les naissances. Pourquoi? (1pt).\n\nImmunologie: (4pts)\nLe document 4 est le schéma d'une molécule intervenant dans la neutralisation d'un antigène. 1- Nommez cette structure et lui mettre une légende. (1pt). 2- Présentez les particularités fonctionnelles de cette molécule en relation avec sa structure. (1pt). Le document 5 est le s"
+  },
+  {
+    "id": "bac-d-2011-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "Reproduction: (6pts)\nDe la puberté à la ménopause, les organes génitaux de la femme (ovaire - utérus) présentent des activités cycliques. On se propose d'étudier les transformations qui se déroulent dans ces organes à partir du 9 mars jusqu'au 18 mai. Le document 1 représente la fluctuation du taux plasmatique de deux hormones ovariennes (H1; H2), sécrétées par une femme en bonne santé au cours de cette période. 1- Identifiez les hormones (H1; H2) en question. Justifiez votre réponse. (0.5pt). 2- Précisez l'origine de ces hormones pendant les différentes phases de ce document. (1pt). 3- Établissez la durée du premier cycle sexuel. (0.5pt). 4- Déterminez la (ou les) date (s) approximative(s) qui correspond(ent) à: a- l'ovulation. (0.5pt). b- Un début de menstruation (0.5pt). 5- Décrivez l'évolution de l'endomètre dans les intervalles de temps suivants: [16 Mars, 26 Mars], [30 Mars, 10 Avril] et [11 Mai, 18 Mai [. (1pt). 6- Expliquer l'augmentation de la sécrétion de ces hormones à partir du 4 mai. (0.5pt). 7- En vous basant sur vos connaissances et sur les données du document 1, complétez le tableau 1 (1.5pt).  \n\nActivité musculaire: (4pts)\nLa stimulation efficace du nerf moteur d'un muscle est à l'origine d'une succession de phénomènes de natures différentes au niveau du muscle. Le document 2 montre la succession de ces phénomènes sous formes de tracés. 1- Identifiez les tracés T1, T2, T3 et T4. (0.75pt). 2- Précisez les relations fonctionnelles (causes et effets) qui existent entre ces différents phénomènes. (1pt). 3- Écrivez les réactions chimiques qui accompagnent les phases du tracé T1 et qui sont en relation avec le tracé T3. (1.25pt). 4- Expliquez le mécanisme qui est à l'origine de la naissance du tracé T2. (1pt).\n\nImmunité: (4pts)\nVers 1980 étaient signalés les premiers cas d'une maladie mortelle: le SIDA. Quatre ans après, l'agent causal était isolé; c'est un virus appelé VIH; sa structure a été identifiée (document 3). 1- Annotez le document 3 et précisez "
+  },
+  {
+    "id": "bac-d-2011-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "Reproduction: (7 pts)\nLes figures du document 1 représentent les différentes étapes d'un phénomène qui caractérise la reproduction sexuée chez l'espèce humaine. 1-Précisez de quel phénomène il s'agit? (0.5 pt). 2- Légendez les figures et mettez un titre pour chacune. (1 pt). 3- Donnez la garniture chromosomique des éléments A, B, C, D, E et F. (1 pt). 4- Replacez les figures dans l'ordre chronologique. (0.5pt). Pour un couple Mr et Mme X, l'événement que vous venez d'étudier ne peut se produire. 5- En faisant appel à vos connaissances, citez deux principales causes de stérilité. (1 pt). 6- Indiquez pour chaque cause la solution pouvant être apportée. (Si nécessaire expliquer les techniques). (1 pt). Les causes de stérilité du couple X ayant été décelées, un traitement approprié est prescrit à Madame X, un retour à la normale est constaté, les étapes du phénomène sont constatées dans les voies génitales de Madame X. 7- Que va-t-il se passer au niveau de la muqueuse utérine dans les jours qui suivent ce phénomène? (1 pt). 8- Préciser comment va être modifiée, l'activité sexuelle de Mme. (1 pt).\n\nGlycémie: (5 pts)\nAfin de comprendre le mécanisme de la régulation de la glycémie, on a procédé à la comparaison des résultats d'un test d'hyperglycémie provoquée chez un sujet sain et deux sujets diabétiques. Pour cela, on fait ingérer à chaque sujet une quantité de solution glucosée et on suit simultanément dès cette ingestion, la glycémie, et l'insulinémie de chacun des trois sujets. Les courbes du document 2 expriment les résultats de ces tests. 1- Étudiez les trois graphiques, en déduire les sujets diabétiques. Comment peut-on expliquer les causes de ces formes de diabète? (1 pt). 2- L'injection d'insuline exogène dans le sang des individus A et B entraîne une diminution de la glycémie chez les individus A et B, alors qu'aucune modification de la glycémie n'est observée chez l'individu C. En quoi ce test confirme-t-il votre réponse à la question 1? (1 pt). 3- Pouvez-vous "
+  },
+  {
+    "id": "bac-d-2012-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "D",
+    "ennonce": "On mélange $0,6 \\text{ mol}$ d'acide éthanoïque et $0,6 \\text{ mol}$ de méthanol. \n1. Écrire l'équation de la réaction et nommer l'ester formé. \n2. Quelles sont les caractéristiques de cette réaction ? \n3. À l'équilibre, on trouve qu'il reste $0,2 \\text{ mol}$ d'acide. \n3.1. Calculer le rendement de la réaction. \n3.2. Calculer la constante d'équilibre $K$. \n4. On refait l'expérience à une température plus élevée. \n4.1. La vitesse de la réaction est-elle modifiée ? \n4.2. La limite d'estérification est-elle modifiée ? Justifier."
+  },
+  {
+    "id": "bac-d-2012-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "D",
+    "ennonce": "L'iode $^{131}_{53}I$ est radioactif $\\beta^-$. Sa demi-vie est $T = 8 \\text{ jours}$.\n1. Écrire l'équation de sa désintégration en précisant les lois utilisées.\n2. On dispose d'un échantillon d'activité initiale $A_0 = 10^5 \\text{ Bq}$.\n2.1. Calculer la constante radioactive $\\lambda$.\n2.2. Calculer l'activité de l'échantillon après $24 \\text{ jours}$.\n3. Au bout de combien de temps l'activité est-elle réduite à $1\\%$ de sa valeur initiale ?"
+  },
+  {
+    "id": "bac-d-2013-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2013,
+    "filiere_id": "D",
+    "ennonce": "On dose un volume $V_a = 20 \\text{ mL}$ d'une solution d'acide méthanoïque $HCOOH$ par une solution d'hydroxyde de sodium de concentration $C_b = 0,1 \\text{ mol/L}$.\n1. Écrire l'équation de la réaction de dosage.\n2. L'équivalence est atteinte pour un volume $V_{bE} = 10 \\text{ mL}$. Calculer la concentration $C_a$ de l'acide.\n3. Le $pH$ à la demi-équivalence est égal à $3,8$. En déduire le $pK_a$ du couple $HCOOH/HCOO^-$.\n4. Le $pH$ à l'équivalence est $8,2$. Justifier le caractère basique du mélange et choisir un indicateur coloré approprié."
+  },
+  {
+    "id": "bac-d-2013-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2013,
+    "filiere_id": "D",
+    "ennonce": "Une bobine d'inductance $L$ et de résistance $r$ est branchée en série avec un conducteur ohmique de résistance $R = 40 \\ \\Omega$ et un générateur de f.e.m $E = 12 \\text{ V}$.\n1. À $t=0$, on ferme le circuit. Établir l'équation différentielle de l'intensité $i(t)$.\n2. En régime permanent, l'intensité est $I = 0,2 \\text{ A}$. Calculer la résistance $r$ de la bobine.\n3. La constante de temps du circuit est $\\tau = 0,01 \\text{ s}$. En déduire la valeur de $L$.\n4. Calculer l'énergie magnétique emmagasinée par la bobine en régime permanent."
+  },
+  {
+    "id": "bac-d-2014-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "D",
+    "ennonce": "1. Une amine primaire à chaîne carbonée saturée $A$ contient en masse $23,7\\%$ d'azote.\n1.1. Déterminer la formule brute de $A$.\n1.2. Écrire les formules semi-développées et les noms des isomères de $A$.\n2. On fait réagir l'anhydride éthanoïque sur l'isomère de $A$ à chaîne carbonée non ramifiée.\n2.1. Écrire l'équation de la réaction.\n2.2. Donner le nom et la famille du produit organique obtenu.\n2.3. Citer deux avantages de l'utilisation de l'anhydride d'acide par rapport à l'acide carboxylique correspondant."
+  },
+  {
+    "id": "bac-d-2014-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "D",
+    "ennonce": "On considère un alcool saturé $A$ de formule brute $C_3H_8O$.\n1. Écrire les formules semi-développées et les noms des isomères de $A$.\n2. On réalise l'oxydation ménagée de l'un des isomères, noté $A_1$, par une solution de dichromate de potassium en milieu acide. On obtient un corps $B_1$ qui rosit le réactif de Schiff.\n2.1. Identifier $A_1$ et $B_1$.\n2.2. Écrire l'équation de la réaction d'oxydation de $A_1$ par les ions $Cr_2O_7^{2-}$.\n3. On fait réagir $A_1$ avec l'acide éthanoïque.\n3.1. Écrire l'équation de la réaction.\n3.2. On mélange $0,2 \\text{ mol}$ de $A_1$ et $0,2 \\text{ mol}$ d'acide éthanoïque. À l'équilibre, il reste $0,067 \\text{ mol}$ d'acide. Calculer le rendement de cette réaction."
+  },
+  {
+    "id": "bac-d-2015-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (5pt)\nAcide propanoïque ($C=10^{-2}$ mol/L, $pH=3{,}45$).\n1.1 Calculer les molarités et le pKa.\n1.2 Calculer le coefficient d'ionisation $\\alpha$. Conclure.\n1.3 On dilue 10 mL à 1 L ($pH=4{,}45$). Calculer le nouveau $\\alpha'$.\n1.4 Pour $C''=10^{-6}$ mol/L et $pH=6$, calculer $\\alpha''$. Comportement de l'acide très dilué ?\n2. Transformation de l'acide A en chlorure d'acyle B ($SOCl_2$), puis action sur amine E ($C_2H_7N$) pour donner un amide C.\n2.1 Équation pour B et son nom.\n2.2 Formules et classes des amines $C_2H_7N$.\n2.3 E est une amine secondaire : donner la formule et nom de l'amide C.\n3. A obtenu par oxydation ménagée en deux étapes de D. Nom de D et équation de la 2ème étape avec $Cr_2O_7^{2-}$."
+  },
+  {
+    "id": "bac-d-2015-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4pt)\nMélange de 0,5 mol de pentan-1-ol et 0,5 mol d'acide méthanoïque.\n1.1 Équation et nom de l'ester.\n1.2 Dosage de l'acide restant ($V_0=2$ cm³) par la soude ($C_B=1$ mol/L).\n1.2.1 But du refroidissement ?\n1.2.3 Expression de $n_A$ en fonction de $V_B$ et $C_B$.\n1.3 Calculer $n_0$ à $t=0$. Expression de $n_E$ (ester formé).\n2. Définir et calculer la vitesse instantanée de formation de l'ester à $t=30$ min et la vitesse moyenne entre 10 et 30 min."
+  },
+  {
+    "id": "bac-d-2015-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5pt)\nParticule ($m$, $q>0$) lancée à $\\vec{v}_0$ dans un champ magnétique uniforme $\\vec{B}$ perpendiculaire.\n1.2 Montrer que le mouvement est uniforme et circulaire.\n1.3 Expression de la période T et fréquence N. Calculer T ($B=1$ T, $q/m=10^8$ C/Kg).\n2. Ajout d'un champ électrique $\\vec{E}$.\n2.1 Direction de $\\vec{E}$ pour un mouvement rectiligne uniforme ?\n2.2 Calculer E ($V_0=5.10^7$ m/s).\n2.3 On supprime B : équation de la trajectoire dans E, et déviation angulaire $\\alpha$."
+  },
+  {
+    "id": "bac-d-2015-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (6pt)\n1. Solénoïde ($l=0{,}5$ m, $N=5000$) parcouru par $I=8.10^{-2}$ A. Caractéristiques de $\\vec{B}$.\n2. Bobine interne $S'$ ($N'=400$, $d'=4$ cm). Calculer le flux magnétique.\n3. Courant i variable (selon graphe). Expressions de i et de la f.e.m. induite e dans les intervalles [0 ; 4s], [4 ; 6s] et [6 ; 8s].\n4. Rotation de la bobine $S'$ ($\\theta=100\\pi t$). Calculer le flux $\\Phi_0$ à $t=0$ et l'expression de $\\Phi(t)$."
+  },
+  {
+    "id": "bac-d-2015-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (5pt)\nSoit un composé organique A de formule brute $C_nH_{2n}O_2$.\n1.1 Quelles sont les fonctions chimiques possibles de A ? Donner dans chaque cas la formule semi-développée générale.\n1.2 Le composé A renferme 36,36 % en masse d'élément oxygène, déterminer sa formule brute.\n2. La réaction de A avec un composé C de formule brute $C_3H_8O$ donne un composé F et de l'eau.\n2.1 Préciser les fonctions chimiques de A, C et F.\n2.2 De quel type de réaction s'agit-il ? Cette réaction est-elle totale ?\n3. Sachant que A est ramifié et que l'oxydation ménagée de C donne $C'$ qui rosit le réactif de Schiff, écrire l'équation de la réaction de A avec C. Préciser les noms de A, C, F et $C'$.\n4. On verse une solution de soude (1 mol/L) sur une solution de A renfermant 2,2 g de A dissous.\n4.1 Écrire l'équation de la réaction.\n4.2 Quel doit être le volume de la solution de soude versé à l'équivalence ?"
+  },
+  {
+    "id": "bac-d-2015-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4pt)\n1. Le pH d'une solution d'ammoniac $NH_3$ ($10^{-2}$ mol/L) est 10,6.\n1.1 Écrire l'équation avec l'eau et calculer les concentrations des espèces chimiques présentes.\n1.2 En déduire le pKa du couple mis en jeu.\n2. Le pH d'une solution d'éthylamine $C_2H_5NH_2$ ($10^{-2}$ mol/L) est 11,4.\n2.1 Répondre aux mêmes questions que la question 1.\n2.2 Quelle est la base la plus forte entre l'ammoniac et l'éthylamine ?\n3. On prélève 20 cm³ d'éthylamine ; on y verse de l'acide chlorhydrique (obtenu par dissolution de 1,83 g de gaz HCl dans 1 L d'eau). Quel sera le volume d'acide versé à l'équivalence ? Rappeler la définition de l'équivalence."
+  },
+  {
+    "id": "bac-d-2015-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5pt)\nUn canon à ressort vertical lance des projectiles ($m=25$ g). Raideur K : 1 N provoque 5 mm de raccourcissement. Comprimé de $l_0/2$ ($l_0=10$ cm).\n1.1 Calculer l'énergie potentielle élastique au maximum de compression.\n1.2 Déterminer la vitesse V à la sortie du canon.\n1.3 Déterminer l'altitude maximale h atteinte.\n2. Au ressort précédent on suspend 100 g ; tiré de 4 cm vers le bas puis abandonné à $t=0$.\n2.1 Trouver l'équation différentielle du mouvement.\n2.2 Déterminer l'équation horaire.\n2.3 Calculer la période et la fréquence."
+  }
+]

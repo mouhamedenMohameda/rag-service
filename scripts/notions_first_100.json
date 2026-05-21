@@ -1,0 +1,493 @@
+{
+  "chimie-2020-sn-ex1": [
+    "Méthode de la trempe — rôle expérimental",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Relation n(I₂) = CV/2 à l'équivalence du dosage",
+    "Vitesse instantanée de formation du diiode",
+    "Vitesse volumique — expression et valeur initiale",
+    "Mise en évidence de la température comme facteur cinétique"
+  ],
+  "chimie-2020-sn-ex2": [
+    "Calcul de la concentration molaire à partir d'une masse dissoute",
+    "Équation de réaction d'un acide faible monoprotique avec l'eau",
+    "Expression du pKa en fonction de [H₃O⁺] et de la concentration initiale",
+    "Mélange acide faible — base forte : équation et quantité de matière en excès",
+    "Coefficient d'ionisation α"
+  ],
+  "chimie-2021-sn-ex1": [
+    "Facteurs cinétiques — influence sur la vitesse de réaction",
+    "Diminution de la vitesse au cours du temps — concentration",
+    "Demi-équations et bilan redox I⁻ / S₂O₈²⁻",
+    "Vitesse instantanée de disparition — lecture graphique",
+    "Identification d'une courbe cinétique selon la température",
+    "Méthode de la trempe — rôle expérimental",
+    "Composition du mélange réactionnel à une date t donnée"
+  ],
+  "svt-2022-sc-ex1": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Interprétation d'une électrophorèse ADN à bande unique",
+    "Localisation d'un gène sur autosome ou chromosome X",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Écriture de génotypes à partir de données généalogiques et moléculaires",
+    "Schéma d'une méiose anormale expliquant une anomalie chromosomique"
+  ],
+  "chimie-2013-sn-ex1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Concentrations initiales après mélange de volumes",
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Effet de la concentration sur la vitesse initiale"
+  ],
+  "chimie-2013-sn-ex2": [
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Bilan qualitatif et quantitatif des espèces en solution d'acide faible",
+    "Coefficient d'ionisation α",
+    "Dosage acide méthanoïque par soude",
+    "pKa à la demi-équivalence"
+  ],
+  "physique-2013-sn-ex3": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "Constante de temps du circuit RL",
+    "Énergie magnétique emmagasinée dans une bobine"
+  ],
+  "physique-2013-sn-ex5": [
+    "Déduction de la longueur d'onde λ",
+    "Équation du mouvement d'une source vibrante sinusoïdale",
+    "Superposition d'ondes — interférences sur une nappe d'eau"
+  ],
+  "chimie-2015-sn-ex1": [
+    "Espèces en solution et pKa d'un acide faible (acide propanoïque)",
+    "Coefficient d'ionisation α",
+    "Effet de la dilution sur α et le pH",
+    "Comparaison de deux acides faibles de concentrations différentes"
+  ],
+  "chimie-2015-sn-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Méthode de la trempe — rôle expérimental",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "physique-2015-sn-ex3": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Déviation dans un champ électrique et champ magnétique croisés",
+    "Sélection de trajectoire par rapport au rapport q/m"
+  ],
+  "physique-2015-sn-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "Établissement et résolution de l'équation différentielle i(t) en RL",
+    "Constante de temps du circuit RL"
+  ],
+  "physique-2015-sn-ex5": [
+    "Interfrange et calcul de λ",
+    "Déduction de la longueur d'onde λ"
+  ],
+  "chimie-2017-sn-ex1": [
+    "Demi-équations et bilan redox I⁻ / S₂O₈²⁻",
+    "Concentrations initiales après mélange de volumes",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Suivi cinétique par dosage — tableau d'avancement"
+  ],
+  "chimie-2017-sn-ex2": [
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre",
+    "Formules semi-développées et nomenclature des composés organiques A, B, C, D"
+  ],
+  "physique-2017-sn-ex3": [
+    "Équation horaire du mouvement harmonique",
+    "Équation horaire x(t) avec conditions initiales",
+    "Énergie mécanique et énergie cinétique à un instant donné",
+    "Mouvement sur trajectoire circulaire — vitesse en un point"
+  ],
+  "physique-2017-sn-ex4": [
+    "Interfrange et calcul de λ",
+    "Différence de marche δ en fonction de a, x et D",
+    "Nature des franges (brillantes / sombres) en un point donné"
+  ],
+  "chimie-2018-sn-ex1": [
+    "Isomères d'un ester C₄H₈O₂ — formules et hydrolyse",
+    "Calcul de la masse d'ester à partir des données d'équilibre d'hydrolyse",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester"
+  ],
+  "chimie-2018-sn-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Concentration Ca à l'équivalence",
+    "pKa à la demi-équivalence",
+    "Caractère basique du mélange à l'équivalence (ion carboxylate)",
+    "Effet de la dilution sur pH initial, demi-équivalence et V_E"
+  ],
+  "physique-2018-sn-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Mouvement circulaire uniforme — vitesse orbitale"
+  ],
+  "physique-2018-sn-ex5": [
+    "Constante radioactive λ",
+    "Nombre de noyaux N₀ à partir d'une masse",
+    "Activité initiale A₀",
+    "Masse restante après plusieurs demi-vies"
+  ],
+  "chimie-2019-sn-ex1": [
+    "Concentration initiale de I⁻ après mélange",
+    "Identification du réactif limitant",
+    "Tableau d'évolution du système chimique",
+    "Vitesse volumique — expression et valeur initiale",
+    "Dosage iodométrique du diiode par thiosulfate"
+  ],
+  "physique-2019-sn-ex4": [
+    "Équation horaire du mouvement harmonique",
+    "Conservation de l'énergie mécanique du pendule masse-ressort",
+    "Chute libre après détachement — équation de trajectoire",
+    "Vitesse et angle au point d'impact"
+  ],
+  "chimie-2012-sn-ex1": [
+    "Vitesse volumique — expression et valeur initiale",
+    "Vitesse instantanée de disparition — lecture graphique",
+    "Réactif en excès à partir de la courbe de concentration finale",
+    "Concentration initiale d'acide à partir de la stœchiométrie"
+  ],
+  "chimie-2012-sn-ex2": [
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Test de Tollens — aldéhyde",
+    "Oxydation ménagée — acide carboxylique obtenu",
+    "Formule semi-développée et nomenclature du composé A",
+    "Alcool B et déshydratation — produits obtenus"
+  ],
+  "physique-2012-sn-ex3": [
+    "Oscillateur masse-ressort vertical — allongement à l'équilibre",
+    "Choix des origines d'énergie potentielle (pesanteur et élastique)",
+    "Énergie mécanique et conservation",
+    "Équation horaire du mouvement harmonique"
+  ],
+  "chimie-2011-sn-ex1": [
+    "Formule et fonction d'un ester (éthanoate de butyle)",
+    "Réaction acide + alcool → ester — équation et catalyse",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "physique-2011-sn-ex4": [
+    "Accélération d'ions par différence de potentiel U",
+    "Vitesse des ions en fonction de m, e et U",
+    "Déviation circulaire dans un champ magnétique B",
+    "Rayon de trajectoire d'un ion dans un champ B"
+  ],
+  "chimie-2010-sn-ex1": [
+    "Équation de réaction acide acétique / eau",
+    "Constante d'acidité Ka et domaines de prédominance du couple",
+    "pH d'une solution d'acide faible — calcul des espèces",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "chimie-2010-sn-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Rôle de l'eau glacée avant ouverture du tube (arrêt réaction)",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "physique-2009-sn-ex4": [
+    "Signe de la tension d'accélération pour ions positifs",
+    "Vitesse d'ions He³⁺ après accélération",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Séparation d'isotopes Mg²⁴ et Mg²⁶ par rayon différent"
+  ],
+  "physique-2008-sn-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Relation v, r, M_A et G pour une orbite",
+    "Énergie potentielle et mécanique en orbite"
+  ],
+  "chimie-2008-sn-ex1": [
+    "Hydratation du but-1-ène — alcools possibles et règle de Markovnikov",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Oxydation ménagée d'un alcool secondaire en cétone"
+  ],
+  "chimie-2007-sn-ex1": [
+    "Formule brute d'un monoalcool par masse molaire",
+    "Classe et nom d'un alcool primaire",
+    "Oxydation ménagée — acide carboxylique obtenu",
+    "Réaction acide carboxylique + alcool → ester"
+  ],
+  "physique-2007-sn-ex4": [
+    "Accélération d'un électron par U₀ = 300 V",
+    "Mouvement rectiligne uniforme entre deux plaques",
+    "Déviation dans un champ électrique uniforme",
+    "Combinaison champ E et champ B — sélection de vitesse"
+  ],
+  "chimie-2006-sn-ex2": [
+    "Nomenclature et classes de monoalcools C₄",
+    "Produits d'oxydation ménagée selon la classe de l'alcool",
+    "Équation bilan oxydation par permanganate en milieu acide",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "physique-2006-sn-ex3": [
+    "Constante de raideur K d'un ressort — loi de Hooke",
+    "Énergies potentielle élastique et de pesanteur",
+    "Équation horaire du mouvement harmonique",
+    "Énergie mécanique et conservation"
+  ],
+  "chimie-2005-sn-ex1": [
+    "Acide faible — équation avec l'eau et Ka",
+    "Coefficient d'ionisation α",
+    "Relation pKa = pH − log(α/(1−α))",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "physique-2005-sn-ex4": [
+    "Sens du champ électrique d'accélération",
+    "Vitesse d'ions He³⁺ après accélération",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Séparation d'isotopes de zinc"
+  ],
+  "chimie-2004-sn-ex2": [
+    "Réaction d'une amine avec l'eau",
+    "Dosage acide méthanoïque par soude",
+    "pKa du couple à partir du pH de la solution basique",
+    "Préparation d'une solution d'amine de concentration donnée"
+  ],
+  "physique-2004-sn-ex5": [
+    "Circuit RC série — branchement oscilloscope",
+    "Identification des tensions u_AB et u_BD",
+    "Déphasage entre tension aux bornes de R et du dipôle RC",
+    "Impédance et relation fréquence — déphasage"
+  ],
+  "chimie-2003-sn-ex1": [
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Oxydation ménagée d'un alcool en composé carbonylé",
+    "Identification du composé B"
+  ],
+  "physique-2003-sn-ex4": [
+    "Surface immergée dans un champ B en fonction du temps",
+    "Flux magnétique Φ = B·S(t)",
+    "Force électromotrice induite — loi de Faraday",
+    "Courant induit dans un circuit"
+  ],
+  "chimie-2002-sn-ex2": [
+    "pH d'une solution d'acide fort",
+    "Réaction d'une amine avec l'eau",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "physique-2002-sn-ex3": [
+    "Équilibre d'un cadre sur ressort",
+    "Équation horaire du mouvement harmonique",
+    "Induction électromagnétique — force sur un cadre mobile dans B",
+    "Couplage oscillation mécanique et phénomène inductif"
+  ],
+  "chimie-2022-sn-exBAC-2022-SN-D-EXO1": [
+    "Formule brute d'une amine par % d'azote",
+    "Isomères d'une amine saturée — formules et noms",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "chimie-2022-sc-exBAC-2022-SC-D-EXO1": [
+    "Isomères d'un alcool C₃H₈O",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre",
+    "Nom de l'ester formé"
+  ],
+  "chimie-2021-sn-exBAC-2021-SN-D-EXO1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Vitesse instantanée de formation du diiode",
+    "Courbes cinétiques et température"
+  ],
+  "chimie-2021-sc-exBAC-2021-SC-D-EXO1": [
+    "Isomères d'une amine C₃H₉N",
+    "Chiralité d'une amine — identification de l'isomère",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "chimie-2020-sn-exBAC-2020-SN-D-EXO1": [
+    "Isomères d'une amine C₃H₉N",
+    "Centre de chiralité — représentation des énantiomères",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "chimie-2020-sc-exBAC-2020-SC-D-EXO1": [
+    "Équation bilan redox I⁻ / S₂O₈²⁻ avec couples donnés",
+    "Vitesse instantanée de formation du diiode",
+    "Courbes cinétiques et température",
+    "Diminution de la vitesse au cours du temps — concentration"
+  ],
+  "chimie-2019-sn-exBAC-2019-SN-D-EXO1": [
+    "Estérification — équation, suivi et équilibre",
+    "Rendement à l'équilibre à partir des quantités de matière",
+    "Composition du mélange à l'équilibre",
+    "Effet d'un excès d'acide sur le rendement"
+  ],
+  "physique-2019-sc-exBAC-2019-SC-D-EXO3": [
+    "Force magnétique sur un ion en mouvement",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Séparation d'isotopes Mg²⁴ et Mg²⁶ par rayon différent"
+  ],
+  "chimie-2018-sn-exBAC-2018-SN-D-EXO1": [
+    "Formule brute d'une amine par % d'azote",
+    "Isomères d'amines saturées",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "chimie-2018-sc-exBAC-2018-SC-D-EXO1": [
+    "Isomères d'un alcool C₃H₈O",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "chimie-2017-sn-exBAC-2017-SN-D-EXO2": [
+    "Réaction acide méthanoïque / eau",
+    "Concentrations des espèces en solution d'acide faible",
+    "pKa du couple HCOOH/HCOO⁻",
+    "Dosage par soude — V_E et demi-équivalence"
+  ],
+  "physique-2017-sc-exBAC-2017-SC-D-EXO5": [
+    "Niveaux d'énergie de l'atome d'hydrogène E_n = −13,6/n²",
+    "Transition émissive n=3 → n=2",
+    "Déduction de la longueur d'onde λ",
+    "Énergie d'ionisation depuis l'état fondamental"
+  ],
+  "chimie-2016-sn-exBAC-2016-SN-D-EXO1": [
+    "Estérification — équation, suivi et équilibre",
+    "Composition à l'équilibre par suivi du dosage",
+    "Effet d'un excès d'acide sur le rendement"
+  ],
+  "physique-2016-sc-exBAC-2016-SC-D-EXO3": [
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Équation cartésienne de la trajectoire",
+    "Flèche (hauteur maximale)",
+    "Portée du tir"
+  ],
+  "chimie-2015-sn-exBAC-2015-SN-D-EXO2": [
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Équation de réaction acide acétique / eau",
+    "Espèces en solution et pKa",
+    "Concentrations à partir du pH"
+  ],
+  "physique-2015-sc-exBAC-2015-SC-D-EXO5": [
+    "Constante radioactive λ",
+    "Nombre de noyaux N₀ à partir d'une masse",
+    "Activité initiale A₀",
+    "Activité après un temps donné — loi exponentielle"
+  ],
+  "chimie-2014-sn-exBAC-2014-SN-D-EXO1": [
+    "Formule brute d'une amine par % d'azote",
+    "Isomères d'amines saturées",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "chimie-2014-sc-exBAC-2014-SC-D-EXO1": [
+    "Isomères d'un alcool C₃H₈O",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Équation redox alcool / dichromate",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "chimie-2013-sn-exBAC-2013-SN-D-EXO2": [
+    "Dosage acide méthanoïque par soude",
+    "Concentration Ca à l'équivalence",
+    "pKa à la demi-équivalence",
+    "pH basique à l'équivalence — choix d'indicateur"
+  ],
+  "physique-2013-sc-exBAC-2013-SC-D-EXO4": [
+    "Constante de temps du circuit RL",
+    "Résistance r de la bobine en régime permanent",
+    "Énergie magnétique ½Li²"
+  ],
+  "chimie-2012-sn-exBAC-2012-SN-D-EXO1": [
+    "Estérification — équation, suivi et équilibre",
+    "Rendement à l'équilibre",
+    "Constante d'équilibre K"
+  ],
+  "physique-2012-sc-exBAC-2012-SC-D-EXO5": [
+    "Constante radioactive λ",
+    "Décroissance de l'activité dans le temps",
+    "Temps pour atteindre 1 % de l'activité initiale"
+  ],
+  "chimie-2011-sn-exBAC-2011-SN-D-EXO2": [
+    "Acide propanoïque faible — espèces et pKa",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "chimie-2010-sn-exBAC-2010-SN-D-EXO1": [
+    "Formule brute d'un monoalcool par masse molaire",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Identification A₁, A₂, A₃ et produits d'oxydation"
+  ],
+  "physique-2010-sc-exBAC-2010-SC-D-EXO4": [
+    "Noyau radioactif — définition",
+    "Composition du noyau de polonium 210",
+    "Constante radioactive λ",
+    "Loi de décroissance radioactive — ln(N/N₀) = −λt",
+    "Demi-vie à partir d'un graphique ou de données"
+  ],
+  "chimie-2009-sn-exBAC-2009-SN-D-EXO1": [
+    "Identification du réactif limitant",
+    "Nature du mélange (tampon, équivalence, excès)",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "physique-2009-sc-exBAC-2009-SC-D-EXO3": [
+    "Travail du câble sur piste inclinée avec frottements",
+    "Énergie cinétique et potentielle — théorème de l'énergie",
+    "Vitesse en un point du parcours",
+    "Mouvement après rupture du câble"
+  ],
+  "chimie-2008-sn-exBAC-2008-SN-D-EXO1": [
+    "Synthèse aspirine — anhydride vs acide",
+    "Rendement de synthèse",
+    "Saponification d'un corps gras — équation et propriétés du savon"
+  ],
+  "chimie-2007-sn-exBAC-2007-SN-D-EXO1": [
+    "Estérification — équation, suivi et équilibre",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester"
+  ],
+  "chimie-2006-sn-exBAC-2006-SN-D-EXO1": [
+    "Produit ionique de l'eau Ke à 100°C",
+    "pH de l'eau pure et notion d'acide/base à haute température",
+    "pH d'une solution d'acide fort",
+    "Concentration en ions OH⁻"
+  ],
+  "chimie-2005-sn-exBAC-2005-SN-D-EXO1": [
+    "Masse molaire d'une amine par densité de vapeur",
+    "Isomères et chiralité des amines",
+    "Alkylation par iodométhane — sel d'ammonium quaternaire"
+  ],
+  "bac-c-2001-sn-math-ex1": [
+    "Similitude directe s : M→R, N→S",
+    "Triangle rectangle indirect image d'un point par similitude",
+    "Lieu géométrique lié à une famille de similitudes f_θ"
+  ],
+  "bac-c-2001-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Losange et configurations avec milieux de côtés",
+    "Triangle rectangle en P — construction et propriétés"
+  ],
+  "bac-c-2001-sn-math-ex3": [
+    "Discriminant d'un trinôme g_m(x) — nombre de racines selon m",
+    "Encadrement des racines de x²+2x−2m=0 selon le signe de m",
+    "Fonction f_m(x)=x+m ln|(x+2)/x| — domaine et limites",
+    "Dérivée et tableau de variations de f_m",
+    "Point fixe et centre de symétrie d'une famille de courbes",
+    "Asymptotes d'une fonction avec logarithme et quotient"
+  ],
+  "bac-c-2001-sc-math-ex1": [
+    "Équation différentielle linéaire du second ordre y''−4y'+5y=0",
+    "Recherche d'une solution particulière (ax+b)e^x",
+    "Principe de superposition pour équation avec second membre",
+    "Conditions initiales — passage par un point et tangente"
+  ],
+  "bac-c-2001-sc-math-ex2": [
+    "Variations de f₁(x)=x e^(1−x)",
+    "Intégrale U_n=∫₀¹ x^n e^(1−x) dx — intégration par parties",
+    "Encadrement de U_n",
+    "Relation de récurrence U_{n+1}=(n+1)U_n−1",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-c-2001-sc-math-ex4": [
+    "Carrés construits sur les côtés d'un triangle — propriétés métriques",
+    "Perpendicularité B'D et BD' — quadrilatère OPO'Q",
+    "Point de concours I et alignements",
+    "Configurations dans l'espace avec cube et symétries"
+  ],
+  "bac-c-2002-sn-math-ex1": [
+    "Triangles équilatéraux dans un cube — géométrie dans l'espace",
+    "Centres de gravité et vecteurs AI, GJ",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-c-2002-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Lieu de points — droite passant par un point fixe",
+    "Cercles Γ et C — intersections et configurations"
+  ],
+  "bac-c-2002-sn-math-ex3": [
+    "Prolongement par continuité en 0 de f(x)=1/ln x",
+    "Dérivabilité en un point — limite du taux d'accroissement",
+    "Tableau de variations et point d'inflexion de 1/ln x",
+    "Famille f_n(x)=e^n/(-n+ln x) — homothétie de centre O",
+    "Intersection de courbes C_n et C_{n+1} — suite x_n"
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "fichier": "Bac C PC 2020 sn corrigé.pdf",
+    "exercice_numero": 1,
+    "matiere": "Sciences Physiques (Chimie)",
+    "annee": 2020,
+    "session": "Normale",
+    "filiere": "Série Mathématiques / T.M.G.M",
+    "chapitre": "Cinétique chimique",
+    "notions_traitees": ["Décomposition de HI", "Dosage d'oxydoréduction", "Vitesse de formation", "Facteurs cinétiques", "Trempe thermique"],
+    "ennonce_complet": "Afin d'étudier la cinétique de décomposition de l'iodure d'hydrogène HI en diiode et dihydrogène, on place à la date t=0 dans un thermostat maintenu à 380°C des ampoules scellées identiques, contenant chacune la même quantité de matière en iodure d'hydrogène[cite: 6, 7, 8]. À la date t donnée, une ampoule est refroidie rapidement et ouverte[cite: 9]. Le diiode formé à cet instant est mis en solution et dosé par un volume V d'une solution de thiosulfate de sodium Na2S2O3, de concentration C[cite: 10, 11]. 1.1. Pourquoi refroidit-on rapidement l'ampoule ? [cite: 12] 1.2. Ecrire les demi-équations électroniques des couples oxydants réducteurs et l'équation bilan de la réaction correspondant au dosage. On donne: E°(I2/I-) = 0,55V et E°(S4O6 2-/S2O3 2-) = 0,08V[cite: 14, 15]. 1.3. Montrer que la quantité de matière du diiode formée à la date t est donnée par la relation n(I2) = CV/2[cite: 17, 18, 19]. 2. Les courbes représentatives de la fonction C0 = f(t) sont données par la figure pour deux températures[cite: 23, 24]. 2.1. Définir la vitesse instantanée de formation du diiode[cite: 28]. 2.2. Calculer les vitesses de formation du diiode à t=0[cite: 28]. 2.3. Quel facteur cinétique ces deux expériences mettent-elles en évidence ? [cite: 32, 34]"
+  },
+  {
+    "fichier": "Bac C PC 2020 sn corrigé.pdf",
+    "exercice_numero": 2,
+    "matiere": "Sciences Physiques (Chimie)",
+    "annee": 2020,
+    "session": "Normale",
+    "filiere": "Série Mathématiques / T.M.G.M",
+    "chapitre": "Acides et Bases",
+    "notions_traitees": ["Acide benzoïque", "pH-métrie", "pKa", "Réaction acido-basique", "Dosage"],
+    "ennonce_complet": "1. L'acide benzoïque est un corps solide blanc de formule C6H5COOH, il se trouve dans certaines plantes. On représente cet acide par AH[cite: 39, 40]. On dissout une masse m=122mg de l'acide benzoïque pour obtenir une solution aqueuse SA de volume V=100mL. On mesure le pH de cette solution et on trouve pH=3,1[cite: 41, 42]. 1.1. Calculer la concentration molaire volumique CA de la solution SA[cite: 43]. 1.2. Ecrire l'équation de la réaction entre l'acide et l'eau[cite: 45]. 1.3. Montrer que la constante pKa du couple AH/A- peut s'écrire pKa = -log([H3O+]^2 / (CA - [H3O+])). Calculer pKa[cite: 47, 48, 49]. 2. On mélange un volume VA=40mL de la solution SA d'acide benzoïque avec un volume VB=5mL d'une solution d'hydroxyde de sodium de concentration CB[cite: 51, 52]. On mesure le pH du mélange et on trouve pH=3,8[cite: 53]. 2.1. Ecrire l'équation de la réaction réalisée[cite: 54]. 2.2. Calculer la quantité de matière n(OH-) qui se trouve dans ce mélange. On donne: C: 12g/mol ; H: 1g/mol ; O: 16g/mol[cite: 56]."
+  },
+  {
+    "fichier": "Bac PC 2021 corrigé sn.pdf",
+    "exercice_numero": 1,
+    "matiere": "Sciences Physiques (Chimie)",
+    "annee": 2021,
+    "session": "Normale",
+    "filiere": "Série Mathématiques / T.M",
+    "chapitre": "Cinétique chimique",
+    "notions_traitees": ["Oxydation des ions iodures", "Ion peroxodisulfate", "Vitesse de disparition", "Facteurs cinétiques", "Méthode de la trempe"],
+    "ennonce_complet": "1.1. Citer deux facteurs cinétiques et préciser leur influence sur l'évolution d'une réaction chimique[cite: 414]. 1.2. Généralement la vitesse d'une réaction chimique diminue au cours du temps. Dire pourquoi[cite: 415]. 2. On étudie expérimentalement la cinétique de la réaction d'oxydation de l'ion iodure I- par l'ion peroxodisulfate S2O8 2-[cite: 417, 418]. On donne E°(S2O8 2-/SO4 2-) = 2,1V et E°(I2/I-) = 0,6V[cite: 420]. 2.1. Ecrire les demi-équations et l'équation bilan de cette réaction[cite: 423]. 2.2. Le dosage du diiode formé lors de deux expériences (Exp 1 à 30°C et Exp 2 à 20°C) a permis de tracer les courbes de la figure[cite: 421, 424]. En utilisant la courbe (b), calculer la vitesse instantanée de disparition de l'ion peroxodisulfate à t=75s. Déduire la vitesse de formation de l'ion SO4 2- à cet instant[cite: 425, 426]. 2.3. Identifier la courbe correspondante à chaque expérience[cite: 428]. 2.4. Les mesures ont été effectuées après avoir plongé l'échantillon dans de l'eau glacée. Expliquer[cite: 428, 430]. 2.5. Déterminer la composition du mélange à t=25s pour la courbe (a)[cite: 432]."
+  },
+  {
+    "fichier": "Bac_C_science_2022_SC.pdf",
+    "exercice_numero": 1,
+    "matiere": "Sciences Naturelles (SVT)",
+    "annee": 2022,
+    "session": "Complémentaire",
+    "filiere": "Série M",
+    "chapitre": "Génétique humaine",
+    "notions_traitees": ["Arbre généalogique", "Hérédité", "Autosome vs Chromosome sexuel", "Électrophorèse ADN", "Caryotype", "Méiose"],
+    "ennonce_complet": "L'arbre généalogique est celui d'une famille dont certains individus sont atteints d'une maladie héréditaire[cite: 733]. 1. En exploitant ce pédigrée, discutez les deux hypothèses suivantes : a. l'allèle de la maladie est récessif ; b. l'allèle de la maladie est dominant[cite: 734, 736, 737]. 2. Le résultat de l'électrophorèse de l'ADN de la femme II1 montre un seul type d'ADN. Quelle précision apporte cette information ? [cite: 738, 739] 3. Discutez si le gène en question est porté par un autosome ou par un chromosome sexuel X[cite: 742]. 4. Une biopsie des villosités placentaires a été exigée chez la femme II1 enceinte et ayant un enfant malade[cite: 743]. Le document 1 montre le caryotype du fœtus. Le document 2 montre le résultat d'analyse de l'ADN chez II1 et chez son fœtus [cite: 744, 748, 749]. a- Quelle(s) précision(s) apportent ces documents ? b- Ecrivez les génotypes des individus: I1, I2, II3 et II4[cite: 752, 754]. 5. En supposant que le déroulement de la spermatogenèse est normal et en ne considérant que les chromosomes concernés par l'anomalie et les chromosomes sexuels, schématisez la phase de la méiose que vous jugez anormale et qui a conduit à l'anomalie observable chez le fœtus[cite: 760]."
+  }
+[
+  {
+    "fichier": "Bac C PC 2013 sn corrigé.pdf",
+    "exercice_numero": 1,
+    "matiere": "Sciences Physiques (Chimie)",
+    "annee": 2013,
+    "session": "Normale",
+    "filiere": "Série Mathématiques",
+    "chapitres": ["Chimie Organique", "Estérification et Hydrolyse"],
+    "notions_traitees": ["Nomenclature", "Alcool", "Acide carboxylique", "Ester", "Rendement", "Vitesse de réaction"],
+    "ennonce_complet": "On considère trois flacons contenant chacun un corps pur liquide. Ces trois corps sont notés A, B et C. A est un acide carboxylique de formule R-COOH, B est un alcool de formule R'-OH et C est un ester. 1. L'analyse de l'acide A montre que le pourcentage en masse d'oxygène est de 53,3%. Déterminer la formule brute de A, sa formule semi-développée et son nom. 2. L'alcool B est à chaîne carbonée saturée. Sa molécule contient 4 atomes de carbone. L'oxydation ménagée de B par une solution de dichromate de potassium en milieu acide donne un corps D qui réagit avec la DNPH et est sans action sur la liqueur de Fehling. En déduire la formule semi-développée et le nom de B. 3. On réalise le mélange de 0,5 mol de A et 0,5 mol de B. 3.1. Ecrire l'équation de la réaction qui se produit. Quelles sont ses caractéristiques ? 3.2. Nommer l'ester C formé. 3.3. Au bout de combien de temps, la composition du mélange n'évolue plus, on trouve qu'il s'est formé 0,33 mol de C. Calculer le rendement de la réaction. 3.4. On recommence la même expérience à une température plus élevée. Le rendement de la réaction est-il modifié ? La vitesse de la réaction est-elle modifiée ? Justifier."
+  },
+  {
+    "fichier": "Bac C PC 2013 sn corrigé.pdf",
+    "exercice_numero": 2,
+    "matiere": "Sciences Physiques (Chimie)",
+    "annee": 2013,
+    "session": "Normale",
+    "filiere": "Série Mathématiques",
+    "chapitres": ["Acides et Bases", "Dosage"],
+    "notions_traitees": ["Produit ionique de l'eau", "pKa", "Indicateur coloré", "Mélange tampon", "Calcul de pH"],
+    "ennonce_complet": "Toutes les solutions sont à 25°C. 1. On considère une solution aqueuse d'ammoniac NH3 de concentration Cb = 0,1 mol/L et de pH = 11,1. 1.1. Montrer que l'ammoniac est une base faible. 1.2. Calculer les concentrations des espèces chimiques présentes dans la solution. 1.3. En déduire le pKa du couple NH4+/NH3. 2. On dispose d'une solution d'acide chlorhydrique de concentration Ca = 0,1 mol/L. On ajoute un volume Va de cette solution à un volume Vb = 20 mL de la solution d'ammoniac. 2.1. Ecrire l'équation de la réaction de dosage. 2.2. Calculer le volume Va qu'il faut verser pour atteindre l'équivalence. 2.3. Quel est l'indicateur coloré le plus approprié pour ce dosage parmi : Héliantine (3,1-4,4), Bleu de Bromothymol (6,0-7,6), Phénolphtaléine (8,2-10,0) ? Justifier. 3. On verse un volume Va = 10 mL de la solution d'acide. 3.1. Calculer le pH du mélange. 3.2. Comment appelle-t-on ce mélange ? Donner ses propriétés."
+  },
+  {
+    "fichier": "Bac C PC 2013 sn corrigé.pdf",
+    "exercice_numero": 3,
+    "matiere": "Sciences Physiques (Physique)",
+    "annee": 2013,
+    "session": "Normale",
+    "filiere": "Série Mathématiques",
+    "chapitres": ["Mécanique de Newton", "Mouvement de projectiles"],
+    "notions_traitees": ["Champ de pesanteur uniforme", "Equations horaires", "Trajectoire", "Portée", "Vitesse d'impact"],
+    "ennonce_complet": "Un solide (S) de masse m est lancé à partir d'un point O avec une vitesse initiale Vo faisant un angle alpha avec l'horizontale. On néglige les frottements de l'air. 1. Etablir les équations horaires du mouvement du centre d'inertie G du solide dans le repère (O, i, j). 2. En déduire l'équation de la trajectoire. 3. Exprimer en fonction de Vo, g et alpha : a) Les coordonnées du sommet S de la trajectoire. b) La portée horizontale Xp du tir. 4. On donne Vo = 20 m/s et alpha = 45°. Calculer la hauteur maximale atteinte et la portée. 5. Déterminer la valeur de la vitesse du solide lorsqu'il touche le sol au point P (on suppose que P est sur l'axe horizontal passant par O)."
+  },
+  {
+    "fichier": "Bac C PC 2013 sn corrigé.pdf",
+    "exercice_numero": 5,
+    "matiere": "Sciences Physiques (Physique)",
+    "annee": 2013,
+    "session": "Normale",
+    "filiere": "Série Mathématiques",
+    "chapitres": ["Oscillations électriques", "Circuit RLC"],
+    "notions_traitees": ["Décharge d'un condensateur", "Oscillations libres amorties", "Equation différentielle", "Pseudo-période", "Énergie électromagnétique"],
+    "ennonce_complet": "Un condensateur de capacité C = 10 microFarads est chargé sous une tension Uo = 12V. Il est ensuite relié à une bobine d'inductance L = 0,1H et de résistance r. 1. Ecrire l'équation différentielle vérifiée par la charge q(t) du condensateur. 2. On observe des oscillations amorties. Déterminer la valeur de la pseudo-période T, sachant qu'elle est pratiquement égale à la période propre To. 3. Calculer l'énergie emmagasinée initialement dans le condensateur. 4. Après quelques oscillations, la tension maximale aux bornes du condensateur n'est plus que de 4V. Calculer l'énergie perdue par effet Joule pendant cet intervalle de temps."
+  }
+

@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bac-d-2015-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (6pt)\nCorde élastique SC ($L=1$ m). Extrémité S reliée à une lame vibrant à fréquence N ($a=3$ mm).\n1.1 Rôle de la pelote de coton en C.\n1.2 Pourquoi l'onde est-elle transversale ?\n2.1 Déterminer graphiquement la longueur d'onde $\\lambda$ (à $t=0{,}06$ s).\n2.2 Montrer que la célérité est $V=10$ m/s. En déduire N.\n3.1 Établir l'équation horaire d'un point M ($SM=x$).\n3.2 Déterminer la phase $\\varphi_s$.\n3.3 Déterminer l'instant $t_1$ où l'onde atteint C.\n3.4 Déterminer le nombre et positions des points vibrant en quadrature retard de phase par rapport à S à $t_1$."
+  },
+  {
+    "id": "bac-d-2015-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Le Phosphore $^{32}_{15}P$ est radioactif $\beta^-$. Sa demi-vie est $T = 14,3$ jours.\n1. Écrire l'équation de la désintégration.\n2. On dispose d'un échantillon de masse $m_0 = 1 ext{ mg}$ à $t = 0$.\n2.1. Calculer le nombre de noyaux $N_0$ initialement présents.\n2.2. Calculer l'activité initiale $A_0$.\n3. Calculer l'activité de l'échantillon après $30$ jours."
+  },
+  {
+    "id": "bac-d-2016-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,5pt)\n1. On considère une solution S d'une amine notée B. Écrire l'équation bilan de la réaction de cette amine B avec l'eau.\n2. On dose $V_b=20$ mL de S par une solution $S'$ d'acide nitrique ($C_a=5.10^{-2}$ mol/L).\n2.1 Écrire l'équation bilan du dosage.\n2.2 L'équivalence est obtenue pour $V_a=40$ mL. Calculer $C_b$.\n2.3 Le pH de S vaut 11,8. Déterminer le pKa du couple acide-base.\n3. On obtient 0,4 L de S en dissolvant 1,8 g de B. Quelle est la masse molaire de B ? Donner les formules semi-développées possibles, leurs classes et leurs noms.\n4. Calculer les volumes $V_a$ et $V_b$ nécessaires pour préparer 40 mL d'une solution tampon $S''$.\n5. $S'$ est préparée à partir d'un flacon d'acide nitrique ($d=1{,}4$ ; 65 % en masse). Quelle est la concentration C de ce flacon ?"
+  },
+  {
+    "id": "bac-d-2016-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4,5pt)\n1. L'hydrolyse d'un ester E ($C_5H_{10}O_2$) donne de l'acide éthanoïque et un composé A. Famille de A ?\n2. A est oxydé par $KMnO_4$ en un composé B. B réagit avec la 2,4-DNPH mais est sans action sur la liqueur de Fehling.\n2.1 Famille de B ?\n2.2 Formules semi-développées et noms de B et A.\n3.1 Formule semi-développée et nom de l'ester E.\n3.2 Équation d'hydrolyse de E et caractéristiques.\n4. Équations pour passer de l'acide éthanoïque au chlorure d'éthanoyle et à l'anhydride éthanoïque.\n5. Équation du chlorure d'éthanoyle avec l'éthylamine. Nom et fonction du produit."
+  },
+  {
+    "id": "bac-d-2016-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5,5pt)\nUne bobine rectangulaire ($a=4$ cm, $b=10$ cm, $N=1000$, $m=120$ g) est suspendue à un ressort ($k=40$ N/m).\n1.1 Allongement initial $\\Delta l_0=3$ cm. Dans un champ B, avec $I=2$ A, l'allongement devient $\\Delta l=5$ cm.\n1.1.1 Représenter le sens du courant et les forces de Laplace $\\vec{F}_{CD}$, $\\vec{F}_{AC}$, $\\vec{F}_{DE}$.\n1.2 Condition d'équilibre et calcul de B.\n2. On détache la bobine et on la fait entrer à vitesse constante V dans le champ B.\n2.1 Exprimer la surface immergée en fonction de V, t et b.\n2.2 Expressions du flux $\\Phi$ et de la f.é.m. induite e.\n2.3 Immobilisée et en rotation ($\\omega=40$ rad/s), donner les expressions de $\\Phi$ et e. Calculer leurs valeurs maximales."
+  },
+  {
+    "id": "bac-d-2016-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5,5pt)\nUn skieur ($m=80$ kg) sur une piste ABCDE.\n1. Sans vitesse en A, poussé par une force $\\vec{F}$ sur AB ($l=20$ m), arrive en B avec une vitesse $\\vec{V}_B$ pour atteindre C ($l'=40$ m, $\\alpha=60^\\circ$, $h=5$ m).\n1.1 Calculer $V_B$ pour arriver en C avec une vitesse nulle.\n1.2 Calculer la force F.\n1.3 Nature du mouvement entre B et C.\n2. Repart de C vers CD (horizontal). En D, $V_D=10$ m/s, puis entame le tronçon circulaire DE ($r=2{,}2$ m).\n2.1.1 Vitesse $V_M$ au point M (angle $\\theta$) et valeur en E.\n2.1.2 Réaction R de la piste en M.\n2.2.1 Équation de la trajectoire après E.\n2.2.2 Abscisse du point de chute P."
+  },
+  {
+    "id": "bac-d-2016-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4pt)\n1. Oxydation des ions iodure par l'eau oxygénée en milieu acide. Écrire les demi-équations et l'équation bilan.\n2. Dosage de $I_2$ par le thiosulfate $S_2O_3^{2-}$. Équation bilan.\n3. Utilisation de la courbe $n(H_2O_2) = f(t)$ (avec $n_0=0{,}2$ mol et $C_{thiosulfate}=2{,}5$ mol/L) :\n- Vitesse moyenne de disparition entre 0 et 24 min.\n- Vitesse instantanée à $t=10$ min (et déduire celle de $I^-$).\n- Volume de thiosulfate pour doser $I_2$ à $t=24$ min.\n- Temps de demi-réaction."
+  },
+  {
+    "id": "bac-d-2016-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5pt)\nSolution $S_1$ d'ammoniac ($C_1=6{,}3.10^{-4}$ mol/L, $pH=10$).\n1. Couleur avec le vert de malachite (virage 11,5 – 13,2) ?\n2. Calculer $n_0$ et $V_0$ (volume de gaz dissous).\n3. Équation avec l'eau et concentrations effectives des espèces.\n4. Valeur de la constante Ka.\n5. Mélange de $V_1=20$ mL de $S_1$ avec $V_2=20$ mL de HCl ($C_2=2.10^{-4}$ mol/L) : équation et calcul du volume $V'_2$ pour obtenir une solution tampon ($pH=pKa$)."
+  },
+  {
+    "id": "bac-d-2016-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5pt)\nTerre autour du Soleil (trajectoire circulaire, $r=1{,}5.10^{11}$ m).\n1. Caractéristiques et représentation de la force subie.\n2. Montrer que le mouvement est uniforme via la RFD.\n3. Expression de l'accélération en fonction de G, $M_s$ et r.\n4. Expression et calcul de la vitesse V.\n5. Expression et calcul de la période T."
+  },
+  {
+    "id": "bac-d-2016-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (6pt)\n1. Corde élastique : source A ($N=80$ Hz, $a=2$ mm). $t=0$ à la position d'équilibre.\n1.1 Expression de l'élongation de A.\n1.2 Élongation d'un point B (5 cm de A). État vibratoire et élongation à $t=31{,}25$ ms ($C=8$ m/s).\n1.4 Observation stroboscopique (160 Hz, 40 Hz, 82 Hz, 79 Hz).\n2. Deux sources $O_1$, $O_2$ ($d=8$ cm, 80 Hz, $V=3{,}2$ m/s) en opposition de phase.\n2.1 Établir l'équation de $y_M$ d'un point M situé à $d_1$ et $d_2$.\n2.2 Lieu et nombre des points d'amplitude maximale sur $[O_1, O_2]$."
+  },
+  {
+    "id": "bac-d-2017-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4pts)\n1. Mélange de 100 cm³ de KI (0,1 mol/L) et 100 cm³ de $K_2S_2O_8$ (0,05 mol/L).\n1.1 Demi-équations et équation-bilan.\n1.2 Concentrations initiales dans le mélange.\n2. Étude cinétique par dosage du diiode par le thiosulfate (0,01 mol/L).\n2.1 Équation du dosage.\n2.2 Calculer $[I_2]$ quand $V'_{thiosulfate}=40$ cm³.\n2.3 Déterminer graphiquement la vitesse de formation à $t=20$ min.\n2.4 Vitesse moyenne entre 25 et 40 min.\n2.5 Réactif limitant et concentration finale de $[I_2]$."
+  },
+  {
+    "id": "bac-d-2017-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5pts)\nComposés A et B de même masse molaire.\n1. Oxydation de A en C. C réagit avec la DNPH mais pas avec la liqueur de Fehling.\n1.1 Observation DNPH ?\n1.2 Renseignements sur C et A.\n2. A + B donne un ester D ($M=130$ g/mol) + eau.\n2.1 Fonction de B ?\n2.2 Montrer que A a 4 carbones et B en a 3.\n2.3 Formules semi-développées et noms de A, B, C et D.\n3. A obtenu par hydratation de l'alcène $A'$. Nom et formule de $A'$.\n4. Dosage de B par la soude ($C_2=0{,}25$ mol/L). L'équivalence pour $V_1=10$ mL de B est atteinte à 20 mL de soude. Calculer la concentration $C_1$ et la masse de B."
+  },
+  {
+    "id": "bac-d-2017-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nRessort horizontal ($K=20$ N/m) attaché à une masse m.\n1. Équation différentielle du mouvement.\n2. Équation horaire $x=f(t)$ (segment de 4 cm, $T=0{,}05$ s, passe en O à $t=0$ dans le sens positif).\n3. Montrer que l'énergie mécanique $E=4.10^{-3}$ J.\n4. Énergie cinétique à $t=0{,}25$ s.\n5. S se détache à $t=5$ s et parcourt OA puis ABC (demi-cercle, $r=10$ cm).\n5.1 Vitesse en A.\n5.2 Vitesse en M (angle $\\theta$) et valeur en C."
+  },
+  {
+    "id": "bac-d-2017-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\n1. Dispositif de Young ($a=2{,}5$ mm, $D=1{,}5$ m).\n1.1 Observation sur l'écran ?\n1.2 Expression de la différence de marche $\\delta$.\n1.3 Expression de l'interfrange i. Calculer $\\lambda$ pour $i=0{,}3$ mm.\n1.4 Nature des franges à $x_1=1{,}05$ mm et $x_2=1{,}2$ mm.\n2. Deux radiations ($\\lambda_1=0{,}5$ µm et $\\lambda_2=0{,}75$ µm).\n2.1 Distance de la première coïncidence de franges brillantes.\n2.2 Nature des franges qui coïncident à $OM_1=1{,}8$ mm."
+  },
+  {
+    "id": "bac-d-2017-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (5pts)\n1. Compléter un tableau avec les noms et fonctions pour :\n- (A) Propanoate de 1-méthyl-propyle\n- (B) $CH_3CH_2CH_2CH(CH_3)OH$\n- (C) $(CH_3)_2CH-CO-Cl$\n- (D) amide\n2. Noms et fonctions des composés ayant permis d'obtenir B et C.\n3. Écrire les équations pour obtenir A, B et C.\n4. Identifier la molécule chirale parmi les réactifs de C et D et donner ses énantiomères."
+  },
+  {
+    "id": "bac-d-2017-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4pts)\n1. Dosage de trois acides $A_1H$, $A_2H$, $A_3H$ ($V_a=20$ mL) par la soude ($C_B$). Équation bilan AH + NaOH.\n2.1 Trouver les relations entre $C_1$, $C_2$ et $C_3$ à partir des volumes à l'équivalence ($V_{BE}$).\n2.2 Déduire que $A_3H$ est le plus fort.\n3. Dilution au dixième. La variation de pH est de 1 pour $A_3H$.\n3.1 En déduire que $A_3H$ est un acide fort.\n3.2 Justifier que $A_1H$ et $A_2H$ sont faibles.\n3.3 Calculer $C_3$, $C_B$, $C_1$ et $C_2$."
+  },
+  {
+    "id": "bac-d-2017-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nParticules ($q$, $m$) entrant en O à vitesse $\\vec{V}_0$.\n1. Champ électrique $\\vec{E}=E\\vec{j}$.\n1.1 Équation de la trajectoire.\n1.2 Coordonnées de $\\vec{V}_1$ à la sortie et expression de $\\tan\\alpha_1$.\n1.3 Exprimer $q/(mV_0^2)$ en fonction de E, $l$ et $\\alpha_1$.\n2. Champ magnétique $\\vec{B}=B\\vec{K}$.\n2.1 Montrer le mouvement circulaire uniforme.\n2.2 Exprimer $q/(mV_0)$ en fonction de $\\alpha_2$, B et $l$.\n3. Calculer $V_0$ et la charge massique $q/m$."
+  },
+  {
+    "id": "bac-d-2017-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\nSolénoïde S ($N=500$, $l=40$ cm) contenant une bobine b (50 spires, $r=4$ cm).\n1. Caractéristiques de $\\vec{B}$ pour $I=0{,}6$ A.\n2. Le courant s'annule en 0,04 s. Variation du flux et valeur moyenne de la f.é.m. induite.\n3. Courant i variable (selon graphe). Déterminer et représenter graphiquement la f.é.m. induite dans les intervalles [0 ; 4], [4 ; 8], [8 ; 12] et [12 ; 18] ms."
+  },
+  {
+    "id": "bac-d-2017-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "D",
+    "ennonce": "L'énergie de l'atome d'hydrogène est donnée par la relation $E_n = -\frac{13,6}{n^2}$ (en $eV$).\n1. Calculer les énergies correspondant aux états $n=1, n=2$ et $n=3$.\n2. L'atome passe de l'état $n=3$ à l'état $n=2$. \n2.1. S'agit-il d'une émission ou d'une absorption ?\n2.2. Calculer la longueur d'onde $lambda$ du rayonnement correspondant.\n3. Calculer l'énergie minimale pour ioniser l'atome d'hydrogène à partir de son état fondamental."
+  },
+  {
+    "id": "bac-d-2018-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,25pts)\nUn ester E a pour formule $C_4H_8O_2$.\n1. Écrire la formule semi-développée de chacun des esters isomères de E.\n2. L'hydrolyse de chacun de ces esters donne un acide et un alcool. Donner à chaque fois le nom et la formule semi-développée de l'acide et de l'alcool ainsi formés.\n3. On fait agir 1,8 g d'eau sur 8,8 g de cet ester. Lorsque l'équilibre chimique est atteint, on constate que 5,28 g d'ester n'ont pas été hydrolysés.\n3.1 Quelle est alors parmi les formules semi-développées écrites au 1ᵉʳ celle qui correspond à l'ester utilisé ?\n3.2 Écrire l'équation chimique de cette réaction.\n3.3 Calculer les masses des différents corps présents à l'équilibre.\n3.4 Rappeler les caractéristiques de cette réaction."
+  },
+  {
+    "id": "bac-d-2018-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4,75pts)\n1. On dissout une certaine masse d'un acide carboxylique noté RCOOH dans de l'eau distillée pour obtenir une solution $S_A$ de volume $V_A=20$ mL que l'on dose à l'aide d'une solution d'hydroxyde de sodium $S_B$ à $2.10^{-1}$ mol/L.\n1.1 Déterminer les coordonnées du point d'équivalence.\n1.2 Écrire l'équation-bilan de la réaction du dosage.\n1.3 Déterminer la concentration molaire volumique de la solution $S_A$.\n1.4 On veut déterminer le $pK_A$ du couple RCOOH/RCOO$^-$ de deux manières différentes.\n1.4.1.1 Établir la relation entre le $pK_A$ et le pH de la solution à la demi-équivalence.\n1.4.1.2 Trouver la valeur du $pK_A$.\n1.4.2.1 Écrire l'équation de la réaction entre l'ion carboxylate et l'eau.\n1.4.2.2 Établir l'expression de $K_A = \\dfrac{C_A V_A Ke}{[OH^-]^2 (V_A+V_E)}$. En déduire la valeur du $pK_A$.\n2. Dans une deuxième expérience, on répète le dosage après avoir ajouté un volume d'eau pure au volume $V_A$. Y a-t-il variation du pH initial, du pH à la demi-équivalence et du volume $V_E$ ?"
+  },
+  {
+    "id": "bac-d-2018-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nUn satellite artificiel S de masse m tourne autour de la terre sur une orbite circulaire à l'altitude Z.\n1.1 Donner les caractéristiques de la force gravitationnelle F. Exprimer son intensité en fonction de Z, m, G, R et M.\n1.2 Montrer que le mouvement du satellite est uniforme. Exprimer sa vitesse V.\n1.3 Donner l'expression de la période T. Montrer que $T^2/r^3$ est une constante.\n2. La lune tourne autour de la terre ($r=385\\,000$ km, période 27,3 jours). Calculer la masse de la terre.\n3. Satellite géostationnaire :\n3.1 Quelle est sa particularité ?\n3.2 Exprimer puis calculer son altitude."
+  },
+  {
+    "id": "bac-d-2018-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\nL'extrémité d'une lame vibrante est animée d'un mouvement vertical sinusoïdal ($a=2$ mm, $f=50$ Hz).\n1.1 Établir l'équation horaire $y=f(t)$ du point O (début du mouvement vers le haut à $t=0$).\n1.2 Établir l'équation horaire d'un point M à la distance x de O. Que dire du mouvement de M pour $x=2{,}25$ cm ?\n1.3 Représenter la coupe de la surface de l'eau à $t=5.10^{-2}$ s.\n2. On utilise une fourche à deux pointes $S_1$ et $S_2$ ($d=3{,}5$ cm) vibrant en phase.\n2.1 Établir l'équation horaire du mouvement d'un point M situé à $d_1$ et $d_2$ des deux points.\n2.2 Déterminer le nombre de points sur le segment $[O_1 O_2]$ vibrant avec une amplitude maximale."
+  },
+  {
+    "id": "bac-d-2018-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (5pts)\nÀ une température constante, on réalise la réduction d'un volume $V_1$ d'une solution $(S_1)$ de peroxodisulfate de potassium $K_2S_2O_8$ de concentration molaire $C_1$ par un volume $V_2$ d'une solution $(S_2)$ d'iodure de potassium KI de concentration molaire $C_2$, avec $C_2=2C_1$. On donne $E^0_{I_2/I^-}=0{,}55$ V et $E^0_{S_2O_8^{2-}/SO_4^{2-}}=2{,}1$ V.\n1. Écrire les équations des deux demi-réactions et déduire l'équation bilan.\n2. À l'instant $t=0$ on mélange $n_{01}=10$ mmol d'ions peroxodisulfate et $n_{02}=20$ mmol d'ions iodure pour obtenir un volume total $V=1$ L.\n2.1 Dresser le tableau d'avancement de la réaction.\n2.2 Déterminer les concentrations molaires initiales $[S_2O_8^{2-}]_0$ et $[I^-]_0$ respectives des ions peroxodisulfate et des ions iodures dans le mélange. Déduire $C_1$ et $C_2$.\n3. À la date $t=0$, on divise le mélange précédent en 10 prélèvements identiques. Pour déterminer la quantité de matière de diiode formé à une date $t>0$, on refroidit à chaque fois l'un des prélèvements en y versant de l'eau glacée puis on dose le diiode formé par une solution de thiosulfate de sodium $Na_2S_2O_3$ de concentration molaire $C_3=4.10^{-1}$ mol/L. La réaction de dosage, rapide et totale, est $2S_2O_3^{2-}+I_2\\rightarrow S_4O_6^{2-}+2I^-$. Ce dosage a permis de tracer la courbe de variation de la quantité de matière du diiode en fonction du temps (voir fig 1).\n3.1 Pourquoi refroidit-on chaque prélèvement ? Quel(s) facteur(s) cinétique(s) met-on en évidence ?\n3.2 Calculer le volume $V_3$ de la solution de thiosulfate de sodium nécessaire pour doser la quantité de diiode $I_2$ formé dans un prélèvement à la date $t=40$ min.\n4. Calculer la concentration molaire théorique de diiode à la fin de la réaction. Ce résultat est-il en accord avec le résultat expérimental ?\n5. Définir la vitesse de la réaction, la calculer à la date $t=40$ min. Déduire sa vitesse volumique $V_{vol}$."
+  },
+  {
+    "id": "bac-d-2018-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4pts)\nDeux solutions aqueuses de monoacides $(A_1H)$ et $(A_2H)$, de même concentration molaire $C_1=C_2=C=10^{-2}$ mol/L, ont respectivement pour pH : $pH_1=3{,}4$ et $pH_2=2$.\n1. Montrer que l'un des acides, que l'on précisera, est fort et l'autre est faible.\n2. Écrire les équations de leur dissociation dans l'eau.\n3. La solution de l'acide faible est l'acide éthanoïque de $pKa=4{,}8$. L'expression de son pH en fonction de C et du pKa du couple acide-base est $pH=\\dfrac{1}{2}(pKa-\\log C)$. À un volume $V=5$ mL de la solution de cet acide, on ajoute un volume $V_e$ d'eau pour obtenir une nouvelle solution de $pH'=3{,}9$.\n3.1 Calculer le volume d'eau $V_e$.\n3.2 Quel est l'effet d'une dilution sur l'ionisation d'un acide faible.\n4. On fait réagir l'acide éthanoïque précédent avec une amine $RNH_2$ pour obtenir un composé organique A.\n4.1 Écrire l'équation bilan de la réaction.\n4.2 La masse molaire moléculaire du composé organique A obtenu est $M=73$ g/mol. Donner les formules semi-développées du composé organique A et de l'amine ainsi que leurs noms."
+  },
+  {
+    "id": "bac-d-2018-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nSur un tremplin de surface parfaitement lisse incliné d'un angle $\\alpha=30^\\circ$ par rapport à l'horizontale, un jouet S d'enfant constitué d'une petite voiture initialement au repos au point A, est tiré par une force constante $\\vec{F}$, inclinée d'un angle $\\theta$ par rapport au plan du tremplin. Ce jouet S a une masse $m=100$ g. On donne $\\cos\\theta=0{,}8$ ; $AB=2$ m ; $AC=2{,}7$ m.\n1. La vitesse atteinte par S au point B après le parcours rectiligne AB est égale à $V_B=4$ m/s.\n1.1 Calculer la valeur de F.\n1.2 Déterminer la nature du mouvement de S sur le trajet AB.\n1.3 Au point B, l'action de la force cesse, le solide poursuit son mouvement rectiligne jusqu'au sommet C du tremplin. Déterminer la nature du mouvement de S sur le trajet BC. Calculer la vitesse de S au point C.\n2. Le solide quitte le tremplin au point C, origine du repère $(C,\\vec{i},\\vec{j})$.\n2.1 Déterminer l'équation cartésienne de la trajectoire de S dans le repère $(C,\\vec{i},\\vec{j})$. L'instant de passage de S en C est considéré comme origine des dates.\n2.2 S atteint le sol au point d'impact D.\n2.2.1 Calculer les coordonnées du point D.\n2.2.2 Sachant que le solide est brisé s'il touche le sol avec une vitesse supérieure à 5 m/s, dans quel état se trouve S après la chute."
+  },
+  {
+    "id": "bac-d-2018-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\nOn considère le système constitué d'une barre MN de cuivre de longueur $l=20$ cm qui peut se déplacer sur deux rails horizontaux et parallèles $AA'$ et $BB'$, d'un générateur de f.e.m. $E=4$ V, de deux interrupteurs $K_1$ et $K_2$. L'ensemble du système plonge dans un champ magnétique uniforme $\\vec{B}$ de valeur $B=1$ T qui reste vertical. On néglige toutes les résistances devant celle de la barre qui est $r=5\\,\\Omega$.\n1. On ferme l'interrupteur $K_1$ et on laisse $K_2$ ouvert.\n1.1 Calculer l'intensité I du courant qui traverse la barre ainsi que l'intensité de la force électromagnétique exercée sur la barre.\n1.2 Déterminer le sens du champ $\\vec{B}$ pour que la barre se déplace vers la gauche. Déduire les positions des pôles de l'aimant en U.\n1.3 On relie le milieu de la barre à l'extrémité isolée d'un ressort à spires non jointives de masse négligeable et de raideur K ; l'autre extrémité est fixée à un support fixe. La barre s'immobilise alors que le ressort est allongé de 2 cm. Représenter les forces agissant sur la barre et calculer la valeur de K.\n2. On ferme l'interrupteur $K_2$, on ouvre $K_1$ et on supprime le ressort. On déplace la tige avec une vitesse constante $V=4$ m/s de la gauche vers la droite.\n2.1 Donner l'expression du flux à un instant t quelconque et calculer la force électromotrice (f.e.m.) induite e.\n2.2 Déterminer l'intensité du courant induit et préciser son sens.\n2.3 Préciser les caractéristiques de la force électromagnétique $\\vec{f}$ créée lors du déplacement."
+  },
+  {
+    "id": "bac-d-2019-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,25pts)\nOxydation des ions iodures par l'ion peroxodisulfate : $2I^- + S_2O_8^{2-} \\rightarrow I_2 + 2SO_4^{2-}$.\n1.1 Calculer la concentration initiale $[I^-]_0$.\n1.2 Montrer que $S_2O_8^{2-}$ est le réactif limitant. En déduire $[S_2O_8^{2-}]_0$ et $C_1$.\n1.3 Compléter le tableau d'évolution.\n2. Exprimer la vitesse volumique $V(t) = -d[I^-]/(2 dt)$ et déterminer sa valeur initiale.\n3.1 Équation du dosage du diiode par le thiosulfate.\n3.2 Calculer le volume d'équivalence à $t=10$ min.\n4. Effet de l'ajout d'eau : évolution de l'avancement maximal et du temps de demi-réaction."
+  },
+  {
+    "id": "bac-d-2019-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4,75pts)\n1.1 Calculer la concentration d'une solution d'acide RCOOH (0,6 g/L) dosée par NaOH.\n1.2 Masse molaire et formule semi-développée de l'acide.\n2. Acide $C_2H_5COOH$ ($pH=2{,}6$ pour 11,1 g dans 30 mL).\n2.1 Calculer le coefficient d'ionisation $\\alpha$.\n2.2 Calculer le $pK_a$.\n2.3 Mélange avec NaOH : nom du mélange et pH.\n3. Propanoate d'éthyle (15,3 g) + eau (2,7 g).\n3.1 Écrire l'équation.\n3.2 Composition à l'équilibre et constante K.\n3.3 Calculer la quantité d'eau x à ajouter pour obtenir 0,12 mol d'acide."
+  },
+  {
+    "id": "bac-d-2019-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nMouvement d'ions ${}_3^6Li^+$ dans des champs E et B.\n1. Accélération par $U_0=1252{,}5$ V. Montrer $V_0=2.10^5$ m/s.\n2. Entrée dans un champ B ($2{,}5.10^{-1}$ T). Déterminer le sens de B pour une sortie en S.\n3. Montrer que le mouvement est uniforme et calculer le rayon r.\n4. Calculer la déviation angulaire $\\alpha$.\n5. Caractéristiques de la vitesse en S.\n6. Champ électrique entre plaques C et D. Déterminer le sens de la force électrique.\n7. Établir l'équation de la trajectoire.\n8. Calculer $V_0$ ($E=2{,}5.10^4$ V/m, $l'=20$ cm).\n9. Déterminer la distance d entre les armatures."
+  },
+  {
+    "id": "bac-d-2019-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\nOscillateur horizontal ($k=50$ N/m, $m=500$ g).\n1. Établir l'équation différentielle du mouvement.\n2. Déterminer l'équation horaire ($x_0=2$ cm, $v_o=\\sqrt{3}/5$ m/s). Vitesse à la position d'équilibre ?\n3. Exprimer l'énergie mécanique. Trouver la vitesse maximale.\n4. Chute du solide : équation cartésienne de la trajectoire après avoir quitté la table en $O'$.\n5. Coordonnées du point A au sol (5 cm plus bas).\n6. Composantes et module de la vitesse en A ; angle $\\beta$ avec la verticale."
+  },
+  {
+    "id": "bac-d-2019-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,5pts)\n1. Donner les formules semi-développées et fonctions de : 3-méthyl-butanal, chlorure de propanoyle, acide 2-méthyl-butanoïque, anhydride éthanoïque, butan-2-ol.\n2. Identifier les molécules chirales et donner les deux énantiomères de l'une d'elles.\n3. Oxydation ménagée du composé A par le dichromate de potassium. Écrire les équations et nommer le produit.\n4. Réaction du composé B avec un alcool R-OH.\n4.1 Écrire l'équation.\n4.2 La réaction est-elle limitée ?\n4.3 Identifier F et l'alcool si $m_F=102$ g."
+  },
+  {
+    "id": "bac-d-2019-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4,5pts)\n1. Identifier les éléments du dispositif de dosage de la figure 1.\n2.1 Justifier que B est une base faible et déterminer son $pK_b$.\n2.2 Montrer que $C_B = 10^{-1}$ mol/L.\n2.3 Déterminer la valeur de $C_A$.\n3. Écrire l'équation de la réaction du dosage.\n4. Calculer le pH à l'équivalence.\n5. Déterminer la formule semi-développée et le nom de la base B (amine primaire) si $m=0{,}135$ g pour $V_B=30$ mL."
+  },
+  {
+    "id": "bac-d-2019-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5,5pts)\nUne tige MN se déplace sur deux rails horizontaux à la vitesse $V=5$ m/s dans un champ B perpendiculaire.\n1. Exprimer le flux magnétique à travers le circuit.\n2. Déterminer la valeur de la f.e.m. induite.\n3. Sens et intensité du courant induit.\n4. Étude dynamique : caractéristiques de la force F appliquée.\n5. Angle d'inclinaison $\\alpha$ pour garder la même vitesse sans force F."
+  },
+  {
+    "id": "bac-d-2019-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5,5pts)\n1. Aspect ondulatoire : fentes de Young ($a=2$ mm, $D=2$ m).\n1.1 Observation sur l'écran ?\n1.2 Définir l'interfrange i. Calculer i si $3i = 1{,}5$ mm. Nature des franges à $x=1$ mm et $x=1{,}75$ mm.\n1.3 Calculer la longueur d'onde $\\lambda$.\n2. Aspect corpusculaire : cellule photoélectrique ($W_0=1{,}875$ eV, $\\lambda=0{,}4$ µm).\n2.1 Définir l'effet photoélectrique.\n2.2 Définir et calculer la longueur d'onde seuil $\\lambda_0$. Comparer avec $\\lambda$.\n2.3 Énergie cinétique maximale et vitesse de l'électron.\n2.4 Définir et calculer le potentiel d'arrêt."
+  },
+  {
+    "id": "bac-d-2020-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "1. Une amine primaire à chaîne carbonée saturée $A$ a pour formule brute $C_4H_{11}N$.\n1.1. Écrire les formules semi-développées et les noms des isomères de l'amine $A$.\n1.2. L'un de ces isomères est chiral. Lequel ? Représenter ses deux énantiomères.\n2. On fait réagir l'anhydride éthanoïque sur la butylamine.\n2.1. Écrire l'équation de la réaction.\n2.2. Donner le nom et la famille du produit organique obtenu.\n2.3. Citer un avantage de l'utilisation de l'anhydride d'acide à la place de l'acide carboxylique correspondant."
+  },
+  {
+    "id": "bac-d-2020-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,5pts)\nPour réaliser la réaction entre l'eau oxygénée $H_2O_2$ et les ions iodures $I^-$, on dispose : d'une solution d'iodure de potassium ($C_1=0{,}1$ mol/L), d'acide sulfurique concentré, et d'eau oxygénée ($C_2=0{,}1$ mol/L). L'équation bilan est : $H_2O_2+2I^-+2H^+ \\rightarrow I_2+2H_2O$. On réalise deux expériences :\n- Exp 1 : 90 mL d'iodure de potassium + 10 mL d'eau oxygénée.\n- Exp 2 : 50 mL d'iodure de potassium + 10 mL d'eau oxygénée + 40 mL d'eau distillée.\nLes mesures de l'avancement x ont permis de tracer les courbes $C_1$ et $C_2$.\n1.1 L'ion $H^+$ joue-t-il le rôle d'un réactif ou d'un catalyseur ? Justifier.\n1.2 Calculer la quantité de matière initiale de $H_2O_2$ et d'ions $I^-$ dans chaque mélange. Quel est le réactif limitant ?\n2.1 Déterminer graphiquement la vitesse instantanée de la réaction à $t=20$ min pour $C_1$ et $C_2$.\n2.2 Déduire la vitesse de disparition de $I^-$ à cette date pour chaque expérience.\n2.3 Préciser le facteur cinétique justifiant la disposition des courbes. Associer chaque expérience à sa courbe.\n3. Peut-on à l'aide d'une seule courbe, mettre en évidence l'influence de ce facteur ? Comment ?\n4. Déterminer le temps $t_{1/2}$ de la demi-réaction pour l'expérience 1."
+  },
+  {
+    "id": "bac-d-2020-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4,5pts)\nOn veut déterminer le degré d'acidité d'un vinaigre (masse d'acide acétique $CH_3-COOH$ dans 100 g de vinaigre). Densité = 1,01. On dilue 10 fois le vinaigre pour obtenir une solution S. On dose 20 mL de S par de la soude à $C_b=0{,}1$ mol/L.\n1. Citer le matériel nécessaire pour cette dilution.\n2. L'équivalence est obtenue pour 20,8 mL de soude.\n2.1 Quelle est la concentration $C_1$ de S ?\n2.2 Quelle est la concentration C en acide du vinaigre ?\n2.3 Quel est le degré d'acidité du vinaigre ?\n3.1 Quel volume de soude à $0{,}1$ mol/L doit-on verser dans 20 mL d'acide acétique à $0{,}1$ mol/L pour obtenir une solution de $pH=4{,}8$ ?\n3.2 Quelles sont les caractéristiques de cette solution obtenue.\nDonnées : C : 12 g/mol ; H : 1 g/mol ; O : 16 g/mol ; $pKa=4{,}8$."
+  },
+  {
+    "id": "bac-d-2020-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6pts)\nUn ressort de raideur $K=10$ N/m est fixé en A sur un plan horizontal AB. Un solide S ($m=100$ g) y est accroché. À l'équilibre, G est en O.\n1. On déplace S de 4 cm de sa position d'équilibre et on l'abandonne sans vitesse initiale à $t=0$.\n1.1 Établir l'équation différentielle du mouvement de G.\n1.2 Déterminer l'équation horaire du mouvement de S.\n2. Exprimer à la date t, l'énergie mécanique totale E du système (ressort + solide + terre) en fonction de K et de l'élongation maximale $x_m$.\n3. Au passage par O dans le sens positif, S se détache du ressort, parcourt AB et le quitte en B pour tomber en C au sol ($h=2$ m).\n3.1 Déterminer l'équation de la trajectoire du mouvement après B dans le repère $(B;\\vec{i};\\vec{j})$. Conclure.\n3.2 Trouver l'abscisse du point de chute C.\n3.3 Calculer la vitesse du solide S à son arrivée en C."
+  },
+  {
+    "id": "bac-d-2020-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (5pts)\nÉtude d'un satellite en orbite circulaire autour de la terre à l'altitude $h_0=400$ km. Données : $G=6{,}67.10^{-11}$ S.I., $M_T=6.10^{24}$ kg, $R_T=6400$ km.\n1.1 Déterminer la nature de son mouvement (soumis uniquement au champ gravitationnel).\n1.2 Exprimer la vitesse $V_0$ en fonction de G, M, R et $h_0$ et calculer sa valeur.\n1.3 Établir l'expression de sa période $T_0$ en fonction de R, $h_0$, $V_0$ et la calculer.\n2. Étude énergétique ($E_p=-GmM/r$).\n2.1 Exprimer l'énergie mécanique $E_{m0}$ en fonction de M, m et $r_0$.\n2.2 Exprimer $E_{m0}$ et l'énergie cinétique $E_{c0}$ en fonction de $E_{p0}$.\n2.3 Exprimer l'énergie W fournie par les moteurs pour passer de l'orbite $r_0$ à une orbite r plus haute."
+  },
+  {
+    "id": "bac-d-2021-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "L'oxydation des ions iodures $I^-$ par les ions peroxodisulfate $S_2O_8^{2-}$ est une réaction lente et totale.\n1. Écrire l'équation de la réaction.\n2. On réalise l'expérience à deux températures $T_1$ et $T_2$ avec $T_1 < T_2$. \n2.1. Définir la vitesse instantanée de formation du diiode $I_2$.\n2.2. Attribuer chaque courbe à sa température correspondante."
+  },
+  {
+    "id": "bac-d-2021-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "D",
+    "ennonce": "1. Une amine primaire à chaîne saturée $A$ a pour formule brute $C_3H_9N$.\n1.1. Écrire les formules semi-développées et les noms des isomères de $A$.\n1.2. L'un de ces isomères est chiral. Préciser lequel.\n2. On fait réagir l'anhydride éthanoïque sur l'isomère non ramifié.\n2.1. Écrire l'équation de la réaction.\n2.2. Nommer le produit obtenu."
+  },
+  {
+    "id": "bac-d-2022-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (5pts)\nL'arbre généalogique est celui d'une famille dont certains individus sont atteints d'une maladie héréditaire.\n1. En exploitant ce pédigrée, discutez les deux hypothèses suivantes :\na. l'allèle de la maladie est récessif (0,5pt) ;\nb. l'allèle de la maladie est dominant (0,5pt).\nQuelle précision apporte cette information ? (0,5pt)\n2. Le résultat de l'électrophorèse de l'ADN de la femme $I_1$ montre un seul type d'ADN.\n3. Discutez si le gène en question est porté par un autosome ou par un chromosome sexuel X. (1pt)\n4. Une biopsie des villosités placentaires a été exigée chez la femme $II_1$ enceinte et ayant un enfant malade.\na. Quelle(s) précision(s) apportent ces documents (caryotype et analyse ADN) ? (0,5pt)\nb. Écrivez les génotypes des individus $I_1$, $I_2$, $II_3$ et $II_4$. (1pt)\n5. Schématisez la phase de la méiose que vous jugez anormale et qui a conduit à l'anomalie observable chez le fœtus. (1pt)\n\n=== Sciences Naturelles - Série D 2022 - Session Complémentaire - Exercice 2 ===\nFichier source:"
+  },
+  {
+    "id": "bac-d-2022-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (6 points)\nA. Depuis la puberté jusqu'à la ménopause, les organes de l'appareil génital de la femme sont le siège de modifications cycliques et synchronisées.\n1. Schématiser l'évolution des structures ovariennes que vous nommez au cours d'un cycle de 28 jours. (1pt)\n2. Représenter graphiquement l'évolution parallèle du taux des hormones sécrétées par ces structures. (1pt)\n3. Préciser l'effet des hormones ovariennes sur l'utérus (myomètre et endomètre) au cours du même cycle. (1pt)\nB. Le document ci-contre est un schéma de l'une des structures observées dans une coupe d'ovaire vers le 21ème jour du cycle sexuel.\n1. Nommez cette structure et annotez-la. (1pt)\n2. Expliquez le déterminisme hormonal de la formation de cette structure. (1pt)\n3. Expliquez le devenir de cette structure. (1pt)\n\n=== Sciences Naturelles - Série D 2022 - Session Complémentaire - Exercice 3 ===\nFichier source:"
+  },
+  {
+    "id": "bac-d-2022-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (9 points)\nA. On pratique sur une fibre nerveuse une stimulation S efficace et à l'aide d'un oscilloscope on enregistre les phénomènes électriques obtenus avant et après la stimulation.\n1.a. Légendez le document 1 (dispositif oscilloscope). (1pt)\n1.b. Identifiez le phénomène enregistré suite à la stimulation S. (0,5pt)\n1.c. Nommez les phases de l'enregistrement désignées par les lettres A, B, C et D. (1pt)\n2. Expliquez le mécanisme ionique à l'origine de chaque phase. (1,5pt)\n3. Expliquez, schéma à l'appui, le mécanisme de la propagation de ce phénomène. (1pt)\n4. Calculez la vitesse de propagation de l'influx nerveux le long de cette fibre (distance = 12 mm). (1pt)\nB. Le document 3 présente le schéma d'un dispositif expérimental au niveau d'un récepteur : le fuseau neuromusculaire.\n1. Nommez les sites 1 et 2. (0,5pt)\n2. Nommez les phénomènes électriques enregistrés au niveau des oscilloscopes $O_1$ et $O_2$ suite à un étirement du muscle M. (1pt)\n3. Précisez le rôle du fuseau neuromusculaire. (0,5pt)\n4. Représentez l'arc réflexe en ne considérant que la réponse du muscle M.\n\n=== Sciences Physiques - Série D 2024 - Session Complémentaire - Exercice 1 ===\nFichier source:"
+  },
+  {
+    "id": "bac-d-2022-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,25pts)\n1.1 Donner les noms systématiques de : $CH_3-CH(OH)-CH_3$ ; $HCOOH$ ; $CH_3-CO-CH_2-CH_3$.\n1.2 On fait réagir $CH_3-CH(OH)-CH_3$ avec $HCOOH$. Écrire l'équation et nommer le produit organique.\n2. L'hydrolyse d'un ester E fournit un acide A ($M=60$ g/mol) et un alcool B ($C_4H_{10}O$).\n2.1 Déterminer la formule brute, semi-développée et le nom de A.\n2.2.1 L'oxydation ménagée de B par $KMnO_4$ donne $B'$. $B'$ réagit avec la DNPH et le réactif de Schiff. Préciser la classe de B. Donner les formules semi-développées et noms de B et $B'$ (sachant qu'elles sont ramifiées).\n2.2.2 Donner les formules semi-développées d'un isomère de position et d'un isomère de chaîne de B.\n2.3 En déduire la formule semi-développée et le nom de l'ester E.\n\n=== Sciences Physiques - Série D 2024 - Session Complémentaire - Exercice 2 ===\nFichier source:"
+  },
+  {
+    "id": "bac-d-2022-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (3,5pts)\nCinq solutions (A : $NaCl$, B : $NaOH$, C : $HNO_3$, D : $C_6H_5COOH$, E : $CH_3-NH_2$) ont la même concentration $C=10^{-2}$ mol/L.\n1. Identifier les solutions correspondant aux pH mesurés : 3 ; 10,8 ; 11 ; 7 ; 3,65.\n2. Calculer les concentrations des espèces dans la solution D. En déduire le pKa du couple correspondant.\n3. Trouver la relation entre $V_B$ et $V_C$ pour obtenir un mélange de $pH=7$.\n4. On mélange 10 mL de C avec 10 mL de A. Calculer le pH.\n5. On veut préparer une solution tampon à partir de B et D. Quel volume de B ajouter à 10 cm³ de D ? Quel sera le pH ?\n\n=== Sciences Physiques - Série D 2024 - Session Complémentaire - Exercice 3 ===\nFichier source:"
+  },
+  {
+    "id": "bac-d-2023-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "Choisir la bonne réponse pour chaque item.\n1- Les plantes portant à la fois des ficurs måles et des fleurs femelles sont dites: a. dioïques b. hermaphrodites c. monoïques d. polygames.\n2- La graine est issue de la transformation: a- du grain de pollen. b- d'un ovule. c- de l'ovaire. d- du pistil.\n3- Un allergène: a- est un antigène affaibli. b- est un antigène non pathogène. c- est une toxine atténuée d- stimule une sécrétion des perforines.\n4-Dans le cas d'une allogreffe: a- le donneur et le receveur sont d'espèces différentes; b- le donneur et le receveur sont histo-incompatibles; c- le donneur et le receveur sont histo-compatibles; d-les effecteurs du rejet sont des anticorps.\n5- Chez les angiospermes, le gamétophyte est: a- la plante feuillée; b-la graine; c- le grain de pollen; d- l'albumen.\n6- Chez les angiospermes, le sporophyte est: a- la plante feuillée; b- la graine; c- le grain de pollen; d- le sac embryonnaire.\n7-Le document ci-contre représente : a- une phase de sensibilisation du mastocyte. b- une phase d'activation du mastocyte. c- un premier contact de l'organisme avec l'antigène d- un plasmocyte\n8- Le VIH: a- déclenche une RIMH seulement; b- déclenche une RIMC seulement; c- déclenche une RIMH et une RJMC; d- est une maladie contagieuse.\n\nQROC (2.5pts)\nLa fréquence cardiaque de deux patients A et B est déterminée au repos et après un effort physique. On signale qu'il y a un an l'individu B a subi une transplantation cardiaque. Les résultats sont indiqués dans le tableau ci-contre.\n1-Quelle est la particularité du cœur transplanté ? (0.5pt)\n2-Expliquer la différence constatée chez les individus A et B : a-au repos (1pt) b-au cours d'un effort intense. (1pt)\n\nII-Compétences méthodologiques: Exercice 1 (4pts)\nAfin de déterminer le mode de transmission de deux gènes, un professeur donne à ses élèves les résultats de deux croisements (C1 et C2) réalisés entre des drosophiles de race pure.\nNB: Forme des yeux (R, r); Forme des ailes (E, e)\n1- Analyser ces r"
+  },
+  {
+    "id": "bac-d-2023-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "(6.5pts)\nAfin d'étudier quelques aspects de la physiologie nerveuse, on réalise différentes expériences.\nI- On soumet d'une part une fibre nerveuse, d'autre part un nerf, à des stimulations d'intensité croissante (I1<I2<I3<I4). On enregistre les résultats grâce à un oscilloscope avec des vitesses de balayage différentes."
+  },
+  {
+    "id": "bac-d-2023-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "1 représente les réponses supposées de la fibre. 1- Identifier la réponse de la fibre pour une stimulation d'intensité 12, et analyser l'un des tracés. (0.5pt) 2- Analyser le document I afin de déduire: a- une propriété du message nerveux. (0.25pt) b- une propriété de la fibre nerveuse. (0.25pt)"
+  },
+  {
+    "id": "bac-d-2023-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "D",
+    "ennonce": "QROC (4.5pts)\nA-Chez l'espèce humaine, parmi les phénomènes biologiques qui peuvent se manifester, on distingue :\n-Phénomène 1: aboutit à la formation de cellules flagellées notées A.\n-Phénomène 2: aboutit à la formation de grosse cellule arrondie, spéciale notée B.\n-Phénomène 3: aboutit à la formation d'une cellule C telle que A+B=C\n1- Identifier chacun des phénomènes 1,2 et 3. (0.75pt)\n2- Nommer chacune des cellules A, B et C. (0.75pt)\n3- Quelles sont les hormones peptidiques à effet direct sur le déroulement des phénomènes 1 et 2? Préciser leur(s) rôle(s). (0.75pt)\nB- Trois femmes A, B, C présentent une aménorrhée (absence des règles). La femme A âgée de 65 ans, la femme B a subi une hypophysectomie (ablation de l'hypophyse) et la femme C est enceinte. Compléter le tableau suivant: (2.25pt)"
+  },
+  {
+    "id": "bac-d-2024-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "I-Maitrise des connaissances 1-QCM (2pts)\nChoisir la bonne réponse pour chaque item.\n1-Le croisement de deux drosophiles AB//ab et ab//ab peut donner statistiquement: a) 50% [Ab]+50% [B] b) 9/16[AB]+3/16[Ab]+3/16[aB]+1/16[ab] c) X%[AB]+Y%[Ab]+Y%[aB]+X%[ab] d) X%[AB]+X%[Ab]+Y%[aB]+Y%[ab]\n2- La mémoire immunitaire réside dans : a) l'aptitude innée à éliminer tous les antigènes b) l'apparition de nouveaux clones cellulaires; c) la persistance des lymphocytes mémoires suite à une première infection. d) la persistance des anticorps mémoires sanguins;\n3- Un vaccin : a) contient des anticorps spécifiques b) peut être utilisé pour la protection immédiate; c) renferme des substances transférables par un sérum; d) permet l'acquisition d'une mémoire immunitaire contre un antigène déterminé.\n4-Chez les spermaphytes, l'équivalent du grain de pollen est: a) l'oosphère; b) le sac embryonnaire; c) l'ovule; d) l'étamine.\n5- Dans la réaction allergique, il se produit une: a) sécrétion d'anticorps IgE par les mastocytes. b) réaction humorale conduisant à la production des IgE c) sensibilisation des mastocytes lors du 2eme contact avec l'allergène. d) sécrétion d'histamine par les mastocytes suite au 1er contact avec l'allergène.\n6. Lors de la transmission de 2 couples d'allèles (A, a) et (B, b), le taux de recombinaison est de 10%. Si les parents sont de phénotypes [AB] et [ab], les résultats du test cross sont : a) 30% [AB] 20% [Ab] 20% [aB] 30% [ab], b) 45% [AB] 5% [Ab] 5% [aB] 45% [ab], c) 40% [AB] 10% [Ab] 10% [aB] 40% [ab]. d) 70% [AB] 5% [Ab] 5% [aB] 20% [ab],\n7-Le mode d'action du VIH nécessite: a) une cellule cible LB b) un récepteur CD8. c) un récepteur CD4. d) une cellule cible LT8.\n8-Chez les angiospermes: a) l'haplophase est représentée par la plante feuillée b) l'haplophase est représentée par le gametophyte c) la diplophase est représentée par le gametophyte d) la diplophase est représentée par le grain de pollen\n\n2-QROC (3pts)\nLa pression artérielle est contrôlée par de"
+  },
+  {
+    "id": "bac-d-2024-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "1 montre un circuit neuronique formé de trois neurones A, B et C intervenant dans la propagation et la transmission des messages nerveux. Sachant que la stimulation (SA) neurone A provoque en O1 une dépolarisation de 10mV et que la stimulation (SB) du neurone B donne en O3 une hyperpolarisation de -7mv (ou de 7mV) 1- Identifier la nature des neurones A, B et C. (0.5pt) 2- Expliquer, schémas à l'appui, le mécanisme de propagation et de la transmission du message nerveux aux niveaux des zones X et Y. (1pt) 3- Compléter le tableau ci-contre par les noms des enregistrements obtenus. (0.75pt)"
+  },
+  {
+    "id": "bac-d-2024-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "2 schématise une chaine nerveuse incomplète. On procède à des stimulations S1, S2 et S3 et on enregistre les réponses par des oscilloscopes 1-Les résultats des stimulations sont consignés dans le tableau ci-dessous: a-Expliquer les résultats de l'expérience A. (0.75pt) b- Donner deux explications possibles pour les résultats de l'expérience B. (1pt) c- Qu'apportent les résultats de l'expérience C? (0.5pt) 2- A partir des informations tirées de ces expériences, reproduire le document 2 en représentant les structures qui composent cette partie de la chaine. (0.5pt)"
+  },
+  {
+    "id": "bac-d-2024-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (4,25pts)\n1.1 Donner les noms systématiques de : $CH_3-CH(OH)-CH_3$ ; $HCOOH$ ; $CH_3-CO-CH_2-CH_3$.\n1.2 On fait réagir $CH_3-CH(OH)-CH_3$ avec $HCOOH$. Écrire l'équation et nommer le produit organique.\n2. L'hydrolyse d'un ester E fournit un acide A ($M=60$ g/mol) et un alcool B ($C_4H_{10}O$).\n2.1 Déterminer la formule brute, semi-développée et le nom de A.\n2.2.1 L'oxydation ménagée de B par $KMnO_4$ donne $B'$. $B'$ réagit avec la DNPH et le réactif de Schiff. Préciser la classe de B. Donner les formules semi-développées et noms de B et $B'$ (sachant qu'elles sont ramifiées).\n2.2.2 Donner les formules semi-développées d'un isomère de position et d'un isomère de chaîne de B.\n2.3 En déduire la formule semi-développée et le nom de l'ester E."
+  },
+  {
+    "id": "bac-d-2024-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (3,5pts)\nCinq solutions (A : $NaCl$, B : $NaOH$, C : $HNO_3$, D : $C_6H_5COOH$, E : $CH_3-NH_2$) ont la même concentration $C=10^{-2}$ mol/L.\n1. Identifier les solutions correspondant aux pH mesurés : 3 ; 10,8 ; 11 ; 7 ; 3,65.\n2. Calculer les concentrations des espèces dans la solution D. En déduire le pKa du couple correspondant.\n3. Trouver la relation entre $V_B$ et $V_C$ pour obtenir un mélange de $pH=7$.\n4. On mélange 10 mL de C avec 10 mL de A. Calculer le pH.\n5. On veut préparer une solution tampon à partir de B et D. Quel volume de B ajouter à 10 cm³ de D ? Quel sera le pH ?"
+  },
+  {
+    "id": "bac-d-2024-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (5pts)\nUne piste comporte une partie horizontale AB, une partie BC inclinée d'angle $\\alpha$ ($\\sin\\alpha=0{,}42$, $\\cos\\alpha=0{,}9$, $BC=45$ m) et un fossé de largeur d. Un motard ($m=200$ kg) passe en A à $t=0$ et atteint B à $t=5$ s.\n1.1 D'après le graphe $v=f(t)$, écrire l'équation de la droite et déduire l'accélération a.\n1.2 Calculer la distance AB.\n2. Sur BC, le motard exerce une force motrice $F=1660$ N et subit $f=500$ N. Calculer l'accélération sur BC et la vitesse $v_C$.\n3.1 Étudier le mouvement après C dans le repère $(C;x;y)$ et calculer l'équation de la trajectoire.\n3.2 Calculer la largeur maximale d du fossé pour ne pas y tomber."
+  },
+  {
+    "id": "bac-d-2024-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (4,5pts)\nExpérience des fentes d'Young ($a=1$ mm, $D=1$ m) avec différents filtres.\n1. Définir l'interfrange i et donner son expression.\n2. Compléter le tableau des longueurs d'onde $\\lambda$ et couleurs pour les interfranges mesurées ($4{,}7$ ; $5{,}2$ ; $6$ ; $6{,}5 \\times 10^{-4}$ m).\n3. Calculer l'abscisse du milieu de la 2ème frange brillante pour le filtre n°2.\n4. Filtre supprimé (lumière blanche) :\n4.1 Décrire l'observation sur l'écran.\n4.2 Un spectroscope est placé en $x=3$ mm. Préciser le nombre de franges brillantes et leurs longueurs d'onde."
+  },
+  {
+    "id": "bac-d-2003-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nDans le but de traiter des cas de diabète, des firmes ont réussi à produire une insuline humaine normale. En effet des chercheurs ont pu, grâce aux techniques du génie génétique, produire par des rats cette insuline. -Grâce à une enzyme de restriction, ces chercheurs ont ouvert un plasmide bactérien (voir document 12). -En utilisant la même enzyme ils ont isolé la partie d'ADN humain qui contient le gène codant la synthèse de l'insuline. -Ensuite ils insèrent cette portion dans l'ADN plasmidique.\n\nPourquoi utilise-t-on la même enzyme pour couper l'ADN humain et le plasmide bactérien ? (2 pts)\n\nDonnez la séquence des nucléotides caractéristiques de chaque extrémité de la molécule de l'ADN humain isolé. (1 pt)\n\nEn utilisant les données précédentes, schématisez le plasmide recombinant (qui a inséré un fragment d'ADN étranger) en indiquant les deux zones de ligation. (2 pts)\n\nIII. Génétique des haploïdes (5 points)\nLe croisement d'une souche de Neurospora à spores noires et d'une souche de Neurospora à spores roses a permis d'obtenir des fructifications. On y observe des asques que l'on classe en 6 types (document 13). On a recensé les asques des différents types observés. Les chiffres indiquent les résultats obtenus.\n\nQuel est le nombre de gènes impliqués dans la transmission de ce caractère ? (1 pt)\n\nQuels sont les asques pré-réductionnels et post-réductionnels ? (1 pt)\n3.Schématisez le phénomène cellulaire qui a abouti à la formation d'un asque post-réductionnel. (1pt)\n\nCalculez la distance entre le(s) gène(s) et le centromère. (1pt)\n\nDressez la carte factorielle. (1 pt)"
+  },
+  {
+    "id": "bac-d-2003-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "Dans le but de traiter des cas de diabète, des firmes ont réussi à produire une insuline humaine normale. En effet des chercheurs ont pu, grâce aux techniques du génie génétique, produire par des rats cette insuline. -Grâce à une enzyme de restriction, ces chercheurs ont ouvert un plasmide bactérien (voir document 12). -En utilisant la même enzyme ils ont isolé la partie d'ADN humain qui contient le gène codant la synthèse de l'insuline. -Ensuite ils insèrent cette portion dans l'ADN plasmidique.\n\nPourquoi utilise-t-on la même enzyme pour couper l'ADN humain et le plasmide bactérien ? (2 pts)\n\nDonnez la séquence des nucléotides caractéristiques de chaque extrémité de la molécule de l'ADN humain isolé. (1 pt)\n\nEn utilisant les données précédentes, schématisez le plasmide recombinant (qui a inséré un fragment d'ADN étranger) en indiquant les deux zones de ligation. (2 pts)\n\nIII. Génétique des haploïdes (5 points)\nLe croisement d'une souche de Neurospora à spores noires et d'une souche de Neurospora à spores roses a permis d'obtenir des fructifications. On y observe des asques que l'on classe en 6 types (document 13). On a recensé les asques des différents types observés. Les chiffres indiquent les résultats obtenus.\n\nQuel est le nombre de gènes impliqués dans la transmission de ce caractère ? (1 pt)\n\nQuels sont les asques pré-réductionnels et post-réductionnels ? (1 pt)\n3.Schématisez le phénomène cellulaire qui a abouti à la formation d'un asque post-réductionnel. (1pt)\n\nCalculez la distance entre le(s) gène(s) et le centromère. (1pt)\n\nDressez la carte factorielle. (1 pt)"
+  },
+  {
+    "id": "bac-d-2003-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "génétique (5 points)\nDans le but de traiter des cas de diabète, des firmes ont réussi à produire une insuline humaine normale. En effet des chercheurs ont pu, grâce aux techniques du génie génétique, produire par des rats cette insuline. -Grâce à une enzyme de restriction, ces chercheurs ont ouvert un plasmide bactérien (voir document 12). -En utilisant la même enzyme ils ont isolé la partie d'ADN humain qui contient le gène codant la synthèse de l'insuline. -Ensuite ils insèrent cette portion dans l'ADN plasmidique.\n\nPourquoi utilise-t-on la même enzyme pour couper l'ADN humain et le plasmide bactérien ? (2 pts)\n\nDonnez la séquence des nucléotides caractéristiques de chaque extrémité de la molécule de l'ADN humain isolé. (1 pt)\n\nEn utilisant les données précédentes, schématisez le plasmide recombinant (qui a inséré un fragment d'ADN étranger) en indiquant les deux zones de ligation. (2 pts)"
+  },
+  {
+    "id": "bac-d-2003-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2003,
+    "filiere_id": "D",
+    "ennonce": "Génie génétique (5 points)\nDans le but de traiter des cas de diabète, des firmes ont réussi à produire une insuline humaine normale. En effet des chercheurs ont pu, grâce aux techniques du génie génétique, produire par des rats cette insuline. -Grâce à une enzyme de restriction, ces chercheurs ont ouvert un plasmide bactérien (voir document 12). -En utilisant la même enzyme ils ont isolé la partie d'ADN humain qui contient le gène codant la synthèse de l'insuline. -Ensuite ils insèrent cette portion dans l'ADN plasmidique.\n\nPourquoi utilise-t-on la même enzyme pour couper l'ADN humain et le plasmide bactérien ? (2 pts)\n\nDonnez la séquence des nucléotides caractéristiques de chaque extrémité de la molécule de l'ADN humain isolé. (1 pt)\n\nEn utilisant les données précédentes, schématisez le plasmide recombinant (qui a inséré un fragment d'ADN étranger) en indiquant les deux zones de ligation. (2 pts)\n\nIII. Génétique des haploïdes (5 points)\nLe croisement d'une souche de Neurospora à spores noires et d'une souche de Neurospora à spores roses a permis d'obtenir des fructifications. On y observe des asques que l'on classe en 6 types (document 13). On a recensé les asques des différents types observés. Les chiffres indiquent les résultats obtenus.\n\nQuel est le nombre de gènes impliqués dans la transmission de ce caractère ? (1 pt)\n\nQuels sont les asques pré-réductionnels et post-réductionnels ? (1 pt)\n3.Schématisez le phénomène cellulaire qui a abouti à la formation d'un asque post-réductionnel. (1pt)\n\nCalculez la distance entre le(s) gène(s) et le centromère. (1pt)\n\nDressez la carte factorielle. (1 pt)"
+  },
+  {
+    "id": "bac-d-2004-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nLe document représente 2 chaînes neuroniques X et Y.\n1.1. Indiquez, en le justifiant, la chaîne neuronique exacte. (1pt)\n1.2.Reproduisez schématiquement la chaîne neuronique exacte en précisant par des flèches le trajet de l'influx nerveux (1pt)\n2.On se propose maintenant d'étudier la transmission du message nerveux à un motoneurone. Pour cela, on considère 4 terminaisons nerveuses A, B, C et D appartenant à des neurones présynaptiques différents reliés à un motoneurone M (document 2). On enregistre les phénomènes électriques au niveau du motoneurone M suite à des stimulations électriques efficaces de même intensité et durée portées sur les fibres présynaptiques A, B, C et D dans différentes conditions comme indiqué sur le document 3.\n2.1. Analysez les phénomènes électriques enregistrés de l'étape 1 à l'étape 8. Qu'en tirez-vous? (3,5 pts)\n2.2. Il est possible d'injecter à l'aide d'une micropipette dans la fente synaptique de la terminaison D, une substance chimique, l'acide gamma-aminobutyrique à des doses minuscules, A la suite de cette injection, on obtient le tracé du document 4. Comparez ce tracé à l'étape 4 du document 3. Que peut-on en conclure? (1 pt)\n3.Le schéma du document 5 représente l'arc réflexe correspondant au mouvement de flexion du pied chez la grenouille suite à une stimulation efficace de la peau.\n3.1. Annotez le schéma sur votre copie en mettant devant chaque numéro le nom correspondant. (2,5 pts)\n3.2 Fa utilisant les numéros indiquez le sens de l'influx nerveux. (1 pt)\n3.3. En vous référant aux enregistrements du document 3 représentez l'aspect des enregistrements électriques au niveau des points A, B, C et D suite à la stimulation de la peau. (1 pt)"
+  },
+  {
+    "id": "bac-d-2004-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\ndocument 6 représente un schéma concernant une étape essentielle dans la réponse iminunitaire.\n1 Identifiez, tout en justifiant votre réponse, l'étape représentée. (1 pt)\n2. Ecrire la légende correspondant aux numéros figurant sur le document. (2 pts)\n3. En vous basant sur les données du document et sur vos connaissances indiquez:\n3.1 le rôle de la cellule 1 dans la réponse immunitaire, (0,5 pt)\n3.2 le lieu de maturation et le rôle des cellules 2, 3 et 4 dans la réponse immunitaire. (1,5 pt)\n4.La cellule 3 peut être la cible du virus de l'immunodéficience humaine (VIH). Expliquez le mode d'action du VIH sur cette cellule. (1 pt)"
+  },
+  {
+    "id": "bac-d-2004-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nAttribuez un des trois enfants: (A), (O) et (AB) à chacun des 3 couples (B) x (AB), (B) x (0), (B) x (A) représentant leurs parents d'origine, sachant que l'enfant (A) peut avoir un frère du groupe (O).\n\nDeuxième sujet\nReproduction: transmission de l'information génétique (13 points)\n1.Les résultats d'une expérimentation de croisement entre deux lots de lapins sont schématisés sur le document 7.\n1.1. Combien de couples d'allèles suffisent à expliquer les résultats de ces croisements? Indiquez les allèles dominants. (1 pt)\n1.2. En vous appuyant sur un raisonnement clair, fondé sur l'analyse des données, expliquez les résultats du 2ème croisement noté F2 sur le document 7. (1 pt)\n1.3.Schématisez le comportement des chromosomes qui, au cours de la méiose, permet d'expliquer la nature et les proportions des gamètes produits par les individus F1 (2 pts)\n1.4. Dans l'exemple étudié le croisement présente-t-il un intérêt pour l'éleveur? (0,5 pt)"
+  },
+  {
+    "id": "bac-d-2004-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nLe cycle du chlamydomonas\nLe chlamydomonas est une algue verte flagellée unicellulaire qui vit dans les eaux douces où elle se déplace grâce à ses deux flagelles (figure 1 du document 9). Quand les conditions sont défavorables, deux chlamydomonas provenant de souches différentes se rapprochent et s'unissent. L'élément A qui résulte de cette union s'entoure d'une membrane épaisse (élément B) et demeure ainsi quelque temps à l'état de repos.\n1.1. Interprétez ce phénomène. (1 pt)\nPlus tard, le noyau de l'élément B subit une série de deux divisions et, autour des quatre noyaux ainsi formés, quatre nouvelles cellules s'organisent. Elles seront libérées après rupture de la membrane épaisse; ces cellules grossissent et deviendront de nouveaux chlamydomonas capables de s'unir à nouveau.\n1.2. Quel phénomène chromosomique a pu se produire pour arriver à ce résultat ? (1 pt)\n1.3. A partir de ce qui précède, établir le cycle de développement de cette algue sous forme d'un schéma où les principaux événements seront localisés. (2 pts)\n1.4, Comment qualifier ce type de cycle? La réponse sera justifiée. (0,5 pt)\n\nLe cycle du Fucus spiralis\nCette algue brune, porte des organes reproducteurs contenant à la fois des cellules de type a et des cellules de type b (document 10). Celles-ci proviennent respectivement des cellules mères a0 et b0 qui possèdent 64 chromosomes. Chaque cellule mère a0 donne 8 cellules a à 32 chromosomes. Chaque cellule mère b0 donne 64 cellules b a 32 chromosomes.\n2.1. Sachant que la cellule de type z, qui résulte de l'union d'une cellule a avec une cellule b, redonnent directement, en se développant, un Fucus, établir sous forme d'un schéma le cycle de développement de cette algue. Faire figurer les principaux événements. (2 pts)\n2.2. Comment qualifier ce type de cycle? La réponse sera justifiée. (0,5 pt)\n\nComparez les deux types de cycles. (1 pt)"
+  },
+  {
+    "id": "bac-d-2004-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\nPour mieux comprendre le phénomène de rejet de greffes, on réalise les expériences suivantes:\nExpérience 1: Une souris de souche CBA reçoit deux greffes de peau: la première vient d'un donneur CBA, la seconde d'un donneur de souche A. (document 11) Les greffons prennent et le 6ème jour après l'opération, leur aspect est semblable. Mais du 6ème au 12ème jour, le receveur rejette le greffon A. En revanche le greffon CBA est définitivement accepté. Quelques jours après, on fait une nouvelle tentative de greffe d'un greffon A sur le receveur CBA. Cette fois le greffon est éliminé en six jours. En revanche, une greffe de peau d'une spuris de souche C (toujours sur le receveur CBA) est rejetée en 1ljours.\nExpérience 2: Une souris, de souche CBA, reçoit une greffe de peau d'un donneur A. Huit jours après, on sacrifie l'animal et on extrait une fraction sérum et une fraction de cellules lymphoïdes des ganglions lymphatiques. Ces deux fractions sont injectées séparément à deux souris CBA auxquelles on greffe, quelques semaines après, la peau d'une souris A. La souris ayant reçu le sérum rejette la greffe au 10ème jour, la souris qui a reçu la fraction cellule rejette la greffe en six jours en moyenne.\nExpérience 3: Une souris de souche CBA subit l'ablation du thymus (= thymectomie) à la naissance. Deux mois après, elle reçoit une greffe de peau d'un donneur A. Trois mois plus tard, la greffe est toujours en place.\nExpérience 4: Il est possible, actuellement, de greffer des cellules d'une souris A à des embryons de souris CBA (greffe in utero). Les souriceaux, ainsi traités, devenus adultes, acceptent des greffes de peau se souris A et CBA, mais rejettent la peau d'une souche C.\nExpliquez et commentez ces expériences."
+  },
+  {
+    "id": "bac-d-2004-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nDes poules et des coqs de race pure «Hambourg» se caractérisent par une crête «en rose» et plumage noir, d'autres appartenant à la race pure «Leghorn» sont crête simple et plumage blanc. Le croisement entre les deux races donne en F1 une génération à crête «en rose» et plumage blanc. On obtient en F2 une génération composée de: -559 volailles à crête «en rose» et plumage blanc -189 volailles à crête simple et plumage blanc -191 volailles à crête «en rose» et plumage noir -61 volailles à crête simple et plumage noir\n\nDonnez une interprétation de ces résultats. (2 pts)\n\nLes volailles à crête «en rose et à plumage blanc possèdent à la fois le caractère croissance rapide de la race «Hambourg» et bonne pondeuse de la race «Leghorn». On veut sélectionner cette catégorie de volaille; comment devra-t-on procéder pour obtenir la stabilité des caractères en question dans les générations suivantes? (2 pts)"
+  },
+  {
+    "id": "bac-d-2004-sc-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Des poules et des coqs de race pure «Hambourg» se caractérisent par une crête «en rose» et plumage noir, d'autres appartenant à la race pure «Leghorn» sont crête simple et plumage blanc. Le croisement entre les deux races donne en F1 une génération à crête «en rose» et plumage blanc. On obtient en F2 une génération composée de: -559 volailles à crête «en rose» et plumage blanc -189 volailles à crête simple et plumage blanc -191 volailles à crête «en rose» et plumage noir -61 volailles à crête simple et plumage noir\n\nDonnez une interprétation de ces résultats. (2 pts)\n\nLes volailles à crête «en rose et à plumage blanc possèdent à la fois le caractère croissance rapide de la race «Hambourg» et bonne pondeuse de la race «Leghorn». On veut sélectionner cette catégorie de volaille; comment devra-t-on procéder pour obtenir la stabilité des caractères en question dans les générations suivantes? (2 pts)"
+  },
+  {
+    "id": "bac-d-2004-sc-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "D",
+    "ennonce": "Génétique (4 points)\nDes poules et des coqs de race pure «Hambourg» se caractérisent par une crête «en rose» et plumage noir, d'autres appartenant à la race pure «Leghorn» sont crête simple et plumage blanc. Le croisement entre les deux races donne en F1 une génération à crête «en rose» et plumage blanc. On obtient en F2 une génération composée de: -559 volailles à crête «en rose» et plumage blanc -189 volailles à crête simple et plumage blanc -191 volailles à crête «en rose» et plumage noir -61 volailles à crête simple et plumage noir\n\nDonnez une interprétation de ces résultats. (2 pts)\n\nLes volailles à crête «en rose et à plumage blanc possèdent à la fois le caractère croissance rapide de la race «Hambourg» et bonne pondeuse de la race «Leghorn». On veut sélectionner cette catégorie de volaille; comment devra-t-on procéder pour obtenir la stabilité des caractères en question dans les générations suivantes? (2 pts)"
+  },
+  {
+    "id": "bac-d-2005-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nOn se propose d'étudier quelques aspects de la physiologie de la reproduction chez la femme.\n\nLe document 1 représente de façon schématique des structures observées dans une coupe d'ovaire.\n1.1. Annotez ces structures en utilisant les numéros indiqués sur le document 1. (2,75 pts)\n1.2. A quel moment de la vie sexuelle de la femme, il est possible d'observer ces structures? Justifiez votre réponse. (0,75 pt)\n\nLe document 2 représente les variations des taux plasmatiques des diverses hormones (A, B, C et D) qui interviennent dans un cycle sexuel normal.\n2.1. Identifiez, en le justifiant, chacune de ces hormones. Par quel organe sont elles secrétées? Quels sont les organes cibles de chaque hormone? (1,5 pt)\n2.2. A partir de l'exploitation des documents 1 et 2 précisez les conditions optimales pour l'ovulation. (0,5 pt)\n\nLe document 3 représente deux états de développement différents a et ẞ d'un organe cible au cours du cycle sexuel.\n3.1. Titrez et légendez ce document en vous reportant au numéros indiqués. (1,5 pt)\n3.2. Etablir les liens fonctionnels et chronologiques entre les informations présentées dans les documents 1 et 2 et les deux états a et ẞ de l'organe du document 3. (1 pt)\n\nGENETIQUE (3 points)\nLa couleur des bovins est conditionnée par un gène dont l'allèle dominant est symbolisé par B. Mais la couleur ne s'exprime qu'en présence de l'allèle dominant d'un autre gène G.\nSi le gène de l'expression de la couleur est à l'état homozygote récessif (l'allèle est alors représenté par g), l'animal sera blanc, quelle que soit par ailleurs, la composition de son génotype.\n\nSoit le croisement entre un bovin marron, homozygote pour G et b et un bovin blanc homozygote pour g et B (g et b sont les allèles récessifs pour G et B). Ce croisement aboutit à 100% de veaux noirs. Exprimez le génotype de ces veaux et expliquez. (1 pt)\n\nEn seconde génération, par croisement des deux hybrides, on obtient trois classes phénotypiques: 9/16 de veaux noirs, 3/16 de veaux ma"
+  },
+  {
+    "id": "bac-d-2005-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\nPour détecter une grossesse suggérée chez une femme par un retard de cinq semaines dans la menstruation, on cherche si l'Hormone Chorionique Gonadotrophique (HCG) existe dans l'urine de cette femme. La méthode employée pour détecter l'existence de HCG dans l'urine de la femme comprend, dans l'ordre chronologique, les étapes suivantes :\nEtape 1: Des molécules de HCG (document 7a) sont injectées dans le sang d'un lapin.\nEtape 2: Quelques semaines après, on effectue un prélèvement de sang sur le lapin et on sépare le sérum.\nEtape 3: On mélange un peu de sérum obtenu avec un peu d'urine de la femme. Aucune réaction n'est visible que la femme soit enceinte ou non.\nEtape 4: A ce mélange, on ajoute une suspension laiteuse « homogène » de particules de latex recouvertes de molécules de HCG (document 7 b). Si cette suspension garde le même aspect le test est dit positif: la femme est enceinte. Si la suspension devient franchement grumeleuse, le test est dit négatif: la femme n'est pas enceinte. (document 8)\n\nJustifiez la recherche de l'hormone HCG pour détecter la grossesse. (2 pts)"
+  },
+  {
+    "id": "bac-d-2005-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nOn dose les hormones ovariennes dans les urines d'une femme; les hormones oestrogènes sont éliminées sous forme phénolstéroïdes et la progestérone sous forme de prégnandiol. Les résultats de ces dosages sont indiqués dans le tableau (document 1):\n1.Traduire graphiquement ces résultats (on prendra 2 cm pour représenter 10 µg de phénolstéroïdes et 1cm pour 1 mg de prégnandiol). Commenter brièvement les graphes. (4 pts)\n2. Par ailleurs, pour cette même femme, on représente par la courbe du document 2 la température rectale prise chaque matin, à la même heure, avant toute activité et au cours de son cycle. Comparez cette courbe aux précédentes et essayez de trouver une explication aux variations essentielles de la température. (2 pts)\n3.Le document 3 représente une coupe de muqueuse utérine (endomètre) effectuée à deux moments du cycle et observée au microscope optique. Décrire les modifications constatées et leur finalité. (2 pts)\n4.Chez une guenon ovariéctomisée et soumise à des injections d'extraits ovariens, la menstruation ne se produit pas. L'arrêt des injections entraîne la menstruation. Si au moment de l'arrêt des injections d'oestradiol, on injecte de la progestérone, la menstruation ne se produit pas. Elle a lieu lorsque les injections de progestérone cessent. Interprétez. (2 pts)\n5.Conclure en donnant les origines et les fonctions essentielles de l'oestradiol et de la progestérone. (2 pts)\n\nGENETIQUE (4 points)\nChez la Souris, la couleur du pelage est gouvernée par plusieurs gènes. Nous envisagerons successivement l'intervention de certains d'entre eux. Un gène (A) est responsable de l'existence même de la pigmentation. Les individus homozygotes pour l'un de ses allèles ne fabriquent aucun pigment. Leur pelage, non coloré, apparaît blanc; leurs mélanocytes contiennent des mélanosomes dépourvus de mélanine. Un second gène (B) gouverne la densité du pigment dans le grain. Les homozygotes pour un allèle ont des grains de forme ovale, très pigmentés: l"
+  },
+  {
+    "id": "bac-d-2005-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\n1.Le schéma du document 4 représente la structure d'une molécule d'anticorps secrétée après stimulation antigénique.\n1.1. Quelle est la nature chimique des anticorps et quelle est leur dénomination exacte? (0,5 pt)\n1.2.Par quelles cellules sont-ils secrétés et quelle est l'origine de ces cellules? (0,25 pt)\n1.3. Quelle est la fonction du site 1 et 3? (0,5 pt)\n1.4.Quelle est la différence entre les régions AB et (A'B') d'un côté et BC (B'C') de l'autre côté? (1 pt)\n1.5.Quelle est la fonction d'un anticorps? (0,25 pts)\n2.On estime que le système immunitaire peut synthétiser 10^6 anticorps correspondant à 10^6 antigènes potentiels. Or les anticorps sont des protéines codées par des gènes. Montrez qu'il est impossible que chaque anticorps soit codé par un gène spécifique de ce seul anticorps. (0,5 pt)\n3.Deux grandes hypothèses ont été autrefois proposées pour expliquer l'apparition d'un anticorps correspondant à un antigène déterminé: -hypothèse 1: le système immunitaire synthétise l'anticorps après l'entrée de l'antigène dans l'organisme. Dans ce cas l'anticorps n'existe pas avant l'entrée de l'antigène. -hypothèse 2: l'anticorps est présent dans l'organisme avant l'arrivée de l'antigène qui ne fait que stimuler sa synthèse. Quel modèle les expérimentateurs ont-ils retenu? (1 pt)"
+  },
+  {
+    "id": "bac-d-2005-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nOn expérimente sur le sinus carotidien, petite dilatation située sur le trajet de chacune des deux carotides (document 5)\n1.Sur un animal anesthésié (donc au repos absolu), on pince la carotide au niveau N1 on observe un ralentissement du rythme cardiaque. On pince ensuite au niveau N2 on constate une accélération du rythme cardiaque.\n2.On isole maintenant, par deux ligatures N1 et N2 un segment de carotide incluant le sinus. On injecte alors, dans le sinus, un liquide à diverses pressions et on enregistre l'activité électrique des fibres du nerf de Hering. Les résultats figurent sur le document 6.\nExploitez ces expériences. (6 pts)\n\nREPRODUCTION ET GENETIQUE CHEZ NEUROSPORA (8 points)\n\nLe schéma du document 7 représente le cycle biologique de Neurospora, champignon filamenteux dont le mycélium est formé de cellules plurinucléées haploïdes.\n1.1.Identifiez les structures indiquées par les numéros. (2,25 pts)\n1.2.Sachant que les noyaux des éléments 1, 2, 3, 4, 7 et 8 contiennent 7 chromosomes montrez que le déroulement du cycle implique un phénomène de régulation du nombre des chromosomes. Où se situe ce phénomène ? Quel nom porte-t-il? (0,75 pt)\n1.3. Quelles phases du cycle désignent les accolades I et II? (1,5 pt)\n1.4.Comparez le cycle de Neurospora et celui d'un animal. (1,5 pt)\n2.Le croisement d'une souche de Neurospora à spores noirs et d'une souche de Neurospora à spores roses a permis d'obtenir des fructifications. On y observe des asques que l'on classe en six types. On a recensé les asques des différents types observés. Les chiffres indiquent les résultats obtenus (document 8).\n2.1.Evaluez la distance gène-centromère. (1 pt)\n2.2.Quel est l'intérêt génétique de Neurospora? (1 pt)\n\nIMMUNOLOIE (6 points)\nLe Bacille de Koch est l'agent de la tuberculose, grave maladie actuellement en régression grâce à un antibiotique. Ce bacille, aérobie, se fixe essentiellement dans le tissu pulmonaire, il y crée de graves lésions. On effectue sur des cobayes les exp"
+  },
+  {
+    "id": "bac-d-2005-sc-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Deuxième sujet\nGamétogenèse: (4pt)\nDans les gonades mâles ainsi que dans les gonades femelles, se déroule un phénomène cellulaire qui aboutit à la formation des gamètes. Le document 7 représente certaines étapes de ce phénomène dont trois se déroulent dans des structures précises des gonades. 1- Reproduisez et complétez le tableau 2 en indiquant, pour chaque étape le nom du phénomène cellulaire, le nom de l'étape, les éléments qui résultent et l'endroit où se déroule l'étape. (1.5pt). N.B: Si l'étape se déroule dans l'ovaire ou dans le testicule, précisez la structure exacte dans laquelle elle se déroule. 2- Les étapes a et c se déroulent à un moment donné. Précisez le moment du déroulement de chacune de ces étapes. (1pt). 3- L'étape b aboutit à la formation d'une cellule. a- Représentez à l'aide d'un schéma clair et bien légendé la cellule obtenue. (1pt). b- Citez les particularités de cette cellule en relation avec sa fonction. (0.5pt)."
+  },
+  {
+    "id": "bac-d-2005-sc-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2005,
+    "filiere_id": "D",
+    "ennonce": "Physiologie nerveuse: (5pts)\nOn réalise, sur deux animaux différents, les sections S1 sur la racine antérieure, et S2 sur la racine postérieure, comme l'indiquent les schémas du document 8. On stimule: -en E1 puis en E2 pour la section S1; -en E3 puis en E4 pour la section S2. 1- En vous appuyant sur vos connaissances, précisez pour chaque section quels oscilloscopes, enregistreront des potentiels d'action? (1.5pt). 2- Définir le réflexe inné. (0.5pt). 3-Quels sont les éléments intervenant dans ce réflexe? (1pt). 4- En vous basant sur vos connaissances schématisez l'arc réflexe dans: a- Un mouvement d'extension. (1pt). b- Un mouvement de flexion (type localisé) (1pt). NB: On considère dans les deux cas le muscle qui se contracte seulement.\n\nThyroïde: (5pts)\nI- Dans les régions montagneuses se rencontraient des cas de «goitre». Ce goitre a disparu de ces régions dès qu'on a introduit l'usage de sel marin comme sel de cuisine. Quel renseignement nous apporte cette donnée? (0.5pt). II- Une expérimentation chez l'animal a permis de préciser le rôle et le mode de fonctionnement de la thyroïde. La thyroïdectomie est pratiquée sur un lot de jeunes Lapins (lot A) que l'on compare à un lot B non opéré. À 5 mois, le poids moyen des Lapins est de 1Kg en A et de 2,5Kg en B. De plus, le lot A présente des pattes plus courtes que celles du lot B, tandis que la tête et le tronc sont à peu près semblables. On remarque également une activité plus réduite en A qu'en B; une hypothermie en A; un métabolisme basal diminué de 30% par rapport à celui de B. 1-Déduisez de ces résultats le rôle de la thyroïde. (0.5pt). La greffe d'une thyroïde est réalisable en n'importe quelle partie du corps, elle supprime les effets dus à l'ablation. Le même résultat est produit par l'injection intraveineuse d'extraits de tissu thyroïdien. D'autre part, administré par injection ou ingestion (par voie orale), un acide aminé iodé, la thyroxine, corrige aussi les effets de l'ablation de la thyroïde. 2- Dédui"
+  },
+  {
+    "id": "bac-d-2006-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nLa réponse du muscle à un étirement est une contraction survenant quelques centièmes de seconde après le début de l'étirement. Cette contraction n'a pas lieu si, accidentellement, les fibres issues de R (document 3-a) sont détruites ou si le nerf moteur du muscle, issu de la moelle épinière est sectionné. On exerce une traction brève T sur un muscle m (document 3-a) au temps t et on enregistre sur la racine ventrale du nerf rachidien la réponse électrique D1, et sur la racine dorsale la réponse électrique D2 (document 3-b) Ces réponses sont obtenues par deux oscillographes placés en 1 et 2 (document 3-a).\n\nQue représentent les temps L1, L2, L3 indiqués sur le document 3-b? (1pt)\n\nSachant que le temps de franchissement d'une synapse est de l'ordre de 1 à 1.5 milliseconde, que vous apprend l'enregistrement présenté par le document 3-b? (1pt)\n\nFaites un schéma précis montrant le trajet de l'influx nerveux lors de cette réponse du muscle à l'étirement. Quel est le type d'activité ainsi mise en évidence? (2pts)"
+  },
+  {
+    "id": "bac-d-2006-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\nOn a pratiqué sur trois lots de souris les traitements indiqués sur le tableau 1. On rappelle que l'irradiation tue les cellules à multiplication rapide et notamment celles de la moelle osseuse. Après traitement, on réalise sur les trois lots de souris l'expérimentation indiquée sur le tableau 2.\n\nFaites ressortir le rôle respectif du thymus et de la moelle osseuse dans la production des lymphocytes, en analysant les conséquences de ces traitements. (2 pts)\n\nA quoi attribuez-vous l'agglutination des pneumocoques révélée par les tests? (0.5 pt)\n\nExpliquez les résultats des tests à l'aide des renseignements fournis par le tableau 1. En quoi cette expérimentation montre-t-elle l'existence d'une coopération cellulaire? (1.5 pt)\n\nGENETIQUE (5 points)\nDans certaines régions du monde, la B-thalassémie, une maladie du sang, est particulièrement répandue.\nI- Le document 4 représente l'arbre généalogique d'une famille dans laquelle sévit une B-thalassémie sous ses deux formes, mineure et majeure. On pense qu'un gène codant pour l'hémoglobine, une protéine du sang, intervient dans cette maladie. En effet, on constate que les individus atteints de la forme mineure présentent des hémoglobines normale et anormale alors que ceux atteints de la forme majeure ne possèdent que de l'hémoglobine anormale.\n\nExpliquez l'existence simultanée de deux types d'hémoglobines chez un même individu? (1 pt)\n\nDonnez le génotype des individus atteints de la forme mineure et de ceux atteints de la forme majeure. (1 pt)\n\nLes individus 1 et 2 pouvaient-t-ils avoir des enfants normaux? (1 pt)\nII- La forme mineure de la B-thalassémie passe le plus souvent inaperçue. Seule la forme majeure appelée maladie de Cooley est grave. Son évolution est lente mais mortelle vers l'âge de douze ans. Un dépistage systématique dans certaines régions d'Italie a montré l'existence de 30% d'individus atteints de la forme mineure.\n\nEn utilisant ce résultat, calculez la probabilité pour un couple pris au hasard "
+  },
+  {
+    "id": "bac-d-2006-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nI- Pour connaître les sources de l'énergie de la contraction musculaire, Chauveau et Kaufmann, au début du vingtième siècle, analysent le sang veineux et le sang artériel du muscle releveur de la lèvre supérieure du cheval. Le tableau 3 résume les constatations essentielles: Dégagez les conclusions découlant de ces observations. Quelle hypothèse est-on en droit de formuler quant au source de l'énergie musculaire? (2 pts)\nII- Au cours d'une deuxième expérience, un dispositif approprié permet d'enregistrer la contraction isométrique de l'un des gastrocnémiens d'une Grenouille. Sur le myogramme obtenu on a reporté les dégagements de chaleur correspondants (document 5)\n\nComment se situent dans le temps ces dégagements de chaleur par rapport au myogramme? Où placeriez-vous ce qu'il est convenu d'appeler « chaleur initiale » et « chaleur retardée »? (1pt)\n\nOn recommence l'expérience en plaçant le muscle dans une atmosphère d'azote. On constate alors que non seulement le muscle se contracte mais que le premier dégagement de chaleur est strictement identique au cas précédent. Par contre le dernier dégagement est pratiquement nul.\n\nQue peut-on en conclure? (0.5pt)\n\nCes résultats confirment-ils l'hypothèse que l'on a été amené à formuler dans la question 1? (0.5pt)\n\nQuelle nouvelle hypothèse pouvez-vous émettre en ce qui concerne la source d'énergie musculaire? (1pt)\nIII- Le muscle qui se contracte en atmosphère d'azote devient rapidement inexcitable et se charge d'acide lactique (CH3-CHOH-COOH) alors qu'il perd son glycogène. Il retrouve ses propriétés en atmosphère oxygénée. En altitude, les médecins ont également constaté que la production d'acide lactique, au cours de l'effort musculaire chez l'athlète non adapté à l'altitude, s'accroît considérablement.\n\nCes deux dernières remarques sont-elles contradictoires? (1 pt)\n\nComment expliquer la formation d'acide lactique? (1 pt)\n\nREGULATION DE LA GLYCEMIE (4 points)\nLe glucose est la principale source énergétique de"
+  },
+  {
+    "id": "bac-d-2006-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "I- Pour connaître les sources de l'énergie de la contraction musculaire, Chauveau et Kaufmann, au début du vingtième siècle, analysent le sang veineux et le sang artériel du muscle releveur de la lèvre supérieure du cheval. Le tableau 3 résume les constatations essentielles: Dégagez les conclusions découlant de ces observations. Quelle hypothèse est-on en droit de formuler quant au source de l'énergie musculaire? (2 pts)\nII- Au cours d'une deuxième expérience, un dispositif approprié permet d'enregistrer la contraction isométrique de l'un des gastrocnémiens d'une Grenouille. Sur le myogramme obtenu on a reporté les dégagements de chaleur correspondants (document 5)\n\nComment se situent dans le temps ces dégagements de chaleur par rapport au myogramme? Où placeriez-vous ce qu'il est convenu d'appeler « chaleur initiale » et « chaleur retardée »? (1pt)\n\nOn recommence l'expérience en plaçant le muscle dans une atmosphère d'azote. On constate alors que non seulement le muscle se contracte mais que le premier dégagement de chaleur est strictement identique au cas précédent. Par contre le dernier dégagement est pratiquement nul.\n\nQue peut-on en conclure? (0.5pt)\n\nCes résultats confirment-ils l'hypothèse que l'on a été amené à formuler dans la question 1? (0.5pt)\n\nQuelle nouvelle hypothèse pouvez-vous émettre en ce qui concerne la source d'énergie musculaire? (1pt)\nIII- Le muscle qui se contracte en atmosphère d'azote devient rapidement inexcitable et se charge d'acide lactique (CH3-CHOH-COOH) alors qu'il perd son glycogène. Il retrouve ses propriétés en atmosphère oxygénée. En altitude, les médecins ont également constaté que la production d'acide lactique, au cours de l'effort musculaire chez l'athlète non adapté à l'altitude, s'accroît considérablement.\n\nCes deux dernières remarques sont-elles contradictoires? (1 pt)\n\nComment expliquer la formation d'acide lactique? (1 pt)\n\nREGULATION DE LA GLYCEMIE (4 points)\nLe glucose est la principale source énergétique de la cellule"
+  },
+  {
+    "id": "bac-d-2006-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nLe document 1 montre des éléments prélevés dans un oviducte de deux souris adultes.\n\nQue représentent-ils? (0.25 pt)\n\nLégendez ces schémas en utilisant des numéros relevés sur votre copie. (1 pt)\n\nLa présence dans les oviductes d'une souris adulte d'éléments tels que a, est assurée à des périodes déterminées, celle de b est aléatoire. Expliquez cette observation (0.25 pt)\n\nRelatez les phénomènes cellulaires intervenus entre le stade a et b (0.5 pt)\n\nSachant que le caryotype de la souris est 2n=4 dites quel est le nombre des chromosomes dans les noyaux 4-5-7-9-10 (1pt)\n\nReprésentez l'évolution de la quantité d'ADN depuis le stade a jusqu'au stade b (1pt)\n\nSYSTEME NERVEUX ET PRESSION ARTERIELLE (5 pts)\nDes enregistrements de potentiels d'actions sont réalisés, lors de variation de la pression artérielle, sur des fibres nerveuses orthosympathiques et parasympathiques en relation avec le cœur et les vaisseaux sanguins. Ils sont mis en relation avec diverses observations réalisées sur le fonctionnement cardiaque et vasculaire. (document 2)\n\nDécrivez et analyser les phénomènes observés et enregistrés lors d'une baisse de pression artérielle (2pts)\n\nRéalisez le même travail lors d'une augmentation de pression artérielle (1 pt)\n\nExpliquez par quels mécanismes ces divers phénomènes permettent à l'organisme de retrouver une pression artérielle normale ? (2 pts)\n\nNATURE DE LA REPONSE IMMUNITAIRE (5)\nLe tétanos est une maladie grave due à un bacille qui sécrète une toxine. A partir de la toxine tétanique on peut fabriquer de l'anatoxine.\n\nOn injecte de l'anatoxine tétanique à un lapin A1. Au bout de 15 jours, on prélève du sang sur ce lapin devenu A1 et on prépare du sérum (document 3). A une solution d'anatoxine tétanique on ajoute du sérum du lapin A1 et on constate un précipité.\na. Quelle est la nature de la réaction? que contient le sérum du lapin A? (1 pt)\nb. Quelle est la propriété qu'a conservée l'anatoxine? (1 pt)\nc. Quelle serait la réaction du lapin A1 lors"
+  },
+  {
+    "id": "bac-d-2006-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\nUne femme victime de plusieurs avortements spontanés à un stade précoce de grossesse fait réaliser un caryotype pour elle et son conjoint.\na. Qu'appelle-t-on caryotype? et comment l'obtenir? (1pt)\nb. Comment distingue -t-on chez les individus normaux le caryotype de la femme de celui de l'homme? (0.5 pt)\n\nUn examen chromosomique approfondi du caryotype de cette femme montre une translocation réciproque entre les chromosomes 5 et 10 (document 5)\na. Dites pourquoi l'anomalie dont cette femme est porteuse n'a pas été pressentie avant les avortements? (1pt)\nb. Quelle est la probabilité pour elle de mener à terme une prochaine grossesse ? Pour répondre à cette question, vous indiquerez les chromosomes 5 et 10 possibles dans les gamètes, puis les caryotypes qui en résulteraient pour l'enfant, avec la probabilité, qu'ils se réalisent, et enfin si l'enfant n'est pas viable, vous direz pourquoi? (1.5 pt)"
+  },
+  {
+    "id": "bac-d-2006-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nOn stimule la fibre nerveuse N1 provenant d'un fuseau neuromusculaire situé dans un muscle extenseur: N1 est reliée à deux motoneurones N2 et N3. Suite à une stimulation de N1 l'état électrique de N2 et N3 est modifié (document 6)\na. Commentez ces enregistrements (1pt)\nb. Un des motoneurones est relié au muscle extenseur. D'après vos connaissances, pouvez-vous dire lequel? justifiez votre réponse. (1pt)\nc. Définir un muscle extenseur, et muscle fléchisseur. (0.5pt)\n\nA l'aide de micropipettes on dépose des substances variées au niveau des synapses N1-N2 ou N1-N3. les réponses observées en N2 ou N3 sont comparables à celles enregistrées précédemment\na. Quels rôles physiologiques pourraient jouer l'aspartate et le GABA? (1pt)\nb. Déduire le rôle de l'acide valproique et de la picrotoxine. (0.5pt)\nc. Quelles hypothèses pouvez-vous formuler pour expliquer le mode d'action de l'acide valproique et de la picrotoxine? (1pt)\n\nTHYROIDE ET PARATHYROIDES (5 pts)\n\nL'ablation des parathyroïdes chez un chien se traduit par des crises de tétanie qui frappent tous les muscles; la mort survient au bout de quelques jours. Une étude de la composition chimique du plasma montre l'évolution du taux du calcium (tableau 3). Les premières crises de tétanie surviennent chez l'animal opéré après la quatrième heure suivant l'ablation des parathyroïdes.\na. On sait que les parathyroïdes ne sécrètent pas de calcium. Pouvez-vous cependant préciser le rôle joué par ces glandes vis-à-vis de la composition du plasma? (1 pt)\nb. Quelle peut être la cause des crises de tétanie chez l'animal privé de ses parathyroïdes ? (0.5 pt)\n\nOn injecte à un animal normal des extraits parathyroïdiens, on constate une hypercalcémie. A partir de ces résultats, précisez le mode d'action des parathyroïdes (0.5 pt)\n\nOn connaît une maladie du squelette caractérisée par une décalcification du tissu osseux, associé à un excès du taux de calcium sanguin.\na. Quelle peut être la cause primitive de cette maladie? (0.5 p"
+  },
+  {
+    "id": "bac-d-2007-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1\nOn réalise diverses expériences au niveau d'une plaque motrice (doc. 2) dans un premier temps, l'élément présynaptique est stimulé avec des intensités i1 puis i2 (i1 < i2) dans un second temps, on dépose entre les membranes présynaptique et postsynaptique une microgoutte G1 d'acétyl-choline, puis une microgoutte G2 (plus concentrée en acétyl-choline que G1). On obtient les résultats ci-dessous (doc. 3). On opère ensuite au niveau d'une synapse de la moelle épinière: dans un premier temps l'élément présynaptique est stimulé avec des intensités i1 puis i2 (i1 < i2) dans un second temps, on introduit dans la fente synaptique une microgoutte G1 d'une molécule de GABA, puis une microgoutte G2 (plus concentrée que G1) molécule. (document 4)\n\nAnalyser les résultats obtenus pour chaque expériences; (2pts)\n\nCes résultats confirment-t-ils vos connaissances quant à l'existence de deux types de synapses? (1pt)\n\nMontrer que si les synapses ont un fonctionnement globalement identique, la nature des molécules mises en jeu influe sur les phénomènes qui se déroulent du côté post-synaptique. (2pts)"
+  },
+  {
+    "id": "bac-d-2007-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2\nLa diphtérie est une maladie due à l'action d'une toxine diphtérique libérée par une bactérie dans l'organisme infecté. Le document 5 récapitule un ensemble d'expériences, réalisées sur des cobayes, pour déterminer comment un organisme peut lutter contre la diphtérie.\n\nEn vous appuyant sur l'analyse rationnelle de l'opération effectuée sur le cobaye C, dégager le type de défense développée par le cobaye A au cour des 15 jours qui ont suivi l'injection d'anatoxine diphtérique. (1pt)\n\nExpliquer les effets du traitement observés dans le cas des cobayes D, E et F. Vous illustrerez votre réponse par des schémas explicatifs montrant ce qui se passe dans chacun des 3 filtres. (2.5pts)\n\nDes applications médicales ont été inspirées par de telles expériences; nommez les et comparez leurs propriétés et leur mode d'action (1.5 pt)\n\nGENETIQUE (6pts)\nOn réalise les deux croisements suivants:\nPremier croisement: on croise des drosophiles mâles au corps gris et aux yeux rouges (race pure) avec des drosophiles femelles au corps noir et aux yeux blancs (race pure). On obtient une F1 dont tous les individus ont le corps gris, mais dont les mâles ont les yeux blancs et les femelles les yeux rouges.\nDeuxième croisement: on croise des drosophiles femelles au corps gris et aux yeux rouges (race pure) avec des drosophiles mâles au corps noir et aux yeux blancs (race pure). On obtient une F1 dont tous les individus sont gris et aux yeux rouges.\n\nLes deux résultats ci-dessus sont-ils, l'un et l'autre, conformes à la première loi de Mendel? (1pt)\n\nQue peut-on dire des gènes qui déterminent les caractères mis en jeu? Préciser leur localisation chromosomiques et faire l'analyse nécessaire vérifiant chacun des résultats ci-dessus. (2.5pts)\n\nOn croise entre eux un mâle et une femelle de la F1 provenant du premier croisement. Faire l'analyse nécessaire pour trouver les proportions phénotypiques théoriques dans la descendance de ce couple. (2.5pts)"
+  },
+  {
+    "id": "bac-d-2007-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3\nI- Fécondation (4pts)\nUne cellule humaine au repos comporte 6.5 pg d'ADN. Le tableau 1 exprime l'évolution de la quantité d'ADN totale que contient le gamète femelle humain (X) au cours des différentes périodes du phénomène de la fécondation.\n\nEtudier les données du tableau pour identifier les différents états de la cellule X. (2pts)\n\nEn utilisant les garnitures chromosomiques simplifiées proposées dans le tableau 2, montrer à l'aide de schémas soignés le comportement des chromosomes au cours des états X2 et X3. (2pts)\nII- Les hormones (4pts)\nAfin de mieux comprendre les modalités de la sécrétion de LH, on exploite des observations cliniques et des résultats expérimentaux. Chez une femme ovariectomisée (qui a subit l'ablation des ovaires), on dose la sécrétion de LH à la suite de l'opération, puis lors de l'administration de l'oestradiol.\n\nExploiter le document 6 pour expliquer l'action de l'oestradiol sur la sécrétion de LH. (1.5pt)\nChez une brebis ovariectomisée, on suit la libération de LH (document 7a). On étudie ensuite les effets sur la libération de LH, d'injections de progestérone (document 7b) et d'oestradiol à des taux simulant un début de phase folliculaire (document 7c).\n\nA partir de l'analyse comparée des courbes 7a, 7b et 7c, établir.\n\nla particularité de la sécrétion de LH: (1pt)\n\nles effets respectifs d'injection de progestérone et d'oestradiol sur la libération de LH. (1.5pt)\n\nChez l'homme, l'hyperglycémie chronique ou diabète sucré relève de causes diverses et correspond à des maladies différentes. Parmi celles-ci on distingue le diabète juvénile. Chez certains rats, on observe un diabète presque identique au diabète juvénile humain.\n\nLe rat BB est un mutant qui développe un diabète spontané. Une série d'expériences chez ces animaux montre que l'ablation du thymus à la naissance empêche l'apparition du diabète chez le rat BB; une injection de lymphocytes provenant du thymus de rat BB diabétique déclenche un diabète chez un rat sain; le t"
+  },
+  {
+    "id": "bac-d-2007-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "I- Fécondation (4pts)\nUne cellule humaine au repos comporte 6.5 pg d'ADN. Le tableau 1 exprime l'évolution de la quantité d'ADN totale que contient le gamète femelle humain (X) au cours des différentes périodes du phénomène de la fécondation.\n\nEtudier les données du tableau pour identifier les différents états de la cellule X. (2pts)\n\nEn utilisant les garnitures chromosomiques simplifiées proposées dans le tableau 2, montrer à l'aide de schémas soignés le comportement des chromosomes au cours des états X2 et X3. (2pts)\nII- Les hormones (4pts)\nAfin de mieux comprendre les modalités de la sécrétion de LH, on exploite des observations cliniques et des résultats expérimentaux. Chez une femme ovariectomisée (qui a subit l'ablation des ovaires), on dose la sécrétion de LH à la suite de l'opération, puis lors de l'administration de l'oestradiol.\n\nExploiter le document 6 pour expliquer l'action de l'oestradiol sur la sécrétion de LH. (1.5pt)\nChez une brebis ovariectomisée, on suit la libération de LH (document 7a). On étudie ensuite les effets sur la libération de LH, d'injections de progestérone (document 7b) et d'oestradiol à des taux simulant un début de phase folliculaire (document 7c).\n\nA partir de l'analyse comparée des courbes 7a, 7b et 7c, établir.\n\nla particularité de la sécrétion de LH: (1pt)\n\nles effets respectifs d'injection de progestérone et d'oestradiol sur la libération de LH. (1.5pt)"
+  },
+  {
+    "id": "bac-d-2007-sn-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "D",
+    "ennonce": "Chez l'homme, l'hyperglycémie chronique ou diabète sucré relève de causes diverses et correspond à des maladies différentes. Parmi celles-ci on distingue le diabète juvénile. Chez certains rats, on observe un diabète presque identique au diabète juvénile humain.\n\nLe rat BB est un mutant qui développe un diabète spontané. Une série d'expériences chez ces animaux montre que l'ablation du thymus à la naissance empêche l'apparition du diabète chez le rat BB; une injection de lymphocytes provenant du thymus de rat BB diabétique déclenche un diabète chez un rat sain; le traitement par la cyclosporine chez un rat BB empêche le diabète de se développer. La cyclosporine est une substance dont l'action est immunosuppressive.\na) Analysez successivement ces expériences réalisées chez l'animal (2pts)\nb) Quel enseignement apportent-elles sur l'origine du diabète chez le rat BB? (1pt)\n\nUne série d'observations chez des malades atteints de diabète juvénile montrent:\n\ndestruction sélective des cellules β des îlots de LANGERHANS;\n\nla présence, dans leur sérum, d'anticorps dirigés contre ces cellules;\n\nla présence de lymphocytes T dans les îlots de LANGERHANS, au niveau des cellules β.\na) Quelle est la conséquence de la destruction des cellules β des îlots de LANGERHANS? (1pt)\nb) La présence des anticorps anti-cellules β est-elle normale? justifiez votre réponse. (1pt)\nc) Quels peuvent être les différents rôles des lymphocytes T présents au niveau des cellules β des îlots de LANGERHANS? (1pt)\n\nGENETIQUE (6pts)\nLe Daltonisme est une affection héréditaire liée au chromosome X. Le gène responsable se manifeste à l'état récessif. La mère de Mohamed distingue parfaitement les couleurs, mais son mari ne les distingue pas. Leur fils Mohamed est daltonien ainsi que l'une de ses deux sœurs. La sœur daltonienne de Mohamed appelée Fatma, a 3 enfants dont 2 garçons daltoniens et 1 fille qui distingue les couleurs. Mohamed a 2 enfants, 1 garçon et une fille, qui distinguent les couleurs. La fille "
+  }
+]

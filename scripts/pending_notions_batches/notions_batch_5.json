@@ -1,0 +1,536 @@
+{
+  "bac-d-2008-sc-svt-ex1": [
+    "Reconnaissance des formations folliculaires de l'ovaire humain",
+    "Structures ovariennes selon l'âge — fœtus, enfance, cycle",
+    "Rôle de la LH — follicule tertiaire à follicule de De Graaf",
+    "Ovulation — formule chromosomique n=23 et méiose II",
+    "Évolution de la quantité d'ADN — fécondation",
+    "Ultrastructure du muscle strié — états contracté et relâché",
+    "ATP — hydrolyse et voies de régénération énergétique",
+    "Réponse immunitaire spécifique — lymphocytes B, plasmocytes, anticorps"
+  ],
+  "bac-d-2010-sn-svt-ex1": [
+    "Légende des formations et structures de l'ovaire",
+    "Évolution folliculaire selon les périodes de la vie",
+    "Pic de LH et transformation en corps jaune",
+    "Ovocyte II — caryotype et type de division",
+    "Courbe d'évolution de l'ADN lors de la fécondation",
+    "Myofibrilles — identification des états et organites",
+    "Rôle de l'ATP dans le cycle contractile",
+    "Suivi de la réponse humorale après anatoxine"
+  ],
+  "bac-d-2010-sn-svt-ex2": [
+    "Croisement de races pures — dominance des allèles",
+    "Test-cross F1 × recessif — proportions phénotypiques",
+    "Liaison génétique — classes parentales et recombinantes",
+    "Autofécondation F1 — prévision des effectifs"
+  ],
+  "bac-d-2010-sn-svt-ex3": [
+    "Courbes intensité-réponse — neurone et muscle",
+    "Seuil, chronaxie et propriétés d'excitabilité",
+    "Propagation de l'influx — retard et vitesse sur nerf sciatique",
+    "Polysynodisme et amplitude des potentiels d'action"
+  ],
+  "bac-d-2010-sn-svt-ex4": [
+    "Courbes de glycémie — identification du diabète",
+    "Fixation de l'insuline radioactive sur cellules hépatiques",
+    "Diabète de type I vs type II — récepteurs et insuline exogène",
+    "Cycle de vie d'Ectocarpus — gamètes et alternance de générations"
+  ],
+  "bac-d-2010-sc-svt-ex1": [
+    "Action hormonale sur la muqueuse utérine — protocole expérimental",
+    "RU486 — hypothèses de mode d'action sur récepteurs à progestérone",
+    "Cycle menstruel — schéma hormonal et effet de RU486",
+    "Pilule abortive — utilisation contraceptive de RU486",
+    "Structure et rôles des anticorps dans la neutralisation"
+  ],
+  "bac-d-2010-sc-svt-ex2": [
+    "Gamétogenèse — étapes, lieux et produits cellulaires",
+    "Moments de la spermatogenèse et de l'ovogenèse",
+    "Spermatozoïde — schéma et adaptations à la fécondation",
+    "Sections des racines — potentiels d'action enregistrés",
+    "Arc réflexe — extension et flexion localisée",
+    "Goitre endémique — apport d'iode et rôle thyroïdien"
+  ],
+  "bac-d-2011-sn-svt-ex1": [
+    "Identification des œstrogènes et progestérone sur courbes",
+    "Durée du cycle et datation ovulation / menstruations",
+    "Évolution de l'endomètre selon les phases",
+    "Tracés T1-T4 — potentiel d'action, contraction, énergie musculaire",
+    "VIH — structure du virus et immunodéficience"
+  ],
+  "bac-d-2011-sn-svt-ex2": [
+    "Réseau de quatre neurones — potentiels et types neuronaux",
+    "Stimulation centrale vs périphérique — propriété du neurone B",
+    "Glycémie, glycosurie et animal dépancréaté",
+    "Insuline et glucagon — rôles et facteurs de sécrétion",
+    "Régulation de la pression artérielle — systèmes nerveux et hormonal"
+  ],
+  "bac-d-2011-sc-svt-ex1": [
+    "Fécondation — étapes, légendes et ordre chronologique",
+    "Garniture chromosomique des cellules gamétiques et zygote",
+    "Causes de stérilité et traitements associés",
+    "Préparation de l'endomètre et activité sexuelle après fécondation",
+    "Test d'hyperglycémie provoquée — diabète et insulinémie"
+  ],
+  "bac-d-2011-sc-svt-ex2": [
+    "Réflexe rotulien — identification et arc réflexe",
+    "Rôles des racines antérieure et postérieure",
+    "Myasthénie — enregistrement électrique et défaut neuromusculaire",
+    "Chaîne événements de la contraction musculaire",
+    "Courbes d'anticorps du nourrisson — immunité maternelle"
+  ],
+  "bac-d-2014-sn-svt-ex1": [
+    "Graphique des hormones H1 et H2 — œstrogènes et progestérone",
+    "Datation ovulation, menstruation, fécondation et nidation",
+    "Phases de l'endomètre et activité du myomètre",
+    "Rétrocontrôle hypophyso-ovarien en grossesse",
+    "Rôle de la progestérone — expériences sur guenon"
+  ],
+  "bac-d-2014-sn-svt-ex2": [
+    "Consommation d'O2 et production de lactate à l'effort",
+    "Fermentation lactique — origine de l'acide lactique",
+    "Comparaison sujet entraîné / non entraîné",
+    "Débit cardiaque — calcul au repos et à l'effort"
+  ],
+  "bac-d-2014-sn-svt-ex3": [
+    "Génotypes parents et F1 — drosophiles races pures",
+    "Gamètes de F1 et proportions attendues",
+    "Croisements de vérification et liaison génétique",
+    "Carte génétique avec troisième locus r"
+  ],
+  "bac-d-2014-sn-svt-ex4": [
+    "Vitesse de l'influx sur fibres nerveuses F1 et F2",
+    "Types de neurones A, B, C — excitateurs et inhibiteurs",
+    "Sommation spatiale et temporelle en O4",
+    "Différences synapse neuro-neuronique / plaque motrice"
+  ],
+  "bac-d-2014-sn-svt-ex5": [
+    "Glycémie post-prandiale — diagnostic du diabète",
+    "Insuline radioactive — fixation membranaire hépatique",
+    "Diabète insulino-dépendant vs résistant à l'insuline",
+    "Diagnostic du diabète par courbe glycémique post-prandiale"
+  ],
+  "bac-d-2014-sc-svt-ex1": [
+    "Durée et hormones du cycle ovarien",
+    "Évolution et comparaison des taux hormonaux",
+    "Ovulation — figures et moment du cycle",
+    "Comparaison des coupes utérines selon les phases hormonales"
+  ],
+  "bac-d-2014-sc-svt-ex2": [
+    "Unité motrice — nombre de fibres et tension développée",
+    "Précision des mouvements oculaires vs pied",
+    "Bilan O2 et CO2 — origine énergétique de la contraction",
+    "Raccourcissement musculaire et consommation de glucose"
+  ],
+  "bac-d-2014-sc-svt-ex3": [
+    "Anticorps anti-VIH chez nouveau-né — contamination ou non",
+    "Plasmocytes et nature des immunoglobulines",
+    "IgG maternelles — origine et justification",
+    "Interprétation sérologique — contamination maternelle vs enfant"
+  ],
+  "bac-d-2014-sc-svt-ex4": [
+    "Hérédité de la taille des oreilles — dominance incomplète",
+    "Gène de la barbiche — hérédité liée au sexe",
+    "Croisement dihybride — proportions génotypiques et phénotypiques",
+    "Gènes sur chromosomes différents — indépendance en F2"
+  ],
+  "bac-d-2014-sc-svt-ex5": [
+    "Enregistrement E1 — potentiel post-synaptique",
+    "Substance X — modulation synaptique",
+    "Diamètre des fibres et vitesse de conduction",
+    "Relation structure-fonction des fibres nerveuses myélinisées"
+  ],
+  "bac-d-2015-sn-svt-ex1": [
+    "Figures de gamétogenèse — spermatogenèse et ovogenèse",
+    "Évolution folliculaire — follicule primaire à corps jaune",
+    "Dosage hormonal X et Y — datation du cycle",
+    "Méiose — moment dans la vie et rôle en gamétogenèse"
+  ],
+  "bac-d-2015-sn-svt-ex2": [
+    "Hormone intestinale hypoglycémiante — effet sur glycémie",
+    "Voie vagale — sécrétion d'insuline pancréatique",
+    "Effet entéro-insulinique de l'absorption orale de glucose",
+    "Nerfs cardiaques — fréquence cardiaque à l'effort"
+  ],
+  "bac-d-2015-sn-svt-ex3": [
+    "Croisement test-cross — gènes b et vg",
+    "Gène r — hérédité liée au sexe chez drosophile",
+    "Échiquier F1' et bilan phénotypique",
+    "Distance génétique — recombinaison b et vg"
+  ],
+  "bac-d-2015-sn-svt-ex4": [
+    "Polysynodisme du nerf — vitesses d'influx",
+    "Branches motrices vs sensitives — expérience de section",
+    "Arc réflexe et plaque motrice — ions Ca2+",
+    "Phosphocréatine — régénération énergétique musculaire"
+  ],
+  "bac-d-2015-sn-svt-ex5": [
+    "Gène autosomal ou gonosomal — pedigree enzymatique",
+    "Anomalie chromosomique — formule et origine méiotique",
+    "Carte factorielle et transmission du gène",
+    "Transmission familiale d'un polymorphisme enzymatique"
+  ],
+  "bac-d-2015-sc-svt-ex1": [
+    "Cellules de Sertoli et Leydig — cibles des gonadotrophines",
+    "TNFα — inhibition de la sécrétion de testostérone",
+    "Rétrocontrôle hypothalamo-hypophyso-testiculaire",
+    "FSH et LH — action sur cellules testiculaires"
+  ],
+  "bac-d-2015-sc-svt-ex2": [
+    "ECG et tension cardiaque — analyse du potentiel d'action",
+    "Période réfractaire — muscle cardiaque vs squelettique",
+    "Conséquence physiologique de la longue période réfractaire cardiaque",
+    "Adaptation cardiaque à l'effort — tachycardie physiologique"
+  ],
+  "bac-d-2015-sc-svt-ex3": [
+    "Pancréas mixte — exocrine et endocrine",
+    "Insuline radioactive — captation musculaire",
+    "Rôle de l'insuline dans la consommation de glucose",
+    "Cellules α et β du pancréas — insuline et glucagon"
+  ],
+  "bac-d-2015-sc-svt-ex4": [
+    "Arbre généalogique et mode de transmission",
+    "Diagnostic prénatal — définition et techniques",
+    "Génotypes et explication des jumelles discordantes",
+    "Risque génétique pour le fœtus de Fatou enceinte"
+  ],
+  "bac-d-2015-sc-svt-ex5": [
+    "Réflexe myotatique — coordination des antagonistes",
+    "Types de synapses et muscles innervés",
+    "Réflexe rotulien et cardiomodérateur — arcs réflexes",
+    "Tableau comparatif réflexe rotulien / cardiomodérateur"
+  ],
+  "bac-d-2016-sn-svt-ex1": [
+    "Ordre d'utilisation ATP, phosphocréatine et glycogène",
+    "Myasthénie — anticorps anti-récepteurs à acétylcholine",
+    "Maladie auto-immune — classe IgG et paralysie néonatale",
+    "Hérédité humaine — suite du sujet muscle/immunité"
+  ],
+  "bac-d-2016-sn-svt-ex2": [
+    "Électrophorèse ADN — autosomal vs gonosomal, dominant vs récessif",
+    "Pédigrée famille C — génotypes et risque pour le fœtus",
+    "Risque de fille malade pour le fœtus III3",
+    "Famille A et B — formes X et Y de la maladie"
+  ],
+  "bac-d-2016-sn-svt-ex3": [
+    "Synapses excitatrices et inhibitrices — potentiels post-synaptiques",
+    "Sommation temporelle — stimulations rapprochées S1 et S2",
+    "Rôles des neurones A et B sur le neurone C",
+    "Facilitation et inhibition synaptiques — intégration"
+  ],
+  "bac-d-2016-sn-svt-ex4": [
+    "Blocage des nerfs cardiaques — fréquence cardiaque",
+    "Identification des nerfs sympathique et parasympathique",
+    "Arc réflexe de régulation cardiaque au repos",
+    "Expérience 4 — blocage simultané des deux nerfs cardiaques"
+  ],
+  "bac-d-2016-sn-svt-ex5": [
+    "Glycémie et glycosurie — valeurs normales",
+    "Rôle du pancréas et du rein dans la régulation glucidique",
+    "Diabète sucré — troubles similaires au chien dépancréaté",
+    "Seuil rénal de réabsorption du glucose — glycosurie"
+  ],
+  "bac-d-2016-sc-svt-ex1": [
+    "Dosage d'ADN — cellules germinales X, Y, Z",
+    "Anomalie de spermatogenèse — traitement hormonal",
+    "Fécondation — quantité d'ADN et nombre de chromosomes",
+    "Phases de la fécondation — segments du graphique ADN"
+  ],
+  "bac-d-2016-sc-svt-ex2": [
+    "Parathyroïdes — rôle sur la calcémie",
+    "Hyperparathyroïdie et déminéralisation osseuse",
+    "Calcitonine thyroïdienne — régulation calcémique",
+    "Injection d'extraits thyroïdiens — traitement de l'hypercalcémie"
+  ],
+  "bac-d-2016-sc-svt-ex3": [
+    "Immunité antituberculeuse — BCG et mémoire immunitaire",
+    "Phase effectrice — lymphocytes T et macrophages",
+    "Vaccination — propriétés et applications",
+    "Cobaye D1 — immunité secondaire après primo-infection"
+  ],
+  "bac-d-2016-sc-svt-ex4": [
+    "Déterminisme du sexe chez l'abeille — parthénogenèse",
+    "Hérédité de la couleur — dominance incomplète et haploïdie",
+    "Croisements en ruche — génotype de la reine",
+    "Vol nuptial de la reine — génotypes des descendants"
+  ],
+  "bac-d-2016-sc-svt-ex5": [
+    "Courbes intensité-réponse — neurone et muscle",
+    "Rhéobase et chronaxie — évolution de l'excitabilité",
+    "Période réfractaire relative — stimulations successives",
+    "Structure C — fibre nerveuse et courbe d'excitabilité"
+  ],
+  "bac-d-2017-sn-svt-ex1": [
+    "Dominance incomplète — génotypes P1 et P3",
+    "Liaison génétique — position des gènes n et b",
+    "Brassage en prophase I — schémas méiotiques",
+    "Carte à trois loci — distance en centimorgans"
+  ],
+  "bac-d-2017-sn-svt-ex2": [
+    "Fuseau neuromusculaire — synapses F-A et F-B",
+    "Substances X, Y, Z — effets excitateurs ou inhibiteurs",
+    "Mode d'action des neurotransmetteurs",
+    "Récepteurs de Z sur terminaisons de la fibre F"
+  ],
+  "bac-d-2017-sn-svt-ex3": [
+    "Dosage du sodium — rôle rénal et corticosurrénalien",
+    "Aldostérone — mode d'action sur l'excrétion sodée",
+    "Expérience proposée — rôle des corticosurrénales sur Na+",
+    "Réabsorption rénale du sodium — homéostasie"
+  ],
+  "bac-d-2017-sn-svt-ex4": [
+    "Angiotensine — vasoconstriction et sécrétion d'aldostérone",
+    "Parathormone — augmentation de la calcémie",
+    "Réflexe correcteur de l'hypertension — centre bulbaire",
+    "Accoutumance aux substances psychoactives"
+  ],
+  "bac-d-2017-sn-svt-ex5": [
+    "Carte génétique — distances X et Y en cM",
+    "Gamètes et proportions du croisement 1",
+    "Gènes liés sur un chromosome — propositions de Mohamed et Sidi",
+    "Croisement de vérification — confirmation de Sidi"
+  ],
+  "bac-d-2017-sc-svt-ex1": [
+    "Méiose et fécondation — intérêts génétiques",
+    "Ovulation — schéma et hormones hypophysaires",
+    "Lactation — prolactine, œstrogènes et progestérone",
+    "Allaitement — effets sur le cycle ovarien"
+  ],
+  "bac-d-2017-sc-svt-ex2": [
+    "Sérum anti-insuline — diabète passager chez le lapin",
+    "Anticorps — structure, rôles et sérologie typhoïde",
+    "Sérothérapie vs vaccination",
+    "Phases sérologiques — convalescence, infection, maladie"
+  ],
+  "bac-d-2017-sc-svt-ex3": [
+    "Daltonisme — allèle récessif lié à l'X",
+    "Pédigrée — génotypes et risques de transmission",
+    "Risque selon le sexe pour le deuxième enfant de Sidi",
+    "Femme de Sidi — génotype et transmission du daltonisme"
+  ],
+  "bac-d-2017-sc-svt-ex4": [
+    "Potentiel de repos et potentiel d'action — axone géant",
+    "Vitesse de l'influx et potentiel complexe",
+    "Synapses — enregistrements O1, O2, O3",
+    "Nerfs cardiaques A et B — pression artérielle"
+  ],
+  "bac-d-2017-sc-svt-ex5": [
+    "Croisement maïs — dominance et liaison des gènes",
+    "Brassage en méiose — gamètes recombinants",
+    "Test-cross — proportions 25 % par classe",
+    "Croisement de F2 — 25 % par classe phénotypique"
+  ],
+  "bac-d-2021-sn-svt-ex3": [
+    "Circuit neuronique — potentiel d'action et PSP",
+    "Propriété du message nerveux — décremental ou non",
+    "Sommation temporelle et spatiale en O4",
+    "Rôle du neurone postsynaptique M"
+  ],
+  "bac-d-2021-sn-svt-ex4": [
+    "Immunité à médiation humorale vs cellulaire",
+    "Lieux de déroulement des réponses spécifiques",
+    "Comparaison mémoire, délai et effecteurs",
+    "Mémoire immunitaire — comparaison des deux voies"
+  ],
+  "bac-d-2021-sn-svt-ex5": [
+    "Dosage P et T — variations de calcémie",
+    "Parathormone et calcitonine — relations avec le calcium",
+    "Régulation hormonale de la calcémie",
+    "Hypercalcémie et hypocalcémie — réponses hormonales"
+  ],
+  "bac-d-2021-sc-svt-ex3": [
+    "Stimulations I1 et I2 — nature des réponses électriques",
+    "Synapses excitatrices et inhibitrices du circuit",
+    "Sommation des potentiels post-synaptiques",
+    "Différences PA vs PSP au niveau de OA"
+  ],
+  "bac-d-2021-sc-svt-ex4": [
+    "Réponse immunitaire humorale et cellulaire",
+    "Organes lymphoïdes — lieu des réponses spécifiques",
+    "Tableau comparatif des deux immunités spécifiques",
+    "Cellules effectrices — lymphocytes B et T"
+  ],
+  "bac-d-2021-sc-svt-ex5": [
+    "Courbes de calcémie — hormones P et T",
+    "Parathormone et thyrocalcitonine — effets opposés",
+    "Homéostasie calcique",
+    "Rétrocontrôle calcémique — hypophyse et thyroïde"
+  ],
+  "bac-d-2022-sn-svt-ex1": [
+    "Cellule en méiose — gamètes et proportions",
+    "Gènes liés à l'X — phénotypes selon le sexe",
+    "Répartition phénotypique sur 1000 descendants",
+    "Distance 8 cM — classes parentales et recombinantes"
+  ],
+  "bac-d-2022-sn-svt-ex2": [
+    "Testostérone et œstrogènes — action sur organes génitaux",
+    "Contrôle hypophysaire des gonades",
+    "Parabiose et puberté précoce",
+    "Schémas de régulation sexuelle mâle et femelle"
+  ],
+  "bac-d-2022-sn-svt-ex3": [
+    "Potentiel d'action — vitesse de propagation",
+    "Période réfractaire — stimulations I1 et I2",
+    "Neurotransmetteurs X, Y, Z — lieu et effet",
+    "Substances synaptiques — excitation ou inhibition"
+  ],
+  "bac-d-2022-sn-svt-ex4": [
+    "Anatoxine tétanique — vaccination et mémoire",
+    "Cellule immunitaire — origine et rôle des anticorps",
+    "Protéine X des plasmocytes — synthèse d'anticorps",
+    "Immunité active après anatoxine — mémoire à long terme"
+  ],
+  "bac-d-2022-sn-svt-ex5": [
+    "Barorécepteurs du sinus carotidien — nerf de Hering",
+    "Réflexe de régulation de la pression artérielle",
+    "Nerfs sympathiques et pincement carotidien",
+    "Section du nerf de Hering — conséquences sur PA"
+  ],
+  "bac-d-2022-sc-svt-ex1": [
+    "Pédigrée — phénotypes vs génotypes en premier",
+    "Maladie récessive liée à l'X — électrophorèse",
+    "Jumeaux vrais ou faux — justification",
+    "Génotypes III4 et III5 — jumeaux monozygotes ou dizygotes"
+  ],
+  "bac-d-2022-sc-svt-ex2": [
+    "Hormones sexuelles — effet sur prostate et utérus",
+    "Hypophyse et maturation gonadique",
+    "Régulation hormonale de la fonction reproductive",
+    "Atrophie gonadique après ablation hypophysaire"
+  ],
+  "bac-d-2022-sc-svt-ex3": [
+    "Transmission synaptique — dépolarisation et hyperpolarisation",
+    "Sommation temporelle et spatiale",
+    "Intégration neuronale au niveau de M",
+    "Stimulation I2 sur B — hyperpolarisation en O2"
+  ],
+  "bac-d-2022-sc-svt-ex4": [
+    "Immunité humorale et immunité cellulaire",
+    "Comparaison des réponses spécifiques",
+    "Organes lymphoïdes secondaires — réponse spécifique",
+    "Délai d'apparition — réponse primaire vs secondaire"
+  ],
+  "bac-d-2023-sn-svt-ex2": [
+    "Phénomènes de la reproduction — ordre chronologique",
+    "Hormones déclenchant ovulation et menstruation",
+    "Grossesse gémellaire — un corps jaune, deux embryons",
+    "Contraception à base hormonale — méthodes et niveaux d'action"
+  ],
+  "bac-d-2023-sn-svt-ex3": [
+    "Seuil et loi de force-intensité — fibre et nerf",
+    "Polysynodisme du nerf",
+    "Synapses N1-N2-N3 — facilitation et occlusion",
+    "Réflexe rotulien — arc et rôles des racines"
+  ],
+  "bac-d-2023-sc-svt-ex2": [
+    "Enregistrements O1-O4 — types de neurones",
+    "Étapes de la transmission synaptique",
+    "Sommation — stimulations S1 et S2",
+    "Condition de détection du PA en O4"
+  ],
+  "bac-d-2023-sc-svt-ex3": [
+    "Courbes d'anticorps — vaccination vs infection naturelle",
+    "Sérothérapie antidiphtérique — réponse immédiate",
+    "Comparaison vaccination et sérothérapie",
+    "Réponse rapide du sérum — anticorps préformés"
+  ],
+  "bac-d-2024-sn-svt-ex2": [
+    "Arbre généalogique de Koumba",
+    "Mode de transmission — dominant lié à l'X",
+    "Électrophorèse — hétérozygote ou homozygote",
+    "Génotype de l'enfant attendu de Habi"
+  ],
+  "bac-d-2024-sn-svt-ex3": [
+    "Neurones A, B, C — excitateur, inhibiteur, interneurone",
+    "Propagation et transmission — zones X et Y",
+    "Chaîne nerveuse incomplète — expériences A, B, C",
+    "Expérience B — deux hypothèses sur blocage synaptique"
+  ],
+  "bac-d-2024-sn-svt-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une bobine",
+    "FEM induite — courant variable par intervalles",
+    "Flux en fonction du temps — rotation de bobine"
+  ],
+  "bac-d-2024-sn-svt-ex5": [
+    "Circuit neuronique — nature des neurones",
+    "Mécanisme synaptique — dépolarisation et hyperpolarisation",
+    "Reconstruction d'une chaîne nerveuse par expériences",
+    "Expérience C — confirmation de la chaîne nerveuse"
+  ],
+  "bac-c-2025-sn-svt-ex1": [
+    "Événements E1 et E2 — ovulation et fécondation",
+    "Modifications cellulaires et conséquences hormonales",
+    "Courbe de température — datation du cycle",
+    "Hypothèses de stérilité chez B et C"
+  ],
+  "bac-c-2025-sn-svt-ex2": [
+    "Premier croisement — dominance des allèles",
+    "Test-cross — liaison gènes corps et œil",
+    "Autofécondation F1 — échiquier et proportions",
+    "Génotypes parents gris/prune et noir/clair"
+  ],
+  "bac-c-2025-sn-svt-ex3": [
+    "Enregistrements O1 et O2 — PA et PSP",
+    "Nature de la synapse N1-N2",
+    "Sommation temporelle — stimulations rapprochées",
+    "Stimulation S2 — intensité double et PSP"
+  ],
+  "bac-c-2025-sc-svt-ex1": [
+    "Discussion des hypothèses de transmission",
+    "Électrophorèse — maladie dominante liée à l'X",
+    "Génotypes I2, II2, III1 et fœtus",
+    "Fœtus f — génotype à partir de l'électrophorèse"
+  ],
+  "bac-c-2025-sc-svt-ex2": [
+    "Coupe de testicule et d'ovaire — légendes et rôles",
+    "Nombre de chromosomes des cellules germinales",
+    "Ovariectomie et dépendance utérine aux ovaires",
+    "Dosage hormonal — aménorrhée et GnRH"
+  ],
+  "bac-c-2025-sc-svt-ex3": [
+    "Neurone — parties A, B, C et organites",
+    "Synapses axo-dendritique et axo-axonique",
+    "Potentiel d'action — milieux et poisons ioniques",
+    "Continuité axone-neurone — structure B et A"
+  ],
+  "bac-c-2025-sc-svt-ex4": [
+    "Structure du neurone et types de synapses",
+    "Rôle des ions Na+ et K+ dans le potentiel d'action",
+    "Effet de la dilution isotonique sur l'excitabilité",
+    "Blocage canaux Na+ — absence de potentiel d'action"
+  ],
+  "bac-d-2025-sn-math-ex1": [
+    "Limites de f(x)=1/√(1+e^x) en ±∞",
+    "Dérivée et tableau de variations de f",
+    "Bijection de f et intervalle image J",
+    "Fonction réciproque g — expression et dérivée",
+    "Suite S_n(t) et intégrale — encadrement et limite"
+  ],
+  "bac-d-2025-sn-math-ex2": [
+    "Résolution de P(z)=0 — racine réelle z0",
+    "Points M1, M2 et rotation R",
+    "Triangle équilatéral AM1M2 — valeur de α",
+    "Lieu de G — ellipse et excentricité"
+  ],
+  "bac-d-2025-sn-math-ex3": [
+    "Rotation R — A→I, I→B",
+    "Symétrie glissante g — forme réduite",
+    "Similitude directe S — rapport, angle et centre Ω",
+    "Points cocycliques C, M, L et Ω"
+  ],
+  "bac-d-2025-sn-math-ex4": [
+    "Limites et asymptotes de f avec ln(x+1)",
+    "Dérivée et variations de f sur ]-1,+∞[",
+    "Suite (a_n) des solutions de g(x)=1/n",
+    "Suite I_n d'intégrales — convergence et encadrement"
+  ],
+  "bac-d-2025-sn-math-ex5": [
+    "Limites de f(x)=1/√(1+e^x) en ±∞",
+    "Dérivée et tableau de variations de f",
+    "Bijection de f et intervalle image J",
+    "Fonction réciproque g — expression et dérivée",
+    "Suite S_n(t) et intégrale — encadrement et limite"
+  ]
+}

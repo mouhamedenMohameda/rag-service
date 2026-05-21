@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bac-c-2001-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2001,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3"
+  },
+  {
+    "id": "bac-c-2012-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (6 points)\nTriangle équilatéral direct ABC de côté a, centre G. I, J, K milieux de [BC], [CA], [AB]. E symétrique de K par I.\n1. Figure.\n2.a) Unique rotation $r_1$ : $B\\to I, J\\to A$.\n2.b) Éléments caractéristiques.\n3. $t$ translation de vecteur $\\vec{AJ}$. $r_2=t\\circ r_1$ et $f=s_{(JC)}\\circ s_{(JE)}\\circ s_{(KE)}$.\n3.a) $r_2(J)$ et caractériser $r_2$.\n3.b) $\\Delta_1, \\Delta_2$ tels que $r_1=s_{(KC)}\\circ s_{\\Delta_1}$ et $r_2=s_{(JC)}\\circ s_{\\Delta_2}$ ; $f=t_{\\vec{AJ}}\\circ s_{(KC)}$.\n3.c) Image du triangle BIK par f ; symétrie glissante et forme réduite.\n4.a) Unique similitude directe s : $E\\to I, C\\to G$.\n4.b) Angle et rapport.\n4.c) Centre sur cercles circonscrits aux triangles BCG et BEI.\n5. M variable sur $\\Gamma$ cercle de diamètre [BC]. $s(M)=M'$.\na) Lieu $\\Gamma'$.\nb) (MM') passe par K pour $M\\ne B$.\nc) Programme de construction et placer M, M'.\n6. $M_n=s^n(E)$ avec $M_0=E, M_1=s(M_0)$.\na) Placer $B, M_0, M_1, M_2, M_3$.\nb) $S_n=\\sum M_kM_{k+1}$ en fonction de n et a.\nc) $\\lim S_n$ et interprétation.\nd) $M_{1960}\\in(BM_4)$ et $M_{2012}\\in(BG)$."
+  },
+  {
+    "id": "bac-c-2013-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\nÉquation (E) : $25x-9y=5$.\n1.a) Algorithme d'Euclide pour u, v tels que $25u+9v=1$ ; solution particulière $(x_0, y_0)$ de (E).\n1.b) Ensemble des solutions.\n2. d = PGCD(x, y).\na) Valeurs possibles de d.\nb) Solutions avec x et y premiers entre eux.\nc) Peut-on trouver (x,y) tel que $(x^2, y^2)$ soit solution de (E) ?"
+  },
+  {
+    "id": "bac-c-2013-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (3,5 points)\n$P(z)=z^3-(9-i)z^2+(28-5i)z-32+4i$.\n1.a) $P(4)$ ; $a, b$ tels que $P(z)=(z-4)(z^2+az+b)$.\n1.b) Solutions.\n2. A, B, C avec $z_A=4$, $\\text{Im}(z_B)>0$, $\\text{Im}(z_C)<0$.\na) Expression complexe de la similitude directe s de centre C : $A\\to B$.\nb) Rapport et angle.\n3. $Q(z)=z^2-(5-i)z+8-i$ ; $\\Gamma=\\{M:Q(z)\\text{ imaginaire pur}\\}$.\na) Équation cartésienne ; hyperbole de centre $\\Omega(\\tfrac{5}{2},-\\tfrac{1}{2})$.\nb) Sommets, asymptotes, construction."
+  },
+  {
+    "id": "bac-c-2013-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\n$f(x)=(3-x)e^x$ sur $\\mathbb{R}$, courbe (C).\na) Limites en $\\pm\\infty$ et $\\tfrac{f(x)}{x}$.\nb) Tableau de variation.\nc) Tracer (C).\nd) f solution de $y'-y=-e^x$ ; aire entre (C), (Ox), $x=0, x=3$.\n2. $U_n=\\dfrac{3^n}{n!}$.\na) $0\\le\\tfrac{U_{n+1}}{U_n}\\le\\tfrac{3}{4}$ pour $n\\ge 3$ ; $U_n\\le\\tfrac{9}{2}(\\tfrac{3}{4})^{n-3}$ ; $\\lim U_n=0$.\n3. $I_n=\\tfrac{1}{n!}\\int_0^3 (3-x)^n e^x\\,dx$ et $S_n=\\sum_{k=0}^n\\tfrac{3^k}{k!}$.\na) $I_1=e^3-4$.\nb) $\\lim I_n=0$.\nc) Par IPP, $I_{n+1}=I_n-U_{n+1}$.\nd) Récurrence : $e^3=S_n+I_n$ ; $\\lim S_n=e^3$."
+  },
+  {
+    "id": "bac-c-2013-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4,5 points)\n$g(x)=1+x^3-3x^3\\ln x$ pour $x>0$, $g(0)=1$.\na) Continuité en $0^+$ ; $\\lim_{x\\to+\\infty}g(x)=-\\infty$.\nb) Tableau de variation.\nc) Unique solution $\\alpha\\in]1,2[$ ; signe de $g(x)$.\n2. $f(x)=\\dfrac{\\ln x}{1+x^3}$ sur $]0;+\\infty[$.\na) Limites en $0^+, +\\infty$.\nb) $f'(x)=\\tfrac{g(x)}{x(1+x^3)^2}$ ; tableau de variation.\n3. $F(x)=\\int_1^x f(t)\\,dt$ pour $x>1$.\na) F dérivable ; $F'(x)$ ; sens de variation.\nb) $\\dfrac{\\ln t}{(1+t)^3}\\le f(t)\\le\\dfrac{\\ln t}{t^3}$.\nc) Par IPP, $\\int_1^x\\tfrac{\\ln t}{t^3}\\,dt$.\nd) $a, b, c$ tels que $\\dfrac{1}{t(1+t)^2}=\\tfrac{a}{t}+\\tfrac{b}{1+t}+\\tfrac{c}{(1+t)^2}$.\n4.a) Encadrement de F(x).\n4.b) $-\\tfrac{1}{4}+\\tfrac{1}{2}\\ln 2\\le l\\le\\tfrac{1}{4}$ où $l=\\lim F$.\n4.c) Tracer allure de F."
+  },
+  {
+    "id": "bac-c-2013-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\nCarré direct ABCD de centre O et de côté a. I, J, K, L milieux des côtés.\n1.a) Figure.\n1.b) Unique rotation r : $C\\to O, K\\to I$.\n1.c) Angle et centre.\n2. $f=S_{(IJ)}\\circ S_{(JO)}\\circ S_{(OK)}$.\na) $f=r\\circ S_{(OK)}$ ; $f(D), f(K), f(O)$.\nb) Nature et forme réduite.\n3.a) Unique similitude directe $s_1$ : $B\\to I, L\\to A$ ; rapport $\\lambda_1$.\n3.b) Angle $\\alpha$ avec $\\cos\\alpha=\\tfrac{2\\sqrt{5}}{5}$.\n3.c) P centre de $s_1$. E symétrique de C par B. P sur cercles BEI et BAL ; préciser P.\n3.d) $(\\vec{PI},\\vec{PA})=\\tfrac{\\pi}{2}\\ [2\\pi]$ ; A, P, E alignés.\n4. $S_2$ similitude directe de centre B : $C\\to L$ ; angle $\\beta$. $g=S_1\\circ S_2$.\na) g similitude directe ; $g(B), g(C)$.\nb) $\\alpha+\\beta=\\tfrac{\\pi}{2}\\ [2\\pi]$ ; centre Q sur deux cercles.\nc) $g(O)=P$ ; image du carré ABCD par g."
+  },
+  {
+    "id": "bac-c-2013-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n$f_n(x)=x^3+2(n+2)x+1$ sur $\\mathbb{R}$, $n\\in\\mathbb{N}$, courbe $C_n$.\n1.a) Tableau de variation de $f_0(x)=x^3+4x+1$.\n1.b) $f_0(x)=0$ admet une unique solution $U_0\\in]-1,0[$.\n1.c) Tracer $C_0$.\n2.a) Toutes les courbes $C_n$ passent par un point fixe A.\n2.b) Positions relatives de $C_n$ et $C_{n+1}$.\n3.a) $f_n(x)=0$ admet une unique solution $U_n\\in]-1,0[$.\n3.b) $(U_n)$ croissante donc convergente."
+  },
+  {
+    "id": "bac-c-2013-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3-(4+6i)z^2+(-5+18i)z+18-12i$.\n1.a) Calculer $P(2), P(3i)$.\n1.b) Solutions $Z_1, Z_2, Z_3$ avec $|z_1|\\le|z_2|\\le|z_3|$.\n2. A, B, C d'affixes $Z_1, Z_2, Z_3$. G barycentre de $\\{(A,1),(B,-3),(C,4)\\}$. $\\varphi_1(M)=MA^2-3MB^2+4MC^2$ et $\\varphi_2(M)=4MA^2-2MB^2-2MC^2$.\n2.a) $z_G=5+\\tfrac{3}{2}i$.\n2.b) Formes réduites de $\\varphi_1, \\varphi_2$.\n2.c) $\\Gamma_1:\\varphi_1(M)=-3$ et $\\Gamma_2:\\varphi_2(M)=44$."
+  },
+  {
+    "id": "bac-c-2013-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\n$f(x)=\\dfrac{2\\ln x}{x^2-\\ln x}$ pour $x>0$, $f(0)=-2$ sur $[0;+\\infty[$.\n1.a) Continuité en $0^+$.\n1.b) Dérivabilité à droite en 0 ; interprétation.\n1.c) $\\lim_{x\\to+\\infty}f(x)=0$ ; interprétation.\n2.a) Tableau de variation.\n2.b) Tangente au point d'abscisse 1.\n2.c) Tracer la courbe.\n3. $g(t)=tf(t)$. Pour $x\\ge 1$, $F(x)=\\int_1^x g(t)\\,dt$.\na) F dérivable, $F'(x)$ ; F croissante.\nb) $g(t)\\ge\\tfrac{2\\ln t}{t}$ ; $\\lim F=+\\infty$.\nc) Tableau de variation de F."
+  },
+  {
+    "id": "bac-c-2013-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\nLosange direct ABCD de centre O et de côté a avec $(\\vec{BC},\\vec{BA})=\\tfrac{\\pi}{4}\\ [2\\pi]$. OEFD carré direct.\n1. Figure ((AC) horizontale).\n2.a) Unique rotation r : $A\\to B, D\\to A$.\n2.b) Angle et centre.\n3.a) Unique similitude directe s : $B\\to D, D\\to F$.\n3.b) Rapport et angle.\n3.c) H projeté orthogonal de D sur (BF) ; images de (BH) et (DH) par s ; H centre de s.\n3.d) Images des sommets de OEFD par s.\n4. Repère $(O;\\vec{OE},\\vec{OD})$.\na) Coordonnées de E, D, B, F.\nb) Expression complexe de s.\nc) Retrouver rapport, angle ; coordonnées de H."
+  },
+  {
+    "id": "bac-c-2013-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\n$f(x)=\\dfrac{e^x-1}{e^x+1}$, courbe C.\n1.a) $f(x)=-1+\\tfrac{2e^x}{e^x+1}=1-\\tfrac{2}{e^x+1}$.\n1.b) Limites en $\\pm\\infty$.\n2.a) Tableau de variation.\n2.b) Tracer C.\n2.c) Aire entre C, (Ox), (Oy), $x=\\ln a$ ($a>1$).\n3. $I_n=\\int_0^{\\ln a}(f(t))^n\\,dt$.\na) $I_1=2\\ln(\\tfrac{a+1}{2\\sqrt{a}})$ ; $\\lim I_n$.\nb) $f^2(x)=1-2f'(x)$ ; $I_2$.\nc) $0\\le I_n\\le(\\tfrac{a-1}{a+1})^n\\ln a$.\nd) $I_n-I_{n+2}=\\tfrac{2}{n+1}(\\tfrac{a-1}{a+1})^{n+1}$.\n4. $S_n(a)=\\sum_{k=1}^n\\tfrac{1}{k}(\\tfrac{a-1}{a+1})^k$.\na) $S_n(a)$ en fonction des $I_n$ ; $\\lim S_n(a)$.\nb) $T_n=\\sum\\tfrac{1}{k}(\\tfrac{9}{11})^k$ ; $\\lim T_n$."
+  },
+  {
+    "id": "bac-c-2014-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (4 points)\n$P(z)=z^3+(1-2i)z^2+(1-2i)z-2i$.\n1. $P(2i)$ et solutions $z_0, z_1, z_2$ avec $\\text{Im}(z_0)\\ge\\text{Im}(z_1)\\ge\\text{Im}(z_2)$.\n2. A, B, C d'affixes $z_0, z_1, z_2$. $z'=f(z)=\\dfrac{1}{z^2+z+1}$.\na) Équation cartésienne de (BC) : $2x+1=0$.\nb) Si M décrit (BC) privée de B, C, alors M' sur l'axe des abscisses.\n3.a) Si $|z|=1$ alors $f(z)=\\dfrac{\\bar{z}}{1+z+\\bar{z}}$.\n3.b) Si $z=e^{i\\theta}$ avec $\\theta\\in[-\\pi;\\pi]\\setminus\\{\\pm\\tfrac{2\\pi}{3}\\}$, $f(z)=\\dfrac{\\cos\\theta-i\\sin\\theta}{1+2\\cos\\theta}$.\n4.a) Si M décrit cercle unité privé de A, C, M' sur courbe $\\Gamma:x^2+y^2=(2x-1)^2$.\n4.b) $\\Gamma$ hyperbole ; centre, sommets, excentricité, construction."
+  },
+  {
+    "id": "bac-c-2014-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\n$f(x)=xe^x$ sur $\\mathbb{R}$, courbe (C).\n1.a) Tableau de variation.\n1.b) Tracer (C).\n1.c) f solution de $y''-2y'+y=0$.\n1.d) Aire entre (C), (Ox), $x=0, x=1$.\n2. $I_n=(-1)^n\\int_0^1 x^n e^x\\,dx$.\na) $I_1=-1$.\nb) $\\tfrac{1}{n+1}\\le|I_n|\\le\\tfrac{e}{n+1}$ ; $\\lim I_n=0$.\nc) Par IPP, $I_{n+1}=(-1)^{n+1}e+(n+1)I_n$.\nd) $J=\\int_0^1\\dfrac{(x^3+4x^2-3x-6)e^x}{x+1}\\,dx$ sous la forme $ae+b$."
+  },
+  {
+    "id": "bac-c-2014-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\n$f(x)=x\\ln(1+\\tfrac{1}{x})$ pour $x>0$, $f(0)=0$.\na) Continuité à droite en 0 ($f(x)=x\\ln(x+1)-x\\ln x$).\nb) Dérivabilité à droite en 0 ; interprétation.\nc) $\\lim_{+\\infty}f=1$ (poser $t=\\tfrac{1}{x}$) ; interprétation.\n2.a) $f''(x)=\\dfrac{-1}{x(x+1)^2}$ ; signe de $f'$.\n2.b) Tableau de variation.\n2.c) Tracer la courbe.\n3. $f_n(x)=x^n\\ln(1+\\tfrac{1}{x})$ pour $x>0$, $f_n(0)=0$ ; $A_n=\\int_0^1 f_n(x)\\,dx$.\na) Existence de $(A_n)$.\nb) $0\\le x^{n-1}f(x)\\le x^{n-1}$.\nc) $0\\le A_n\\le\\tfrac{1}{n}$ ; $\\lim A_n=0$.\n4. $I_n(\\alpha)=\\int_\\alpha^1 x^n\\ln x\\,dx$, $I_n=\\lim_{\\alpha\\to 0^+}I_n(\\alpha)$, $J_n=\\int_0^1 x^n\\ln(x+1)\\,dx$.\na) Par IPP, $I_n(\\alpha)$ en fonction de $\\alpha, n$.\nb) $\\lim I_n(\\alpha)=\\dfrac{-1}{(n+1)^2}$.\nc) Par IPP, $J_{n+1}=\\dfrac{2\\ln 2}{n+2}-\\dfrac{1}{(n+2)^2}-\\dfrac{n+1}{n+2}J_n$."
+  },
+  {
+    "id": "bac-c-2014-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (6 points)\nPartie A — Carré direct ABCD de centre O et de côté a. K, L milieux de [CD], [DA].\n1. Figure.\n2. Unique rotation r : $A\\to B, K\\to L$ ; centre et angle.\n3.a) Unique similitude directe $f_1$ : $D\\to L, B\\to O$ ; rapport et angle.\n3.b) P centre de $f_1$ ; sur cercles [AB] et [OD] ; P = (BL)∩(AK).\n4.a) $f_2$ : $B\\to D, O\\to L$ ; angle et rapport.\n4.b) Centre de $f_2$ = P.\n5.a) $h=f_1\\circ f_2$ homothétie ; centre et rapport. $P=\\text{bar}\\{(B,\\beta);(L,\\gamma)\\}$.\n5.b) $P=\\text{bar}\\{(A,\\alpha);(K,\\lambda)\\}$.\nPartie B — Cube ABCDEFGH ; réflexions $s_1, s_2, s_3, s_4$ de plans (ABCD), (AEHD), (ABFE), (DCGH). $f=s_1\\circ s_2\\circ s_3\\circ s_4$, $r=s_1\\circ s_2$, $t=s_3\\circ s_4$.\n1. r demi-tour ; axe.\n2. t translation ; vecteur.\n3. Caractériser f."
+  },
+  {
+    "id": "bac-c-2014-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n(E)\n: $11x+9y=19$.\n1.a) Vérifier que $(-4,7)$ est solution.\n1.b) Ensemble des solutions.\n2. (Série C) X variable aléatoire à 3 valeurs $-4, 7, 8$ avec $p_1=\\tfrac{x-4}{9}, p_2=\\tfrac{2x-y-8}{9}, p_3=\\tfrac{8x+10y+2}{9}$.\na) Unique couple (x, y).\nb) $E(X)=6$.\nc) Variance.\n2.bis (TMGM) Équation $(E'):(11-9i)z+(11+9i)\\bar{z}=38$.\na) Infinité de solutions ; lieu A des $M(x,y)$.\nb) Points de A à coordonnées entières."
+  },
+  {
+    "id": "bac-c-2014-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3+(2-2i)z^2+(-2-8i)z-8+4i$.\n1.a) $P(2i)$.\n1.b) Résoudre $P(z)=0$.\n2. Transformation f : $z'=\\tfrac{1}{3}iz+\\tfrac{2}{3}+2i$.\na) Similitude directe ; centre A, rapport, angle.\nb) $z_C=f(z_B)$ avec $B(-3,-1)$ ; ABC rectangle.\nc) G barycentre de $\\{(A,-4);(B,1);(C,6)\\}$ ; ABCG cocycliques.\n3. $\\Gamma_1:-4MA^2+MB^2+6MC^2=30$ et $\\Gamma_2:MB^2-MC^2=16$."
+  },
+  {
+    "id": "bac-c-2014-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\n$g(x)=-x^2-\\ln x$ sur $]0;+\\infty[$.\na) Tableau de variation.\nb) Unique solution $\\alpha$ ; $\\tfrac{1}{e}<\\alpha<1$ ; signe de g.\n2. $f(x)=-x+1+\\tfrac{1}{x}(1+\\ln x)$.\na) $\\lim_{0^+}f=-\\infty$ ; interprétation.\nb) $\\lim(f(x)-(1-x))$ en $+\\infty$.\nc) $f'(x)=\\tfrac{g(x)}{x^2}$ ; tableau de variation.\nd) Construire la courbe.\n3. $f_m(x)=-x+1+\\tfrac{m^2}{x}(1+\\ln x-\\ln m)$, $m>0$.\na) Asymptotes communes ; point d'intersection G.\nb) $(C_m)$ image de $(C_1)$ par homothétie de centre G ; rapport.\nc) Tableau de variation de $f_m$."
+  },
+  {
+    "id": "bac-c-2014-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\nTriangle équilatéral direct ABC de centre O et de côté a. I, J, K milieux de [BC], [CA], [AB].\n1.a) Figure.\n1.b) Unique rotation $r_1$ : $A\\to B, C\\to A$.\n1.c) Angle et centre.\n1.d) Rotation $r_2$ de centre A et angle $\\tfrac{\\pi}{3}$ ; $r_1\\circ r_2(B)$ ; caractériser $r_1\\circ r_2$.\n2. D, E symétriques de I, J par K.\na) Unique antidéplacement g : $A\\to K, J\\to E$.\nb) g symétrie glissante ; $g(D)$ ; forme réduite.\n4.a) Unique similitude directe $S_1$ : $B\\to I, C\\to J$.\n4.b) Rapport et angle ; O centre.\n5. $M\\in[BC], N\\in[CA], P\\in[AB]$ avec $BM=CN=AP=x$.\na) MNP équilatéral de centre O.\nb) H milieu de [MN] ; lieu de H.\nc) Unique similitude directe $S_2$ : $(A,B,C)\\to(P,M,N)$ ; centre.\nd) Position de M minimisant $\\tfrac{OM}{OB}$ ; aire minimale de MNP."
+  },
+  {
+    "id": "bac-c-2014-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\n$f(x)=\\dfrac{e^x}{e^x-x}$ sur $\\mathbb{R}$, courbe C.\n1.a) $\\lim_{+\\infty}f=1$ ; interprétation.\n1.b) $\\lim_{-\\infty}f$ ; interprétation.\n1.c) Tableau de variation ; courbe.\n2. A aire entre courbe, (Ox), $x=0, x=1$. $1\\le A\\le\\tfrac{e}{e-1}$.\n3. $I_n=\\int_0^1 x^n e^{-nx}\\,dx$, $I_0=1$.\na) $I_1=1-2e^{-1}$.\nb) $0\\le I_n\\le\\tfrac{1}{n+1}$ ; $\\lim I_n=0$.\n4. $S_n=I_0+\\cdots+I_n$.\na) $S_n=\\int_0^1\\dfrac{1-(xe^{-x})^{n+1}}{1-xe^{-x}}\\,dx$.\nb) $A-S_n=\\int_0^1\\dfrac{(xe^{-x})^{n+1}}{1-xe^{-x}}\\,dx$.\nc) $0\\le A-S_n\\le\\tfrac{2}{n+2}$ ; $\\lim S_n=A$.\nd) $n_0$ tel que A approche $S_n$ à $10^{-2}$ près."
+  },
+  {
+    "id": "bac-c-2015-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5 points)\n1. $P(z)=z^3-(11+6i)z^2+(28+38i)z-12-60i$.\na) $P(3)=0$ et factorisation.\nb) Résoudre $P(z)=0$.\nc) Barycentre G.\n2. $f_k(M)=M'\\Leftrightarrow\\vec{MM'}=2\\vec{MA}-2\\vec{MB}+(3-k)\\vec{MC}$.\na) Translation.\nb) Point invariant $\\Omega_k$.\nc) Lieu de $\\Omega_k$.\nd) Lieu de R.\n3. $\\varphi(M)=2MA^2-2MB^2+2MC^2$ et $\\Gamma_m$.\na) Nature de $\\Gamma_m$.\nb) Construction pour $m=10$."
+  },
+  {
+    "id": "bac-c-2015-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\nRectangle direct ABCD, $AB=a, AD=2a$.\n1. Figure.\n1.b) Rotation r.\n2.a) Antidéplacement g.\n2.b) Symétrie glissante.\n2.c) Forme réduite.\n3. Similitude s : angle, rapport, $s(J)=B$.\n4. P centre de s.\na) P sur $\\Gamma_1, \\Gamma_2$.\nb) Symétrie.\nc) P sur (BE).\n5. R symétrique de L.\na) $s(L)=R$.\nb) Droite fixe et triangle rectangle isocèle.\n6. Parabole $\\Gamma$.\na) Passage par A, O, D.\nb) Tangente.\nc) Foyer et directrice de $\\Gamma'$."
+  },
+  {
+    "id": "bac-c-2015-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\n$f(x)=\\dfrac{1}{1+e^x}$.\n1.a) Limites.\n1.b) Tableau de variation.\n1.c) Bijection et $f^{-1}(x)$.\n2.a) $\\Omega(0,\\tfrac{1}{2})$ centre de symétrie.\n2.b) Intersection C et C'.\n2.c) Tracer C, C'.\n2.d) Aire A.\n3. $I_n=\\int_0^\\alpha f^n(t)\\,dt$.\na) $I_1$.\nb) $f'(x)=f^2(x)-f(x)$.\nc) $I_{n+1}-I_n$.\nd) Suite décroissante.\n4. Encadrement de $I_n$ et limites."
+  },
+  {
+    "id": "bac-c-2015-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\n$g(x)=\\dfrac{3x^3-12x^2+19x-10}{x^3-4x^2+5x}$.\n1.a) Déterminer a, b, c.\n1.b) Signe de g(x).\n2. $f(x)=3x-3+\\ln(\\tfrac{x^2-4x+5}{x^2})$.\na) Limite en 0.\nb) Limites en $\\pm\\infty$.\nc) Asymptotes et position relative.\n3.a) $f'(x)=g(x)$.\n3.b) $f(x)=0$ unique solution.\n3.c) Construire (C).\n4. Aire S.\na) Vérification.\nb) Calcul de A.\nc) Calcul de B par changement de variable.\nd) IPP pour J et K."
+  },
+  {
+    "id": "bac-c-2015-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n$f(x,y)=2x-3y$ pour x, y entiers.\n1.a) Calculer $f(5,3)$.\n1.b) Solutions dans $\\mathbb{Z}^2$ de $2x+3y=1$.\n2. $X_n=f(5^n, 3^n)$.\na) Reste de $X_n$ par 7 selon n.\nb) $X_{2015}-5$ divisible par 7."
+  },
+  {
+    "id": "bac-c-2015-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3-(6+5i)z^2+(1+20i)z+14-5i$.\n1.a) $P(i)$ ; $a, b$ tels que $P(z)=(z-i)(z^2+az+b)$.\n1.b) Solutions.\n2. A, B, C d'affixes $i, 4+i, 2+3i$. Similitude directe s de centre A : $B\\to C$.\na) Expression complexe de s.\nb) Rapport et angle.\n3.a) $\\Gamma_1:\\dfrac{z-i}{z-4-i}$ imaginaire pur ; $\\Gamma_2:\\dfrac{z-i}{z-2-3i}$ imaginaire pur.\n3.b) $s(\\Gamma_1)=\\Gamma_2$."
+  },
+  {
+    "id": "bac-c-2015-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\nTriangle équilatéral direct ABC de centre O et de côté a. I, J, K milieux.\n1.a) Figure.\n1.b) Unique rotation $r_1$ : $B\\to C, J\\to K$ ; centre et angle.\n1.c) $r_2$ : $B\\to C, K\\to J$ ; centre et angle.\n2.a) $f=r_1\\circ r_2$ et $g=r_2\\circ r_1$ ; caractériser.\n2.b) $g\\circ f=t_{\\vec{BC}}$.\n3.a) Unique similitude directe s : $B\\to I, C\\to J$ ; angle et rapport.\n3.b) $s(A), s(O)$.\n3.c) $h=r\\circ s$.\n4. $\\Gamma$ ellipse de foyers I, J passant par C.\na) $K\\in\\Gamma$.\nb) Construire les sommets."
+  },
+  {
+    "id": "bac-c-2015-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\n$f(x)=\\dfrac{x+1}{e^x}$ sur $\\mathbb{R}$, courbe C.\na) Tableau de variation.\nb) Tracer C.\n2. $f_n(x)=\\dfrac{(1+x)^n}{e^x}$ ; $F_n(x)=\\int_{-1}^x f_n(t)\\,dt$. Par IPP, $F_{n+1}(x)=(n+1)F_n(x)-f_{n+1}(x)$.\n3. $I_n=F_n(0)$.\na) $I_{n+1}=(n+1)I_n-1$.\nb) Suite décroissante et positive.\nc) $\\tfrac{1}{n+1}\\le I_n\\le\\tfrac{1}{n}$ ; $\\lim I_n=0$.\n4. $U_n=\\tfrac{I_n}{n!}$.\na) $U_{n+1}=U_n-\\tfrac{1}{(n+1)!}$ ; $U_n=e-\\sum_{k=0}^n\\tfrac{1}{k!}$.\nb) $\\lim\\sum\\tfrac{1}{k!}=e$."
+  },
+  {
+    "id": "bac-c-2015-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (5 points)\n$f(x)=x\\ln(x+1)$.\n1.a) Limites en $-1$ et $+\\infty$.\n1.b) $f'(x)$ et signe.\n1.c) Tableau de variation.\n2.a) Tracer (C).\n2.b) $\\int_0^1\\tfrac{x^2}{1+x}\\,dx$.\n2.c) Aire A du domaine.\n3. $U_n=\\int_0^1 x^n\\ln(1+x)\\,dx$.\na) $U_1=\\tfrac{1}{4}$.\nb) $0\\le U_n\\le\\tfrac{\\ln 2}{n+1}$ ; $\\lim U_n=0$.\n4. $S_n(x)=1-x+\\cdots+(-x)^n$.\na) Expression de $S_n(x)$.\nb) Somme $\\sum\\tfrac{(-1)^k}{k+1}$.\nc) IPP.\n5. $V_n=1-\\tfrac{1}{2}+\\tfrac{1}{3}-\\cdots+\\tfrac{(-1)^n}{n+1}$.\na) Encadrement.\nb) $\\lim V_n=\\ln 2$.\nc) $\\lim(n+1)U_n$."
+  },
+  {
+    "id": "bac-c-2016-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n(E)\n: $5x-3y=17$.\n1.a) Existence ; (4,1) solution particulière.\n1.b) Solutions.\n2. (x,y) solution de (E).\na) Si x divise y alors x divise 17.\nb) m tels que $\\dfrac{1+5m}{4+3m}\\in\\mathbb{Z}$."
+  },
+  {
+    "id": "bac-c-2016-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3-(4+8i)z^2+(-14+24i)z+32+4i$.\n1.a) $P(2i)$ ; $a, b$ tels que $P(z)=(z-2i)(z^2+az+b)$.\n1.b) Solutions $z_1, z_2, z_3$ avec $|z_1|<|z_2|<|z_3|$.\n1.c) G barycentre de $\\{(O,5);(A,-7);(C,4)\\}$.\n2. $Q(z)=z^2-(4+6i)z-2+16i$ ; $\\Gamma=\\{M:Q(z)\\text{ imaginaire pur}\\}$.\na) Équation cartésienne ; conique de centre G.\nb) Sommets, excentricité, construction."
+  },
+  {
+    "id": "bac-c-2016-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\n$f(x)=xe^{1/x}$ pour $x\\ne 0$, $f(0)=0$, courbe (C).\na) Limites en $0^-$ et $0^+$.\nb) $\\lim\\tfrac{f}{x}$ en $0^+$ ; $\\lim(f-(x+1))$ en $\\pm\\infty$.\nc) Tableau de variation.\nd) Construire (C).\n2. $f_n(x)=xe^{n/x}$ pour $x\\ne 0$, $f_n(0)=0$ ; courbe $(C_n)$.\na) $(C_n)$ image de (C) par homothétie $h_n$ de centre O ; rapport.\nb) Lieu $\\Delta$ des points à tangente horizontale.\nc) Tableau de variation de $f_2$ et $(C_2)$."
+  },
+  {
+    "id": "bac-c-2016-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\n$f(x)=\\ln(x+1)-\\tfrac{x}{x+1}$ sur $]-1,+\\infty[$, courbe (C).\n1.a) Limites en $-1^+, +\\infty$ et $\\tfrac{f}{x}$.\n1.b) Tableau de variation.\n1.c) Point d'inflexion.\n1.d) Tracer (C).\n2.a) $\\int_0^x\\ln(1+t)\\,dt$ et primitive F qui s'annule en 0.\n2.b) Aire $A_n$ entre (C), (Ox), $x=0, x=\\tfrac{1}{n}$.\n3. $x\\in]0;1[$, $n\\ge 1$.\na) $\\dfrac{1}{1+x}=\\sum_{k=1}^{n+1}(-1)^{k-1}x^{k-1}+\\dfrac{(-1)^{n+1}x^{n+1}}{1+x}$.\nb) Développement de $\\ln(1+x)$.\nc) Développement de $f(x)$.\nd) $0\\le\\int_0^x\\dfrac{t^{n+1}}{1+t}\\,dt\\le\\dfrac{x^{n+2}}{n+2}$.\ne) $f(x)=\\lim_{n\\to\\infty}\\sum(-1)^{k-1}\\dfrac{1-k}{k}x^k$."
+  },
+  {
+    "id": "bac-c-2016-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (5 points)\nCarré direct ABCD de centre O et côté a. I, J, K, L milieux des côtés. LDEF carré direct.\n1.a) Figure.\n1.b) Unique rotation r : $A\\to D, L\\to E$.\n1.c) Angle et centre.\n2.a) Unique similitude directe $s_1$ : $J\\to O, C\\to D$.\n2.b) Angle et rapport.\n2.c) $s_1(B)$ ; centre de $s_1$.\n2.d) $s_1(O)$ ; image du carré ABCD.\n3. $s_2$ similitude directe de centre A, rapport $\\tfrac{1}{\\sqrt{2}}$, angle $\\tfrac{\\pi}{4}$. $s_2(O), s_2(C)$.\n4. $f=s_2\\circ s_1^{-1}$ ; $M_1=s_1(M), M_2=s_2(M)$.\na) $f(D)$ et caractériser f.\nb) $(M_1M_2)$ passe par un point fixe.\nc) $\\Gamma_1$ : M, $M_1, M_2$ alignés.\n5.a) $O=\\text{bar}\\{(A,1);(D,3);(E,-2)\\}$.\n5.b) $\\Gamma_2:2MA^2+6MD^2-4ME^2=a^2$ ; $\\Gamma_3:(\\vec{MA}+\\vec{MK}-\\vec{ME})\\cdot(2\\vec{ML}+2\\vec{MK}-\\vec{MB})=0$."
+  },
+  {
+    "id": "bac-c-2016-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5 points)\n$P(z)=z^3-(1+3i)z^2+2iz+6-2i$.\n1.a) $P(1-i)$.\n1.b) $a, b$ tels que $P(z)=(z-1+i)(z^2+az+b)$.\n1.c) Solutions.\n2. A, B, C d'affixes $-1+i, 1-i, 1+3i$.\na) Placer ; nature de ABC.\nb) G barycentre de $\\{(A,2);(B,1);(C,1)\\}$.\nc) $I:2MA^2+MB^2+MC^2=16$.\nd) $A:-2MA^2+MB^2+MC^2=16$.\n3. s similitude directe de centre C : $A\\to B$.\na) Expression complexe.\nb) Rapport et angle.\n4. Parabole P de foyer A et directrice (BC).\na) Axe focal et sommet.\nb) Tracer P et $P'=s(P)$.\nc) Équations cartésiennes de P et $P'$."
+  },
+  {
+    "id": "bac-c-2016-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\n$f(x)=(1+x)e^{-x}$ sur $\\mathbb{R}$, courbe (C).\n1.a) Limites en $\\pm\\infty$ et $\\tfrac{f(x)}{x}$.\n1.b) Interprétation.\n2.a) Tableau de variation et tracé.\n2.b) Aire A entre (C), (Ox), $x=-1, x=0$.\n3. $f_n(x)=\\dfrac{(1+x)^n e^{-x}}{n!}$. $0\\le f_n(x)\\le\\dfrac{e}{n!}$ sur $[-1;0]$.\n4. $I_n=\\int_{-1}^0 f_n(x)\\,dx$.\na) $I_1=$ A.\nb) Par IPP, $I_{n+1}=I_n-\\dfrac{1}{(n+1)!}$.\n5. $U_n=\\sum_{k=0}^n\\dfrac{1}{k!}$.\na) $I_n=e-U_n$.\nb) $0\\le I_n\\le\\dfrac{e}{n!}$ ; $\\lim I_n=0$.\nc) $\\lim U_n=e$."
+  },
+  {
+    "id": "bac-c-2016-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\n$f(x)=\\dfrac{e^{2x}-1}{6e^x}$ sur $\\mathbb{R}$, courbe (C).\n1.a) f impaire ; $\\lim_{-\\infty}f=-\\infty$ ; $\\lim_{+\\infty}f=+\\infty$.\n1.b) $\\lim\\tfrac{f(x)}{x}$ en $+\\infty$ ; interprétation.\n1.c) Tableau de variation.\n1.d) $f(x)=x$ admet 3 solutions dont $\\alpha\\in]2{,}8; 2{,}9[$.\n2.a) Bijection.\n2.b) $(f(x))^2-(f'(x))^2=-\\tfrac{1}{9}$ ; expression de $(f^{-1})'(x)$.\n2.c) $I(x)=\\int_0^x\\dfrac{3}{\\sqrt{9t^2+1}}\\,dt$ en fonction de $f^{-1}(x)$.\n3. r rotation de centre O et angle $\\tfrac{\\pi}{2}$. $r(M)=M'$ ; $r(C)=C_1$.\na) Expression complexe ; $x', y'$.\nb) $(C_1)$ est la courbe de $h(x)=\\ln(-3x+\\sqrt{9x^2+1})$.\nc) $h(-x)=f^{-1}(x)$ ; $(C')$ courbe de $f^{-1}$.\n4.a) (C) et $(C')$ se coupent en 2 points autres que O.\n4.b) Construire ; aire entre (C) et $(C')$ en fonction de $\\alpha$."
+  },
+  {
+    "id": "bac-c-2016-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\nTriangle équilatéral direct ABC de centre G et côté a. I, J, K, L milieux de [BC], [AC], [AB], [AI]. D symétrique de I par J.\n1. Figure.\n2.a) Unique rotation $r_1$ : $B\\to C, I\\to J$.\n2.b) $r_1(K)$ ; centre et angle.\n3. $r_2$ rotation de centre K et angle $\\tfrac{\\pi}{3}$.\na) $r_2(B), r_2(I)$.\nb) $r_2(C)$.\n4.a) Unique antidéplacement f : $B\\to C, I\\to J$.\n4.b) f symétrie glissante ; forme réduite.\n4.c) $g=f\\circ r_1^{-1}$.\n5. $\\sigma=r_2\\circ r_1$ ; $\\sigma(M)=M'$.\na) Caractériser $\\sigma$.\nb) Si $M\\ne M'$, (MM') passe par un point fixe.\nc) AMIM' parallélogramme.\n6. M tels que M, $M_1, M_2$ alignés."
+  },
+  {
+    "id": "bac-c-2017-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (4 points)\n1.a) a réel ; résoudre dans $\\mathbb{C}$ : $(1+i)z^2-2(a+1)z-(-1+i)(a^2+1)=0$.\n1.b) $f:z\\to z'=1-iz$ et $g:z\\to z''=z-i$ ; nature et éléments.\n2. I, $M_1, M_2$ d'affixes $1-i, 1-ia, a-i$ où $a=e^{i\\alpha}$, $\\alpha\\in]0,2\\pi[$.\na) Triangle $IM_1M_2$ rectangle isocèle direct.\nb) Lieux des $M_1, M_2$ pour $\\alpha\\in]0,\\pi[$.\nc) Formes exponentielles.\n3. $M_3$ d'affixe $i\\sin\\alpha+ia$ ; G isobarycentre des $M_i$.\na) $z_G=\\tfrac{1+\\cos\\alpha}{3}+i\\tfrac{-1+2\\sin\\alpha}{3}$ ; G sur ellipse $\\mathcal{E}$.\nb) Sommets, excentricité, construction."
+  },
+  {
+    "id": "bac-c-2017-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (6 points)\nTriangle équilatéral direct ABC de côté 4 cm, cercle circonscrit $\\mathcal{C}$. I, J, K milieux. $A'=s_B(A)$.\n1.a) Figure.\n1.b) Antidéplacement g : $B\\to A, A'\\to B$ ; symétrie glissante.\n1.c) Rotation r : $C\\to B, J\\to K$ ; angle et centre.\n2. Similitude directe s : $A\\to B, C\\to I$ ; $h=s\\circ r$.\na) Rapport et angle de s.\nb) $\\Omega$ centre de s ; $\\Omega\\in\\mathcal{C}$ ; $\\Omega, A, I$ alignés.\nc) Nature et éléments de h.\n3. M sur $\\mathcal{C}\\setminus\\{\\Omega\\}$ ; $M'=s(M)$, $M_1=r(M)$.\na) $\\Omega MM'$ rectangle.\nb) $(MM')$ passe par un point fixe.\nc) $M_1, M, M'$ alignés.\n4. $M_0=A, M_{n+1}=s(M_n)$.\na) $M_1, M_2$.\nb) $M_{2017}\\in(\\Omega B)$.\nc) $L_n=M_nM_{n+1}$, $S_n=\\sum L_k$ ; $\\lim S_n$."
+  },
+  {
+    "id": "bac-c-2017-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\n$f_n(x)=\\dfrac{e^{-nx}}{1+e^{-x}}$ sur $\\mathbb{R}$ ; courbe $(C_n)$.\n1. Toutes les courbes passent par un point fixe.\n2.a) Tableau de variation de $f_0$.\n2.b) M, N de $(C_0)$ d'abscisses $x, -x$ ; milieu A.\n3.a) $(C_0), (C_1)$ symétriques par rapport à (Oy).\n3.b) Tableau de variation de $f_1$.\n3.c) Construire.\n4. $n>1$.\na) Limites ; interprétation.\nb) $f_n'$ ; tableau de variation.\n5. $u_n=\\int_0^1 f_n(x)\\,dx$.\na) $u_0=\\ln(\\tfrac{1+e}{2})$.\nb) $u_0+u_1=1$ ; $u_{n+1}+u_n=\\tfrac{1-e^{-n}}{n}$ ; $u_1, u_2$.\nc) Convergence et limite."
+  },
+  {
+    "id": "bac-c-2017-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\n$f(x)=\\dfrac{\\ln x}{x^2}$ sur $]0;+\\infty[$.\na) Tableau de variation.\nb) Pour $n\\ge 6$, $f(x)=\\tfrac{1}{n}$ admet une seule solution $a_n\\in[1,\\sqrt{e}]$.\nc) $(a_n)$ décroissante et convergente.\n2.a) $\\dfrac{\\ln(k+1)}{(k+1)^2}\\le\\int_k^{k+1}f\\le\\dfrac{\\ln k}{k^2}$.\n2.b) Par IPP, $\\int_2^n\\dfrac{\\ln x}{x^2}\\,dx$.\n3. $S_n=\\sum_{k=2}^n\\dfrac{\\ln k}{k^2}$.\na) Encadrement.\nb) Encadrement explicite.\n4. $u_n=\\sum_{k=1}^n\\dfrac{(\\ln 2)^{k-1}}{k!}$ et $I_n=\\tfrac{1}{n!}\\int_1^2\\dfrac{(\\ln x)^n}{x^2}\\,dx$.\na) $0\\le I_n\\le\\dfrac{(\\ln 2)^n}{n!}$ ; $\\lim I_n$.\nb) $I_{n+1}=I_n-\\tfrac{1}{2}\\dfrac{(\\ln 2)^{n+1}}{(n+1)!}$.\nc) $I_n=\\tfrac{1}{2}-\\tfrac{1}{2}\\sum_{k=1}^n\\dfrac{(\\ln 2)^k}{k!}$.\nd) $(u_n)$ et limite."
+  },
+  {
+    "id": "bac-c-2017-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n(E)\n: $2017x+41y=1$.\n1.a) 2017 premier ; (E) admet des solutions entières.\n1.b) (-5;246) solution particulière ; résoudre (E).\n1.c) Unique entier $y\\le 2016$ tel que $41y\\equiv 1\\ [2017]$.\n2. a, b entiers ; ab inverse modulo 2017.\na) $ab\\equiv 0\\ [2017]$ implique $a\\equiv 0$ ou $b\\equiv 0$.\nb) $a^2\\equiv 1\\ [2017]$ implique $a\\equiv\\pm 1$.\nc) Entiers de [1;4033] égaux à leurs inverses modulo 2017."
+  },
+  {
+    "id": "bac-c-2017-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n(E)\n: $iz^3-(1+i)z^2-(2+2i)z+8i=0$.\na) Solution réelle.\nb) Autres solutions.\nc) A, B, C d'affixes $-2, 2-2i, 1+i$ ; nature de ABC.\n2. s : $x'=x+y, y'=-x+y-2$.\na) Expression complexe.\nb) Nature et éléments ; $s(C)$.\n3. $z_G$ et $f(z)=|z+2|^2+|z-2+2i|^2+|z-1-i|^2$.\na) $z_G=\\tfrac{1}{3}-\\tfrac{1}{3}i$ ; $f(z)=3|z-z_G|^2+\\tfrac{40}{3}$.\nb) Ensemble $\\Gamma_k:f(z)=k$."
+  },
+  {
+    "id": "bac-c-2017-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\nRectangle direct ABCD avec $CB=2CD$. E, F, O milieux de [CB], [AD], [AE]. $I=S_B(A)$.\n1.a) Figure.\n1.b) Unique rotation r : $A\\to E, E\\to D$ ; centre et angle.\n1.c) $f=S_D\\circ S_B\\circ S_A\\circ S_F$ ; $f(A), f(B)$ ; f symétrie glissante.\n2.a) Unique similitude directe s : $O\\to E, E\\to B$ ; rapport et angle.\n2.b) $\\Omega$ centre sur $\\Gamma_1, \\Gamma_2$ (diamètres [EF], [EI]).\n3. M sur $\\Gamma_1$ et $M'=s(M)$.\na) J, K milieux de [EF], [EI] ; $s(J)=K$ ; $s(\\Gamma_1)=\\Gamma_2$.\nb) (MM') passe par un point fixe.\nc) Construction de $M'$.\n4. P parabole de directrice (AD) et foyer E.\na) Sommet.\nb) P passe par B, C.\nc) Tangentes en B, C.\nd) Unicité."
+  },
+  {
+    "id": "bac-c-2017-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\n$f_n(x)=(\\ln x)^n$ sur $]0;+\\infty[$, $n>1$ ; courbe $(C_n)$.\n1.a) Limites en $+\\infty$ et $0^+$ selon parité.\n1.b) $f_n'(x)$ ; tableau de variation.\n2.a) Positions relatives de $(C_2)$ et $(C_3)$.\n2.b) Construire.\n3. $I_n=\\dfrac{(-1)^n}{n!}\\int_1^e f_n(x)\\,dx$ et $u_n=\\sum_{k=0}^n\\dfrac{(-1)^k}{k!}$.\na) Par IPP, $I_2=\\dfrac{e-2}{2}$.\nb) $I_{n+1}=\\dfrac{(-1)^{n+1}}{(n+1)!}e+I_n$.\nc) $I_2=-1+e\\cdot u_2$.\nc') $I_n=-1+e\\cdot u_n$.\n4.a) $0\\le f_n(x)\\le 1$ sur $[1;e]$ ; $|I_n|\\le\\dfrac{e-1}{n!}$.\n4.b) $\\lim I_n=0$ ; $\\lim u_n=e^{-1}$."
+  },
+  {
+    "id": "bac-c-2017-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\n$f(x)=\\int_x^{3x}\\dfrac{e^{-t^2}}{t}\\,dt$ et $f(0)=\\ln 3$.\n1.a) $e^x\\ge x+1$.\n1.b) $1-t\\le e^{-t}\\le 1$ pour $t>0$.\n1.c) $\\ln 3-4x^2\\le f(x)\\le\\ln 3$ pour $x>0$.\n1.d) f continue et dérivable en $0^+$ ; $f_d'(0)=0$.\n2. $g(x)=\\int_1^x\\dfrac{e^{-t^2}}{t}\\,dt$.\na) g dérivable ; $g'(x)$.\nb) $f(x)=-g(x)+g(3x)$.\nc) $f'(x)=\\dfrac{e^{-x^2}}{x}(e^{-8x^2}-1)$.\n3.a) Pour $t\\in[x;3x]$ avec $x>1$, $e^{-9x^2}\\le e^{-t^2}\\le e^{-x^2}$.\n3.b) Encadrement de f(x).\n3.c) $\\lim_{+\\infty}f$.\n3.d) Tableau de variation."
+  },
+  {
+    "id": "bac-c-2018-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n1.a) (E) : $25x-49y=5$ ; PGCD ; solutions entières.\n1.b) (10;5) solution particulière ; résoudre (E).\n1.c) Unique entier $p\\in[1960;2018]$ tel que $25p\\equiv 5\\ [49]$.\n2.a) Si (x,y) solution alors $5x\\equiv 1\\ [7]$ et $y\\equiv 0\\ [5]$.\n2.b) $5x\\equiv 1\\ [7]\\Leftrightarrow x\\equiv 3\\ [7]$.\n3.a) Restes de $x^2$ par 7.\n3.b) Existence de $(x^2, y^2)$ solution de (E)."
+  },
+  {
+    "id": "bac-c-2018-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3-(1+4i)z^2-(9-i)z-6+18i$.\n1.a) $P(3i)$ ; factorisation.\n1.b) Solutions.\n1.c) A, B, C avec $|z_C|\\le|z_B|\\le|z_A|$ ; nature de ABC.\n1.d) $A'=\\text{bar}\\{(A;-5),(B;6),(C;12)\\}$ ; $z_{A'}=-3+i$.\n2. Ellipse $\\Gamma$ de sommets A, $A'$, B.\na) Centre I et excentricité.\nb) Équation cartésienne.\nc) Intersections avec (Ox).\nd) Foyers et directrices ; construction."
+  },
+  {
+    "id": "bac-c-2018-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\nParallélogramme ABCD avec $(\\vec{AB},\\vec{AD})=\\tfrac{\\pi}{4}$ et $AB=2AD$. E, F, G, H tels que AFEB et ADGH carrés directs. I, J, K milieux de [EC], [CG], [GA].\n1. Figure.\n2. $R_A$ rotation centre A angle $\\tfrac{\\pi}{2}$, T translation $\\vec{BC}$, $f=T\\circ R_A$.\na) Nature de f.\nb) $f(D)$ ; caractériser f ; image de F.\nc) [DF] et [CG] perpendiculaires et de même longueur.\n3.a) $\\vec{DF}, \\vec{CE}$ ; ECG rectangle isocèle direct en C.\n3.b) Unique antidéplacement g : $E\\to C, C\\to G$.\n3.c) g symétrie glissante ; forme réduite.\n4. S similitude directe : $B\\to A, A\\to D$.\na) Rapport et angle.\nb) $\\Omega$ centre sur $\\Gamma_1, \\Gamma_2$ (cercles AFEB et ADGH).\nc) $S(F)=G$ ; $S(\\Gamma_1)=\\Gamma_2$.\nd) $M\\in\\Gamma_1, M'=S(M)$ ; A, M, $M'$ alignés."
+  },
+  {
+    "id": "bac-c-2018-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\n1.a) (E) : $y''-6y'+8y=0$.\n1.b) Solution $y_0$ passant par $(0,-1)$ avec tangente horizontale.\n2. $f(x)=e^{4x}-2e^{2x}$ sur $\\mathbb{R}$, courbe (C).\na) Limites.\nb) Tableau de variation.\n3. g restriction sur $I=]-\\infty,0]$.\na) Bijection sur J.\nb) $\\lim\\dfrac{g^{-1}(x)}{x+1}$ en $-1$.\nc) (C) et (C') se coupent en B d'abscisse $\\alpha\\in]-0,6;-0,5[$.\nd) Tracer (C) et (C').\ne) Expression de $g^{-1}(x)$.\n4. Aire S.\na) $S=2\\int_\\alpha^0(x-f(x))\\,dx$.\nb) Valeur de S en fonction de $\\alpha$."
+  },
+  {
+    "id": "bac-c-2018-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (5 points)\nPartie A. $f(x)=\\dfrac{x}{x+1}-(x+1)\\ln(x+1)$ sur $]-1,+\\infty[$, courbe (C).\n1. Limites en $-1^+, +\\infty$.\n2.a) $f'(x), f''(x)$ ; variations de $f'$.\n2.b) $f'(0)$ ; signe de $f'(x)$.\n3.a) Tableau de variation.\n3.b) Tracer (C).\n4.a) $\\int_0^x\\dfrac{t}{t+1}\\,dt$ et par IPP $\\int_0^x(t+1)\\ln(1+t)\\,dt$.\n4.b) Primitive F qui s'annule en 0.\n4.c) Aire $A_n$ entre (C), (Ox), $x=0, x=n$.\nPartie B. $U_n=\\sum_{k=1}^{n-1}\\tfrac{1}{k+1}f(k)$.\n1. $V_n=\\tfrac{1}{n+1}f(n)$.\na) $V_n=\\dfrac{1}{n+1}-\\dfrac{1}{(n+1)^2}-\\ln(n+1)$.\nb) $U_n=S_n-S_n'-\\ln(n!)$.\n2. $S_n=\\sum\\tfrac{1}{k}$, $S_n'=\\sum\\tfrac{1}{k^2}$.\na) $\\tfrac{1}{n}+\\ln n\\le S_n\\le 1+\\ln n$.\nb) $1-\\tfrac{1}{n}+\\tfrac{1}{n^2}\\le S_n'\\le 2-\\tfrac{1}{n}$.\nc) Encadrement de $U_n+\\ln((n-1)!)$."
+  },
+  {
+    "id": "bac-c-2018-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5 points)\n$P(z)=z^3-(7+3i)z^2+(12+15i)z-4-18i$.\n1.a) $P(2)$ ; $a, b$ tels que $P(z)=(z-2)(z^2+az+b)$.\n1.b) Solutions.\n1.c) A, B, D images avec $\\text{Im}(z_A)\\le\\text{Im}(z_B)\\le\\text{Im}(z_D)$ ; nature de ABD.\n2.a) Barycentre de $\\{(A;9),(B;-6),(C;2)\\}$, C symétrique de A par (BD).\n2.b) $\\Gamma_1:9MA^2-6MB^2+2MC^2=-10$.\n2.c) $\\Gamma_2:4MA^2-6MB^2+2MC^2=-10$.\n2.d) $\\Gamma_3:(9\\vec{MA}-6\\vec{MB}+2\\vec{MC})\\cdot(\\vec{MA}-\\vec{MB}+\\vec{MC})=10$.\n3. $S^0=\\text{id}, S^{n+1}=S\\circ S^n$ ; S similitude directe $A\\to B, B\\to D$.\na) $S^{2018}$ ; nature et éléments.\nb) $S^{2020^{2020}}$ homothétie de rapport positif."
+  },
+  {
+    "id": "bac-c-2018-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\nI. $f(x)=(x+1)e^{-1/x}$ pour $x>0$, $f(0)=0$.\n1.a) Continuité et dérivabilité à droite en 0.\n1.b) Tableau de variation.\n2.a) $0\\le e^{-t}+t-1\\le\\dfrac{t^2}{2}$.\n2.b) $f(x)-x\\le\\dfrac{1}{2x^2}-\\dfrac{1}{2x}$.\n2.c) Asymptote oblique A.\n3. Construire (C) et A.\n4.a) Bijection sur J.\n4.b) Construire $(C')$ de $f^{-1}$.\nII. $f_n(x)=(x+\\tfrac{1}{n})e^{-1/x}$ pour $x>0$, $f_n(0)=0$.\n1.a) Continuité, dérivabilité en 0.\n1.b) Variations ; $f_n(x)=\\tfrac{1}{n}$ admet une unique solution $\\alpha_n$.\n2.a) $g_n(x)=f_n(x)-\\tfrac{1}{n}$ ; signe de $g_{n+1}-g_n$ ; $(\\alpha_n)$ décroissante convergente.\n2.b) $\\alpha_n=\\tfrac{1}{n}(e^{1/\\alpha_n}-1)$ ; $\\lim\\alpha_n$."
+  },
+  {
+    "id": "bac-c-2018-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\nCarré direct ABCD de centre O et côté a. G milieu de [AB]. AEFG carré direct.\n1.a) Figure.\n1.b) Unique rotation r : $O\\to A, B\\to O$.\n1.c) Éléments.\n1.d) g antidéplacement : $B\\to E, O\\to G$ ; symétrie glissante ; forme réduite.\n2.a) Unique similitude directe s : $C\\to F, B\\to E$.\n2.b) Image du carré ABCD par s ; centre de s.\n3. $h=s\\circ r^{-1}$.\na) h homothétie ; rapport.\nb) I centre de h ; $I=\\text{bar}\\{(O,1);(E,2)\\}$.\nc) $M'=r(M), M''=s(M)$ ; (M'M'') passe par un point fixe.\n4. $\\Gamma$ hyperbole de foyers O, F passant par J projeté orthogonal de I sur (OF).\na) Coordonnées dans $(G,\\vec{GB},\\vec{GO})$.\nb) Équation.\nc) Sommets, asymptotes, excentricité.\nd) Construire."
+  },
+  {
+    "id": "bac-c-2018-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\n$f(x)=-x+2\\ln(1+e^x)$ sur $\\mathbb{R}$, courbe (C).\nPartie A.\n1.a) Tableau de variation.\n1.b) Asymptotes D, D' ; positions relatives.\n1.c) Construire (C) et asymptotes.\n2. g restriction sur $I=[0,+\\infty[$.\na) Bijection sur J.\nb) Construire $(C')$ de $g^{-1}$.\nPartie B. $u_n=\\int_0^{\\ln 5}(f'(t))^n\\,dt$, $u_0=\\ln 5$.\n1. Calculer $u_1$.\n2.a) $0\\le f'(x)\\le\\tfrac{2}{3}$ sur $[0,\\ln 5]$.\n2.b) $0\\le u_n\\le(\\tfrac{2}{3})^n\\ln 5$.\n2.c) $\\lim u_n$.\n3.a) $(f'(x))^2-1=-2f''(x)$.\n3.b) $u_{n+2}-u_n=\\dfrac{-2}{n+1}(\\tfrac{2}{3})^{n+1}$.\n3.c) Expressions de $u_{2n}, u_{2n+1}$.\n4. $v_n=\\sum_{p=1}^{2n}\\dfrac{1}{p}(\\tfrac{2}{3})^p$ ; $v_n=\\ln 3-\\tfrac{u_{2n}+u_{2n+1}}{2}$ ; $\\lim v_n$."
+  },
+  {
+    "id": "bac-c-2019-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n1. (E) : $7x-5y=1$.\na) (3;4) solution ; résoudre.\nb) Si (x,y) solution, $x\\equiv 3\\ [5]$ et $y\\equiv 4\\ [7]$.\n2. S = $\\{A : A\\equiv 4\\ [5], A\\equiv 3\\ [7]\\}$.\na) (x,y) tel que $A=7x+3=5y+4$.\nb) $A\\in S\\Leftrightarrow A\\equiv 24\\ [35]$.\nc) B en base n s'écrit 374a ; déterminer n et écriture décimale."
+  },
+  {
+    "id": "bac-c-2019-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3-(5+4i)z^2+(7+10i)z+5-10i$.\n1. $P(i)$ et solutions $z_0, z_1, z_2$ avec $\\text{Re}(z_0)<\\text{Re}(z_1)<\\text{Re}(z_2)$.\n2. A, B, C d'affixes $z_0, z_1, z_2$.\na) Nature de ABC.\nb) G barycentre de $\\{(A,13);(B,-3);(C,2)\\}$.\nc) $\\Gamma:13MA^2-3MB^2+2MC^2=12$.\n3. Hyperbole H de centre G passant par C avec A sommet.\na) 2e sommet.\nb) Équation $x^2-3(y-2)^2=-3$.\nc) Équation réduite, foyers, asymptotes, excentricité."
+  },
+  {
+    "id": "bac-c-2019-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\n$f(x)=x^3-x\\ln x$ pour $x>0$, $f(0)=0$ ; courbe (C).\n1.a) Continuité et dérivabilité à droite en 0.\n1.b) Limites en $+\\infty$.\n2.a) $f'(x), f''(x)$ ; point d'inflexion A.\n2.b) Variations de $f'$ ; signe.\n2.c) Tableau de variation.\n3.a) Bijection sur J.\n3.b) Positions relatives entre (C) et $(C')$ ; 3 points dont $\\alpha\\in[0,45;0,46]$.\n4. Tracer (C) et $(C')$.\n5.a) Par IPP, primitive F qui s'annule en 1.\n5.b) $K=\\int_\\alpha^1 f(t)\\,dt$ et $I(n)=\\int_{1/n}^\\alpha f(t)\\,dt$ ; $\\lim I(n)$.\n5.c) Aire S entre (C) et $(C')$."
+  },
+  {
+    "id": "bac-c-2019-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\nTriangle équilatéral direct ABC de côté a. D, E, F milieux de [BC], [CA], [AB]. Carré direct AGHD de centre O. I, J, K milieux de [EC], [GH], [AD].\n1. Figure.\n2.a) Unique antidéplacement f : $A\\to C, E\\to D$.\n2.b) f symétrie glissante ; forme réduite.\n3.a) Unique rotation r : $H\\to B, D\\to E$ ; angle. Centre $\\Omega$.\n3.b) $\\Omega\\in(CF)$ et sur cercle de diamètre [AB].\n3.c) $\\Omega\\in(DG)$.\n4.a) Unique similitude directe S : $B\\to D, D\\to I$.\n4.b) S' similitude directe de centre A, rapport $\\tfrac{\\sqrt{3}}{2}$, angle $\\tfrac{\\pi}{6}$.\n5. $(M_n)$ : $M_0=B, M_{n+1}=S(M_n)$.\na) $AM_nM_{n+1}$ rectangle.\nb) Nature de $ABM_{2019}$ et aire."
+  },
+  {
+    "id": "bac-c-2019-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\n$f(x)=\\dfrac{1}{\\sqrt{1+e^x}}$.\n1. Variations et tracer la courbe.\n2. $f(x)=x$ admet une unique solution $\\alpha\\in]0,7;0,8[$.\n3. Aire A entre courbe, (Ox), $x=\\alpha, x=\\ln 3$.\na) $A=\\int_\\alpha^{\\ln 3}\\dfrac{dx}{\\sqrt{1+e^x}}$.\nb) $t=\\dfrac{1}{\\sqrt{1+e^x}}$ ; $A=\\int_\\alpha^{1/2}\\dfrac{2dt}{t^2-1}$.\nc) Décomposition en éléments simples ; valeur de A.\n4. $I_n=\\int_\\alpha^{\\ln 3}(f(t))^{2n}\\,dt$, $S_n=\\sum I_k$.\na) Encadrement de $I_n$ ; $\\lim I_n=0$.\nb) $2f'(x)=(f(x))^3-f(x)$.\nc) $(f(x))^2=1+2(\\tfrac{f'(x)}{f(x)})$ ; $I_1$.\n5.a) $I_{n+1}-I_n=\\dfrac{1}{n}(\\tfrac{1}{2^{2n}}-\\alpha^{2n})$.\n5.b) Récurrence sur $I_{n+1}$.\n5.c) $\\lim\\sum\\tfrac{1}{k}(\\alpha^{2k}-\\tfrac{1}{2^{2k}})=\\ln(\\tfrac{3}{4(1-\\alpha^2)})$."
+  },
+  {
+    "id": "bac-c-2019-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5 points)\n$P(z)=z^3-(12+5i)z^2+(45+42i)z-(54+97i)$.\na) m, p tels que $P(z)=(z-3-4i)(z^2+mz+p)$ ; résoudre $P(z)=0$.\nb) A, B, C avec $\\text{Re}(z_A)\\ge\\text{Re}(z_B)\\ge\\text{Re}(z_C)$.\na') I barycentre de $\\{(A;-3);(B;2);(C;3)\\}$.\nb') S similitude directe de centre I, rapport $\\tfrac{1}{\\sqrt{2}}$, angle $\\tfrac{\\pi}{4}$.\nc') $S(C)=D$ d'affixe $1+4i$.\n2. Ellipse $\\Gamma$ de centre I avec D, A sommets.\na) Équation réduite dans $(O,\\vec{i},\\vec{j})$.\nb) Excentricité, foyers, autres sommets ; construire.\n3. $(M_n)$ : $M_0=C, M_{n+1}=S(M_n)$.\na) Affixes $z_1, z_2, z_3$.\nb) Tous $M_n$ sur l'une des droites (IA), (IB), (IC), (ID) ; laquelle pour $M_{2019}$."
+  },
+  {
+    "id": "bac-c-2019-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\n$I_n=\\int_2^4\\dfrac{(x-2)^n e^{2-x}}{n!}\\,dx$.\n1.a) Par IPP, $I_1$.\n1.b) $0\\le I_n\\le\\dfrac{2^n}{n!}(1-e^{-2})$.\n2.a) Par IPP, $I_{n+1}=I_n-\\dfrac{2^{n+1}}{(n+1)!}e^{-2}$.\n2.b) $(I_n)$ décroissante donc convergente.\n3. $u_n=\\dfrac{2^n}{n!}e^{-2}$.\na) $u_{n+1}\\le\\tfrac{1}{3}u_n$ pour $n\\ge 5$.\nb) $0\\le u_n\\le\\tfrac{4}{15}(\\tfrac{1}{3})^{n-5}$ ; $\\lim u_n=0$.\nc) $0\\le I_n\\le(e^2-1)u_n$ ; $\\lim I_n=0$.\n4.a) $I_n=1-e^{-2}\\sum_{k=0}^n\\dfrac{2^k}{k!}$.\n4.b) $\\lim\\sum=e^2$."
+  },
+  {
+    "id": "bac-c-2019-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\nTriangle ABC rectangle isocèle direct en A. I, J, K, O milieux de [AB], [BC], [CA], [AJ]. D symétrique de A par J.\n1. Figure.\n2. Antidéplacement f : $K\\to J, I\\to D$ ; symétrie glissante ; forme réduite.\n3.a) Unique similitude directe S : $A\\to I, B\\to J$.\n3.b) Rapport et angle.\n3.c) Centre $\\Omega$ sur cercles AOI et BIJ.\n3.d) $S(C)$ ; $\\Omega, C, I$ alignés.\n3.e) $\\Omega=\\text{bar}\\{(C,a);(I,b)\\}$.\n4. h homothétie de centre $\\Omega$ : $O\\to B$. $g=h\\circ S$.\na) $h(I)=C$ ; rapport.\nb) Nature et éléments de g ; $g(I)$.\nc) Image de AIJK par g ; ($\\Omega D$) passe par L milieu de [AI]."
+  },
+  {
+    "id": "bac-c-2019-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5 points)\n$f(x)=\\dfrac{3\\ln x}{1+x^3}$ sur $]0;+\\infty[$, courbe (C).\n1. $u(x)=1+x^3(1-3\\ln x)$.\na) Limites en $0^+, +\\infty$.\nb) Tableau de variation.\nc) Solution unique $\\alpha$ avec $1{,}5\\le\\alpha\\le 1{,}6$ ; signe.\n2.a) Limites de f ; interprétations.\n2.b) $f'(x)=\\dfrac{3u(x)}{x(1+x^3)^2}$ ; tableau de variation.\n2.c) $f(\\alpha)=\\dfrac{1}{\\alpha^3}$ ; tracer (C).\n3. $v_n=\\int_1^e\\dfrac{(\\ln t)^n}{1+t^3}\\,dt$.\na) Décroissante et minorée ; convergente.\nb) $\\dfrac{1}{1+e^3}\\int_1^e(\\ln t)^n\\,dt\\le v_n\\le\\int_1^e(\\ln t)^n\\,dt$.\n4. $w_n=\\int_1^e(\\ln t)^n\\,dt$.\na) Décroissante.\nb) Par IPP, $w_{n+1}=e-(n+1)w_n$.\nc) $\\dfrac{e}{n+2}\\le w_n\\le\\dfrac{e}{n+1}$ ; $\\lim w_n=0$.\nd) $\\lim v_n=0$."
+  },
+  {
+    "id": "bac-c-2020-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\n1. (E) : $13x-15y=5$.\na) Entier p tel que $(p+1;p)$ solution.\nb) Résoudre (E).\n2. S = $\\{N:N\\equiv 5\\ [13], N\\equiv 10\\ [15]\\}$.\na) (x,y) tel que $N=13x+5=15y+10$.\nb) $N\\in S\\Leftrightarrow N\\equiv 70\\ [195]$.\nc) Plus petit A de S avec $A\\ge 2000$.\nd) A s'écrit COVID en base n ; déterminer n."
+  },
+  {
+    "id": "bac-c-2020-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\n$P(z)=z^3+(1-2i)z^2-(5+3i)z+4-8i$.\n1. $P(-i)$ et solutions.\n2. A, B, C images avec $|z_B|<|z_A|<|z_C|$.\na) Placer ; nature de ABC.\nb) G barycentre de $\\{(A;9),(B;-2),(C;6)\\}$ ; $z_G=2i$.\nc) $E:9MA^2-2MB^2+6MC^2=195$.\nd) $F:3MA^2-5MB^2+2MC^2=65$.\ne) Position relative entre E et F.\n3. f : $z'=mz+(2-2m)i$, $m\\in\\mathbb{C}$.\na) Résoudre $z'=z$.\nb) m tel que $f(B)=A$ ; caractériser."
+  },
+  {
+    "id": "bac-c-2020-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4 points)\nTriangle isocèle direct ABC avec $BC=2a, AB=AC=3a$, $(\\vec{AB},\\vec{AC})=\\theta\\ [2\\pi]$. $A'$ milieu de [BC], H orthocentre, $B'$ projeté de B sur (AC).\n1. Figure.\n2.a) $\\vec{CA}\\cdot\\vec{CB}=CA\\cdot CB'=CB\\cdot CA'$.\n2.b) Distance B'C et B'A.\n2.c) $\\dfrac{\\overline{B'A}}{\\overline{B'C}}=-\\tfrac{7}{2}$ ; $B'=\\text{bar}\\{(A,2);(C,7)\\}$.\n2.d) $G=\\text{bar}\\{(A,1);(B,1);(C,1)\\}$ sur hauteurs.\n3.a) A, B, $A', B'$ cocycliques ; H, C, $A', B'$ cocycliques.\n3.b) Relations d'angles."
+  },
+  {
+    "id": "bac-c-2020-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\nI. $f(x)=x\\ln(\\tfrac{x+1}{x})$ pour $x>0$, $f(0)=0$, courbe (C).\n1.a) Continuité et dérivabilité à droite en 0.\n1.b) $f''(x)=\\dfrac{-1}{x(x+1)^2}$.\n1.c) Variations de $f'$ ; $f'(x)>0$.\n2.a) $\\lim_{+\\infty}f=1$ ; interprétation.\n2.b) Tableau de variation ; tracer (C).\nII. $g(x)=\\dfrac{1}{x}-\\ln(\\tfrac{x+1}{x})$ sur $]0;+\\infty[$.\n1.a) $g(n)=\\tfrac{1}{n}-\\int_n^{n+1}\\tfrac{1}{x}\\,dx$.\n1.b) Encadrement de g(n).\n2. $U_n=\\sum_{k=n}^{2n}\\tfrac{1}{k(k+1)}$.\na) $\\sum g(k)\\le U_n$.\nb) $U_n=\\dfrac{n+1}{n(2n+1)}$.\nc) $\\lim U_n=\\tfrac{1}{2}$ ; $\\lim\\sum g(k)$."
+  },
+  {
+    "id": "bac-c-2020-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (5 points)\n1. $f(x)=(x+2)e^{-x}$ sur $\\mathbb{R}$, courbe (C).\na) Limites et $\\tfrac{f}{x}$.\nb) Tableau de variation ; tracer (C).\n2. g restriction sur $I=[-1;+\\infty[$.\na) Bijection sur J.\nb) Tracer $(C')$ de $g^{-1}$.\n3. $I_n=\\int_{-2}^0\\dfrac{(x+2)^n e^{-x}}{n!}\\,dx$.\na) $0\\le\\tfrac{(x+2)^n}{n!}e^{-x}\\le\\tfrac{2^n}{n!}e^2$.\nb) Par IPP, $I_1=e^2-3$.\nc) $I_{n+1}=I_n-\\dfrac{2^{n+1}}{(n+1)!}$ ; $I_n=e^2-U_n$ ; $\\lim I_n=0$, $\\lim U_n=e^2$.\n4. $v_n=\\dfrac{2^n}{n!}$ ; $v_{n+1}\\le\\tfrac{2}{3}v_n$ pour $n\\ge 2$ ; $v_n\\le 2\\cdot(\\tfrac{2}{3})^{n-2}e$ ; $\\lim v_n=0$.\n5. $0\\le I_n\\le 2e^2 v_n$."
+  },
+  {
+    "id": "bac-c-2021-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (3 points)\nA. 1. Reste de 2021 par 11.\n2. Reste de $2021^n$ par 11.\n3. $2021^{2020}-2021^{1960}$ divisible par 11.\nB. N s'écrit xyxy en décimal.\n1. N multiple de 101.\n2. y pour N multiple de 5.\n3. x, y pour N multiple de 20.\nC. $M=\\begin{pmatrix}x&y\\\\5&11\\end{pmatrix}$, $0<x,y<10$.\n1. M inversible ; $M^{-1}$.\n2. Valeurs de x, y telles que $\\det M=1$."
+  },
+  {
+    "id": "bac-c-2021-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4 points)\nRectangle ABCD de centre O avec $(\\vec{AB},\\vec{AC})=\\tfrac{\\pi}{3}\\ [2\\pi]$. E symétrique de B par (AC), F celui de O par A, I milieu de [OA], J milieu de [OD].\n1. Figure soignée.\n2. BEF équilatéral direct.\n3. O, E, F, B cocycliques ; centre.\n4.a) Unique antidéplacement f : $F\\to O, A\\to D$.\n4.b) f symétrie glissante ; forme réduite.\n5.a) Unique similitude directe S : $E\\to O, B\\to C$.\n5.b) Rapport et angle.\n5.c) Centre sur cercles [OE] et [BC].\n5.d) Image de C ; construire K=S(D).\n5.e) $(M_n)$ : $M_0=B, M_{n+1}=S(M_n)$ ; $M_{2021}\\in[JC]$."
+  },
+  {
+    "id": "bac-c-2021-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5 points)\nPlan complexe, A, B d'affixes $-2-i, -1-3i$.\n1.a) $-4z^2-(12+16i)z+7-24i=(2iz-4+3i)^2$.\n1.b) Solutions de (E) : $z^2-(2m+2+i)z+2m^2+(5+5i)m-1+7i=0$.\n2. $S_1:z_1=(1+i)m-1+2i$ et $S_2:z_2=(1-i)m+3-i$.\na) Éléments de $S_1, S_2$.\nb) $S_1\\circ S_2$ homothétie ; rapport et centre C.\nc) R rotation $M_1\\to M_2$ ; angle et centre D.\nd) Placer A, B, C, D ; nature de ABD.\n3. E ellipse de foyers A, B, sommet D.\na) Centre I ; grand axe $\\sqrt{10}$.\nb) Équation.\nc) Construire après sommets."
+  },
+  {
+    "id": "bac-c-2021-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4 points)\n$f(x)=1+(x+1)\\ln(x+1)-(\\ln(x+1))^2$ sur $I=]-1;+\\infty[$, courbe (C).\n1. Limites.\n2. $u(x)=x+1-\\ln(x+1)$, $v(x)=x\\ln(x+1)$.\na) v positive sur $]-1,0[$ et $]0,+\\infty[$.\nb) Variations de u ; positive.\nc) $f'(x)=\\dfrac{u(x)+v(x)}{x+1}$.\nd) Tableau de variation.\n3. f bijection sur J.\n4. $g(x)=f(x)-x$.\na) Variations de g ; $g(x)=0$ admet une unique solution $\\alpha$.\nb) $-0,7<\\alpha<-0,6$ ; position de (C) et $y=x$.\n5. Construire $\\Delta$, (C), $(C')$."
+  },
+  {
+    "id": "bac-c-2021-sn-math-ex5",
+    "matiere_id": "math",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4 points)\n$f(0)=0$, $f(x)=\\dfrac{e^{1-1/x}}{x^2}$ pour $x>0$, courbe $\\Gamma$.\n1.a) $\\dfrac{e^{1-1/x}}{x^n}=e^{1-1/x+n\\ln(1/x)}$ ; $\\lim_{0^+}\\tfrac{e^{1-1/x}}{x^n}=0$.\n1.b) Continuité et dérivabilité à droite en 0.\n2.a) $f'(x)=\\dfrac{(1-2x)e^{1-1/x}}{x^4}$ ; signe.\n2.b) Tableau de variation ; tracer $\\Gamma$.\n3. Aire A entre $\\Gamma$, (Ox), $x=1, x=2$.\n4. $I_n=\\int_1^2\\dfrac{f(x)}{x^n}\\,dx$.\na) $I_0=A$.\nb) $(I_n)$ décroissante et positive ; convergente.\nc) Par IPP, $I_{n+1}-(n+1)I_n=\\dfrac{\\sqrt{e}}{2^{n+1}}-1$.\nd) $0\\le I_n\\le\\dfrac{1}{n}(1-\\dfrac{\\sqrt{e}}{2^{n+1}})$ ; $\\lim I_n=0$."
+  },
+  {
+    "id": "bac-c-2002-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "On donne les potentiels standards des deux couples redox suivants: H2O2/H2O:\n1,77V et O2/H2O2: 0,68V\n1 Ecrire le bilan de la réaction naturelle entre les deux couples. (0,5pt)\n2 On réalise en présence d'ions Fe3+ une telle décomposition. L'expérience est\nréalisée à température constante. On considère que le volume V de la solution\naqueuse de peroxyde d'hydrogène reste constant et que le volume molaire d'un gaz\nest Vm = 24L/mol. On utilise V = 10 mL de solution de peroxyde d'hydrogène de\nconcentration molaire volumique C = 6 10-2 molL-1. On ajoute quelques gouttes du\ncatalyseur et on note à divers instants le volume VO2 du gaz dioxygène dégagé. Les\nrésultats sont indiqués dans le tableau ci-dessous :\n2-1 Montrer que la\nconcentration\nvolumique du\nperoxyde d'hydrogène\nrestant en solution est\nde la forme:\nα\nV\nH O C\nO\n= −\n[ ]2\nPréciser la valeur de α.\n2-2 Tracer la courbe [H2O2] = f(t) . Echelle sur l'axe des abscisses 1 cm représente 3\nmin, sur l'axe des ordonnés 2Cm représente 10-2 mol/L\n2-3 Donner la définition de la vitesse instantanée de disparition du peroxyde\nd'hydrogène et la calculer en (mol./L/.mn) aux dates t0 = 0 et t15 = 15 mn.\nConclure.(1pt)\n2-4 Déterminer le temps de démi-réaction. (0,5 pt)"
+  },
+  {
+    "id": "bac-c-2002-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "Les particules se propagent dans le vide et on néglige leur poids devant les autres\nforces\n1 Dans un spectrographe de masse des ions 24Mg2+ produits dans\nune chambre d’ionisation pénètrent sans vitesse dans un\naccélérateur constitué de deux plaques métalliques P et P’ entre lesquelles est appliquée une tension électrique réglable U=VP – VP’.\nEtablir l’expression de la vitesse de l’ion à son passage par le point O en fonction de\nm, e et U. la calculer.\n2 A la sortie de l’accélérateur les ions passent dans un champ magnétique ,\nperpendiculaire au plan de la figure1.\n2.1 Déterminer le sens du champ magnétique pour que les ions\nsoient déviés vers le haut.\nfig2\n2.2 Montrer que le mouvement, dans le champ magnétique , des ions est\nuniforme et circulaire. Déterminer l’expression du rayon de la trajectoire\nen fonction de e, U, B et m. Calculer sa valeur.\n3 Dans une deuxième expérience on place dans la chambre d’ionisation un\nmélange d’isotopes de magnésium 23Mg2+ et 24Mg2+ de masses respectives\nm et m’ qui parviennent en C et C’ dans la zone de réception indiquée sur\nla figure2.\nExprimer la distance CC’ entre les traces des deux types d’ions à leur arrivée dans la\nzone de réception en fonction de B, m, m’, U et e. Calculer CC’.\nDonnée : mp=1,67.10-27 Kg\n-19\n,\nB = 0,2T ; U= 5000V. e = 1,6.10"
+  },
+  {
+    "id": "bac-c-2002-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "On considère trois dipôles D1, D2 et D3 de nature inconnue ; un de ces trois dipôles est une\nrésistance morte R, l'autre un condensateur de capacité C et le troisième une bobine\nd'inductance L et de résistance interne r.\nDans une première expérience, on maintient aux bornes de chacun de ces dipôles une\ntension continue U=18V et on mesure les intensités I du courant qui les traverse.\nDans une deuxième expérience: on maintient aux bornes de chacun de ces dipôles une\ntension sinusoïdale de valeur efficace Ueff = 24V et de fréquence N = 50Hz et on\nmesure les intensités efficaces Ieff du courant.\nLes résultats des deux expériences sont regroupés dans le tableau\nci-dessus :\n1 Calculer pour chaque dipôle les rapports U\nU\net eff\nI\nI . Montrer que\nD2 3,75 5\neff\nl'analyse de ces résultats permet de déterminer la nature de\nchaque dipôle. (0,75pt)\n2 Calculer pour chaque cas les caractéristiques de chaque dipôle. (0,75pt)\n3 On considère le cas où la tension est sinusoïdale, déterminer pour chaque dipôle le\ndéphasage entre u(t) et i(t). (0,75pt)\n4 On branche les trois dipôles en série et on applique aux bornes du dipôle obtenu une\ntension sinusoïdale de fréquence variable et de valeur efficace Ueff = 24V.\n4-1 Faire un schéma du circuit sur lequel vous précisez le branchement d'un\noscillographe qui permet de visualiser u(t) et qualitativement i(t). (0,5pt)\n4-2 pour une valeur déterminée de la fréquence f0 on constate que la tension u(t) et i(t)\nsont en phase.\nQu'appelle-t-on ce phénomène ? Calculer la valeur de la fréquence f0 et celle de\nl'intensité efficace I0 correspondante. (0,75pt)\n4-3 Calculer le facteur de qualité du circuit et en déduire la largeur de la bande passante.\nConclure."
+  },
+  {
+    "id": "bac-c-2002-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "1 On réalise différentes solutions en mélangeant à chaque opération; une solution\naqueuse S1 d'un acide carboxylique R-COOH de volume VA et une solution aqueuse S2\nde Carboxylate de sodium (R-COO-, Na+) de volume VB. Les concentrations molaires\ndes solutions utilisées pour ces mélanges sont les mêmes pour S1 et S2 et égales à C. Les\nvaleurs du pH de ces solutions pour les couples de valeur (VA, VB) sont indiquées dans\nle tableau suivant:\nV\n1.1 Représenter graphiquement pH=f(x) avec B\nx log\n⎛ ⎞ ⎜ ⎟ ⎝ ⎠ On prendra comme échelle\nV=\nA\n10cm sur l’axe horizontal correspondant à l'unité de x et 2cm sur l’axe vertícal\ncorrespondant à l'unité du pH. (1pt)\n1.2 Montrer que pH =f (x) peut se mettre sous la forme pH = ax + b (a et b étant deux\nconstantes que l’on déterminera graphiquement. (1pt)\n2 L'acide R-COOH étant supposé faible, montrer que dans le mélange obtenu on a :\n2.1 [ ]B A R COO / R COOH V / V− ⎡ ⎤ − − = ⎣ ⎦ (0,5pt)\n2.2 Etablir l’expression du pH du mélange obtenu en fonction du pKa et du rapport\n[ ] R COO / R COOH− ⎡ ⎤ − − ⎣ ⎦ (0,5pt)\n2.3 En déduire le pKa de l'acide."
+  },
+  {
+    "id": "bac-c-2002-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "1 On a préparé un ester E de masse molaire moléculaire 88g/mol.\n1.1 Quelle est la formule brute de cet ester sachant qu'elle est de la forme CnH2nO2 ?\n1.2 Ecrire les quatre formules semi-développées\ndes esters, ayant la formule brute\nprécédente,\n2 Pour identifier l’ester on le fait réagir avec\nune solution d'hydroxyde de sodium (soude) en\nexcès. Ecrire pour chacun des quatre esters\nprécédents l'équation de la réaction avec la soude et donner le nom de l'alcool formé.\n3 Après l'action de la soude, on isole l'alcool formé. On procède à une oxydation\nménagée de cet alcool par une solution de dichromate de potassium au milieu acide. On\nconstate alors, que l’addition de dinitro-2-4 phénylhydrazine à la solution précédente\nproduit un précipité jaune, par contre le réactif de Schiff n'a aucune réaction sur cette\nsolution. En déduire la formule semi développée de l’ester?\nOn donne les masses molaires atomiques des molécules suivantes\nC=12g/mol; O=16g/mol; H=1g/mol."
+  },
+  {
+    "id": "bac-c-2002-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "Un solide S ponctuel de masse m peut se déplacer suivant la piste ABCD (voir figure 1):\n− AB: un quart de cercle de centre O et de rayon R\n− BC: un segment de droite\n− CD: un quart de cercle de centre O' et de rayon R\nOn néglige les frottements sur les parties AB et CD. Le solide quitte A sans vitesse\ninitiale.\n− 1 Donner l'expression de la vitesse du solide S en fonction de g, R et θ au point\nM et calculer sa valeur au point B.\n− 2 Le solide arrive au point C avec une vitesse nulle et continue son mouvement\nsur CD\n− 2.1 Donner l'expression de la réaction de la piste au point N en fonction de m,g et\nα.\n− Si on considère que les frottements sur la partie BC sont assimilables à une force\nunique, constante f . Calculer son intensité,\n− 3 Le solide quitte la piste pour une certaine valeur de α.\n3.1 Calculer cette valeur.\n3.2 Donner les caractéristiques du vecteur vitesse 0 V au point où le solide quitte la piste.\n4.1 Donner les équations paramétriques du mouvement de S dans le repère CXY.\nTrouver les cordonnées du point de contact du solide S avec le sol et la durée de la\nchute. (1,5pt)\n4.2 En utilisant la conservation de l'énergie mécanique. Calculer la vitesse du solide à\nson arrivée au sol. On donne m=100g ; R=1,5m BC=2m ; g=10m/s-2"
+  },
+  {
+    "id": "bac-c-2002-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "Un solénoïde de longueur l, formé de N spires et d'inductance L.\nL'axe du solénoïde est perpendiculaire au méridien magnétique,\n1 Traversé par un courant d'intensité I, une aiguille aimantée d'axe confondu avec celui\ndu solénoïde dévie d'un angle α =45°. Quelle est l'intensité du courant circulant dans le\nsolénoïde et quel est l’angle de déviation de l'aiguille si on inverse le sens du courant,\nOn donne: l=0,5m ; N=1000spires B0 =2.10-5T ;\nµ 0=4 π .10-7S.I\n2 L'inductance de ce solénoïde est L=20mH et sa\nrésistance est négligeable. Il est traversé par un courant\nd'intensité i variable en fonction du temps selon le\ngraphe; de la figure2.\n2.1 Donner l'expression de i(t) en fonction du temps\ndans l'intervalle [0, 60ms]\n2.2 Faites un schéma du solénoïde en précisant le\nbranchement d'un oscillographe qui permet de visualiser, la tension entre ces bornes.\n2.3 Donner les valeurs de la tension dans l’intervalle de temps [0,60ms].\n2.4 Représenter l’écran de l’oscillographe sur lequel faites apparaître les variations de la\ntension en fonction du temps. On prendra comme échelle: 10ms/div et 1V/div"
+  },
+  {
+    "id": "bac-c-2002-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2002,
+    "filiere_id": "C",
+    "ennonce": "Exercices 5\n1. A la haute altitude l'azote 14\n7 N se transforme en 14\n6 C sous l'effet de bombardement par\ndes neutrons. Ecrire l'équation nucléaire de cette réaction nucléaire.\ncarbone 14 est 5600 années.\nLes plantes vivantes assimilent le dioxyde de carbone provenant de l4C ou de 13C.\nLa proportion des deux isotopes est la même dans l'atmosphère et dans les végétaux.\nQuand une plante meurt, le processus d'assimilation s'arrête et la teneur en 14C dans la\nplante, diminue. Un échantillon de bois préhistorique donne 197 désintégrations/min.\nUn échantillon de même masse du bois récent donne 1350 désintégrations/min. Tracer\nla courbe représentant le nombre d'intégrations par minute du bois actuel en fonction du\ntemps dans l'intervalle de temps [0;20000ans]. En déduire l'âge du bois préhistorique,\n4. En fait la période du carbone 14 est 5.590 années. Déterminer par le calcul l'âge\ndu bois préhistorique"
+  },
+  {
+    "id": "bac-c-2003-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "On considère les solutions aqueuses suivantes à 25° C\nL'acide propanoïque de pKa1 = 4,9\nL'acide 2-chloro-propanoïque de pKa2 =1,5\nL'acide3-chloro-propanoïquedepKa3= 2 ,2\nL'acide 2-2 dichloro -propanoïquede pKa4 =2,7\nL'acide 2-3 dichloro - propanoïque de pKa5= 2,2\n1 Ecrire les formules semi-devéloppées des acides précédents ainsi que les formules et\nles noms de leurs bases conjuguées.\n2 On considère une solution d'acide 2-chloro-propanoïque de pH = 2,15\n2.1 Calculer la concentration molaire volumique de cet acide.\n2.2 On verse progressivement dans un becher contenant un volume V1 = 12mL de cet\nacide une solution Sb d'hydroxyde de sodium. L'équivalence est obtenue lorsqu'on a\nversé un volume Vbe =20mL. Le pH à l'équivalence est alors pH = 8,7.\n2.2.1 Ecrire l'équation de la réaction du dosage. (0,25pt)\n2.2.2 Calculer la concentration molaire volumique Cb et en déduire la masse\nd'hydroxyde de sodium qui a été dissoute dans l'eau pour obtenir 500mL de cette\nsolution Sb. (0,5pt) On donne : Na :23g/mol ; O : 16g/mol ; H :1g/mol .\n2.3 On considère les indicateurs colorés suivants et leurs zones de virage :\nChoisir parmi ces indicateurs celui qu'il faut utiliser\ndans ce dosage. 3.1 Comparer la force relative de ces acides en les\nclassant sur une échelle de pKa croissante. 3.2 En utilisant le classement précédent, préciser\nl'influence du nombre d'atomes de chlore que\ncontient la molécule et de leurs positions dans la\nmolécule sur la force relative de ces acides."
+  },
+  {
+    "id": "bac-c-2003-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "On négligera tout frottement et on prendra g =\n10m/s2. Un pendule simple est constitué par un\nfil inextensible de masse négligeable et de\nlongueur l = OA= 0,5m, mobile autour d'un axe\nA passant par son extrémité supérieure O. On\nfixe à son extrémité A une bille métallique ponctuelle de masse m = 20g. (fig1)\n1 Le pendule est écarté d'un angle 60\nα = ° par rapport à sa position d'équilibre, puis\nlâché sans vitesse initiale.\nCalculer la vitesse, l'énergie cinétique et l'énergie mécanique du système au passage\npar la position d'équilibre M0.\n2 Le pendule étant dans sa position d'équilibre stable, quelle vitesse Vo minimale horizontale\nfaudrait-il communiquer à la bille pour que celle-ci puisse effectuer un tour complet autour du\npoint O. (fig2) (1pt)\n3 Au passage par la position d'équilibre avec la vitesse calculée à la question 1, la bille\nconsidérée comme étant chargée se détache. Elle\npénètre en M (fig3) dans un champ électrique uniforme\nde module E = 4.104 V/m régnant entre deux plaques P1\net P2.\n3.1 Déterminer la nature du mouvement de la bille entre Mo\net M dans le repère( )0 M , i, j .\n3.2 Calculer la durée du mouvement de la bille entre M0\net M ainsi que sa vitesse en M. On donne l'ordonnée du\npoint M: yM = 20cm. (0,5pt)\n3.3 Quelles sont les caractéristiques de la force électriqueF s'exerçant sur la bille entre\nles deux plaques P1 et P2 pour que son mouvement soit rectiligne uniforme. Préciser le\nsigne de P1 et P2 si la bille est chargée négativement. Calculer la valeur de sa charge q.\n3.4 Déterminer l'équation de la trajectoire de la bille entre P1 et P2 dans le\nrepère( )0 M , i, j ."
+  },
+  {
+    "id": "bac-c-2003-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "On dispose d'une source de tension S sinusoïdale de valeur efficace et de fréquence\nréglables.\n1 On monte en série aux bornes de la source S réglée à la fréquence N = 50Hz une\nrésistance R = 50 Ω et une bobine b de résistance r1 et d'inductance L1 inconnues On\nbranche un voltmètre respectivement aux bornes de la\nrésistance R, de la bobine b et de la source S (fig 5).\nIl indique alors les tensions efficaces : UR = 25V ; Ub = et U = 39V.\n1.1 Calculer l'intensité efficace I qui traverse le circuit. (0,5pt)\n1.2 En utilisant la construction de Fresnel relative au circuit de la figure 5, calculer la\nrésistance interne r1 et l'inductance L1 de la bobine b. (1pt)\n2 On branche maintenant en série aux bornes de la source S une bobine B de\nrésistance interne r =10 Ω et d'inductance L et un\ncondensateur de capacité C = 5µF (voir fig 6).\nPour la fréquence N = 50Hz, le voltmètre indique la même\nvaleur de la tension efficace aux bornes de la bobine B et\naux bornes de la source S.\n2.1 Calculer la valeur de l'inductance L de la bobine B. (0,5pt)\n2.2 Sachant queu 40 2cos100 t= π , donner l'expression de l'intensité instantanée i en\nfonction du temps t.\n3 On fait varier maintenant la fréquence aux bornes du circuit précédent et on\nmaintient à ses bornes la tension U = 40V.\n3.1 Pour quelle valeur w0 de la pulsation w, l'intensité efficace est-elle maximale ?calculer\nalors sa valeur I0. (0,5pt)\n3.2 Exprimer l'intensité efficace I en fonction de I0, w0, w et du facteur de qualité Q.\nI\nI\nMontrer qu'il existe deux pulsations w1 et w2 pour les quelles0\n= et montrer que\n2\n2\nw1.w2 = w0\n."
+  },
+  {
+    "id": "bac-c-2003-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "1 Ecrire l'équation de la réaction entre l'acide éthanoïque et le butan-2-ol, en utilisant\nles formules semi-développées. Nommer les produits obtenus. (1pt)\n2 On mélange 0,2mol de chacun de ces réactifs et on répartit ce mélange de façon\négale dans 10 ampoules scellées et portées à 100°C. On retire successivement à\ndifférents instants t l'une des ampoules et on la refroidit rapidement.\n2.1 Pourquoi refroidit-ton l'ampoule retirée ? (0,5pt)\n2.2 On procède alors au dosage colorimétrique de l'acide restant dans chaque ampoule\npar une solution de soude concentrée, de concentration Cb = 1mol/L.\n2.2.1 Etablir la relation liant le nombre de mole nA de l'acide dans l'ampoule et le\nnombre de mole nE du produit organique E formé dans chaque ampoule. En déduire\nl'expression de nE en fonction du volume vb versé à l'équivalence. (1pt)\n2.2.2 Sachant que le changement de couleur est obtenu quand on verse les volumes de\nsoude vb suivants:\nCompléter le tableau et tracer la courbe\nnE = f(t). Calculer la vitesse de\nformation du produit E à t=12min, ainsi\nque sa vitesse moyenne de formation\nentre les instants t1 = 3min et t2 = 48min."
+  },
+  {
+    "id": "bac-c-2003-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "1 Le pH d'une solution S1 d'hydroxyde de sodium est 12. Combien de moles de soude\na-t-on dissout dans un litre d'eau pour préparer cette solution ? (0,5pt)\n2 L'acide éthanoïque est un acide faible de constante d'acidité ka = 1,6.10-5. La mesure\ndu pH d'une solution S2 de cet acide donne 3,4.\n2.1 Ecrire l'équation de la réaction de cet acide avec l'eau. Calculer les concentrations\ndes différentes espèces chimiques présentes dans la solution et en déduire la\nconcentration initiale de la solution S2. p\n2.2 Calculer le coefficient d'ionisation α de cet acide. (0,5pt)\n3. On mélange le volume v1 = 20cm3 de la solution S1 avec un volume v2 = 40cm3 de\nla solution S2.\n3.1 Quel est le pH de ce mélange? Comment appelle-t-on ce genre de solution? Quelle\npropriété remarquable possède ce mélange ? (1pt)\n3.2 On ajoute une masse m de soude au mélange précédent le pH dévient alors 4,9\nDéterminer la valeur de cette masse si on néglige la variation du volume.\nOn donne: Na = 23g/mol ; O = 16g/mol ; H = 1g/mol."
+  }
+]

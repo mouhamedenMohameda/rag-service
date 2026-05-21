@@ -1,0 +1,438 @@
+{
+  "bac-c-2002-sc-math-ex1": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Barycentre à coefficients réels — transformation du lieu",
+    "Construction géométrique — cas θ = π/3"
+  ],
+  "bac-c-2002-sc-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Triangle équilatéral — caractérisation d'une transformation",
+    "Similitude directe s : M→R, N→S",
+    "Similitude directe — angle, rapport et centre",
+    "Losange — propriété géométrique du centre",
+    "Itérées d'une similitude — programme de construction",
+    "Périodicité de s⁶ — puissance d'une similitude"
+  ],
+  "bac-c-2002-sc-math-ex3": [
+    "Fonction rationnelle — tableau de variations",
+    "Discussion graphique du nombre de racines — paramètre m",
+    "Fonction avec exponentielle et asymptote en 0 — tangentes",
+    "Tangentes à une courbe — intersection avec l'axe des abscisses",
+    "Point d'inflexion — équation de la tangente",
+    "Encadrement asymptotique — comparaison courbe et tangente",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Intégration par parties — limite de nUₙ"
+  ],
+  "bac-c-2003-sn-math-ex1": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Intégrale dépendant d'un paramètre gₙ(x)",
+    "Inégalité ln t < t − 1 — encadrement d'intégrales",
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Dérivées première et seconde de gₙ — convexité",
+    "Tangente horizontale — encadrement de l'ordonnée"
+  ],
+  "bac-c-2003-sn-math-ex2": [
+    "Suite de Riemann Wₙ — encadrement par ln",
+    "Intégrale Uₙ avec exponentielle — majoration-minoration",
+    "Limite de Uₙ et de nUₙ",
+    "Suite Tₙ — comparaison avec série harmonique",
+    "Limite de Sₙ — somme de termes intégraux"
+  ],
+  "bac-c-2003-sn-math-ex3": [
+    "Triangles rectangles isocèles construits sur les côtés",
+    "Similitude directe s : M→R, N→S",
+    "Similitudes composées — nature de σ",
+    "Orthogonalité de segments — preuve par similitude",
+    "Reconstruction d'un triangle à partir de P'Q'R'",
+    "Angle d'une rotation dans l'espace",
+    "Rapport d'aires — similitudes de centre G"
+  ],
+  "bac-c-2003-sc-math-ex1": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Application affine sur les coordonnées — forme z' = (5z + z̄)/4"
+  ],
+  "bac-c-2003-sc-math-ex2": [
+    "Trois cercles de même rayon — configuration de Monge",
+    "Angle d'une rotation dans l'espace",
+    "Angles orientés de vecteurs — relations entre K, A, B, C",
+    "Orthocentre — triangle BCD",
+    "Cercles circonscrits — égalité des rayons"
+  ],
+  "bac-c-2003-sc-math-ex3": [
+    "Fonction trigonométrique-exponentielle — dérivée et monotonie",
+    "Formule cos x + sin x — linéarisation trigonométrique",
+    "Encadrement et limites à l'infini",
+    "Dérivée seconde — concavité et points de contact",
+    "Aire sous la courbe — intégrale définie",
+    "Intégrales Aₙ — relation de récurrence et calcul"
+  ],
+  "bac-c-2004-sn-math-ex1": [
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-c-2004-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Homothétie — rapport et image",
+    "Similitude directe s : M→R, N→S",
+    "Parabole — foyer, directrice et tangente",
+    "Image d'une parabole par similitude"
+  ],
+  "bac-c-2004-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Points communs et positions relatives des courbes Cₙ",
+    "Suite (xₙ) — monotonie et limite",
+    "Aire entre courbes — intégrale et limite",
+    "Intersections entre courbes de la famille"
+  ],
+  "bac-c-2004-sc-math-ex1": [
+    "Vecteurs dans l'espace — orthogonalité DE ⟂ (ABC)",
+    "Produit scalaire — perpendicularité plan-droite",
+    "Projection orthogonale — coordonnées du projeté",
+    "Volume d'un tétraèdre — formule par produit mixte",
+    "Distance d'un point à un plan"
+  ],
+  "bac-c-2004-sc-math-ex2": [
+    "Barycentre à coefficients — construction de D",
+    "Lieu de points — relation de puissances MA², MB², MC²",
+    "Produit scalaire — ensemble (G) et intersection",
+    "Similitude de centre A — image de lieux et du triangle"
+  ],
+  "bac-c-2004-sc-math-ex3": [
+    "Fonction x − e^(x−1) — variations et asymptote",
+    "Similitude directe s : M→R, N→S",
+    "Image d'une courbe par transformation — g(x) = 1 − x − ln(4 − 2x)",
+    "Fonction différence h = f − g — nombre de solutions",
+    "Aire d'une région transformée"
+  ],
+  "bac-c-2005-sn-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)",
+    "Fonction de Leibniz φ(M) — lieux de niveau",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2005-sn-math-ex2": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Point fixe commun aux courbes (Cₙ)",
+    "Position relative des courbes (Cₖ)",
+    "Lieu des extrema — tangente horizontale",
+    "Somme Sₙ — encadrement par intégrales",
+    "Convergence de Sₙ — constante λ"
+  ],
+  "bac-c-2005-sn-math-ex3": [
+    "Homothéties — concourance de droites dans un carré",
+    "Angle d'une rotation dans l'espace",
+    "Similitude de centre B — image de BDE",
+    "Cercles de diamètres — point de concours",
+    "Lieu d'un point J — aire constante",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2005-sc-math-ex1": [
+    "Équation du second degré — module et argument selon θ",
+    "Lieu des racines — cercle Γ",
+    "Équation (z − 1)ⁿ = e^(2iθ) — racines n-ièmes",
+    "Somme des distances Sₙ — limite 2π"
+  ],
+  "bac-c-2005-sc-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Orthocentre — triangle BCD",
+    "Cocyclicité — cercles passant par quatre points",
+    "Lieu d'images par similitude — cercle circonscrit",
+    "Similitude σ — milieu M' de [MM'] et lieu de N"
+  ],
+  "bac-c-2005-sc-math-ex3": [
+    "Somme géométrique Sₙ(x) — primitive et formule",
+    "Développement limité de ln(1+x) — reste intégral",
+    "Fonction ln(1+x)/x — continuité et dérivabilité en 0",
+    "Fonction g(x) = x ln((1+x)/x) — symétrie",
+    "Suites (1 + 1/n)ⁿ et (1 + 1/n)^(n+1) — convergence vers e",
+    "Suites adjacentes — encadrement de e"
+  ],
+  "bac-c-2006-sn-math-ex1": [
+    "Parabole — définition focus-directrice",
+    "Équation cartésienne d'une parabole",
+    "Lieu du milieu d'une corde — droite mobile",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2006-sn-math-ex2": [
+    "Antidéplacement — décomposition symétrie-translation",
+    "Caractérisation d'un déplacement — écriture complexe",
+    "Similitude directe s : M→R, N→S",
+    "Itérée S∘S — centre barycentrique",
+    "Composition de deux similitudes"
+  ],
+  "bac-c-2006-sn-math-ex3": [
+    "Fonction définie par morceaux avec e^x — continuité en 0",
+    "Dérivabilité à gauche et à droite en 0",
+    "Limite (ln(1−h)+h)/h² — développement limité",
+    "Fonction auxiliaire v(x) — signe de la dérivée",
+    "Intégrale U₀ = π/4 — changement x = tan t",
+    "Aire infinie — limite quand β → +∞"
+  ],
+  "bac-c-2006-sc-math-ex1": [
+    "Similitude complexe sₜ — nature et éléments",
+    "Angle droit OMMₜ — lieu Γ(M)",
+    "Image d'une droite x = a — transformation",
+    "Cocyclicité O, Hₜ, A, Aₜ — mesure d'angle"
+  ],
+  "bac-c-2006-sc-math-ex2": [
+    "Équation binomiale complexe (iz)ⁿ = (z + 2i)ⁿ",
+    "Identité u^p + ū^p — cos(pπ/4)",
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Formule explicite des racines — tangente"
+  ],
+  "bac-c-2006-sc-math-ex3": [
+    "Fonction artanh f(x) = ½ ln((1+x)/(1−x)) — parité et réciproque",
+    "Intégrales Iₙ — récurrence et limite",
+    "Décomposition en éléments simples — intégrale h(x)",
+    "Suite Uₙ = ln(n!) − (n + ½)ln n + n — convergence (Stirling)"
+  ],
+  "bac-c-2007-sn-math-ex1": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Reconstruction d'un triangle à partir de P'Q'R'",
+    "Nature de A'B'C — triangle rectangle isocèle"
+  ],
+  "bac-c-2007-sn-math-ex2": [
+    "Losange — rapport de diagonales et cercles",
+    "Lieu de rapport MB/MC = 2 — cercle d'Apollonius",
+    "Angle d'une rotation dans l'espace",
+    "Lieu des centres de similitudes — famille de cercles"
+  ],
+  "bac-c-2007-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Relation f(x) + f(1−x) = 0 — symétrie",
+    "Similitude directe — angle, rapport et centre",
+    "Translation verticale des courbes Cₖ"
+  ],
+  "bac-c-2007-sc-math-ex1": [
+    "Ensembles de points — norme, carrés de distances, produit scalaire",
+    "Application f(M) = M' — translation et point invariant",
+    "Lieu des centres Ωₖ — droite ou cercle",
+    "Centre de gravité G — lieu quand M décrit un cercle"
+  ],
+  "bac-c-2007-sc-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe — angle, rapport et centre",
+    "Point fixe F — milieu de [M'M'']",
+    "Cocyclicité A, F, T, L",
+    "Lieu des points alignés M, M', M''"
+  ],
+  "bac-c-2007-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Points communs et positions relatives des courbes Cₙ",
+    "Relation vectorielle MₙM₀ = n M₁M₀ — construction de Cₙ",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Suite Sₙ — convergence vers 1"
+  ],
+  "bac-c-2008-sn-math-ex1": [
+    "Fonction x − e^(x−1) — variations et asymptote",
+    "Asymptotes en ±∞ — interprétation graphique",
+    "Symétrie f(−x) + f(x) = 1",
+    "Encadrement de U_n"
+  ],
+  "bac-c-2008-sn-math-ex2": [
+    "Intégrale U_n=∫₀¹ x^n e^(1−x) dx — intégration par parties",
+    "Suite (Uₙ) — décroissance et positivité",
+    "Relation de récurrence U_{n+1}=(n+1)U_n−1",
+    "Calcul explicite de U₂ et U₃",
+    "Limite de Uₙ et de nUₙ"
+  ],
+  "bac-c-2008-sn-math-ex3": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Lieu Γ₁ : 2MA² − 2MB² − MC² = −10",
+    "Lieu Γ₂ : MA² − MB² = −5 — position relative"
+  ],
+  "bac-c-2008-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Intégrale Fₙ(x) — encadrement et limites",
+    "Inégalité ln t < t − 1 — encadrement d'intégrales"
+  ],
+  "bac-c-2008-sn-math-ex5": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Similitude directe — angle, rapport et centre",
+    "Cercles tangents en Ω",
+    "Alignement M, s(M), D — propriété sur Γ"
+  ],
+  "bac-c-2008-sc-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Lieux de E, F, G — transformations de M",
+    "Tangente à un cercle — position de M"
+  ],
+  "bac-c-2008-sc-math-ex2": [
+    "Intégrale U₀ = π/4 — changement x = tan t",
+    "Suite (Uₙ) — relation Uₙ₊₁ + Uₙ = 1/(2n+1)",
+    "Limite de Uₙ et de nUₙ",
+    "Intégrales Vₙ — lien avec Uₙ et ln 2"
+  ],
+  "bac-c-2008-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Position relative des courbes (Cₖ)",
+    "Lieu des extrema — équation cartésienne"
+  ],
+  "bac-c-2008-sc-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Carré EFGH — aire en fonction de a",
+    "Similitude de centre O — rapport et cos α",
+    "Carré IJKL — barycentres et aire"
+  ],
+  "bac-c-2008-sc-math-ex5": [
+    "Similitude directe s : M→R, N→S",
+    "Lieu de s₁(M) — cercle et cocyclicité",
+    "Similitude S₂ — centre par intersection"
+  ],
+  "bac-c-2009-sn-math-ex1": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Lieu des racines — cercle Γ",
+    "Direction fixe de (M'M'')",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2009-sn-math-ex2": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection et fonction réciproque — intersections",
+    "Décomposition en éléments simples — intégrale h(x)",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-c-2009-sn-math-ex3": [
+    "Famille fₙ(x) = xⁿ e^(−x) — variations et points fixes",
+    "Position relative selon la parité de n",
+    "Intégrales Iₙ — récurrence et limite",
+    "Suite Jₙ — lien avec série exponentielle e"
+  ],
+  "bac-c-2009-sn-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Carré PMQN — milieux et perpendicularité",
+    "Similitudes s₁ et s₂ — alignements de points",
+    "Composition σ = s₁ ∘ s₂ — nature et éléments"
+  ],
+  "bac-c-2009-sc-math-ex1": [
+    "Similitude directe s : M→R, N→S",
+    "Suite géométrique zₙ — module et argument",
+    "Convergence de (Vₙ) — condition sur ω",
+    "Somme des distances Sₙ — limite 2π"
+  ],
+  "bac-c-2009-sc-math-ex2": [
+    "Fonction x − e^(x−1) — variations et asymptote",
+    "Symétrie de C₀ — centre Ω(0, ½)",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Suite Sₙ — convergence vers 1"
+  ],
+  "bac-c-2009-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Points cocycliques A, B, D, E",
+    "Similitude de centre B — image de BDE",
+    "Composition r ∘ s et s ∘ r — éléments distincts",
+    "Cercles de diamètres — point de concours"
+  ],
+  "bac-c-2009-sc-math-ex4": [
+    "Fonction avec ln et fraction rationnelle — domaine et limites",
+    "Asymptote oblique y = 2x − 3",
+    "Équation f(x) = 0 — trois solutions et encadrement",
+    "Décomposition en éléments simples — intégrale h(x)",
+    "Changement de variable x = 1 + tan t — calcul de B"
+  ],
+  "bac-c-2010-sn-math-ex1": [
+    "Fonction e^x − x − 1 — inégalité e^x ≥ x + 1",
+    "Inégalités sur ln(1±x)",
+    "Suite harmonique Sₙ — divergence",
+    "Suite Sₙ — convergence vers 1"
+  ],
+  "bac-c-2010-sn-math-ex2": [
+    "Polynôme P(z) — racine z₀ = i et factorisation",
+    "Solutions z₁, z₂ — partie imaginaire selon sin θ",
+    "Similitude directe s : M→R, N→S",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2010-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Signe de f'(x) via u(1/x)",
+    "Intégrale Iₙ — limite et interprétation d'aire"
+  ],
+  "bac-c-2010-sn-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Centre Ω — cercles de diamètres",
+    "Homothétie et composition f = h ∘ r",
+    "Carré IJKL — barycentres et aire",
+    "Famille de similitudes de centre O — angles possibles"
+  ],
+  "bac-c-2010-sc-math-ex1": [
+    "Intégrales Gₙ(t) = ∫ tⁿ e^t dt — existence et formules",
+    "Encadrement de G₁(t) — inégalités sur t",
+    "Limite en 0 — forme indéterminée",
+    "Suite Iₙ = Gₙ(1) — récurrence IPP et limite"
+  ],
+  "bac-c-2010-sc-math-ex2": [
+    "Polynôme complexe — racine 1 + i",
+    "Triangle ABC — nature et similitude de centre A",
+    "Itération f(z) = (1−i)z/2 + i — suite (Mₙ)",
+    "Somme des distances Sₙ — limite 2π"
+  ],
+  "bac-c-2010-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Similitudes s₁, s₂ — composition f = s₂ ∘ s₁",
+    "Lieu d'alignement M, M₁, M₂",
+    "Segment M₁M₂ — longueur et direction constantes"
+  ],
+  "bac-c-2010-sc-math-ex4": [
+    "Décomposition g(x) = ax + b + c/(x+1)",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction réciproque — intersection et dérivée en β",
+    "Tangentes parallèles à y = 2x",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-c-2011-sc-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Résolution P(z) = 0 — trois racines",
+    "Triangle ABC rectangle isocèle — ordre des modules",
+    "Quadrilatère OACB — parallélogramme",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2011-sc-math-ex2": [
+    "Polynôme g(x) — tableau de variations et bijection",
+    "Équation g(x) = 0 — solution α encadrée",
+    "Fonction f(x) = 2xe^(−x)/(x²+2) — dérivée et signe via g",
+    "Tableau de variation de f — tracé de la courbe",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-c-2011-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Centre Ω — cercles de diamètres",
+    "Cercles Γ, Γ' — cocyclicité et alignement M, M', T",
+    "Lieu du milieu J — nature du quadrilatère ΩJK"
+  ],
+  "bac-c-2011-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Décomposition x²/(x+1) — aire par IPP",
+    "Suite Vₙ — relation avec Uₙ et série alternée ln 2"
+  ],
+  "bac-c-2012-sn-math-ex1": [
+    "Fonction f_m(x)=x+m ln|(x+2)/x| — domaine et limites",
+    "Comportement f(x)/x — interprétation asymptotique",
+    "Tableau de variation — bijection sur intervalle J",
+    "Calcul d'intégrale ∫₀¹ f — décomposition de f'",
+    "Changement de variable t = e^x + 1 — intégration par parties"
+  ],
+  "bac-c-2012-sn-math-ex2": [
+    "Vecteurs dans l'espace — orthogonalité DE ⟂ (ABC)",
+    "Équation de plan — projection orthogonale F",
+    "Volume du tétraèdre ABCD",
+    "Lieux MD² et ME² — sphères ou quadriques"
+  ],
+  "bac-c-2012-sn-math-ex3": [
+    "Équation Eθ dans ℂ — résolution et cas θ ∈ [0, π[",
+    "Solutions doubles et imaginaires pures — points A₁, B₁",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Barycentre à coefficients — application f et expression de z'"
+  ],
+  "bac-c-2012-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite de Riemann Wₙ — encadrement par ln",
+    "Suite Uₙ = ⁿ√(n!)/n — limite 1/e via ln et Sₙ"
+  ]
+}

@@ -1,0 +1,3751 @@
+{
+  "bac-c-2001-sc-math-ex3": [
+    "Exercice de mathématiques — analyse de l'énoncé",
+    "Résolution d'exercice — méthode structurée",
+    "Rédaction de solution — justification des étapes",
+    "Vérification de résultat — cohérence numérique"
+  ],
+  "bac-c-2012-sn-math-ex5": [
+    "Triangle équilatéral — milieux de côtés et symétrie",
+    "Angle d'une rotation dans l'espace",
+    "Symétries axiales — décomposition en symétries glissantes",
+    "Similitude directe s : M→R, N→S",
+    "Centre Ω — cercles de diamètres",
+    "Itérées de similitude — somme de longueurs et limite"
+  ],
+  "bac-c-2013-sn-math-ex1": [
+    "Équation diophantienne linéaire — algorithme d'Euclide",
+    "Équation diophantienne — PGCD et Bézout",
+    "PGCD de deux entiers — valeurs possibles dans une solution",
+    "Nombres premiers entre eux — restriction sur les solutions",
+    "Congruences — caractérisation des solutions par modules"
+  ],
+  "bac-c-2013-sn-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Équation polynomiale dans ℂ — résolution du second degré",
+    "Similitude directe s : M→R, N→S",
+    "Lieu géométrique — partie imaginaire pure d'une expression complexe",
+    "Conique — équation cartésienne et éléments (hyperbole)"
+  ],
+  "bac-c-2013-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Équation différentielle du premier ordre — vérification de solution",
+    "Aire — intégrale entre courbe et axes",
+    "Suite wₙ — IPP et limite nulle",
+    "Intégrale dépendant d'un paramètre gₙ(x)",
+    "Suite de sommes partielles — lien avec intégrale et limite e³"
+  ],
+  "bac-c-2013-sn-math-ex4": [
+    "Fonction auxiliaire — continuité en 0⁺ et limites",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction rationnelle — tableau de variations",
+    "Fonction intégrale — dérivabilité et sens de variation",
+    "Inégalité d'encadrement — comparaison d'intégrandes",
+    "Décomposition en éléments simples — intégrale h(x)",
+    "Limite d'intégrale — encadrement et valeur approchée"
+  ],
+  "bac-c-2013-sn-math-ex5": [
+    "Angle d'une rotation dans l'espace",
+    "Symétries axiales — composition et forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Centre Ω — cercles de diamètres",
+    "Composition de similitudes — angle somme et centre",
+    "Angle orienté de vecteurs — orthogonalité"
+  ],
+  "bac-c-2013-sc-math-ex1": [
+    "Famille de polynômes — tableau de variations",
+    "Équation polynomiale — unicité de racine dans un intervalle",
+    "Courbe paramétrée par n — point fixe commun",
+    "Courbes — positions relatives d'une famille",
+    "Suite de racines — monotonie et convergence"
+  ],
+  "bac-c-2013-sc-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Équation du troisième degré dans ℂ — modules des racines",
+    "Similitude directe s : M→R, N→S",
+    "Puissance de distance à points — forme réduite",
+    "Cercle — équation à partir de forme quadratique"
+  ],
+  "bac-c-2013-sc-math-ex3": [
+    "Fonction logarithmique rationnelle — continuité en 0⁺",
+    "Fonction — dérivabilité à droite en 0 et interprétation",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction intégrale — dérivée et croissance",
+    "Inégalité d'encadrement — majoration d'intégrande",
+    "Limite d'intégrale — divergence en +∞"
+  ],
+  "bac-c-2013-sc-math-ex4": [
+    "Similitude directe s : M→R, N→S",
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe — angle, rapport et centre",
+    "Similitude — expression complexe dans un repère"
+  ],
+  "bac-c-2013-sc-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Aire — intégrale entre courbe et axes",
+    "Famille d'intégrales — récurrence par IPP",
+    "Inégalité — majoration d'intégrale et limite",
+    "Suite de Riemann Wₙ — encadrement par ln"
+  ],
+  "bac-c-2014-sn-math-ex1": [
+    "Polynôme complexe — racines et triangle",
+    "Image d'une droite x = a — transformation",
+    "Similitude directe s : M→R, N→S",
+    "Cercle unité — paramétrisation et image",
+    "Lieu géométrique — hyperbole et éléments"
+  ],
+  "bac-c-2014-sn-math-ex2": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Équation différentielle linéaire du second ordre y''−4y'+5y=0",
+    "Aire sous la courbe — intégrale définie",
+    "Suite d'intégrales — intégration par parties et encadrement",
+    "Intégrale — décomposition rationnelle avec eˣ"
+  ],
+  "bac-c-2014-sn-math-ex3": [
+    "Fonction ln(1+x)/x — continuité et dérivabilité en 0",
+    "Fonction — asymptote horizontale en +∞",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite wₙ — IPP et limite nulle",
+    "Suite Iₙ = Gₙ(1) — récurrence IPP et limite"
+  ],
+  "bac-c-2014-sn-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Centre Ω — cercles de diamètres",
+    "Composition de similitudes — homothétie",
+    "Barycentre — coefficients et point d'intersection",
+    "Cube — réflexions par plans de faces",
+    "Composition de symétries — demi-tour et translation"
+  ],
+  "bac-c-2014-sc-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Probabilités — loi à trois valeurs et système linéaire",
+    "Espérance et variance — variable aléatoire discrète",
+    "Équation complexe — lieu affine des solutions",
+    "Points à coordonnées entières — sur un lieu"
+  ],
+  "bac-c-2014-sc-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Triangle rectangle — propriété après transformation",
+    "Points cocycliques A, B, D, E",
+    "Cercle — équation à partir de forme quadratique"
+  ],
+  "bac-c-2014-sc-math-ex3": [
+    "Fonction auxiliaire — variations et encadrement de racine",
+    "Fonction rationnelle — tableau de variations",
+    "Famille de fonctions — asymptotes communes et homothétie",
+    "Homothétie — image d'une courbe par rapport à un point"
+  ],
+  "bac-c-2014-sc-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Triangle variable — équilatéralité et lieu",
+    "Optimisation — rapport OM/OB et aire minimale"
+  ],
+  "bac-c-2014-sc-math-ex5": [
+    "Fonction rationnelle exponentielle — asymptotes",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Aire — encadrement entre intégrale et valeur",
+    "Suite wₙ — IPP et limite nulle",
+    "Somme de suites d'intégrales — convergence vers aire"
+  ],
+  "bac-c-2015-sn-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Application affine — point invariant et lieu",
+    "Puissance de distances — nature de courbes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2015-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Parabole — foyer, directrice et tangente",
+    "Points alignés — propriété de symétrie"
+  ],
+  "bac-c-2015-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection et fonction réciproque — intersections",
+    "Similitude directe — angle, rapport et centre",
+    "Aire entre courbes — intégrale et limite",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-c-2015-sn-math-ex4": [
+    "Décomposition en éléments simples — intégrale h(x)",
+    "Fonction logarithmique — asymptotes et position relative",
+    "Équation f(x)=0 — unicité de solution",
+    "Aire — intégrale et changement de variable",
+    "Intégration par parties — calcul d'aires"
+  ],
+  "bac-c-2015-sc-math-ex1": [
+    "Forme linéaire entière — évaluation en puissances",
+    "Équation diophantienne — PGCD et Bézout",
+    "Congruences — reste d'une suite par 7",
+    "Divisibilité — preuve par congruence"
+  ],
+  "bac-c-2015-sc-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)",
+    "Transformation — image d'un cercle par similitude"
+  ],
+  "bac-c-2015-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2015-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Famille d'intégrales — récurrence par IPP",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Suite Jₙ — lien avec série exponentielle e"
+  ],
+  "bac-c-2015-sc-math-ex5": [
+    "Fonction f_m(x)=x+m ln|(x+2)/x| — domaine et limites",
+    "Aire — intégrale et domaine plan",
+    "Suite wₙ — IPP et limite nulle",
+    "Série géométrique finie — expression et somme alternée",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-c-2016-sn-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Divisibilité — conséquence sur les solutions",
+    "Fraction rationnelle — condition d'entier",
+    "Congruence — fraction rationnelle entière pour m entier"
+  ],
+  "bac-c-2016-sn-math-ex2": [
+    "Polynôme complexe — racines et triangle",
+    "Similitude directe s : M→R, N→S",
+    "Lieu — partie imaginaire pure (conique)",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2016-sn-math-ex3": [
+    "Fonction f_m(x)=x+m ln|(x+2)/x| — domaine et limites",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Famille de courbes — homothétie et rapport",
+    "Lieu des extrema — tangente horizontale"
+  ],
+  "bac-c-2016-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction — point d'inflexion",
+    "Série alternée — développement limité de ln(1+x)",
+    "Encadrement d'intégrale — majoration du reste"
+  ],
+  "bac-c-2016-sn-math-ex5": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Composition de similitudes — homothétie",
+    "Lieu d'alignement M, M₁, M₂",
+    "Barycentre — coefficients et cercle"
+  ],
+  "bac-c-2016-sc-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Triangle — nature et barycentre",
+    "Cercle — équation MA²+MB²+MC²=k",
+    "Similitude directe s : M→R, N→S",
+    "Parabole — foyer, directrice et tangente"
+  ],
+  "bac-c-2016-sc-math-ex2": [
+    "Fonction f_m(x)=x+m ln|(x+2)/x| — domaine et limites",
+    "Suite fₙ — majoration et intégrale",
+    "Intégrale Iₙ — récurrence par IPP",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-c-2016-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Nombre de solutions de f(x)=-2",
+    "Construction courbe et réciproque",
+    "Angle d'une rotation dans l'espace",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-c-2016-sc-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Parallélogramme — propriété d'alignement",
+    "Lieu des points alignés M, M', M''"
+  ],
+  "bac-c-2017-sn-math-ex1": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2017-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Rectangle — propriété sur cercle circonscrit",
+    "Itérées de similitude — somme de longueurs et limite"
+  ],
+  "bac-c-2017-sn-math-ex3": [
+    "Famille de fonctions — point fixe",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Intégrales Aₙ — relation de récurrence et calcul"
+  ],
+  "bac-c-2017-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Inégalité — encadrement d'intégrale par terme",
+    "Somme Sₙ — encadrement par intégrales",
+    "Suite Jₙ — lien avec série exponentielle e"
+  ],
+  "bac-c-2017-sc-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Congruence — inverse modulo un premier",
+    "Anneau ℤ/nℤ — carré et inverses modulo premier"
+  ],
+  "bac-c-2017-sc-math-ex2": [
+    "Équation polynomiale dans ℂ — racine réelle",
+    "Transformation affine — expression complexe",
+    "Somme de modules au carré — forme réduite et cercles",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2017-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Image d'une parabole par similitude",
+    "Parabole — foyer, directrice et tangente"
+  ],
+  "bac-c-2017-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Courbes — positions relatives d'une famille",
+    "Intégrale Iₙ — IPP et lien avec suite factorielle",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-c-2017-sc-math-ex5": [
+    "Inégalité ln t < t − 1 — encadrement d'intégrales",
+    "Fonction définie par morceaux avec e^x — continuité en 0",
+    "Dérivée — théorème fondamental et changement de borne",
+    "Limite de Uₙ et de nUₙ"
+  ],
+  "bac-c-2018-sn-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Congruence — résolution modulo composé",
+    "Restes quadratiques — par module premier"
+  ],
+  "bac-c-2018-sn-math-ex2": [
+    "Polynôme complexe — racines et triangle",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2018-sn-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Rectangle isocèle — vecteurs et orthogonalité",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2018-sn-math-ex4": [
+    "Équation différentielle linéaire — solutions générales",
+    "Fonction x − e^(x−1) — variations et asymptote",
+    "Fonction réciproque — limite et intersection de courbes",
+    "Aire — intégrale entre courbe et axes"
+  ],
+  "bac-c-2018-sn-math-ex5": [
+    "Fonction — limites et dérivées successives",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite Uₙ — lien avec harmonique et factorielle",
+    "Encadrement — série harmonique et 1/k²"
+  ],
+  "bac-c-2018-sc-math-ex1": [
+    "Polynôme complexe — racines et triangle",
+    "Barycentre — formes quadratiques et cercles",
+    "Similitude — itérées et périodicité",
+    "Homothétie — puissance d'une similitude"
+  ],
+  "bac-c-2018-sc-math-ex2": [
+    "Fonction ln(1+x)/x — continuité et dérivabilité en 0",
+    "Asymptote oblique — encadrement et bijection",
+    "Famille fₙ — racine et convergence de αₙ",
+    "Fonction ln|x/(x-1)| et familles de courbes"
+  ],
+  "bac-c-2018-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Hyperbole — foyers, centre, excentricité",
+    "Droite fixe — alignement M'M''"
+  ],
+  "bac-c-2018-sc-math-ex4": [
+    "Fonction −x+2ln(1+eˣ) — asymptotes",
+    "Construction courbe et réciproque",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Relation dérivée² — récurrence et somme vₙ"
+  ],
+  "bac-c-2019-sn-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Système de congruences — théorème chinois",
+    "Numération — base et conversion décimale",
+    "Congruence — système x≡3 [5] et y≡4 [7]"
+  ],
+  "bac-c-2019-sn-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Barycentre — cercle et hyperbole",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2019-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction — point d'inflexion",
+    "Construction courbe et réciproque",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-c-2019-sn-math-ex4": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Itérées — rectangle et nature du triangle"
+  ],
+  "bac-c-2019-sn-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Équation f(x)=0 — unicité de solution",
+    "Aire — changement de variable et éléments simples",
+    "Intégrales Iₙ — récurrence et limite"
+  ],
+  "bac-c-2019-sc-math-ex1": [
+    "Polynôme f(x) — factorisation et racines",
+    "Similitude directe s : M→R, N→S",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2019-sc-math-ex2": [
+    "Intégrale — IPP et encadrement",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite wₙ — IPP et limite nulle",
+    "Suite Jₙ — lien avec série exponentielle e"
+  ],
+  "bac-c-2019-sc-math-ex3": [
+    "Triangle rectangle isocèle — symétrie glissante",
+    "Similitude directe s : M→R, N→S",
+    "Homothétie — composition avec similitude",
+    "Symétrie glissante — forme réduite"
+  ],
+  "bac-c-2019-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction auxiliaire v(x) — signe de la dérivée",
+    "Suite wₙ — IPP et limite nulle"
+  ],
+  "bac-c-2020-sn-math-ex1": [
+    "Équation diophantienne — PGCD et Bézout",
+    "Système de congruences — classe modulo 195",
+    "Numération — écriture en base n",
+    "Congruence — plus petit entier ≥ 2000 dans une classe"
+  ],
+  "bac-c-2020-sn-math-ex2": [
+    "Polynôme complexe — racines et triangle",
+    "Cercle — formes quadratiques MA²",
+    "Application f(M) = M' — translation et point invariant",
+    "Cercle — intersection de deux formes quadratiques"
+  ],
+  "bac-c-2020-sn-math-ex3": [
+    "Triangle isocèle — produits scalaires et distances",
+    "Barycentre — coefficients et cercle",
+    "Cercle — points cocycliques et angles",
+    "Angle — relations dans configuration isocèle"
+  ],
+  "bac-c-2020-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Fonction x − e^(x−1) — variations et asymptote",
+    "Somme télescopique — limite 1/2",
+    "Encadrement — série et intégrale 1/x"
+  ],
+  "bac-c-2020-sn-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Intégrale Iₙ — IPP et série e²",
+    "Suite wₙ — IPP et limite nulle",
+    "Courbe réciproque — tracé de (C')"
+  ],
+  "bac-c-2021-sn-math-ex1": [
+    "Congruences — puissances modulo 11",
+    "Numération — multiple de 101 et de 20",
+    "Matrice 2×2 — inverse et déterminant",
+    "Divisibilité — 2021^n par 11"
+  ],
+  "bac-c-2021-sn-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe s : M→R, N→S",
+    "Triangle équilatéral — construction géométrique",
+    "Cercle — points cocycliques et angles"
+  ],
+  "bac-c-2021-sn-math-ex3": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Angle d'une rotation dans l'espace",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2021-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection et fonction réciproque — intersections",
+    "Équation f(x)=x — encadrement de α",
+    "Courbe — position relative avec y=x"
+  ],
+  "bac-c-2021-sn-math-ex5": [
+    "Fonction ln(1+x)/x — continuité et dérivabilité en 0",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Limite — suite décroissante positive",
+    "Aire — intégrale entre courbe et axes"
+  ],
+  "bac-c-2002-sn-pc-ex1": [
+    "Couple redox — bilan de réaction spontanée",
+    "Cinétique — concentration restante en fonction du volume de gaz",
+    "Courbe [réactif]=f(t) — lecture graphique",
+    "Vitesse volumique — expression et valeur initiale",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-c-2002-sn-pc-ex4": [
+    "Ion accéléré — vitesse en fonction de U, m, e",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Spectromètre de masse — séparation d'isotopes"
+  ],
+  "bac-c-2002-sn-pc-ex5": [
+    "Dipôle R, L, C — identification par U/I continu et alternatif",
+    "Impédance — rapport Ueff/Ieff et déphasage",
+    "Constante de temps du circuit RL",
+    "Facteur de qualité — bande passante"
+  ],
+  "bac-c-2002-sc-pc-ex1": [
+    "Tampon acide-base faible — courbe pH=f(VB/VA)",
+    "Détermination graphique de I₀, τ, r et L",
+    "Rapport [base]/[acide] — expression du pH",
+    "pKa — déduction à partir du graphique"
+  ],
+  "bac-c-2002-sc-pc-ex2": [
+    "Ester — formule brute CnH2nO2",
+    "Isomères d'ester — formules semi-développées",
+    "Saponification — équation avec soude",
+    "Oxydation ménagée — identification aldéhyde/cétone",
+    "Oxydation ménagée — aldéhyde (Schiff)"
+  ],
+  "bac-c-2002-sc-pc-ex3": [
+    "Énergie mécanique — quart de cercle sans frottement",
+    "Réaction normale — expression en fonction de l'angle",
+    "Frottement — force constante sur segment rectiligne",
+    "Décollement — angle limite et vitesse initiale",
+    "Mouvement parabolique — équations et durée de chute"
+  ],
+  "bac-c-2002-sc-pc-ex4": [
+    "Solénoïde — champ magnétique et déviation d'aiguille",
+    "Expression de i(t) par morceaux",
+    "Bobine — tension aux bornes et loi d'Ohm",
+    "Oscillogramme — représentation de u(t)"
+  ],
+  "bac-c-2002-sc-pc-ex5": [
+    "Réaction nucléaire — azote et neutron",
+    "Radioactivité — loi de décroissance du ¹⁴C",
+    "Datation — comparaison activités bois ancien/récent",
+    "Âge — déduction graphique et calcul"
+  ],
+  "bac-c-2003-sn-pc-ex2": [
+    "Acide carboxylique chloré — formules et bases conjuguées",
+    "Acide faible — concentration à partir du pH",
+    "Dosage acide méthanoïque par soude",
+    "Indicateur coloré — choix selon pH à l'équivalence",
+    "pKa — classement et influence des substituants Cl"
+  ],
+  "bac-c-2003-sn-pc-ex3": [
+    "Pendule — énergie cinétique au passage par l'équilibre",
+    "Pendule — vitesse minimale pour tour complet",
+    "Mouvement dans champ électrique — trajectoire parabolique",
+    "Force électrique — mouvement rectiligne uniforme et charge q",
+    "Équation de trajectoire — dans un repère adapté"
+  ],
+  "bac-c-2003-sn-pc-ex5": [
+    "Constante de temps du circuit RL",
+    "Bobine — résistance interne et inductance",
+    "Circuit LC série — inductance à fréquence donnée",
+    "Résonance — pulsation ω₀ et intensité maximale",
+    "Bande passante — relation I/I₀ et ω₁ω₂=ω₀²"
+  ],
+  "bac-c-2003-sc-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Méthode de la trempe — rôle expérimental",
+    "Dosage acide méthanoïque par soude",
+    "Courbe nE=f(t) — vitesse instantanée et moyenne"
+  ],
+  "bac-c-2003-sc-pc-ex2": [
+    "Soude — concentration à partir du pH",
+    "Concentrations des espèces en solution d'acide faible",
+    "Solution tampon — propriétés et préparation",
+    "Ajout de soude — masse pour modifier le pH"
+  ],
+  "bac-c-2003-sc-pc-ex3": [
+    "Élongation du ressort vertical — état à l'équilibre",
+    "Masse-ressort vertical — équation différentielle du mouvement",
+    "Masse-ressort vertical — équation horaire après excitation initiale",
+    "Chute libre d'un solide — vitesse juste avant choc inélastique",
+    "Système masse-ressort — expression de l'énergie mécanique",
+    "Choc inélastique sur ressort — conservation de l'énergie mécanique",
+    "Amplitude d'oscillation — positions limites du plateau",
+    "Masse-ressort — accélération en fonction de la position"
+  ],
+  "bac-c-2003-sc-pc-ex4": [
+    "Ion accéléré par tension U — énergie cinétique en sortie",
+    "Filtre de vitesse E×B — sens du champ électrique",
+    "Filtre de vitesse E×B — vitesse sélectionnée indépendante de q",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Isotopes du brome — distance entre impacts sur détecteur",
+    "Champ magnétique — sens pour atteindre les points de détection",
+    "Accélération d'ions — calcul numérique de V₀"
+  ],
+  "bac-c-2003-sc-pc-ex5": [
+    "Onde transversale sur corde — équation d'élongation y(x,t)",
+    "Déduction de la longueur d'onde λ",
+    "Élongation d'un point M — calcul à un instant donné",
+    "Stroboscope — fréquence pour corde apparente immobile",
+    "Stroboscope — mouvement apparent et vitesse pour Ne ≠ N",
+    "Interférences de deux sources — équation de superposition",
+    "Interférences sur nappe d'eau — points immobiles",
+    "Phase des sources — condition d'excitation sinusoïdale"
+  ],
+  "bac-c-2004-sn-pc-ex1": [
+    "Couples redox I₂/I⁻ et S₂O₈²⁻/SO₄²⁻ — équation bilan",
+    "Concentrations initiales après mélange de volumes",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Dosage iodométrique — complétion d'un tableau de concentrations",
+    "Vitesse instantanée de formation du diiode",
+    "Courbe [réactif]=f(t) — lecture graphique",
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)"
+  ],
+  "bac-c-2004-sn-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Changement d'orbite — énergie à fournir pour passer de r à r'",
+    "Terre autour du Soleil — vitesse angulaire et période",
+    "Orbite terrestre — rapport T²/r³ en fonction de G et M'",
+    "Période de révolution terrestre — calcul et vraisemblance",
+    "Orbite circulaire — lien entre vitesse et rayon orbital"
+  ],
+  "bac-c-2004-sc-pc-ex1": [
+    "Formules semi-développées et nomenclature des composés organiques A, B, C, D",
+    "Oxydation ménagée d'un alcool — demi-équations et bilan",
+    "Réaction acide chlorure-alcool — équation et caractéristiques",
+    "Réaction anhydride d'acide + amine (amide)",
+    "Identification d'alcool et d'ester — déduction à partir du rendement",
+    "Fonctions organiques — aldéhyde, anhydride, acide, chlorure d'acyle",
+    "Oxydation au permanganate — produit qui fait rougir le pH",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "bac-c-2004-sc-pc-ex2": [
+    "Dosage acido-basique — courbe pH = f(Vb)",
+    "Point d'équivalence — coordonnées sur courbe de dosage",
+    "Acide carboxylique — masse molaire par dosage alcalin",
+    "Couple acide-base — détermination du pKa au dosage",
+    "Mélange acide-base — concentrations des espèces à Vb donné",
+    "Solution tampon — propriétés et préparation",
+    "Dissolution d'acide carboxylique — préparation de solution Sa",
+    "Échelle graphique pH-Vb — construction de la courbe"
+  ],
+  "bac-c-2004-sc-pc-ex3": [
+    "Plan incliné avec frottement — intensité de f pour doubler la vitesse",
+    "Trajet avec frottement — vitesse au point D (partie horizontale)",
+    "Plan incliné — longueur pour vitesse nulle en bout de pente",
+    "Quart de cercle sans frottement — vitesse en fonction de θ",
+    "Réaction normale — expression en fonction de l'angle",
+    "Mobile sur trajet ABC — énergie cinétique entre B et C",
+    "Frottement sur portion inclinée — sixième du poids sur CD",
+    "Coordonnées curvilignes — angle θ pour repérage sur arc"
+  ],
+  "bac-c-2004-sc-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Différence de marche — expression et calcul au point M",
+    "Frange brillante — déduction de λ à partir du numéro de frange",
+    "Lumière blanche — longueurs d'onde éteintes en un point P",
+    "Onde sur corde verticale — équations yA et yM",
+    "Élongations — calcul aux instants t₁ et t₂",
+    "Stroboscope sur corde — fréquence maximale pour aspect immobile",
+    "Réflexion évitée — rôle du poids immergé en extrémité"
+  ],
+  "bac-c-2004-sc-pc-ex5": [
+    "Solénoïde — spires jointives ou non",
+    "Enroulement — longueur de fil de cuivre utilisé",
+    "Inductance d'un solénoïde — calcul avec µ₀",
+    "Bobine parcourue par I — tension aux bornes et champ B",
+    "Flux magnétique — intervalles de variation selon i(t)",
+    "Force électromotrice d'induction — expression",
+    "Tension aux bornes de la bobine — expression littérale u(t)",
+    "Courant variable — lecture du graphe i(t)"
+  ],
+  "bac-c-2005-sn-pc-ex2": [
+    "Acide carboxylique — masse molaire par dosage alcalin",
+    "Acide saturé — formule brute et isomères semi-développés",
+    "Acide et chlorure de thionyle — équation et gaz produits",
+    "Chlorure d'acyle — fonction et nom du composé B",
+    "Synthèse d'ester — identification de l'alcool C",
+    "Oxydation ménagée d'un alcool — équation et produits",
+    "Ester C₆H₁₂O₂ — autres méthodes de synthèse",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-c-2005-sn-pc-ex3": [
+    "Plan incliné — équation graphique V² = f(x)",
+    "Théorème de l'énergie cinétique — énoncé",
+    "Frottement sur plan incliné — valeur de f et de V₀",
+    "Énergie mécanique — plan de référence du potentiel de pesanteur",
+    "Énergies Ec et Ep — expressions et représentation graphique",
+    "Énergie mécanique totale — courbe E = h(x)",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Mouvement parabolique — équations paramétriques après départ du plan"
+  ],
+  "bac-c-2005-sn-pc-ex5": [
+    "Constante de temps du circuit RL",
+    "Impédances — calcul de Z, Z₁ (bobine) et Z₂ (condensateur)",
+    "Diagramme de Fresnel — déphasage tension-courant et résistance r",
+    "Résonance — inductance L pour C et N₀ donnés",
+    "Résonance d'intensité — intensité efficace I₀",
+    "Courbe I(N) — variation de l'intensité avec la fréquence",
+    "Rapport I/I₀ — expression en fonction de Q et ω/ω₀",
+    "Facteur de qualité — définition Q = Lω₀/r"
+  ],
+  "bac-c-2005-sc-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Quantités de matière — n₁ et n₂ des réactifs initiaux",
+    "Constante K — déduction des masses à l'équilibre",
+    "Vitesse instantanée de formation de l'ester — à t = 30 min",
+    "Temps de demi-réaction — détermination graphique",
+    "Déplacement d'équilibre — ajout d'alcool pour plus d'ester",
+    "Élimination de l'eau — composition finale du mélange"
+  ],
+  "bac-c-2005-sc-pc-ex2": [
+    "Base faible — définition de la méthylamine",
+    "Réaction base-eau — équation et espèces en solution",
+    "Mélange acide-base — concentrations des espèces à Vb donné",
+    "Rapport [base]/[acide] — expression du pH",
+    "pKa à la demi-équivalence",
+    "Couple CH₃NH₃⁺/CH₃NH₂ — pKa à 25 °C",
+    "Concentrations négligeables — approximation [H₃O⁺] et [OH⁻]",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-c-2005-sc-pc-ex3": [
+    "Enregistrement chronophotographique — nature du mouvement et accélération",
+    "Force motrice F — frottement ou non sur AB",
+    "Réaction de la piste — intensité et angle α avec la verticale",
+    "Vitesse au point B — calcul après phase rectiligne",
+    "Trajectoire curviligne sans frottement — vitesse au point C",
+    "Réaction normale — valeur au point C sur arc de cercle",
+    "Mouvement de projectile — trajectoire, portée et flèche"
+  ],
+  "bac-c-2005-sc-pc-ex4": [
+    "Inductance théorique — formule du solénoïde",
+    "Force électromotrice d'induction — expression",
+    "f.e.m. d'auto-induction — valeurs selon graphe i(t)",
+    "Constante de temps du circuit RL",
+    "Solénoïde — caractéristiques géométriques et N spires",
+    "Courant i₁(t) et i₂(t) — calcul de e pour expressions données",
+    "Établissement du régime permanent — interrupteur fermé à t = 0",
+    "Représentation graphique e(t) — sur intervalle [0 ; 0,7] s"
+  ],
+  "bac-c-2005-sc-pc-ex5": [
+    "Interfrange et calcul de λ",
+    "Distance entre fentes — calcul à partir de frange et de D",
+    "Deux radiations — première coïncidence de franges brillantes",
+    "Lumière blanche — longueurs d'onde éteintes en un point P",
+    "Frange brillante — position du milieu de la 5ᵉ frange",
+    "Spectre visible — bornes 0,4 µm et 0,8 µm"
+  ],
+  "bac-c-2006-sn-pc-ex1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Concentrations initiales après mélange de volumes",
+    "Identification du réactif limitant",
+    "Méthode de la trempe — rôle expérimental",
+    "Vitesse instantanée de formation du diiode",
+    "Vitesse volumique — expression et valeur initiale",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-c-2006-sn-pc-ex4": [
+    "Courant dans solénoïde — schéma sens courant et B",
+    "Aiguille aimantée — angle de déviation dans le solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "f.e.m. induite — valeur maximale pour courant variable",
+    "Oscilloscope en circuit ouvert — allure de la tension induite",
+    "Constante de temps du circuit RL",
+    "Courant cosinusoïdal — champ magnétique créé par solénoïde",
+    "Induction mutuelle — bobine plate dans champ variable"
+  ],
+  "bac-c-2006-sn-pc-ex5": [
+    "Constante de temps du circuit RL",
+    "Déphasage intensité-tension — avance ou retard",
+    "cos φ — expression en fonction de R, r, L et impédances",
+    "Résistances R et r — calcul à partir de l'ampèremètre",
+    "Résonance d'intensité — identification par trois voltmètres",
+    "Fréquence de résonance N₂ — expression et calcul",
+    "Circuit sans résistor — Fresnel et nature du circuit",
+    "Inductance L et capacité C — déduction à N₃ = 55,7 Hz"
+  ],
+  "bac-c-2006-sc-pc-ex1": [
+    "Concentration en H₃O⁺ — pour solutions de même pH",
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Dissolution d'acide dans l'eau — équations pour A1H et A2H",
+    "pKa du couple — déduction pour acide faible A2H",
+    "Dosage acide méthanoïque par soude",
+    "Espèces à l'équivalence — présence résiduelle d'acide faible",
+    "Coefficient d'ionisation α",
+    "Formule semi-développée — identification de R-COOH"
+  ],
+  "bac-c-2006-sc-pc-ex2": [
+    "Formule brute d'un monoalcool par masse molaire",
+    "Isomères d'ester — formules semi-développées",
+    "Acides et alcools — correspondance avec chaque ester",
+    "Saponification — identification de A et ion carboxylate B",
+    "Rendement de saponification — calcul à partir de masse obtenue",
+    "Réaction d'hydrolyse basique — bilan et produits",
+    "Volume d'ester — stœchiométrie du dosage",
+    "Masse molaire — déduction du rendement r = nB/nE"
+  ],
+  "bac-c-2006-sc-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Vitesse orbitale en fonction de G, Ms et r",
+    "Constante G — application numérique"
+  ],
+  "bac-c-2006-sc-pc-ex5": [
+    "Constante radioactive λ",
+    "Loi de décroissance radioactive — ln(N/N₀) = −λt",
+    "Nombre de noyaux N₀ à partir d'une masse",
+    "Particule α dans champ B — sens du champ pour sortie en R",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Vitesse de sortie — calcul au point R du carré",
+    "Charge et masse de la particule α — application au MCUA"
+  ],
+  "bac-c-2007-sn-pc-ex2": [
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Acide faible — équation avec l'eau et Ka",
+    "Réaction endothermique — effet de la température sur le pH",
+    "Coefficient d'ionisation α",
+    "Oxydation d'alcool primaire — masse molaire de l'alcool A",
+    "Dosage acide méthanoïque par soude",
+    "Formule semi-développée — alcool primaire oxydé en acide",
+    "Concentration 0,1 mol/L — pH = 3 à 25 °C"
+  ],
+  "bac-c-2007-sn-pc-ex3": [
+    "Force horizontale constante — vitesse VB en fonction de F, l, m",
+    "Trajectoire circulaire — vitesse en M en fonction de θ",
+    "Réaction normale — expression en fonction de l'angle",
+    "Force minimale Fm — condition pour atteindre le point C",
+    "Décrochage en D — angle θ₀ et vitesse VD",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Point d'impact — abscisse sur plan horizontal AB",
+    "Énergie mécanique — passage de rectiligne à circulaire"
+  ],
+  "bac-c-2007-sn-pc-ex5": [
+    "Résonance RLC — relation entre L et C à N₀",
+    "Résistance R — calcul à U et I₀ donnés",
+    "Oscilloscope bicourbe — grandeurs sur voies 1 et 2",
+    "Déphasage — mesure par décalage horizontal",
+    "Inductance L — déduction du déphasage à N₀",
+    "Capacité C — retour à la première expérience",
+    "Diagramme de Fresnel — impédances à N = 50 Hz",
+    "Déphasage u-i — déduction graphique à fréquence fixe"
+  ],
+  "bac-c-2007-sc-pc-ex1": [
+    "Dissolution de NaOH — équation et ions en solution",
+    "Concentration OH⁻ et H₃O⁺ — comparaison dans solution basique",
+    "Masse d'hydroxyde — calcul à partir de pH et volume",
+    "Dilution de solution basique — volumes SB et eau",
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Concentrations C1 et C2 — dosages de A1H et A2H",
+    "pKa de l'acide faible — déduction graphique",
+    "Indicateur coloré — choix pour chaque dosage"
+  ],
+  "bac-c-2007-sc-pc-ex2": [
+    "Aldéhyde 2-méthylbutanal — formule et fonction",
+    "Équation bilan oxydation par permanganate en milieu acide",
+    "Cétone 3-méthylbutan-2-one — formule et fonction",
+    "Cétone — alcool d'oxydation ménagée correspondant",
+    "Hydratation d'un alcène — alcène précurseur",
+    "Tests d'identification — commun et différenciant pour isomères",
+    "Isomérie C5H10O — aldéhyde vs cétone",
+    "Groupement carbonyle — encadrement sur formule semi-développée"
+  ],
+  "bac-c-2007-sc-pc-ex3": [
+    "Système masse-ressort horizontal — bilan des forces",
+    "Système masse-ressort — caractère conservatif",
+    "Énergie mécanique — expression en K, m, x et V",
+    "Énergie mécanique — en fonction de K et x₀ seuls",
+    "Vitesse des ions en fonction de m, e et U",
+    "Énergie potentielle élastique d'un ressort",
+    "Constantes m et K — déduction de Epe = f(V)",
+    "Vitesse au passage par équilibre — calcul"
+  ],
+  "bac-c-2007-sc-pc-ex5": [
+    "Interfrange et calcul de λ",
+    "Déduction de la longueur d'onde λ",
+    "Deux radiations — observation sur écran",
+    "Coïncidence de franges brillantes — distance de la frange centrale",
+    "Lumière blanche — observation sur écran E",
+    "Spectroscope — franges brillantes en un point donné",
+    "Troisième frange brillante — distance entre maxima symétriques"
+  ],
+  "bac-c-2008-sn-pc-ex2": [
+    "Acide nitrique fort — équation de dissolution",
+    "Solution commerciale HNO₃ — concentration à partir de densité et % masse",
+    "Dilution — volume commercial pour pH = 1,5",
+    "Éthanoate de sodium — concentration de solution",
+    "Base faible ou forte — justification par pH = 8,9",
+    "Réaction éthanoate-eau — équation et couples acide-base",
+    "Masse molaire — calcul de concentration",
+    "Données molaires — application H, O, N, Na"
+  ],
+  "bac-c-2008-sn-pc-ex4": [
+    "Solénoïde — champ B direction sens et valeur",
+    "Coefficient d'auto-induction — calcul du solénoïde",
+    "Variation de flux — lors de l'extinction du courant",
+    "f.e.m. moyenne — pendant la rupture du courant",
+    "f.e.m. d'auto-induction — valeurs selon graphe i(t)",
+    "Courant dans solénoïde — schéma sens courant et B",
+    "Flux à travers spires — loi Φ = L·i",
+    "Graphique e(t) — représentation des variations"
+  ],
+  "bac-c-2008-sn-pc-ex5": [
+    "Courbe de résonance I(N) — fréquence N₀ et inductance L",
+    "Résonance aiguë vs floue — identification des courbes",
+    "Rapport R₁/R₂ — déduction des courbes de résonance",
+    "Oscilloscope — nature du circuit à N₁ = 72 Hz",
+    "Facteur de puissance — calcul du circuit",
+    "Valeurs R₁, R₂ et U — déduction des mesures",
+    "Facteur de qualité — à la résonance d'intensité",
+    "Constante de temps du circuit RL"
+  ],
+  "bac-c-2008-sc-pc-ex1": [
+    "Réaction I⁻ et H₂O₂ — équation bilan redox",
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Facteur cinétique — variation de la vitesse dans le temps",
+    "Concentration à l'infini — [I₂]∞ et accord avec courbe",
+    "Temps de demi-réaction — détermination graphique",
+    "Potentiels standard — couples I₂/I⁻ et H₂O₂/H₂O",
+    "Mélange acide-iodure-peroxyde — quantités initiales"
+  ],
+  "bac-c-2008-sc-pc-ex2": [
+    "Classement de bases — par pH de solutions de même C",
+    "Hydroxyde de sodium — identification de la base forte",
+    "Concentration de solution S — calcul à partir de VBE",
+    "pKa de base faible — expression en pH, C et pKe",
+    "Identification de bases faibles — tableau de pKa",
+    "Solutions non étiquetées — méthode par mesure de pH",
+    "pH des solutions S1, S2, S3 — comparaison",
+    "Dissolution de base dans l'eau — espèces en solution"
+  ],
+  "bac-c-2008-sc-pc-ex3": [
+    "Enregistrement chronophotographique — vitesses aux points Ai",
+    "Graphique v(t) — représentation à partir des mesures",
+    "Force de frottement f — calcul par RFD",
+    "Force de frottement f — calcul par énergie entre A1 et A6",
+    "Mobile sur table — force motrice F = 1 N",
+    "Intervalle de temps — θ = 60 ms entre positions",
+    "Théorème de l'énergie cinétique — application expérimentale",
+    "Relation fondamentale de la dynamique — sur trajet horizontal"
+  ],
+  "bac-c-2008-sc-pc-ex4": [
+    "Ion He²⁺ dans champ B — sens de B et trajectoire circulaire",
+    "Vitesse d'injection V₀ — calcul et caractéristiques en R",
+    "Tension accélératrice U — calcul pour ions hélium",
+    "Isotopes ⁶Li⁺ et ⁷Li⁺ — relation V/V' = √(m/m')",
+    "Distance MA entre traces — expression et calcul numérique",
+    "Accélération par champ E — vitesse en fonction de U' et m",
+    "Déviation magnétique — rayon en fonction de m, q, B, V",
+    "Spectromètre de masse — séparation d'isotopes"
+  ],
+  "bac-c-2008-sc-pc-ex5": [
+    "Déduction de la longueur d'onde λ",
+    "Stroboscope — aspect de la corde pour diverses Ne",
+    "Équation horaire yO — source à l'extrémité O",
+    "Élongation yM — en fonction de x et t",
+    "Points en phase avec O — abscisses et nombre",
+    "Aspect de la corde — représentation à t = 0,03 s",
+    "Onde transversale — célérité et absence de réflexion"
+  ],
+  "bac-c-2009-sn-pc-ex1": [
+    "Vitesse volumique — expression et valeur initiale",
+    "Temps de demi-réaction — détermination graphique",
+    "Dosage de l'aspirine — équivalence avec indicateur coloré",
+    "Réaction acide-base du dosage — équation bilan",
+    "Concentration de solution S — calcul à partir de VBE",
+    "Masse d'acide par comprimé — déduction du dosage",
+    "Synthèse d'aspirine — chlorure d'acétyle et acide salicylique",
+    "Courbe de suivi — évolution de la réaction dans le temps"
+  ],
+  "bac-c-2009-sn-pc-ex2": [
+    "Alcool C3H7OH — isomères, noms et classes",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Identification alcool primaire/secondaire — expérience complémentaire",
+    "Demi-équations redox — dichromate en milieu acide",
+    "Isomères d'ester — formules semi-développées",
+    "Couple redox Cr₂O₇²⁻/Cr³⁺ — teinte verte"
+  ],
+  "bac-c-2009-sn-pc-ex3": [
+    "Masse-ressort vertical — équation différentielle du mouvement",
+    "Pulsation du mouvement — déduction de a + 400x = 0",
+    "Équation horaire — mouvement sinusoïdal du solide",
+    "Déduction de la longueur d'onde λ",
+    "Points P et Q sur corde — comparaison de phase avec G",
+    "Propagation transversale — célérité C = λ/T",
+    "Excitation sinusoïdale — amplitude et conditions initiales",
+    "Équation horaire du mouvement harmonique"
+  ],
+  "bac-c-2009-sn-pc-ex5": [
+    "Impédance au carré — expression théorique Z²(ω)",
+    "Graphe Z² = f(ω²) — déduction de r et L",
+    "Intensité efficace — calcul à ω = 50 rad/s",
+    "Résonance série — capacité C pour I maximale",
+    "Puissance moyenne P₀ — à la résonance",
+    "Demi-puissance — relation I = I₀/√2",
+    "Bobine réelle — modèle r + L en série",
+    "Tension efficace constante — U = 150 V"
+  ],
+  "bac-c-2009-sc-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Isomères C6H12O2 — formules et noms d'esters",
+    "Oxydation ménagée — identification alcool B par tests",
+    "Isomères de position et de fonction — dérivés de B",
+    "Formule de l'ester C — déduction de B et de l'acide",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Classification des alcools — primaire, secondaire, tertiaire"
+  ],
+  "bac-c-2009-sc-pc-ex2": [
+    "Amine B en eau — équation bilan",
+    "Rapport [base]/[acide] — à partir de pH et pKa",
+    "Concentrations des espèces en solution d'acide faible",
+    "Calcul de la concentration molaire à partir d'une masse dissoute",
+    "Formule semi-développée — identification de R-COOH",
+    "pH = 3 et pKa = 4,9 — degré d'ionisation",
+    "Dissolution 5,92 g dans 1 L — masse molaire implicite",
+    "Couple acide-base — relation de Henderson-Hasselbalch"
+  ],
+  "bac-c-2009-sc-pc-ex3": [
+    "Théorème de l'énergie cinétique — énoncé",
+    "Énergie cinétique Ec(x) — intervalle [0 ; 100 m] avec câble",
+    "Forces f et F — déduction du diagramme Ec(x)",
+    "Équilibre au point C — réaction totale de la piste",
+    "Énergie potentielle Epp(0) — théorème de l'énergie mécanique",
+    "Travail du câble sur piste inclinée avec frottements",
+    "Skieur m = 80 kg — énergie nulle en C"
+  ],
+  "bac-c-2009-sc-pc-ex4": [
+    "Distance entre fentes — calcul par angle d'observation",
+    "Interfrange et calcul de λ",
+    "Différence de marche δ en fonction de a, x et D",
+    "Coïncidence de franges pour deux longueurs d'onde",
+    "Géométrie — écran à D = 2,5 m",
+    "Frange centrale — repère pour abscisses",
+    "Angle S1SS2 — méthode de mesure de a"
+  ],
+  "bac-c-2009-sc-pc-ex5": [
+    "Courant induit — sens selon variation de B(t)",
+    "Courant induit — sens et intensité",
+    "Flux magnétique à travers une petite bobine",
+    "f.e.m. induite e(t) — valeurs et courbe sur une période",
+    "Spire carrée en champ variable — loi de Lenz-Faraday",
+    "Oscilloscope — visualisation de la tension induite",
+    "Champ B(t) — lecture du graphe 1 et graphe 2",
+    "Norme de B — variation en fonction du temps"
+  ],
+  "bac-c-2010-sn-pc-ex3": [
+    "Rail de Laplace — orientation du champ B perpendiculaire",
+    "Circuit rail-barre — sens et intensité du courant",
+    "Force de Laplace — direction, sens et intensité sur MN",
+    "Flux balayé — calcul lors du déplacement de la barre",
+    "f.e.m. induite — mouvement de la barre en 1 ms",
+    "Barre mobile — court-circuit et f.é.m. E du générateur",
+    "Champ B = 0,2 T — dans entrefer d'aimant",
+    "Conducteur sur rails — équilibre des forces"
+  ],
+  "bac-c-2010-sn-pc-ex4": [
+    "Inductance théorique — formule du solénoïde",
+    "Inductance expérimentale — résonance à 50 Hz et C = 318 µF",
+    "Résistance R' de la bobine — déduction du circuit",
+    "Montage r + bobine — schéma et trois voltmètres",
+    "Diagramme de Fresnel — tensions u, u₁, u₂",
+    "Impédance de la bobine — calcul",
+    "Phase de u₂ par rapport à i — déduction",
+    "R et L de la bobine — calcul et puissance moyenne"
+  ],
+  "bac-c-2010-sn-pc-ex5": [
+    "Mouvement sinusoïdal — équation horaire à élongation maximale initiale",
+    "Stroboscope — fréquences Ne pour lame immobile (10 < Ne < 50)",
+    "Déduction de la longueur d'onde λ",
+    "Équation horaire — point M à distance x",
+    "État vibratoire — phase de M par rapport à O",
+    "Lame vibrante — N = 50 Hz, a = 0,5 cm",
+    "Éclairs stroboscopiques — synchronisation avec fréquence propre"
+  ],
+  "bac-c-2010-sc-pc-ex1": [
+    "Demi-équations redox — I₂/I⁻ et H₂O₂/H₂O",
+    "Quantités initiales — I⁻, H₂O₂, H₃O⁺ à t = 0",
+    "Identification du réactif limitant",
+    "Concentration maximale de I₂ — à partir du limitant",
+    "Potentiels standard — validation du sens de réaction",
+    "Mélange volumes — dilution des concentrations",
+    "Réaction lente — formation progressive du diiode",
+    "Acide sulfurique — rôle dans le milieu réactionnel"
+  ],
+  "bac-c-2010-sc-pc-ex2": [
+    "Composés organiques — noms et fonctions (A à D)",
+    "Oxydation ménagée d'un alcool — demi-équations et bilan",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Suivi spectrophotométrique — concentration de I₂ dans le temps",
+    "Concentration à long terme — accord avec bilan stoéchiométrique",
+    "Vitesse instantanée de formation du diiode",
+    "Vitesse instantanée de disparition — lecture graphique",
+    "Oxydation ménagée d'un alcool secondaire en cétone"
+  ],
+  "bac-c-2010-sc-pc-ex3": [
+    "Bobine longue — intensité I pour B = 10⁻² T au centre",
+    "Aiguille aimantée — schéma sens du courant et position",
+    "Champ résultant — superposition aimant + bobine",
+    "Angle α de l'aiguille — avec Ba = 1,5×10⁻² T",
+    "Flux Φ(t) — bobine tournante à vitesse angulaire ω",
+    "Flux initial Φ₀ — normale parallèle à B",
+    "Flux à t = 0,25 s — calcul numérique",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-c-2010-sc-pc-ex4": [
+    "Noyau radioactif — définition",
+    "Composition du noyau de polonium 210",
+    "Constante radioactive λ",
+    "Loi N(t) = N₀e⁻λt — vérification graphique",
+    "Graphique -ln[N/N₀] — pente et constante λ",
+    "Tableau de mesures — complétion des -ln[N/N₀]",
+    "Activité et période — relation avec λ",
+    "Classification périodique — symboles Th, Pb, Bi, Po"
+  ],
+  "bac-c-2010-sc-pc-ex5": [
+    "Oscillateur masse-ressort — équation différentielle par RFD",
+    "Solution x = xm cos(2πt/T + φ) — amplitude et phase",
+    "Période propre T₀ — lecture graphique et formule",
+    "Raideur k — déduction de T₀, m et k",
+    "Énergies Ep, Ec et E — expressions et conservation",
+    "Vitesse au passage par équilibre — calcul",
+    "Courbes E, Ep, Ec(t) — identification sur schéma",
+    "Enregistrement x(t) — détermination de xm et φ"
+  ],
+  "bac-c-2011-sn-pc-ex2": [
+    "HCl gazeux en eau — équation et quantité d'H₃O⁺ par litre",
+    "Volume de gaz HCl — calcul avec Vm = 24 L/mol",
+    "Acide éthanoïque faible — équation et n₁ dans 10 mL",
+    "Dilution — protocole pour passer de C1 à C2",
+    "Effet de dilution — comparaison n₁ et n₂ d'ions H₃O⁺",
+    "Dilution d'acide fort — pH de la solution diluée",
+    "pH acide faible vs fort — à concentrations comparables",
+    "Acide chlorhydrique — pH = 2,1"
+  ],
+  "bac-c-2011-sn-pc-ex3": [
+    "Plan incliné — calcul de l'angle α par géométrie",
+    "Énergie cinétique — variation O→B sans frottement",
+    "Travail des forces — interprétation du résultat",
+    "Frottement — valeur par théorème de l'énergie cinétique",
+    "Énergie mécanique — expression en K, m, x et V",
+    "Plan de référence Ep — position par rapport à O",
+    "Expressions Ep(x) et Ec(x) — position où Ec = Ep",
+    "Chronométrage A→C — vitesse instantanée en B"
+  ],
+  "bac-c-2011-sn-pc-ex5": [
+    "Constante de temps du circuit RL",
+    "Tension aux bornes du condensateur — UQN et ZC",
+    "Déphasage tension-courant — calcul",
+    "Résonance en phase — pulsation ω₀ et L, C",
+    "Mesures efficaces — I, UMP, UPQ à ω fixé",
+    "Tension d'alimentation — UMN = 120 V constant",
+    "Impédance du condensateur — comparaison avec bobine"
+  ],
+  "bac-c-2011-sc-pc-ex1": [
+    "Hydrolyse d'ester — identification fonctions de A, B, C",
+    "Composé A — masse molaire par dosage de 3 g",
+    "Composé B — formule et nom par oxydation et tests",
+    "Ester E C6H12O2 — formule et nom",
+    "Équation bilan — hydrolyse de E",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Dosage acide méthanoïque par soude",
+    "Couples acide-base — espèces après hydrolyse"
+  ],
+  "bac-c-2011-sc-pc-ex2": [
+    "Indicateur HInd — degré de dissociation par pH",
+    "Constante Ka — calcul et pKa du couple HInd/Ind⁻",
+    "Identification d'indicateur — tableau zone de virage",
+    "HCl concentré 33% — dilution 1000 fois",
+    "Dosage S1 — équation et concentration C1",
+    "Concentration C0 — solution commerciale d'acide",
+    "Équivalence — relation C1 V1 = CB VE",
+    "Acide fort commercial — étiquette en masse %"
+  ],
+  "bac-c-2011-sc-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Période de révolution — expression en fonction de r, M, G",
+    "Masse de Jupiter — déduction de la droite T² = f(r³)",
+    "Graphique (r³, T²) — vérification linéaire",
+    "Symétrie sphérique — hypothèse sur répartition de masse"
+  ],
+  "bac-c-2011-sc-pc-ex4": [
+    "Force de Laplace — équilibre avec tension du fil",
+    "Sens du courant — déduction de la force sur MN",
+    "Intensité du champ B — calcul à l'équilibre horizontal",
+    "Rails inclinés α = 30° — B pour nouvel équilibre",
+    "Mouvement sous Laplace — nature et accélération OA",
+    "Vitesse en un point du parcours",
+    "Durée O→C — parcours au-delà de la zone de champ",
+    "Conducteur sur rails — masse m = 40 g, I = 10 A"
+  ],
+  "bac-c-2011-sc-pc-ex5": [
+    "Interfrange et calcul de λ",
+    "Distance D1 et λ — déduction de i₁ et i₂",
+    "Champ d'interférences — largeur l et hachurage",
+    "Franges brillantes et franges sombres",
+    "Coïncidence de franges — λ et λ' = 0,64 µm",
+    "Sources en concordance de phase — interférences constructives",
+    "Fentes à a = 2 mm — écran à distance D",
+    "Angle d'ouverture α — géométrie des faisceaux"
+  ],
+  "bac-c-2012-sn-pc-ex4": [
+    "Établissement du courant — f.e.m. d'auto-induction e(t)",
+    "Constante de temps du circuit RL",
+    "f.e.m. à t = 0 — déduction de L",
+    "Résistance r de la bobine en régime permanent",
+    "Champ magnétique d'un solénoïde",
+    "Flux dans bobine S' — induction mutuelle",
+    "f.e.m. dans S' — décroissance affine du courant",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-c-2012-sn-pc-ex5": [
+    "Montage oscilloscope — schéma voies A et B",
+    "Tension excitatrice — Um, ω et fréquence N",
+    "Décalage temporel Δt — retard ou avance de u sur uR",
+    "Tension uR(t) — expression à partir de l'oscillogramme",
+    "Intensité i(t) — déduction de uR = Ri",
+    "Impédance du circuit — et résistance r de bobine",
+    "Résonance d'intensité — fréquence N₀ et Im",
+    "Déphasage u-uR — selon N vs N₀"
+  ],
+  "bac-c-2012-sc-pc-ex1": [
+    "2-méthylbutanoate d'éthyle — formule semi-développée",
+    "Isomère d'ester — même alcool, autre acide",
+    "Synthèse d'ester — acide et alcool correspondants",
+    "Hydrolyse d'ester — équation bilan",
+    "Déplacement d'équilibre — technique pour plus d'acide",
+    "Cinétique d'hydrolyse — facteur pour accélérer la réaction",
+    "Ester dans les pommes — contexte du composé naturel",
+    "Réaction lente d'hydrolyse — caractéristique"
+  ],
+  "bac-c-2012-sc-pc-ex2": [
+    "Courbe pH = f(VB) — volume VE et pH à l'équivalence",
+    "Concentration CA — valeur approchée par dosage",
+    "Masse molaire et nom — acide carboxylique",
+    "Espèces en solution et pKa",
+    "Dosage acide méthanoïque par soude",
+    "Point d'équivalence — lecture graphique",
+    "Coefficient d'ionisation α",
+    "Dissolution 7,4 g dans 1 L — préparation"
+  ],
+  "bac-c-2012-sc-pc-ex3": [
+    "Énergie cinétique et potentielle — théorème de l'énergie",
+    "Force de frottement f — déduction du diagramme",
+    "Abscisse xA — point de départ sans vitesse initiale",
+    "Énergie mécanique et conservation",
+    "Énergie mécanique Em — calcul avant chute",
+    "Vitesse à l'impact I — déduction de Em",
+    "Plan incliné α = 10° — entre A et O",
+    "Diagramme Ec(x) — lecture expérimentale"
+  ],
+  "bac-c-2012-sc-pc-ex4": [
+    "Vitesse des ions en fonction de m, e et U",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Distance BC — expression en m, n, e, U, B",
+    "Identification de l'élément X — comparaison BC calculé",
+    "Isotopes Ni²⁺, Al³⁺, Ag⁺ — distances BC numériques",
+    "Chambre d'ionisation — production d'ions Xn+",
+    "Spectrométrie de masse — principe P1-P2-B-C",
+    "Charge élémentaire e — dans les expressions"
+  ],
+  "bac-c-2013-sn-pc-ex4": [
+    "Amine B en eau — équation bilan",
+    "Dosage S1 — équation et concentration C1",
+    "pKa du couple — déduction à pH = 11,8",
+    "Masse molaire de l'amine — à partir de 1,8 g dans 0,4 L",
+    "Formules semi-développées — classes et noms possibles",
+    "Solution tampon — propriétés et préparation",
+    "HNO₃ commercial — concentration à 65% masse",
+    "Équivalence acido-basique et volume versé"
+  ],
+  "bac-c-2014-sn-pc-ex1": [
+    "HCl en eau — équation et pH de solution 0,1 mol/L",
+    "Amine RNH₂ en eau — réaction partielle ou totale",
+    "Solution tampon — propriétés et préparation",
+    "Réaction de mélange — équation bilan acide + amine",
+    "Base amine faible — pH = 11,4 à Cb donnée",
+    "Préparation 116 mL — calcul des volumes",
+    "Couple RNH₃⁺/RNH₂ — constante d'acidité"
+  ],
+  "bac-c-2014-sn-pc-ex2": [
+    "Quantités initiales — acide méthanoïque et propan-2-ol",
+    "Estérification — équation, suivi et équilibre",
+    "Composition à l'équilibre — à partir de masse d'acide restante",
+    "Constante d'équilibre K",
+    "Déplacement d'équilibre — ajout de réactifs",
+    "Vitesse volumique — expression et valeur initiale",
+    "Vitesse moyenne — entre t = 10 et 40 min"
+  ],
+  "bac-c-2014-sn-pc-ex3": [
+    "Énergie potentielle Epp(z) — expression avec Epp0",
+    "Courbe Epp = az + b — déduction de g, Epp0 et z₀",
+    "Vitesse des ions en fonction de m, e et U",
+    "Réaction normale en C — sur trajectoire circulaire",
+    "Décrochage en C — valeur de L",
+    "Frottement sur BA — diagramme Ec(x)",
+    "Frottement f — calcul par énergie cinétique",
+    "Piste inclinée puis arc — énergie du système {S, terre}"
+  ],
+  "bac-c-2014-sn-pc-ex4": [
+    "Montage RLC — branchement oscilloscope",
+    "Période et fréquence — lecture oscillogramme",
+    "Tensions maximales — voies 1 et 2",
+    "Valeurs efficaces — voltmètre et ampèremètre",
+    "Résonance ou déphasage — déduction de r et L",
+    "Modification de C — avance de phase de u sur i",
+    "Charge de condensateur — Q et énergie W",
+    "Oscillations libres LC — charge q(t) et i(t)"
+  ],
+  "bac-c-2014-sn-pc-ex5": [
+    "Mouvement sinusoïdal — équation horaire de l'extrémité A",
+    "Corde fixée à lame — rôle du liquide (anti-réflexion)",
+    "Stroboscope N = 100 Hz — célérité sur corde",
+    "Temps de propagation — onde jusqu'au point M",
+    "Équation du mouvement de M — à 12,5 cm de S",
+    "Diagrammes yS(t) et yM(t) — retard et phase",
+    "Lame électromagnétique — pulsation ω = 200π rad/s",
+    "Période spatiale λ = 10 cm — déduction de c"
+  ],
+  "bac-c-2016-sn-pc-ex1": [
+    "Amine B en eau — équation bilan",
+    "Dosage HNO₃ — concentration Cb de la solution S",
+    "pKa — à pH = 11,8 de la solution d'amine",
+    "Masse molaire — formules et classes de l'amine",
+    "Solution tampon — propriétés et préparation",
+    "HNO₃ commercial — concentration à 65% masse",
+    "Équivalence — Va = 40 mL pour Vb = 20 mL",
+    "Réaction acide-amine — lors du dosage"
+  ],
+  "bac-c-2016-sn-pc-ex2": [
+    "Hydrolyse ester C5H10O2 — acide éthanoïque et composé A",
+    "Famille du composé A — alcool par hydrolyse",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Formules de A et B — identification",
+    "Ester E — formule semi-développée et nom",
+    "Hydrolyse — équation et caractéristiques",
+    "Acide éthanoïque → chlorure d'éthanoyle — équation",
+    "Chlorure d'éthanoyle + éthylamine — amidation"
+  ],
+  "bac-c-2016-sn-pc-ex3": [
+    "Bobine sur ressort — forces de Laplace et équilibre",
+    "Champ B — expression en k, Δl, m, g, a, I, N",
+    "Entrée de bobine dans champ — surface immergée",
+    "Flux et f.e.m. — translation à vitesse constante",
+    "Angle d'une rotation dans l'espace",
+    "Valeurs maximales — flux et f.e.m. induite",
+    "Forces sur spires — F_CD, F_AC, F_DE",
+    "Coupe du courant — chute du ressort"
+  ],
+  "bac-c-2016-sn-pc-ex4": [
+    "Skieur sur AB — vitesse VB pour arriver en C avec v = 0",
+    "Force F constante — valeur pour atteindre VB",
+    "Mouvement B→C — nature sans force motrice",
+    "Arc DE — vitesse VM en fonction de θ",
+    "Réaction sur piste — expression en M sur arc",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Point de chute P — abscisse sur le sol",
+    "Énergie mécanique — piste inclinée α = 60°"
+  ],
+  "bac-c-2017-sc-pc-ex1": [
+    "Tableau de composés — formules et fonctions organiques",
+    "Précurseurs de B et C — noms et fonctions",
+    "Réactions de synthèse — équations pour A, B, C",
+    "Chiralité — identification et énantiomères",
+    "Ester, anhydride, chlorure, amide — nomenclature",
+    "Isomérie — propanoate et dérivés méthylés",
+    "Fonctions organiques — association nom-structure",
+    "Énantiomères — représentation des deux formes"
+  ],
+  "bac-c-2017-sc-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Volumes à l'équivalence — relation entre concentrations",
+    "Acide le plus fort — identification A3H",
+    "Dilution au dixième — ΔpH = 1 pour acide fort",
+    "Acides faibles A1H et A2H — justification",
+    "Concentrations C1, C2, C3 et CB — calculs",
+    "Comparaison des courbes de dosage — méthode",
+    "Solutions S1, S2, S3 — même volume Va dosé"
+  ],
+  "bac-c-2017-sc-pc-ex3": [
+    "Particule dans champ E — équation de trajectoire",
+    "Vitesse de sortie — coordonnées et tan α₁",
+    "Quotient q/(mV₀²) — expression en champ E",
+    "Champ B — arc de cercle et rayon",
+    "Quotient q/(mV₀) — en fonction de α₂, B et l",
+    "Charge massique q/m — calcul numérique",
+    "Vitesse V₀ — déduction des déviations α₁ = α₂",
+    "Rayon de trajectoire d'un ion dans un champ B"
+  ],
+  "bac-c-2017-sc-pc-ex4": [
+    "Solénoïde — champ B à l'intérieur pour I = 0,6 A",
+    "Variation de flux — lors de l'extinction du courant",
+    "f.e.m. moyenne — bobine interne 50 spires",
+    "f.e.m. par intervalles — lecture graphe i(t)",
+    "Flux magnétique à travers une petite bobine",
+    "Induction — loi e = -dΦ/dt",
+    "Courant variable i(t) — intervalles [0;4], [4;8], etc.",
+    "Caractéristiques du solénoïde — N = 500, l = 40 cm"
+  ],
+  "bac-c-2018-sn-pc-ex4": [
+    "Lame vibrante — équation horaire de la source O",
+    "Équation horaire — point M à distance x",
+    "Phase relative — M à x = 2,25 cm par rapport à O",
+    "Fourche à deux branches — équation de superposition",
+    "Interférences — positions des maxima d'amplitude",
+    "Déduction de la longueur d'onde λ",
+    "Fréquence f = 50 Hz — pulsation ω",
+    "Distance S1S2 = 3,5 cm — interférences localisées"
+  ],
+  "bac-c-2019-sn-pc-ex2": [
+    "Acide carboxylique — masse molaire par dosage alcalin",
+    "Formule semi-développée — identification de R-COOH",
+    "Acide propanoïque — coefficient α et pKa",
+    "Estérification — équation, suivi et équilibre",
+    "Constante K — déduction des masses à l'équilibre",
+    "Déplacement d'équilibre — ajout d'eau pour 0,12 mol d'acide",
+    "Dosage par soude — V_E et demi-équivalence",
+    "Mélange propanoate d'éthyle-eau — bilan"
+  ],
+  "bac-c-2019-sn-pc-ex3": [
+    "Ion ⁶Li⁺ accéléré — vitesse V₀ pour U₀ = 1252,5 V",
+    "Champ B — sens pour sortie en S, mouvement MCU",
+    "Rayon r et déviation α — dans zone de largeur l",
+    "Champ E entre plaques — équation de trajectoire",
+    "Vitesse V₀ — recalcul dans zone électrique",
+    "Distance d entre armatures — condition de passage",
+    "Déviation combinée E et B — analyse de trajectoire",
+    "Charge q et masse m — particule positive"
+  ],
+  "bac-c-2020-sn-pc-ex3": [
+    "Plan incliné — nature du mouvement et équation horaire",
+    "Travail de la tension T — caractère moteur ou résistant",
+    "Travaux des autres forces — poids et réaction",
+    "Frottement f — déduction de F' = 162,5 N",
+    "Énergies Ep, Ec, Em — expressions entre A et B",
+    "Distance BC — arrêt en C après suppression de F",
+    "Force F sur corde — angle β avec pente",
+    "Applications numériques — m = 25 kg, α = 30°"
+  ],
+  "bac-c-2020-sn-pc-ex4": [
+    "Déviation dans un champ électrique uniforme",
+    "Signe de la tension d'accélération cathode-anode",
+    "Équation de trajectoire parabolique",
+    "Déviation angulaire électrique et tension U",
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Rayon de courbure en fonction de B, m, e et U₀",
+    "Déviation angulaire magnétique et quart de cercle"
+  ],
+  "bac-c-2020-sn-pc-ex5": [
+    "Force de Laplace sur une tige conductrice",
+    "Équilibre d'une tige sur rails dans un champ magnétique",
+    "Sens du champ magnétique pour l'équilibre",
+    "Relation graphique masse en fonction de l'intensité",
+    "Détermination expérimentale de l'intensité du champ B",
+    "Rails inclinés — équilibre avec le poids"
+  ],
+  "bac-c-2021-sn-pc-ex2": [
+    "Comparaison de bases faibles par le pH initial",
+    "Équivalence acido-basique et volume versé",
+    "pH à l'équivalence — confirmation de la force relative des bases",
+    "pH après équivalence à volume égal",
+    "Détermination des pKa par dosage (NH₄⁺/NH₃ et CH₃NH₃⁺/CH₃NH₂)"
+  ],
+  "bac-c-2021-sn-pc-ex3": [
+    "Raideur d'un ressort à l'équilibre",
+    "Équation horaire du mouvement harmonique",
+    "Équation horaire x(t) d'un oscillateur",
+    "Conservation de l'énergie mécanique du pendule masse-ressort",
+    "Identification des courbes Ec et Ep",
+    "Détermination de K et m à partir des graphes énergétiques"
+  ],
+  "bac-c-2021-sn-pc-ex4": [
+    "Inductance d'une bobine solénoïdale",
+    "Tensions aux bornes en régime transitoire RL",
+    "Équation différentielle du courant i(t)",
+    "Constante de temps du circuit RL",
+    "Établissement non instantané du courant",
+    "Détermination graphique de I₀, τ, r et L"
+  ],
+  "bac-c-2021-sn-pc-ex5": [
+    "Fréquence et amplitudes d'une tension alternative",
+    "Déphasage tension-courant — calcul",
+    "Expression de l'intensité instantanée i(t)",
+    "Résistance et capacité du dipôle RLC",
+    "Résonance d'intensité — intensité efficace I₀",
+    "Fréquence de résonance et coefficient de surtension"
+  ],
+  "bac-c-2022-sn-pc-ex4": [
+    "Structure histologique du testicule pubère",
+    "Rôle des cellules de Sertoli dans la spermatogenèse",
+    "Identification de la FSH et de sa cible",
+    "Légendation d'une coupe de testicule"
+  ],
+  "bac-c-2022-sn-pc-ex5": [
+    "Identification des hormones ovariennes H1 et H2",
+    "Structures ovarienne aux temps T1, T2, T3 et T4",
+    "Jour d'ovulation et premier jour de menstruation",
+    "Évolution de l'endomètre",
+    "Rétrocontrôles hormonaux aux jours clés du cycle"
+  ],
+  "bac-c-2022-sc-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "Expression de i(t) par morceaux",
+    "Force électromotrice d'induction — expression",
+    "Calcul de la f.e.m. induite sur chaque intervalle"
+  ],
+  "bac-c-2023-sn-pc-ex1": [
+    "Définition d'aquifère, nappe et nappe phréatique",
+    "Différence entre nappe libre et nappe captive",
+    "Unités hydrogéologiques de la Mauritanie",
+    "Stockage et circulation de l'eau souterraine"
+  ],
+  "bac-c-2023-sn-pc-ex2": [
+    "Schéma d'un gisement de pétrole — légendation",
+    "Roche mère, roche réservoir et roche couverture",
+    "Anticlinal et piège structural",
+    "Répartition pétrole, gaz et eau dans le gisement"
+  ],
+  "bac-c-2023-sc-pc-ex1": [
+    "Action de la FSH sur les tubes séminifères",
+    "Régulation de la FSH par GnRH et testostérone",
+    "Effet de la LH sur la sécrétion de testostérone",
+    "Nombre chromosomique des cellules germinales",
+    "Cellules germinales vs cellules de soutien",
+    "Comparaison spermatozoïde et ovocyte II"
+  ],
+  "bac-c-2024-sn-pc-ex1": [
+    "Paléontologie et stratigraphie — intérêt et exemple",
+    "Fossiles guides et datation relative des couches",
+    "Niveau piézométrique — définition",
+    "Position du niveau piézométrique (nappe libre et captive)",
+    "Relation niveau piézométrique et pression de la nappe"
+  ],
+  "bac-c-2004-sn-svt-ex4": [
+    "Induction électromagnétique — courant dans un circuit mobile",
+    "Force électromagnétique et puissance dissipée",
+    "Sens du champ magnétique et déplacement de la tige",
+    "Équation horaire du mouvement sous force de Laplace",
+    "Rails verticaux — sens de B et intensité minimale",
+    "Vitesse de sortie d'une zone de champ magnétique"
+  ],
+  "bac-c-2006-sc-svt-ex4": [
+    "Équilibre d'une tige sur rails inclinés",
+    "Vitesse de sortie d'une zone de champ magnétique",
+    "Distance minimale D pour traverser la zone de champ",
+    "Courant induit et sens du courant",
+    "Force électromagnétique sur une tige en mouvement"
+  ],
+  "bac-c-2007-sc-svt-ex4": [
+    "Apparition d'un courant induit — loi de Faraday",
+    "Sens du courant induit — règle de Lenz",
+    "Flux magnétique Φ(t) = Φ₀ + at",
+    "f.e.m. induite et intensité du courant",
+    "Bilan des forces sur la tige en mouvement"
+  ],
+  "bac-c-2010-sn-svt-ex1": [
+    "Identification des phases de méiose et mitose",
+    "Comparaison de l'information génétique des cellules filles",
+    "Courbe de quantité d'ADN en gamétogenèse",
+    "Correspondance figures cytologiques et courbe d'ADN",
+    "Croisement souris — dominance et indépendance des gènes",
+    "Interprétation des proportions en F2 et test-cross"
+  ],
+  "bac-c-2010-sn-svt-ex2": [
+    "Croisement initial et dominance",
+    "Proportions phénotypiques en F2",
+    "Test-cross et proportions",
+    "Gènes liés ou indépendants"
+  ],
+  "bac-c-2011-sn-svt-ex1": [
+    "Structures de la fécondation — identification",
+    "Cellules A et B en fécondation",
+    "Étapes entre fécondation et implantation",
+    "Potentiel local et potentiel d'action",
+    "Propriétés de la fibre (tout ou rien, période réfractaire)",
+    "Vitesse de propagation du potentiel d'action",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-c-2011-sn-svt-ex2": [
+    "Potentiel local et potentiel d'action",
+    "Période réfractaire absolue et relative",
+    "Propriétés de la fibre nerveuse (seuil, tout ou rien)",
+    "Vitesse de propagation du potentiel d'action",
+    "Calcul de distance entre points d'enregistrement"
+  ],
+  "bac-c-2011-sn-svt-ex3": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Hérédité autosomale ou gonosomique",
+    "Proportion d'hétérozygotes dans une population",
+    "Probabilité d'enfant atteint — parents normaux"
+  ],
+  "bac-c-2011-sn-svt-ex4": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Probabilité et proportion d'hétérozygotes",
+    "Génotypes des individus d'un arbre généalogique",
+    "Étapes de la conception humaine",
+    "Rôle hormonal des étapes b et c",
+    "Cas de stérilité et FIVETE",
+    "Rôle du placenta"
+  ],
+  "bac-c-2011-sn-svt-ex5": [
+    "Enregistrements pré et post-synaptiques",
+    "Durée de propagation et vitesse de l'influx",
+    "Sens unidirectionnel de la synapse",
+    "Rôle du calcium dans la transmission synaptique",
+    "Étapes de la transmission synaptique",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-c-2011-sc-svt-ex1": [
+    "Ovulation — définition et structures",
+    "Schéma annoté du follicule ovulatoire",
+    "Nombre de chromosomes des éléments de fécondation",
+    "Graphique délai-distance et vitesse de propagation",
+    "Génétique du tabac — génotypes et proportions"
+  ],
+  "bac-c-2011-sc-svt-ex2": [
+    "Graphique délai en fonction de la distance",
+    "Vitesse de propagation — calcul",
+    "Propagation sans atténuation d'amplitude le long de la fibre",
+    "Propagation de l'influx nerveux"
+  ],
+  "bac-c-2011-sc-svt-ex3": [
+    "Race pure et génotypes du tabac",
+    "Pourcentages théoriques par couple de gènes",
+    "Génotypes de M et N expliquant la descendance",
+    "Échiquier de croisement F2",
+    "Compatibilité hypothèse et résultats expérimentaux"
+  ],
+  "bac-c-2012-sn-svt-ex1": [
+    "Étapes de la conception humaine",
+    "Ordre chronologique des étapes a, b, c",
+    "Déterminisme hormonal des étapes",
+    "FIVETE — indications et stérilité",
+    "Rôle du placenta",
+    "Transmission synaptique — expérience 1",
+    "Rôle du Ca²⁺ dans la synapse"
+  ],
+  "bac-c-2012-sc-svt-ex5": [
+    "Inventaire des forces sur une tige sur rails inclinés",
+    "Équilibre — sens et valeur du champ magnétique",
+    "Courant induit à l'entrée dans le champ",
+    "Forces à t = 0 et vitesse limite V1",
+    "Intensité du courant induit en régime limite"
+  ],
+  "bac-c-2015-sn-svt-ex1": [
+    "Cellules du testicule et spermatogenèse",
+    "Stades de division en gamétogenèse",
+    "Corps jaunes et nombre d'embryons",
+    "Hypophysectomie et caractères sexuels secondaires",
+    "Potentiel d'action — seuil et intensité critique",
+    "Enregistrement intracellulaire vs extracellulaire",
+    "Section de racine nerveuse et potentiel d'action"
+  ],
+  "bac-c-2015-sc-svt-ex1": [
+    "Cellule effectrice du système immunitaire",
+    "Croisement de maïs — dominance et épistasie",
+    "Échiquier de croisement F2",
+    "Proportions phénotypiques en F2",
+    "Croisement de grains ridés et violets"
+  ],
+  "bac-c-2016-sn-svt-ex1": [
+    "Génotype et phénotype — définitions",
+    "Croisement initial et dominance",
+    "Test-cross et phénotypes nouveaux",
+    "Brassage et crossing-over",
+    "Échiquier de croisement F2"
+  ],
+  "bac-c-2016-sn-svt-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Fond d'œil et maladie oculaire héréditaire",
+    "Génotypes et probabilités (III1, III2)",
+    "Fréquence des hétérozygotes dans la population"
+  ],
+  "bac-c-2016-sn-svt-ex3": [
+    "État des femmes A, B, C à partir du tableau ovarien",
+    "Explication de l'état de la femme C",
+    "Courbe de LH chez A, B et C",
+    "Corps jaune — légende et effets hormonaux",
+    "Rétrocontrôle sur hypophyse et utérus"
+  ],
+  "bac-c-2016-sc-svt-ex1": [
+    "Amniocentèse — colchicine et milieu hypotonique",
+    "Critères de classement des chromosomes",
+    "Anomalie chromosomique et phénotype normal",
+    "Gamètes et descendance — risques génétiques",
+    "Greffe et rejet — types et courbes de survie",
+    "Réaction à médiation cellulaire"
+  ],
+  "bac-c-2017-sn-svt-ex1": [
+    "Test-cross et recombinaison (3 % et 25 %)",
+    "Carte factorielle de trois gènes",
+    "Échiquier de croisement F2",
+    "Linkage et distance génétique"
+  ],
+  "bac-c-2017-sn-svt-ex2": [
+    "Testicule — légendation et cellules de Sertoli",
+    "FSH — identification et rôle",
+    "Hormones ovariennes H1 et H2",
+    "Structures ovarienne et cycle",
+    "Ovulation, menstruation et endomètre",
+    "Rétrocontrôles du cycle ovarien"
+  ],
+  "bac-c-2017-sn-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Codage du message nerveux en fréquence",
+    "Représentation des réponses à I1 et I7",
+    "Complétion du tableau d'enregistrements",
+    "Aquifère, nappe phréatique et gisement de pétrole"
+  ],
+  "bac-c-2017-sc-svt-ex1": [
+    "Structures du cycle ovarien — titre et ordre",
+    "Hormones sécrétées par follicule et corps jaune",
+    "Effets des hormones sur l'utérus",
+    "Stérilité par absence d'ovulation — extraits hypophysaires",
+    "Extraits placentaires vs hypophysaires"
+  ],
+  "bac-c-2017-sc-svt-ex2": [
+    "Courbes d'excitabilité I = f(t)",
+    "Rhéobase, chronaxie et temps utile",
+    "Comparaison de l'excitabilité de deux fibres",
+    "Réponse à une excitation de 9 mA"
+  ],
+  "bac-c-2017-sc-svt-ex3": [
+    "Électrophorèse ADN et allèle de la maladie",
+    "Maladie récessive ou dominante — autosomale ou liée au sexe",
+    "Phénotypes et génotypes des enfants",
+    "Génotype d'un garçon E3 — explication"
+  ],
+  "bac-c-2018-sn-svt-ex1": [
+    "Identification des hormones A et B",
+    "Événements E1, E2, E3 du cycle",
+    "Évolution hormonale sur un mois précédent",
+    "Organe X (placenta) et ses effets",
+    "Vrais jumeaux — formule chromosomique"
+  ],
+  "bac-c-2018-sn-svt-ex2": [
+    "Grenouille décérébrée",
+    "Sections nerveuses et maintien du réflexe",
+    "Parties de neurones détruites (A, B, C, D)",
+    "Circuit nerveux d'un réflexe monosynaptique"
+  ],
+  "bac-c-2018-sn-svt-ex3": [
+    "Dominance et phénotypes parentaux",
+    "Test-cross et proportions",
+    "Gènes liés ou indépendants",
+    "Échiquier de croisement F2",
+    "Position relative des gènes"
+  ],
+  "bac-c-2018-sn-svt-ex4": [
+    "Brassage inter et intrachromosomique — gamètes",
+    "Crossing-over et proportion de gamètes recombinants",
+    "Proportions phénotypiques en F2",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse et conclusion génétique"
+  ],
+  "bac-c-2018-sn-svt-ex5": [
+    "Hormones urinaires A et B — identification",
+    "Disparition des menstruations et grossesse",
+    "Évolution de la progestérone et son déterminisme",
+    "Fécondation — légendation et pénétration",
+    "Transformations post-fécondation",
+    "Rôle du corps jaune dans le maintien de la grossesse"
+  ],
+  "bac-c-2018-sc-svt-ex1": [
+    "Rhéobase, chronaxie et temps utile",
+    "Courbes d'excitabilité et comparaison de fibres",
+    "Potentiel de repos et seuil d'excitation",
+    "Propriétés de la fibre (tout ou rien, période réfractaire)",
+    "Vitesse de propagation — expérience à trois électrodes"
+  ],
+  "bac-c-2018-sc-svt-ex2": [
+    "Identification des hormones A et B",
+    "Organes O1, O2, O3 de la reproduction",
+    "Cellules X, Y, Z, F (Leydig, Sertoli, follicule, ovocyte)",
+    "Rétrocontrôles hypophysaires",
+    "Effets des hormones sur l'utérus"
+  ],
+  "bac-c-2018-sc-svt-ex3": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse — confirmation de l'hypothèse",
+    "Allèle normal et allèle muté",
+    "Correspondance résultats ADN et individus",
+    "Risque pour le fœtus selon le sexe"
+  ],
+  "bac-c-2019-sc-svt-ex1": [
+    "Brassage chromosomique et gamètes",
+    "Crossing-over et gamète recombinant",
+    "Proportions phénotypiques en F2",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Fécondation, nidation et hormones urinaires"
+  ],
+  "bac-c-2021-sn-svt-ex1": [
+    "Potentiel de récepteur — propriété graduée",
+    "Potentiel d'action — propriété tout ou rien",
+    "Codage du message nerveux en fréquence",
+    "Rôle du fuseau neuromusculaire"
+  ],
+  "bac-c-2021-sn-svt-ex2": [
+    "Électrophorèse — gène non autosomal",
+    "Localisation du gène responsable",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Mère saine de P2 — information génétique",
+    "Probabilité de fœtus sain",
+    "Résultat d'électrophorèse du fœtus"
+  ],
+  "bac-c-2021-sn-svt-ex3": [
+    "Électrophorèse — gène non autosomal",
+    "Localisation chromosomique du gène",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Probabilité de fœtus sain",
+    "Représentation de l'électrophorèse fœtale"
+  ],
+  "bac-c-2022-sn-svt-ex1": [
+    "Test-cross et recombinaison (3 % et 25 %)",
+    "Distance génétique entre gènes liés",
+    "Carte factorielle de trois gènes",
+    "Échiquier de croisement F2",
+    "Linkage et écart à l'indépendance"
+  ],
+  "bac-c-2022-sn-svt-ex2": [
+    "Testicule — légendation et cellules de Sertoli",
+    "FSH et spermatogenèse",
+    "Cycle ovarien — hormones et structures",
+    "Ovulation, menstruation et endomètre",
+    "Rétrocontrôles hormonaux"
+  ],
+  "bac-c-2022-sn-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Codage du message nerveux en fréquence",
+    "Représentation des réponses à I1 et I7",
+    "Complétion du tableau d'enregistrements"
+  ],
+  "bac-c-2022-sc-svt-ex2": [
+    "Évolution des structures ovariennes sur 28 jours",
+    "Courbes hormonales parallèles au cycle",
+    "Effet des hormones sur myomètre et endomètre",
+    "Corps jaune — annotation et déterminisme",
+    "Devenir du corps jaune"
+  ],
+  "bac-c-2022-sc-svt-ex3": [
+    "Potentiel d'action — phases et mécanisme ionique",
+    "Propagation de l'influx nerveux",
+    "Vitesse de propagation — calcul",
+    "Fuseau neuromusculaire et arc réflexe"
+  ],
+  "bac-c-2022-sc-svt-ex5": [
+    "Force de Laplace et équilibre de la tige",
+    "Graphique m = f(I) et équation de la droite",
+    "Détermination de B par méthode graphique",
+    "Rails inclinés — angle α d'équilibre"
+  ],
+  "bac-c-2023-sn-svt-ex1": [
+    "Ovariectomie et hormones hypophysaires",
+    "Rôle de l'ovaire dans le cycle sexuel",
+    "Identification de l'hormone H1 (LH)",
+    "Ovulation et menstruation — dates",
+    "Durée du cycle et courbe de H2",
+    "Évolution de l'endomètre"
+  ],
+  "bac-c-2023-sn-svt-ex2": [
+    "Courbe intensité-amplitude — seuil et PA",
+    "Potentiel local et potentiel d'action",
+    "Potentiel d'action — propriété tout ou rien",
+    "Représentation du PA à distance — vitesse 40 m/s",
+    "Période réfractaire — stimulations I1 et I2"
+  ],
+  "bac-c-2023-sn-svt-ex3": [
+    "Croisement initial et dominance",
+    "Test-cross et linkage",
+    "Génotypes parents et F1",
+    "F2 et crossing-over — échiquier",
+    "Pourcentage de gamète parental et répartition"
+  ],
+  "bac-c-2023-sc-svt-ex1": [
+    "Allèle responsable de la maladie",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse et génotypes",
+    "Lecture d'un caryotype fœtal et déduction génotypique"
+  ],
+  "bac-c-2023-sc-svt-ex2": [
+    "Durée du cycle et courbe de H2",
+    "Ovulation et menstruation — dates",
+    "Période de fécondation possible",
+    "Méthode thermique et échec de contraception",
+    "Synapse excitatrice vs inhibitrice",
+    "Nature des synapses et potentiels post-synaptiques"
+  ],
+  "bac-c-2023-sc-svt-ex3": [
+    "Courbe de température et cycle sexuel",
+    "Durée du cycle et pic thermique",
+    "Ovulation et menstruation — dates",
+    "Fenêtre de fécondation",
+    "Méthode thermique et méthodes contraceptives alternatives"
+  ],
+  "bac-c-2023-sc-svt-ex4": [
+    "Sommation de potentiels post-synaptiques",
+    "Synapse excitatrice vs inhibitrice",
+    "Complétion du tableau de ddp",
+    "Enregistrement avec stimulations simultanées",
+    "Événements entre R1 et R2"
+  ],
+  "bac-c-2024-sn-svt-ex1": [
+    "Identification de H1, H2, H3",
+    "Relations entre sécrétions hormonales",
+    "Graphe de H1 chez une femme Y",
+    "Hypothèses sur baisse de H1 après J18",
+    "Substance S (HCG) et état de grossesse",
+    "Origine de la substance S"
+  ],
+  "bac-c-2024-sn-svt-ex2": [
+    "Dominance et phénotypes parentaux",
+    "Test-cross et proportions",
+    "Échiquier de croisement F2",
+    "Carte factorielle de trois gènes",
+    "Répartition phénotypique en F1 × F1"
+  ],
+  "bac-c-2024-sn-svt-ex3": [
+    "Stimulation F1 — enregistrements et synapses",
+    "Synapse excitatrice vs inhibitrice",
+    "Substances X et Y — agoniste et antagoniste",
+    "Mode d'action sur les récepteurs post-synaptiques",
+    "Succession des événements de la synapse"
+  ],
+  "bac-c-2024-sn-svt-ex4": [
+    "Transmission synaptique — expérience 1",
+    "Nature des synapses S1, S2 et S3",
+    "Inhibition et excitation synaptique (X, Y)",
+    "Potentiels post-synaptiques excitateurs et inhibiteurs",
+    "Enchaînement des événements jusqu'à O3"
+  ],
+  "bac-c-2024-sn-svt-ex5": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse — deux types d'ADN",
+    "Sexe et phénotype du fœtus",
+    "Génotypes I2, II2, III1 et fœtus"
+  ],
+  "bac-d-2010-sn-math-ex1": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Domaine de définition et solutions de f(x)=0",
+    "Asymptotes verticales et horizontales",
+    "Parité d'une fonction",
+    "Point d'inflexion — équation de la tangente"
+  ],
+  "bac-d-2010-sn-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Résolution d'équation polynomiale dans C",
+    "Similitude directe s : M→R, N→S",
+    "Lieu du milieu J — nature du quadrilatère ΩJK",
+    "Lieu géométrique |z − a| = |z − b|"
+  ],
+  "bac-d-2010-sn-math-ex3": [
+    "Somme des termes d'une suite géométrique",
+    "Suite non arithmétique, non géométrique, convergente",
+    "Télescopage Un = Vn+1 − Vn",
+    "Somme S'n de logarithmes et factorielle"
+  ],
+  "bac-d-2010-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Polynôme g(x) — tableau de variations et bijection",
+    "Encadrement de α solution de g(x)=0",
+    "Primitive et aire sous la courbe",
+    "Construction courbe et réciproque"
+  ],
+  "bac-d-2010-sc-math-ex1": [
+    "Suite arithmétique — terme général",
+    "Somme des termes d'une suite géométrique",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite Un = 10ⁿ/n! — croissance",
+    "Suite majorée par comparaison"
+  ],
+  "bac-d-2010-sc-math-ex2": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Formes algébrique et trigonométrique",
+    "Triangle OAB et parallélogramme OACB",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)"
+  ],
+  "bac-d-2010-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Dérivée et tableau de variations de f_m",
+    "Construction courbe et réciproque",
+    "Position courbe réciproque et tangente"
+  ],
+  "bac-d-2010-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Dérivée et tableau de variations de f_m",
+    "Bijection et fonction réciproque — intersections",
+    "Symétrie par rapport à (0, 1/2)",
+    "Primitive et suite d'aires Un",
+    "Limite de p_n quand n→+∞"
+  ],
+  "bac-d-2011-sc-math-ex1": [
+    "Probabilités d'événements A, B, C, D",
+    "Probabilité conditionnelle",
+    "Probabilité totale et formule des probabilités"
+  ],
+  "bac-d-2011-sc-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Similitude directe s : M→R, N→S",
+    "Transformation f(z) = (z−4)/(z−4−4i)",
+    "Lieux |f(z)| = 1 et f(z) imaginaire pur"
+  ],
+  "bac-d-2011-sc-math-ex3": [
+    "Continuité et dérivabilité à droite en 0",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Primitive via g'(x)",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-d-2011-sc-math-ex4": [
+    "Limites et asymptote horizontale",
+    "Dérivée seconde et point d'inflexion",
+    "Polynôme g(x) — tableau de variations et bijection",
+    "Intersection courbe-axes et tangente parallèle",
+    "Discussion graphique f(x) = g(x)",
+    "Intégration par parties — calcul d'aires"
+  ],
+  "bac-d-2011-sc-math-ex5": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Dérivée et variations selon la parité de n",
+    "Intégrales Aₙ — relation de récurrence et calcul",
+    "Limite de Uₙ et de nUₙ",
+    "Limite (ln(1−h)+h)/h² — développement limité"
+  ],
+  "bac-d-2015-sn-math-ex1": [
+    "Probabilités d'événements avec intersection",
+    "Probabilité de l'union et événement complémentaire",
+    "Probabilité conditionnelle",
+    "Formule des probabilités totales"
+  ],
+  "bac-d-2015-sn-math-ex2": [
+    "Factorisation de P(z) = z³ − 10z² + 33z − 34",
+    "Similitude directe s : M→R, N→S",
+    "Transformation complexe et lieux géométriques"
+  ],
+  "bac-d-2015-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Dérivée et extremum en √e",
+    "Tangente et encadrement du zéro",
+    "Primitive et suite d'aires Un"
+  ],
+  "bac-d-2015-sn-math-ex4": [
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Tableau de variations et point d'inflexion de 1/ln x",
+    "Bijection et fonction réciproque — intersections",
+    "Aires et intégrales entre 0 et 2"
+  ],
+  "bac-d-2016-sn-math-ex1": [
+    "Probabilité conditionnelle",
+    "Probabilité de l'intersection M ∩ R",
+    "Probabilité totale p(R)"
+  ],
+  "bac-d-2016-sn-math-ex2": [
+    "Factorisation de P(z) = z³ − 7z² + 19z − 13",
+    "Triangle ABC et parallélogramme ABDC",
+    "Transformation f(z) et lieux |f(z)| = 1",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)"
+  ],
+  "bac-d-2016-sn-math-ex3": [
+    "Fonction auxiliaire v(x) — signe de la dérivée",
+    "Signe de g(x) — étude des variations",
+    "Asymptote oblique y = 2x − 3",
+    "Lien f'(x)=g(x)/e^x — tableau de variation de f",
+    "Tangente parallèle à l'asymptote",
+    "Primitive via g'(x)",
+    "Aire entre asymptote, courbe et droites verticales"
+  ],
+  "bac-d-2016-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Encadrement de α solution de g(x)=0",
+    "Asymptote oblique y = 2x − 3",
+    "Dérivée et tableau de variations de f_m",
+    "Tangente parallèle à l'asymptote",
+    "Discussion graphique selon le paramètre m",
+    "Aire sous la courbe entre x=1 et x=β"
+  ],
+  "bac-d-2016-sc-math-ex1": [
+    "Nature d'une suite géométrique de raison e/4",
+    "Limite de la suite (U_n)",
+    "Somme des termes d'une suite géométrique",
+    "Suite arithmétique — raison et terme initial",
+    "Suite croissante et majorée — convergence",
+    "Théorème des gendarmes — limite de w_n"
+  ],
+  "bac-d-2016-sc-math-ex2": [
+    "Polynôme f(x) — factorisation et racines",
+    "Résolution d'équation du 3e degré dans ℂ",
+    "Similitude directe s : M→R, N→S",
+    "Nature d'un triangle — rapport de modules",
+    "Lieu |z-a/z-b|=1 — cercle de diamètre [AB]",
+    "Milieu de segment — nature du triangle IBC"
+  ],
+  "bac-d-2016-sc-math-ex3": [
+    "Asymptote oblique y = 2x − 3",
+    "Dérivée première et seconde — signe de f'",
+    "Tableau de variation d'une fonction avec e^x",
+    "Intersections courbe / axes de coordonnées",
+    "Primitive via g'(x)",
+    "Aire du domaine limité par la courbe et les axes"
+  ],
+  "bac-d-2016-sc-math-ex4": [
+    "Asymptote oblique y = 2x − 3",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Tangente au point d'abscisse e",
+    "Équation f(x)=0 — deux solutions et relation e^α/e^β",
+    "Construction courbe et réciproque",
+    "Fonction réciproque — intersection et dérivée en β",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-d-2017-sc-math-ex1": [
+    "Terme général d'une suite dérivée de u_n=2^n-2n",
+    "Nature et convergence de suites numériques",
+    "Somme des termes d'une suite géométrique",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite x_n=1/u_n — nature",
+    "Produit de factorielles — détermination de n"
+  ],
+  "bac-d-2017-sc-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Similitude directe s : M→R, N→S",
+    "Nature du triangle et du quadrilatère OABC",
+    "Application f(z) — module et argument",
+    "Lieu des racines — cercle Γ",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)"
+  ],
+  "bac-d-2017-sc-math-ex3": [
+    "Asymptote oblique y = 2x − 3",
+    "Position relative courbe / asymptote",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Tangente parallèle à l'asymptote",
+    "Intégrales ∫e^{-x}dx et ∫xe^{-x}dx par parties",
+    "Aire entre asymptote, courbe et droites verticales",
+    "Discussion graphique selon le paramètre m"
+  ],
+  "bac-d-2017-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Asymptotes en ±∞ — interprétation graphique",
+    "Décomposition de f(x) — asymptote horizontale y=2",
+    "f'(x)=u(x)/x²",
+    "Construction courbe et réciproque",
+    "Tangentes à une courbe — intersection avec l'axe des abscisses"
+  ],
+  "bac-d-2018-sn-math-ex1": [
+    "Probabilité d'un événement — lecture d'un tableau",
+    "Probabilité conditionnelle",
+    "Formule des probabilités totales",
+    "Loi uniforme — densité sur un intervalle",
+    "Probabilité P(X>a) en loi uniforme"
+  ],
+  "bac-d-2018-sn-math-ex2": [
+    "Racines carrées d'un nombre complexe",
+    "Factorisation et résolution de P(z)=0",
+    "Similitude directe s : M→R, N→S",
+    "Lieu |z-a/z-b|=1",
+    "Suite géométrique des modules |z_C|^n",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2018-sn-math-ex3": [
+    "Asymptote oblique y = 2x − 3",
+    "Dérivée seconde et point d'inflexion",
+    "Variations de f' — f' positive",
+    "Encadrement de α solution de g(x)=0",
+    "Tangente parallèle à l'asymptote",
+    "Discussion graphique — nombre de solutions selon m"
+  ],
+  "bac-d-2018-sn-math-ex4": [
+    "Asymptotes en ±∞ — interprétation graphique",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Tangente au point d'abscisse e",
+    "Bijection et fonction réciproque — intersections",
+    "Dérivée de g^{-1} en un point donné",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-d-2018-sc-math-ex1": [
+    "Suite définie par récurrence u_{n+1}=½u_n+n+2",
+    "Suite auxiliaire v_n=u_n-2n — nature géométrique",
+    "Expression I_n=e-Σ_{k=0}^n 1/k!",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2018-sc-math-ex2": [
+    "Équation du second degré dans ℂ — paramètre θ",
+    "Similitude directe s : M→R, N→S",
+    "Interprétation géométrique du quotient z_B/z_A",
+    "Résolution f(z)=i — interprétation",
+    "Lieu des racines — cercle Γ",
+    "Lieu imaginaire pur — (z − 2)/(z − 4i)"
+  ],
+  "bac-d-2018-sc-math-ex3": [
+    "Asymptote oblique y = 2x − 3",
+    "Tableau de variation — deux racines encadrées",
+    "Relation f'(α)=α-1",
+    "Construction courbe et réciproque",
+    "f'(x)=u(x)/x²",
+    "Tangente parallèle à l'asymptote"
+  ],
+  "bac-d-2018-sc-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Signe de g et lien avec f'(x)=g(x)/x³",
+    "Limites et asymptote horizontale",
+    "Valeur f(λ) en fonction de λ",
+    "Discussion graphique selon le paramètre m",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-d-2019-sn-math-ex1": [
+    "Nature de u_n=3^n+n-1",
+    "Somme des termes d'une suite géométrique",
+    "Suite des différences v_n=u_{n+1}-u_n",
+    "Inégalité v_n≥2019 — plus petit entier n"
+  ],
+  "bac-d-2019-sn-math-ex2": [
+    "Racines carrées dans ℂ et équation du 2e degré",
+    "Similitude directe s : M→R, N→S",
+    "Parallélogramme ABDC",
+    "Lieux |f(z)| = 1 et f(z) imaginaire pur",
+    "Lieu des racines — cercle Γ"
+  ],
+  "bac-d-2019-sn-math-ex3": [
+    "Équation différentielle y''-4y'+4y=0",
+    "Solution particulière avec conditions initiales",
+    "Asymptote oblique et position relative",
+    "Point d'inflexion — dérivées première et seconde",
+    "Tangente parallèle à l'asymptote",
+    "Discussion graphique f(x) = g(x)"
+  ],
+  "bac-d-2019-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Encadrement de α solution de g(x)=0",
+    "Construction courbe et réciproque",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-d-2019-sc-math-ex1": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Ensemble de définition et parité",
+    "Nombre de racines et d'asymptotes",
+    "Tangentes horizontales",
+    "Nombre de solutions de f(x)=-2"
+  ],
+  "bac-d-2019-sc-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Parallélogramme et nature du triangle ACD",
+    "Lieu des racines — cercle Γ",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2019-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Asymptotes en ±∞ — interprétation graphique",
+    "Bijection de g sur [0;+∞[",
+    "f'(x)=u(x)/x²",
+    "Construction courbe et réciproque"
+  ],
+  "bac-d-2019-sc-math-ex4": [
+    "Asymptote oblique y = 2x − 3",
+    "Variations de f₁(x)=x e^(1−x)",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Tangente en x=0",
+    "Discussion graphique f(x) = g(x)"
+  ],
+  "bac-d-2020-sn-math-ex1": [
+    "Réciproque u_n — limite de u_n",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Suite x_n=1/u_n — nature",
+    "Terme général y_n=-n ln 3",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2020-sn-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Similitude directe s : M→R, N→S",
+    "Lieux |f(z)|=1 et |f(z)-1|=√2",
+    "Forme exponentielle de Z_0",
+    "Plus petit n tel que |z_n|≥2020"
+  ],
+  "bac-d-2020-sn-math-ex3": [
+    "Asymptote oblique y = 2x − 3",
+    "Asymptotes en ±∞ — interprétation graphique",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Relation f'(α)=α-1"
+  ],
+  "bac-d-2020-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection de g sur [0;+∞[",
+    "Aire entre (C) et (C') — intégration par parties"
+  ],
+  "bac-d-2021-sn-math-ex1": [
+    "Suite récurrente linéaire d'ordre 2",
+    "Suite auxiliaire v_n=u_{n+1}-u_n/3",
+    "Nature géométrique de (v_n)",
+    "Somme des termes d'une suite géométrique",
+    "Convergence de (v_n)"
+  ],
+  "bac-d-2021-sn-math-ex2": [
+    "Factorisation et résolution de P(z)=0",
+    "Nature du triangle et du quadrilatère OABC",
+    "Lieu |f(z)|=1 et arg(f(z))=π/2",
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Somme des distances Sₙ — limite 2π"
+  ],
+  "bac-d-2021-sn-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Encadrement de U_n",
+    "Point d'inflexion — équation de la tangente",
+    "Aire S via primitive h(x)=-(x+3)e^{-x}"
+  ],
+  "bac-d-2021-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Asymptote oblique y = 2x − 3",
+    "Bijection de g sur [0;+∞["
+  ],
+  "bac-d-2022-sn-math-ex1": [
+    "Loi binomiale B(n;0,05)",
+    "Probabilité P(X=2) et P(X≥1)",
+    "Limite de p_n quand n→+∞",
+    "Inégalité p_n≥0,99 — nombre minimal n"
+  ],
+  "bac-d-2022-sn-math-ex2": [
+    "Résolution de P(z)=0 et ordre des modules",
+    "Similitude directe s : M→R, N→S",
+    "Hyperbole — foyers, centre, excentricité",
+    "Équation réduite (x-1)²-(y-1)²/3=1",
+    "Directrices et asymptotes de l'hyperbole"
+  ],
+  "bac-d-2022-sn-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude de centre O — rapport et cos α",
+    "Suite itérée S^n(M) — période 3"
+  ],
+  "bac-d-2022-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Asymptote oblique et position relative",
+    "f'(x)=u(x)/x²",
+    "Aire entre (C) et (C') — intégration par parties",
+    "Bijection de g sur [0;+∞["
+  ],
+  "bac-d-2022-sn-math-ex5": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "f'(x)=u(x)/x²",
+    "Intégrales Aₙ — relation de récurrence et calcul",
+    "Limite de Uₙ et de nUₙ",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2022-sc-math-ex4": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Bijection et tableau de f^{-1}",
+    "Points d'inflexion",
+    "Primitive F(x)=(ax²+bx+c)e^{-x}",
+    "Suite u_n=∫_0^n f(x)dx croissante"
+  ],
+  "bac-d-2022-sc-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection et fonction réciproque — intersections",
+    "Intégrale U_n=∫₀¹ x^n e^(1−x) dx — intégration par parties",
+    "Série géométrique (1-t)^k/t — formule fermée"
+  ],
+  "bac-d-2023-sn-math-ex2": [
+    "Homothétie définie par images de deux points",
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Itérée S^2023 — homothétie"
+  ],
+  "bac-d-2023-sn-math-ex3": [
+    "Résolution polynôme paramétrique P(z)",
+    "Similitude directe s : M→R, N→S",
+    "Lieu de M_1 quand M parcourt un cercle",
+    "Parabole — foyer, directrice et tangente",
+    "Tangente à une parabole en un point"
+  ],
+  "bac-d-2023-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Point d'inflexion — équation de la tangente",
+    "Bijection de g sur [0;+∞[",
+    "Équation f(x)=x — encadrement de α",
+    "Aire du domaine entre (C) et (C')"
+  ],
+  "bac-d-2023-sn-math-ex5": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Symétrie de C₀ — centre Ω(0, ½)",
+    "Point d'inflexion — équation de la tangente",
+    "Suite Uₙ d'intégrales — encadrement et limite",
+    "Encadrement et limites à l'infini"
+  ],
+  "bac-d-2023-sc-math-ex2": [
+    "Angle d'une rotation dans l'espace",
+    "Similitude directe — angle, rapport et centre",
+    "Similitude S' et composition S∘S'",
+    "Centre Ω comme barycentre de B et I"
+  ],
+  "bac-d-2023-sc-math-ex3": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "f'(x)=u(x)/x²",
+    "Bijection de g sur [0;+∞[",
+    "Construction courbe et réciproque"
+  ],
+  "bac-d-2023-sc-math-ex4": [
+    "Forme exponentielle de Z_0",
+    "Changement de variable (z-i)/(z+i)",
+    "Similitude directe s : M→R, N→S",
+    "Suite M_{n+1}=S(M_n) — alignement périodique"
+  ],
+  "bac-d-2023-sc-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Position relative des courbes (Cₖ)",
+    "Expression I_n=e-Σ_{k=0}^n 1/k!",
+    "Encadrement et limites à l'infini"
+  ],
+  "bac-d-2024-sn-math-ex2": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Relation f'(α)=α-1",
+    "Encadrement de U_n",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-d-2024-sn-math-ex3": [
+    "Factorisation et résolution de P(z)=0",
+    "Similitude directe s : M→R, N→S",
+    "Lieu géométrique — ellipse à partir d'affixes",
+    "Axe focal et troisième sommet D",
+    "Équation réduite (x-1)²-(y-1)²/3=1"
+  ],
+  "bac-d-2024-sn-math-ex4": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Bijection de g sur [0;+∞[",
+    "Tangente en x=0",
+    "Encadrement de l'aire entre x=½ et x=1"
+  ],
+  "bac-d-2024-sn-math-ex5": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Lieu de points — droite passant par un point fixe"
+  ],
+  "bac-d-2024-sc-math-ex1": [
+    "Représentation paramétrique d'une droite",
+    "Équation cartésienne d'une parabole",
+    "Intersection plan / plan — équation 2x+5y=24",
+    "Solutions entières — points à coordonnées naturelles"
+  ],
+  "bac-d-2024-sc-math-ex2": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Bijection de g sur [0;+∞[",
+    "Bijection et fonction réciproque — intersections"
+  ],
+  "bac-d-2024-sc-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Composition f=r∘t_{KJ} — nature et caractéristiques",
+    "Similitude directe — angle, rapport et centre"
+  ],
+  "bac-d-2024-sc-math-ex4": [
+    "Équation du 2e degré paramétrique en cos²α",
+    "Lieu Γ_k — équation du 2e degré en x,y",
+    "Hyperbole passant par trois points — système (a,b,c)",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-d-2024-sc-math-ex5": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Position relative des courbes (Cₖ)",
+    "Intégrales Aₙ — relation de récurrence et calcul",
+    "Limite de p_n quand n→+∞"
+  ],
+  "bac-d-2003-sn-pc-ex1": [
+    "Automatisme cardiaque — interprétation de données",
+    "Action orthosympathique et parasympathique sur la fréquence",
+    "Enregistrements de potentiels — zones A et B du cœur",
+    "Culture cellulaire — origine de l'automatisme",
+    "Succession des événements — contraction des oreillettes"
+  ],
+  "bac-d-2003-sn-pc-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Gène sur autosome ou chromosome sexuel",
+    "Système ABO et indépendance génétique",
+    "Génotypes et schémas de méiose anormale",
+    "Cycle ovarien — schéma et évolution du follicule",
+    "Dosage de prégnandiol et courbe thermique"
+  ],
+  "bac-d-2003-sn-pc-ex4": [
+    "Asques de Neurospora — types pré et post-réductionnels",
+    "Nombre de gènes impliqués dans la couleur des spores",
+    "Schéma de crossing-over post-réductionnel",
+    "Distance gène-centromère",
+    "Carte factorielle"
+  ],
+  "bac-d-2004-sn-pc-ex2": [
+    "Chaîne neuronale — identification et schéma",
+    "Transmission synaptique — potentiels postsynaptiques",
+    "Action du GABA sur la synapse",
+    "Arc réflexe de flexion — annotation et influx",
+    "Étape de la réponse immunitaire — identification et légende"
+  ],
+  "bac-d-2004-sc-pc-ex2": [
+    "Transmission neuromusculaire — curare et acétylcholine",
+    "Mécanisme d'une synapse chimique",
+    "Recharge musculaire en ATP — voies métaboliques",
+    "Analyse de documents sur le métabolisme musculaire"
+  ],
+  "bac-d-2004-sc-pc-ex3": [
+    "Cycle de reproduction du chlamydomonas",
+    "Méiose et formation de spores",
+    "Cycle du Fucus spiralis — alternance",
+    "Comparaison cycles haplontique et diplontique",
+    "Rejet de greffe — immunologie"
+  ],
+  "bac-d-2005-sc-pc-ex1": [
+    "Cycle ovarien — dosages hormonaux et graphiques",
+    "Courbe de température et ovulation",
+    "Modifications de l'endomètre au microscope",
+    "Rôle de l'œstradiol et de la progestérone",
+    "Génétique de la couleur du pelage chez la souris"
+  ],
+  "bac-d-2006-sn-pc-ex1": [
+    "Durée de vie des ovules et spermatozoïdes — courbes de fécondité",
+    "Insémination artificielle — protocole expérimental",
+    "Réflexe myotatique — enregistrements D1 et D2",
+    "Rôle des récepteurs musculaires et du nerf moteur"
+  ],
+  "bac-d-2006-sn-pc-ex2": [
+    "B-thalassémie — deux formes et génotypes",
+    "Hémoglobines normale et anormale — hétérozygote",
+    "Probabilité d'enfant atteint de Cooley",
+    "Risque génétique selon antécédents familiaux"
+  ],
+  "bac-d-2006-sc-pc-ex1": [
+    "Éléments de l'oviducte — légende et identification",
+    "Phénomènes entre stade a et stade b",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Évolution de la quantité d'ADN",
+    "Régulation de la pression artérielle",
+    "Anatoxine tétanique — nature de la réponse immunitaire"
+  ],
+  "bac-d-2006-sc-pc-ex2": [
+    "Régulation du calcium — thyroïde et parathyroïdes",
+    "Schéma fonctionnel des hormones calciques",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Activité enzymatique et génotypes",
+    "Probabilité de malade dans la population"
+  ],
+  "bac-d-2007-sn-pc-ex1": [
+    "Synthèse des protéines — étapes et localisation",
+    "Schéma de l'ARNm et traduction",
+    "Synapse neuromusculaire — acétylcholine",
+    "Synapse médullaire — GABA inhibiteur",
+    "Immunité antidiphtérique — type de défense"
+  ],
+  "bac-d-2008-sn-pc-ex1": [
+    "Synthèse de l'aspirine — équation et rendement",
+    "Réaction anhydride d'acide + amine (amide)",
+    "Saponification de la tristéarine",
+    "Propriétés du savon"
+  ],
+  "bac-d-2009-sn-pc-ex1": [
+    "Mélange acide acétique — base forte",
+    "Quantités de matière initiales",
+    "Nature du mélange final et pH",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2010-sn-pc-ex2": [
+    "Courbes intensité-fréquence — neurone A et B",
+    "Vitesse de propagation de l'influx nerveux",
+    "Glycémie post-prandiale — diabète",
+    "Récepteurs à l'insuline — cellules hépatiques"
+  ],
+  "bac-d-2010-sc-pc-ex1": [
+    "Appareil génital féminin — légende",
+    "Action hormonale sur la muqueuse utérine",
+    "RU486 — mode d'action sur les récepteurs",
+    "Cycle menstruel modifié par RU486",
+    "Anticorps — structure et neutralisation d'antigène"
+  ],
+  "bac-d-2011-sn-pc-ex1": [
+    "Cycle ovarien — hormones H1 et H2",
+    "Évolution de l'endomètre",
+    "Activité musculaire — tracés EMG et contraction",
+    "Réactions chimiques de la contraction musculaire",
+    "VIH — structure du virus"
+  ],
+  "bac-d-2011-sc-pc-ex1": [
+    "Méiose — étapes et garniture chromosomique",
+    "Causes de stérilité et traitements",
+    "Muqueuse utérine après fécondation",
+    "Test d'hyperglycémie provoquée — diabète de type 1 et 2"
+  ],
+  "bac-d-2012-sn-pc-ex1": [
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "bac-d-2012-sc-pc-ex5": [
+    "Constante radioactive λ",
+    "Activité après 24 jours — demi-vie T=8 jours",
+    "Temps pour atteindre 1 % de l'activité initiale"
+  ],
+  "bac-d-2013-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Concentration Ca à l'équivalence",
+    "pKa à la demi-équivalence",
+    "Choix d'un indicateur coloré"
+  ],
+  "bac-d-2013-sc-pc-ex4": [
+    "Constante de temps du circuit RL",
+    "Résistance r de la bobine en régime permanent",
+    "Énergie magnétique emmagasinée dans une bobine"
+  ],
+  "bac-d-2014-sn-pc-ex1": [
+    "Formule brute d'une amine par % d'azote",
+    "Isomères d'une amine primaire",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "bac-d-2014-sc-pc-ex1": [
+    "Isomères d'un alcool C₃H₈O",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre",
+    "Rendement à l'équilibre"
+  ],
+  "bac-d-2015-sn-pc-ex1": [
+    "Acide propanoïque faible — espèces et pKa",
+    "Effet de la dilution sur α et le pH",
+    "Comportement d'un acide très dilué",
+    "Chlorure d'acyle et formation d'amide",
+    "Oxydation ménagée en deux étapes"
+  ],
+  "bac-d-2015-sn-pc-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Dosage acide méthanoïque par soude",
+    "Rôle du refroidissement lors du prélèvement"
+  ],
+  "bac-d-2015-sn-pc-ex3": [
+    "Mouvement circulaire uniforme dans un champ B",
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Sélection vitesse — champs E et B croisés",
+    "Déviation dans un champ électrique uniforme"
+  ],
+  "bac-d-2015-sn-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "f.e.m. induite — courant variable par morceaux",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-d-2015-sc-pc-ex1": [
+    "Fonctions chimiques possibles de CnH2nO2",
+    "Formule brute à partir du % d'oxygène",
+    "Réaction acide carboxylique + alcool → ester",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-d-2015-sc-pc-ex2": [
+    "Base faible NH3 — pKa et concentrations",
+    "Comparaison force des bases amines",
+    "Dosage d'une amine par HCl",
+    "Définition de l'équivalence"
+  ],
+  "bac-d-2015-sc-pc-ex3": [
+    "Énergie potentielle élastique d'un ressort",
+    "Vitesse de sortie et hauteur maximale",
+    "Équation horaire du mouvement harmonique"
+  ],
+  "bac-d-2015-sc-pc-ex4": [
+    "Rôle de la pelote de coton — absorption de l'onde",
+    "Onde transversale sur corde élastique",
+    "Déduction de la longueur d'onde λ",
+    "Célérité des ondes — relation V = λN",
+    "Phase initiale φs d'une source vibrante",
+    "Retard de phase et quadrature entre points de la corde"
+  ],
+  "bac-d-2015-sc-pc-ex5": [
+    "Constante radioactive λ",
+    "Nombre de noyaux N₀ à partir d'une masse",
+    "Activité radioactive — définition et calcul de A₀",
+    "Loi de décroissance radioactive — ln(N/N₀) = −λt",
+    "Calcul d'activité après un temps donné (demi-vie)"
+  ],
+  "bac-d-2016-sn-pc-ex1": [
+    "Réaction d'une amine avec l'eau",
+    "Dosage acide méthanoïque par soude",
+    "Concentration à l'équivalence — relation CbVa = CaVb",
+    "Détermination du pKa à partir du pH",
+    "Masse molaire à partir de la dissolution",
+    "Solution tampon — propriétés et préparation",
+    "Concentration d'acide concentré commercial (densité, % masse)"
+  ],
+  "bac-d-2016-sn-pc-ex2": [
+    "Caractéristiques de la réaction d'hydrolyse d'un ester",
+    "Oxydation ménagée d'un alcool secondaire en cétone",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Formules semi-développées et nomenclature des composés organiques A, B, C, D",
+    "Caractéristiques de l'hydrolyse (lente, totale)",
+    "Synthèse du chlorure d'acyle et de l'anhydride d'acide",
+    "Chlorure d'acyle et formation d'amide"
+  ],
+  "bac-d-2016-sn-pc-ex3": [
+    "Forces de Laplace sur un conducteur dans un champ B",
+    "Équilibre ressort — bobine dans un champ magnétique",
+    "Flux magnétique à travers une surface variable",
+    "Loi de Faraday — f.é.m. induite",
+    "Induction par déplacement à vitesse constante",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-d-2016-sn-pc-ex4": [
+    "Théorème de l'énergie cinétique — piste avec force motrice",
+    "Énergie mécanique et conservation",
+    "Nature du mouvement sur trajet incliné sans frottement",
+    "Mouvement circulaire — vitesse et réaction normale",
+    "Mouvement de projectile — trajectoire, portée et flèche"
+  ],
+  "bac-d-2016-sc-pc-ex1": [
+    "Demi-équations redox — dichromate en milieu acide",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Vitesse instantanée de disparition — lecture graphique",
+    "Vitesse volumique — expression et valeur initiale",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-d-2016-sc-pc-ex2": [
+    "Indicateur coloré et domaine de virage (vert de malachite)",
+    "Base faible en solution — ammoniac et pH",
+    "Équilibre acide-base de l'ammoniac — constante Ka",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2016-sc-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Mouvement circulaire uniforme — accélération centripète",
+    "Vitesse orbitale en fonction de G, Ms et r"
+  ],
+  "bac-d-2016-sc-pc-ex4": [
+    "Élongation sinusoïdale d'une source vibrante",
+    "Retard de propagation — élongation d'un point distant",
+    "Observation stroboscopique d'une onde",
+    "Superposition de deux sources en opposition de phase",
+    "Interférences — points d'amplitude maximale"
+  ],
+  "bac-d-2017-sn-pc-ex1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Concentrations initiales après mélange de volumes",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Vitesse instantanée de formation du diiode",
+    "Identification du réactif limitant"
+  ],
+  "bac-d-2017-sn-pc-ex2": [
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre",
+    "Détermination du nombre de carbones par masse molaire",
+    "Hydratation d'un alcène — alcène précurseur",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-d-2017-sn-pc-ex3": [
+    "Équation horaire du mouvement harmonique",
+    "Équation horaire x(t) d'un oscillateur",
+    "Conservation de l'énergie mécanique du pendule masse-ressort",
+    "Énergie mécanique et énergie cinétique à un instant donné",
+    "Conservation de l'énergie — vitesse sur trajet curviligne"
+  ],
+  "bac-d-2017-sn-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Différence de marche δ entre deux fentes",
+    "Franges brillantes et franges sombres",
+    "Coïncidence de franges pour deux longueurs d'onde"
+  ],
+  "bac-d-2017-sc-pc-ex1": [
+    "Noms et fonctions des dérivés organiques (ester, alcool, chlorure d'acyle, amide)",
+    "Synthèse organique — équations de formation de A, B et C",
+    "Réactifs permettant d'obtenir un alcool et un chlorure d'acyle",
+    "Centre de chiralité — représentation des énantiomères"
+  ],
+  "bac-d-2017-sc-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Relations entre concentrations à l'équivalence",
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Calcul des concentrations C₁, C₂, C₃ et C_B"
+  ],
+  "bac-d-2017-sc-pc-ex3": [
+    "Déviation dans un champ électrique uniforme",
+    "Équation de trajectoire parabolique",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Détermination de la charge massique q/m"
+  ],
+  "bac-d-2017-sc-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Variation de flux — lors de l'extinction du courant",
+    "F.é.m. induite moyenne — loi de Faraday",
+    "f.e.m. induite — courant variable par morceaux"
+  ],
+  "bac-d-2017-sc-pc-ex5": [
+    "Niveaux d'énergie de l'atome d'hydrogène E_n = −13,6/n²",
+    "Transition électronique — émission ou absorption",
+    "Déduction de la longueur d'onde λ",
+    "Énergie d'ionisation de l'hydrogène"
+  ],
+  "bac-d-2018-sn-pc-ex1": [
+    "Isomères d'un ester C₄H₈O₂ — formules et hydrolyse",
+    "Hydrolyse des esters — acide et alcool formés",
+    "Identification de l'ester par bilan de masse à l'équilibre",
+    "Constante d'équilibre K",
+    "Caractéristiques de l'hydrolyse (lente, totale)"
+  ],
+  "bac-d-2018-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "pKa à la demi-équivalence",
+    "Réaction du ion carboxylate avec l'eau",
+    "Expression du Ka en fonction des concentrations à l'équivalence",
+    "Effet de la dilution sur pH initial, demi-équivalence et V_E"
+  ],
+  "bac-d-2018-sn-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Mouvement circulaire uniforme — vitesse orbitale"
+  ],
+  "bac-d-2018-sn-pc-ex4": [
+    "Équation du mouvement d'une source vibrante sinusoïdale",
+    "Déduction de la longueur d'onde λ",
+    "Représentation d'une onde à un instant donné",
+    "Interférences de deux sources en phase",
+    "Points d'amplitude maximale entre deux sources"
+  ],
+  "bac-d-2018-sc-pc-ex1": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Tableau d'avancement d'une réaction redox",
+    "Méthode de la trempe — rôle expérimental",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Concentration théorique de diiode à la fin",
+    "Vitesse volumique — expression et valeur initiale"
+  ],
+  "bac-d-2018-sc-pc-ex2": [
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Dissociation d'un acide faible dans l'eau",
+    "Effet de la dilution sur α et le pH",
+    "Chlorure d'acyle et formation d'amide"
+  ],
+  "bac-d-2018-sc-pc-ex3": [
+    "Théorème de l'énergie cinétique — énoncé",
+    "Mouvement rectiligne uniformément accéléré",
+    "Énergie mécanique et conservation",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Coordonnées du point d'impact et vitesse d'arrivée"
+  ],
+  "bac-d-2018-sc-pc-ex4": [
+    "Force de Laplace sur une barre mobile",
+    "Sens du champ B et déplacement de la barre",
+    "Équilibre ressort — bobine dans un champ magnétique",
+    "Flux magnétique et f.é.m. induite par déplacement",
+    "Courant induit — sens et intensité",
+    "Force électromagnétique de freinage (Lenz)"
+  ],
+  "bac-d-2019-sn-pc-ex1": [
+    "Concentration initiale des ions iodure",
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Tableau d'évolution d'une réaction",
+    "Vitesse volumique — expression et valeur initiale",
+    "Dosage iodométrique du diiode par thiosulfate",
+    "Effet de la dilution sur avancement maximal et t₁/₂"
+  ],
+  "bac-d-2019-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Masse molaire et formule d'un acide RCOOH",
+    "Coefficient d'ionisation α",
+    "pKa du couple acide-base",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester"
+  ],
+  "bac-d-2019-sn-pc-ex3": [
+    "Accélération d'ions par différence de potentiel U",
+    "Déviation dans un champ magnétique — rayon de courbure",
+    "Déviation angulaire dans un champ B",
+    "Mouvement dans champ électrique — trajectoire parabolique",
+    "Séparateur de charges massiques"
+  ],
+  "bac-d-2019-sn-pc-ex4": [
+    "Équation horaire du mouvement harmonique",
+    "Équation horaire x(t) avec conditions initiales",
+    "Énergie mécanique et vitesse maximale",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Composantes de la vitesse au sol"
+  ],
+  "bac-d-2019-sc-pc-ex1": [
+    "Formules semi-développées et nomenclature des composés organiques A, B, C, D",
+    "Centre de chiralité — représentation des énantiomères",
+    "Oxydation ménagée par dichromate",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "bac-d-2019-sc-pc-ex2": [
+    "Dispositif de dosage acido-basique",
+    "Base faible — pKb et concentration",
+    "Dosage acide méthanoïque par soude",
+    "Identification d'une amine primaire par masse molaire"
+  ],
+  "bac-d-2019-sc-pc-ex3": [
+    "Flux magnétique à travers une petite bobine",
+    "Force électromotrice induite — loi de Faraday",
+    "Courant induit — sens (loi de Lenz)",
+    "Force électromagnétique sur une tige mobile",
+    "Plan incliné pour compenser la force de Laplace"
+  ],
+  "bac-d-2019-sc-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Effet photoélectrique — définition",
+    "Déduction de la longueur d'onde λ",
+    "Énergie cinétique maximale et potentiel d'arrêt"
+  ],
+  "bac-d-2020-sn-pc-ex1": [
+    "Isomères d'une amine C₃H₉N",
+    "Centre de chiralité — représentation des énantiomères",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "bac-d-2020-sc-pc-ex1": [
+    "Rôle des ions H⁺ en catalyse acide",
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Facteur cinétique concentration",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-d-2020-sc-pc-ex2": [
+    "Dilution d'une solution — matériel et calcul",
+    "Dosage par soude — V_E et demi-équivalence",
+    "Degré d'acidité du vinaigre",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2020-sc-pc-ex3": [
+    "Équation horaire du mouvement harmonique",
+    "Équation horaire x(t) d'un oscillateur",
+    "Conservation de l'énergie mécanique du pendule masse-ressort",
+    "Mouvement de projectile — trajectoire, portée et flèche",
+    "Vitesse d'arrivée au sol"
+  ],
+  "bac-d-2020-sc-pc-ex4": [
+    "Satellite géostationnaire — altitude",
+    "Vitesse orbitale en fonction de G, Ms et r",
+    "Changement d'orbite — énergie fournie par les moteurs"
+  ],
+  "bac-d-2021-sn-pc-ex1": [
+    "Équation de la réaction I⁻ / S₂O₈²⁻",
+    "Vitesse instantanée de formation du diiode",
+    "Influence de la température sur la cinétique",
+    "Courbes cinétiques et température"
+  ],
+  "bac-d-2021-sc-pc-ex1": [
+    "Isomères d'une amine saturée — formules et noms",
+    "Chiralité d'une amine — identification de l'isomère",
+    "Réaction anhydride d'acide + amine (amide)"
+  ],
+  "bac-d-2022-sc-pc-ex1": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse ADN à bande unique",
+    "Localisation d'un gène sur autosome ou chromosome X",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Génotypes à partir de données généalogiques",
+    "Méiose anormale — anomalie chromosomique"
+  ],
+  "bac-d-2022-sc-pc-ex2": [
+    "Cycle ovarien — évolution des structures",
+    "Courbes hormonales du cycle sexuel",
+    "Effet des hormones ovariennes sur l'utérus",
+    "Corps jaune — formation, hormonalité et devenir"
+  ],
+  "bac-d-2022-sc-pc-ex3": [
+    "Potentiel d'action — phases et mécanisme ionique",
+    "Propagation de l'influx nerveux le long d'une fibre",
+    "Vitesse de propagation nerveuse",
+    "Fuseau neuromusculaire — sites et rôle",
+    "Arc réflexe myotatique"
+  ],
+  "bac-d-2022-sc-pc-ex4": [
+    "Noms systématiques de composés organiques",
+    "Estérification — équation, suivi et équilibre",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Isomères de position et de chaîne"
+  ],
+  "bac-d-2022-sc-pc-ex5": [
+    "Comparaison acide fort (HCl) / acide faible (acétique)",
+    "Concentrations des espèces en solution d'acide faible",
+    "Mélange acide fort + base forte pour pH neutre",
+    "pH d'un mélange acide fort + sel",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2023-sn-pc-ex1": [
+    "Plantes monoïques, dioïques et hermaphrodites",
+    "Origine de la graine — transformation de l'ovule",
+    "Allergène et réaction allergique (mastocytes, IgE)",
+    "Allogreffe et histocompatibilité",
+    "Gamétophyte et sporophyte chez les angiospermes",
+    "VIH — réponses immunitaire humorale et cellulaire",
+    "Cœur transplanté — dénervation et fréquence cardiaque",
+    "Génétique des drosophiles — croisements et linkage"
+  ],
+  "bac-d-2023-sn-pc-ex3": [
+    "Stimulation croissante d'une fibre nerveuse",
+    "Réponse tout ou rien d'une fibre",
+    "Propriété du message nerveux (codage en fréquence)",
+    "Propriété de la fibre nerveuse (seuil, période réfractaire)"
+  ],
+  "bac-d-2023-sn-pc-ex5": [
+    "Identification de la réponse à une stimulation efficace",
+    "Analyse d'un tracé oscilloscopique nerveux",
+    "Propriété du message nerveux déduite des documents",
+    "Propriété de la fibre nerveuse déduite des documents"
+  ],
+  "bac-d-2023-sc-pc-ex1": [
+    "Spermatogenèse et ovogenèse — identification des phénomènes",
+    "Cellules gamétiques A, B et C — noms et origine",
+    "Hormones peptidiques hypophysaires du cycle sexuel",
+    "Aménorrhée — causes selon le profil de la patiente"
+  ],
+  "bac-d-2024-sn-pc-ex1": [
+    "Génétique des drosophiles — proportions de descendants",
+    "Mémoire immunitaire — lymphocytes mémoires",
+    "Vaccin et immunité active",
+    "Allergène et réaction allergique (mastocytes, IgE)",
+    "Taux de recombinaison et test-cross",
+    "VIH — récepteur CD4",
+    "Alternance haplophase / diplophase chez les angiospermes",
+    "Régulation de la pression artérielle"
+  ],
+  "bac-d-2024-sn-pc-ex4": [
+    "Types de neurones — afférent, efférent, interneurone",
+    "Propagation du potentiel d'action le long d'un axone",
+    "Transmission synaptique — dépolarisation et hyperpolarisation",
+    "Enregistrements électriques aux synapses"
+  ],
+  "bac-d-2024-sn-pc-ex5": [
+    "Stimulations et réponses d'une chaîne nerveuse",
+    "Interprétation d'expériences de section nerveuse",
+    "Blocage de la transmission synaptique",
+    "Reconstruction d'un circuit neuronal"
+  ],
+  "bac-d-2024-sc-pc-ex1": [
+    "Noms systématiques de composés organiques",
+    "Estérification — équation, suivi et équilibre",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Isomères de position et de chaîne"
+  ],
+  "bac-d-2024-sc-pc-ex2": [
+    "Identification de solutions par pH",
+    "Espèces en solution et pKa d'un acide faible (acide propanoïque)",
+    "Mélange pour pH neutre",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2024-sc-pc-ex3": [
+    "Accélération à partir du graphe v = f(t)",
+    "Distance parcourue — aire sous la courbe",
+    "Mouvement sur plan incliné avec forces motrice et frottement",
+    "Mouvement de projectile — trajectoire, portée et flèche"
+  ],
+  "bac-d-2024-sc-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Déduction de la longueur d'onde λ",
+    "Franges brillantes — position sur l'écran",
+    "Interférences en lumière blanche et spectroscope"
+  ],
+  "bac-d-2003-sn-svt-ex1": [
+    "Enzyme de restriction — sites complémentaires et ligation",
+    "Extrémités cohésives de l'ADN recombinant",
+    "Schéma d'un plasmide recombinant",
+    "Génétique des haploïdes — Neurospora",
+    "Asques pré-réductionnels et post-réductionnels",
+    "Distance gène-centromère et carte factorielle"
+  ],
+  "bac-d-2003-sn-svt-ex2": [
+    "Génie génétique — production d'insuline humaine",
+    "Plasmide recombinant et enzyme de restriction",
+    "Génétique des haploïdes — Neurospora",
+    "Distance gène-centromère et carte factorielle"
+  ],
+  "bac-d-2003-sn-svt-ex3": [
+    "Enzyme de restriction — compatibilité des extrémités cohésives",
+    "Séquences des extrémités de l'ADN humain isolé",
+    "Plasmide recombinant — schéma et zones de ligation",
+    "Génie génétique — production d'insuline humaine"
+  ],
+  "bac-d-2003-sn-svt-ex4": [
+    "Insérion d'un gène humain dans un plasmide bactérien",
+    "Génétique des haploïdes — Neurospora",
+    "Méiose anormale — asque post-réductionnel",
+    "Carte factorielle de trois gènes"
+  ],
+  "bac-d-2004-sn-svt-ex1": [
+    "Chaîne neuronale — identification et trajet de l'influx",
+    "Transmission synaptique — facilitation et inhibition",
+    "Action du GABA sur la synapse",
+    "Arc réflexe de flexion — annotation et influx",
+    "Enregistrements électriques d'un arc réflexe"
+  ],
+  "bac-d-2004-sn-svt-ex2": [
+    "Réponse immunitaire — étape de sensibilisation",
+    "Légende d'un schéma immunitaire",
+    "Rôles des lymphocytes B et T",
+    "Mode d'action du VIH sur les lymphocytes T"
+  ],
+  "bac-d-2004-sn-svt-ex3": [
+    "Groupes sanguins ABO — attribution parent-enfant",
+    "Compatibilité des groupes sanguins dans les croisements",
+    "Possibilité d'un frère de groupe O",
+    "Raisonnement génétique sur les allèles Iᴬ, Iᴮ et i"
+  ],
+  "bac-d-2004-sc-svt-ex1": [
+    "Conjugaison de Chlamydomonas — fusion et repos",
+    "Méiose après conjugaison — formation de spores",
+    "Cycle du Fucus — alternance haplo-diplo",
+    "Comparaison des cycles reproducteurs des algues"
+  ],
+  "bac-d-2004-sc-svt-ex2": [
+    "Rejet de greffe — mémoire immunitaire",
+    "Rôle du thymus dans l'immunité à médiation cellulaire",
+    "Rôle des anticorps dans le rejet (sérum)",
+    "Tolérance immunitaire — greffe in utero"
+  ],
+  "bac-d-2004-sc-svt-ex3": [
+    "Dihybridisme — croisement Hambourg × Leghorn",
+    "Proportions phénotypiques en F2",
+    "Dominance incomplète de la crête « en rose »",
+    "Sélection pour stabiliser un phénotype en élevage"
+  ],
+  "bac-d-2004-sc-svt-ex4": [
+    "Génétique dihybride — deux caractères indépendants",
+    "Proportions phénotypiques en F2",
+    "Sélection génétique pour combiner deux avantages",
+    "Stabilisation par autofécondation ou croisement test"
+  ],
+  "bac-d-2004-sc-svt-ex5": [
+    "Croisement de races de poules — proportions F2",
+    "Interprétation statistique du dihybridisme",
+    "Sélection du phénotype « crête rose, plumage blanc »",
+    "Obtention d'une lignée pure par sélection"
+  ],
+  "bac-d-2005-sn-svt-ex1": [
+    "Anatomie de l'ovaire — structures du cycle",
+    "Hormones du cycle sexuel (FSH, LH, œstrogènes, progestérone)",
+    "Conditions de l'ovulation",
+    "Modifications de l'endomètre au cours du cycle",
+    "Épistasie et gènes complémentaires — couleur des bovins"
+  ],
+  "bac-d-2005-sn-svt-ex2": [
+    "HCG et détection de grossesse",
+    "Immunisation du lapin par injection de HCG",
+    "Test au latex — agglutination si grossesse",
+    "Principe du test immunologique de grossesse"
+  ],
+  "bac-d-2005-sc-svt-ex1": [
+    "Dosages hormonaux urinaires — cycle menstruel",
+    "Courbe de température basale et ovulation",
+    "Modifications histologiques de l'endomètre",
+    "Rôle de l'œstradiol et de la progestérone",
+    "Génétique de la couleur du pelage chez la souris"
+  ],
+  "bac-d-2005-sc-svt-ex2": [
+    "Structure et nature des anticorps (immunoglobulines)",
+    "Sites paratopiques et épitopiques",
+    "Diversité des anticorps — recombinaison somatique",
+    "Modèle clonal de la réponse immunitaire"
+  ],
+  "bac-d-2005-sc-svt-ex3": [
+    "Réflexe barorécepteur — sinus carotidien",
+    "Enregistrement du nerf de Hering",
+    "Cycle du Fucus — alternance haplo-diplo",
+    "Distance gène-centromère chez Neurospora",
+    "Immunité contre le bacille de Koch"
+  ],
+  "bac-d-2005-sc-svt-ex4": [
+    "Gamétogenèse — étapes en testicule et ovaire",
+    "Moments du déroulement de la méiose I et II",
+    "Ovocyte II — structure et rôle dans la fécondation",
+    "Tableau comparatif des étapes de spermatogenèse et ovogenèse"
+  ],
+  "bac-d-2005-sc-svt-ex5": [
+    "Sections des racines — potentiels d'action enregistrés",
+    "Réflexe inné et arc réflexe",
+    "Rôle de la thyroïde — croissance et métabolisme",
+    "Thyroxine et correction des effets de thyroïdectomie"
+  ],
+  "bac-d-2006-sn-svt-ex1": [
+    "Réflexe myotatique — réponse du muscle à l'étirement",
+    "Temps de latence L1, L2, L3 — franchissement synaptique",
+    "Trajet de l'influx dans l'arc réflexe",
+    "Type d'activité réflexe mise en évidence"
+  ],
+  "bac-d-2006-sn-svt-ex2": [
+    "Rôle du thymus dans la maturation des lymphocytes T",
+    "Rôle de la moelle osseuse — lymphocytes B",
+    "Agglutination des pneumocoques — anticorps",
+    "Coopération lymphocytes T et B dans l'immunité"
+  ],
+  "bac-d-2006-sn-svt-ex3": [
+    "Énergie de la contraction musculaire — analyse gazeuse",
+    "Myothermie — chaleur initiale et retardée",
+    "Contraction en anaérobiose — lactate",
+    "Régulation de la glycémie"
+  ],
+  "bac-d-2006-sn-svt-ex4": [
+    "Source d'énergie musculaire — ATP et glycogène",
+    "Myothermie — chaleur initiale et retardée",
+    "Fermentation lactique en anaérobiose",
+    "Régulation de la glycémie"
+  ],
+  "bac-d-2006-sc-svt-ex1": [
+    "Ovogenèse — stades dans l'oviducte",
+    "Évolution de la quantité d'ADN",
+    "Régulation de la pression artérielle — sympathique et parasympathique",
+    "Réponse immunitaire humorale — anatoxine tétanique"
+  ],
+  "bac-d-2006-sc-svt-ex2": [
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Translocation réciproque 5/10 — gamètes possibles",
+    "Probabilité de grossesse viable après translocation"
+  ],
+  "bac-d-2006-sc-svt-ex3": [
+    "Fuseau neuromusculaire — enregistrements N2 et N3",
+    "Motoneurone extenseur vs fléchisseur",
+    "Neurotransmetteurs excitateurs (aspartate) et inhibiteurs (GABA)",
+    "Rôle des parathyroïdes sur le calcium plasmatique"
+  ],
+  "bac-d-2007-sn-svt-ex1": [
+    "Synapse cholinergique — effet de l'acétylcholine",
+    "Synapse GABAergique — inhibition postsynaptique",
+    "Synapse excitatrice vs inhibitrice",
+    "Rôle des neurotransmetteurs dans la transmission"
+  ],
+  "bac-d-2007-sn-svt-ex2": [
+    "Immunité active par anatoxine diphtérique",
+    "Sérum antidiphtérique — immunité passive",
+    "Vaccin vs sérum — propriétés et mode d'action",
+    "Génétique des drosophiles — gène lié au sexe",
+    "Proportions phénotypiques en F2"
+  ],
+  "bac-d-2007-sn-svt-ex3": [
+    "Fécondation — évolution de la quantité d'ADN",
+    "Comportement des chromosomes lors de la fécondation",
+    "Régulation de la sécrétion de LH par les œstrogènes",
+    "Effets de la progestérone et des œstrogènes sur LH",
+    "Diabète auto-immun — rat BB et thymus"
+  ],
+  "bac-d-2007-sn-svt-ex4": [
+    "États de la cellule lors de la fécondation (quantité d'ADN)",
+    "Comportement des chromosomes aux états X2 et X3",
+    "Régulation de la LH par l'œstradiol",
+    "Effets de la progestérone et des œstrogènes sur LH"
+  ],
+  "bac-d-2007-sn-svt-ex5": [
+    "Diabète de type 1 — origine auto-immune",
+    "Destruction des cellules β des îlots de Langerhans",
+    "Anticorps anti-cellules β et lymphocytes T",
+    "Daltonisme lié à l'X — analyse généalogique"
+  ],
+  "bac-d-2008-sc-svt-ex1": [
+    "Reconnaissance des formations folliculaires de l'ovaire humain",
+    "Structures ovariennes selon l'âge — fœtus, enfance, cycle",
+    "Rôle de la LH — follicule tertiaire à follicule de De Graaf",
+    "Ovulation — formule chromosomique n=23 et méiose II",
+    "Fécondation — évolution de la quantité d'ADN",
+    "Ultrastructure du muscle strié — états contracté et relâché",
+    "ATP — hydrolyse et voies de régénération énergétique",
+    "Réponse immunitaire spécifique — lymphocytes B, plasmocytes, anticorps"
+  ],
+  "bac-d-2010-sn-svt-ex1": [
+    "Légende des formations et structures de l'ovaire",
+    "Évolution folliculaire selon les périodes de la vie",
+    "Pic de LH et transformation en corps jaune",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Courbe d'évolution de l'ADN lors de la fécondation",
+    "Myofibrilles — identification des états et organites",
+    "Rôle de l'ATP dans le cycle contractile",
+    "Suivi de la réponse humorale après anatoxine"
+  ],
+  "bac-d-2010-sn-svt-ex2": [
+    "Croisement initial et dominance",
+    "Test-cross et proportions",
+    "Distance 8 cM — classes parentales et recombinantes",
+    "Autofécondation F1 — prévision des effectifs"
+  ],
+  "bac-d-2010-sn-svt-ex3": [
+    "Courbes intensité-réponse — neurone et muscle",
+    "Seuil, chronaxie et propriétés d'excitabilité",
+    "Propagation de l'influx — retard et vitesse sur nerf sciatique",
+    "Polysynodisme et amplitude des potentiels d'action"
+  ],
+  "bac-d-2010-sn-svt-ex4": [
+    "Courbes de glycémie — identification du diabète",
+    "Fixation de l'insuline radioactive sur cellules hépatiques",
+    "Diabète de type I vs type II — récepteurs et insuline exogène",
+    "Cycle de vie d'Ectocarpus — gamètes et alternance de générations"
+  ],
+  "bac-d-2010-sc-svt-ex1": [
+    "Action hormonale sur la muqueuse utérine — protocole expérimental",
+    "RU486 — hypothèses de mode d'action sur récepteurs à progestérone",
+    "Cycle menstruel — schéma hormonal et effet de RU486",
+    "Pilule abortive — utilisation contraceptive de RU486",
+    "Structure et rôles des anticorps dans la neutralisation"
+  ],
+  "bac-d-2010-sc-svt-ex2": [
+    "Gamétogenèse — étapes, lieux et produits cellulaires",
+    "Moments de la spermatogenèse et de l'ovogenèse",
+    "Spermatozoïde — schéma et adaptations à la fécondation",
+    "Sections des racines — potentiels d'action enregistrés",
+    "Arc réflexe — extension et flexion localisée",
+    "Goitre endémique — apport d'iode et rôle thyroïdien"
+  ],
+  "bac-d-2011-sn-svt-ex1": [
+    "Identification des œstrogènes et progestérone sur courbes",
+    "Durée du cycle et datation ovulation / menstruations",
+    "Évolution de l'endomètre selon les phases",
+    "Tracés T1-T4 — potentiel d'action, contraction, énergie musculaire",
+    "VIH — structure du virus et immunodéficience"
+  ],
+  "bac-d-2011-sn-svt-ex2": [
+    "Réseau de quatre neurones — potentiels et types neuronaux",
+    "Stimulation centrale vs périphérique — propriété du neurone B",
+    "Glycémie, glycosurie et animal dépancréaté",
+    "Insuline et glucagon — rôles et facteurs de sécrétion",
+    "Régulation de la pression artérielle — systèmes nerveux et hormonal"
+  ],
+  "bac-d-2011-sc-svt-ex1": [
+    "Fécondation — étapes, légendes et ordre chronologique",
+    "Garniture chromosomique des cellules gamétiques et zygote",
+    "Causes de stérilité et traitements associés",
+    "Préparation de l'endomètre et activité sexuelle après fécondation",
+    "Test d'hyperglycémie provoquée — diabète et insulinémie"
+  ],
+  "bac-d-2011-sc-svt-ex2": [
+    "Réflexe rotulien — identification et arc réflexe",
+    "Rôles des racines antérieure et postérieure",
+    "Myasthénie — enregistrement électrique et défaut neuromusculaire",
+    "Chaîne événements de la contraction musculaire",
+    "Courbes d'anticorps du nourrisson — immunité maternelle"
+  ],
+  "bac-d-2014-sn-svt-ex1": [
+    "Graphique des hormones H1 et H2 — œstrogènes et progestérone",
+    "Ovulation et menstruation — dates",
+    "Phases de l'endomètre et activité du myomètre",
+    "Rétrocontrôle hypophyso-ovarien en grossesse",
+    "Rôle de la progestérone — expériences sur guenon"
+  ],
+  "bac-d-2014-sn-svt-ex2": [
+    "Consommation d'O2 et production de lactate à l'effort",
+    "Fermentation lactique — origine de l'acide lactique",
+    "Comparaison sujet entraîné / non entraîné",
+    "Débit cardiaque — calcul au repos et à l'effort"
+  ],
+  "bac-d-2014-sn-svt-ex3": [
+    "Génotypes parents et F1 — drosophiles races pures",
+    "Gamètes de F1 et proportions attendues",
+    "Croisements de vérification et liaison génétique",
+    "Carte génétique avec troisième locus r"
+  ],
+  "bac-d-2014-sn-svt-ex4": [
+    "Vitesse de l'influx sur fibres nerveuses F1 et F2",
+    "Types de neurones A, B, C — excitateurs et inhibiteurs",
+    "Sommation temporelle et spatiale",
+    "Différences synapse neuro-neuronique / plaque motrice"
+  ],
+  "bac-d-2014-sn-svt-ex5": [
+    "Glycémie post-prandiale — diagnostic du diabète",
+    "Insuline radioactive — fixation membranaire hépatique",
+    "Diabète insulino-dépendant vs résistant à l'insuline",
+    "Diagnostic du diabète par courbe glycémique post-prandiale"
+  ],
+  "bac-d-2014-sc-svt-ex1": [
+    "Durée et hormones du cycle ovarien",
+    "Évolution et comparaison des taux hormonaux",
+    "Ovulation — figures et moment du cycle",
+    "Comparaison des coupes utérines selon les phases hormonales"
+  ],
+  "bac-d-2014-sc-svt-ex2": [
+    "Unité motrice — nombre de fibres et tension développée",
+    "Précision des mouvements oculaires vs pied",
+    "Bilan O2 et CO2 — origine énergétique de la contraction",
+    "Raccourcissement musculaire et consommation de glucose"
+  ],
+  "bac-d-2014-sc-svt-ex3": [
+    "Anticorps anti-VIH chez nouveau-né — contamination ou non",
+    "Plasmocytes et nature des immunoglobulines",
+    "IgG maternelles — origine et justification",
+    "Interprétation sérologique — contamination maternelle vs enfant"
+  ],
+  "bac-d-2014-sc-svt-ex4": [
+    "Hérédité de la taille des oreilles — dominance incomplète",
+    "Gène de la barbiche — hérédité liée au sexe",
+    "Proportions phénotypiques en F2",
+    "Gènes sur chromosomes différents — indépendance en F2"
+  ],
+  "bac-d-2014-sc-svt-ex5": [
+    "Enregistrement E1 — potentiel post-synaptique",
+    "Substance X — modulation synaptique",
+    "Diamètre des fibres et vitesse de conduction",
+    "Relation structure-fonction des fibres nerveuses myélinisées"
+  ],
+  "bac-d-2015-sn-svt-ex1": [
+    "Figures de gamétogenèse — spermatogenèse et ovogenèse",
+    "Évolution folliculaire — follicule primaire à corps jaune",
+    "Dosage hormonal X et Y — datation du cycle",
+    "Méiose — moment dans la vie et rôle en gamétogenèse"
+  ],
+  "bac-d-2015-sn-svt-ex2": [
+    "Hormone intestinale hypoglycémiante — effet sur glycémie",
+    "Voie vagale — sécrétion d'insuline pancréatique",
+    "Effet entéro-insulinique de l'absorption orale de glucose",
+    "Nerfs cardiaques — fréquence cardiaque à l'effort"
+  ],
+  "bac-d-2015-sn-svt-ex3": [
+    "Croisement test-cross — gènes b et vg",
+    "Gène r — hérédité liée au sexe chez drosophile",
+    "Échiquier F1' et bilan phénotypique",
+    "Distance génétique — recombinaison b et vg"
+  ],
+  "bac-d-2015-sn-svt-ex4": [
+    "Polysynodisme du nerf — vitesses d'influx",
+    "Branches motrices vs sensitives — expérience de section",
+    "Arc réflexe et plaque motrice — ions Ca2+",
+    "Phosphocréatine — régénération énergétique musculaire"
+  ],
+  "bac-d-2015-sn-svt-ex5": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Anomalie chromosomique — formule et origine méiotique",
+    "Carte factorielle et transmission du gène",
+    "Transmission familiale d'un polymorphisme enzymatique"
+  ],
+  "bac-d-2015-sc-svt-ex1": [
+    "Cellules de Sertoli et Leydig — cibles des gonadotrophines",
+    "TNFα — inhibition de la sécrétion de testostérone",
+    "Rétrocontrôle hypothalamo-hypophyso-testiculaire",
+    "FSH et LH — action sur cellules testiculaires"
+  ],
+  "bac-d-2015-sc-svt-ex2": [
+    "ECG et tension cardiaque — analyse du potentiel d'action",
+    "Période réfractaire — muscle cardiaque vs squelettique",
+    "Conséquence physiologique de la longue période réfractaire cardiaque",
+    "Adaptation cardiaque à l'effort — tachycardie physiologique"
+  ],
+  "bac-d-2015-sc-svt-ex3": [
+    "Pancréas mixte — exocrine et endocrine",
+    "Insuline radioactive — captation musculaire",
+    "Rôle de l'insuline dans la consommation de glucose",
+    "Cellules α et β du pancréas — insuline et glucagon"
+  ],
+  "bac-d-2015-sc-svt-ex4": [
+    "Arbre généalogique et mode de transmission",
+    "Diagnostic prénatal — définition et techniques",
+    "Génotypes et explication des jumelles discordantes",
+    "Risque génétique pour le fœtus de Fatou enceinte"
+  ],
+  "bac-d-2015-sc-svt-ex5": [
+    "Réflexe myotatique — coordination des antagonistes",
+    "Types de synapses et muscles innervés",
+    "Réflexe rotulien et cardiomodérateur — arcs réflexes",
+    "Tableau comparatif réflexe rotulien / cardiomodérateur"
+  ],
+  "bac-d-2016-sn-svt-ex1": [
+    "Ordre d'utilisation ATP, phosphocréatine et glycogène",
+    "Myasthénie — anticorps anti-récepteurs à acétylcholine",
+    "Maladie auto-immune — classe IgG et paralysie néonatale",
+    "Hérédité humaine — suite du sujet muscle/immunité"
+  ],
+  "bac-d-2016-sn-svt-ex2": [
+    "Électrophorèse ADN — autosomal vs gonosomal, dominant vs récessif",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Risque de fille malade pour le fœtus III3",
+    "Famille A et B — formes X et Y de la maladie"
+  ],
+  "bac-d-2016-sn-svt-ex3": [
+    "Synapses excitatrices et inhibitrices — potentiels post-synaptiques",
+    "Sommation temporelle — stimulations rapprochées",
+    "Rôles des neurones A et B sur le neurone C",
+    "Facilitation et inhibition synaptiques — intégration"
+  ],
+  "bac-d-2016-sn-svt-ex4": [
+    "Nerfs cardiaques — fréquence cardiaque à l'effort",
+    "Identification des nerfs sympathique et parasympathique",
+    "Arc réflexe de régulation cardiaque au repos",
+    "Expérience 4 — blocage simultané des deux nerfs cardiaques"
+  ],
+  "bac-d-2016-sn-svt-ex5": [
+    "Glycémie et glycosurie — valeurs normales",
+    "Rôle du pancréas et du rein dans la régulation glucidique",
+    "Diabète sucré — troubles similaires au chien dépancréaté",
+    "Seuil rénal de réabsorption du glucose — glycosurie"
+  ],
+  "bac-d-2016-sc-svt-ex1": [
+    "Dosage d'ADN — cellules germinales X, Y, Z",
+    "Anomalie de spermatogenèse — traitement hormonal",
+    "Fécondation — quantité d'ADN et nombre de chromosomes",
+    "Phases de la fécondation — segments du graphique ADN"
+  ],
+  "bac-d-2016-sc-svt-ex2": [
+    "Parathyroïdes — rôle sur la calcémie",
+    "Hyperparathyroïdie et déminéralisation osseuse",
+    "Calcitonine thyroïdienne — régulation calcémique",
+    "Injection d'extraits thyroïdiens — traitement de l'hypercalcémie"
+  ],
+  "bac-d-2016-sc-svt-ex3": [
+    "Immunité antituberculeuse — BCG et mémoire immunitaire",
+    "Phase effectrice — lymphocytes T et macrophages",
+    "Vaccination — propriétés et applications",
+    "Cobaye D1 — immunité secondaire après primo-infection"
+  ],
+  "bac-d-2016-sc-svt-ex4": [
+    "Déterminisme du sexe chez l'abeille — parthénogenèse",
+    "Hérédité de la couleur — dominance incomplète et haploïdie",
+    "Croisements en ruche — génotype de la reine",
+    "Vol nuptial de la reine — génotypes des descendants"
+  ],
+  "bac-d-2016-sc-svt-ex5": [
+    "Courbes intensité-réponse — neurone et muscle",
+    "Rhéobase et chronaxie — évolution de l'excitabilité",
+    "Période réfractaire — stimulations I1 et I2",
+    "Structure C — fibre nerveuse et courbe d'excitabilité"
+  ],
+  "bac-d-2017-sn-svt-ex1": [
+    "Dominance incomplète — génotypes P1 et P3",
+    "Liaison génétique — position des gènes n et b",
+    "Brassage en prophase I — schémas méiotiques",
+    "Carte à trois loci — distance en centimorgans"
+  ],
+  "bac-d-2017-sn-svt-ex2": [
+    "Fuseau neuromusculaire — synapses F-A et F-B",
+    "Substances X, Y, Z — effets excitateurs ou inhibiteurs",
+    "Mode d'action des neurotransmetteurs",
+    "Récepteurs de Z sur terminaisons de la fibre F"
+  ],
+  "bac-d-2017-sn-svt-ex3": [
+    "Dosage du sodium — rôle rénal et corticosurrénalien",
+    "Aldostérone — mode d'action sur l'excrétion sodée",
+    "Expérience proposée — rôle des corticosurrénales sur Na+",
+    "Réabsorption rénale du sodium — homéostasie"
+  ],
+  "bac-d-2017-sn-svt-ex4": [
+    "Angiotensine — vasoconstriction et sécrétion d'aldostérone",
+    "Parathormone — augmentation de la calcémie",
+    "Réflexe correcteur de l'hypertension — centre bulbaire",
+    "Accoutumance aux substances psychoactives"
+  ],
+  "bac-d-2017-sn-svt-ex5": [
+    "Carte génétique — distances X et Y en cM",
+    "Gamètes et proportions du croisement 1",
+    "Gènes liés sur un chromosome — propositions de Mohamed et Sidi",
+    "Croisement de vérification — confirmation de Sidi"
+  ],
+  "bac-d-2017-sc-svt-ex1": [
+    "Méiose et fécondation — intérêts génétiques",
+    "Ovulation — schéma et hormones hypophysaires",
+    "Lactation — prolactine, œstrogènes et progestérone",
+    "Allaitement — effets sur le cycle ovarien"
+  ],
+  "bac-d-2017-sc-svt-ex2": [
+    "Sérum anti-insuline — diabète passager chez le lapin",
+    "Anticorps — structure, rôles et sérologie typhoïde",
+    "Sérothérapie vs vaccination",
+    "Phases sérologiques — convalescence, infection, maladie"
+  ],
+  "bac-d-2017-sc-svt-ex3": [
+    "Daltonisme — allèle récessif lié à l'X",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Risque selon le sexe pour le deuxième enfant de Sidi",
+    "Femme de Sidi — génotype et transmission du daltonisme"
+  ],
+  "bac-d-2017-sc-svt-ex4": [
+    "Potentiel local et potentiel d'action",
+    "Vitesse de l'influx et potentiel complexe",
+    "Synapses — enregistrements O1, O2, O3",
+    "Nerfs cardiaques A et B — pression artérielle"
+  ],
+  "bac-d-2017-sc-svt-ex5": [
+    "Croisement maïs — dominance et liaison des gènes",
+    "Brassage en méiose — gamètes recombinants",
+    "Test-cross et proportions",
+    "Croisement de F2 — 25 % par classe phénotypique"
+  ],
+  "bac-d-2021-sn-svt-ex3": [
+    "Circuit neuronique — potentiel d'action et PSP",
+    "Propriété du message nerveux — décremental ou non",
+    "Sommation temporelle et spatiale",
+    "Rôle du neurone postsynaptique M"
+  ],
+  "bac-d-2021-sn-svt-ex4": [
+    "Immunité humorale et immunité cellulaire",
+    "Lieux de déroulement des réponses spécifiques",
+    "Comparaison mémoire, délai et effecteurs",
+    "Mémoire immunitaire — comparaison des deux voies"
+  ],
+  "bac-d-2021-sn-svt-ex5": [
+    "Dosage P et T — variations de calcémie",
+    "Parathormone et calcitonine — relations avec le calcium",
+    "Régulation de la glycémie",
+    "Hypercalcémie et hypocalcémie — réponses hormonales"
+  ],
+  "bac-d-2021-sc-svt-ex3": [
+    "Stimulations I1 et I2 — nature des réponses électriques",
+    "Synapses excitatrices et inhibitrices du circuit",
+    "Sommation de potentiels post-synaptiques",
+    "Différences PA vs PSP au niveau de OA"
+  ],
+  "bac-d-2021-sc-svt-ex4": [
+    "Réponse immunitaire humorale et cellulaire",
+    "Organes lymphoïdes — lieu des réponses spécifiques",
+    "Tableau comparatif des deux immunités spécifiques",
+    "Cellules effectrices — lymphocytes B et T"
+  ],
+  "bac-d-2021-sc-svt-ex5": [
+    "Courbes de calcémie — hormones P et T",
+    "Parathormone et thyrocalcitonine — effets opposés",
+    "Homéostasie calcique",
+    "Rétrocontrôle calcémique — hypophyse et thyroïde"
+  ],
+  "bac-d-2022-sn-svt-ex1": [
+    "Cellule en méiose — gamètes et proportions",
+    "Gènes liés à l'X — phénotypes selon le sexe",
+    "Répartition phénotypique sur 1000 descendants",
+    "Distance 8 cM — classes parentales et recombinantes"
+  ],
+  "bac-d-2022-sn-svt-ex2": [
+    "Testostérone et œstrogènes — action sur organes génitaux",
+    "Contrôle hypophysaire des gonades",
+    "Parabiose et puberté précoce",
+    "Schémas de régulation sexuelle mâle et femelle"
+  ],
+  "bac-d-2022-sn-svt-ex3": [
+    "Potentiel d'action — vitesse de propagation",
+    "Période réfractaire — stimulations I1 et I2",
+    "Neurotransmetteurs X, Y, Z — lieu et effet",
+    "Substances synaptiques — excitation ou inhibition"
+  ],
+  "bac-d-2022-sn-svt-ex4": [
+    "Anatoxine tétanique — vaccination et mémoire",
+    "Cellule immunitaire — origine et rôle des anticorps",
+    "Protéine X des plasmocytes — synthèse d'anticorps",
+    "Immunité active après anatoxine — mémoire à long terme"
+  ],
+  "bac-d-2022-sn-svt-ex5": [
+    "Barorécepteurs du sinus carotidien — nerf de Hering",
+    "Réflexe de régulation de la pression artérielle",
+    "Nerfs sympathiques et pincement carotidien",
+    "Section du nerf de Hering — conséquences sur PA"
+  ],
+  "bac-d-2022-sc-svt-ex1": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Maladie récessive liée à l'X — électrophorèse",
+    "Jumeaux vrais ou faux — justification",
+    "Génotypes III4 et III5 — jumeaux monozygotes ou dizygotes"
+  ],
+  "bac-d-2022-sc-svt-ex2": [
+    "Hormones sexuelles — effet sur prostate et utérus",
+    "Hypophyse et maturation gonadique",
+    "Régulation hormonale de la fonction reproductive",
+    "Atrophie gonadique après ablation hypophysaire"
+  ],
+  "bac-d-2022-sc-svt-ex3": [
+    "Transmission synaptique — dépolarisation et hyperpolarisation",
+    "Sommation temporelle et spatiale",
+    "Intégration neuronale au niveau de M",
+    "Stimulation I2 sur B — hyperpolarisation en O2"
+  ],
+  "bac-d-2022-sc-svt-ex4": [
+    "Immunité humorale et immunité cellulaire",
+    "Comparaison des réponses spécifiques",
+    "Organes lymphoïdes secondaires — réponse spécifique",
+    "Délai d'apparition — réponse primaire vs secondaire"
+  ],
+  "bac-d-2023-sn-svt-ex2": [
+    "Phénomènes de la reproduction — ordre chronologique",
+    "Hormones déclenchant ovulation et menstruation",
+    "Grossesse gémellaire — un corps jaune, deux embryons",
+    "Contraception à base hormonale — méthodes et niveaux d'action"
+  ],
+  "bac-d-2023-sn-svt-ex3": [
+    "Seuil et loi de force-intensité — fibre et nerf",
+    "Polysynodisme du nerf",
+    "Synapses N1-N2-N3 — facilitation et occlusion",
+    "Réflexe rotulien — arc et rôles des racines"
+  ],
+  "bac-d-2023-sc-svt-ex2": [
+    "Enregistrements O1-O4 — types de neurones",
+    "Étapes de la transmission synaptique",
+    "Sommation — stimulations S1 et S2",
+    "Condition de détection du PA en O4"
+  ],
+  "bac-d-2023-sc-svt-ex3": [
+    "Courbes d'anticorps — vaccination vs infection naturelle",
+    "Sérothérapie antidiphtérique — réponse immédiate",
+    "Comparaison vaccination et sérothérapie",
+    "Réponse rapide du sérum — anticorps préformés"
+  ],
+  "bac-d-2024-sn-svt-ex2": [
+    "Arbre généalogique de Koumba",
+    "Mode de transmission — dominant lié à l'X",
+    "Électrophorèse — hétérozygote ou homozygote",
+    "Génotype de l'enfant attendu de Habi"
+  ],
+  "bac-d-2024-sn-svt-ex3": [
+    "Neurones A, B, C — excitateur, inhibiteur, interneurone",
+    "Propagation et transmission — zones X et Y",
+    "Chaîne nerveuse incomplète — expériences A, B, C",
+    "Expérience B — deux hypothèses sur blocage synaptique"
+  ],
+  "bac-d-2024-sn-svt-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Flux magnétique à travers une petite bobine",
+    "FEM induite — courant variable par intervalles",
+    "Angle d'une rotation dans l'espace"
+  ],
+  "bac-d-2024-sn-svt-ex5": [
+    "Circuit neuronique — nature des neurones",
+    "Mécanisme synaptique — dépolarisation et hyperpolarisation",
+    "Reconstruction d'une chaîne nerveuse par expériences",
+    "Expérience C — confirmation de la chaîne nerveuse"
+  ],
+  "bac-c-2025-sn-svt-ex1": [
+    "Événements E1 et E2 — ovulation et fécondation",
+    "Modifications cellulaires et conséquences hormonales",
+    "Courbe de température et cycle sexuel",
+    "Hypothèses de stérilité chez B et C"
+  ],
+  "bac-c-2025-sn-svt-ex2": [
+    "Croisement initial et dominance",
+    "Test-cross — liaison gènes corps et œil",
+    "Autofécondation F1 — échiquier et proportions",
+    "Génotypes parents gris/prune et noir/clair"
+  ],
+  "bac-c-2025-sn-svt-ex3": [
+    "Enregistrements O1 et O2 — PA et PSP",
+    "Nature de la synapse N1-N2",
+    "Sommation temporelle — stimulations rapprochées",
+    "Stimulation S2 — intensité double et PSP"
+  ],
+  "bac-c-2025-sc-svt-ex1": [
+    "Discussion des hypothèses de transmission",
+    "Électrophorèse — maladie dominante liée à l'X",
+    "Génotypes I2, II2, III1 et fœtus",
+    "Fœtus f — génotype à partir de l'électrophorèse"
+  ],
+  "bac-c-2025-sc-svt-ex2": [
+    "Coupe de testicule et d'ovaire — légendes et rôles",
+    "Nombre de chromosomes des cellules germinales",
+    "Ovariectomie et dépendance utérine aux ovaires",
+    "Dosage hormonal — aménorrhée et GnRH"
+  ],
+  "bac-c-2025-sc-svt-ex3": [
+    "Neurone — parties A, B, C et organites",
+    "Synapses axo-dendritique et axo-axonique",
+    "Potentiel d'action — milieux et poisons ioniques",
+    "Continuité axone-neurone — structure B et A"
+  ],
+  "bac-c-2025-sc-svt-ex4": [
+    "Structure du neurone et types de synapses",
+    "Rôle des ions Na+ et K+ dans le potentiel d'action",
+    "Effet de la dilution isotonique sur l'excitabilité",
+    "Blocage canaux Na+ — absence de potentiel d'action"
+  ],
+  "bac-d-2025-sn-math-ex1": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Dérivée et tableau de variations de f_m",
+    "Bijection de f et intervalle image J",
+    "Fonction réciproque — intersection et dérivée en β",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ],
+  "bac-d-2025-sn-math-ex2": [
+    "Résolution de P(z)=0 — racine réelle z0",
+    "Angle d'une rotation dans l'espace",
+    "Triangle équilatéral AM1M2 — valeur de α",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-d-2025-sn-math-ex3": [
+    "Angle d'une rotation dans l'espace",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Points cocycliques A, B, D, E"
+  ],
+  "bac-d-2025-sn-math-ex4": [
+    "Fonction ln|x/(x-1)| et familles de courbes",
+    "Dérivée et tableau de variations de f_m",
+    "Suite (a_n) des solutions de g(x)=1/n"
+  ],
+  "bac-d-2025-sn-math-ex5": [
+    "Limites de gₙ en 1⁺ et en +∞",
+    "Dérivée et tableau de variations de f_m",
+    "Bijection de f et intervalle image J",
+    "Fonction réciproque — intersection et dérivée en β",
+    "Suite Uₙ d'intégrales — encadrement et limite"
+  ]
+}

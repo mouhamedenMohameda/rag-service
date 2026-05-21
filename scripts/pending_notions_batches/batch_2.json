@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bac-c-2020-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4,5pts)\nLe poids de l'électron sera négligeable devant les autres forces appliquées.\n1. Un faisceau d'électrons est émis sans vitesse par une cathode C et accéléré par une anode A à l'aide d'une différence de potentiel $U_0=V_A-V_C$.\n1.1 Déterminer le signe de $U_0$ appliquée entre C et A et calculer sa valeur si $AC=d_0=3$ cm et $E=6.10^3$ V/m. (0,75pt)\n1.2 Calculer la vitesse $V_0$ de l'électron lorsqu'il arrive en $O'$. On donne $e=1{,}6.10^{-19}$ C, $m=9.10^{-31}$ kg. (0,75pt)\n2. En O, les électrons pénètrent avec la vitesse $\\vec{V}_0$ dans une zone où règne un champ électrique dû à une tension U existant entre deux plaques $P_1$ et $P_2$ de longueur l et distantes de d.\n2.1 Établir l'expression de l'équation de la trajectoire de l'électron entre les plaques. Donner cette expression en fonction de $U_0$, U et d. Préciser sa nature. (0,75pt)\n2.2 Déterminer la valeur de la tension U si la déviation angulaire électrique est telle que $\\tan\\alpha=0{,}3$. On donne $l=d=4$ cm. (0,5pt)\n3. On remplace le champ électrique $\\vec{E}$ par un champ magnétique $\\vec{B}$ créé dans une zone carrée MNPQ de côté $a=4$ cm. Les électrons pénètrent dans cette zone au point O avec la vitesse $V_0$.\n3.1 Déterminer la nature du mouvement de l'électron dans le champ magnétique $\\vec{B}$. Donner l'expression du rayon de la trajectoire en fonction de m, e, B et $U_0$. (0,75pt)\n3.2 Déterminer la valeur de la déviation angulaire magnétique $\\alpha'$ si les électrons sortent entre P et N. On donne $B=2{,}25.10^{-4}$ T. (0,5pt)\n3.3 Quelle est la valeur de B pour que l'électron effectue un quart de cercle ? (0,5pt)"
+  },
+  {
+    "id": "bac-c-2020-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4pts)\nOn place une tige en cuivre PP' de longueur $l=10$ cm et de masse $m_t=15$ g sur deux rails AB et A'B' conducteurs parallèles séparés par une distance $d=5$ cm. On relie les extrémités B et B' des rails à un générateur. On place le circuit dans un champ magnétique uniforme dont le vecteur $\\vec{B}$ reste vertical.\n1. Déterminer le sens de $\\vec{B}$ pour que la tige soit en équilibre. Exprimer alors l'intensité B du champ magnétique en fonction de l'intensité I du courant, de la masse m, de la distance d et de g. (1pt)\n2. On fait varier l'intensité du courant et on accroche chaque fois à l'extrémité du fil une masse marquée pour conserver l'équilibre. L'étude expérimentale a permis d'établir un tableau de valeurs.\n2.1 Représenter graphiquement $m=f(I)$ les variations de la masse en fonction de l'intensité I. (0,75pt)\n2.2 Trouver l'équation de la courbe. (0,75pt)\n2.3 En déduire l'intensité B du champ magnétique. (0,75pt)\n3. On décroche le fil de la tige et on donne à l'intensité du courant la valeur $I=15$ A. Pour conserver l'équilibre, on incline les rails d'un angle $\\alpha$ par rapport à l'horizontale. Calculer $\\alpha$. (0,75pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (3pts)\nLes résultats du dosage de 3 solutions basiques A, B et C par une solution d'acide chlorhydrique de concentration molaire $C_A=10^{-2}$ mol/L sont consignés dans un tableau. A, B et C sont respectivement des solutions de soude, d'ammoniac et de méthylamine de même concentration $C_B=10^{-2}$ mol/L. Le volume dosé pour chacune est de 10 cm³.\n1. La comparaison des valeurs initiales des pH des solutions basiques permet-elle de comparer la force relative des bases étudiées ? Justifier la réponse. (0,75pt)\n2.1 Définir l'équivalence acido-basique. Préciser le volume d'acide chlorhydrique versé dans chacune des 3 solutions basiques à l'équivalence. (0,75pt)\n2.2 La comparaison des valeurs des pH aux points d'équivalence dans les 3 dosages confirme-t-elle la réponse à la 1ʳᵉ question ? Justifier. (0,5pt)\n2.3 Comparer les valeurs des pH des 3 mélanges après l'équivalence et à volume égal versé. Expliquer ce résultat. (0,5pt)\n2.4 Déterminer à partir du tableau les valeurs des pKa des couples acide/base $NH_4^+/NH_3$ et $CH_3NH_3^+/CH_3NH_2$. (0,5pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4pts)\nOn donne $g=10$ m/s². On suspend à l'extrémité inférieure d'un ressort un solide S de masse $m=100$ g. À l'équilibre, le ressort est allongé de 10 cm.\n1. Calculer la raideur K du ressort. (0,5pt)\n2. Le pendule est placé sur un plan horizontal. À la date $t=0$, le solide S étant en position d'équilibre, on lui communique une vitesse $V_0=0{,}4$ m/s.\n2.1 Établir l'équation différentielle du mouvement du centre d'inertie G du solide S. (0,5pt)\n2.2 Déterminer l'équation horaire du mouvement de G. (1pt)\n3. Exprimer, à la date t, l'énergie mécanique totale E du système en fonction de K, m, x et V puis en fonction de K et de l'élongation maximale $x_m$. (1pt)\n4. La figure 3 représente les courbes $C_1$ et $C_2$ des variations des énergies cinétique $E_c$ et potentielle $E_P$ en fonction du temps.\n4.1 Identifier la courbe représentative de chaque énergie. (0,5pt)\n4.2 Retrouver les valeurs de la constante de raideur K et de la masse m. (0,5pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (4,5pts)\n1. On considère une bobine (B) de rayon $r=20$ cm, longueur $l=53$ cm et $N=200$ spires. Établir la formule donnant l'inductance L de cette bobine en fonction de $\\mu_0$, r, l et N puis calculer sa valeur. (1pt)\n2. On réalise un circuit comportant en série la bobine (B), un conducteur ohmique $R=110\\,\\Omega$, un générateur idéal $E=6$ V et un interrupteur K.\n2.1 Donner les expressions des tensions $u_R(t)$ et $u_B(t)$ en fonction de R, r, L et $i(t)$. (0,5pt)\n2.2 Montrer que l'équation différentielle régissant l'évolution de l'intensité $i(t)$ s'écrit $\\dfrac{di(t)}{dt}+\\dfrac{\\alpha}{L}i(t)=\\dfrac{E}{L}$ et exprimer $\\alpha$ en fonction de R et r. (0,5pt)\n2.3 Sachant que l'équation admet une solution de la forme $i(t)=I_o(1-e^{-t/\\tau})$, montrer que $I_o=\\dfrac{E}{R+r}$ et $\\tau=\\dfrac{L}{R+r}$. (1pt)\n3. Exploitation de la courbe :\n3.1 Préciser, en le justifiant, si l'établissement du courant électrique est instantané. (0,5pt)\n3.2 Déterminer graphiquement les valeurs de $I_o$ et de $\\tau$. En déduire les valeurs de r et L. (1pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 5 (4,5pts)\nOn monte en série un résistor $R_1=10\\,\\Omega$, une bobine d'inductance $L=0{,}6$ H et de résistance R, et un condensateur de capacité C. On applique une tension alternative sinusoïdale $u(t)=U_m\\sin(2\\pi N t)$.\n1. À partir des courbes de l'oscilloscope :\n1.1 Déduire la fréquence $N_1$ de la tension d'alimentation. (0,75pt)\n1.2 Déduire les valeurs maximales $U_m$ et $U_{BMm}$ des tensions d'alimentation et aux bornes du résistor. (0,75pt)\n1.3 Déduire le déphasage $\\phi$ de la tension instantanée $u_{BM}(t)$ par rapport à la tension d'alimentation. (0,5pt)\n2. Déterminer l'intensité instantanée $i(t)$ du courant (valeur maximale, fréquence et phase). (0,75pt)\n3. Déterminer les valeurs de la résistance R et de la capacité C. (0,5pt)\n4. On ajuste la fréquence à une nouvelle valeur $N_2$.\n4.1 Montrer que dans ces conditions le circuit est en résonance d'intensité. Calculer alors l'intensité efficace $I_o$ du courant. (0,5pt)\n4.2 Déterminer la fréquence $N_2$ de la tension excitatrice. (0,5pt)\n4.3 Calculer le coefficient de surtension du circuit. (0,25pt)"
+  },
+  {
+    "id": "bac-c-2022-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "I est une interprétation schématique de la structure histologique d'une portion de testicule d'un mammifère pubère. 1- Légendez ce document. (1.5pt) 2- Expliquez le rôle de la cellule indiquée par la flèche 5 dans la spermatogenèse. (0.5pt) 3- L'injection d'une hormone hypophysaire X radioactive montre une radioactivité au niveau des cellules 2 et 5. Identifiez cette hormone et précisez son rôle. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "2 illustre l'évolution du taux plasmatique des hormones ovariennes chez une femme pendant une période allant du 1er au 28 janvier. 1- Analysez ces courbes afin d'identifier les hormones H1 et H2. (1pt) 2- Nommez la structure ovarienne qui caractérise chacun des temps T1, T2, T3 et T4 (1pt) 3- A partir de ce document, précisez en justifiant votre réponse: a- le jour de l'ovulation. (0.5pt) b- le premier jour de la menstruation. (0.5pt) 4- Schématisez l'évolution de l'endomètre dans l'intervalle [1erJ-18J]. (1pt) 5- Précisez les types de rétrocontrôles aux jours: 1, 10, 16 et 22 Janvier. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "1. Un solénoïde S de longueur $l=0{,}5$ m, de diamètre d et comportant $N=5000$ spires est parcouru par un courant d'intensité $I=8.10^{-2}$ A. Donner les caractéristiques du vecteur-champ magnétique $\\vec{B}$ du solénoïde S. ($\\mu_0=4\\pi.10^{-7}$ S.I.)\n2. À l'intérieur du solénoïde S, est placée une petite bobine S' de diamètre d' comportant N' spires. Les deux bobines ont le même axe horizontal x'x. Calculer la valeur du flux du champ magnétique $\\vec{B}$ à travers la bobine S'. (AN : $N'=400$ ; $d'=4$ cm.)\n3. Le solénoïde S est parcouru maintenant par un courant dont l'intensité i varie comme l'indique la courbe.\n3.1 Déterminer l'expression de l'intensité i en fonction du temps dans les intervalles [0 ; 4s], [4s ; 6s] et [6s ; 8s].\n3.2 Montrer que l'expression de la force électromotrice (f.e.m.) d'induction e qui apparaît dans la bobine peut s'écrire sous la forme $e=10^{-6}NN' \\frac{d'^2}{l} \\cdot \\frac{di}{dt}$.\n3.3 Calculer la force électromotrice induite dans les différents intervalles de temps."
+  },
+  {
+    "id": "bac-c-2023-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "I- Maitrise des connaissances (4pts)\nA- 1- Définir les notions suivantes: aquifère, nappe et nappe phréatique. 2- Citez les quatre unités hydrogéologiques de la Mauritanie."
+  },
+  {
+    "id": "bac-c-2023-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "ci-contre montre les caractéristiques d'un gisement de pétrole. Annotez-le en faisant correspondre chaque chiffre au mot ou expression convenable de la liste suivante: Roche couverture, Gisement, Anticlinal, Gaz, Roche réservoir, Eau, Pétrole, Roche mère.\nII-Compétences méthodologiques :"
+  },
+  {
+    "id": "bac-c-2023-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "1- Chez l'homme, la FSH stimule directement:\na- le développement des cellules de Leydig.\nb- le développement des tubes séminifères.\nc- la sécrétion de testostérone.\nd- le développement des vésicules séminales.\n2- Chez un homme normal, la sécrétion de FSH est:\na- inhibée par l'ABP.\nb- stimulée par la GnRH.\nc- inhibée par la testostérone.\nd- stimulée par l'inhibine.\n3- L'injection d'une dose de LH à un mâle pubère provoque:\na- une atrophie de ses gonades.\nb-une sécrétion accrue de testostérone.\nc- une augmentation de la fréquence des pulses de GnRH\nd- une inactivation des cellules de Leydig.\n4-Le spermatocyte II a le même nombre de chromosomes que:\na- l'ovogonie.\nb- l'ovocyte I.\nc- spermatocyte I\nd- le premier globule polaire.\n5- Parmi les cellules germinales, on peut citer:\na- les ovocytes I.\nb- les globules polaires.\nc- les cellules de Sertoli.\nd- les cellules interstitielles.\n6-Chez l'espèce humaine, le spermatozoïde et l'ovocyte II, ont:\na- la même quantité d'ADN.\nb- la même masse cytoplasmique.\nc- le même nombre de chromatides.\nd- le même nombre de chromosomes.\n\nII-Compétences méthodologiques :"
+  },
+  {
+    "id": "bac-c-2024-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "QROC (3pts)\n1- Quel est l'intérêt de la paléontologie dans la stratigraphie? Donner un exemple. (1.5pt)\n2- Définir le niveau piézométrique. Où se trouve-t-il dans les cas d'une nappe libre et captive? (1.5pt)"
+  },
+  {
+    "id": "bac-c-2004-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "Dans un plan horizontal deux rails conducteurs AA' et CC' rectilignes parallèles sont\ndistants de l=10cm. Le rail CC' est supposé en avant par rapport à AA'. Une tige MN\nen cuivre de masse m = 20g peut glisser sans frottement sur les rails en restant\nperpendiculaire à ces rails. Un aimant crée dans la zone des rails un champ magnétique B de valeur\nsupposée constante (voir fig2). Dans la suite on pourra négliger devant B le\nchamp magnétique crée par le circuit lui-même.\n1 A et C étant relié par un conducteur ohmique de résistance négligeable (voir fig2). 1.1 On déplace la tige à vitesse constante V= 8m/s .Déterminer l'intensité du courant dans le\ncircuit dont la résistance totale est R. Pour un sens déterminé de la vitesse préciser sur un schéma\nle sens du courant. A.N: B = 0,2T ; R = 16Ω(0.75pt)\n1.2Déterminer le sens et l'intensité de la force électromagnétiquef , calculer la puissance\ncorrespondante. (0,75pt) 2 On remplace le conducteur précèdent par un générateur (voir fig3). On néglige les effets d'induction.\n2.1 Quel doit être le sens de B pour que la tige MN se\ndéplace de A vers A'?(0,5pt) 2.2 Calculer et représenter la force électromagnétique agissant sur la tige si elle est traversée par un courant d'intensité\nI=10A. Déterminer la nature du mouvement de la tige et écrire son équation horaire.\n3 On dispose maintenant les rails verticalement (voir fig4). La tige est maintenue à une\nposition prise comme référence.\n3.1 Quelle est maintenant la direction et le sens de B pour que la\ntige MN s'élève lorsqu'elle est libérée à elle-même sachant qu'elle\nrestera en contact avec les rails au cours de son déplacement. (0,5pt)\n3.2 Déterminer la valeur minimale de l'intensité I pour que le\nmouvement puisse se produire.(0,75pt) 3.3 On fait maintenant passer dans la tige un courant d'intensité\n20A. Si l'aimant crée une zone de champ magnétique uniforme sur une hauteur h = 10cm en dehors de laquelle il est nul ;\ndéterminer la vitesse de la tige à la sortie du champ magnétique "
+  },
+  {
+    "id": "bac-c-2006-sc-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "Deux rails parallèles en cuivre sont inclinés d'un angle α sur l'horizontale. Une tige MN de\npoids P peut glisser sans frottement sur ces rails. Deux butées situées à la base des rails\nempêchent la tige de quitter le circuit.\nUn champ magnétique uniformeB orthogonal aux rails\net orienté vers le haut, dont le module reste constant,\ns'exerce entre les deux rails sur une zone de longueur d.\nUn générateur G impose un courant d'intensité I,\nconstante dans le circuit GMN.\n1 La tige est posée sans vitesse initiale sur les rails dans\nla zone d'action du champ magnétique.\nQuelle est la valeur de l'intensité I débitée par le générateur pour que la tige reste en\néquilibre? (0,5pt\n2 Maintenant La tige, lâchée sans vitesse initiale aux extrémités supérieures des rails,\ncommence à subir l'effet du champ magnétique après avoir glissé sur une distance D\nréglable par déplacement de l'aimant source du champ. L'intensité du courant étant\nsupposée indépendante de la position de la tige MN sur les rails vaut alors 20A.\n2.1 Exprimer la vitesse de la tige lorsqu'elle pénètre dans le champ.(0,5pt)\n2.2 Quelle est la valeur minimale de D pour que la tige traverse toute la zone d'action\ndu champ?\n3 On remplace le générateur par un conducteur ohmique et on rend l'angle nul.\nLe dispositif est totalement plongé dans le champ magnétique dont le vecteur reste\nperpendiculaire aux rails. La tige se déplace sur les rails avec une vitesse constante V\ntout en restant perpendiculaire aux rails.\n3.1 Indiquer sur le schéma, en le justifiant le\nsens du courant induit qui traverse la tige et\ncalculer sa valeur. (0,5pt)\n3.2 Déterminer les caractéristiques de la force\nélectromagnétique qui s'exerce sur la tige. A.N : Distance entre les rails l = 5cm ; α = 10° ;\nd=5cm pour la zone d'action du champ ; B = 0,02T ; Poids de la tige : P = 0,05N ;\nrésistance du circuit ; r=0, 2 Ω; Vitesse V = 2m/s"
+  },
+  {
+    "id": "bac-c-2007-sc-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "Une tige MN se déplace sans frottement, sur deux rails P1 et P2 rectilignes, horizontaux et\nparallèles, à la vitesse constante V . La distance séparant les rails\nest et la tige MN est perpendiculaire aux rails (voir figure).\nOn exerce une force = F Fi sur la tige. Le circuit formé des rails,\nde la tige et de la résistance R est placé dans un champ\nmagnétique uniforme vertical B d'intensité B = 0,4T.\n1. Expliquer pourquoi il apparaît un courant induit dans le\ncircuit. (0.75pt)\n2. Quel est le sens du courant induit circulant dans la tige ? (0,75pt)\nLe circuit est orienté dans le sens du courant induit, montrer que le flux du champ magnétique\nà travers la surface délimitée par le circuit s'écrit sous la forme : 0 Φ = Φ + at où a est une\nconstante que l'on déterminera. (1pt)\n3. En déduire la f.e.m induite e et l'intensité du courant (On néglige la\nrésistance des rails et de la tige devant R).\n4. Analyser les forces qui s'exercent sur la tige et en déduire l'intensité F de la force.\nOn donne R = 2Ω; V = 2m/s; l = 12cm."
+  },
+  {
+    "id": "bac-c-2010-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nDivisions cellulaires: (12pts)\nPour mettre en évidence le rôle de certains phénomènes biologiques dans, la transmission de l'information génétique au cours de la gamétogenèse on exploite les observations et expériences suivantes:\nLes figures du document 1 montrent quelques étapes de deux phénomènes biologiques (pour faciliter on a choisi deux paires de chromosomes autosomes)\n1- Quelles sont les phases représentées par les figures du document 1? En déduire le nom de chaque phénomène. (3pts)\n2- Représentez par un schéma la phase qui suit celle de la figure 2 document 1 puis comparez l'information génétique dans les deux cellules filles et expliquez les différences constatées (2pts)\nL'ADN est le constituant essentiel des chromosomes. Le document 2 montre l'évolution de la quantité d'ADN en fonction du temps dans une cellule mère de gamète au cours de la gamétogenèse.\n3- Identifiez les étapes A, B, C et D. (2pts)\n4- Attribuez chaque figure du document 1 à l'étape correspondante du document 2. (2pts)\n5- En vous appuyant sur les documents 1 et 2, complétez le tableau suivant. (3pts)\n\nGénétique :(8pts)\nLe croisement de souris à poils gris et uniformes avec des souris à poils blancs et panachés donne une génération F1 composée d'individus à poils gris et uniformes.\n\nQuelles conclusions pouvez-vous tirer de ces résultats ? (2pts)\nLe croisement des individus de F1 entre eux produit une génération F2 composée de :\n280 souris à poils gris et uniformes;\n95 souris à poils gris et panachés;\n90 souris à poils blancs et uniformes;\n31 souris à poils blancs et panachés.\n\nInterprétez ces résultats. (3.5pts)\nLe croisement des individus de F1 avec une souris à poils blancs et panachés donne:\n69 souris à poils gris et uniformes;\n71 souris à poils gris et panachés;\n73 souris à poils blancs et uniformes;\n75 souris à poils blancs et panachés.\n\nInterprétez ces résultats. (2.5pts)"
+  },
+  {
+    "id": "bac-c-2010-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "Génétique :(8pts)\nLe croisement de souris à poils gris et uniformes avec des souris à poils blancs et panachés donne une génération F1 composée d'individus à poils gris et uniformes.\n\nQuelles conclusions pouvez-vous tirer de ces résultats ? (2pts)\nLe croisement des individus de F1 entre eux produit une génération F2 composée de :\n280 souris à poils gris et uniformes;\n95 souris à poils gris et panachés;\n90 souris à poils blancs et uniformes;\n31 souris à poils blancs et panachés.\n\nInterprétez ces résultats. (3.5pts)\nLe croisement des individus de F1 avec une souris à poils blancs et panachés donne:\n69 souris à poils gris et uniformes;\n71 souris à poils gris et panachés;\n73 souris à poils blancs et uniformes;\n75 souris à poils blancs et panachés.\n\nInterprétez ces résultats. (2.5pts)"
+  },
+  {
+    "id": "bac-c-2011-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nReproduction: (7points)\nLe document 1 représente deux structures observables au cours de la fécondation chez l'espèce humaine.\n1- Identifiez les éléments désignés par les numéros 1, 2, 3, 4 et 5. (2.5pts).\n2- Nommez les cellules A et B. Justifiez votre réponse. (2pts)\n3- En vous basant sur les données du document et en faisant appel à vos connaissances citez les étapes qui se déroulent entre les deux structures. (2.5pts)\n\nPhysiologie nerveuse: (7pts)\nI- Une fibre nerveuse géante de calmar est placée selon le dispositif expérimental du document 2. Après avoir fait pénétrer la micro-électrode R1 à l'intérieur de la fibre, on porte sur celle-ci trois excitations séparées et dont l'intensité est respectivement S1, S2, S3. Les enregistrements obtenus sont représentés dans le document 3.\n1- Nommez les enregistrements a, b, c et d. (1pt)\n2- A quoi correspondent les temps: t0 et t1. (1pt)\n3- Déduisez à partir des enregistrements a, b, c et d, les propriétés de la fibre nerveuse (2pts)\nII- On utilise le dispositif expérimental du document 4. On applique sur la fibre nerveuse une excitation efficace et on recueille la réponse grâce à des micro-électrodes R1, R2, R3, R4 placées respectivement aux points A, B, C et D de la fibre.\n1- Analysez l'enregistrement obtenu en R1 (1pt)\n2- Calculez la vitesse V de la propagation du potentiel d'action au niveau de cette fibre sachant que la distance qui sépare les points A et B est de 3 mm. (1pt)\n3- Calculez la distance entre C et D. (1pt)\n\nGénétique: (6pts)\nLe pédigrée du document 6 représente la transmission d'une maladie héréditaire.\n1- L'allèle responsable de la maladie est-il dominant ou récessif? Justifiez (1pt)\n2- Déterminez si l'allèle responsable de la maladie est autosomal ou gonosomal? Justifiez (1pt)\n3- Une étude réalisée sur 200 enfants appartenant à une communauté isolée, a permis d'identifier 40 enfants hétérozygotes pour cette maladie. Donnez la proportion d'enfants hétérozygotes dans cette communauté. (1pt)\n4- "
+  },
+  {
+    "id": "bac-c-2011-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Physiologie nerveuse: (7pts)\nI- Une fibre nerveuse géante de calmar est placée selon le dispositif expérimental du document 2. Après avoir fait pénétrer la micro-électrode R1 à l'intérieur de la fibre, on porte sur celle-ci trois excitations séparées et dont l'intensité est respectivement S1, S2, S3. Les enregistrements obtenus sont représentés dans le document 3.\n1- Nommez les enregistrements a, b, c et d. (1pt)\n2- A quoi correspondent les temps: t0 et t1. (1pt)\n3- Déduisez à partir des enregistrements a, b, c et d, les propriétés de la fibre nerveuse (2pts)\nII- On utilise le dispositif expérimental du document 4. On applique sur la fibre nerveuse une excitation efficace et on recueille la réponse grâce à des micro-électrodes R1, R2, R3, R4 placées respectivement aux points A, B, C et D de la fibre.\n1- Analysez l'enregistrement obtenu en R1 (1pt)\n2- Calculez la vitesse V de la propagation du potentiel d'action au niveau de cette fibre sachant que la distance qui sépare les points A et B est de 3 mm. (1pt)\n3- Calculez la distance entre C et D. (1pt)"
+  },
+  {
+    "id": "bac-c-2011-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Génétique: (6pts)\nLe pédigrée du document 6 représente la transmission d'une maladie héréditaire.\n1- L'allèle responsable de la maladie est-il dominant ou récessif? Justifiez (1pt)\n2- Déterminez si l'allèle responsable de la maladie est autosomal ou gonosomal? Justifiez (1pt)\n3- Une étude réalisée sur 200 enfants appartenant à une communauté isolée, a permis d'identifier 40 enfants hétérozygotes pour cette maladie. Donnez la proportion d'enfants hétérozygotes dans cette communauté. (1pt)\n4- Quelle est la probabilité d'avoir un enfant atteint issu de deux parents normaux non apparentés. (1pt)\n5- Ecrire les génotypes des individus: A4, B2, B4 et C2 (2pts)\n\n\n\nBac C 2012 SN snconception d'un être humain nécessite de nombreuses étapes, parmi elles, celles indiquées sur le docunient (1) 1- Identifiez les étapes a, b et c. (1.5pt) granulosa les 2 théques 2- Classez les étapes , b'et selon l'ordre chronologique. (Ip 3- Précisez le(s) déterminisme(s) hormonal ou hormonaux d étapes bet c? (1.5pt) Pour remédier à certaines formes de stérilité, lou a recours à la FIVETE. Etape a Etape b document 1 Etipe c 4-Indiquez les cas de stérilité conduisant un couple à envisage cette méthode de conception. (1.5pt) Après l'étape c, le placenta se constitue afin d'assurer ie lien entre l'embryon et la mèrė. 5- Précisez le rôle du placenta. (1.5pt) Physiologic nerveuse (7pts) On iscic deux fibres de calmar reliées entre elles par une synapse (document 2). On les fait plonger dans un liquide physiologiqué approprić. Une stimulation efficace appliquée en $S_{1}S_{2}$ donne lieu aux enregistrements du document (3). St St électrodes stimulatrices $R_{4}$ clocirases enregistrousos dap en mv oncllographe a deux ours traco-1 (84) S axce présynаргиа surnulateur кские 2 S 20 race 2 (R) -40 -60 (dans Tou -70 De v -80 12 3 4 temps (ms) 5 axce posisynastique stimulaton document 2 document 3. -1- Analysez et comparez les deux enregistrements obtenus en $R_{1}$ et $R_{2}$ (1pt) 2- Quelle est la durée de "
+  },
+  {
+    "id": "bac-c-2011-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Génétique: (6pts)\nLe pédigrée du document 6 représente la transmission d'une maladie héréditaire.\n1- L'allèle responsable de la maladie est-il dominant ou récessif? Justifiez (1pt)\n2- Déterminez si l'allèle responsable de la maladie est autosomal ou gonosomal? Justifiez (1pt)\n3- Une étude réalisée sur 200 enfants appartenant à une communauté isolée, a permis d'identifier 40 enfants hétérozygotes pour cette maladie. Donnez la proportion d'enfants hétérozygotes dans cette communauté. (1pt)\n4- Quelle est la probabilité d'avoir un enfant atteint issu de deux parents normaux non apparentés. (1pt)\n5- Ecrire les génotypes des individus: A4, B2, B4 et C2 (2pts)\n\n\n\nBac C 2012 SN snconception d'un être humain nécessite de nombreuses étapes, parmi elles, celles indiquées sur le docunient (1) 1- Identifiez les étapes a, b et c. (1.5pt) granulosa les 2 théques 2- Classez les étapes , b'et selon l'ordre chronologique. (Ip 3- Précisez le(s) déterminisme(s) hormonal ou hormonaux d étapes bet c? (1.5pt) Pour remédier à certaines formes de stérilité, lou a recours à la FIVETE. Etape a Etape b document 1 Etipe c 4-Indiquez les cas de stérilité conduisant un couple à envisage cette méthode de conception. (1.5pt) Après l'étape c, le placenta se constitue afin d'assurer ie lien entre l'embryon et la mèrė. 5- Précisez le rôle du placenta. (1.5pt) Physiologic"
+  },
+  {
+    "id": "bac-c-2011-sn-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "nerveuse (7pts) On iscic deux fibres de calmar reliées entre elles par une synapse (document 2). On les fait plonger dans un liquide physiologiqué approprić. Une stimulation efficace appliquée en $S_{1}S_{2}$ donne lieu aux enregistrements du document (3). St St électrodes stimulatrices $R_{4}$ clocirases enregistrousos dap en mv oncllographe a deux ours traco-1 (84) S axce présynаргиа surnulateur кские 2 S 20 race 2 (R) -40 -60 (dans Tou -70 De v -80 12 3 4 temps (ms) 5 axce posisynastique stimulaton document 2 document 3. -1- Analysez et comparez les deux enregistrements obtenus en $R_{1}$ et $R_{2}$ (1pt) 2- Quelle est la durée de la propagation de l'influx nerveux entre $R_{1}$ et $R_{2}$ d'après l'enregistrement. (1pt) 3- Cette durée est-elle compatible avec la vitesse de l'influx nerveux mesurée sur une fibre pré ou postsynaptique et qu de $10~m/s?$ (on précise que la distance $R_{1}-R_{2}=1$ cm). Que déduisez-vous? (1pt) 4- Si Ja stimulation est portée sur la fibre postsynaptique, obtiendra-ton les mêmes tracés? Justifiez votre réponse. (1pt 5- Op'utilise une eau de iner sans $Ca^{H}$ à la place du liquide physiologique. Une stimulation de même intensité que cell utilisée lors de la première expérience ne donne que le tracé (1) du document (3). Que peut-on conclure? (1pt) 6-On injecte à l'aide d'une micropipette des ions $Ca^{H}$ dans la terminaison présynaptique. On obtient en l'absence de to stimulation le tracé (2) du document (3). Expliquez. (1pt) 7- En se basant sur vos connaissances résumez le mécanisme de la transmission synaptique. (1pt) Générique 6pts) Le document 4 représente l'arbre généalogique d'une famille dont certains membres sont atteints d'une ma neumologique. D'autres données permettent d'affiriner que le sujet $I_{2}$ est homozygote. 1-1. allèle de la maladie estil a récessif ou dominant? Justifiez vos réponses (lpi) byonosomal ou autosomal? Justifiez vos réponses. (1pt) 2-Ecrire la(s) génotype(s) des individus: $t_{2},$ $\\Pi_{1}$, $II_{1}"
+  },
+  {
+    "id": "bac-c-2011-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nReproduction: (7pts)\nLe document 1 représente le schéma des structures recueillies au niveau de la trompe d'une femme:\n1- Titrez et légendez les figures A et B du document 1. (2 pts)\n2- Qu'appelle-t-on ovulation? (1pt)\n3- Faites un schéma annoté du follicule qui est à l'origine directe de figure A. (1pt)\n4- Quel serait le devenir du follicule en question 2 (1.5pt)\n5- Précisez le nombre des chromosomes des éléments 1-2-3-4-5 de la figure B. (1.5pt)\n\nPhysiologie nerveuse: (6pts)\nL'expérience consiste à appliquer à plusieurs reprises une même excitation d'intensité suffisante et à recueillir la réponse de la fibre en insérant successivement la microélectrode R1 en des points de plus en plus éloignés du lieu de la stimulation (document 1), on obtient les enregistrements regroupés dans le document 3.\n\nTracez le graphique représentant la variation du délai entre la stimulation et le début de la réponse, en fonction de la distance. (2pts)\n\nQuel paramètre biologique peut-on calculer à partir de ce graphique? Quelle est sa valeur? (2pts)\n\nQue peut-on conclure en ce qui concerne la propagation de l'influx nerveux dans la fibre étudiée? (2pts)\n\nGénétique: (7pts)\nUn pied de tabic M est de phénotype [AB]. On étudie la descendance de ce pied M après fécondation par un pollen dont on ne connaissait pas le patrimoine génétique; on sait seulement qu'il provient dans sa totalité d'une plante N dont on ignore même phénotype. Cette descendance comprend: 235 individus [AB], 79 [Ab], 252 [aB] et 72 [ab].\n\nM et N sont-ils de race pure? (0.5pt)\n\nQuel est (ou quels peuvent être) le ou les génotypes de la plante M et de ses descendants de chaque phénotype? (1pt)\n\nOn considère uniquement le couple de caractères (A,a): Quels sont les pourcentages théoriques des individus de phénotype [A] et ceux des individus de phénotype [a]? (1pt)\n\nToujours pour ce couple de caractères (A, a), quels génotypes de M et de N expliqueraient cette répartition de descendance? (1pt)\n\nMêmes questions pour"
+  },
+  {
+    "id": "bac-c-2011-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Physiologie nerveuse: (6pts)\nL'expérience consiste à appliquer à plusieurs reprises une même excitation d'intensité suffisante et à recueillir la réponse de la fibre en insérant successivement la microélectrode R1 en des points de plus en plus éloignés du lieu de la stimulation (document 1), on obtient les enregistrements regroupés dans le document 3.\n\nTracez le graphique représentant la variation du délai entre la stimulation et le début de la réponse, en fonction de la distance. (2pts)\n\nQuel paramètre biologique peut-on calculer à partir de ce graphique? Quelle est sa valeur? (2pts)\n\nQue peut-on conclure en ce qui concerne la propagation de l'influx nerveux dans la fibre étudiée? (2pts)"
+  },
+  {
+    "id": "bac-c-2011-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Génétique: (7pts)\nUn pied de tabic M est de phénotype [AB]. On étudie la descendance de ce pied M après fécondation par un pollen dont on ne connaissait pas le patrimoine génétique; on sait seulement qu'il provient dans sa totalité d'une plante N dont on ignore même phénotype. Cette descendance comprend: 235 individus [AB], 79 [Ab], 252 [aB] et 72 [ab].\n\nM et N sont-ils de race pure? (0.5pt)\n\nQuel est (ou quels peuvent être) le ou les génotypes de la plante M et de ses descendants de chaque phénotype? (1pt)\n\nOn considère uniquement le couple de caractères (A,a): Quels sont les pourcentages théoriques des individus de phénotype [A] et ceux des individus de phénotype [a]? (1pt)\n\nToujours pour ce couple de caractères (A, a), quels génotypes de M et de N expliqueraient cette répartition de descendance? (1pt)\n\nMêmes questions pour le couples de caractères (B, b). (0.5pt)\n\nQuels genotypes proposez-vous maintenant pour les plantes M et N (1pt)\n\nQuels sont selon votre hypothèse les gamètes qu'elles pourraient produire ? (1pt)\n\nQue la descendance peut-on prévoir théorique? Cette hypothèse vous paraît-elle compatible avec les résultats expérimentaux? (1pt)"
+  },
+  {
+    "id": "bac-c-2012-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "conception d'un être humain nécessite de nombreuses étapes, parmi elles, celles indiquées sur le docunient (1) 1- Identifiez les étapes a, b et c. (1.5pt) granulosa les 2 théques 2- Classez les étapes , b'et selon l'ordre chronologique. (Ip 3- Précisez le(s) déterminisme(s) hormonal ou hormonaux d étapes bet c? (1.5pt) Pour remédier à certaines formes de stérilité, lou a recours à la FIVETE. Etape a Etape b document 1 Etipe c 4-Indiquez les cas de stérilité conduisant un couple à envisage cette méthode de conception. (1.5pt) Après l'étape c, le placenta se constitue afin d'assurer ie lien entre l'embryon et la mèrė. 5- Précisez le rôle du placenta. (1.5pt) Physiologic nerveuse (7pts) On iscic deux fibres de calmar reliées entre elles par une synapse (document 2). On les fait plonger dans un liquide physiologiqué approprić. Une stimulation efficace appliquée en $S_{1}S_{2}$ donne lieu aux enregistrements du document (3). St St électrodes stimulatrices $R_{4}$ clocirases enregistrousos dap en mv oncllographe a deux ours traco-1 (84) S axce présynаргиа surnulateur кские 2 S 20 race 2 (R) -40 -60 (dans Tou -70 De v -80 12 3 4 temps (ms) 5 axce posisynastique stimulaton document 2 document 3. -1- Analysez et comparez les deux enregistrements obtenus en $R_{1}$ et $R_{2}$ (1pt) 2- Quelle est la durée de la propagation de l'influx nerveux entre $R_{1}$ et $R_{2}$ d'après l'enregistrement. (1pt) 3- Cette durée est-elle compatible avec la vitesse de l'influx nerveux mesurée sur une fibre pré ou postsynaptique et qu de $10~m/s?$ (on précise que la distance $R_{1}-R_{2}=1$ cm). Que déduisez-vous? (1pt) 4- Si Ja stimulation est portée sur la fibre postsynaptique, obtiendra-ton les mêmes tracés? Justifiez votre réponse. (1pt 5- Op'utilise une eau de iner sans $Ca^{H}$ à la place du liquide physiologique. Une stimulation de même intensité que cell utilisée lors de la première expérience ne donne que le tracé (1) du document (3). Que peut-on conclure? (1pt) 6-On injecte à l'aide d"
+  },
+  {
+    "id": "bac-c-2012-sc-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "Deux rails parallèles ab et a’b’ distants de d = 10cm, inclinés par rapport à l’horizontale\nd’un angle α =20°. On relie les extrémités des rails aux bornes d’un générateur de f.e.m\nE=1,4V et de résistance interne r =1,8Ω (voir figure 1).\nOn branche dans le circuit, et en série avec le générateur un dipôle ohmique de\nrésistance R =0,2Ω . Le circuit est fermé par l’intermédiaire d’une tige MN en cuivre\nde résistance négligeable et de masse m=20g pouvant glisser\nsans frottement sur les rails. L’ensemble est plongé dans un\nchamp magnétique uniforme de vecteur vertical.\n1- Faites l’inventaire des forces qui s’exercent sur la tige.\n2 Déterminer le sens et la valeur du vecteur pour que la\ntige reste en équilibre.\n3 On enlève le générateur et on ferme de nouveau le circuit (voir fig 2).\nOn ramène la tige à la positon aa’ puis on l’abandonne sans vitesse initiale, elle\nparcourt une distance L avant de pénétrer dans une zone où règne un champ\nmagnétique avec une vitesse V0 = 2,8m.s-1.\n3.1 Quelle est l’intensité I0 du courant qui apparaît dans le\ncircuit à l’instant t = 0 ?(Instant à partir duquel la tige pénètre\ndans le champ magnétique ), indiquer sur un schéma le sens du courant et donner les caractéristiques de la force électromagnétique qui\ns’exerce sur la tige à cet instant. (1pt)\n3.2 Faites l’inventaire des forces qui s’exercent sur la tige à cet instant t = 0 en\nprécisant que et sont de sens contraire.\n3.3 La vitesse de la tige atteint une valeur limite V1 si la tige continue son mouvement dans\nle champ magnétique. Trouver l’intensité F1 de la force magnétique,la valeur du courant\ninduit I1 et la valeur de V1. On prendra g= 10 m.s-2\n."
+  },
+  {
+    "id": "bac-c-2015-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nA- Le document correspond à une coupe transversale d'un organe sexuel de mammifère. 1-Nommez les cellules a, b et c et préciser le rôle de chacune. 2-Identifiez les stades de division cellulaire correspondants aux cellules d, e et f. Schématiser les stades d et e. 3-Précisez les phases de la gamétogenèse illustrées par ce document. B- L'observation des ovaires d'une femelle A de mammifère montre la présence de 7 corps jaunes. 1-Ce chiffre peut-il être une indication précise sur le nombre de petits susceptibles d'être rencontrés dans la portée correspondante ? Discutez. 2-L'utérus d'une autre femelle B contient deux embryons de même sexe. Combien de corps jaunes peut-on trouver dans ses ovaires ? Justifiez votre réponse. 3-L'ablation de l'hypophyse pratiquée sur une femelle C provoque la disparition de quelques caractères sexuels. a-Quelle relation existe entre l'hypophyse et ces caractères ? b-Comment peut-on remédier expérimentalement aux symptômes observés chez cette femelle ? Physiologie nerveuse : On applique des excitations espacées d'intensités croissantes à une fibre du nerf sciatique. On enregistre les variations du potentiel d'action au niveau d'une électrode placée à la surface, l'autre étant neutre. On obtient les enregistrements du document 2. 1-Analysez le tracé l2. 2-Représentez ce tracé si l'électrode R1 est placée à l'intérieur de la fibre ? 3-Déduisez à partir de l'analyse des tracés du document une propriété de la fibre nerveuse. On remplace la fibre par un nerf et on applique des stimulations d'intensité croissante, on obtient les enregistrements du document 3. 4-Interprétez ces résultats. B- On réalise, sur un animal, la section S sur la racine antérieure, et on procède aux excitations E1, E2 et E3 du document 4. En vous appuyant sur vos connaissances : 1-Citez le rôle des racines. 2-Précisez pour chaque excitation quel(s) oscilloscope(s), enregistre(ront) un potentiel d'action. Génétique : Le document 5 représente l'arbre généalogique"
+  },
+  {
+    "id": "bac-c-2015-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2015,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nDocument : Le document représente une cellule effectrice du système immunitaire, observée au microscope électronique. Légender ce document. Préciser l'origine et le rôle de cette cellule. Montrer le lien qui existe entre l'ultrastructure de cette cellule et sa fonction. Génétique : On croise deux races de maïs : une à grains bleus et lisses, l'autre à grains jaunes et ridés. On obtient en F1 des plantes à grains tous lisses et violets. Que pouvez-vous déduire ? Les individus de la F1 croisés entre eux, quels sont les différents types de gamètes qu'ils produisent ? En établissant l'échiquier de croisement on vérifiera que six phénotypes différents sont obtenus, lesquels ? et dans quelles proportions ? Quelle est la proportion de grains bleus, de grains jaunes, de grains violets, de grains lisses et de grains ridés ? On croise entre eux, deux plantes issues des grains ridés et violets. Quelle sera, dans la population ainsi obtenue, la répartition statistique des caractères étudiés ? On croise une plante ayant des grains lisses et bleus avec une plante ayant des grains ridés et jaunes. On obtient des plantes ayant des grains tous lisses. Quelle est leur couleur ? Réaliser ce croisement."
+  },
+  {
+    "id": "bac-c-2016-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (4pts)\nOn croise deux lignées de drosophiles, l'une à corps gris et ailes longues, l'autre à corps noir et ailes vestigiales. Les hybrides de la F1 ont tous un phénotype corps gris, ailes longues.1-Définissez les mots génotype et phénotype. (0.5pt)2-Expliquez le résultat de ce croisement. (0.5pt)3-Le croisement de drosophiles femelles hybrides de la F1 avec des mâles doubles récessifs donne 17% de phénotypes nouveaux.a- Quels sont les phénotypes nouveaux obtenus? (0.5pt)b- Quelle est la proportion d'un gamète parental? (1pt)c- Nommez et représentez le phénomène à l'origine de l'apparition des phénotypes nouveaux. (0.5pt)d- Donnez les résultats de la F2. Justifiez par un échiquier de croisement. (1pt)"
+  },
+  {
+    "id": "bac-c-2016-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (6pts)\nLe pédigrée ci-contre est celui d'une famille dont certains membres sont atteints par une maladie oculaire.1-L'allèle de cette maladie est-il dominant ou récessif? (1pt)Un examen ophtalmologique est réalisé chez certains membres de cette famille. Le document 1 montre le fond de l'œil de différents sujets.[a] s'observe chez les sujets à vision normale[b] s'observe chez sujet à vision très diminuée[c] s'observe chez tous les sujets malades.2- Qu'apportent ces informations? (1pt)3- L'allèle responsable de la maladie est-il porté par X, Y ou par un autosome? (1pt)4-Des études médicales ont précisé que le fond [b] s'observe chez les hommes.a- Que déduisez-vous? (1pt)b- Donnez les génotypes des individus suivants I1, I2, II1 et III1, (1pt).Sachant que la fréquence des hybrides dans cette population est de 1/50.5- Quelle est la probabilité pour que le sujet :a- III1 soit un garçon atteint. (0.5pt)b- III2 soit atteint. (0.5pt)"
+  },
+  {
+    "id": "bac-c-2016-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (10pts)\nDe la puberté à la ménopause, la femme présente une activité sexuelle marquée par plusieurs changements (événements, structures....). Le tableau suivant indique les structures constatées dans l'ovaire et l'état de l'endomètre chez certaines femmes au cours de deux mois.1-Déduire l'état de chaque femme. (4pts)2-Expliquer l'état de la femme C. (1pt)3-Représenter arbitrairement l'évolution de la courbe de LH chez les femmes A, B et C au cours de ces deux mois. (1.5pt)4-La structure du document ci-contre marque la fin d'une phase du cycle ovarien.a- Titrer et légender cette structure. (2pts)b- Quel est l'effet de cette structure sur :les hormones hypophysaires ? (1pt)l'utérus? (0.5pt)"
+  },
+  {
+    "id": "bac-c-2016-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nReproduction : Madame X est enceinte, compte tenu de son âge, son médecin décide de faire pratiquer une amniocentèse, afin d'établir le caryotype de l'enfant à naître. Le liquide amniotique renferme des cellules fœtales qui seront placées, dans un milieu favorisant la division cellulaire après 70 heures, on ajoute de la colchicine. Deux heures plus tard, ces cellules sont transférées dans un milieu très hypotonique les chromosomes observés sont classés et photographiés (document 1). 1-Pourquoi le milieu de culture doit-il favoriser la division cellulaire ? 2-Justifier l'utilisation de la colchicine et du milieu hypotonique. 3-Quels critères utilise-t-on pour classer les chromosomes ? 4-Comment appelle-t-on deux chromosomes appartenant à la même paire ? Préciser leur origine. 5-Le généticien a découvert une anomalie dans ce caryotype. En quoi consiste-t-elle ? 6-Le gynécologue indique que le phénotype de l'enfant sera normal. Malgré son caryotype. Pourquoi ? 7-Madame X s'interroge sur les risques encourus par ses futurs petits-enfants. 7-1-En utilisant les numéros des chromosomes concernés par cette anomalie, donnez les différents types de gamètes que produira l'enfant de madame X. 7-2-Si le futur conjoint de l'enfant de madame X a un caryotype normal, montrez quels peuvent être les différents cas que l'on pourra rencontrer dans sa descendance. 7-3-Certains descendants seront avortés lesquels et dans quelles proportions ? Immunité : La figure du document 2 représente des opérations de greffe réalisées entre donneurs et receveurs. Le graphe du même document montre le taux de survie du greffon. 1-Nommez à l'aide des lettres chaque type de greffe ainsi réalisée. 2-faites une correspondance entre les lettres (A, B, C) et les courbes : I, II et III. 3-Analysez le graphe et interprétez ces différents % de survie. 4-Décrivez deux expériences réalisées chez l'animal (souris par exemple) pour montrer que le rejet observé en III est : a- Une réaction à médiation cel"
+  },
+  {
+    "id": "bac-c-2017-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "On considère chez la drosophile trois gènes: G1(A,a), G2(B,b) et G3(R,r). Pour représenter la carte factorielle qui correspond à ces 3 gènes, on réalise des test-cross.\n1- Précisez, pour les couples d'allèles (A, a) et (B, b), les génotypes des individus croisés et les proportions phénotypiques des descendants attendus, sachant que le pourcentage des individus [ab] obtenus est de 3%. (2pts)\n2-Précisez pour les couples d'allèles (B,b) et (R,r), les génotypes des individus croisés et les proportions phénotypiques des descendants attendus, sachant que le pourcentage des individus [br] obtenu est de 25%. (1.5pt)\n3- Réalisez la carte factorielle des trois gènes étudiés. (0.5pt)\n4-Le croisement de drosophiles femelles de phénotype [AB] avec des drosophiles mâles de même phénotype donne une génération composée de : 200 [AB], 102 [aB], 98 [Ab]. a- Ecrivez les génotypes des individus croisés. (1pt) b- Dressez l'échiquier correspondant à ce croisement. (1pt)"
+  },
+  {
+    "id": "bac-c-2017-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "A- Le document I est une interprétation schématique de la structure histologique d'une portion de testicule d'un mammifère pubère. 1- Légendez ce document. (1.5pt) 2- Expliquez le rôle de la cellule indiquée par la flèche 5 dans la spermatogenèse. (0.5pt) 3- L'injection d'une hormone hypophysaire X radioactive montre une radioactivité au niveau des cellules 2 et 5. Identifiez cette hormone et précisez son rôle. (1pt)\nB- Le document 2 illustre l'évolution du taux plasmatique des hormones ovariennes chez une femme pendant une période allant du 1er au 28 janvier. 1- Analysez ces courbes afin d'identifier les hormones H1 et H2. (1pt) 2- Nommez la structure ovarienne qui caractérise chacun des temps T1, T2, T3 et T4 (1pt) 3- A partir de ce document, précisez en justifiant votre réponse: a- le jour de l'ovulation. (0.5pt) b- le premier jour de la menstruation. (0.5pt) 4- Schématisez l'évolution de l'endomètre dans l'intervalle [1erJ-18J]. (1pt) 5- Précisez les types de rétrocontrôles aux jours: 1, 10, 16 et 22 Janvier. (1pt)"
+  },
+  {
+    "id": "bac-c-2017-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "On applique sur une terminaison nerveuse (document ci-contre) une série d'excitations croissantes puis on enregistre pour chaque excitation: -les amplitudes de dépolarisation en O1 -les amplitudes de dépolarisation en O2 -les fréquences des potentiels d'action en O2. Les résultats obtenus sont regroupés dans le tableau suivant : 1-Représentez la réponse obtenue en O2 suite aux stimulations I1 et I7. (1.5pt) 2-Identifiez le phénomène enregistré en O1 et déduire l'une de ses propriétés. (1.5pt) 3-Quelles propriétés du potentiel d'action et du message nerveux peut-on déduire des enregistrements en O2? (1.5pt) 4-Complétez la ligne 4 du tableau. (1.5pt)  \n\nBac C 2023 SN sn\n\nI- Maitrise des connaissances (4pts)\nA- 1- Définir les notions suivantes: aquifère, nappe et nappe phréatique. 2- Citez les quatre unités hydrogéologiques de la Mauritanie.\nB- Le document ci-contre montre les caractéristiques d'un gisement de pétrole. Annotez-le en faisant correspondre chaque chiffre au mot ou expression convenable de la liste suivante: Roche couverture, Gisement, Anticlinal, Gaz, Roche réservoir, Eau, Pétrole, Roche mère.\nII-Compétences méthodologiques :"
+  },
+  {
+    "id": "bac-c-2017-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Reproduction (8pts)On se propose d'étudier quelques aspects de l'activité sexuelle chez l'espèce humaine.A- Le document ci-contre représente quelques structures observées au cours du cycle ovarien.1- Donner un titre à chacune de ces structures et classez ćes figures dans l'ordre chronologique. (1pt)2-Légender la structure c. (1pt)Les structures précitées secrètent des hormones qui agissent à différents niveaux,3- Citer les hormones sécrétées par les structures a et c (préciséz à chaque fois les cellules sécrétrices). (1pt)4- Dresser un tableau résumant l'effet de ces hormonės sur l'hypophyse et l'utérus. (1pt)B- Certains cas de stérilité chez la femme sont liés à l'absence d'ovulation.On injecte à de telles femmes des extraits hypophysaires: on constate qu'il y a alors souvent ovulation.1-Quelle était, probablement, dans ces cas, la cause de l'absence d'ovulation $?(0.5pt)$2-Peut-on utiliser des extraits hypophysaires provenant d'individus de sexe masculin. Justifiez votre réponse.3-Alors que pour ces femmes l'ovulation exigeait des extraits hypophysaires, la grossesse peut se déroule apports nouveaux de ces mêmes extraits hypophysaires. Pourquoi? (1pt)En fait, pour soigner l'absence d'ovulation, on remplace couramment les extraits hypophysaires par des e placentaires.4-Pourquoi obtient-on les mêmes résultats?. (1pt)5-Dans la pratique, pourquoi choisit-on les extraits placentaires plutôt que les extraits hypophysaires? (1pt)Physiologie (6pts)On a excité deux fibres nerveuses de chats F et F' avec un courant d'intensité variable et on détermine pour chaque intensité utilisée le temps nécessaire.Les résultats sont consignés dans les tableaux suivants :Fibre F:Temps (ms) : 6, 7, 7.5, 8, 10, 13, 22, 40, 50Intensité (mA) : 15, 12, 9, 7, 6, 5, 4, 3, 3Fibre F':Temps (ms) : 8, 9, 10, 14, 12, 22, 16, 36, 42, 50Intensité (mA) : 14, 13, 10, 9, 7, 6, 5, 4, 3, 3Tracer sur un même graphique les courbes $I=f(t)$ et $i^{\\prime}=f(t^{\\prime}).$ (1pt)De ces deux fibres, laquelle para"
+  },
+  {
+    "id": "bac-c-2017-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Physiologie (6pts)On a excité deux fibres nerveuses de chats F et F' avec un courant d'intensité variable et on détermine pour chaque intensité utilisée le temps nécessaire.Les résultats sont consignés dans les tableaux suivants :Fibre F:Temps (ms) : 6, 7, 7.5, 8, 10, 13, 22, 40, 50Intensité (mA) : 15, 12, 9, 7, 6, 5, 4, 3, 3Fibre F':Temps (ms) : 8, 9, 10, 14, 12, 22, 16, 36, 42, 50Intensité (mA) : 14, 13, 10, 9, 7, 6, 5, 4, 3, 3Tracer sur un même graphique les courbes $I=f(t)$ et $i^{\\prime}=f(t^{\\prime}).$ (1pt)De ces deux fibres, laquelle paraît la plus excitable? Justifiez votre réponse. (1pt)Définir la rhéobase, le temps utile et la chronaxie. (1.5pt)Déterminer graphiquement chacun des paramètres précédents pour les deux fibres F et F'. (1pt).5-Ces résultats confirment ou infirment-ils votre réponse à la question 2? Justifiez votre réponse. (0.5pt)On excite chacune de ces structures nerveuses avec un courant électrique d'intensité 9 mA pendant ms; Qu'elle réponse obtient-on suite à cette excitation? Justifiez. (1pt)"
+  },
+  {
+    "id": "bac-c-2017-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Génétique (6pts)Chez une famille on réalise une électrophorèse des allèles (fragments d'ADN) du gène responsable d'une maladie Le résultats sont consignés dans le tableau suivant.Individus: $P_{1}, P_{2}, E_{1}, E_{2}, E_{3}$ADN A: +, +, +, +, +ADN B: +, +, +, +, +Phénotypes: Sain, Sain, ?, ?, ?1- Quel est l'allèle responsable de cette maladie? Pourquoi? (1pt)2- S'agit-il d'une maladie:a- récessive ou dominante? Justifiez (1pt)b- liée au sexe ou autosomale? Pourquoi? (1pt)3-Préciser les phénotypes des enfants $E_{1}$ $E_{2}$ (1pt)3-Donner les génotypes des parents $P_{1}$ $P_{2}$ et $E_{2}$ (1pt)4-Sachant que l'enfant $E_{3}$ est un garçon:a-Ecrire le génotype de E3. (0.5pt)b-Proposer une explication pour ce génotype. (0.5pt)"
+  },
+  {
+    "id": "bac-c-2018-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (8pts)Le document 1 représente les variations des taux sanguins de deux hormones (A et B) pendant le mois de Janvier 2018, chez une femme de 25 ans, à cycle sexuel régulier. La date du 1er janvier correspond au 1er jour de la menstruation.1- Identifier les hormones A et B. Justifier (1pt)2- Que signifie la variation de ces hormones? (1pt)3- Nommer les évènements: $E_{1}, E_{2}$ et $E_{3}$ (0.75pt)4- Représenter l'évolution de ces hormones pendant le mois de Décembre 2017. (1.5pt)5- Comment varie le taux de ces hormones après janvier 2018? (1pt)6-L'événement $E_{3}$ marque le début de la formation d'un organe X.a- De quel organe s'agit-il? (0.5pt)b- Citer l'effet de cet organe sur l'utérus et sur l'hypophyse. (1.25pt)7- Au terme de la grossesse, cette femme a mis au monde deux vrais jumeaux.a-Préciser le nombre d'organe X chez cette femme. (0.5pt)b-Donner la formule chromosomique de chaque enfant en précisant leurs chromosomes sexuels. (0.5pt)"
+  },
+  {
+    "id": "bac-c-2018-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (6pts)On réalise sur plusieurs grenouilles décérébrées des interventions successives afin de vérifier le sens de passage de l'influx nerveux au cours d'un acte réflexe simple: flexion de la patte postérieure. Ces interventions consistent à réaliser des sections soit en A, en B ou en C, soit à détruire partiellement la moelle épinière en D (document 2).Qu'est-ce qu'une grenouille décérébrée? (1pt)Dans chacune de ces interventions, le réflexe est-il maintenu? Pourquoi ? (2pts)Préciser quelle partie de quel neurone a été détruite lorsqu'on est intervenu en A, en B, en C et en D. (2pts)4- Représenter le circuit nerveux intervenant dans ce réflexe. (1pt)"
+  },
+  {
+    "id": "bac-c-2018-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (6pts)Afin d'étudier, chez une plante, le mode de transmission de deux caractères couleur de la fleur et longueur de la tige, on effectue deux croisements:-Le croisement d'une plante à fleurs rouges et tige courte avec une plante à fleurs jaunes et tige longue donne une génération $F_{1}$ formée de plantes à fleurs bicolores et tiges longues.1- Que pouvez-vous en déduire? (1pt)-Le croisement d'une plante de $F_{1}$ avec une plante à fleurs bicolores et tige courte donne une $F_{2}$:200 plantes à fleurs bicolores et tiges longues.200 plantes à fleurs bicolores et tiges courtes.160 plantes à fleurs rouges et tiges courtes.160 plantes à fleurs jaunes et tiges longues.40 plantes à fleurs rouges et tiges longues.40 plantes à fleurs jaunes et tiges courtes.2- Analysez ces résultats afin de préciser si les gènes sont liés ou indépendants. (1pt)3- Écrivez les génotypes des parents et des individus de la $F_{1}$. (1pt)4-Expliquez les résultats de la $F_{2}$ en réalisant l'échiquier de croisement. (2pts)5- Précisez la position relative des gènes. (1pt)Attention: Utilisez les symboles suivants: R/r Rouge; B/b Jaune; Longue = L/l; Courte = N/n\n\nBac C 2019 - Session complémentaire"
+  },
+  {
+    "id": "bac-c-2018-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (7pts)A- Le document ci-contre représente une paire d'autosomes dans une cellule germinale d'une drosophile femelle.-Schématisez les différents types de gamètes produits par cette mouche:a- En cas de brassage interchromosomique. (1pt)b- En cas de brassage intrachromosomique. (1pt).2-Quel mécanisme permet l'obtention d'un gamète ayant la combinaison allélique (ab)? Dans quelle proportion? (1pt)3. Donnez les résultats du croisement de cette femelle avec un mâle hétérozygote pour le gène (A, a) et homozygote récessif pour le gène (B, b). (1.25pt)B- Le pedigree suivant est celui d'une famille dont un garçon est atteint par une maladie héréditaire.-Discutez chacune des hypothèses suivantes: (1pts)Hypothèse 1: l'allèle de la maladie est récessif et autosomal.Hypothèse 2: l'allèle de la maladie est récessif et porté par un chromosome sexuel X.Hypothèse 3: l'allèle de la maladie est dominant et autosomal.Hypothèse 4: l'allèle de la maladie est dominant et porté par un chromosome sexuel X.Le résultat d'électrophorèse précise que les individus 1, 3 et 5 présentent chacun un seul type d' ADN.a- Que concluez-vous? (0.5pt)b- Ecrire les génotypes des individus 1.2.3.4 et 5. (1.25pt)"
+  },
+  {
+    "id": "bac-c-2018-sn-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (7pts)-L'urine constitue un milieu qui reflète de nombreuses activités endocrines car elle contient des substances provenant de la dégradation des hormones. Un dosage régulier de deux substances A et B dérivant d'hormones sexuelles dans les urines de Mme S, a permis de tracer les graphes du document 1.-En justifiant la réponse, identifiez les hormones qui sont à l'origine des substances A et B dosées dans les urines de Mme S. (1pt)-Comment expliquez-vous la disparition de la menstruation après celle observée au début des dosages? (1pt)En utilisant vos connaissances, expliquez l'évolution du taux de l'hormone à l'origine de substance B durant la période de dosage. Précisez l'origine et le déterminisme de sa sécrétion. (1pt)Le document 2 illustre une phase de la fécondation (figure a) et la nidation (figure b)-Légendez le document 2. (1pt)-Expliquez le mécanisme de la pénétration du spermatozoïde à l'intérieur de l'ovocyte II. (1pt)-Citez les transformations cytologiques et nucléaires qui se déroulent depuis la pénétration du spermatozoïde jusqu'à la phase illustrée par la figure a. (1pt)-Expliquez comment l'élément désigné par la flèche nº3 contribue au maintien de la grossesse. (1pt)"
+  },
+  {
+    "id": "bac-c-2018-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (6pts)On excite deux fibres A et B dans les mêmes conditions avec des courants dont l'intensité et la durée de passage sont indiqués dans le tableau ci-contre et correspondent aux valeurs limites efficaces.Définir: la rhéobase, la chronaxie et le temps utile. (0.75pt)Tracer les courbes d'excitabilité correspondant aux deux fibres. (1pt)Déterminer la valeur de la rhéobase, la chronaxie et le temps utile pour chaque fibre. (1.5pt)Comparer l'excitabilité des deux fibres. (0.5pt)On se propose d'étudier quelques propriétés de la fibre nerveuse par la réalisation des expériences suivantes:Expérience 1: Un axone de calmar est placé dans le dispositif expérimental représenté par le document 1. Au temps $t_{0,}$ on place $R_{1}$ à la surface de l'axone. Au temps $t_{1}$, on introduit $R_{1}$ à l'intérieur de l'axone. Au temps $t_{2}, t_{3}, t_{4}$ et $t_{5}$, on applique sur l'axone quatre stimulations isolées et d'intensités croissantes ( $R_{2}$ étant toujours introduite à l'intérieur de l'axone). Les enregistrements paraissant sur l'oscilloscope sont présentés sur le document 2.Expliquer l'enregistrement obtenu en (a) puis au temps $t_{1}$. (1pt)Analysez l'enregistrement (b) (1pt)-Comparez les enregistrements du document 2 et dégagez deux propriétés de la fibre nerveuse. (1.25pt)Expérience 2: A l'aide du montage schématisé dans le document 3, on applique une stimulation efficace sur la fibre et on enregistre les phénomènes électriques grâce à trois électrodes réceptrices $R_{A}$, $R_{B}$ et $R_{C}$ placées aux points A, B et C situés à des distances différentes des électrodes excitatrices. On donne les distances: $S_{2}-A=18mm$; $S_{2}-B=36mm$; $S_{2}-C=54mm$. Les enregistrements obtenus sont présentés par le document 4.Montrez que le message nerveux se propage le long de la fibre avec la même vitesse. (1pt)"
+  },
+  {
+    "id": "bac-c-2018-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (6pts)Le document ci-contre présente un schéma général qui montre les interactions hormonales entre différentes structures impliquées dans la fonction reproductrice humaine (chez l'homme et chez la femme).  Identifiez les hormones $H_{1}, H_{2}, H_{3}, H_{4}, H_{5}, H_{6}$ et $H_{7}$ (1.75pt)Nommez les organes $O_{1}, O_{2}$ et $O_{3}$ (0.75pt)Quel nom donnerez-vous aux cellules ou structures X, Y, Z et F? (1.5pt)Précisez les actions des hormones $H_{5}$ et $H_{7},$ sur l'hypophyse. (1pt)Précisez les effets des hormones $H_{5}$ et $H_{6}$ sur l'organe $O_{3}$ (1pt)"
+  },
+  {
+    "id": "bac-c-2018-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (6pts)L'arbre généalogique ci-contre est celui d'une famille dont certains sujets sont atteints d'une maladie héréditaire.Exploitez les données du pédigrée en vue de:1- préciser si l'allèle responsable de la maladie est dominant ou récessif. (0.5pt)2- déterminer s'il s'agit d'un cas d'hérédité autosomique ou liée au sexe (X ou Y)? (1.25pt)Afin de lever l'ambiguïté posée dans la 1ère question et de déterminer le génotype du fœtus $III_{5}$, on procède à la technique de l'électrophorèse. Les résultats obtenus pour le couple ($II_{1}$ et $II_{2}$) et leurs enfants sont donnés en désordre par le tableau.Exploitez ces données en vue de :a- préciser l'hypothèse confirmée. (1pt)b- préciser l'allèle normal et l'allèle muté parmi $a_{1}$ et $a_{2}$. (0.5pt)c- Faire correspondre les résultats A, B, C, D et E aux individus $II_{1}, II_{2}, III_{1}, III_{2}$ et $III_{5}$ en précisant le phénotype. (1.25pt)Calculez le risque pour que le fœtus $III_{5}$ soit malade? (0.5pt)Que devient ce risque si $III_{5}$ est:a-Un garçon? (0.5pt)"
+  },
+  {
+    "id": "bac-c-2019-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "(7pts)A- Le document ci-contre représente une paire d'autosomes dans une cellule germinale d'une drosophile femelle.-Schématisez les différents types de gamètes produits par cette mouche:a- En cas de brassage interchromosomique. (1pt)b- En cas de brassage intrachromosomique. (1pt).2-Quel mécanisme permet l'obtention d'un gamète ayant la combinaison allélique (ab)? Dans quelle proportion? (1pt)3. Donnez les résultats du croisement de cette femelle avec un mâle hétérozygote pour le gène (A, a) et homozygote récessif pour le gène (B, b). (1.25pt)B- Le pedigree suivant est celui d'une famille dont un garçon est atteint par une maladie héréditaire.-Discutez chacune des hypothèses suivantes: (1pts)Hypothèse 1: l'allèle de la maladie est récessif et autosomal.Hypothèse 2: l'allèle de la maladie est récessif et porté par un chromosome sexuel X.Hypothèse 3: l'allèle de la maladie est dominant et autosomal.Hypothèse 4: l'allèle de la maladie est dominant et porté par un chromosome sexuel X.Le résultat d'électrophorèse précise que les individus 1, 3 et 5 présentent chacun un seul type d' ADN.a- Que concluez-vous? (0.5pt)b- Ecrire les génotypes des individus 1.2.3.4 et 5. (1.25pt)Exercice 2 (7pts)-L'urine constitue un milieu qui reflète de nombreuses activités endocrines car elle contient des substances provenant de la dégradation des hormones. Un dosage régulier de deux substances A et B dérivant d'hormones sexuelles dans les urines de Mme S, a permis de tracer les graphes du document 1.-En justifiant la réponse, identifiez les hormones qui sont à l'origine des substances A et B dosées dans les urines de Mme S. (1pt)-Comment expliquez-vous la disparition de la menstruation après celle observée au début des dosages? (1pt)En utilisant vos connaissances, expliquez l'évolution du taux de l'hormone à l'origine de substance B durant la période de dosage. Précisez l'origine et le déterminisme de sa sécrétion. (1pt)Le document 2 illustre une phase de la fécondation (figure a) et la ni"
+  },
+  {
+    "id": "bac-c-2021-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nOn exerce sur le fuseau neuromusculaire des étirements d'intensités croissantes E1, E2, E3 et E4. Puis, on détermine: - l'amplitude des potentiels de récepteur au niveau du fuseau neuromusculaire; -l'amplitude des potentiels d'action au niveau d'une fibre sensitive; - la fréquence des potentiels d'action au niveau de la même fibre. Les résultats obtenus sont présentés par les tracés a, b et c du document 3. Analyser ces tracés en vue de dégager : 1- une propriété du potentiel de récepteur. (1pt) 2- une propriété du potentiel d'action. (1pt) 3- une propriété du message nerveux. (1pt) 4- le rôle du fuseau neuromusculaire. (1pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nAfin de déterminer le mode de transmission d'une maladie héréditaire remarquée chez une famille, on réalise chez des membres de cette famille une analyse de l'ADN correspondant au gène responsable de l'anomalie. Le tableau suivant représente les résultats obtenus. 1-Exploitez les données fournies par ce tableau en vue de : a- montrer que le gène en question n'est pas autosomal. (1pt) b- préciser la localisation de ce gène, (0.5pt) c-représenter le(s) pédigrée(s) de cette famille. (1.5pt) 2-La mère de P2 étant phénotypiquement saine : a- qu'apporte cette information? (1pt) b- que retenez-vous? (1pt) 3-Quelle chance a le fœtus d'être sain? (1pt) 4-Représentez le résultat de l'électrophorèse chez ce Fœtus. (1pt)"
+  },
+  {
+    "id": "bac-c-2021-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2021,
+    "filiere_id": "C",
+    "ennonce": "Afin de déterminer le mode de transmission d'une maladie héréditaire remarquée chez une famille, on réalise chez des membres de cette famille une analyse de l'ADN correspondant au gène responsable de l'anomalie. Le tableau suivant représente les résultats obtenus. 1-Exploitez les données fournies par ce tableau en vue de : a- montrer que le gène en question n'est pas autosomal. (1pt) b- préciser la localisation de ce gène, (0.5pt) c-représenter le(s) pédigrée(s) de cette famille. (1.5pt) 2-La mère de P2 étant phénotypiquement saine : a- qu'apporte cette information? (1pt) b- que retenez-vous? (1pt) 3-Quelle chance a le fœtus d'être sain? (1pt) 4-Représentez le résultat de l'électrophorèse chez ce Fœtus. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nOn considère chez la drosophile trois gènes: G1(A,a), G2(B,b) et G3(R,r). Pour représenter la carte factorielle qui correspond à ces 3 gènes, on réalise des test-cross.\n1- Précisez, pour les couples d'allèles (A, a) et (B, b), les génotypes des individus croisés et les proportions phénotypiques des descendants attendus, sachant que le pourcentage des individus [ab] obtenus est de 3%. (2pts)\n2-Précisez pour les couples d'allèles (B,b) et (R,r), les génotypes des individus croisés et les proportions phénotypiques des descendants attendus, sachant que le pourcentage des individus [br] obtenu est de 25%. (1.5pt)\n3- Réalisez la carte factorielle des trois gènes étudiés. (0.5pt)\n4-Le croisement de drosophiles femelles de phénotype [AB] avec des drosophiles mâles de même phénotype donne une génération composée de : 200 [AB], 102 [aB], 98 [Ab]. a- Ecrivez les génotypes des individus croisés. (1pt) b- Dressez l'échiquier correspondant à ce croisement. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nA- Le document I est une interprétation schématique de la structure histologique d'une portion de testicule d'un mammifère pubère. 1- Légendez ce document. (1.5pt) 2- Expliquez le rôle de la cellule indiquée par la flèche 5 dans la spermatogenèse. (0.5pt) 3- L'injection d'une hormone hypophysaire X radioactive montre une radioactivité au niveau des cellules 2 et 5. Identifiez cette hormone et précisez son rôle. (1pt)\nB- Le document 2 illustre l'évolution du taux plasmatique des hormones ovariennes chez une femme pendant une période allant du 1er au 28 janvier. 1- Analysez ces courbes afin d'identifier les hormones H1 et H2. (1pt) 2- Nommez la structure ovarienne qui caractérise chacun des temps T1, T2, T3 et T4 (1pt) 3- A partir de ce document, précisez en justifiant votre réponse: a- le jour de l'ovulation. (0.5pt) b- le premier jour de la menstruation. (0.5pt) 4- Schématisez l'évolution de l'endomètre dans l'intervalle [1erJ-18J]. (1pt) 5- Précisez les types de rétrocontrôles aux jours: 1, 10, 16 et 22 Janvier. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3\nOn applique sur une terminaison nerveuse (document ci-contre) une série d'excitations croissantes puis on enregistre pour chaque excitation: -les amplitudes de dépolarisation en O1 -les amplitudes de dépolarisation en O2 -les fréquences des potentiels d'action en O2. Les résultats obtenus sont regroupés dans le tableau suivant : 1-Représentez la réponse obtenue en O2 suite aux stimulations I1 et I7. (1.5pt) 2-Identifiez le phénomène enregistré en O1 et déduire l'une de ses propriétés. (1.5pt) 3-Quelles propriétés du potentiel d'action et du message nerveux peut-on déduire des enregistrements en O2? (1.5pt) 4-Complétez la ligne 4 du tableau. (1.5pt)"
+  },
+  {
+    "id": "bac-c-2022-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nA- Depuis la puberté jusqu'à la ménopause, les organes de l'appareil génital de la femme sont le siège de modifications cycliques et synchronisées. 1- Schématiser l'évolution des structures ovariennes que vous nommez au cours d'un cycle de 28 jours. (1pt) 2- Représenter graphiquement l'évolution parallèle du taux des hormones sécrétées par ces structures. (1pt) 3- Préciser l'effet des hormones ovariennes sur l'utérus (myomètre et endomètre) au cours du même cycle. (1pt) B- Le document ci-contre est un schéma de l'une des structures observées dans une coupe d'ovaire vers le 21ème jour du cycle sexuel. 1- Nommez cette structure et annotez-la. (1pt) 2- Expliquez le déterminisme hormonal de la formation de cette structure. (1pt) 3- Expliquez le devenir de cette structure. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3\nOn pratique sur une fibre nerveuse une stimulation S efficace et à l'aide d'un oscilloscope (le document 1) on enregistre les phénomènes électriques obtenus avant et après la stimulation (document 2). 1- a- Légendez le document 1. (1pt) b- Identifiez le phénomène enregistré suite à la stimulation S. (0.5pt) c- Nommez les phases de l'enregistrement désignées par les lettres A, B, C et D. (1pt) 2- Expliquez le mécanisme ionique à l'origine de chaque phase. (1.5pt) 3- Expliquez, schéma à l'appui, le mécanisme de la propagation de ce phénomène. (1pt) 4- Calculez la vitesse de propagation de l'influx nerveux le long de cette fibre, sachant que la distance entre le point de stimulation et l'électrode réceptrice est de 12mm. (1pt) B- Le document 3 présente le schéma d'un dispositif expérimental permettant d'enregistrer les phénomènes électriques au niveau d'un récepteur: le fuseau neuromusculaire. 1- Nommez les sites 1 et 2. (0.5pt) 2- Nommez les phénomènes électriques enregistrés au niveau des oscilloscopes O1 et O2 suite à un étirement d'intensité efficace du muscle M. (1pt) 3- Précisez le rôle du fuseau neuromusculaire. (0.5pt) 4- Représentez l'arc reflexe en ne considérant que la réponse du muscle M. (1pt)"
+  },
+  {
+    "id": "bac-c-2022-sc-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2022,
+    "filiere_id": "C",
+    "ennonce": "On place une tige en cuivre PP' de longueur $l=10$ cm et de masse $m_t=15$ g sur deux rails AB et A'B' conducteurs parallèles séparés par une distance $d=5$ cm. On relie les extrémités B et B' des rails à un générateur. On place le circuit dans un champ magnétique uniforme dont le vecteur $\\vec{B}$ reste vertical.\n1. Déterminer le sens de $\\vec{B}$ pour que la tige soit en équilibre. Exprimer alors l'intensité B du champ magnétique en fonction de l'intensité I du courant, de la masse m, de la distance d et de g. (1pt)\n2. On fait varier l'intensité du courant et on accroche chaque fois à l'extrémité du fil une masse marquée pour conserver l'équilibre. L'étude expérimentale a permis d'établir un tableau de valeurs.\n2.1 Représenter graphiquement $m=f(I)$ les variations de la masse en fonction de l'intensité I. (0,75pt)\n2.2 Trouver l'équation de la courbe. (0,75pt)\n2.3 En déduire l'intensité B du champ magnétique. (0,75pt)\n3. On décroche le fil de la tige et on donne à l'intensité du courant la valeur $I=15$ A. Pour conserver l'équilibre, on incline les rails d'un angle $\\alpha$ par rapport à l'horizontale. Calculer $\\alpha$. (0,75pt)"
+  },
+  {
+    "id": "bac-c-2023-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nA- On pratique sur une femme (pour des raisons médicales) une intervention chirurgicale. On constate, après analyse, une baisse brutale de la production des hormones ovariennes. 1- Quels sont les organes qui ont pu être enlevés au cours de l'opération? (0,5 pt) 2- Si on injecte à cette femme des hormones hypophysaires, la production normale d'hormones ovariennes reprend. a- Que pouvez-vous en déduire quant à l'organe enlevé ? (0.5pt) b- Précisez son rôle dans le cycle sexuel. (1pt)\nB- On suit la variation du taux plasmatique d'une hormone (H1) chez une femme normale du 16 Mars au 13 Avril dans le but d'étudier les transformations qui se déroulent dans l'utérus et l'ovaire au cours d'un cycle sexuel. Le document suivant représente la fluctuation du taux de (H1) chez cette femme. 1- Identifiez cette hormone. Justifiez votre réponse. (1pt) 2- Précisez la date d'ovulation. - du début de la menstruation. - du développement maximum du corps jaune. (0,75pt) 3- Précisez la durée du cycle sexuel chez cette femme. (0.5pt) 4- Représentez la variation du taux plasmatique de la deuxième hormone (H2) sécrétée par le même organe durant la même période. (0,75pt) 5- Représentez l'évolution de l'endomètre du 16 Mars au 10 Avril, sachant que la durée de la menstruation chez cette femme est de 4 jours. (1pt)"
+  },
+  {
+    "id": "bac-c-2023-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nUne fibre nerveuse géante de calmar est placée dans un milieu convenable. On porte sur la fibre des stimulations d'intensités croissantes. Une électrode réceptrice implantée au-dessous des électrodes stimulatrices détecte les variations de la ddp transmembranaire. Le document 1 montre l'évolution de l'amplitude du phénomène électrique enregistré en fonction de l'intensité de stimulation. 1- Représentez, à l'échelle, et nommez les phénomènes électriques correspondant aux intensités 1, 3 et 4. (1pt) 2- Analysez la courbe du document 1 en vue de déduire : a- les propriétés correspondant à chaque phénomène électrique. (1pt) b- la propriété de la fibre mise en évidence. (0.5pt) 3- Représentez le tracé obtenu à une distance de 10 cm suite à une stimulation d'intensité 6mA, sachant que la vitesse du phénomène électrique est de 40 m/s. Justifiez. (1.5pt)"
+  },
+  {
+    "id": "bac-c-2023-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3\nOn se propose d'étudier la transmission de deux couples d'allèles chez la drosophile (b+, b) et (n+, n). Le croisement d'un mâle [b+n+] avec une femelle [bn] donne une génération F1 formée de drosophiles [b+n+]. 1- Que peut on déduire ? (0,75pt) 2- Le croisement d'un mâle de la F1 avec une femelle [bn] donne les résultats suivants : 101 [b+n+], 99 [bn]. a- Nommez ce type de croisement et précisez son intérêt. (1pt) b- Que déduisez-vous des résultats de ce croisement? (0.5pt) c- Donnez les génotypes des parents et ceux de la F1 (0.75pt) 3- Le croisement de deux drosophiles de la F1 donne une génération F2 dont 22% de phénotype [bn]. a- Expliquez les résultats de ce croisement en justifiant votre réponse par un échiquier. (1pt) b- Calculez le % d'un gamète parental produit par la femelle de F1. Que déduisez-vous? (1pt) c-Donnez la répartition phénotypique de cette descendance sur un total de 2000 drosophiles. (1pt)"
+  },
+  {
+    "id": "bac-c-2023-sc-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nLe document 1 présente l'arbre généalogique d'une famille dont certains membres sont atteints d'une maladie héréditaire.\nLe document 2 présente le résultat de l'électrophorèse de l'ADN du gène responsable de la maladie, prélevé chez l'individu II4.\n1- Précisez lequel des deux allèles est responsable de la maladie. (0.5pt)\n2- Discutez les hypothèses suivantes: (2pt)\n\nhypothèse 1: l'allèle de la maladie est récessif autosomal,\nhypothèse 2: l'allèle de la maladie est récessif porté par le chromosome X\nhypothèse 3: l'allèle de la maladie est dominant autosomal.\n\nhypothèse 4: l'allèle de la maladie est dominant porté par le chromosome X\n3- Le tableau ci-contre présente les résultats de l'électrophorèse de l'ADN du même gène, prélevé chez les individus II4 et III.\na- qu'apportent ces informations? (0.5pt)\nb- donner les génotypes des individus: I1, I2, II1 et II3 en considérant les allèles A1 et A2. (1pt)\n4- La mère II3 est inquiète sur l'état de santé de son fœtus, son gynécologue lui prescrit l'analyse de son caryotype (document 3).\nA partir de l'exploitation du document 3 et en vous référant aux informations précédentes précisez :\na- le sexe du fœtus. (0.5pt)\nb-si ce caryotype confirme ou infirme l'inquiétude de la mère ? (0.5pt)"
+  },
+  {
+    "id": "bac-c-2023-sc-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nLe document 1 représente les variations de la température chez Madame X.\n1- Précisez la durée du cycle de cette femme. (1pt)\n2- Précisez la (ou les) date(s) approximative(s) de:\na- l'ovulation. (1pt)\nb- la menstruation. (0.5pt)\n3- Localisez la période pendant laquelle la fécondation est possible après rapport sexuel. (0.5pt)\n4- Mme X pense qu'un rapport sexuel le 9 Juin, ne sera pas suivi d'une fécondation.\nQuelques temps après ce rapport, elle se retrouve enceinte à sa grande surprise.\na- Nommez la méthode qu'utilisait Mme X. (0.5pt)\nb- Expliquer l'apparition de cette grossesse non désirée. (0.5pt)\nc- Citez une autre méthode qui aurait pu être plus efficace en précisant son mode d'action. (1pt)\n\nExercice (7 points)\nOn se propose d'étudier certains aspects du fonctionnement du neurone.\nPour ce faire, on a réalisé deux séries d'expériences en utilisant le montage expérimental illustré par le document 1.\nPremière série d'expériences :\nExpérience 1: excitation efficace E1 -> Résultat sur O2: ddp de 10mV\nExpérience 2: 2 excitations efficaces simultanées E1 et E2 -> Résultat sur O2: ddp de 5mV\n1- Analysez les résultats obtenus. (1pt)\n2- Que déduisez-vous concernant la nature des synapses T1-N2 et T2-N2. (1pt)\nDeuxième série d'expériences:\nExpérience 3: excitation efficace E3 -> Résultat sur O1: ddp de 15mV / Résultat sur O2: ?\nExpérience 4: 2 excitations efficaces simultanées E3 et E4 -> Résultat sur O1: ? / Résultat sur O2: ddp de -5mV\n3- Analysez les résultats obtenus en O1 suite à l'expérience 3 et en O2 suite à l'expérience 4. (1pt)\n4- Compléter le tableau en remplaçant les points d'interrogations par les ddp obtenues. (1pt)\n5- Préciser la nature des synapses T3-N1, T4-N1 et N1-N2. (1pt)\n6- Représentez le tracé qu'on pourrait enregistrer au niveau de l'oscilloscope O2 lorsqu'on porte des stimulations efficaces et simultanées sur les terminaisons axoniques T1, T2, T3 et T4.\nJustifiez votre réponse. (1pt)\n7- Expliquez, à partir de ces informations et de vos "
+  },
+  {
+    "id": "bac-c-2023-sc-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (5 points)\nLe document 1 représente les variations de la température chez Madame X.\n1- Précisez la durée du cycle de cette femme. (1pt)\n2- Précisez la (ou les) date(s) approximative(s) de:\na- l'ovulation. (1pt)\nb- la menstruation. (0.5pt)\n3- Localisez la période pendant laquelle la fécondation est possible après rapport sexuel. (0.5pt)\n4- Mme X pense qu'un rapport sexuel le 9 Juin, ne sera pas suivi d'une fécondation.\nQuelques temps après ce rapport, elle se retrouve enceinte à sa grande surprise.\na- Nommez la méthode qu'utilisait Mme X. (0.5pt)\nb- Expliquer l'apparition de cette grossesse non désirée. (0.5pt)\nc- Citez une autre méthode qui aurait pu être plus efficace en précisant son mode d'action. (1pt)"
+  },
+  {
+    "id": "bac-c-2023-sc-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2023,
+    "filiere_id": "C",
+    "ennonce": "Exercice (7 points)\nOn se propose d'étudier certains aspects du fonctionnement du neurone.\nPour ce faire, on a réalisé deux séries d'expériences en utilisant le montage expérimental illustré par le document 1.\nPremière série d'expériences :\nExpérience 1: excitation efficace E1 -> Résultat sur O2: ddp de 10mV\nExpérience 2: 2 excitations efficaces simultanées E1 et E2 -> Résultat sur O2: ddp de 5mV\n1- Analysez les résultats obtenus. (1pt)\n2- Que déduisez-vous concernant la nature des synapses T1-N2 et T2-N2. (1pt)\nDeuxième série d'expériences:\nExpérience 3: excitation efficace E3 -> Résultat sur O1: ddp de 15mV / Résultat sur O2: ?\nExpérience 4: 2 excitations efficaces simultanées E3 et E4 -> Résultat sur O1: ? / Résultat sur O2: ddp de -5mV\n3- Analysez les résultats obtenus en O1 suite à l'expérience 3 et en O2 suite à l'expérience 4. (1pt)\n4- Compléter le tableau en remplaçant les points d'interrogations par les ddp obtenues. (1pt)\n5- Préciser la nature des synapses T3-N1, T4-N1 et N1-N2. (1pt)\n6- Représentez le tracé qu'on pourrait enregistrer au niveau de l'oscilloscope O2 lorsqu'on porte des stimulations efficaces et simultanées sur les terminaisons axoniques T1, T2, T3 et T4.\nJustifiez votre réponse. (1pt)\n7- Expliquez, à partir de ces informations et de vos connaissances, les évènements qui se produisent entre les deux électrodes R1 et R2, à la suite des excitations efficaces et simultanées des terminaisons T3 et T4. (1pt)"
+  },
+  {
+    "id": "bac-c-2024-sn-svt-ex1",
+    "matiere_id": "svt",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1\nLe document ci-contre montre la variation des taux sanguins de trois hormones H1, H2 et H3 au cours d'une période d'un cycle sexuel normal chez une femme X.\n1- Identifier, en justifiant votre réponse, les trois hormones H1, H2 et H3 (0.75pt)\n2- En exploitant le document 1, préciser la nature et les moments des relations entre les sécrétions de ces différentes hormones au cours de cette période. (1.25pt)\nLe tableau 1 représente les résultats de dosage de l'hormone H1 chez une autre femme Y.\n3- Représentez la variation de H1 en fonction du temps. (0.5pt)\n4- Analyser le graphe obtenu et proposer, les hypothèses possibles qui expliquent la variation des sécrétions de H1 chez la femme Y, après le 18me jour. (1pt)\nLes résultats du dosage d'une autre substance S analogue de H1 chez Y sont consignés dans le tableau 2.\n5- Analyser ces résultats en vue de déduire l'état de cette femme. (1pt)\n6- Estimer à partir de quel jour du tableau 1 débute la sécrétion de la substance S. Justifiez votre réponse. (1pt)\n7- Précisez l'origine de cette substance. (0.5pt)"
+  },
+  {
+    "id": "bac-c-2024-sn-svt-ex2",
+    "matiere_id": "svt",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2\nOn croise des drosophiles qui diffèrent entre elles par deux caractères contrôlés par deux gènes: G1(a+/a); G2(b+/b). On obtient en F1 des drosophiles de phénotype [a+b+].\n1- Que déduisez-vous de ce résultat ? (0.5pt)\n2- Quels sont les phénotypes des races parentales? (1pt)\nLe croisement d'une femelle A de F1 avec un mâle B de phénotype récessif donne les résultats suivants : [ab]: 239 ; [ab]: 241 ; [a+b+]: 09 ; [ab]: 11.\n3- Précisez les génotypes de la génération parentale ainsi que celui des individus A et B. (0.5pt)\n4-Expliquez les résultats du croisement (A x B) (1pt)\n5- Sachant que suite à un autre croisement, le pourcentage de recombinaison entre le gène G1 et un autre gène G3 dont les allèles sont (n/n) est de 16%. Discutez l'emplacement relatif des trois gènes en dressant une carte factorielle. (1pt)\n6- Le croisement entre des individus de F1 a donné une génération formée de 240 drosophiles. Donnez en nombre la répartition phénotypique de cette descendance. (1pt)"
+  },
+  {
+    "id": "bac-c-2024-sn-svt-ex3",
+    "matiere_id": "svt",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3\nAfin d'étudier certains aspects de la transmission synaptique, on réalise les expériences suivantes à l'aide du dispositif expérimental du document 1.\n1- Expérience 1: on stimule la fibre F1 avec une intensité efficace (E1). Les résultats enregistrés par les oscilloscopes O1 et O3 figurent dans le tableau 1. Représenter l'enregistrement obtenu en O1 (0.75pt). Qu'obtient-on en O2? (0.5pt). Préciser la nature de chacune des synapses S1, S2 et S3 (0.75pt).\n2- Expérience 2: On injecte deux substances X et Y dans les fentes synaptiques de S1 et de S3. Les conditions expérimentales et les résultats figurent dans le tableau 2. a-Nommer les ddp obtenues en O1 et O3 (1pt). b-Que peut-on dire des substances X et Y? (1pt). c-Expliquer le mode d'action de ces substances. (1pt).\n3-Donner la succession des évènements depuis la stimulation E1 jusqu'à la réponse en O3. (1pt)"
+  },
+  {
+    "id": "bac-c-2024-sn-svt-ex4",
+    "matiere_id": "svt",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (6pts)\nAfin d'étudier certains aspects de la transmission synaptique, on réalise les expériences suivantes à l'aide du dispositif expérimental du document 1.\n1- Expérience 1: on stimule la fibre F1 avec une intensité efficace (E1). Les résultats enregistrés par les oscilloscopes O1 et O3 figurent dans le tableau 1. Représenter l'enregistrement obtenu en O1 (0.75pt). Qu'obtient-on en O2? (0.5pt). Préciser la nature de chacune des synapses S1, S2 et S3 (0.75pt).\n2- Expérience 2: On injecte deux substances X et Y dans les fentes synaptiques de S1 et de S3. Les conditions expérimentales et les résultats figurent dans le tableau 2. a-Nommer les ddp obtenues en O1 et O3 (1pt). b-Que peut-on dire des substances X et Y? (1pt). c-Expliquer le mode d'action de ces substances. (1pt).\n3-Donner la succession des évènements depuis la stimulation E1 jusqu'à la réponse en O3. (1pt)\n\nBaccalauréat 2025 - Session complémentaire (Série M) :"
+  },
+  {
+    "id": "bac-c-2024-sn-svt-ex5",
+    "matiere_id": "svt",
+    "annee": 2024,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5pts)\nOn se propose d'étudier le mode de transmission d'une maladie héréditaire chez une famille dont deux de ses membres sont atteints. Le document ci-contre présente l'arbre généalogique de cette famille. 1- En vous basant sur ce document, discutez les hypothèses suivantes: (1pts) Hypothèse 1: l'allèle responsable de la maladie est récessif autosomique. Hypothèse 2: l'allèle responsable de la maladie est récessif porté par X. Hypothèse 3: l'allèle responsable de la maladie est dominant autosomique. Hypothèse 4: l'allèle responsable de la maladie est dominant porté par X. 2- Des études réalisées sur l'ADN ont précisé que l'individu II2 présente deux types d'ADN alors que II1 et le fœtus présente chacun un seul type d'ADN. a- Que concluez-vous? (2pts) b- Précisez le sexe et le phénotype du fœtus f. (1pt) 3- Ecrire les génotypes des individus I2, II2, III1 et celui du fœtus. (1pt) NB Utilisez les symboles (M, m) pour l'allèle de la maladie et (N, n) pour l'allèle normal."
+  },
+  {
+    "id": "bac-d-2010-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nOn considère une fonction f dérivable sur son domaine de définition $D_{f}$ de dérivée $f^{\\prime}$ tableau de variation est donné ci-dessous.On nomme (C) la courbe représentative de la fonction f dans le plan muni d'un repère orthogonal (0; i, j).[Tableau de variation fourni dans l'énoncé]Pour chaque question, parmi les réponses proposées une seule réponse est exacteN∘ QuestionRéponse ARéponse BRéponse C1L'ensemble de définition de f est:$R\\backslash\\{-2\\}$$R\\backslash\\{-2,1\\}$2L'équation $f(x)=0$ admet dans $D_{f}$ exactement3 solutions2 solutions3La courbe (C) admet une asymptote d'équation$x=1$$x=-2$4La fonction f est une fonctionPaireImpaire5L'équation de la tangente à (C) au point d'abscisses $x_{0}=1$ est$x=1$$y=0$Recopie sur la feuille de réponse et complète le tableau ci-dessous. Aucune justification n'est demandée."
+  },
+  {
+    "id": "bac-d-2010-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4 points)\nPour tout nombre z on pose : $p(z)=z^{3}-z^{2}-4z-6$1°) a) Calculer $p(3)$b) Déterminer les réels a, b tels que pour tout z on a $p(z)=(z-3)(z^{2}+az+b)$c) Résoudre dans l'ensemble des nombres complexes l'équation $p(z)=0$2°) On considère dans le plan complexe muni d'un repère orthonormé (0; u, v) .les points A, B, C et D d'affixes respectifs $Z_{A}=3+2i$; $Z_{B}=-1+i$; $Z_{c}=-1-i$ et $Z_{D}=3$a) Placer les points A, B, C et D dans le repère $(0;\\vec{u},\\vec{v})$b) Comparer l'affixe du milieu de [AC] à celle du milieu de [BD]c) En déduire la nature du quadrilatère ABCDd) Déterminer et construire l'ensemble des points M d'affixes z telle que : $|z-3|=|z+1-i|$"
+  },
+  {
+    "id": "bac-d-2010-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (4 points)\nOn considère la suite numérique $(U_{n})$ définie pour tout entier $n\\ge1$ par : $U_{n}=\\frac{n^{2}+n+1}{n(n+1)}$1a) Calculer $u_{1}$, $u_{2}$ et $u_{3}$b) Justifier que la suite $(U_{n})$ n'est pas arithmétique, n'est pas géométrique; est convergente.2°) pour tout entier $n\\ge1$ on pose: $v_{n}=\\frac{n^{2}-1}{n}$a) Montrer que : $U_{n}=V_{n+1}-V_{n}$b) En déduire l'expression de la somme $S_{n}=U_{1}+U_{2}+\\cdot\\cdot\\cdot+U_{n}$ fonction de n3) Pour tout entier $n\\ge2$ on pose $w_{n}=ln~V_{n}$ et $S^{\\prime}_{n}=W_{2}+W_{3}+\\cdot\\cdot\\cdot+W_{n}$Démontrer que $S^{\\prime}_{n}=ln[\\frac{(n+1)!}{2n}]$"
+  },
+  {
+    "id": "bac-d-2010-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (9 points)\nOn considère la fonction numérique définie par $f(x)=x+2+e^{x}$ soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 1cm1a) Calculer les limites de $f(x)$ en $-\\infty$ et $+\\infty$b) Calculer $lim_{x\\rightarrow-\\infty}(f(x)-(x+2))$ et $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ et donner une interprétation graphique2) Dresser le tableau de variation de f3°) Montrer que f réalise une bijection de R sur un intervalle J que l'on déterminera4°) Montrer que l'équation $f(x)=0$ admet une unique solution $\\alpha$ puis vérifier que $-2,5 < \\alpha < -2$5°) Construire (C) et $(C^{\\prime})$ représentant respectivement la fonction f et sa réciproque $f^{-1}$ dans le repère (0;i,j)6a) Déterminer la primitive F de f qui vérifie $F(0)=0$b) Soit A($\\alpha$) l'aire du domaine plan limité par la courbe (C) l'axe des abscisses et les droites d'équations respectives $x=\\alpha$ et $x=0$. Calculer $A(\\alpha)$ en fonction de $\\alpha$. Montrer que $A(\\alpha)=\\frac{6-2\\alpha-\\alpha^{2}}{2}$7a) Déterminer une équation de la tangente (T) à (C) au point d'abscisse $x_{0}=\\alpha$b) Vérifier que $(f^{-1})^{\\prime}(0)=\\frac{-1}{\\alpha+1}$8) On considère la fonction g définie par $g(x)=ln(x+2+e^{x})$a) Déterminer l'ensemble de définition de gb) Dresser le tableau de variation de gc) Construire la courbe ( ) de g dans un nouveau repère orthonormé $(0;\\vec{u},\\vec{v}).$"
+  },
+  {
+    "id": "bac-d-2010-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\npour chaque question ci-après, une seule réponse est exacteN∘ QuestionRéponse ARéponse BRéponse C1$(U_{n})$ est une suite arithmétique de raison $r=3$ et telle que $U_{5}=17$ alors :$U_{10}=34$$U_{10}=32$2$(U_{n})$ est une suite arithmétique de raison $r=10$ et de premier terme $U_{0}=\\frac{11}{2}$ si $U_{0}+U_{1}+\\cdot\\cdot\\cdot.+U_{n}=2010$ alors :$n=19$$n=20$3Si $S_{n}=1+2+2^{2}+\\cdot\\cdot\\cdot.+2^{n}$ alors :$s_{n}=1-2^{n}$$s_{n}=2^{n+1}-1$4La suite de terme général $U_{n}=\\frac{(-1)^{n}}{(-1)^{n}+n^{2}}$Converge vers 1Ne converge pas5La suite de terme général $U_{n}=\\frac{10^{n}}{n!}$CroissanteDécroissante6Sooient $(U_{n})$ et $(V_{n})$ deux suite numériques telles que $U_{n}\\le V_{n}$$(U_{n})$ est bornée$(V_{n})$ est bornéeRecopie sur la feuille et complète le tableau suivant en choisissant la bonne réponse."
+  },
+  {
+    "id": "bac-d-2010-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (4 points)\nRésoudre dans C l'ensemble des nombres complexes l'équation: $z^{2}-4z+13=0$ et soient $z_{1}$ $z_{2}$ ses solutions telles que $I_{m}(z_{1})>0.$On considère dans le plan complexe les points A et B d'affixes respectives : $z_{A}=1+z_{1}$ et $Z_{B}=i+Z_{2}$a) Ecrire les nombres $Z_{A}$ et $Z_{B}$ forme algébrique et trigonométriqueb) Représenter dans le repère (0;1,j), les points A et B. Déterminer la nature du triangle OAB.c) Déterminer et placer le point C tel que le quadrilatère OACB soit un parallélogramme.d) Déterminer et construire l'ensemble des points M du plan d'affixe z tel que le complexe $\\frac{z-2+2i}{z-3-3i}$ soit imaginaire."
+  },
+  {
+    "id": "bac-d-2010-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6 points)\nOn considère la fonction f définie sur ]0, + $\\infty$[ par $f(x)=\\frac{1}{x}+ln~x$. Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 1cm.1a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$ et interpréter graphiquementb) Calculer $lim_{x\\rightarrow+\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}(f(x)-ln~x)$ et interpréter graphiquement2a) Calculer $f^{\\prime}(x)$ où f' est la dérivée de la fonction fb) Dresser le tableau de variation de f3a) Dresser le tableau de variation de ln : $(x\\rightarrow ln~x)$b) Tracer les courbes (C) et représentative de f et ln dans le repère( 0; i,j)4. Soit h la restriction de f sur $I=]1,+\\infty[$a) Montrer que h réalise une bijection de I sur un intervalle J que l'on déterminera.b) Soit C' la courbe de représentative de $h^{-1}$ dans le repère( $0;\\vec{i},\\vec{j}$). Etudier la position de (C') avec sa tangente au point d'abscisse $x_{0}=1$c) Construire $(C^{\\prime})$ repère( 0; i,j)5a) Calculer $A=\\int_{1}^{e}lnxdx$ (on pourra utiliser une intégration par parties)b) En déduire l'aire S du domaine plan limité par la courbe (C), l'axe des abscisse et les droites d'équations respectives $x=1$ et $x=e$"
+  },
+  {
+    "id": "bac-d-2010-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2010,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (7 points)\nOn considère la fonction numérique f définie par: $f(x)=\\frac{e^{x}}{e^{x}-1},$ Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 1cm1a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$ , $lim_{x\\rightarrow0^{-}}f(x)$ , $lim_{x\\rightarrow-\\infty}f(x)$ et $lim_{x\\rightarrow+\\infty}f(x)$b) En déduire que la courbe (C) possède trois asymptotes dont on donnera des équations2a) Calculer la dérivée de la fonction f et vérifier que pour tout x non nul : $f^{\\prime}(x)=-\\frac{f(x)}{e^{x}-1}$b) Dresser le tableau de variation de f3a) Montrer que la fonction g restriction de f sur $I=]0, +\\infty[$ réalise une bijection de I sur un intervalle J que l'on déterminera.b) Déterminer l'expression de la réciproque $g^{-1}$ de g4a) Montrer que la courbe (C) possède le point $(0,\\frac{1}{2})$ comme centre de symétrieb) Construire les courbes $(C)$ et $(C^{\\prime})$ représentatives des fonctions f et $g^{-1}$ dans le repère( 0; i, j)5a) Déterminer une primitive F de f sur $I=]0,+\\infty[$b) Soit n un entier naturel, $n\\ge1.$ l'aire du domaine plan limité par la courbe (C), l'axe des abscisses et les droites d'équations respectives $x=\\frac{1}{n}$ et $x=1$ calculer $U_{n}$ en fonction de nc) Calculer et interpréter graphiquement $lim_{n\\rightarrow+\\infty}U_{n}$"
+  },
+  {
+    "id": "bac-d-2011-sc-math-ex1",
+    "matiere_id": "math",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "Une usine fabrique une série de montres. Au cours de la fabrication peuvent apparaître deux types de défauts, désignés par a et b. On a constaté que 6% des montres fabriquées présentent le défaut a (et peut-être aussi le défaut b), 5% le défaut b (et peut-être aussi le défaut a) et 2% présentaient simultanément les défauts a et b. Une montre est tirée au hasard dans la production. On définit les évènements suivants : A: <<la montre tirée présente le défaut a>> ; B: <<la montre tirée présente le défaut b>> ; C: <<la montre tirée ne présente aucun des deux défauts>> ; D: <<la montre tirée présente un et un seul des deux défauts>>. Parmi les réponses proposées pour chaque question ci-après, une seule réponse est exacte. Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :N°QuestionRéponse ARéponse BRéponse C1La probabilité p(A) est:0.60.0662La probabilité p(C) est:0.910.890.873La probabilité p(D) est:0.050.070.984La probabilité $p_{B}(A)$ est:0.40.040.35La probabilité $P_{\\overline{A}}$(B) est:$\\frac{3}{96}$$\\frac{91}{94}$$\\frac{3}{94}$6La probabilité $p_{D}(A)$ est:$\\frac{3}{7}$$\\frac{4}{7}$$\\frac{0}{7}$"
+  },
+  {
+    "id": "bac-d-2011-sc-math-ex2",
+    "matiere_id": "math",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "Pour tout nombre complexe z on pose: $P(z)=z^{3}-10z^{2}+33z-34$.a) Calculer $P(2)$.b) Déterminer les réels a et b tels que pour tout z on a: $P(z)=(z-2)(z^{2}+az+b)$c) Résoudre, dans l'ensemble des nombres complexe, l'équation $P(z)=0$. On note $z_{0}$, $z_{1}$ et $z_{2}$ les solutions de (E) telles que $Im(z_{2})<Im(z_{0})<Im(z_{1})$.Le plan complexe est rapporté à un repère orthonormé direct $(0;\\vec{u},\\vec{v})$. Soient les points A, B et C d'affixes respectives: $z_{A}=z_{1}+3i$, $z_{B}=z_{2}+i$ et $z_{c}=6+2i$.a) Vérifier que $z_{A}=4+4i$ et $z_{B}=4$.b) Ecrire les nombres $z_{A}$, $z_{B}$ sous forme trigonométrique.c) Placer les points A, B et C dans le repère.Pour tout nombre $z\\ne4+4i$ on pose: $f(z)=\\frac{z-4}{z-4-4i}$a) Vérifier que $f(z_{C})=i$ et interpréter graphiquement.b) Déterminer et construire $\\Gamma_{1}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)|=1$.c) Déterminer et construire $\\Gamma_{2}$ l'ensemble des points M d'affixe z tel que $f(z)$ soit imaginaire pur.Pour tout entier naturel n, on pose $Z_{n}=(Z_{A})^{n}$ et soit $M_{n}$ le point d'affixe $Z_{n}$.a) Déterminer l'ensemble des entiers n pour lesquels le point $M_{n}$ appartient à l'axe des abscisses.b) Déterminer l'ensemble des entiers n pour lesquels on a $OM_{n}>2015$."
+  },
+  {
+    "id": "bac-d-2011-sc-math-ex3",
+    "matiere_id": "math",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "On considère la fonction f définie sur $[0;+\\infty[$ par: $\\begin{cases}f(x)=3x-3-2x~ln~x, x>0 \\\\ f(0)=-3\\end{cases}$Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 1cm.1.a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$. En déduire que f est continue à droite de $x_{0}=0$.b) Montrer que $lim_{x\\rightarrow0^{+}}\\frac{f(x)-f(0)}{x}=-\\infty$ et interpréter graphiquement.c) Montrer que $lim_{x\\rightarrow+\\infty}f(x)=-\\infty$.2.a) Calculer $f^{\\prime}(x)$ pour $x\\in]0;+\\infty[$ et vérifier que $f^{\\prime}(\\sqrt{e})=0$.b) Dresser le tableau de variation de la fonction f.3.a) Déterminer une équation de la tangente (T) à (C) au point A d'abscisse $x_{0}=1$.b) Montrer que (C) coupe l'axe des abscisses (Ox) en un point B autre que A dont l'abscisse $\\alpha$ est telle que: $2.3\\le\\alpha\\le2.4$.c) Déduire de ce qui précède le signe de $f(x)$ sur $[0;+\\infty[$.4) On considère la fonction g définie par: $\\begin{cases}g(x)=\\frac{1}{2}x^{2}-x^{2}ln~x; x>0 \\\\ g(0)=0\\end{cases}$a) Montrer que pour tout $x>0$, $f(x)=3x-3+g^{\\prime}(x)$.b) En déduire une primitive F de f sur $]0;+\\infty[$.5) Pour tout entier naturel $n\\ge1$ on pose: $U_{n}=\\int_{\\frac{1}{n}}^{1}f(x)dx$a) Montrer que la suite $(U_{n})$ est décroissante.b) Exprimer $U_{n}$ en fonction de n.c) Calculer $lim_{n\\rightarrow+\\infty}U_{n}$."
+  },
+  {
+    "id": "bac-d-2011-sc-math-ex4",
+    "matiere_id": "math",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": "On considère la fonction f définie sur R par $f(x)=(x-2)(1+e^{x})$. Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1.a) Justifier que $lim_{x\\rightarrow+\\infty}f(x)=+\\infty$. Calculer $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ et interpréter graphiquement.b) Calculer $lim_{x\\rightarrow-\\infty}(f(x)-(x-2))$ et en donner une interprétation graphique.2.a) Calculer la dérivée $f^{\\prime}(x)$ puis la dérivée seconde $f^{\\prime\\prime}(x)$.b) En déduire que la courbe (C) possède un point d'inflexion A dont on précisera les coordonnées.c) Dresser le tableau de variation de la dérivée $f^{\\prime}$. En déduire le signe de $f^{\\prime}(x)$ pour tout réel x.3.a) A l'aide des questions précédentes, dresser le tableau de variation de f.b) Montrer que f réalise une bijection de R sur un intervalle J que l'on déterminera. On désigne par (C') la courbe représentative de la réciproque $f^{-1}$ dans le repère $(0;\\vec{i},\\vec{j})$.4.a) Déterminer les points d'intersection de la courbe (C) avec les axes de coordonnées.b) Déterminer le point B de (C) où la tangente T à la courbe (C) est parallèle à l'asymptote (D). Donner une équation de T.c) Tracer (C), T, (D) et (C').d) Discuter graphiquement le nombre de solutions de l'équation $x-2=(2+m)e^{-x}$.5.a) Calculer l'intégrale $I=\\int_{0}^{2}(x-2-2e^{x})dx$.b) En utilisant une intégration par parties, calculer $J=\\int_{0}^{2}xe^{x}dx$.c) Calculer l'aire du domaine plan limité par la courbe (C), l'axe des abscisses, et les droites d'équations $x=0$ et $x=2$."
+  },
+  {
+    "id": "bac-d-2011-sc-math-ex5",
+    "matiere_id": "math",
+    "annee": 2011,
+    "filiere_id": "D",
+    "ennonce": ": (4 points)Pour tout entier naturel n, non nul, on définit sur R la fonction $g_{n}$ par $g_{n}(x)=x^{n}e^{-x}$.a) Calculer, suivant la parité de n, $lim_{x\\rightarrow-\\infty}\\frac{g_{n}(x)}{x}$ et $lim_{x\\rightarrow-\\infty}g_{n}(x)$.b) Calculer $lim_{x\\rightarrow+\\infty}g_{n}(x)$.a) Montrer que $\\forall n\\in\\mathbb{N}$, $g_{n}^{\\prime}(x)=(n-x)x^{n-1}e^{-x}$.b) Dresser le tableau de variation de $g_{n}$ selon la parité de n.On pose $I_{0}=\\int_{0}^{1}e^{-x}dx$ et $\\forall n\\in\\mathbb{N}$, $I_{n}=\\int_{0}^{1}g_{n}(x)dx$.a) Justifier que $I_{0}=1-\\frac{1}{e}$.b) A l'aide d'une intégration par parties, montrer que $\\forall n\\in\\mathbb{N}$, $I_{n+1}=(n+1)I_{n}-e^{-1}$.Montrer que $\\forall n\\in\\mathbb{N}$, $\\frac{1}{(n+1)e}\\le I_{n}\\le\\frac{1}{n+1}$ et en déduire la limite de la suite $(I_{n})$.$\\forall n\\in\\mathbb{N}$, on pose $u_{n}=\\frac{1}{n!}I_{n}$. Montrer que $\\forall n\\in\\mathbb{N}$, $u_{n+1}-u_{n}=-\\frac{e^{-1}}{(n+1)!}$ et en déduire que $e(1-u_{n})=\\sum_{k=0}^{n}\\frac{1}{k!}$"
+  },
+  {
+    "id": "bac-d-2015-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nUne usine fabrique une série de montres. Au cours de la fabrication peuvent apparaître deux types de défauts, désignés par a et b. On a constaté que 6% des montres fabriquées présentent le défaut a (et peut-être aussi le défaut b), 5% le défaut b (et peut-être aussi le défaut a) et 2% présentaient simultanément les défauts a et b. Une montre est tirée au hasard dans la production. On définit les évènements suivants : A: <<la montre tirée présente le défaut a>> ; B: <<la montre tirée présente le défaut b>> ; C: <<la montre tirée ne présente aucun des deux défauts>> ; D: <<la montre tirée présente un et un seul des deux défauts>>. Parmi les réponses proposées pour chaque question ci-après, une seule réponse est exacte. Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :N°QuestionRéponse ARéponse BRéponse C1La probabilité p(A) est:0.60.0662La probabilité p(C) est:0.910.890.873La probabilité p(D) est:0.050.070.984La probabilité $p_{B}(A)$ est:0.40.040.35La probabilité $P_{\\overline{A}}$(B) est:$\\frac{3}{96}$$\\frac{91}{94}$$\\frac{3}{94}$6La probabilité $p_{D}(A)$ est:$\\frac{3}{7}$$\\frac{4}{7}$$\\frac{0}{7}$"
+  },
+  {
+    "id": "bac-d-2015-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\nPour tout nombre complexe z on pose: $P(z)=z^{3}-10z^{2}+33z-34$.a) Calculer $P(2)$.b) Déterminer les réels a et b tels que pour tout z on a: $P(z)=(z-2)(z^{2}+az+b)$c) Résoudre, dans l'ensemble des nombres complexe, l'équation $P(z)=0$. On note $z_{0}$, $z_{1}$ et $z_{2}$ les solutions de (E) telles que $Im(z_{2})<Im(z_{0})<Im(z_{1})$.Le plan complexe est rapporté à un repère orthonormé direct $(0;\\vec{u},\\vec{v})$. Soient les points A, B et C d'affixes respectives: $z_{A}=z_{1}+3i$, $z_{B}=z_{2}+i$ et $z_{c}=6+2i$.a) Vérifier que $z_{A}=4+4i$ et $z_{B}=4$.b) Ecrire les nombres $z_{A}$, $z_{B}$ sous forme trigonométrique.c) Placer les points A, B et C dans le repère.Pour tout nombre $z\\ne4+4i$ on pose: $f(z)=\\frac{z-4}{z-4-4i}$a) Vérifier que $f(z_{C})=i$ et interpréter graphiquement.b) Déterminer et construire $\\Gamma_{1}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)|=1$.c) Déterminer et construire $\\Gamma_{2}$ l'ensemble des points M d'affixe z tel que $f(z)$ soit imaginaire pur.Pour tout entier naturel n, on pose $Z_{n}=(Z_{A})^{n}$ et soit $M_{n}$ le point d'affixe $Z_{n}$.a) Déterminer l'ensemble des entiers n pour lesquels le point $M_{n}$ appartient à l'axe des abscisses.b) Déterminer l'ensemble des entiers n pour lesquels on a $OM_{n}>2015$."
+  },
+  {
+    "id": "bac-d-2015-sn-math-ex3",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 3 (6 points)\nOn considère la fonction f définie sur $[0;+\\infty[$ par: $\\begin{cases}f(x)=3x-3-2x~ln~x, x>0 \\\\ f(0)=-3\\end{cases}$Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$ d'unité 1cm.1.a) Calculer $lim_{x\\rightarrow0^{+}}f(x)$. En déduire que f est continue à droite de $x_{0}=0$.b) Montrer que $lim_{x\\rightarrow0^{+}}\\frac{f(x)-f(0)}{x}=-\\infty$ et interpréter graphiquement.c) Montrer que $lim_{x\\rightarrow+\\infty}f(x)=-\\infty$.2.a) Calculer $f^{\\prime}(x)$ pour $x\\in]0;+\\infty[$ et vérifier que $f^{\\prime}(\\sqrt{e})=0$.b) Dresser le tableau de variation de la fonction f.3.a) Déterminer une équation de la tangente (T) à (C) au point A d'abscisse $x_{0}=1$.b) Montrer que (C) coupe l'axe des abscisses (Ox) en un point B autre que A dont l'abscisse $\\alpha$ est telle que: $2.3\\le\\alpha\\le2.4$.c) Déduire de ce qui précède le signe de $f(x)$ sur $[0;+\\infty[$.4) On considère la fonction g définie par: $\\begin{cases}g(x)=\\frac{1}{2}x^{2}-x^{2}ln~x; x>0 \\\\ g(0)=0\\end{cases}$a) Montrer que pour tout $x>0$, $f(x)=3x-3+g^{\\prime}(x)$.b) En déduire une primitive F de f sur $]0;+\\infty[$.5) Pour tout entier naturel $n\\ge1$ on pose: $U_{n}=\\int_{\\frac{1}{n}}^{1}f(x)dx$a) Montrer que la suite $(U_{n})$ est décroissante.b) Exprimer $U_{n}$ en fonction de n.c) Calculer $lim_{n\\rightarrow+\\infty}U_{n}$."
+  },
+  {
+    "id": "bac-d-2015-sn-math-ex4",
+    "matiere_id": "math",
+    "annee": 2015,
+    "filiere_id": "D",
+    "ennonce": "Exercice 4 (6 points)\nOn considère la fonction f définie sur R par $f(x)=(x-2)(1+e^{x})$. Soit (C) sa courbe représentative dans un repère orthonormé $(0;\\vec{i},\\vec{j})$.1.a) Justifier que $lim_{x\\rightarrow+\\infty}f(x)=+\\infty$. Calculer $lim_{x\\rightarrow+\\infty}\\frac{f(x)}{x}$ et interpréter graphiquement.b) Calculer $lim_{x\\rightarrow-\\infty}(f(x)-(x-2))$ et en donner une interprétation graphique.2.a) Calculer la dérivée $f^{\\prime}(x)$ puis la dérivée seconde $f^{\\prime\\prime}(x)$.b) En déduire que la courbe (C) possède un point d'inflexion A dont on précisera les coordonnées.c) Dresser le tableau de variation de la dérivée $f^{\\prime}$. En déduire le signe de $f^{\\prime}(x)$ pour tout réel x.3.a) A l'aide des questions précédentes, dresser le tableau de variation de f.b) Montrer que f réalise une bijection de R sur un intervalle J que l'on déterminera. On désigne par (C') la courbe représentative de la réciproque $f^{-1}$ dans le repère $(0;\\vec{i},\\vec{j})$.4.a) Déterminer les points d'intersection de la courbe (C) avec les axes de coordonnées.b) Déterminer le point B de (C) où la tangente T à la courbe (C) est parallèle à l'asymptote (D). Donner une équation de T.c) Tracer (C), T, (D) et (C').d) Discuter graphiquement le nombre de solutions de l'équation $x-2=(2+m)e^{-x}$.5.a) Calculer l'intégrale $I=\\int_{0}^{2}(x-2-2e^{x})dx$.b) En utilisant une intégration par parties, calculer $J=\\int_{0}^{2}xe^{x}dx$.c) Calculer l'aire du domaine plan limité par la courbe (C), l'axe des abscisses, et les droites d'équations $x=0$ et $x=2$."
+  },
+  {
+    "id": "bac-d-2016-sn-math-ex1",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 1 (3 points)\nDes études statistiques sur les examens de fin d'année universitaire ont montré que : 10% d'une population estudiantine donnée possède un ordinateur. La probabilité qu'un étudiant possédant un ordinateur réussisse est de 0,8. La probabilité qu'un étudiant ne possédant pas un ordinateur réussisse est de 0,3. On choisit au hasard un étudiant dans cette population. On note M l'évènement <<l'étudiant choisi possède un ordinateur>> et R l'évènement <<l'étudiant choisi réussit>>. Parmi les réponses proposées pour chaque question ci-après, une seule est exacte. Recopie sur la feuille de réponse et complète le tableau ci-contre en choisissant la bonne réponse. Aucune justification n'est demandée :N°QuestionRéponse ARéponse BRéponse C1La probabilité $p(M)$ est:0.60.90.12La probabilité $p_{M}(R)$ est:0.80.90.73La probabilité $p(M\\cap R)$ est:0.090.080.074La probabilité $p(M\\cap R)$ est:0.270.290.315La probabilité $p(R)$ est:0.250.350.456La probabilité $p_{R}(M)$ est:$\\frac{13}{35}$$\\frac{11}{35}$$\\frac{8}{35}$"
+  },
+  {
+    "id": "bac-d-2016-sn-math-ex2",
+    "matiere_id": "math",
+    "annee": 2016,
+    "filiere_id": "D",
+    "ennonce": "Exercice 2 (5 points)\nPour tout nombre complexe z on pose: $P(z)=z^{3}-7z^{2}+19z-13$.a) Calculer $P(1)$.b) Déterminer les réels a et b tels que pour tout z on a: $P(z)=(z-1)(z^{2}+az+b)$.c) Résoudre, dans l'ensemble des nombres complexe, l'équation $P(z)=0$. On note $z_{0}$, $z_{1}$ et $z_{2}$ les solutions de (E) telles que: $Im(z_{1})<Im(z_{0})<Im(z_{2})$.Le plan complexe est rapporté à un repère orthonormé direct $(0;\\vec{u},\\vec{v})$. Soient les points A, B et C d'affixes respectives: $z_{A}=1$, $z_{B}=z_{1}-i$ et $z_{C}=z_{2}+1$.a) Vérifier que $z_{B}=3-3i$ et que $z_{C}=4+2i$ puis placer les points A, B et C dans le repère $(0;\\vec{u},\\vec{v})$.b) Déterminer la nature du triangle ABC.c) Déterminer l'affixe $z_{D}$ du point D tel que ABDC soit un parallélogramme.Pour tout nombre $z\\ne3-3i$; on pose: $f(z)=\\frac{z-4-2i}{z-3+3i}$a) Vérifier que $f(z_{D})=-i$ et interpréter graphiquement.b) Déterminer et construire $\\Gamma_{1}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)|=1$.c) Déterminer et construire $\\Gamma_{2}$ l'ensemble des points M d'affixe z tel que $f(z)$ soit imaginaire pur.d) Déterminer et construire $\\Gamma_{3}$ l'ensemble des points M du plan d'affixe z tel que $|f(z)-1|=\\sqrt{2}$.e) Vérifier que les trois ensembles $\\Gamma_{1}$, $\\Gamma_{2}$ et $\\Gamma_{3}$ passent par les points A et D."
+  }
+]

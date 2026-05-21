@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bac-c-2003-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "On considère un plateau P de masse m = 500g fixée à l’extrémité supérieure d’un\nressort constamment vertical de raideur K=50N/m et dont l’autre extrémité est fixée\nau sol(voir fig1).\n1 Préciser l'état du ressort quand le système est à l'équilibre.\n2 On tire le plateau vers le bas de 2 cm et on l'abandonne avec\nvitesse initiale v0 = 0,2m/s. Déterminer l'équation différentielle\ndu mouvement du plateau et en déduire l'équation\nhoraire de son mouvement. (1pt)\n3 On immobilise le plateau à nouveau. A partir\nd'une hauteur h au-dessus du plateau on laisse\ntomber un solide S de masse M = 1kg sans\nvitesse initiale. Le solide arrive sur le plateau et s'y encastre\n(voir fig 2)\n3.1 Déterminer la vitesse du solide S juste avant le choc si h=10cm. p\n3.2 Donner l'expression de l'énergie mécanique du système (plateau, solide S, ressort,\nterre) quand le solide est à une position z quelconque. p\n3.3 Ce système étant conservatif ; calculer alors la valeur de son énergie mécanique\ntotale si la vitesse juste après le choc est v = 0,94 m/s. p\n3.4 Déduire de ce qui précède les positions limites atteintes par le plateau. p\n3.5 Déterminer pour une position quelconque z l'accélération de ce système."
+  },
+  {
+    "id": "bac-c-2003-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "Dans cet exercice le mouvement des ions se fait dans le vide et on néglige leur poids\ndevant celui des Autres forces. On utilise le spectrographe de masse de la fig 3 pour\nséparer les isotopes 79Br et 81Br\n1 Les atomes sont d'abord ionisés dans\nla chambre d'ionisation 1. Les ions\nformés portent alors la même charge\nq = -e et sortent de cette chambre en\nun point O1 avec une vitesse de valeur\nnégligeable. Puis ils sont accélérés\ndans la chambre d'accélération 2 par la\ntension U = VP1-VP2 appliquée entre\nles deux plaques P1 et P2 et arrivent en\nO2 avec des vitesses de même direction et de même sens mais ayant des valeurs\ndifférentes.\nAfin de sélectionner une seule vitesse 0 V en O, on impose aux ions, dans le filtre de\nvitesse (chambre 3) un champ magnétique B et un champ électrique E comme\nl'indique la figure 3\n1.1 Montrer que l'énergie cinétique est la même pour touts les ions en O2.\n1.2 Déterminer le sens de E pour que la force Fe, électrique, soit opposée à la force\nmagnétiqueFm . p\nMontrer que la vitesse V0 au point O est indépendante de la charge électrique q.\nCalculer V0 si E = 2.103 v/m et B = 0,05T.\n2 Les ions ainsi sélectionnés arrivent théoriquement avec la vitesse 0 V dans la\nchambre 4 de déviation où ils sont soumis uniquement au champ magnétique\nprécédent.\n2.1 Préciser le sens du vecteur B pour que les ions parviennent en A1 et A2 ;\n2.2 Montrer que le mouvement des ions dans cette chambre est circulaire et uniforme.\nEn déduire l'expression des rayons R1etR2 des trajectoires en fonction de e, V0, B et m1\nou m2.\n2.3 Calculer la distance entre les points A1 et A2. On précisera à quel ion correspond\nchaque point. (0,75 pt)\nOn donne : e= 1,6.10-19C ; mp= mn=1,6.10-27kg"
+  },
+  {
+    "id": "bac-c-2003-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2003,
+    "filiere_id": "C",
+    "ennonce": "Une corde sans raideur parfaitement élastique est attachée par son extrémité A à un\ndiapason D animé d'un mouvement sinusoïdal transversal de fréquence N=100Hz et\nd'amplitude a = 1mm. La corde est tendue à l'aide d'un poids immergé dans l'eau pour\néviter tout phénomène de réflexion. La célérité des ondes est V = 20m/s.\n1. L'origine des abscisses étant l'extrémité A de la corde, l'origine des temps étant\nprise quand A passe par sa position d'équilibre avec une vitesse positive. Donner\nl'expression de l'élongation y d'un point M de la corde d'abscisse x à l'instant t en\nfonction de a, N, t, x et de la longueur d'onde λ .\nCalculer les élongations y1 et y2 du point M d'abscisse x = 15cm respectivement aux\ninstants : t1 = 0,01s et t2 = 0,015s. (1pt)\n2 On éclaire la corde en lumière stroboscopique :\n2.1 Quelles sont les valeurs de la fréquence Ne des éclairs si l'on veut observer une\ncorde apparemment immobile ? On précise que Ne > 20Hz. (1pt)\n2.2 Décrire ce que l'on observe lorsque Ne = 99hz. On donnera le sens du mouvement\napparent ainsi que la valeur de sa vitesse va. (1pt)\n3 On remplace la corde précédente par une fourche. Les deux points O1 et O2 de la\nfourche distantes de d = 12cm trempent légèrement à la surface de l'eau.\nEtablir l'équation du mouvement d'un point M situé à d1 de O1 et de d2 de O2 si on\nconsidère que: 1 2 O O y y acos t= = ω .\nDéterminer le nombre de points immobiles sachant que la célérité de propagation des\nondes dans l'eau est V = 10m/s"
+  },
+  {
+    "id": "bac-c-2004-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "On réalise la réaction d'oxydoréduction entre les couples redox suivants : I2/l- et\n2 8 2 2\n4 S O / SO− − On mélange dans un bêcher à t=0 0,5L d'une solution 0,4mol/L d'iodure\nde potassium Kl avec 0,5L d'une solution 0,2mol/L de peroxodisulfate de potassium\n2 2 8 K S O ; on obtient une solution S\n1 Ecrire l'équation bilan de la réaction entre les couples redox. On donne :\n0\nI /I E 0,55V−\n0\n= et 2 2\nS O /SO E =\n2,01V− −\n2\n2 8 4\n2 Calculer les concentrations\n2,7 initiales des ions iodure I- et\nperoxodisulfate 2\n2 8 S O− . V1(cm3) 1.1 3,2 4,8 6,2 7,4 8,4 9 9,7\n(0,75pt)\nC = [l2](mol/L)\n3 Le diode formé à différents\ninstants est mis en solution et dosé par un volume\nV1 d'une solution S'de thiosulfate de sodium\n2 3 NaS O de concentration molaire C1 =10-2 mol/L.\nOn opère des prélèvements de V =10cm3 de\nla solution S à différents instants. La\nréaction de formation du diiode dans le\nprélèvement est \nL'équation de ce dosage est\n2 2\n+ → +\n2 2 3 4 6 I 2S O 2I S O− − −\n3.1 Montrer que la concentration du diiode formé\nà la date t est donnée par la relation C\n1 1 C V\n2V= puis\ncompléter le tableau ci-après:\n3.2 La courbe représentative de [I2]=f(t) est\ndonnée par la figure 1.\n3.2.1 Donner la définition de la vitesse instantanée de formation du diiode et calculer sa valeur à\nt=20min. (0,5pt)\n3.2.2 Définir la vitesse moyenne de formation du diiode et calculer sa valeur entre t1 = 12 min\net\nt2 = 40min ."
+  },
+  {
+    "id": "bac-c-2004-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "1 Un satellite artificiel de masse m=200kg tourne autour de la terre sur une orbite\ncirculaire de rayon r. 1.1 Calculer la vitesse V1 de ce satellite en fonction de r, de la masse M de la terre et\nde la constante de gravitation G. A.N : r=7000km ; G=6,67.10-11N.m2/kg2 et\nM=6.1024kg .\nGmM GmM\nE\n1.2 L'énergie potentielle du système {satellite-terre} étant p\nR r= − ou R est le rayon de la\nterre; donner l'expression de l'énergie mécanique de ce système en fonction de G, m, M, r et R .La\ncalculer. On donne: R=6400km.(0,75pt)\n1.3 Calculer l'énergie à fournir à ce satellite pour qu'il passe de l'orbite de rayon r à\nune autre de rayon r'=7100km .(0,5pt) 2 On considère que la terre est un point matériel qui tourne autour du soleil de masse\nM'=2.1030kg sur une orbite circulaire de rayon r =1,5.108Km\n2.1 Exprimer la vitesse angulaire et la période T du mouvement de la terre.(0,75pt)\nT\n2\n2.2 Exprimer le rapport\nen fonction de G et M'.\n3\nr\n2.3 Calculer T. Cette valeur est-elle vraisemblable?"
+  },
+  {
+    "id": "bac-c-2004-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "Donner les formules semi développées des composés suivants et préciser leurs\nfonctions :\n(A) 2-méthylpropanal ; (B) Anhydride propanoïque : (C) Acide 2-méthylpropanoique ;\n(D) Chlorure de propanoyle ; (E) Butan-2-ol.(0,25pt)\n2 L'oxydation ménagée du composé A avec une solution de permanganate de\npotassium (MnO-\n4+K+) conduit à un corps organique qui fait rougir le papier pH.\nEcrire les équations électroniques correspondantes, en déduire l'équation bilan et\npréciser le nom du composé organique obtenu. (0 ,5pt)\n3 On fait ajouter 20g du composé D sur un alcool R-OH pour obtenir 20,4 g d'un\ncomposé organique F.\n3.1 Ecrire l'équation de cette réaction, préciser son nom et ses caractéristiques.\n3.2 Sachant que le rendement de la réaction est 92,5 %, donner la formule semi\ndéveloppée du composé F et son nom. En déduire la formule et le nom de l'alcool.\nOn donne : O=12g/mol; 0=16g/mol; H=1g/mol; Cl=35,5g/mol."
+  },
+  {
+    "id": "bac-c-2004-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "On dissout 3,45g d'un acide carboxylique dans de l'eau pour obtenir 0,75L de solution\nSa. On dispose dans un bêcher 30cm3 de cette solution que l'on neutralise\nprogressivement par une solution Sb d'hydroxyde de sodium de concentration molaire\nvolumique\nCb = 0,1mol/L .\nUn pH-mètre permet de suivre l'évolution du pH en fonction du volume Vb de base\nversé.\nOn obtient les résultats suivants :\npH 1 Tracer la courbe pH = f(Vb) .On donne 1cm→ 2cm3 et 1cm→1 unité de pH\n2 Déduire de la courbe :\n2.1 Les coordonnées du point d'équivalence. (0,5pt)\n2.2 La concentration initiale de l'acide carboxylique, en déduire sa masse molaire puis sa\nformule brute.(0,75pt)\n2.3 Le pKa du couple acide base étudié.\n3 Pour un volume versé Vb = 28cm3 calculer les molarités des diverses espèces\nchimiques présentes dans le bêcher, calculer le pKa. (0,75pt)\n4 Calculer les volumes Va de la solution Sa et Vb de la solution Sb nécessaires à la\npréparation d'un, volume de 75cm3 de solution dont le pH = pKa,"
+  },
+  {
+    "id": "bac-c-2004-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "Les forces de frottements ne s'exercent qu'entre B et D .On prendra g= 10m/s2\nUn mobile de masse m = 500g\nse déplace sur le trajet ayant la\nforme donnée par la fig1.\nLe mobile commence sa course\nau sommet A de la partie\nrectiligne AC qui fait un angle\nα = 60° avec la verticale et\narrive au point B avec la vitesse VB=10m/s.\n1 Entre les points B et C s'exerce une force de frottement 1\nf qui ralentit le mouvement.\nDéterminer l'intensité de cette force 1\nf pour que le mobile arrive en C avec une vitesse\nde valeur double de VB. (1pt)\n2 Déterminer la valeur de la vitesse au point D si la force de frottement s'exerçant sur\nla partie horizontale CD représente le sixième du poids du mobile.\n3 Le mobile aborde alors la partie DE qui fait un angle β = 10° avec l'horizontale.\nDéterminer la longueur l de cette partie pour que le mobile arrive en E avec une\nvitesse pratiquement nulle.(0,75pt)\n4 Arrivé au point E le mobile glisse sans frottement sur le quart du cercle EF de rayon\nr et de centre O situé sur la même horizontale CDF.\n4.1 La position du mobile est repérée par l'angle OF,OM\n( )\nθ = . Exprimer la vitesse au\npoint M en fonction de θ , l, β et g.(1pt)\n4.2 Exprimer en fonction de θ , m et g la valeur de la réaction de la piste sur le mobile\nau point M."
+  },
+  {
+    "id": "bac-c-2004-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "1 On réalise l'expérience de Young à l'aide d'une fente éclairée F équidistante de deux\nautres fentes F1 et F2, parallèles, percées dans un écran P. La distance entre F1 et F2 est\na = 0,8mm. Un écran E parallèle à P est placé à la distance D = 2,4m de P.\n(voir fig2)\n1.1 La fente F est d'abord éclairée par une\nlumière monochromatique de longueur\nd'onde λ. Qu'observe-t-on sur l'écran E ?\nEtablir l'expression de la différence de\nmarche δ et la calculer au point M de l'écran\nE tel que OM = x = 12,6mm. Le point M\nétant le milieu de la 7ème frange brillante (la frange centrale étant numéroté 0), en\ndéduire la longueur d'onde λ de la lumière utilisée?\n1.2 La fente F est maintenant éclairée en lumière blanche. Quelles sont les longueurs\nd'onde des radiations appartenant au spectre visible pour les quelles une frange\nobscure se forme au point N, sur E, à la distance ON=x= 9mm de la frange centrale?\nOn donne pour le spectre visible:0,4µm≤λ≤0,8µm. (0,75pt)\n2 Une corde élastique sans raideur est placée verticalement.\nL'extrémité supérieure A est reliée à un vibreur (lame vibrante) qui\nlui impose un mouvement sinusoïdal entretenu, transversal, de\nfréquence 50Hz et d'amplitude a=3mm, l'extrémité inférieure est\nreliée à un poids immergé dans l'eau afin d'éviter la réflexion des\nondes qui arrivent à cette extrémité (voir fig3). La vitesse de\npropagation des ondes est 10m/s,\n2.1 Ecrire les équations yA du mouvement de A et yM du mouvement\nd'un point M situé sur la corde à 0,15m de A : On prendra l'origine des\ntemps l'instant du passage par O dans le sens positif. (1p\n2.2 Calculer les élongations des points A et M aux instants t1 = 0,1s et t2 = 0,115s.\n2.3 On examine la corde à l'aide d'un stroboscope. Quelle est la valeur maximale de la\nfréquence de ce stroboscope pour que la corde parait unique et immobile."
+  },
+  {
+    "id": "bac-c-2004-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2004,
+    "filiere_id": "C",
+    "ennonce": "On réalise un solénoïde à l'aide d'un fil de cuivre de diamètre 0,6mm, enroulé sur un\ncylindre de 0,6m de longueur et de 4cm de diamètre. Le nombre de spires est\nN =1000.\n1 Les spires sont-elles jointives ?\n2 Déterminer la longueur l du fil utilisé. (0,5pt)\n3 Calculer l'inductance L de ce solénoïde µ0 =4.10-7 S. I. (0,5pt)\n4 Cette bobine est parcourue par un courant I = 2A. Quelle\nest la tension U1 à ses bornes? La résistance de la bobine est\nR = 20Ω. Déterminer les caractéristiques du champ\nmagnétique B à l'intérieur du solénoïde. (1p\n5 La bobine est parcourue par un courant dont l'intensité\nvarie avec le temps comme l'indique le graphe (fig 4)\n5.1 Pour quels intervalles de temps y'a-t-il variation du flux à travers la bobine? On se\nlimitera aux instants tel que 0≤ t ≤ 6.10-2s. (0,5pt)\n5.2 Calculer la f.e.m d'auto-induction dans ces intervalles de temps. (0,75pt)\n5.3 Donner l'expression littérale de la tension u aux bornes de la bobine pour\n0≤ t ≤ 6.10-2\ns."
+  },
+  {
+    "id": "bac-c-2005-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "1 On cherche à déterminer la masse molaire moléculaire d'un acide carboxylique\nsaturé A. Pour cela on dissout une masse de 44mg de cet acide dans l'eau et on dose\nl'acide ainsi obtenu avec une solution d'hydroxyde de sodium de concentration molaire\nvolumique 2,5.10-2 mol/L. On obtient l'équivalence acido-basique quand on verse un\nvolume de 20mL de la solution d'hydroxyde de sodium.\n1.1 Déterminer la masse molaire moléculaire de cet acide.(0,5pt)\n1.2 Trouver la formule brute de cet acide et en déduire ces formules semi développées possibles ainsi\nque leurs noms. (0,5pt)\n2 On traite l'acide A à chaîne linéaire avec le chlorure de thionyle et on obtient un\ncomposé B avec les gaz chlorure d'hydrogène et dioxyde de soufre.\n2.1 Ecrire l'équation de la réaction à l'aide des formules semi développées.(0,5pt)\n2.2 Déterminer la fonction du composé B et son nom.(0,5pt)\n3 On traite B avec un composé C pour obtenir un ester D de formule C6H12O2\n3.1 Déterminer la formule et le nom du composé C.(0,5pt)\n3.2 On fait l'oxydation ménagée du composé C à l'aide d'un excès de permanganate de\n+ − + K MnO potassium( )4\n. Ecrire l'équation de la réaction et donner les noms. et les fonctions\ndes produits organiques.(0,5pt)\n3.3 Donner deux autres méthodes pour obtenir le composé D.\nOn donne : C =12g/mol; H = 1 g/mol; O = 16g/mol"
+  },
+  {
+    "id": "bac-c-2005-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "Un solide ponctuel de masse m=200g glisse sur un plan OA\nincliné d'un angle α=60° par rapport à la verticale. Il part du\npoint O origine de l'axe orienté X'X avec une vitesse initiale\nde valeur 0\nV . Au cours de son mouvement, S subit une force\nde frottement f . Un dispositif approprié permet de mesurer\nla vitesse V instantanée du solide pour différentes positions\nx. La courbe représentative de\nV2 = f(x) est donné par la fig 2\n1 Déterminer graphiquement l'équation V2 = f (x). (0,5pt)\n2 En utilisant le théorème de l'énergie cinétique,\nétablir l'expression de V en fonction de x. 3 En déduire les valeurs de la force de frottement f et de\nla vitesse V0. (0,5pt)\n4 Au point d’abscisse x =0,5m, l'énergie mécanique E du\nsystème {solide -terre} est égale au double de l'énergie\ncinétique. En déduire la position adoptée pour le plan de\nréférence de l'énergie potentielle de pesanteur. (0.5pt)\n5 5.1 Donner l'expression de l'énergie cinétique Ec et\nde l'énergie potentielle Ep du système {solide-terre} en\nfonction de x en prenant pour référence de l'énergie potentielle le plan horizontal situé\nà 0,5 m en dessous du point O.\n5.2 Sur un même graphique, représenter les courbes Ec= f(x) et\nEp= g(x) pour les valeurs de x telles que\n0 ≤ x ≤ 1m. (0,5pt)\n5.3 En déduire l'Expression de E en fonction de x puis tracer la\ncourbe E=h(x). On donne g=10m/s-2. (0,5pt)\n5.4 Le solide quitte le plan incliné en A tel que OA=3m.\n5.4.1 Donner les caractéristiques du vecteur vitesse du solide en\nA.(0.5pt)\n5.4.2 Déterminer les équations paramétriques du mouvement du\nsolide S dans le repère (O; x; y) après avoir quitté le plan\nincliné."
+  },
+  {
+    "id": "bac-c-2005-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "1 On réalise un circuit formé d'une bobine de résistance r et\nd'inductance L, un condensateur de capacité C, un ampèremètre\nde résistance négligeable et un GBF délivrant une tension\nsinusoïdale u(t) de pulsation ω et de valeur efficace 60V.\nL'ampèremètre indique alors une intensité efficace I = 0,1A.\nLa tension efficace aux bornes de la bobine est 3 60 V et celle aux\nbornes du condensateur est 60V. Le circuit est inductif.\n1.1 Trouver l'expression de l'impédance Z du circuit en fonction de r,\nC, L et ω . (0,5pt)\n1.2 Calculer Z ainsi que l'impédance Z1 de la bobine et l'impédance Z2 du\ncondensateur.\n1.3 Déterminer, en vous aidant de la construction de Fresnel, le déphasage entre la\ntension u(t) et l'intensité ( ) i t I 2cos t = ω . Calculer la résistance r de la bobine.\n2. 2.1 Sachant que C=5µ F et N0=100Hz calculer la valeur de l'inductance L de la\nbobine pour laquelle il y'aurait résonance. (0,5pt)\n2.2 Calculer l'intensité efficace I0à la résonance.(0,5pt)\n2.3 Indiquer comment varie l'intensité efficace I en fonction de la fréquence N. On\nsupposera que la fréquence du courant a une valeur maximale de 200Hz .(0.5pt)\nI\n2.4 Donner l'expression du rapport\n, en fonction de r, C, L et ω puis en fonction de\nI\n0\nL 1\nω\nω , ω 0 et du facteur de qualité 0\nQ\n= =\nr rC\nω\n0"
+  },
+  {
+    "id": "bac-c-2005-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "1 On mélange 36g de propan-l-ol et 36g d'acide éthanoïque.\n1.1 Ecrire l'équation de la réaction en prêcisant son nom,\n1.2 Calculer les nombres de mole n1 d'alcool et n2 d'acide mis en présence\ninitialement.\n2 On suit l'évolution de la composition du\nmélange, on détermine à divers instants le\nnombre de moles n d’acide éthanoïque restant.\nLes résultats sont traduits par la courbe ci-contre.\n2.1 Quelle est la composition molaire du mélange\nà l'équilibre ?\n2.2 En déduire la valeur K de la constante\nd'équilibre.\n3 Calculer la vitesse Instantanée de formation de\nl'ester à l'instant t=30mn.\n4 Calculer le temps de demi réaction.\n5 On voudrait obtenir 0,56mol d'ester. Dans ce\nbut on ajoute x mole de propan-l-ol au mélange précédemment en équilibre.\n5.1 Calculer x.\n5.2 A partir de l'équilibre précèdent, on élimine toute l'eau à mesure qu’elle se forme.\nQuelle est la composition du mélange final ?"
+  },
+  {
+    "id": "bac-c-2005-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "Les solutions sont prises à 25 °C et en considère que le pKa du couple\nCH3NH+\n3/CH3NH2 est égal à 10,7.\n1 La méthylamine est une base faible appartenant au couple CH3NH+\n3/CH3NH2.\n1.1 Donner la définition d'une base faible.(0,5pt)\n1.2 Ecrire l'équation de la réaction de la méthylamine avec l'eau. Citer les espèces\nchimiques présentes dans la solution obtenue.(0,5pt)\n2 On mélange un volume V1 =20mL d'une solution aqueuse de la méthylamine de\nconcentration C1=3.10-2 mol/L avec un volume V2 d'une solution aqueuse d'acide\nchlorhydrique de concentration C2=2.10-2mol/L; Le mélange a un pH = 10.\n2.1 Citer les espèces chimiques présentes dans ce mélange et calculer ou exprimer en\nfonction de V2 leurs concentrations molaires en supposant négligeables les\nconcentrations : [H30+] et [OH-] devant les autres concentrations\n2.2 Exprimer le rapport [ ]\n−\nforme basique\ndu couple, en déduire la valeur numérique de V2.\nforme acide\n−\n[ ]\n2.3 Pour quelle valeur de V2 le pH du mélange serait-il égal au pKa du couple?"
+  },
+  {
+    "id": "bac-c-2005-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "Un solide S de masse m=200g se déplace sur une piste\nABC, constituée d'une partie rectiligne et horizontale\nAB=1,6m et d'une partie curviligne BC de centre O et\nde rayon r=0,7m. (fig1)\n1 Le solide quitte le point A sans vitesse initiale sous\nl'action d'une force constante F qui ne s'exerce qu'entre\nA et B. On enregistre à des intervalles de temps réguliers θ = 20ms les positions occupées\npar le solide et on obtient l'enregistrement\nde la figure 2 ci-contre.\n1.1 Déterminer la nature du mouvement et\ncalculer la valeur expérimentale de son\naccélération\n1.2 Sachant que la valeur de la force F est F = 2N dire est ce que le mouvement se fait\nsans frottement ou avec frottement. Déterminer la valeur de la réaction exercée par la\npiste sur le solide ainsi que l'angle α qu’elle fait avec la verticale.\n1.3 Calculer la valeur de la vitesse au point B. (0,5pt)\n2 Le solide continue son mouvement sans frottement sur la partie curviligne BC.\n2.1 Déterminer les caractéristiques de la vitesse au point C.(0,75pt)\n2.2 Calculer la valeur de la réaction c\nR qu'exerce la piste sur le solide au point C\n3 Le solide quitte la piste au point C avec la vitesse C\nV et effectue un mouvement aérien avant\nd'atterrir au point D.\n3.1 Déterminer l'équation de la trajectoire dans le repère( C . \n3.2 Déterminer les coordonnées des points le plus haut et le plus bas de la trajectoire."
+  },
+  {
+    "id": "bac-c-2005-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "1 On considère un solénoïde dont les caractéristiques sont : rayon de la spire R=20cm\n; nombre de spires N=1000 spires ; longueur de la bobine l =2m.\n1.1 Etablir la formule donnant l’inductance L de ce solénoïde en fonction de R, l et N\npuis calculer sa valeur. On prendra π\n2 =10. (1pt)\n1.2 Calculer la force électromotrice d'auto induction produite dans cette bobine lorsque\nl'intensité du courant qui circule prend l'une des expressions suivantes ;\nπ\ni1 = 3t + 4 et 2 i 5 2cos(200 t )\n= +\nπ (1pt)\n6\n1.3 Les variations de l'intensité du courant en\nfonction du temps sont maintenant conformes\naux indications du graphe (fig 3). Durant\nl'intervalle de temps [0; 0,7] ; déterminer les\ndiverses valeurs prises par la f.e.m d'auto\ninduction e et représenter les variations de cette grandeur en fonction du temps.\n2 Le solénoïde de résistance r est branché dans un circuit comprenant un générateur de\nforce électromotrice E et de résistance négligeable, une résistance non inductive R et\nun interrupteur K. On considère maintenant la période d'établissement du régime\npermanent.\nL'interrupteur a été fermé à l'instant t=0, soit i l'intensité du courant à l'instant t. Etablir\nl'équation reliant l'intensité i, sa dérivée di\ndt et les caractéristiques du circuit.(1pt)"
+  },
+  {
+    "id": "bac-c-2005-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2005,
+    "filiere_id": "C",
+    "ennonce": "Une source lumineuse S éclaire les fentes S1 et S2 de\nYoung. Un écran d'observation E est placé\nperpendiculairement à la droite passant par S et le\nmilieu de S1 et S2 à une distance D=2m du plan des\nfentes S1 et S2.\n1 La source S émet une radiation monochromatique\nde longueur fonde λ=0,52µ m.\n1.1 Qu’observe-t-on sur l'écran d'observation E ?(0,75pt)\n1.2 On observe le milieu de la 5éme frange brillante en un point x situe, à l'abscisse\nx=2,6mm du milieu de la frange centrale brillante. Calculer la distance a qui sépare les\nfentes S1 et S2.\n1.3 Déterminer la valeur d’interfrange i et préciser la nature des franges dont les\nmilieux sont situés aux points d'abscisses respectives x1=1,3mm et x2=2,08mm.\n2 La source S émet à présent deux radiations de longueurs d'ondes λ=0,52µ m et\nλ’=0,48µm. A quelle distance de la frange centrale observe-t-on la première coïncidence\nentre les frangeas brillantes pour λ et λ'.(0,75pt)\n3 La source S émet maintenant la lumière blanche. Calculer les longueurs d'ondes des\nradiations éteintes au point P. On donne : 0,4µm ≤ λ ≤ 0,8µm."
+  },
+  {
+    "id": "bac-c-2006-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "On mélange dans un Becher un volume V1 = 50mL d'une solution d'iodure de\npotassium (K++l-) de concentration molaire C1 = 5.10-3mol/L et un volume\nV2 = 75mL de peroxodisulfate de potassium\n(2K++ S2O8\n2-) de concentration molaire\nC2 = 2.102-mol/L . La solution dévient\nprogressivement jaunâtre à cause de la formation\ndu diiode l2. On donne les potentiels standard des\ncouples redox intervenant dans la réaction :\n= =\n2 2 S 0 S0 l I E 2 1V E 0 54V\n2 2\n8 4 / / , ; ,− − −\n1 Ecrire les demi équations électroniques et\nl'équation bilan de la réaction.\n2 Calculer les concentrations initiales des ions\niodure [I-]0 et peroxodisulfate 2\nS O .\n− ⎡ ⎤ ⎣ ⎦2 0\n8\nEn déduire le réactif limitant. (1 pt)\n3 On étudie la vitesse de formation du diiode l2 en fonction du temps ; pour cela on\nopère des prélèvements du milieu réactionnel à différents instants t qu'on refroidit\nimmédiatement. L'ensemble des résultats donne la courbe de variation du diiode en\nfonction du temps.\n3.1 Pourquoi refroidit-on les prélèvements ? (0,25pt)\n3.2 Calculer la vitesse moyenne de formation du diiode entre les instants t1 = 10mn\net t2 =55mn.\n3.3 Définir la vitesse instantanée de formation du diiode et la calculer à l'instant t = 20mn\nen déduire la vitesse de disparition de l'ion iodure à cet instant.(0,75pt)\n3.4 Calculer le temps de la demi réaction."
+  },
+  {
+    "id": "bac-c-2006-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "1 On considère un solénoïde formé de 800 spires par mètre parcouru par\nun courant de 5.10-2A.\n1.1 Faire le schéma du solénoïde en précisant un sens pour le courant, et\ndonner les caractéristiques du champ magnétique crée par ce\ncourant en son centre C. On donne : µ 0 = 4 π .10-7S.I\n1.2 Déterminer l'angle de déviation d'une petite aiguille\naimantée sur pivot placée en son centre si l'axe ∆ du\nsolénoïde est perpendiculaire au méridien magnétique\n(schéma obligatoire).\n2 L'aiguille aimantée est retirée et remplacée par une bobine\nplate carrée de coté 8cm, comportant 100 spires. Le solénoïde est traversé par un\nπ\ncourant variable . ( ) 2\n= + 1 i 2 10 cos 100 t\nπ−\n2.1 Donner les expressions du flux magnétique à travers la bobine et de la force\nélectromagnétique induite en fonction du temps et déterminer leurs valeurs maximales\nfig 1.\n2.2 Que détecte un oscilloscope branché aux bornes de la bobine en circuit ouvert.\nDonner l'allure de cette courbe pour t\u0000[0;20ms].\n3 On réalise le montage de la fig 2 qui comporte le solénoïde précédent de résistance r\n= 4Ω et d'inductance\nL = 0,1 H monté en série avec un dipôle ohmique de résistance\nR = 10 Ω. Le circuit est alimenté par un générateur de tension délivrant des signaux\ntriangulaires.\nOn observe sur la voie 1 la courbe de la fig 3. Trouver les expressions de la tension\nUCD aux bornes de la bobine visualisée sur la voie 2."
+  },
+  {
+    "id": "bac-c-2006-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "1 On réalise le circuit de la figure 1. Le générateur G délivre\nune tension alternative sinusoïdale de fréquences N variables\net de valeur maximale constante. Le circuit renferme une\nbobine d'inductance L et de résistance interne r, un\ncondensateur de capacité C et un dipôle ohmique de résistance\nR. Un oscillographe est branché comme indiqué sur la figure\n1 ; il donne l'oscillogramme (fig 2).\n1.1 Préciser la valeur maximale de chaque tension visualisée,\net calculer la fréquence N1 du générateur.\n1.2 Quelle est, des deux tensions, celle qui est en avance sur\nl'autre. Déterminer le déphasage (φ de l'intensité par rapport à\nla tension d'alimentation. Donner l'expression de cosϕ en\nfonction de R, r, l et la valeur de la tension efficace U aux\nbornes du générateur.(1pt)\n1.3 L'ampèremètre indique une intensité égale à 59mA calculer R et r.(1pt)\n2 On retire l'oscillographe et on branche dans le circuit, trois voltmètres V1, V2 et V3\ncomme l'indique la fig3: On trouve respectivement les tensions : U1 = 4,38V, U2=\n0,57V et U3= 4,95V\nMontrer que, dans ces conditions, le circuit est le siège\nd'une résonance d'intensité. Quelle est l'indication de\nl'ampèremètre A ? Donner l'expression de la fréquence N2\ndu générateur.\n3 On enlève le conducteur ohmique ; le circuit est toujours\nalimenté par le même générateur, pour une fréquence\nN=N3=55,7Hz on constate que les tensions efficaces aux\nbornes du condensateur, aux bornes de la bobine et aux\nbornes de l'ensemble du circuit sont égales.\nFaire la construction de Fresnel correspondante et préciser la nature du circuit. En\ndéduire les valeurs de L, C et N2."
+  },
+  {
+    "id": "bac-c-2006-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "Par dissolution de chacun des deux acides A1H et A2H séparément dans l'eau, on\nprépare deux solutions S1 et S2 de concentrations molaires respectives C1 =10-3mol/L\net C2 = 72,4.10-3mol/L mais de même pH=3 à la température 25°C.\n1.1 Déterminer la molarité de chacune des solutions S1 et S2 en ions\nhydroniums.(0.5pt)\n1.2 L'un de ces deux acides est fort; lequel? Justifier.(0.5pt)\n1.3 Ecrire pour chacun des acides A1H et A2H l'équation de la réaction accompagnant\nsa dissolution dans l'eau.(0.5pt)\n2 Déterminer le pKa du couple acide-base auquel\nappartient l'acide A2H et en déduire le nom et la\nformule semi développée de cet acide\n(voir tableau). 3.1 A 50cm3 de la solution S2, on ajoute une\nsolution diluée de soude de concentration molaire C.\n− Déterminer C sachant que pour atteindre l'équivalence, il a fallu ajouter\nprogressivement 40cm3 de cette solution basique.\n− Bien que l'on soit à l'équivalence, la solution contient encore des molécules A2H.\nExpliquer leur présence et en déduire le caractère de la solution obtenue à\nl'équivalence.\n3.2 On utilise maintenant 100cm3 de la solution S2 auxquels on ajoute progressivement\n40cm3 de la solution de soude utilisée précédemment. Déterminer le pH de la solution\nobtenue."
+  },
+  {
+    "id": "bac-c-2006-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "On considère un ester E de masse molaire 88g/mol.\n1 Déterminer la formule brute de cet ester. Donner les formules semi développées et\nles noms de tous les esters ayant cette formule brute.(1pt)\n2 Donner les formules semi développées et les noms des acides et alcools qui donnent les différents\nesters précédents.\n3 La saponification d'un volume V=15mL de l'ester E par une solution d'hydroxyde de\nsodium donne un mélange S constitué d'un composé A ayant deux atomes de carbones\net un ion carboxylate B.\n3.1 Déterminer les formules semi développées et les noms du composé A et de l’ion\ncarboxylate B.\n3.2 Calculer le rendement r de cette réaction de saponification de l'ester E si le\ncarboxylate de sodium obtenue après filtration et séchage a pour masse m=3,85g.\nn B\n( )\nr ;C : 12g / mol;O : 16g / mol; H : 1g / mol; Na : 23g / mol; = ρ =\n0, 41g / mL\nn E\n( "
+  },
+  {
+    "id": "bac-c-2006-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "On considère un satellite S de la terre de masse m ayant une orbite circulaire de rayon\nr dont le centre O est confondu avec le centre de la terre.\n1. Donner les caractéristiques de la force de gravitation exercée\nsur ce satellite. (0,75pt)\n2. Montrer que le mouvement du satellite est circulaire\nuniforme. (0,5pt)\n3. Trouver l'expression de la vitesse du satellite en fonction de l'accélération de la\npesanteur go au sol, du rayon R de la terre et du rayon r de l'orbite puis en fonction\nde la constante de gravitation G, de la masse M de la terre et du rayon r. (0,75pt)\n4. Ce satellite est géostationnaire :\n4.1 Préciser le plan de l'orbite(0,25)\n4.2 A quelle altitude est placé ce satellite.(1pt)\n4.3Calculer sa vitesse angulaire et en déduire sa vitesse linéaire.(0,75pt)\n4.4 Calculer la masse M de la terre.(0,5pt)\nA.N : R=6400km;G=6,67.10-11 S.I e g0=9,8m/s-2\n."
+  },
+  {
+    "id": "bac-c-2006-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2006,
+    "filiere_id": "C",
+    "ennonce": "Les questions 1 et 2 sont indépendantes\n1 Le nucléide 94\n238 Pu qui est émetteur α donne un isotope de l'uranium U. Sa période\nradioactive est T=86,4ans.\n1.1 Ecrire l'équation bilan de la réaction nucléaire\ncorrespondante.\n1.2 Rappeler la loi de décroissance radioactive. Définir la\npériode ou demi-vie et en déduire la valeur de la constante\nradioactive λ.\n1.3 On rappelle que l'activité d'un échantillon radioactif est\négale au nombre de désintégrations par unité de temps. Donner\nune relation entre l'activité A, la période T et le nombre N de noyaux présents dans\nl'échantillon.\n2 Les particules α émises de charge q=2e pénètrent en S avec une vitesse o\nV dans un\nchamp magnétique uniforme B s'exerçant dans un carré PQRS de 6cm de coté\n(voir fig).\n2.1 Donner le sens du vecteur B pour que les particules sortent du champ au point R.\n2.2 Déterminer la nature du mouvement des particules dans le champ B .(1pt)\n2.3 Calculer la valeur de la vitesse au point de sortie R.(1pt)\nA.N. : mp = mn=1,67.10-27kg ;e=1,6.10-19C ;B=0,1T"
+  },
+  {
+    "id": "bac-c-2007-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "1 On prépare une solution d'un acide carboxylique R-COOH de concentration 0,1\nmol/L à 25°C. Le pH de la solution obtenue est égal à 3.\n1.1Dire si cet acide est faible ou fort Justifier votre réponse.(0,5pt)\n1.2 Ecrire l'équation de dissolution de cet acide dans l'eau.(0,5pt)\n1.3 Sachant que la dissolution de cet acide est endothermique, quel est l'effet d'une\nélévation de température sur le pH de la solution.(0,5pt)\n1.4 On ajoute de l'eau à la solution d'acide. Quel est l'effet de cette dilution sur l'ionisation de\nl'acide.(0,5pt)\n2 Une quantité de l'acide carboxylique R-COOH a été obtenu par l'oxydation ménagée\nde 9g d'un alcool primaire A. On suppose que tout l'alcool primaire a été oxydé en\nacide. Cette quantité d'acide, dissoute dans l'eau est dosée par une solution de soude.\nPour obtenir l'équivalence, il a fallu verser un volume de la solution basique contenant\n0,15 mol de soude. Déterminer la masse molaire de l'alcool A. Donner sa formule\nsemi développée et son nom."
+  },
+  {
+    "id": "bac-c-2007-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "On étudie le mouvement d'un solide S sur une\npiste, constituée d'une partie rectiligne AB= l et\nd'une partie BC représentant la moitié d'un cercle\nde centre O et de rayon r (fig1).\nOn exerce entre A et B sur le solide S, qui était au\nrepos en A, une force F horizontale d'intensité\nconstante.\n1 Déterminer la nature du mouvement entre A et B\net exprimer en fonction de F, l et m la vitesse Vb du solide au point B.(0,5pt)\n2 Déterminer en fonction de F, l, m, r, g et θ l'expression de la vitesse au point M\ndéfini par l'angle ( )0 OB;OM\nθ = .\n3 Déterminer en fonction de F, m, r, g et θ l'expression de la réaction R au point M.\nCalculer la valeur minimale Fm de F qui permet que S atteigne le point C. (1pt)\n4 On donne à F la valeur F0=7/3 N.\n4.1 Le solide S perd contact avec la piste au\npoint D dont la position est définie par\nl’angle ( )0 OB;OD\nθ = . Déterminer l'angle θ 0 et\ncalculer la vitesse VD en ce point D. (1pt)\n4.2 Etablir dans le repère (D;x;y) de la fig 2\nl'équation de la trajectoire du solide S. (1pt)\n4.3 Calculer l'abscisse du point I d'impact du\nsolide S sur le plan horizontal AB"
+  },
+  {
+    "id": "bac-c-2007-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "On se propose de déterminer la résistance R d'un conducteur ohmique, l'inductance L\nd'une bobine de résistance négligeable et la capacité C d'un\ncondensateur. Ce dipôle R, L, C est branché aux\nbornes d'un générateur débitant une tension\nalternative sinusoïdale.\n1 L'intensité du courant indiquée par l'ampèremètre A\npasse par une valeur maximale I0 pour une fréquence N0.\n1.1 Quelle est la relation entre les deux valeurs L et C ?\n1.2 Calculer la valeur de R sachant que le voltmètre V aux\nbornes du générateur indique U=3V et l'ampèremètre A\nindique I0=150mA. (0,5pt)\n2 Le condensateur et l'ampèremètre sont enlevés, le\ngénérateur délivre toujours la même tension de 3V, la\nfréquence restant N0. Un oscillographe bicourbe branché\ncomme l'indique la figure 2 visualise les sinusoïdes de la\nfigure 3,\n2.1 Quelles sont les grandeurs affichées sur les voies\n1 et 2 ? La figure 3 indique que la sinusoïde observée\nsur la voie 1 est en avance de phase sur la sinusoïde\nobservée sur la voie 2. Cette indication est-elle\ncorrecte ? Pourquoi?\n2.2 Quelle est la durée du balayage, si N0=125Hz ? (0,75pt)\n2.3 Les deux sinusoïdes sont décalées de 1,8cm.\nQuelle est la phase de l'une des grandeurs par\nrapport à l'autre ? (0,75pt)\n2.4 En déduire l'inductance L de la bobine. Quelle est la valeur de la capacité C du\ncondensateur utilisé dans la première question ?\n3 Tracer le diagramme de Fresnel des impédances correspondantes au dipôle R, L, C\npour une fréquence N=50Hz. On prendra pour échelle 1 cm pour 20Ω. En déduire le\ndéphasage entre u et i."
+  },
+  {
+    "id": "bac-c-2007-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "On dissout une masse m d'hydroxyde de sodium NaOH dans 200mL d'eau pure pour\nobtenir une solution aqueuse SB de pH=13.6 à 25° C.\n1.1 Ecrire l'équation de dissolution de\nl'hydroxyde de sodium dans l'eau.(0.5pt)\n1.2 Comparer les concentrations des ions\nH30+ et OH- dans la solution SB(0.5pt)\n1.3 Trouver la valeur de la concentration\nCB de la solution SB et en déduire la\nvaleur de m.\n1.4 On prépare à partir de la solution SB\nune nouvelle solution S'B de volume V' =\n60mL et de concentration C'B=10-1mol/L.\nDéterminer le volume V de la solution SB\net le volume VE d'eau pure utilisés pour\npréparer la solution S'B. (0,5pt)\n2 On a tracé sur le document de la figure les courbes représentatives pH=f(t)\nobtenues en mesurant le pH au cours de l'addition progressive de la solution aqueuse\nS'B :\n− à 10mL d'une solution aqueuse d'un acide noté A1H (courbe 1).\n− à 10mL d'une solution aqueuse d'un acide noté A2H (courbe 2).\n2.1 L'observation de ces deux courbes permet-elle de prévoir sans calcul, la force\nrelative des acides étudiés ? Justifier. (0,5pt)\n2.2 Calculer les concentrations C1 et C2 des acides A1H et A2H.\n2.3 Trouver pour l'acide faible la valeur du\npKa du couple correspondant. 2.4 Le tableau ci-contre donne pour trois\nindicateurs colorés la zone de virage.\nQuel indicateur coloré paraît le plus\napproprié à chaque dosage ?"
+  },
+  {
+    "id": "bac-c-2007-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "Le 2-méthylbutanal noté A et la 3-méthylbutan-2-one noté B sont deux isomères de\nformule brute C5H10O.\n1.1 Donner la formule semi développée de A. Encadrer le groupement fonctionnel.\nDonner le nom de la fonction.\nL'indicateur coloré Zone de virage\n(0,25pt)\nLe bleu de bromothymol 6.2 7.6\nL'hélianthine 3.1 4,4\nLa phénophtaléine 8 10\n95\n1.2 Le 2-méthylbutanal est oxydé par les ions dichromate (Cr2O7\n2-) en milieu acide :\nLa solution prend la teinte verte des ions Cr3+. Ecrire l'équation bilan de la réaction.\n2 La 3-méthylbutan-2-one a pour formule semi développée :\n2.1 Encadrer le groupement fonctionnel. Donner le nom de la fonction. 2.2 Ce composé est obtenu par oxydation d'un alcool. Donner le nom\net la formule semi développée de cet alcool.\n3 Cet alcool lui-même peut être obtenu de façon majoritaire par hydratation d'un\nhydrocarbure. Donner le nom et la formule semi développée de cet hydrocarbure.pt)\n4 Citer un test d'identification commun aux deux isomères A et B et citer un autre test\npermettant de les différencier en précisant avec lequel des deux composés le test est positif"
+  },
+  {
+    "id": "bac-c-2007-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "Les frottements sont négligeables.\nOn considère un ressort très long à spires non jointives de\nmasse négligeable et de raideur K.\nLe ressort est placé sur une table horizontale. On fixe l'une\ndes extrémités du ressort et on accroche à son autre extrémité un solide ponctuel de masse m.\nOn déplace le solide de sa position d'équilibre d'une distance xo =5cm et on l'abandonne sans\nvitesse initiale.\n1 . Faire le bilan des forces s'exerçant sur le solide et montrer que le système\n{ressort+solide+terre} est conservatif.(0.75pt)\n2 .Pour une position x quelconque donner l'expression de l'énergie mécanique du système en\nfonction K, m, x et de la vitesse V du solide. (0.75pt)\n3 Donner cette expression en fonction de K et xo.Déduire l’expression de Ven fonction\nde K,m, et x.\n4 Montrer que l'énergie potentielle élastique du ressort peut s'écrire sous la forme :\nEpe\n= a V2 + b. (0,5pt)\n5 L'expérience montre que Epe= - 0,1 V2 + 2,5.10-2. Déduire les valeurs de m et de K. (0,75pt)\n6 Calculer la vitesse du solide lors du passage par sa position d'équilibre."
+  },
+  {
+    "id": "bac-c-2007-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2007,
+    "filiere_id": "C",
+    "ennonce": "1 Une Source S émettant une radiation monochromatique éclaire deux fentes S1 et S2\nparallèles distantes de 3mm. On observe les\ninterférences sur un écran E situé à 3m du plan des\ndeux fentes.\n1.1 Quelle est l'interfrange i si le milieu de la\ntroisième frange brillante est située au dessus de la\nfrange centrale se trouve à la distance d =3,6mm du\nmilieu de la troisième frange brillante située en\ndessous.\n1.2 En déduire la longueur d'onde de la radiation émise par la source S.\n2 La source S émet à présent deux radiations de longueurs d'onde respectives\nλ µ et 2 0,54= m\n1 0,48= m\nλ µ\n2.1 Qu'observe-t-on sur l'écran E ?\n2.2 A quelle distance de la frange centrale observe-t-on la première\ncoïncidence entre franges brillantes?\n3 La source S émet de la lumière blanche.\n3.1 Qu'observe-t-on sur l'écran E?\n3.2 On place la fente d'un spectroscope dans le plan de l'écran E et parallèlement à la\nfrange centrale et à 4mm de celle-ci.\nQuel est le nombre des franges brillantes observées en ce point et leurs longueurs\nd'ondes?\nOn rappelle que les limites du spectre visible sont [0,4µ m ; 0,8µ m]"
+  },
+  {
+    "id": "bac-c-2008-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "1L'acide nitrique HNO3 est un acide fort.\n1.1 Ecrire l'équation bilan de la réaction de dissolution de l'acide nitrique dans l'eau.\n1.2 Un flacon commercial de 1L d'acide nitrique de densité 1,2 contient en masse\n76% de HNO3.\nQuelle est la concentration C de l'acide nitrique?\n1.3 On veut préparer deux litres de solution d'acide nitrique de pH=l,5. Quel\nvolume de solution commerciale faut-il utiliser pour cela? '\n2 On dissout 2,46g de cristaux d'éthanoate de sodium CH3COONa dans 0,3L\nd'eau distillée.\n2.1 Calculer la concentration de la solution ainsi obtenue.\n2.2 Le pH de cette solution vaut 8,9 à 25°C, l'éthanoate de sodium est-il une base\nfaible ou forte ? Justifier la réponse.\n2.3 Ecrire l'équation de la réaction entre l'éthanoate de sodium et l'eau. Préciser les\ncouples acide-base mis en jeu dans la réaction.\nDonnées : H : 1g/mol ; O : 16g/mol ; N : 14g/mol ; ρ =1g/cm3 ; Na :23g/mol."
+  },
+  {
+    "id": "bac-c-2008-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "1 Un solénoïde comprend N=500 spires de section moyenne S= 15cm2, réparties\nrégulièrement sur une longueur l=40cm.\n1.1 Un courant continu d'intensité I=0,01A parcourt le fil conducteur. Donner les\ncaractéristiques (direction, sens, valeur) du vecteur champ magnétique crée à\nl'intérieur de la bobine. Faire un schéma sur lequel on\nprécisera le sens du courant et du champ magnétique. On\ndonne µ 0 = 4 π .10-7 u.S.I. 1.2Calculer le coefficient d'auto inductance de la bobine. 2 L'intensité du courant dévient nulle pendant ∆t=0,05s.\n2.1 Quelle est la variation du flux à travers le solénoïde,\npendant cet intervalle de temps? (0,5pt)\n2.2 Quelle est pendant la rupture du courant, la valeur\nmoyenne de la force électromotrice induite? (0,5pt)\n3 Les variations de l'intensité du courant en fonction du temps sont maintenant\nconformes aux indications du graphe (figure2).\nDéterminer les diverses valeurs prises par la force électromotrice d'auto-induction et\nreprésenter graphiquement ces variations en fonction du temps."
+  },
+  {
+    "id": "bac-c-2008-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "On réalise un circuit série comprenant une bobine d’\ninductance L et de résistance\nnégligeable, un condensateur de capacité C et un résistor de résistance R variable. On\nalimente ce circuit à l'aide d'un générateur délivrant une tension sinusoïdale de valeur,\nefficace U maintenue constante lors de toutes les\nexpériences.\nOn trace la courbe de résonance du circuit pour deux\nvaleurs de la résistance R (figure 3).\n− Pour R=R1, on obtient la courbe 1.\n− Pour R=R2, on obtient la courbe 2.\n1 Déterminer la fréquence No à la résonance\nd'intensité. En déduire l'inductance L de la bobine si\nla valeur de la capacité est 10 F. ( 1pt)\n2 Quelle est la courbe qui correspond à une résonance aiguë? A une résonance floue ?\nR\n3 Déterminer le rapport 1\nR\n2\n4 On fixe maintenant la fréquence du générateur à la\nvaleur N1=72Hz et la résistance du résistor à la valeur de\nR1. On branche, ensuite, aux bornes du circuit un\noscilloscope bicourbe de manière à visualiser :\n− Sur la voie A : la tension uG aux bornes du\ngénérateur.\n− Sur la voie B : la tension uR aux bornes du résistor\nde résistance R1. Les deux voies sont réglées avec les\nmêmes sensibilités horizontale et verticale. On observe\nalors les courbes C1 et C2 de la figure 4.\n4.1 Quelle est la nature du circuit? Laquelle des deux courbes correspond à\nuR1? Justifier. (1pt)\n4.2 Calculer le facteur de puissance du circuit.(0.5pt)\n4.3Déterminer les valeurs de R1, de R2 et de U.\n4.4 Calculer le facteur de qualité à la résonance d'intensité."
+  },
+  {
+    "id": "bac-c-2008-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "L'oxydation des ions iodure I- par l'eau oxygénée H202 est une réaction lente.\nOn donne les potentiels standards des couples redox:\n= E 0 55V et\n= E 1 77V .\nI I−\n2 / ,\nH O H O\n2 2 2 / ,\nA l'instant t=0, on mélange 3mL d'acide\nsulfurique de concentration 2mol/L avec\n9mL d'une solution d'iodure de potassium\nde concentration 10-1mol/L et 3mL d'eau\noxygénée de concentration l,25.10-1mol/L.\nA différents instants, on mesure les\nconcentrations du diiode formé pour\nreprésenter la courbe\n[l2] = f(t).\n1.Ecrire l'équation bilan de la réaction. (0,75pt)\n2.1 Calculer à t=0, les concentrations\ninitiales [I-]0 des ions iodure et [H2O2]0 de l'eau oxygénée. Préciser le réactif limitant.\n2.2 Définir la vitesse instantanée de formation du diiode. La calculer à l'instant\nt=200min. Comment varie la vitesse et quel est le facteur cinétique agissant ?\n3 Déterminer la concentration du diiode après un temps infini. On la représentera\nI\npar[ ]2\n.\n∞\nCe résultat est-il en accord avec la courbe ?\n4 Déterminer le temps de demi réaction t1/2."
+  },
+  {
+    "id": "bac-c-2008-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "Toutes les solutions sont prises à 25°C et le pKe=14\nEn dissolvant chacune des trois bases B1, B2 et B3 dans de l'eau pure, on prépare\nrespectivement trois solutions S1, S2 et S3 de concentrations initiales identiques\nC1=C2=C3. On oublie de coller une étiquette portant le nom de la solution sur chaque\nflacon. Seule l'une des bases correspond à une base forte (l'hydroxyde de sodium\nNaOH), chacune des deux autres étant une base faible.\nPour identifier chaque solution, on mesure son pH et on\nSolution S1 S2 S3\nporte les résultats dans le tableau ci-contre :\n1.1Classer les bases B1, B2 et B3 par ordre de force\ncroissant, justifier le choix adopté.\n1.2En déduire celle des trois bases qui correspond à NaOH. Déterminer la valeur de la\nconcentration de sa solution.\npH 11,1 13 10,6\n2.1 Exprimer le pKa d'une solution de base faible B en fonction de son pH, de sa\nconcentration initiale C et du pKe. B étant l'une des bases faibles utilisées dans\nl'expérience décrite ci-dessus. On supposera que suite à la dissolution la concentration\nde base restante est pratiquement égale à C.\n2.2Calculer le pKa de chacune des deux bases faibles.\n2.3 Identifier chacune des deux bases\nfaibles en utilisant la liste des valeurs\nde pKa de quelques bases consignées\ndans le tableau ci-contre :\nBase Morphine Ammoniac Ethylamine\npKa 8,2 9,22 10,7"
+  },
+  {
+    "id": "bac-c-2008-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "Un mobile de masse m=0,8kg se trouvant sur une table\nhorizontale est soumis à une force F constante et parallèle au\nsupport de valeur F=1N.\nLes forces de frottements équivalent à une force constante f parallèle à la vitesse et de\nsens opposé.\nOn enregistre les positions successives du mobile toutes les 60ms (voir\nl'enregistrement).\n1 Déterminer la vitesse du mobile aux points : A1 ; A2 ; A3 ; A4 ; A5 et A6. Donner les\nrésultats sous forme d'un tableau.\n2 On choisit comme origine des\ntemps l'instant de passage du mobile\npar le point A0. Représenter graphiquement la vitesse en fonction du temps.\nOn donne l'échelle : 1cm→60ms et 1cm→0.12m/s\n3 Déterminer la valeur de la force f en utilisant la relation fondamentale de la\ndynamique.\n4 Déterminer la valeur de cette force f en utilisant le théorème de l'énergie mécanique\nentre les points A1 et A6. "
+  },
+  {
+    "id": "bac-c-2008-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "Des particules pénètrent dans un champ magnétique après avoir été\naccélérées par un champ électrique à partir d'une vitesse\nnégligeable. Dans le carré PQRS de 5cm de coté, le champ\nmagnétique B orthogonal au plan du carré est constant d'intensité\n2,5T. A la sortie du champ électrique, les particules entrent en P\ndans le champ magnétique avec une vitesse o V colinéaire à PQ\n(voir fig).\n1 les particules sont des noyaux d'hélium He2+\n.\n1.1 Préciser le sens de B pour que les particules parviennent en R. Déterminer la\nnature de la trajectoire des particules entre P et R.\n1.2 Déterminer la valeur du vecteur vitesse 0\nV d'injection des particules en P dans le\nchamp magnétique et préciser les caractéristiques de leur vecteur vitesse au point R.\nCalculer la valeur de la tension accélératrice U nécessaire pour obtenir 0\nV . On\ndonne : 2\n-27\n=\nHe m 6, 64.10 kg+\n2 Les particules sont des noyaux de lithium Li+ mélange\nd'isotopes 6Li+ et7Li+de masses respectives m et m'. Les\nions entrent en P avec les vitesses respectives V et V'.\nLa tension accélératrice est U' = VP1 - VP2 régnant entre\ndeux plaques P1 et P2. (voir fig).\n'\nV m\n2.1 Etablir la relation\nV m= (1pt)\n'\n2.2 Les ions Li+ pénètrent en P dans un champ\nmagnétique uniforme '\nB orthogonal au plan du schéma\net parviennent dans la zone de réception indiquée sur la\nfig. Exprimer la distance MA entre les traces des deux\ntypes d'ions à leur arrivée dans la zone de réception en fonction deB’, m, m', U' et de\nla charge élémentaire e. Calculer MA.\nDonnées : U' = 104V;B' = 0,2T;m = 6x1,67.10-27kg; m' = 7x1,67.10-27kg et e = 1,6.10-19C"
+  },
+  {
+    "id": "bac-c-2008-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2008,
+    "filiere_id": "C",
+    "ennonce": "On relie l'extrémité O d'une lame vibrante à une corde tendue de longueur OO'=2m.\nLa lame vibrante subit des oscillations sinusoïdales verticales de fréquence N=100Hz\net d'amplitude a=3mm.\nCes vibrations se propagent le long de la corde avec une célérité c = 20m/s.\n1 Calculer la longueur de l'onde λ.\n2 Décrire le phénomène observé au moment où la corde est éclairée par un\nstroboscope dont les fréquences prennent les valeurs: Ne = 200 Hz ; Ne = 25 Hz ;\nNe = 50 Hz et Ne = 102 Hz.\n3 En considérant l'origine des temps l'instant où O passe par sa position d'équilibre\ndans le sens positif ; écrire l'équation horaire yO du mouvement de la source O et\ndonner l'élongation yM d'un point M situé à la distance x de la source O.\n4 Déterminer l'expression des abscisses des points qui vibrent en phase avec la source\nO, préciser leur nombre et la valeur de l'abscisse du point le plus proche de O.\n5 Mêmes questions pour les points qui vibrent en opposition de phase avec O.\n6 Représenter l'aspect de la corde à l'instant t = 0,03s."
+  },
+  {
+    "id": "bac-c-2009-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "L'acide acétylsalicylique couramment appelé l'aspirine est un antiseptique très utilisé.\nPour simplifier, l'acide acétylsalicylique de formule brute C9H7O4H sera cosigné par\nAH.\n1 Cet acide est obtenu par l'action du chlorure d'acétyle sur l'acide salicylique. On suit\nl'évolution de cette réaction totale permettant d'obtenir l'aspirine en fonction du temps et\non obtient la courbe ci-contre :\n1.3 Donner la définition de la\nvitesse instantanée de formation\nde l'aspirine et calculer sa valeur\nlorsque t=150min. (1pt)\n1.3 Définir le temps de la demi\nréaction et déterminer sa valeur. (1pt)\n2 On écrase un comprimé d'\n«Aspirine 500» puis on dissout la\npoudre obtenue dans de l'eau\ndistillée pour obtenir une solution\nS de volume Vs=100mL. On prélève un volume VA=10mL de la solution S que l'on\ndose avec une solution aqueuse d'hydroxyde de sodium de concentration molaire\nCB=2.10-2mol/L en présence d'indicateur coloré convenablement choisi. L'équivalence\nacido-basique est obtenue pour un volume VBE=13,9mL d'hydroxyde de sodium.\n2.1 Comment peut-on reconnaître l'équivalence en utilisant l'indicateur coloré ?\n2.2 Ecrire l'équation de la réaction du dosage.\n2.3 Calculer la concentration molaire CA de la solution S d'acide. En déduire la masse\nd'acide acétylsalicylique dans chaque comprimé."
+  },
+  {
+    "id": "bac-c-2009-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "La formule moléculaire d'un alcool A est C3H7OH.\n1 Quelle sont les formules semi développées possibles correspondantes à cette formule\n? Préciser leurs noms et leurs classes.(1pt)\n2 On oxyde l'alcool A par action d'une solution acide contenant des ions dichromates.\nOn observe que la solution devient verte.\nOn prélève la moitié de la solution verte et on ajoute de la DNPH (2,4-\ndinitrophénylhydrazine). On observe la formation d'un précipité jaune.\nIndiquer la fonction et la formule semi développée du corps B obtenu par la réaction\nd'oxydation de A, en envisageant chacune des possibilités.(1pt)\n3 Quelle expérience peut-on réaliser avec l'autre moitié de la solution verte pour\ndéterminer, parmi les deux possibilités, celle qui correspond au corps A?"
+  },
+  {
+    "id": "bac-c-2009-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "On considère un solide supposé ponctuel de masse m fixé à l'une des extrémités d'un\nressort à spires non jointives, de masse négligeable et de raideur K=40N/m, qui est\nenfilé sur une tige ; l'autre extrémité du ressort étant soudée en un point A. (fig1)\n1 On écarte le solide S de sa position d'équilibre d'une distance de 4cm et on\nl'abandonne sans vitesse initiale à un instant que l'on prendra pour origine des temps.\nLe mouvement de S sera étudié dans le repère\nd'axe Ox dont l'origine O coïncide avec la position\ndu centre d'inertie G du solide à l'équilibre.\n1.1 Etudier le mouvement du solide S et en déduire son\néquation différentielle.(1pt\n1.2 L'expression de l'accélération a du solide est donnée\nen fonction de l'abscisse x à un instant t par la relation a\n+ 400x=0.Déduire la valeur de la pulsation du\nmouvement. (0,5\n1.3 Déterminer l'équation horaire du mouvement du solide S. (1pt)\n2 On attache le solide S à une longue corde élastique qui pend librement. Lorsque le\nsolide S est animé du même mouvement rectiligne sinusoïdal précédent, une onde\ntransversale supposée sans amortissement ni réflexion se propage le long de la corde\nπ\navec une célérité /\nC m s\n= . (fig2)\n2\nOn considère les points P et Q de la corde situés respectivement à 12,5 cm et 37,5 cm\ndu centre d'inertie G (source des ondes).\n2.1 Calculer la longueur d'onde λ du mouvement vibratoire de la corde. (Prendre\nπ\n2=10)\n2.2 Comparer les mouvements de P et de Q entre eux puis avec celui de G."
+  },
+  {
+    "id": "bac-c-2009-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "Pour déterminer les caractéristiques d'une bobine de résistance r et\nd'inductance L, on réalise l'expérience suivante :\nOn relie les bornes de la bobine à un GBF délivrant une tension\nsinusoïdale de pulsation variable et de valeur efficace constante\nU=150V (fig1). La courbe de la figure 2 représente les variations du\ncarré de l'impédance (Z2) en fonction de 2\n.\n1 Trouver l'expression théorique de Z2 en fonction de 2. Montrer\nqu'elle est conforme à la relation obtenue à partir du graphe, (1pt)\n2 Déduire de ce qui précède la valeur de la résistance r de la bobine ainsi que celle de\nson inductance L (1pt)\n3 On donne à la pulsation la valeur ω= 50 rad s .\n3 /\n3.1Calculer l'intensité efficace du courant qui circule dans le\ncircuit. (0,5pt)\n3.2 On réalise un nouveau circuit en plaçant en série avec la\nbobine un condensateur de capacité C. Quelle est la valeur de\ncette capacité C pour que l'intensité efficace du courant\ncirculant soit maximale. Quelle est alors la valeur l0 de cette\nintensité ? (1pt)\n3.3Calculer alors la puissance moyenne électrique P0\nconsommée dans le nouveau circuit. 4 Montrer que lorsque la puissance moyenne électrique\nconsommée dans le nouveau circuit est la moitié de P0, l'intensité efficace est alors\nI\nI=\n0\n2"
+  },
+  {
+    "id": "bac-c-2009-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "1 On fait réagir l'acide éthanoïque A avec un alcool B, on obtient un composé\nC et de l'eau. Quel est le nom de la réaction ? Quelles sont ses caractéristiques\n2 Le composé C obtenu a pour formule C6H12O2. Déterminer les formules\nsemi-développées possibles des isomères du composé C qui ont la même\nfonction.Préciser le nom du composé correspondant à chaque formule. )\n3 Le composé B donne par oxydation ménagée un corps D qui donne un\nprécipité jaune avec la 2-4 D.N.P.II et qui ne réagit pas avec la liqueur de\nFehling.\n3.1 Donner la formule semi-développée, le nom et la classe de l'alcool B.\n3.2 Donner un isomère de position et un isomère de fonction de B en précisant\nle nom de chacun.\n3.3 En déduire la formule semi-développée et le nom de C."
+  },
+  {
+    "id": "bac-c-2009-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "Un litre de solution aqueuse a été obtenu en dissolvant dans l'eau une masse de\n5,92g d'un acide carboxylique R-COOH.\n1 Ecrire l'équation bilan de la réaction entre cet acide et l'eau.\n2 La solution a un pH de valeur 3, sachant que le pKa du couple acide-base est\n4,9; calculer:\n2.1 Le rapport entre la concentration de la forme basique du couple et celle\nde sa forme acide.\n2.2 Les concentrations molaires volumiques des espèces présentes dans la\nsolution.\n2.3 La concentration molaire volumique de cette solution.\n3 Préciser la formule semi développée et le nom de l'acide.\nOn donne: M(0)=16g /mol ; M(C)= 12g/mol ; M(H)=1g/moL"
+  },
+  {
+    "id": "bac-c-2009-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "1 Un skieur de masse m= 80kg est mis en mouvement, à\npartir de sa position de repos en O à l'aide d'un câble, sur\nune piste inclinée d'un angle α =30° par rapport à\nl'horizontale. La tension du câble est représentée par une\nforce F dont la droite d'action est parallèle à la ligne de\nplus grande pente (fig1).\nLes frottements exercés par la piste sur le skieur sont équivalents à une force f\nde valeur constante et de sens opposé au déplacement.\nLorsqu'il atteint la position A d'abscisse xA = 100m, le câble casse\n; l'énergie cinétique du skieur s'annule alors en C d'abscisse\nxC=120m. Un dispositif de mesure approprié permet de tracer le\ndiagramme de l'énergie cinétique Ec du skieur en fonction de\nl'abscisse x de son centre d'inertie par rapport au repère x'x\nd'origine O (figure 2).\n1.1Enoncer le théorème de l'énergie cinétique. (0,5pt)\n1.2En appliquant le théorème de l'énergie cinétique au système {skieur} :\n1.2.1 Donner l'expression de l'énergie cinétique Ec en fonction de x, m, g, f, F\net α, dans l'intervalle [0 ; 100m].\n1.2.2 Donner l'expression de cette énergie cinétique EC en fonction de x, m, g,\nf et α, dans l'intervalle [100m ; 120m].\n1.3 En déduire les valeurs de f et F.\n1. 2 Une fois arrivée en C, préciser en le justifiant que le skieur se maintient en\néquilibre. Déterminer alors les caractéristiques de la réaction totale R exercée\npar la piste sur le skieur au point C.\n3 En appliquant le théorème de l'énergie mécanique au système {skieur+terre}\ndéterminer la valeur Epp(0) de l'énergie potentielle de pesanteur au point O.\nOn supposera nulle l'énergie mécanique de ce système en C. "
+  },
+  {
+    "id": "bac-c-2009-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "On dispose d'un dispositif d'interférence constitué de deux sources S1 et S2 et\nd'un écran E d'observation placé\nperpendiculairement à la trajectoire moyenne\nde la lumière et situé à la distance D=2,5m\ndu plan des sources.\n1 On éclaire le dispositif à l'aide d'une source\nS qui émet une lumière monochromatique de\nlongueur d'onde λ = 0,6µm.\n1.1 On observe la distance S1S2 à partir du\ncentre O de l'écran sous l'angle =8.10-4 rad\n(voir figure). Calculer la distance a = S1S2. (1pt)\n1.2 Calculer l'interfrange i du phénomène d'interférence et préciser la nature\ndes franges dont les milieux sont situés aux points d'abscisses respectives x1\n= 4,5mm et x2 = 6mm. (1pt)\n1.3 Trouver l'expression de la différence de marche δ.(1pt)\n2 La source S émet simultanément deux radiations de longueurs d'onde λ1=\n0,42µm et λ2= 0,63µm. A quelle distance du milieu de la frange centrale\nobserve-t-on la 1ère coïncidence entre les franges brillantes des deux\nradiations?"
+  },
+  {
+    "id": "bac-c-2009-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2009,
+    "filiere_id": "C",
+    "ennonce": "Une spire carrée ABCD de côté 10 cm est placée\ndans un champ magnétique uniforme B (figure 1)\ndont la norme varie en fonction du temps comme\nl'indique le graphe 1.\n1.1 Déterminer le sens du courant induit qui\napparaît dans la spire. (0,75pt)\n1.2 Quelle est l'intensité du courant induit pour t>2s. (0,5pt)\nLa spire précédente est connectée aux bornes d'un oscillographe\ncomme l'indique la figure (2)\n2.Le champ magnétique varie périodiquement\navec le temps comme l'indique le graphe 2\n2.1 Que visualise l'oscilloscope ?(0,5pt)\n2.2 Trouver, en fonction du temps, l'expression du flux\nmagnétique à travers la spire dans une période. En déduire les\nvaleurs de la f.e.m induite e dans cette période.\nReprésenter la courbe e =f(t)."
+  },
+  {
+    "id": "bac-c-2010-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "Considérons deux conducteurs parallèles formant\nun \"rail de Laplace\" sur lequel peut se déplacer une\nbarre mobile conductrice MN selon le schéma ci-\ndessous. Le générateur G a une f.é.m E = 5 V et\nune résistance interne r = 5 Ω, la barre MN de\nlongueur totale L = 0,2 m a une résistance\nnégligeable ; elle crée un court-circuit en refermant\nle circuit entre les deux rails dont la résistance est également négligeable. On place\nMN dans l'entrefer d'un aimant en U de largeur l = 6 cm où règne un champ\nmagnétique uniforme de norme B=0.2T.\n1 Expliquez comment on doit placer l'aimant en U pour obtenir un champ magnétique\nB perpendiculaire au plan du schéma (ou des rails) et dirigé vers le haut tel qu'il est\nreprésenté sur le schéma.\n2 Déterminez le sens et l'intensité du courant dans la barre MN.\n3 Déterminez en direction, sens et grandeur la force de Laplace agissant sur la barre\nMN. (Aidez vous d'un schéma représentant les vecteurs significatifs).\n4 La barre MN se déplace à vitesse constante dans le champ magnétique sur une\nlongueur de 8 cm dans le sens imposé par la force de Laplace. Déterminer le flux à\ntravers la surface balayée par la barre.(0,5pt)\n5 Quelle est alors la force électromotrice induite dans le circuit si le parcours\na lieu en 1 ms?"
+  },
+  {
+    "id": "bac-c-2010-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "1 Une bobine sans noyau de fer est formée de 2000 spires de 6cm de diamètre,\nréparties uniformément sur une longueur de 40 cm. Cette bobine est placée en série\navec un condensateur de capacité réglable (boite de condensateur) une résistance R\n=60Ω et un milliampèremètre de résistance négligeable. L'ensemble est branché aux\nbornes d'une prise de courant alternatif sinusoïdal de fréquence 50Hz, de tension\nefficace 120V. L'intensité efficace passe par un maximum 1,5A pour C=318µF. On\ndemande :\n1.1 La valeur théorique de l'inductance de la bobine. On donne : 0=4π.10-7S.I.\n1.2 La valeur de cette inductance déduite des résultats de l'expérience, expliquer le\nsens de la différence entre les deux valeurs trouvées.\n1.3 La valeur de la résistance R' de la bobine.\n2 On considère maintenant une bobine dont on ne connaît ni la résistance R ni\nl'inductance L. On se propose de déterminer ces deux grandeurs. Pour cela on réalise\nle montage suivant : entre deux bornes A et B d'une prise de courant alternatif\nsinusoïdal, on branche en série, dans l'ordre une résistance connue r = 25 Ω et la\nbobine à étudier. On appelle C le point de connexion de la résistance à la bobine.\nOn dispose alors de trois voltmètres : V entre les bornes A et B ; V1 entre A et C et V2\nentre C et B. Ils indiquent respectivement les valeurs efficaces : U=110V, U1=45,5V et\nU2=80V des trois tensions :\nU = VA - VB ; u1=VA - Vc et u2=VC - VB\nOn appelle i la valeur instantanée de l'intensité du courant de fréquence f =50Hz.\n2.1 Faire le schéma du montage.(0,5pt)\n2.2 Construire le diagramme de Fresnel relatif à cette expérience représentant les\ntrois tensions u1, u2 et u.(0,5pt)\n2.3 Calculer l'impédance de la bobine.(0,5pt)\n2.4 Déterminer la phase de u2 par rapport à i.(0,5pt)\n2.5 Calculer les valeurs des grandeurs R et L.(0,5pt)\n2.6 Calculer la puissance moyenne consommée dans le circuit."
+  },
+  {
+    "id": "bac-c-2010-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "1 L'extrémité O d'une lame vibrante décrit un mouvement rectiligne sinusoïdal vertical\nde fréquence N=50Hz et d'amplitude a=0,5cm.\n1.1 Donner son équation horaire sachant que l'on prend t=0 quand la lame passe par la\nposition d'élongation maximale positive.(1pt)\n1.2 On éclaire la lame à l'aide d'éclairs très brefs, jaillissant à intervalles de temps\négaux. Calculer les fréquences des éclairs pour lesquelles la lame parait unique et\nimmobile, sachant que les fréquences des éclaires Ne sont telles que : 10Hz < Ne <\n50Hz.(1pt)\n2 La lame vibrante est maintenant reliée à un fil où les vibrations se propagent à la\ncélérité C=5m/s.\nOn suppose qu'il n'y a pas de réflexion ni amortissement des ondes.\n2.1 Calculer la longueur d'onde λ .(0,5pt)\n2.2 Etablir l'équation de la vibration d'un point M de la corde situé à la distance\n22,5cm du point O. (1pt)\n2.3 Quelle est l'état vibratoire du point M par rapport au point O ?"
+  },
+  {
+    "id": "bac-c-2010-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "1 Les valeurs des potentiels standards des couples d'oxydo-réduction sont\nrespectivement\n0\n= E 0 54V et\n0\nI I−\n2\n/ ,\nH O /H O E l,77V=\n2 2 2\nL'équation de la réaction d'oxydation des ions iodure en diiode par le peroxyde\nd'hydrogène ou eau oxygénée, s'écrit : − + + + → + 2 2 3 2 2 H 0 2I 2H 0 I 4H 0\n1.1 Ecrire les demi-équations d'oxydoréduction correspondant aux deux couples\nenvisagés. (1pt)\n1.2 A l'instant t=0, on mélange 10mL d'une solution d'iodure de potassium de\nconcentration 0,10 mol/L, 10 mL d'une solution d'acide sulfurique de concentration\nen ion H30+ égale 1mol/L, 8 mL d'eau et 2,0mL d'eau oxygénée de concentration\nmolaire 0,10mol/L.\nCalculer en moles, pour t=0, les\nquantités de matières de I-, H202 et H30+\nEn déduire le réactif limitant.(1pt)\n1.3 Calculer la concentration maximale\n[l2 ] produite par la réaction."
+  },
+  {
+    "id": "bac-c-2010-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "1 Donner les noms des composés suivants et préciser leurs fonctions :\n(A) CH3-CH(CH3)-CHO ; (B) : CH3-CH(CH3)-COOH ; (C) :CH3-CH2COCl ;\n(D) : CH3-CH(OH)-CH2-CH3 2 L'oxydation ménagée du composé D par une solution de permanganate de\nn M O potassium ( )4\n− + +\nK conduit à un corps organique qui réagit positivement\navec la DNPH mais ne réagit pas avec la liqueur de Fehling.\n2.1 Ecrire les équations électroniques correspondantes, en déduire l'équation\nbilan.\n2.2 Préciser le nom et la fonction du composé organique obtenu. (1pt)\n2 Le diiode formé étant coloré, sa concentration est mesurée par une méthode optique\ngrâce à un pectrophotomètre. On trace la courbe de la variation de la concentration\nmolaire du diiode à différentes dates (voir courbe ci-contre).\n2.1 Quelle est la concentration du diiode au bout d'un temps très long? Est-elle\nconforme au résultat obtenu précédemment?\n2.2 Calculer la vitesse de formation du diiode à la date t=30min ; en déduire la vitesse\nde disparition des ions iodure."
+  },
+  {
+    "id": "bac-c-2010-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "On néglige le champ magnétique terrestre et on donne : 7\nµ = π\n0 4 .10 S.I−\nOn considère une bobine de longueur l=50 cm comprenant N=1000 spires de rayon\nmoyen r=l cm.\n1. La bobine est traversée par un courant d'intensité\nI. L'intensité Bb du vecteur champ magnétique au\ncentre de cette bobine est 10-2T.\n1-1 Calculer l'intensité du courant I.\n1-2 Indiquer par un schéma clair comment se\nplacerait une aiguille aimantée au centre de la\nbobine en choisissant un sens de parcours du\ncourant.\n2. Un aimant droit situé dans le plan horizontal est\nplacé perpendiculairement à l'axe de la bobine horizontale, toujours traversée par le\nmême courant.\n2.1 Reproduire le schéma en représentant au centre de la bobine les vecteurs champs\nmagnétiques a\nB (de valeur Ba= 1,5.10-2T) crée par l'aimant droit et b\nB crée par la\nbobine.\n2.2 Préciser l'angle α que fait l'aiguille avec sa postions initiale. Quelle est l'intensité\nBt du champ résultant ?\n3 La bobine est maintenant en circuit ouvert. Dans le champ magnétique supposé\nuniforme horizontal a\nB , un dispositif approprié permet de faire tourner librement la\nbobine autour d'un axe vertical passant par son centre avec une vitesse angulaire\nconstante ω = 4π rad/ s.\nA l'instant t=0, l'axe de la bobine et a\nB sont parallèles. La normale aux spires étant\norientée dans le sens de a\nB , calculer le flux 0\nΦ de la bobine.\nA une date t quelconque, la bobine a tourné de l'angle ϑ= ω t. Montrer que\nl'expression du flux ( )\nΦ t à travers la bobine est ( ) t NBScos t\nΦ = ω . Le calculer à la\ndate t=0,25s."
+  },
+  {
+    "id": "bac-c-2010-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "Le Polonium 210 est un élément radioactif rare de symbole Po. Son numéro atomique\nest 84. Cet élément constitue une source de radiations (α ). Les notations α et\n4\n2 He sont équivalentes.\nLe tableau ci-contre est un extrait de la classification périodique des éléments\nt (jours) 0 40 80 120 160 200 240\nN(t) / N0 1 0,82 0,67 0,55 0,45 0,37 0,30\n– ln [N(t) / N0]\n2.1 Qu'est-ce qu'un noyau radioactif?\n2.2 Quelle est la composition du noyau de Polonium 210?\n2.3 Ecrire l'équation traduisant la désintégration de ce\nnoyau.(0,5pt) 2 Soit N(t) le nombre de noyaux\nradioactifs d'un échantillon de Polonium, non\nSymbole N°\natomique\nTh 81 Pb 82 Bi 83 Po\n84\ndésintégrés à la date t.\nA t = 0 on note N0 le nombre de noyaux radioactifs initial.\nUn détecteur de radioactivité α associé à un compteur à affichage numérique permet\nd'effectuer les mesures regroupées dans le tableau ci desous\n2.7 Compléter la ligne 3 du tableau .\n2.8 Tracer la courbe f(t) = - ln [N(t)/N0] en respectant l'échelle :\nen abscisse : 1 cm représente 20 jours et en ordonnées : 1 cm représente 0,1.\n2.9 On rappelle la loi de décroissance du nombre de noyaux non désintégrés d'un\néchantillon contenant\ninitialement N0 noyaux : t\n0 N N e−λ\n= .Cette loi est-elle en accord avec la représentation\ngraphique précédente ? Justifier la réponse.\n2.10 Calculer la pente du graphe et déterminer λ constante de radioactivité caractéristique du\nPolonium 210."
+  },
+  {
+    "id": "bac-c-2010-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2010,
+    "filiere_id": "C",
+    "ennonce": "Dans toute la suite on se place dans le cas où les frottements sont négligeables.\n1 Un oscillateur est constitué d'un solide S de masse m = 100 g,\naccroché à un ressort à spires non jointives de constante de raideur k.\nLa position du centre d'inertie G du solide est repérée par son abscisse\nx dans le repère ( ), 0 i (voir le schéma 1).\n2 A l'équilibre, le centre d'inertie G\ncoïncide avec l'origine O du repère. On\nréalise l'enregistrement du schéma 2\n1.1 En appliquant la RFD, établir\nl'équation différentielle du mouvement\ndu centre d'inertie G du solide S . (0,75pt)\n1.2 La solution analytique de l'équation différentielle est de la forme :\nπ\n2 t x = xmcos( + ) T\nϕ\n0\nComment nomme-t-on les constantes xm et ϕ ? Déterminer leurs valeurs à partir de\nl'enregistrement de la courbe 1 (Schéma2).\n1.3 Déterminer la période propre T0 de l'oscillateur en utilisant la courbe 1.\n1.4 Déterminer l'expression de la période propre T0.\nEn déduire la valeur numérique de la constante de raideur k du ressort.\n2 On étudie maintenant les différentes formes d'énergie de cet oscillateur.\n2.1 Exprimer pour le système (ressort-solide S) à une date t, l'énergie potentielle\nélastique Ep et l'énergie cinétique Ec. En déduire l'expression de l'énergie mécanique E\nen fonction de k, m, x et v. (0,75pt)\n2.2 Montrer que cette énergie mécanique est constante au cours du mouvement. La\ncalculer à t = 0.\nEn déduire la vitesse de S au passage par sa position d'équilibre.\n2.3 Les figures données sur le schéma ci contre représentent les variations au cours du temps des différentes énergies E, Ep et Ec.\nCompléter le schéma en identifiant chacune des courbes. Justifier."
+  },
+  {
+    "id": "bac-c-2011-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "1 On dispose d'une solution d'acide chlorhydrique de pH=2,1 obtenue en dissolvant un\nvolume gazeux V de chlorure d'hydrogène.\nEcrire l'équation de la réaction de dissolution du chlorure d'hydrogène dans l'eau.\nDéterminer la quantité n, d’ions hydronium (oxonium) présents dans 1 L de solution.\nCalculer le volume V de gaz dissout. volume molaire : Vm=24 L/mol.\n2 On considère d'autre part 1 L de solution d'acide éthanoïque dont le pH vaut 2,9,\nobtenue en dissolvant 0,1 mol d'acide éthanoïque dans un litre de solution. On notera\nC1 la concentration de cette solution.\nDéterminer la quantité n1, d’ions hydronium présents dans 10m L de la solution et\nécrire l'équation qui traduit la réaction de l'acide éthanoïque avec l'eau.\n3 On dilue 10mL de la solution d'acide éthanoïque de concentration C1 pour obtenir\n100 mL d'une solution de concentration molaire C2 = 0,01 mol/L.\n3.1 Indiquer les opérations à réaliser pour faire cette dilution.\n3.2 Le pH de la solution diluée est 3,4. Déterminer la quantité n2 d'ions hydronium\nprésents dans cette solution diluée. Comparer n1 et n2 et conclure quant à l'effet d'une\ndilution.\n3.3 Si on effectuait la même dilution sur la solution d'acide chlorhydrique de pH=2,1,\nquel serait le pH de la solution diluée ?"
+  },
+  {
+    "id": "bac-c-2011-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Un solide S de masse m=400g, abandonné sans\nvitesse initiale, glisse sur un plan incliné d’un angle \u0000\npar rapport au plan horizontal. Il part du point O sans\nvitesse initiale et passe entre deux cellules\nphotoélectriqueA et C. Un index I solidaire du solide\nfig1\nS, déclenche un chronomètre au passage en A et l’arrête en C.\nLa durée enregistrée par le chronomètre est \u0000t=0,05s.\nOn pourra considérer que la mesure de la vitesse entre A et C\npermet de connaître avec une bonne précision la vitesse\ninstantanée en B milieu de AC (voir fig1).\nOn donne OB=1m ; AC=0,1m, MN=2m ; MH=0,6m.\n1 Calculer l’angle α.\n2.1 Calculer la variation de l’énergie cinétique du solide entre\nOet B puis la somme des travaux des forces appliquées en\nnégligeant les frottements.\n2.2 Que peut-on affirmer à propos de ce résultat.\n3 Par application du théorème de l’énergie cinétique, en déduire la valeur de la force\nde frottement que l’on supposera constante et parallèle à la ligne de plus grande pente\ndu plan incliné. (0,5pt)\n4 Sur la figure 2 on donne la représentation graphique de l’énergie mécanique E du\nsystème {solide, terre} en fonction de x.\n4.1 Déterminer graphiquement l’expression de E en fonction de x; la retrouver\nthéoriquement.(1pt)\n4.2 En déduire la position du plan de référence des énergies potentielles de pesanteur\npar rapport au point O.\n4.3 Etablir les expressions analytiques de l’énergie potentielle EP et de l’énergie\ncinétique EC en fonction de x. En déduire la position où l’on a\nEC = EP."
+  },
+  {
+    "id": "bac-c-2011-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Un générateur de courant alternatif sinusoïdal, à fréquence variable maintient entre les\nbornes M et N d’un circuit série une tension efficace constante UMN=120V. Ce circuit\ncomprend un conducteur de résistance R, une bobine d’inductance L de résistance\nnégligeable et un condensateur de capacité C.\nLa pulsation du courant étant fixée à la valeur ω , on mesure les grandeurs efficaces\nsuivantes :I=0,8A; UMP=72V ; UPQ=32V.\n1 Calculer la résistance R et l’impédance ZL de la bobine.\n2 Sachant que l’impédance du condensateur est supérieure à celle de la bobine ;\ncalculer:\n2.1 La tension UQN aux bornes du condensateur et l’impédance de ce condensateur.\n2.2 Le déphasage de la tension d’alimentation par rapport au courant.\n2.3 La puissance moyenne consommée par ce circuit R.L.C.\n3 Sachant qu’un courant de pulsation ω o=103 rad/s est en phase avec la tension uMN\naux bornes du circuit ; calculer la pulsation ω du courant utilisé, l_inductance L et la\ncapacité C."
+  },
+  {
+    "id": "bac-c-2011-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "On fait réagir un ester E, de formule brute C6H12O2 sur l’eau et on obtient un composé\nA et un composé B.\n• En présence de A seul, la solution de permanganate de potassium en milieu\nacide reste violette.\n• En présence de B seul, la solution de permanganate de potassium en milieu\nacide se décolore et il apparaît dans le milieu un nouveau composé organique C.\n• C donne un précipité jaune avec la 2,4-dinitrophénylhydrazine (DNPH) mais ne\nréagit pas avec la liqueur de Fehling.\n1 Indiquer les fonctions chimiques de A, B et C. Justifier.\n2 On prépare une solution aqueuse de 3g de A. Cette solution est acide. Il faut y\najouter 100 mL de solution d’hydroxyde de sodium de concentration 0,5 mol/L pour\nobtenir l’équivalence acido-basique. En déduire la masse molaire moléculaire, la\nformule brute, la formule semi-développée et le nom de A.\n3 Quelle est alors la formule semi-développée et le nom de B ?\n4 Donner la formule semi-développée et le nom de E.\n5 Ecrire l’équation-bilan correspondant à l’hydrolyse de E.\nDonnées : C : 12 g/mol O: 16 g/mol H: 1 g /mol"
+  },
+  {
+    "id": "bac-c-2011-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "1. Identification d'un indicateur coloré.\nOn dispose d'un flacon d'indicateur coloré avec comme seule indication sa\nconcentration molaire : C0 = 2,9.10-4 mol.L-1. On mesure son pH et on trouve pH=\n4,18.\nLe couple acide/base présent dans cet indicateur coloré sera noté HInd/Ind–\n.\nLa solution d'indicateur coloré a été préparée à partir de la forme acide de l'indicateur:\nHInd.\nL'équation de la réaction entre HInd et l'eau est :\nHInd + H2O Ind– + H3O+\n1.1 Cet acide est-il totalement dissocié dans l'eau ? Justifier votre réponse.\n1.2 Les valeurs des concentrations à l'équilibre permettent de calculer la constante\nd'acidité de la réaction: KA=1,9.10-5. Calculer le pKA du couple Hind/Ind– et identifier\nl'indicateur à l'aide des données du tableau suivant :\nZone de virage Couleur basique 3,1 – 4,4 Indicateur Couleur acide pKA\nHélianthine Jaune orangé rouge 3,7\nVert de Bromocrésol jaune 3,8 – 5,4 bleu 4,7\nBleu de\nBromothymol jaune 6,0 – 7,6 bleu 7,0\nPhénolphtaléine incolore 8,2 – 10,0 violet 9,4\n2. Dosage d'une solution d'acide chlorhydrique concentrée.\nDans le laboratoire d'un lycée, on dispose d'un flacon d'une solution d'acide\nchlorhydrique concentrée où est notée sur l'étiquette l'indication suivante :\n33% minimum en masse d'acide chlorhydrique.\nOn appellera cette solution S0. Pour connaître la concentration molaire C0 de cette\nsolution S0, on la dilue d’abord 1000 fois. On obtient ainsi une solution S1 de\nconcentration C1.\nPuis on prélève précisément un volume V1=100,0 mL de la solution S1, qu’on dose par\nune solution titrante d'hydroxyde de sodium de concentration\nCB= 1,00.10-1 mol.L-1\n.\n2.1 On ajoute un volume VE = 11,2 mL de la solution d'hydroxyde de sodium à la\nsolution S1 pour atteindre l’équivalence. Écrire l'équation de la réaction acido-basique.\n2.2 A l'équivalence, écrire la relation existant entre C1, CB, VE et V1 et calculer la\nconcentration molaire C1 de la solution d'acide chlorhydrique diluée S1. En déduire la\nconcentration molaire C0 de la solution d'ac"
+  },
+  {
+    "id": "bac-c-2011-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Autour de la planète Jupiter gravitent des satellites naturels. On considère que chaque\nsatellite de masse m n’est soumis qu’à la seule force gravitationnelle de la part de\nJupiter de masse M et que les astres ont une répartition de masse à symétrie sphérique.\nOn note r le rayon de la trajectoire circulaire décrite par les satellites autour de Jupiter.\nr représente la distance entre le centre de Jupiter et le centre du satellite étudié. G\nreprésente la constante universelle de gravitation.\n1.Donner l’expression vectorielle de la force de gravitation exercée par Jupiter sur un\nsatellite. Représenter cette force sur un schéma.\n2.Montrer qu’un satellite est animé d'un mouvement uniforme et exprimer sa vitesse.\n3.Choisir parmi les quatre propositions ci-dessous celle qui correspond au satellite le\nplus rapide. Justifier.\n-le plus proche de Jupiter\n-le plus loin de Jupiter \n-le plus léger\n-le plus lourd\n4.À partir de l'expression de la vitesse, établir l’expression de la\npériode de révolution T d’un satellite autour de Jupiter en fonction\nde r et des grandeurs de l’exercice.\n5.Établir la troisième loi de Kepler :\n6.L’étude des mouvements des satellites de Jupiter permet de\ndéterminer la période et le rayon de l’orbite de chaque satellite. Sur le graphe ci-\ncontre, on a représenté pour chaque satellite, les valeurs des couples (r 3, T 2).\n6.1 En observant ce graphe, pourquoi peut-on dire que la troisième loi de Kepler est\nvérifiée ?\n6.2 L’équation de la meilleure droite passant par les points obtenus est :\nT 2 = 3. 10 -16 r 3. En déduire la grandeur de la masse de Jupiter.\nOn prend π ² = 10 et G = 1 .10 -10 SI."
+  },
+  {
+    "id": "bac-c-2011-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Les frottements et les phénomènes d’induction sont négligeables et on prendra\ng=10m/s².\nUn conducteur MN de masse m=40g et de longueur L=MN=20cm, peut glisser sur des\nrails parallèles tout en leur restant perpendiculaire.\nL’ensemble est plongé dans un champ magnétique\nuniforme et vertical , orienté vers le haut.\nUn générateur, lié aux rails, permet de faire passer\ndans le conducteur un courant d’intensité I=10A.\n1 On attache au milieu O du conducteur un fil de\nmasse négligeable qui passe sur la gorge d’une poulie\nP et qui supporte en sa deuxième extrémité un solide\nS de masse M=100g. Le système abandonné à lui-\nmême est alors en équilibre lorsque . Fig1\n1.1 Le plan des rails étant horizontal.\n1.1.1 Déterminer les caractéristiques de la force\nelectromagnétique exercée sur le conducteur MN.\nEn déduire le sens du courant dans le conducteur MN.\n1.1.2 Calculer l’intensité B du champ magnétique .\n1.1.3On incline le plan des rails d’un angle α =30° par\nrapport au plan horizontal. (Voir fig2). Quelle intensité\ndoit avoir le champ magnétique pour que le conducteur\nMN puisse rester en équilibre sur les rails ?\n2.On supprime le solide S et le fil puis on inverse le\nsens du courant, le plan des rails est maintenu\nhorizontal. Le conducteur MN est initialement au\nrepos en un point O et le champ magnétique s’étend\nsur une distance OA=16cm voir fig 3.\nOn donne : B=0,5T et I=10A.\n2.1Déterminer la nature du mouvement du conducteur\nMN entre O et A et calculer son accélération.\n2.2Calculer sa vitesse au point A.\n2.3Quelle durée doit mettre le conducteur pour parcourir la distance OC=21,64cm ; C\nétant situé sur la droite (OA) ?"
+  },
+  {
+    "id": "bac-c-2011-sc-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2011,
+    "filiere_id": "C",
+    "ennonce": "Un dispositif interférentiel comporte deux sources lumineuses S1 et S2 ponctuelles\némettant en concordance de phase une radiation monochromatique de longueur d’onde\nλ . La distance entre S1 et S2 est\na = 2mm. On place un écran E parallèle au plan formé par S1 et S2 à une distance D de\nce dernier.\n1 Pour D=D1 l’interfrange du système d’interférences obtenue est i1=0,54mm.\nLorsqu’on augmente D de 0,5m l’interfrange devient i2=0,72mm.\n1.1Rappeler la définition de l’interfrange.\n1.2Déduire des données la valeur de D1 et celle de λ .\n2.On fixe D à 2m ; les faisceaux issus de S1 et S2 ont chacun pour angle d’ouverture\nα =0,008rad et les bords des faisceaux sont parallèles deux à deux.\n2.1Représenter les faisceaux émis et hachurer le champ d’interférences. Déterminer la\nlargeur l du champ d’interférences.\n2.2Déterminer le nombre de franges brillantes et celui de franges sombres sur l’écran.\n3.Les sources S1 et S2 émettent à présent en plus de la radiation précédente une autre\nradiation λ’ = 0, 64 µm.\nA quelle distance de la frange centrale observe-t-on la première coïncidence entre\nles milieux des franges brillantes ?"
+  },
+  {
+    "id": "bac-c-2012-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "1 Une bobine S de résistance r, d’auto-inductance L et de diamètre 2cm,\ncomprend 1000 spires. Elle est branchée aux bornes d’un générateur de\nf.e.m E=20Vet de résistance intérieure négligeable (voir fig1).\nOn ferme l’interrupteur K à l’instant t=0 et on enregistre à l’oscillographe la\nreprésentation graphique i=f(t)\nCette courbe présente une tangente à l’instant t=0 dont la valeur du coefficient\ndirecteur est 40 dans les unités S.I.\n1.1 A l’aide de la représentation graphique, préciser comment varie qualitativement la\nf.e.m d’auto-induction e.\n1.2 Donner l’équation différentielle donnant i(t).\n1.3 Déterminer, à l’instant de la fermeture, lorsque l’intensité est encore pratiquement\nnulle, la valeur de la f.e.m d’auto-induction e. En déduire l’auto-inductance L de la\nbobine.\n3. Dans le cas où t>0,2s.\n2.1 Quelle est la valeur de la f.e.m d’auto-induction e ? En déduire la résistance r de la\nbobine.\n2.2Calculer le champ magnétique à l’intérieur de la bobine (solénoïde).\nOn prendra 2 10\nπ =\n2.3A l’intérieur de la bobine S est placé une petite bobine S’ comportant 800 spires\ndont chacune a une section S’=2cm2.Les deux bobines ont le même axe ∆ horizontal.\n2.3.1 Quelle est la valeur du flux du champ magnétique à\nl’intérieur de la bobine S’?\n2.3.2 On fait décroître l’intensité du courant I de I=2A à I=0 en 0,2s\nselon une fonction affine du temps. Quelle est la f.e.m induite dans\nS’ ? Préciser sur un schéma, le sens de , de I et du courant induit i\nqui traverse S’ si on réunit ses deux extrémités.\n2.3.3 On rétablit dans la bobine S le courant I=2A et on imprime à S’un mouvement de\nrotation uniforme de vitesse angulaire ω =10rad/s autour de l_axe D vertical passant par\nson centre. Donner l’expression du flux magnétique à travers S_ et celle de la f.e.m\nd’induction. Calculer la valeur maximale de cette f.e.m."
+  },
+  {
+    "id": "bac-c-2012-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "On veut étudier la réponse en intensité d’un circuit RLC série soumis à une tension\nsinusoïdale.\nLe circuit électrique comprend, montés en série :\n• Un générateur basse fréquence imposant entre ses bornes une\ntension :u=Umcos(ω t).\n• Un résistor de résistance R=42 Ω .\n• Une bobine d’inductance L=0,4H de résistance r inconnue.\n• Un condensateur de capacité C=10 µ F. On prendra 2 10\nπ =\n.\n1. On veut visualiser sur l’écran d’un oscilloscope : en voie A, la tension u aux bornes\ndu générateur et en voie B, la tension uR aux bornes du résistor R.\nDessiner le schéma du circuit en plaçant les connexions à réaliser entre le circuit et\nl’oscilloscope.\n2 .On observe l’oscillogramme représenté sur la figure. Les réglages des sensibilités\nverticale et horizontale sont :\nVoie A :2V/cm ; Voie B : 500mV/cm ; balayage : 2ms/cm.\n2.1 Déterminer Um, ω et la fréquence N de la tension excitatrice.\n2.2 Mesurer le décalage horaire ∆ t entre les deux tensions u et uR.\n2.3Dire si u est en retard ou en avance sur uR. Justifier.\n2.4 Donner l’expression de uR en fonction du temps.\n2.5 En déduire l’expression de l’intensité instantanée i (t).\n3 Calculer l’impédance de la portion du circuit extérieure au\ngénérateur. En déduire la résistance r de la bobine.\n4 On augmente progressivement la fréquence de la tension u tout en maintenant\nconstante sa valeur maximale. On observe que le décalage t\n∆ entre u et uR\ndiminue jusqu’à s’annuler pour une valeur N0 de la fréquence, l’amplitude de la\ntension uR est alors maximale.\n4.1Comment appelle-t-on le phénomène observé ? Calculer N0.\n4.2 Calculer la valeur de l’intensité maximale Im quand N=N0.\n5 Préciser si u est en avance de phase ou en retard de phase ou en phase sur uR pour les\ncas :\n• N=N0\n• N<N0\n• N>N0"
+  },
+  {
+    "id": "bac-c-2012-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "Le 2-méthyl-butanoate d'’éthyle est un ester qui se développe dans les pommes lors de\nleur murissement. A partir de pommes mures, on a pu extraire une certaine quantité de\ncet ester pur.\n1 Donner la formule semi développée de cet ester.\n2 Donner les noms et les formules semi développées de l’ester isomère de cet ester\nprovenant du même alcool.\n3 Indiquer les noms et les formules semi développées de l’acide carboxylique et de\nl’alcool nécessaire à la synthèse de cet ester.\n4 Ecrire l’équation bilan de la réaction de l’hydrolyse de cet ester.\n5 L’objectif de cette hydrolyse est d’obtenir une quantité importante d’acide\ncarboxylique à partir de l’ester recueilli.\n5.1 Indiquer une technique permettant d’atteindre cet objectif.\n5.2 Comment peut-on accroitre la rapidité de la réaction d’hydrolyse ?"
+  },
+  {
+    "id": "bac-c-2012-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "Les solutions aqueuses étudiées sont à la\ntempérature 25°C.\nOn introduit 7,4g d’un acide carboxylique dans\nl’eau pour obtenir 1litre de solution. On place\ndans un bécher 20mL de la solution d’acide\npréparée que l’on dose par une solution\nd’hydroxyde de sodium de concentration\nmolaire CB=0,1mol/L. On obtient la courbe\npH=f(VB ).\n1 De la courbe, déterminer à l’équivalence le\nvolume VE de soude versé et le pH correspondant.\n2 Déduire:\n2.1 Une valeur approchée de la concentration initiale CA de la solution d’acide.\n2.2 La masse molaire, la formule chimique et le nom de l’acide.\n2.3 Lorsque le volume de soude versé est égal à 2mL, calculer la concentration des\ndiverses espèces présentes dans le bécher.\nDonnées : C :12g/mol ; H:1g/mol ; O:16g/mol."
+  },
+  {
+    "id": "bac-c-2012-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "Un solide S de masse m=0,14kg se déplace sur une piste rectiligne inclinée d’un angle\n10 α = ° par rapport à l’horizontale. Le solide S est lâché sans vitesse initiale du point\nA d’abscisse xA définie relativement au repère . Arrivé au point O, il s’engage\ndans un mouvement de chute parabolique où tout type de frottement est négligeable et\nrencontre le sol au point I tel que la différence d’altitude entre les points O et I est\nh=1m comme l’indique la fig 1.\nLes frottements auxquels est soumis le solide S au cours de son mouvement entre les\npoints A et O sont équivalents à une force\nd’intensité supposée constante\nA l’aide d’un dispositif approprié on détermine la\nvitesse instantanée du solide S lors de son passage\npar les points B, C, D, E et O d’abscisses respectives\n0m ; 0,2m ; 0,4m ; 0,6m ; 0,8m. Ceci permet de\ntracer le diagramme de la fig 2 correspondant à\nl’énergie cinétique du solide S en fonction de l’abscisse x.\n1 En appliquant le théorème de l’énergie cinétique au solide entre la position B et une\nposition quelconque M d’abscisse x par rapport au repère , montrer que :\nEC (x)= mgxsinα - fx+ECB\n2 En utilisant le diagramme de la fig2 déterminer l’intensité de la force de frottement\net la valeur de l’abscisse xA\ndu point A. On donne g=9,8m/s².\n3 Montrer que l’énergie mécanique Em du système\n{terre+S} est conservée au cours du mouvement de\nchute parabolique.\n4 Calculer la valeur de Em sachant que l’énergie\npotentielle de pesanteur au sol est nulle.\nEn déduire la valeur de la vitesse avec laquelle le\nsolide percute le sol en I."
+  },
+  {
+    "id": "bac-c-2012-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2012,
+    "filiere_id": "C",
+    "ennonce": "On place un élément chimique inconnu X dans une chambre d'ionisation. Elle produit\ndes ions Xn+ qui sont introduits avec une vitesse nulle en P1 (voir la figure).\nLa masse des ions est notée m et on donne e= 1,6 10-19 C.\n1. Entre P1 et P2 on applique une différence de potentiel\nU =UP1P2.\nExprimer la vitesse VB des ions au trou B de la plaque P2 en\nfonction de n, e, m et UP1P2.\n2., Les ions pénètrent en B à partir d’une ouverture très petite\navec une vitesse horizontale dans une région où règne un\nchamp magnétique perpendiculaire au plan de la figure. Les\nparticules sont détectées au point C.\nDéterminer la nature du mouvement dans le champ magnétique.\n3. Exprimer la distance BC en fonction de m, n, e, UP1P2 et B (où B est la norme du\nchamp magnétique). (0,5pt)\n4. On sait que X est : soit l'isotope de masse atomique 59 du nickel qui conduit à l'ion\nNi2+, soit de l'aluminium (isotope de masse atomique 27) qui conduit à Al3+, soit de\nl'argent (isotope de masse atomique 108) qui conduit à Ag+\n.\nCalculer numériquement les distances BC correspondant à chacun des trois ions. On\ndonne : B=1 T , UP1P2 = 1000 V et mp = 1,67 10-27kg\n5. On trouve approximativement BC=27,4mm. Quel est l'élément X?"
+  },
+  {
+    "id": "bac-c-2013-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2013,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (4,5pt)\n1. On considère une solution S d'une amine notée B. Écrire l'équation bilan de la réaction de cette amine B avec l'eau.\n2. On dose un volume $V_b=20$ mL de la solution S à l'aide d'une solution S' d'acide nitrique de concentration molaire volumique $C_a=5.10^{-2}$ mol/L.\n2.1 Écrire l'équation bilan de la réaction du dosage.\n2.2 L'équivalence acido-basique est obtenue lorsqu'on verse $V_a=40$ mL de la solution S' d'acide nitrique. Calculer la concentration molaire volumique $C_b$ de la solution S.\n2.3 Sachant que le pH de la solution S vaut 11,8, déterminer le pKa du couple acide-base.\n3. On obtient 0,4 L de la solution S en dissolvant 1,8 g de cette amine. Quelle est la masse molaire de l'amine B. Donner les formules semi-développées possibles de B. Préciser leurs classes et leurs noms.\n4. Pour préparer un volume V=40 mL d'une solution tampon S'' on mélange un volume $V_a$ de la solution S' d'acide nitrique et un volume $V_b$ de la solution basique S de l'amine B. Calculer les volumes $V_a$ et $V_b$.\n5. La solution S' est préparée à partir d'un flacon commercial de 1 L d'acide nitrique de densité 1,4 contenant 65 % en masse de $HNO_3$. Quelle est la concentration C de cet acide nitrique ?\n\n=== Sciences Physiques - Série C 2016 - Session Normale - Exercice 2 ===\nFichier source:"
+  },
+  {
+    "id": "bac-c-2014-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Les solutions sont maintenues à la température de 25°C pendant toutes les expériences.\nOn dispose de deux solutions :\nUne solution aqueuse (A) d'acide chlorhydrique de contentration Ca = 0,1 mo!/.\n• Une solution aqueuse (B) d'une amine RNH de concentration CB = 3,2 10-2 mol/L. et de p = 11,4.\n1. Ecrire l'équation bilan de la réaction du chlorure d'hydrogène avec l'eau. Calculer la valeur du pH de\nla solution (A). (0,75 pt)\n2. Ecrire l'équation bilan de la réaction de l'amine avec l'eau, en précisant est-ce que la réaction est\npartielle ou totale. (0,75 pt)\n3. Pour préparer une solution tampon (S) de pH = 10,8, on mélange deux volumes des deux solutions\n(A) et (B).\n3-1 Calculer les volumes Va et Va nécessaires pour obtenir un volume V = 116 mL de la solution tampon\n(S) de pH = 10,8. (0,75 pt)\n3-2 Ecrire l'équation-bilan de la réaction qui se produit lors du mélange. (0,5 pt).\n3-3 Calculer les concentrations de toutes les espèces présentes dans cette solution. Calculer le pKa du\ncouple associé à l'amine RNH2. "
+  },
+  {
+    "id": "bac-c-2014-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Dans un ballon de verre on introduit 9,2g d'acide méthanoïque et 12g de propan-2-ol.\nOn ferme le ballon et on le porte à une température de 373° C.\n1 Calculer les quantités de matière initiales de l'acide et de l'alcool. (0,25pt)\n2 La réaction entre l'acide méthanoique et le propan-2-ol conduit à un équilibre chimique.\n2.1 Ecrire l'équation bilan de la réaction qui se produit et nommer le produit organique obtenu.\n2.2 L'augmentation de température favorise-t-elle l'estérification ? Justifier.\n(0,75рt)\n(0,25pt)\n3 A l'équilibre, la masse d'acide présent dans le mélange est de 3,68g. Déterminer :\n3.1 La composition molaire du mélange à l'équilibre.\n3.2 La constante d'équilibre K.\n4 On ajoute au mélange précédent, en état d'équilibre, 4,6g d'acide méthancique et 6g de propan-2-ol.\ndéterminer la nouvelle composition du mélange à l'équilibre. (0,5pt)\n5 On donne la courbe d'estérification ci-contre représentant en\nmoles la quantité d'ester formé en fonction du temps.\n5.1 Définir la vitesse instantanée de formation de l'ester et\ndéterminer sa valeur à t=20 min. (0,5рt)\n5.2 Définir la vitesse moyenne de formation de l'ester et\ndéterminer sa valeur entre les instants t =10 min et t2 =40min.\nOn donne: M(O)=16g /mol; M(C) = 12g/mol ; M(H)=1g/mol "
+  },
+  {
+    "id": "bac-c-2014-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "On néglige les frottements sauf dans la question 3 \nUne piste est constituée d'une partie rectiligne inclinée d'un angle a par rapport\nà l'horizontale telle que la longueur BA= 6m, suivie d'une partie circulaire AC nigl\nde rayon r = 0,5m.\nL'ensemble de la piste est situé dans un plan vertical (voir figure 1)\nOn considère le système : {solide (S), terre}\n1 Le solide (S), de masse 250g, supposé ponctuel, est en mouvement súr le plan\nincliné б '\n1.1 Ecrire, en fonction de m, g, z et Eppo, l'expression de l'énergie potentielle de pesanteur Epp du système\n(Eppo représente la valeur de l'énergie potentielle de pesanteur du système\nau niveau du plan horizontal passant par O et A). (0,5pt)\n1.2 L'étude de la variation de Epp en fonction de l'altitude z, a donné la\ncourbe de la figure 2 qui vérifie l'équation d'une droite: Epp= az+b ( Epp en J\netz en m). Déduire les valeurs de a et b. (0,5pt)\n1.3 Déduire les valeurs de l'accélération de pesanteur g, de Eppo et de\nl'altitude zo qui correspond à Epp = 0.\n2 Le mobile est lâché maintanant sans vitesse d'un point D situé entre 3 et A fal que DA =! •\nOn suppose que le changement de pente en A ne provoque pas de variation de la vitesse.\n2.1 Exprimer la norme de la vitesse Vc du mobile au point C en fonction de r, a, L et g.\n2.2 Déterminer l'expression de la réaction R exercée par la piste sur le mobile au point € en fonction de mi\nr, a et g.\n2.3 Pour quelle valeur de L, le mobile quitte la partie circulaire de la piste en C?\nOn donne sina = 0,25\n*3 Dans une nouvelle expérience, le solide est lâché sans vitesse initiale. Il passe en B\navec la vitesse VB. Il est soumis, le long du trajet BA, à une force de frottement de\nvaleur constante f.\nA l'aide d'un dispositif approprié, on trace le diagramme de la figure 3 correspondant à\nla variation de l'énergie cinétique du mobile en fonction de l'abscisse a comptée à\npartir du point B.\n3.1 En appliquant le théorème de l'énergie cinétique au mobile, entre la position 3 e8 une frosltion A du pl"
+  },
+  {
+    "id": "bac-c-2014-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Un générateur de basse fréquence délivre une tension alternative sinusoïdale. Il est branché en série avec\nun conducteur ohmique de résistance R =100s2, une bobine d'inductance L de résistance r et un\ncondensateur de capacité C réglable.\nOn se propose de visualiser la tension aux bornes du générateur et l'intensité dans le circuit à l'aide d'un\noscillographe bi-courbe. Les voies @ et @ sont réglées sur 10V\npar division tandis que la vitesse de balayage est réglée sur\n0,5ms par division.\n1 Faire un schéma clair du montage sur lequel on précisera les\nbranchements de l'oscillographe. (0,5pt)\n2 La capacité est fixée à 20uF, on obtient l'oscillogramme de la\nfigure1 sur lequel la courbe @ correspond a la tension aux\nbornes du générateur.\n21 Déterminer la période puis en déduire la fréquence de la\ntension alternative utilisée. (0,5pt)\n22 Quelles sont les tensions maximales mesurées sur les voies\n@et @ ?\n(0,5pt)\n23 Quelles seraient les indications d'un voltmètre monté en\ndérivation aux bornes du générateur et d'un ampèremètre monté en série dans le circuit.\n24 Quel est le phénomène observé ? Déduire les valeurs de r et de L. On prendra n' =10\n3 En modifiant la valeur de la capacité on voudrait décaler la courbe ® d'une division vers la droite par 60,150\nrapport à la courbe®.\n3.1 Quelle serait alors l'avance de phase de u sur i ?\n3.2 Pour cela, dans quel sens doit-on modifier la valeur de la capacité sans modifier la fréquence? \n4 Le condensateur de capacité C=2,5uF est chargé sous une tension constante U=20V.\n(0,257)\n(0,25 p)\n4.1 Calculer sa charge Q ainsi que l'énergie emmagasinée W.\n4.2 Les armatures de ce condensateur chargé sont reliées à une bobine\n(0,5pt)\nd'inductance L=25mH dont on néglige la résistance. A un instant pris comme\norigine des temps, on ferme l'interrupteur K (voir fig2). L'intensité i(t) du\ncourant est comptée positivement quand le courant circule dans le sens\nindiqué sur la figure. On appelle q(t) la charge de l'armature reliée au point A, et\n4.21\non p"
+  },
+  {
+    "id": "bac-c-2014-sn-pc-ex5",
+    "matiere_id": "pc",
+    "annee": 2014,
+    "filiere_id": "C",
+    "ennonce": "Une lame d'acier est au repos en position verticale. Ses vibrations sont entretenues par un\nélectroaimant alimenté en courant alternatif sinusidal de pulsation o=200x, rad/s.\nextrémité libre A décrit pratiquement un segment de drilte horizontal de longueur 2á = 4cm.\n1 Déterminer l'équation horaire du mouvement desrsachant qu'à t=0, A passe par sa position\nmaximale ( У ^=a).\n2 Une corde élastique simple et fine est placée vertici lement et son extrémité s est refles\nen A à la lame. L'extrémité inférieure de la corde suppe ite une masse que l'on plonge dans\nun liquide. (Voir fig).\n2.1 Quel est le rôle du liquide?\n(0,5pt)\n22 La corde éclairée par un stroboscope de mêma réquence que la lame N= 100Hz &\nl'aspect d'une sinusoide de période spatiale 2=10cm.\nEn déduire la célérité des ondes qui se propagent le long de la corde:\n3 0n considère le point M de la corde situé à 12,5cm de la source S. (0,5pt)\n3.1 Calculer le temps mis par l'onde pour atteindre le po.nt M. 3.2 Déterminer l'equation du mouvement du point M (0,5pt)\n-liquide\n3.3 Representer dans le mème repère les dlagrammes de temps respectifs des polnts S et M. En déduiro\ncomment ils vibrent l'un par rapport à l'autre. "
+  },
+  {
+    "id": "bac-c-2016-sn-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (4,5pt)\n1. On considère une solution S d'une amine notée B. Écrire l'équation bilan de la réaction de cette amine B avec l'eau.\n2. On dose un volume $V_b=20$ mL de la solution S à l'aide d'une solution S' d'acide nitrique de concentration molaire volumique $C_a=5.10^{-2}$ mol/L.\n2.1 Écrire l'équation bilan de la réaction du dosage.\n2.2 L'équivalence acido-basique est obtenue lorsqu'on verse $V_a=40$ mL de la solution S' d'acide nitrique. Calculer la concentration molaire volumique $C_b$ de la solution S.\n2.3 Sachant que le pH de la solution S vaut 11,8, déterminer le pKa du couple acide-base.\n3. On obtient 0,4 L de la solution S en dissolvant 1,8 g de cette amine. Quelle est la masse molaire de l'amine B. Donner les formules semi-développées possibles de B. Préciser leurs classes et leurs noms.\n4. Pour préparer un volume V=40 mL d'une solution tampon S'' on mélange un volume $V_a$ de la solution S' d'acide nitrique et un volume $V_b$ de la solution basique S de l'amine B. Calculer les volumes $V_a$ et $V_b$.\n5. La solution S' est préparée à partir d'un flacon commercial de 1 L d'acide nitrique de densité 1,4 contenant 65 % en masse de $HNO_3$. Quelle est la concentration C de cet acide nitrique ?"
+  },
+  {
+    "id": "bac-c-2016-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4,5pt)\n1. L'hydrolyse d'un ester E de formule $C_5H_{10}O_2$ conduit à la formation de l'acide éthanoïque et d'un composé A. À quelle famille appartient le composé A ?\n2. Le composé A est oxydé par le permanganate de potassium en milieu acide. Il se forme un composé B. B réagit avec la 2,4-DNPH et il est sans action sur la liqueur de Fehling.\n2.1 À quelle famille appartient le composé B ?\n2.2 Donner les formules semi-développées et les noms des composés B et A.\n3.1 Donner la formule semi-développée et le nom de l'ester E.\n3.2 Écrire l'équation-bilan de la réaction d'hydrolyse de l'ester E. Préciser les caractéristiques de cette réaction.\n4. Écrire une équation bilan de la réaction permettant de passer de l'acide éthanoïque :\n4.1 au chlorure d'éthanoyle.\n4.2 à l'anhydride éthanoïque.\n5. Écrire l'équation-bilan de la réaction du chlorure d'éthanoyle avec l'éthylamine. Donner la fonction et le nom du produit organique obtenu."
+  },
+  {
+    "id": "bac-c-2016-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (5,5pt)\n1. On considère une bobine rectangulaire AEDC suspendue à un ressort.\n1.1 Faire une figure où on représente, sur l'une des spires, le sens du courant parcourant la bobine AEDC. Justifier. Représenter les forces électromagnétiques $\\vec{F}_{CD}$, $\\vec{F}_{AC}$ et $\\vec{F}_{DE}$ exercées à l'équilibre.\n1.2 Écrire la condition d'équilibre de la bobine et établir l'expression de la valeur B du champ magnétique en fonction de k, $\\Delta l$, m, g, a, I et N. Calculer la valeur B.\n2. Après avoir coupé le courant, on détache la bobine du ressort et on la fait entrer avec une vitesse constante $\\vec{v}$ dans le champ $\\vec{B}$.\n2.1 Exprimer à un instant t la surface de la partie immergée de l'une des spires dans le champ en fonction de V, t et b.\n2.2 Tenant compte de l'orientation choisie, donner l'expression du flux magnétique en fonction de V, t, b, B et N et celle de la f.é.m. induite e en fonction de V, b, B et N.\n3. Lorsque la bobine est totalement immergée, on la fait tourner autour d'un axe vertical avec une vitesse angulaire $\\omega = 40$ rad/s.\n3.1 Donner les expressions du flux et de la f.é.m. induite e en fonction de a, b, B, N, $\\omega$ et t.\n3.2 Calculer les valeurs maximales de flux et de e."
+  },
+  {
+    "id": "bac-c-2016-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2016,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5,5pt)\n1. Un skieur de masse totale m=80 kg part sans vitesse du point A. Il est poussé sur AB par une force $\\vec{F}$ parallèle à la piste pour arriver en B avec une vitesse $\\vec{V}_B$ qui permet d'atteindre le point C. (AN : $AB=20$ m, $BC=40$ m, $g=10$ m/s², $\\alpha=60°$.)\n1.1 Calculer la valeur de la vitesse $V_B$ pour laquelle le skieur arrive en C avec une vitesse nulle.\n1.2 Calculer alors la valeur supposée constante de la force F.\n1.3 Déterminer la nature du mouvement du skieur entre B et C sachant que F ne s'exerce qu'entre A et B.\n2. En arrivant en C le skieur repart sur CD, horizontale, et acquiert en D une vitesse $V_D = 10$ m/s avec laquelle il entame le tronçon circulaire DE de rayon $r=2{,}2$ m.\n2.1.1 Exprimer la valeur $V_M$ de la vitesse au point M en fonction de $V_D$, r, g et de l'angle $\\theta$ et en déduire sa valeur au point E.\n2.1.2 Exprimer la valeur R de la réaction de la piste au point M en fonction de m, $V_D$, r, g et de l'angle $\\theta$.\n2.2 Le skieur quitte la piste au point E pour arriver au point P situé sur le sol.\n2.2.1 Calculer l'équation de la trajectoire dans le repère $(E,x,y)$.\n2.2.2 Calculer l'abscisse du point P de chute."
+  },
+  {
+    "id": "bac-c-2017-sc-pc-ex1",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 1 (5pts)\n1. Reproduire sur votre copie le tableau suivant et le compléter (composés : propanoate de 1-méthyl-propyle, anhydride propanoïque, chlorure de 3-méthylbutanoyle, N-méthyléthanamide).\n2. Donner les noms et les fonctions des composés organiques qui ont permis d'obtenir les composés B et C.\n3. Écrire les équations des réactions permettant d'obtenir les composés A, B et C.\n4. L'une des molécules ayant permis d'obtenir A, B, C et D est chirale. Laquelle ? Donner ses deux énantiomères."
+  },
+  {
+    "id": "bac-c-2017-sc-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4pts)\n1. On considère les acides $A_1H$, $A_2H$ et $A_3H$ dont les solutions aqueuses sont respectivement $S_1$, $S_2$ et $S_3$. On dose $V_a = 20$ mL de chacune avec une solution de soude $C_B$. Écrire l'équation bilan.\n2. Trouver la relation entre les concentrations ($C_1, C_2$ et $C_1, C_3$) et les volumes à l'équivalence. Déduire que $A_3H$ est l'acide le plus fort.\n3. On procède à la dilution au dixième. Montrer que la variation du pH d'un acide fort dilué au dixième est égale à 1. En déduire que $A_3H$ est un acide fort.\n4. Justifier que $A_1H$ et $A_2H$ sont des acides faibles. Déterminer $C_3$, $C_B$, $C_1$ et $C_2$."
+  },
+  {
+    "id": "bac-c-2017-sc-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (6pts)\n1. Des particules ($q>0$, m) pénètrent avec $V_0$ dans un champ électrique E uniforme. Établir l'équation de la trajectoire. Déterminer les coordonnées de la vitesse de sortie $V_1$. Exprimer $\\tan\\alpha_1$ et le quotient $q/(mV_0^2)$.\n2. Dans un champ magnétique uniforme B : montrer que la particule décrit un arc de cercle. Exprimer le quotient $q/(mV_0)$ en fonction de $\\alpha_2$, B et l.\n3. Calculer $V_0$ puis la charge massique $q/m$ ($E=10^4$ V/m, $B=2.10^{-2}$ T, $\\alpha_1=\\alpha_2=0{,}096$ rad, $l=0{,}2$ m)."
+  },
+  {
+    "id": "bac-c-2017-sc-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2017,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5pts)\n1. Solénoïde S ($N=500$, $l=40$ cm) avec $I=0{,}6$ A. Donner les caractéristiques du champ magnétique B créé à l'intérieur.\n2. L'intensité devient nulle en 0,04 s. Quelle est la variation du flux à travers une bobine interne (50 spires, rayon 4 cm) ? Quelle est la valeur moyenne de la f.e.m. induite ?\n3. Déterminer les diverses valeurs de la f.e.m. induite dans les intervalles [0 ; 4], [4 ; 8], [8 ; 12] et [12 ; 18] ms selon le graphe i(t)."
+  },
+  {
+    "id": "bac-c-2018-sn-pc-ex4",
+    "matiere_id": "pc",
+    "annee": 2018,
+    "filiere_id": "C",
+    "ennonce": "Exercice 4 (5pts)\n1. Lame vibrante ($a=2$ mm, $f=50$ Hz, $C=50$ cm/s). Établir l'équation horaire du mouvement de la source O et d'un point M à distance x.\n2. Que peut-on dire du mouvement de M par rapport à O pour $x = 2{,}25$ cm ?\n3. On utilise une fourche à deux pointes $S_1$, $S_2$ ($d = 3{,}5$ cm). Établir l'équation horaire d'un point M au voisinage de O. Trouver les positions des maxima d'amplitude."
+  },
+  {
+    "id": "bac-c-2019-sn-pc-ex2",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 2 (4,75pts)\n1. 0,6 g d'acide RCOOH dans 1 L d'eau. Dosage de 20 mL par soude 0,02 mol/L : équivalence à 10 mL. Calculer la concentration de l'acide et sa masse molaire. Formule semi-développée ?\n2. Acide $C_2H_5COOH$ (11,1 g dans 30 mL d'eau, $pH=2{,}6$). Calculer le coefficient d'ionisation $\\alpha$ et le pKa.\n3. On mélange 15,3 g de propanoate d'éthyle et 2,7 g d'eau. Écrire l'équation. Déterminer la composition à l'équilibre s'il se forme 3,7 g d'acide. En déduire K.\n4. On veut obtenir 0,12 mol d'acide. Calculer la quantité x d'eau à ajouter au mélange précédent."
+  },
+  {
+    "id": "bac-c-2019-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2019,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (6pts)\n1. Ions ${}_3^6Li^+$ accélérés par $U_0 = 1252{,}5$ V. Montrer que $V_0 = 2.10^5$ m/s.\n2. Zone de largeur $l=1$ cm avec $B = 2{,}5.10^{-1}$ T. Déterminer le sens de B pour une sortie en S. Montrer que le mouvement est uniforme. Calculer le rayon r et la déviation $\\alpha$.\n3. Champ électrique E entre armatures C et D ($l'=20$ cm, $E=2{,}5.10^4$ V/m). Sens de la force électrique. Établir l'équation de la trajectoire. Calculer $V_0$.\n4. Déterminer la distance d entre armatures si la distance minimale séparant l'ion de la plaque inférieure est 0,8 cm."
+  },
+  {
+    "id": "bac-c-2020-sn-pc-ex3",
+    "matiere_id": "pc",
+    "annee": 2020,
+    "filiere_id": "C",
+    "ennonce": "Exercice 3 (4,5pts)\nOn néglige les frottements sauf dans la question 2.\n1. Un ouvrier exerce sur un solide de masse m, par l'intermédiaire d'une corde inextensible et de masse négligeable faisant l'angle $\\beta$ (figure 2), une force constante F pour le faire monter à partir du repos d'une position A à une position B distante de d, selon la ligne de plus grande pente d'un plan incliné d'un angle $\\alpha$ par rapport à l'horizontale. L'origine des abscisses x étant le point A.\n1.1 Déterminer la nature du mouvement et établir son équation horaire. Faire les applications numériques. On donne : $\\cos\\beta=0{,}9$ ; $\\sin\\beta=0{,}42$ ; $F=152{,}5$ N ; $m=25$ kg ; $\\alpha=30^\\circ$. (1,5pt)\n1.2 Sachant que $d=4$ m, calculer le travail de la tension $\\vec{T}$ de la corde, lors de son déplacement de la position A à la position B. Préciser son caractère. (1pt)\n1.3 Donner les expressions des travaux des autres forces appliquées au solide pendant ce déplacement, en précisant leurs caractères. (0,5pt)\n2. On considère maintenant que le plan incliné exerce sur le solide une force de frottement f constante. On constate que l'ouvrier doit exercer une force $F'=162{,}5$ N pour déplacer le solide de A vers B avec la même accélération. Déduire la valeur de cette force de frottement. (0,5pt)\n3. Établir en fonction de x les expressions des énergies potentielle de pesanteur $E_P(x)$, cinétique $E_c(x)$ et mécanique $E_m(x)$ du solide entre A et B. L'origine de l'énergie potentielle de pesanteur est le plan horizontal passant par B. (0,5pt)\n4. Lorsque le solide passe en B la force $\\vec{F}$ exercée par l'ouvrier est supprimée ; il continue alors son mouvement pour atteindre le point C avec une vitesse nulle. En déduire la distance BC. (0,5pt)"
+  }
+]
