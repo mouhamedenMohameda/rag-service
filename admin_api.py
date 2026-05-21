@@ -35,7 +35,7 @@ _lock = threading.RLock()
 
 
 # Ordre canonique de tri chronologique pour l'admin :
-#   1) Année DESC (plus récente d'abord)
+#   1) Année ASC (plus ancienne d'abord — 2000 en haut, 2024 en bas)
 #   2) Session : normale (0) avant complémentaire (1)
 #   3) Matière : pc (sciences physiques) → math → svt (legacy physique/chimie
 #      conservé pour les vieilles entrées non encore migrées)
@@ -79,7 +79,7 @@ def _chronological_key(e: dict) -> tuple:
     except (TypeError, ValueError):
         # Si c'est un string non-numérique (ex. "BAC-2022-..."), on met à la fin.
         ex_num = 999
-    return (-annee, sess_rank, mat_rank, ex_num)
+    return (annee, sess_rank, mat_rank, ex_num)
 
 
 # ─── Store ──────────────────────────────────────────────────────────────────
