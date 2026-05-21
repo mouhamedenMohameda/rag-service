@@ -65,21 +65,23 @@ BACKUP_DIR = ROOT / "json_backups"
 
 # ─── Parsing ────────────────────────────────────────────────────────────────
 
-# "Baccalauréat 2015 - Session Complémentaire" + variantes (BAC, accents, " - Séries C & TMGM" en suffixe)
+# "Baccalauréat 2015 - Session Complémentaire" + variantes (BAC, accents, suffixes "(Série C)", "- Séries C & TMGM", "- Série Sciences...")
 _RE_SESSION_HEADER = re.compile(
     r"Bac(?:c?al(?:\.|[éae]?aur[ée]?at)?)?\.?\s*"
     r"(\d{4})\s*[-–—]\s*Session\s*"
     r"(Normale?|Compl[ée]mentaire|complementaire)"
-    r"(?:\s*[-–—].*?)?(?=\s*(?:Exercice|EXERCICE|QCM|Q\.C\.M|Q\.\s*C\.\s*M))",
+    r".*?"  # absorbe n'importe quel suffixe (tiret, parenthèses, série...) jusqu'au prochain header
+    r"(?=\s*(?:Exercice|EXERCICE|QCM|Q\.C\.M|Q\.\s*C\.\s*M))",
     re.IGNORECASE | re.DOTALL,
 )
 
 # "Exercice 1 (4 pts)" ou "EXERCICE 1" ou "QCM (4 pts)"
+# QCM doit être un header (suivi de "(...)" ou newline), pas un mot dans l'énoncé.
 _RE_EX_HEADER = re.compile(
     r"(?P<full>(?:Exercice|EXERCICE)\s*N?[°ºo]?\s*(?P<num>\d+)"
     r"(?:\s*(?:\([^)]*\)|bis|Bis|BIS))*"
-    r"|(?:Q\.?\s*C\.?\s*M\.?)(?:\s*\([^)]*\))?)",
-    re.IGNORECASE,
+    r"|(?:Q\.?\s*C\.?\s*M\.?)(?=\s*\(|\s*\n|\s*$))",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 _SESSION_TO_CODE = {"normale": "sn", "normal": "sn",
@@ -186,11 +188,13 @@ def find_entry(data, filiere, matiere, annee, sess_code, ex_num):
 
 # Artefacts OCR typiques de Gemini : caractères mal décodés, espaces oubliés
 _SUSPICIOUS_PATTERNS = [
-    (re.compile(r"\$\$"), "double $$"),
+    (re.compile(r"\$\$\$"), "triple $$$"),
     (re.compile(r"[Ss]érîe|sêrie|sárie"), "accent corrompu dans 'série'"),
     (re.compile(r"^\s*\)", re.MULTILINE), "parenthèse fermante isolée"),
-    (re.compile(r"\\(?![a-zA-Z\\{}_^$%&#])"), "backslash isolé"),
-    (re.compile(r"[^\x00-\x7FÀ-ſ̀-ͯ$\\{}^_<>≤≥±×÷∞∫∑∏√∂∆∇αβγδεζηθικλμνξοπρστυφχψωΓΔΘΛΞΠΣΦΨΩ°²³µπ–—…«»œœ€]"),
+    # backslash isolé : ignore les commandes LaTeX valides (lettres, ponctuation d'espacement \, \; \! \: , les modificateurs $%&#_^{}~)
+    (re.compile(r"\\(?![a-zA-Z\\{}_^$%&#~ ,;:!])"), "backslash isolé"),
+    # caractère non-latin/math/typo français
+    (re.compile(r"[^\x00-\x7FÀ-ſ̀-ͯ$\\{}^_<>≤≥±×÷∞∫∑∏√∂∆∇αβγδεζηθικλμνξοπρστυφχψωΓΔΘΛΞΠΣΦΨΩ°²³µπ–—…«»œ€ºª]"),
      "caractère non-latin/math suspect"),
 ]
 
