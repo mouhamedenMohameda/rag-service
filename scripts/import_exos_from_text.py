@@ -76,11 +76,12 @@ _RE_SESSION_HEADER = re.compile(
 )
 
 # "Exercice 1 (4 pts)" ou "EXERCICE 1" ou "QCM (4 pts)"
-# QCM doit être un header (suivi de "(...)" ou newline), pas un mot dans l'énoncé.
+# QCM doit obligatoirement être suivi de "(X points)" — sinon c'est un mot
+# normal dans l'énoncé ("QCM sur la courbe...") ou un placeholder.
 _RE_EX_HEADER = re.compile(
     r"(?P<full>(?:Exercice|EXERCICE)\s*N?[°ºo]?\s*(?P<num>\d+)"
     r"(?:\s*(?:\([^)]*\)|bis|Bis|BIS))*"
-    r"|(?:Q\.?\s*C\.?\s*M\.?)(?=\s*\(|\s*\n|\s*$))",
+    r"|(?:Q\.?\s*C\.?\s*M\.?)(?=\s*\([^)]*\)))",
     re.IGNORECASE | re.MULTILINE,
 )
 
@@ -193,8 +194,8 @@ _SUSPICIOUS_PATTERNS = [
     (re.compile(r"^\s*\)", re.MULTILINE), "parenthèse fermante isolée"),
     # backslash isolé : ignore les commandes LaTeX valides (lettres, ponctuation d'espacement \, \; \! \: , les modificateurs $%&#_^{}~)
     (re.compile(r"\\(?![a-zA-Z\\{}_^$%&#~ ,;:!])"), "backslash isolé"),
-    # caractère non-latin/math/typo français
-    (re.compile(r"[^\x00-\x7FÀ-ſ̀-ͯ$\\{}^_<>≤≥±×÷∞∫∑∏√∂∆∇αβγδεζηθικλμνξοπρστυφχψωΓΔΘΛΞΠΣΦΨΩ°²³µπ–—…«»œ€ºª]"),
+    # caractère non-latin/math/typo français (inclut ∩ ∪ ⊂ ⊃ ∈ ∉ ∀ ∃ ⇒ ⇔ → ← ↔ ≠ ≈ ≡)
+    (re.compile(r"[^\x00-\x7FÀ-ſ̀-ͯ$\\{}^_<>≤≥±×÷∞∫∑∏√∂∆∇αβγδεζηθικλμνξοπρστυφχψωΓΔΘΛΞΠΣΦΨΩ°²³µπ–—…«»œ€ºª∩∪⊂⊃∈∉∀∃⇒⇔→←↔≠≈≡]"),
      "caractère non-latin/math suspect"),
 ]
 
