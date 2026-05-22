@@ -22,6 +22,7 @@ from openai import OpenAI
 from pydantic import BaseModel, Field
 
 from admin_api import AdminStore, build_admin_router
+from admin_courses import CoursesStore, build_courses_router
 from common import SUBJECTS, get_env
 from retrieval import BM25Index, rrf_fuse
 
@@ -115,6 +116,18 @@ async def lifespan(_app: FastAPI):
     admin_router = build_admin_router(store, api_key=state.api_key)
     _app.include_router(admin_router)
     log.info("Admin API mountée sur /admin (JSON: %s)", json_path)
+
+    # Admin Courses API — génération et édition de cours par notion
+    cours_path = json_path.parent / "cours.json"
+    courses_store = CoursesStore(path=cours_path, backup_dir=backup_dir)
+    courses_router = build_courses_router(
+        json_bac_store=store,
+        courses_store=courses_store,
+        root=json_path.parent,
+        api_key=state.api_key,
+    )
+    _app.include_router(courses_router)
+    log.info("Admin Courses API mountée sur /admin/courses (cours: %s)", cours_path)
     yield
 
 

@@ -237,14 +237,12 @@ MANUAL_CANON: dict[str, list[str]] = {
         r"intégrale u_n",
         r"intégration par parties",
     ],
-    "math.analyse.fonction-ln-quotient": [
-        r"ln\|",
-        r"1/ln",
-        r"homothétie",
-        r"ln x",
-        r"ln\(1/x\)",
-        r"ln\|x/\(x-1\)\|",
-    ],
+    # math.analyse.fonction-ln-quotient : SUPPRIMÉ — cette entrée avait causé
+    # un sur-clustering massif (70 exos sous un seul libellé halluciné par le
+    # LLM). Les patterns r"homothétie", r"ln x", r"1/ln" étaient trop laxes
+    # et r"ln\|x/\(x-1\)\|" capturait un libellé canonique fuité du prompt.
+    # Les fonctions logarithmiques sont maintenant éclatées en notions
+    # atomiques distinctes (asymptote, dérivée d'un quotient avec ln, etc.).
     "math.complexe.equation-second-degre-param": [
         r"équation.*z",
         r"résoudre.*e\)",
@@ -501,7 +499,7 @@ FIXED_LABELS: dict[str, str] = {
     "pc.acide-base.tampon": "Solution tampon — propriétés et préparation",
     "math.complexe.similitude": "Similitude directe dans le plan complexe — rapport et centre",
     "math.analyse.integrales-un": "Suite d'intégrales U_n — intégration par parties",
-    "math.analyse.fonction-ln-quotient": "Fonction ln|x/(x-1)| et familles de courbes",
+    # math.analyse.fonction-ln-quotient : SUPPRIMÉ (label fuité du prompt, voir MANUAL_CANON)
     "math.complexe.lieu-ellipse-affixes": "Lieu géométrique — ellipse à partir d'affixes",
     "math.geo.similitude-directe": "Similitude directe — angle, rapport et centre",
     "math.geo.rotation": "Rotation — centre et angle",

@@ -583,11 +583,15 @@
       "Similitude directe S(B)=C de centre A",
       "Barycentre — affixe du point D",
       "Similitude directe s — rapport, angle, centre",
-      "Similitude directe S — rapport, angle et centre Ω"
+      "Similitude directe S — rapport, angle et centre Ω",
+      "Représenter des points dans le plan complexe muni d'un repère orthonormé — utilisation des affixes",
+      "Déterminer la nature d'un triangle ou d'un quadrilatère à partir de ses sommets — géométrie du plan complexe",
+      "Déterminer l'ensemble des points d'affixe z tels que le module d'une fonction est égal à un nombre réel donné — utilisation des propriétés des modules",
+      "Déterminer l'ensemble des points d'affixe z tels que l'argument d'une fonction est égal à un nombre réel donné — utilisation des propriétés des arguments"
     ]
   },
   "math.geo.transformations": {
-    "label": "Angle d'une rotation dans l'espace",
+    "label": "Transformations géométriques planes — rotations, similitudes, symétries",
     "matiere_id": "math",
     "aliases": [
       "Composition de réflexions — rotation f",
@@ -655,7 +659,8 @@
       "Induction par rotation — expressions de Φ et e maximales",
       "Flux en fonction du temps — rotation de bobine",
       "Points M1, M2 et rotation R",
-      "Rotation R — A→I, I→B"
+      "Rotation R — A→I, I→B",
+      "Angle d'une rotation dans l'espace"
     ]
   },
   "pc.relation-n-i2-cv-2-a-l-equivalence-du-dosage": {
@@ -691,9 +696,13 @@
     "aliases": []
   },
   "pc.demi-equations-et-bilan-redox-i-s2o82": {
-    "label": "Demi-équations et bilan redox I⁻ / S₂O₈²⁻",
+    "label": "Équation bilan redox — demi-équations et couples redox",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Couples redox I₂/I⁻ et S₂O₈²⁻/SO₄²⁻ — équation bilan",
+      "Demi-équations et bilan redox I⁻ / S₂O₈²⁻",
+      "Équation bilan redox I⁻ / S₂O₈²⁻ avec couples donnés"
+    ]
   },
   "pc.identification-d-une-courbe-cinetique-selon-la-t": {
     "label": "Identification d'une courbe cinétique selon la température",
@@ -1246,13 +1255,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.isomeres-d-une-amine-saturee-formules-et-noms": {
-    "label": "Isomères d'une amine saturée — formules et noms",
-    "matiere_id": "pc",
-    "aliases": [
-      "Isomères d'une amine primaire C₃H₉N — formules et noms"
-    ]
-  },
   "pc.isomeres-d-un-alcool-c3h8o": {
     "label": "Isomères d'un alcool C₃H₈O",
     "matiere_id": "pc",
@@ -1297,11 +1299,6 @@
       "Chiralité d'une amine — énantiomères"
     ]
   },
-  "pc.equation-bilan-redox-i-s2o82-avec-couples-donnes": {
-    "label": "Équation bilan redox I⁻ / S₂O₈²⁻ avec couples donnés",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.rendement-a-l-equilibre-a-partir-des-quantites-d": {
     "label": "Rendement à l'équilibre à partir des quantités de matière",
     "matiere_id": "pc",
@@ -1336,9 +1333,12 @@
     ]
   },
   "pc.isomeres-d-amines-saturees": {
-    "label": "Isomères d'amines saturées",
+    "label": "Isomères d'amines saturées — formules et noms",
     "matiere_id": "pc",
     "aliases": [
+      "Isomères d'amines saturées",
+      "Isomères d'une amine primaire C₃H₉N — formules et noms",
+      "Isomères d'une amine saturée — formules et noms",
       "Isomères et noms d'amines saturées"
     ]
   },
@@ -1663,10 +1663,12 @@
     "aliases": []
   },
   "math.equation-differentielle-lineaire-du-second-ordre": {
-    "label": "Équation différentielle linéaire du second ordre y''−4y'+5y=0",
+    "label": "Résolution d'une équation différentielle linéaire du second ordre",
     "matiere_id": "math",
     "aliases": [
-      "Équation différentielle linéaire du second ordre — solution"
+      "Équation différentielle linéaire du second ordre y''−4y'+5y=0",
+      "Équation différentielle linéaire du second ordre — solution",
+      "Équation différentielle y''-4y'+4y=0"
     ]
   },
   "math.recherche-d-une-solution-particuliere-ax-b-e-x": {
@@ -1696,7 +1698,17 @@
     "matiere_id": "math",
     "aliases": [
       "Intégrale Uₙ = ∫ x³(ln x)ⁿ dx — intégration par parties",
-      "Intégrale F_n et intégration par parties"
+      "Intégrale F_n et intégration par parties",
+      "Calculer une intégrale définie — Intégration par parties",
+      "Calculer une intégrale par parties",
+      "Calculer une intégrale définie — Méthode par parties",
+      "Calculer une intégrale définie — par la méthode de substitution",
+      "Calculer une intégrale définie — par intégration par parties",
+      "Évaluer une intégrale — méthode d'intégration par parties",
+      "Calculer l'intégrale d'une fonction par parties",
+      "Évaluation d'une intégrale par parties",
+      "Intégration par parties pour calculer une intégrale définie",
+      "Calcul d'intégrale par parties"
     ]
   },
   "math.encadrement-de-u-n": {
@@ -1721,7 +1733,23 @@
     "aliases": [
       "Suite uₙ — limite e⁻¹",
       "Limite d'une suite — majoration par (1/2)^n",
-      "Suite u_n et limite de Σ(-2)^p/(p+1)!"
+      "Suite u_n et limite de Σ(-2)^p/(p+1)!",
+      "Calcul de la limite d'une suite",
+      "Calculer la limite d'une suite",
+      "Déterminer la limite d'une suite",
+      "Calcul de la limite d'une fonction en +∞",
+      "Calcul de la limite d'une suite définie récursivement",
+      "Calcul de limite à droite d'une fonction",
+      "Calcul de limites à droite et à gauche d'une fonction",
+      "Calcul de la limite d'une fonction à droite d'un point",
+      "Calcul de limite à l'infini d'une fonction exponentielle",
+      "Calcul de limite d'une fonction à l'infini",
+      "Calcul de la limite d'une fonction somme à l'infini positif",
+      "Calcul de la limite d'une fonction exponentielle",
+      "Calcul de limite d'une fonction avec ln en facteur",
+      "Calcul de la limite d'une fonction à l'infini",
+      "Calcul de limites à droite et à gauche",
+      "Calcul de la limite d'une fonction à l'infini négatif"
     ]
   },
   "math.carres-construits-sur-les-cotes-d-un-triangle-pr": {
@@ -1836,120 +1864,9 @@
       "Centre de symétrie — point et courbe symétrique",
       "Similitude S=h∘f — rapport et angle",
       "Similitude S=h∘r — rapport et angle",
-      "Centre de S comme barycentre de A, B et C"
-    ]
-  },
-  "math.analyse.fonction-ln-quotient": {
-    "label": "Fonction ln|x/(x-1)| et familles de courbes",
-    "matiere_id": "math",
-    "aliases": [
-      "Famille fₖ(x) = ln x/x² − kx — solution αₖ",
-      "Famille fₙ(x) = ln x / xⁿ — variations",
-      "Famille fₙ(x) = x − n ln x — variations",
-      "Famille fₙ(x) = xⁿ(1 + ln x) — continuité en 0",
-      "Fonction 1/ln x — tableau de variations",
-      "Fonction f avec x² ln x — continuité et dérivabilité en 0",
-      "Fonction f(x) = e^(1/ln x) — décroissance stricte",
-      "Fonction f(x) = x − ln x — minimum en x = 1",
-      "Fonction f(x) = x² + x + 1 + ln(x+1) — limites et bijection",
-      "Fonction g avec ln x — limites et variations",
-      "Fonction g(x) = x/(x − ln x) — limites et variations",
-      "Fonction ln x / x² — variations et asymptotes",
-      "Fonction ln|x/(x−1)| — limites et asymptotes",
-      "Fonction u(x) = 1/ln x — variations",
-      "Fonction u(x) = x − 2 + ln x — bijection et α",
-      "Fonction x ln(x+1) — limites et variations",
-      "Fonction x² ln(x+1) — croissance stricte",
-      "Intégrale I(λ) — primitive de ln x",
-      "Suite Uₙ = ∫ xⁿ ln(x+1) dx — convergence",
-      "Fonction exponentielle polynomiale — limites et asymptotes",
-      "Fonction — tableau de variations et tracé de courbe",
-      "Fonction auxiliaire — tableau de variations et signe",
-      "Fonction — tableau de variations et tangente",
-      "Fonction avec exponentielle — limites en ±∞",
-      "Fonction impaire — symétrie et tableau de variations",
-      "Fonction xeˣ — tableau de variations",
-      "Fonction — concavité et tableau de variations",
-      "Intégrale avec ln x — intégration par parties",
-      "Fonction — tableau de variations",
-      "Fonction 1/(1+eˣ) — limites et variations",
-      "Fonction (1+x)/eˣ — tableau de variations",
-      "Fonction — asymptote et tableau de variations",
-      "Fonction ln(1+x)−x/(x+1) — limites et variations",
-      "Primitive — intégrale de ln(1+t)",
-      "Fonction impaire — limites et tableau de variations",
-      "Fonction — symétrie et tableau de variations",
-      "Suite d'intégrales — convergence",
-      "Fonction ln x / x² — variations et suite aₙ",
-      "Fonction (ln x)ⁿ — limites selon parité",
-      "Primitive — intégrale par parties",
-      "Famille fₙ — continuité et dérivabilité en 0",
-      "Fonction x³−x ln x — continuité en 0",
-      "Fonction 1/√(1+eˣ) — variations",
-      "Suite Iₙ — récurrence et convergence",
-      "Fonction ln x / (1+x³) — limites et variations",
-      "Suite vₙ d'intégrales — convergence",
-      "Fonction x ln((x+1)/x) — continuité en 0",
-      "Fonction (x+2)e⁻ˣ — limites et bijection",
-      "Fonction — dérivée et tableau de variations",
-      "Lecture d'un tableau de variations",
-      "Limites et asymptotes de f(x) = x + 2 + eˣ",
-      "Fonction g(x) = ln(x + 2 + eˣ)",
-      "Convergence d'une suite",
-      "Limites de f(x) = 1/x + ln x",
-      "Intégrale de ln x et aire sous la courbe",
-      "Limites et asymptotes de f(x) = eˣ/(eˣ−1)",
-      "Limites et dérivée de f(x) = 3x − 3 − 2x ln x",
-      "Tableau de variations et signe de f",
-      "Fonction x ln x — limites et continuité",
-      "Fonction auxiliaire g(x)=x²-2+4ln x — bijection et signe",
-      "Intégration par parties de ∫(ln x)/x² dx",
-      "Tableau de variation de f(x)=x-2-ln x",
-      "Intégration par parties de ∫ln x dx",
-      "Suite géométrique — convergence",
-      "Variations de f' — signe de f'",
-      "Tableau de variation de f",
-      "Fonction u(x)=1+x ln x — variations et minimum",
-      "Tableau de variation de g^{-1}",
-      "Tableau de variation de f(x)=(2+x+x ln x)/x",
-      "Suite u_{n+1}=f(u_n) — récurrence et convergence",
-      "Convergence et somme d'une suite géométrique",
-      "Fonction auxiliaire g(x)=-x+3-2ln x — bijection",
-      "Intégration par parties ∫(ln x)/x² dx",
-      "Fonction auxiliaire g(x)=1/x-ln x — signe",
-      "f'(x)=g(x) — tableau de variation",
-      "f(α) en fonction de α",
-      "Intégration par parties ∫(x-1)ln x dx",
-      "Continuité et dérivabilité en -1",
-      "Signe de f' via ln(x+1)",
-      "Intégration par parties et aire sur [0;1]",
-      "Suite géométrique (1/3)^n",
-      "Somme des termes d'une suite géométrique",
-      "Tableau de variation — deux solutions",
-      "Continuité et dérivabilité en 0",
-      "Limites en +∞ de f(x)=x-x ln x",
-      "Tableau de variation",
-      "Discussion graphique 2x-x ln x=m",
-      "Intégration par parties ∫x ln x dx",
-      "Suite géométrique d_n=|z_B-i|^n",
-      "Limites en ±∞ de f(x)=1+(x+2)e^{-x}",
-      "Fonction auxiliaire g(x)=x²+2-2ln x positive",
-      "f'(x)=g(x)/x² — tableau de variation",
-      "Discussion graphique (m+2)x=2ln x",
-      "Fonction auxiliaire u(x)=x²-3+3ln x",
-      "f(x)=(1-x)²ln x sur ]0;1] — limites",
-      "Famille f_n(x)=(1-x)^n ln x",
-      "Limites de f(x)=(1+ln(2x+2))/(2(x+1))",
-      "Asymptote oblique de f(x)=1-x+ln(x+1)/(x+1)",
-      "Fonction auxiliaire u(x) — signe",
-      "Famille f_n(x)=x^n e^{-x}/n! — variations",
-      "Suite I_n=∫_0^1 f_n — récurrence I_n-I_{n-1}=-1/n!",
-      "Suite I_n=∫x(1+ln x)^n — décroissante",
-      "Continuité et dérivabilité en 0 de f(x)=x²(1-ln x)",
-      "Limites en +∞ et tableau de variation",
-      "f_n(x)=e^{-x}/(2-x)^n — limites et dérivée",
-      "Limites et asymptotes de f avec ln(x+1)",
-      "Suite I_n d'intégrales — convergence et encadrement"
+      "Centre de S comme barycentre de A, B et C",
+      "Reconnaître le centre de symétrie d'une courbe",
+      "Recherche d'un centre de symétrie pour une courbe"
     ]
   },
   "math.analyse.sommes-riemann": {
@@ -2031,7 +1948,11 @@
     "label": "Tangentes à une courbe — intersection avec l'axe des abscisses",
     "matiere_id": "math",
     "aliases": [
-      "Point d'intersection avec l'axe des abscisses"
+      "Point d'intersection avec l'axe des abscisses",
+      "Détermination de l'intersection d'une courbe avec l'axe des abscisses",
+      "Determination d'un point d'intersection avec l'axe des x",
+      "Recherche de points d'intersection d'une courbe avec l'axe des abscisses",
+      "Recherche des points d'intersection d'une courbe avec un axe"
     ]
   },
   "math.point-d-inflexion-equation-de-la-tangente": {
@@ -2041,7 +1962,17 @@
       "Équation de tangente en un point",
       "Point d'inflexion et tangente en I(0;3)",
       "Point d'inflexion et tangente en A",
-      "Point d'inflexion et tangente en I"
+      "Point d'inflexion et tangente en I",
+      "Trouver l'équation d'une tangente à une courbe — en un point donné",
+      "Trouver l'équation de la tangente à une courbe en un point — utilisation de la dérivée",
+      "Trouver l'équation de la tangente à une courbe en un point donné — Calcul différentiel",
+      "Déterminer l'équation de la tangente à une courbe — Utilisation de la dérivée",
+      "Trouver l'équation de la tangente à une courbe en un point",
+      "Écrire l'équation de la tangente à une courbe en un point — Dérivée de la fonction",
+      "Déterminer l'équation de la tangente à une courbe en un point — Utilisation de la dérivée",
+      "Déterminer l'équation de la tangente à une courbe en un point",
+      "Équation de la tangente à une courbe en un point donné",
+      "Étude de la tangente à une courbe en un point donné"
     ]
   },
   "math.encadrement-asymptotique-comparaison-courbe-et-t": {
@@ -2064,7 +1995,8 @@
       "Suite Iₙ — IPP et encadrement",
       "Suite Un d'intégrales — décroissance et limite",
       "Suite I_n d'intégrales — décroissance",
-      "Suite S_n(t) et intégrale — encadrement et limite"
+      "Suite S_n(t) et intégrale — encadrement et limite",
+      "Encadrement d'une suite pour en déterminer la limite"
     ]
   },
   "math.integration-par-parties-limite-de-nun": {
@@ -2209,7 +2141,14 @@
     "label": "Aire sous la courbe — intégrale définie",
     "matiere_id": "math",
     "aliases": [
-      "Aire sous courbe — intégrale définie"
+      "Aire sous courbe — intégrale définie",
+      "Calculer l'aire sous une courbe — Intégrale définie",
+      "Calculer une aire sous une courbe — Intégrale définie",
+      "Calculer l'aire sous une courbe — Intégrale",
+      "Calculer l'aire sous une courbe à l'aide d'une intégrale",
+      "Recherche de l'aire sous une courbe à l'aide d'une intégrale",
+      "Calcul d'une intégrale définie pour une aire sous une courbe",
+      "Calcul d'une intégrale définie pour trouver l'aire sous une courbe"
     ]
   },
   "math.integrales-an-relation-de-recurrence-et-calcul": {
@@ -2381,20 +2320,33 @@
     "matiere_id": "math",
     "aliases": [
       "Position relative des courbes — comparaison de n et n+1",
-      "Position relative des courbes C_n et C_{n+1}"
+      "Position relative des courbes C_n et C_{n+1}",
+      "Étudier la position relative de plusieurs courbes",
+      "Déterminer la position relative de deux courbes",
+      "Étudier la position relative de deux courbes",
+      "Étudier la position relative de deux courbes — Asymptote et courbe",
+      "Étudier la position relative entre deux courbes — Fonctions et courbes",
+      "Étude de la position relative de courbes",
+      "Étude de la position relative de courbes paramétrées",
+      "Étude de la position relative entre deux courbes",
+      "Étude de la position relative de courbes représentatives"
     ]
   },
   "math.lieu-des-extrema-tangente-horizontale": {
     "label": "Lieu des extrema — tangente horizontale",
     "matiere_id": "math",
     "aliases": [
-      "Lieu — points à tangente horizontale"
+      "Lieu — points à tangente horizontale",
+      "Trouver le lieu des points à tangente horizontale"
     ]
   },
   "math.somme-sn-encadrement-par-integrales": {
     "label": "Somme Sₙ — encadrement par intégrales",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Encadrement d'une somme par des intégrales",
+      "Encadrer une somme par des intégrales"
+    ]
   },
   "math.convergence-de-sn-constante": {
     "label": "Convergence de Sₙ — constante λ",
@@ -2550,11 +2502,6 @@
       "Fonction définie par intégrale — continuité en 0"
     ]
   },
-  "math.derivabilite-a-gauche-et-a-droite-en-0": {
-    "label": "Dérivabilité à gauche et à droite en 0",
-    "matiere_id": "math",
-    "aliases": []
-  },
   "math.limite-ln-1-h-h-h2-developpement-limite": {
     "label": "Limite (ln(1−h)+h)/h² — développement limité",
     "matiere_id": "math",
@@ -2639,7 +2586,8 @@
       "Décomposition en éléments simples x³/(x+1)",
       "Décomposition en éléments simples — intégrale d'aire",
       "Intégrale — intégration par parties et décomposition en éléments simples",
-      "Fonction rationnelle — décomposition en éléments simples"
+      "Fonction rationnelle — décomposition en éléments simples",
+      "Décomposition en éléments simples d'une fonction rationnelle"
     ]
   },
   "math.suite-un-ln-n-n-1-2-ln-n-n-convergence-stirling": {
@@ -2847,7 +2795,11 @@
       "Bijection et réciproque sur ]0, +∞[",
       "Bijection et courbe réciproque",
       "Bijection et réciproque sur ]0;2]",
-      "Courbe réciproque h^{-1}"
+      "Courbe réciproque h^{-1}",
+      "Déterminer la bijection d'une fonction — et trouver sa réciproque",
+      "Déterminer la bijection d'une fonction — et trouver son inverse",
+      "Étudier la bijection d'une fonction et trouver son inverse",
+      "Déterminer la bijection d'une fonction sur un intervalle"
     ]
   },
   "math.aire-entre-c-et-c-integration-par-parties": {
@@ -3069,21 +3021,8 @@
     "matiere_id": "math",
     "aliases": []
   },
-  "math.fonction-reciproque-intersection-et-derivee-en": {
-    "label": "Fonction réciproque — intersection et dérivée en β",
-    "matiere_id": "math",
-    "aliases": [
-      "Dérivée de la fonction réciproque",
-      "Fonction réciproque g — expression et dérivée"
-    ]
-  },
   "math.tangentes-paralleles-a-y-2x": {
     "label": "Tangentes parallèles à y = 2x",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.resolution-p-z-0-trois-racines": {
-    "label": "Résolution P(z) = 0 — trois racines",
     "matiere_id": "math",
     "aliases": []
   },
@@ -3199,26 +3138,6 @@
   "pc.spectro.acceleration-ions": {
     "label": "Vitesse de propagation du potentiel d'action",
     "matiere_id": "pc",
-    "aliases": []
-  },
-  "math.exercice-de-mathematiques-analyse-de-l-enonce": {
-    "label": "Exercice de mathématiques — analyse de l'énoncé",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.resolution-d-exercice-methode-structuree": {
-    "label": "Résolution d'exercice — méthode structurée",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.redaction-de-solution-justification-des-etapes": {
-    "label": "Rédaction de solution — justification des étapes",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.verification-de-resultat-coherence-numerique": {
-    "label": "Vérification de résultat — cohérence numérique",
-    "matiere_id": "math",
     "aliases": []
   },
   "math.triangle-equilateral-milieux-de-cotes-et-symetri": {
@@ -3428,16 +3347,15 @@
     "aliases": []
   },
   "math.famille-d-integrales-recurrence-par-ipp": {
-    "label": "Famille d'intégrales — récurrence par IPP",
+    "label": "Intégrale — récurrence par IPP",
     "matiere_id": "math",
     "aliases": [
+      "Famille d'intégrales — récurrence par IPP",
+      "Intégrale Iₙ — IPP et lien avec suite factorielle",
+      "Intégrale Iₙ — IPP et série e²",
+      "Intégrale Iₙ — récurrence par IPP",
       "Suite d'intégrales — formule de récurrence par IPP"
     ]
-  },
-  "math.inegalite-majoration-d-integrale-et-limite": {
-    "label": "Inégalité — majoration d'intégrale et limite",
-    "matiere_id": "math",
-    "aliases": []
   },
   "math.polynome-complexe-racines-et-triangle": {
     "label": "Polynôme complexe — racines et triangle",
@@ -3474,10 +3392,12 @@
     "aliases": []
   },
   "math.composition-de-similitudes-homothetie": {
-    "label": "Composition de similitudes — homothétie",
+    "label": "Composition d'homothéties et similitudes",
     "matiere_id": "math",
     "aliases": [
-      "Composition de similitudes — caractérisation"
+      "Composition de similitudes — caractérisation",
+      "Composition de similitudes — homothétie",
+      "Homothétie — composition avec similitude"
     ]
   },
   "math.barycentre-coefficients-et-point-d-intersection": {
@@ -3670,7 +3590,10 @@
     "label": "Fonction — point d'inflexion",
     "matiere_id": "math",
     "aliases": [
-      "Fonction — point d'inflexion et variations"
+      "Fonction — point d'inflexion et variations",
+      "Recherche d'un point d'inflexion pour une fonction",
+      "Recherche d'un point d'inflexion d'une courbe",
+      "Recherche de points d'inflexion pour une courbe"
     ]
   },
   "math.serie-alternee-developpement-limite-de-ln-1-x": {
@@ -3702,11 +3625,6 @@
   },
   "math.suite-fn-majoration-et-integrale": {
     "label": "Suite fₙ — majoration et intégrale",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.integrale-in-recurrence-par-ipp": {
-    "label": "Intégrale Iₙ — récurrence par IPP",
     "matiere_id": "math",
     "aliases": []
   },
@@ -3776,11 +3694,6 @@
   },
   "math.somme-de-modules-au-carre-forme-reduite-et-cercl": {
     "label": "Somme de modules au carré — forme réduite et cercles",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.integrale-in-ipp-et-lien-avec-suite-factorielle": {
-    "label": "Intégrale Iₙ — IPP et lien avec suite factorielle",
     "matiere_id": "math",
     "aliases": []
   },
@@ -3916,11 +3829,6 @@
     "matiere_id": "math",
     "aliases": []
   },
-  "math.homothetie-composition-avec-similitude": {
-    "label": "Homothétie — composition avec similitude",
-    "matiere_id": "math",
-    "aliases": []
-  },
   "math.systeme-de-congruences-classe-modulo-195": {
     "label": "Système de congruences — classe modulo 195",
     "matiere_id": "math",
@@ -3970,11 +3878,6 @@
   },
   "math.encadrement-serie-et-integrale-1-x": {
     "label": "Encadrement — série et intégrale 1/x",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.integrale-in-ipp-et-serie-e2": {
-    "label": "Intégrale Iₙ — IPP et série e²",
     "matiere_id": "math",
     "aliases": []
   },
@@ -4038,7 +3941,11 @@
   "math.parite-d-une-fonction": {
     "label": "Parité d'une fonction",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Déterminer la parité d'une fonction — Fonction",
+      "Déterminer la parité d'une fonction — Fonction puissance",
+      "Déterminer la parité d'une fonction — Analyse algébrique"
+    ]
   },
   "math.resolution-d-equation-polynomiale-dans-c": {
     "label": "Résolution d'équation polynomiale dans C",
@@ -4162,11 +4069,6 @@
       "Probabilité conditionnelle p_A(B)"
     ]
   },
-  "math.probabilite-totale-et-formule-des-probabilites": {
-    "label": "Probabilité totale et formule des probabilités",
-    "matiere_id": "math",
-    "aliases": []
-  },
   "math.factorisation-et-resolution-de-p-z-0": {
     "label": "Factorisation et résolution de P(z)=0",
     "matiere_id": "math",
@@ -4191,9 +4093,12 @@
     ]
   },
   "math.continuite-et-derivabilite-a-droite-en-0": {
-    "label": "Continuité et dérivabilité à droite en 0",
+    "label": "Dérivabilité et continuité en 0",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Continuité et dérivabilité à droite en 0",
+      "Dérivabilité à gauche et à droite en 0"
+    ]
   },
   "math.primitive-via-g-x": {
     "label": "Primitive via g'(x)",
@@ -4211,9 +4116,12 @@
     ]
   },
   "math.derivee-seconde-et-point-d-inflexion": {
-    "label": "Dérivée seconde et point d'inflexion",
+    "label": "Point d'inflexion — étude via la dérivée seconde",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Dérivée seconde et point d'inflexion",
+      "Point d'inflexion — dérivées première et seconde"
+    ]
   },
   "math.intersection-courbe-axes-et-tangente-parallele": {
     "label": "Intersection courbe-axes et tangente parallèle",
@@ -4246,12 +4154,17 @@
   "math.formule-des-probabilites-totales": {
     "label": "Formule des probabilités totales",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Probabilité totale et formule des probabilités"
+    ]
   },
   "math.factorisation-de-p-z-z3-10z2-33z-34": {
-    "label": "Factorisation de P(z) = z³ − 10z² + 33z − 34",
+    "label": "Factorisation d'un polynôme de degré 3",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Factorisation de P(z) = z³ − 10z² + 33z − 34",
+      "Factorisation de P(z) = z³ − 7z² + 19z − 13"
+    ]
   },
   "math.transformation-complexe-et-lieux-geometriques": {
     "label": "Transformation complexe et lieux géométriques",
@@ -4285,16 +4198,6 @@
   },
   "math.probabilite-totale-p-r": {
     "label": "Probabilité totale p(R)",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.factorisation-de-p-z-z3-7z2-19z-13": {
-    "label": "Factorisation de P(z) = z³ − 7z² + 19z − 13",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.triangle-abc-et-parallelogramme-abdc": {
-    "label": "Triangle ABC et parallélogramme ABDC",
     "matiere_id": "math",
     "aliases": []
   },
@@ -4387,15 +4290,14 @@
     "matiere_id": "math",
     "aliases": []
   },
-  "math.tableau-de-variation-d-une-fonction-avec-e-x": {
-    "label": "Tableau de variation d'une fonction avec e^x",
-    "matiere_id": "math",
-    "aliases": []
-  },
   "math.intersections-courbe-axes-de-coordonnees": {
     "label": "Intersections courbe / axes de coordonnées",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Déterminer les intersections d'une courbe avec les axes de coordonnées",
+      "Recherche de points d'intersection d'une courbe avec les axes de coordonnées",
+      "Détermination de l'intersection d'une courbe avec les axes de coordonnées"
+    ]
   },
   "math.aire-du-domaine-limite-par-la-courbe-et-les-axes": {
     "label": "Aire du domaine limité par la courbe et les axes",
@@ -4451,7 +4353,10 @@
   "math.position-relative-courbe-asymptote": {
     "label": "Position relative courbe / asymptote",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Étude de la position relative d'une courbe et de son asymptote",
+      "Étude de la position relative d'une courbe par rapport à son asymptote"
+    ]
   },
   "math.integrales-e-x-dx-et-xe-x-dx-par-parties": {
     "label": "Intégrales ∫e^{-x}dx et ∫xe^{-x}dx par parties",
@@ -4590,14 +4495,12 @@
     "aliases": []
   },
   "math.parallelogramme-abdc": {
-    "label": "Parallélogramme ABDC",
+    "label": "Caractérisation d'un parallélogramme à partir de points donnés",
     "matiere_id": "math",
-    "aliases": []
-  },
-  "math.equation-differentielle-y-4y-4y-0": {
-    "label": "Équation différentielle y''-4y'+4y=0",
-    "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Parallélogramme ABDC",
+      "Triangle ABC et parallélogramme ABDC"
+    ]
   },
   "math.solution-particuliere-avec-conditions-initiales": {
     "label": "Solution particulière avec conditions initiales",
@@ -4606,11 +4509,6 @@
   },
   "math.asymptote-oblique-et-position-relative": {
     "label": "Asymptote oblique et position relative",
-    "matiere_id": "math",
-    "aliases": []
-  },
-  "math.point-d-inflexion-derivees-premiere-et-seconde": {
-    "label": "Point d'inflexion — dérivées première et seconde",
     "matiere_id": "math",
     "aliases": []
   },
@@ -4871,9 +4769,12 @@
     "aliases": []
   },
   "math.resolution-de-p-z-0-racine-reelle-z0": {
-    "label": "Résolution de P(z)=0 — racine réelle z0",
+    "label": "Résolution de P(z) = 0",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Résolution P(z) = 0 — trois racines",
+      "Résolution de P(z)=0 — racine réelle z0"
+    ]
   },
   "math.triangle-equilateral-am1m2-valeur-de": {
     "label": "Triangle équilatéral AM1M2 — valeur de α",
@@ -4950,16 +4851,13 @@
     ]
   },
   "pc.rapport-base-acide-expression-du-ph": {
-    "label": "Rapport [base]/[acide] — expression du pH",
+    "label": "Rapport [base]/[acide] — à partir de pH et pKa",
     "matiere_id": "pc",
     "aliases": [
-      "Rapport [base]/[acide] — déduction de V₂ pour pH = 10"
+      "Rapport [base]/[acide] — déduction de V₂ pour pH = 10",
+      "Rapport [base]/[acide] — expression du pH",
+      "Rapport [base]/[acide] — à partir de pH et pKa"
     ]
-  },
-  "pc.pka-deduction-a-partir-du-graphique": {
-    "label": "pKa — déduction à partir du graphique",
-    "matiere_id": "pc",
-    "aliases": []
   },
   "pc.ester-formule-brute-cnh2no2": {
     "label": "Ester — formule brute CnH2nO2",
@@ -5219,9 +5117,12 @@
     "aliases": []
   },
   "pc.stroboscope-frequence-pour-corde-apparente-immob": {
-    "label": "Stroboscope — fréquence pour corde apparente immobile",
+    "label": "Stroboscope — fréquence pour aspect immobile",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Stroboscope sur corde — fréquence maximale pour aspect immobile",
+      "Stroboscope — fréquence pour corde apparente immobile"
+    ]
   },
   "pc.stroboscope-mouvement-apparent-et-vitesse-pour-n": {
     "label": "Stroboscope — mouvement apparent et vitesse pour Ne ≠ N",
@@ -5240,11 +5141,6 @@
   },
   "pc.phase-des-sources-condition-d-excitation-sinusoi": {
     "label": "Phase des sources — condition d'excitation sinusoïdale",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.couples-redox-i2-i-et-s2o82-so42-equation-bilan": {
-    "label": "Couples redox I₂/I⁻ et S₂O₈²⁻/SO₄²⁻ — équation bilan",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -5279,9 +5175,11 @@
     "aliases": []
   },
   "pc.oxydation-menagee-d-un-alcool-demi-equations-et-": {
-    "label": "Oxydation ménagée d'un alcool — demi-équations et bilan",
+    "label": "Oxydation ménagée d'un alcool — équations et produits",
     "matiere_id": "pc",
     "aliases": [
+      "Oxydation ménagée d'un alcool — demi-équations et bilan",
+      "Oxydation ménagée d'un alcool — équation et produits",
       "Oxydation ménagée d'un aldéhyde — demi-équations et bilan redox"
     ]
   },
@@ -5407,11 +5305,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.stroboscope-sur-corde-frequence-maximale-pour-as": {
-    "label": "Stroboscope sur corde — fréquence maximale pour aspect immobile",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.reflexion-evitee-role-du-poids-immerge-en-extrem": {
     "label": "Réflexion évitée — rôle du poids immergé en extrémité",
     "matiere_id": "pc",
@@ -5480,11 +5373,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.oxydation-menagee-d-un-alcool-equation-et-produi": {
-    "label": "Oxydation ménagée d'un alcool — équation et produits",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.ester-c6h12o2-autres-methodes-de-synthese": {
     "label": "Ester C₆H₁₂O₂ — autres méthodes de synthèse",
     "matiere_id": "pc",
@@ -5539,9 +5427,12 @@
     "aliases": []
   },
   "pc.resonance-inductance-l-pour-c-et-n0-donnes": {
-    "label": "Résonance — inductance L pour C et N₀ donnés",
+    "label": "Résonance RLC — relation entre L et C",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Résonance RLC — relation entre L et C à N₀",
+      "Résonance — inductance L pour C et N₀ donnés"
+    ]
   },
   "pc.resonance-d-intensite-intensite-efficace-i0": {
     "label": "Résonance d'intensité — intensité efficace I₀",
@@ -5712,9 +5603,12 @@
     "aliases": []
   },
   "pc.oscilloscope-en-circuit-ouvert-allure-de-la-tens": {
-    "label": "Oscilloscope en circuit ouvert — allure de la tension induite",
+    "label": "Oscilloscope — étude de la tension induite",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Oscilloscope en circuit ouvert — allure de la tension induite",
+      "Oscilloscope — visualisation de la tension induite"
+    ]
   },
   "pc.courant-cosinusoidal-champ-magnetique-cree-par-s": {
     "label": "Courant cosinusoïdal — champ magnétique créé par solénoïde",
@@ -5897,11 +5791,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.resonance-rlc-relation-entre-l-et-c-a-n0": {
-    "label": "Résonance RLC — relation entre L et C à N₀",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.resistance-r-calcul-a-u-et-i0-donnes": {
     "label": "Résistance R — calcul à U et I₀ donnés",
     "matiere_id": "pc",
@@ -5963,9 +5852,12 @@
     "aliases": []
   },
   "pc.pka-de-l-acide-faible-deduction-graphique": {
-    "label": "pKa de l'acide faible — déduction graphique",
+    "label": "Dédution du pKa à partir du graphique",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "pKa de l'acide faible — déduction graphique",
+      "pKa — déduction à partir du graphique"
+    ]
   },
   "pc.indicateur-colore-choix-pour-chaque-dosage": {
     "label": "Indicateur coloré — choix pour chaque dosage",
@@ -6502,11 +6394,6 @@
       "Amine en eau — équation bilan de réaction"
     ]
   },
-  "pc.rapport-base-acide-a-partir-de-ph-et-pka": {
-    "label": "Rapport [base]/[acide] — à partir de pH et pKa",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.ph-3-et-pka-4-9-degre-d-ionisation": {
     "label": "pH = 3 et pKa = 4,9 — degré d'ionisation",
     "matiere_id": "pc",
@@ -6595,11 +6482,6 @@
   },
   "pc.spire-carree-en-champ-variable-loi-de-lenz-farad": {
     "label": "Spire carrée en champ variable — loi de Lenz-Faraday",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.oscilloscope-visualisation-de-la-tension-induite": {
-    "label": "Oscilloscope — visualisation de la tension induite",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -6917,11 +6799,6 @@
   },
   "pc.travail-des-forces-interpretation-du-resultat": {
     "label": "Travail des forces — interprétation du résultat",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.frottement-valeur-par-theoreme-de-l-energie-cine": {
-    "label": "Frottement — valeur par théorème de l'énergie cinétique",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -7426,9 +7303,12 @@
     "aliases": []
   },
   "pc.frottement-f-calcul-par-energie-cinetique": {
-    "label": "Frottement f — calcul par énergie cinétique",
+    "label": "Frottement — valeur par théorème de l'énergie cinétique",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Frottement f — calcul par énergie cinétique",
+      "Frottement — valeur par théorème de l'énergie cinétique"
+    ]
   },
   "pc.piste-inclinee-puis-arc-energie-du-systeme-s-ter": {
     "label": "Piste inclinée puis arc — énergie du système {S, terre}",
@@ -7797,11 +7677,6 @@
   },
   "pc.fourche-a-deux-branches-equation-de-superpositio": {
     "label": "Fourche à deux branches — équation de superposition",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.interferences-positions-des-maxima-d-amplitude": {
-    "label": "Interférences — positions des maxima d'amplitude",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -8236,11 +8111,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.cycle-ovarien-schema-et-evolution-du-follicule": {
-    "label": "Cycle ovarien — schéma et évolution du follicule",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.dosage-de-pregnandiol-et-courbe-thermique": {
     "label": "Dosage de prégnandiol et courbe thermique",
     "matiere_id": "pc",
@@ -8273,11 +8143,6 @@
   },
   "pc.chaine-neuronale-identification-et-schema": {
     "label": "Chaîne neuronale — identification et schéma",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.transmission-synaptique-potentiels-postsynaptiqu": {
-    "label": "Transmission synaptique — potentiels postsynaptiques",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -8516,7 +8381,9 @@
   "pc.vitesse-de-propagation-de-l-influx-nerveux": {
     "label": "Vitesse de propagation de l'influx nerveux",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Vitesse de propagation nerveuse"
+    ]
   },
   "pc.glycemie-post-prandiale-diabete": {
     "label": "Glycémie post-prandiale — diabète",
@@ -8762,11 +8629,6 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.loi-de-faraday-f-e-m-induite": {
-    "label": "Loi de Faraday — f.é.m. induite",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.induction-par-deplacement-a-vitesse-constante": {
     "label": "Induction par déplacement à vitesse constante",
     "matiere_id": "pc",
@@ -8828,9 +8690,12 @@
     "aliases": []
   },
   "pc.interferences-points-d-amplitude-maximale": {
-    "label": "Interférences — points d'amplitude maximale",
+    "label": "Interférences — détermination des points d'amplitude maximale",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Interférences — points d'amplitude maximale",
+      "Interférences — positions des maxima d'amplitude"
+    ]
   },
   "pc.determination-du-nombre-de-carbones-par-masse-mo": {
     "label": "Détermination du nombre de carbones par masse molaire",
@@ -8878,9 +8743,12 @@
     "aliases": []
   },
   "pc.f-e-m-induite-moyenne-loi-de-faraday": {
-    "label": "F.é.m. induite moyenne — loi de Faraday",
+    "label": "F.é.m. induite — Loi de Faraday",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "F.é.m. induite moyenne — loi de Faraday",
+      "Loi de Faraday — f.é.m. induite"
+    ]
   },
   "pc.transition-electronique-emission-ou-absorption": {
     "label": "Transition électronique — émission ou absorption",
@@ -9123,9 +8991,12 @@
     "aliases": []
   },
   "pc.cycle-ovarien-evolution-des-structures": {
-    "label": "Cycle ovarien — évolution des structures",
+    "label": "Cycle ovarien — évolution des structures ovariennes",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Cycle ovarien — schéma et évolution du follicule",
+      "Cycle ovarien — évolution des structures"
+    ]
   },
   "pc.courbes-hormonales-du-cycle-sexuel": {
     "label": "Courbes hormonales du cycle sexuel",
@@ -9149,11 +9020,6 @@
   },
   "pc.propagation-de-l-influx-nerveux-le-long-d-une-fi": {
     "label": "Propagation de l'influx nerveux le long d'une fibre",
-    "matiere_id": "pc",
-    "aliases": []
-  },
-  "pc.vitesse-de-propagation-nerveuse": {
-    "label": "Vitesse de propagation nerveuse",
     "matiere_id": "pc",
     "aliases": []
   },
@@ -9259,15 +9125,13 @@
     "matiere_id": "pc",
     "aliases": []
   },
-  "pc.propriete-du-message-nerveux-deduite-des-documen": {
-    "label": "Propriété du message nerveux déduite des documents",
-    "matiere_id": "pc",
-    "aliases": []
-  },
   "pc.propriete-de-la-fibre-nerveuse-deduite-des-docum": {
-    "label": "Propriété de la fibre nerveuse déduite des documents",
+    "label": "Propriété du message nerveux ou de la fibre nerveuse déduite des documents",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Propriété de la fibre nerveuse déduite des documents",
+      "Propriété du message nerveux déduite des documents"
+    ]
   },
   "pc.spermatogenese-et-ovogenese-identification-des-p": {
     "label": "Spermatogenèse et ovogenèse — identification des phénomènes",
@@ -9330,9 +9194,12 @@
     "aliases": []
   },
   "pc.transmission-synaptique-depolarisation-et-hyperp": {
-    "label": "Transmission synaptique — dépolarisation et hyperpolarisation",
+    "label": "Transmission synaptique — potentiels postsynaptiques et régulation",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Transmission synaptique — dépolarisation et hyperpolarisation",
+      "Transmission synaptique — potentiels postsynaptiques"
+    ]
   },
   "pc.enregistrements-electriques-aux-synapses": {
     "label": "Enregistrements électriques aux synapses",
@@ -9591,20 +9458,18 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.proportion-d-heterozygotes-dans-une-population": {
-    "label": "Proportion d'hétérozygotes dans une population",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.probabilite-d-enfant-atteint-parents-normaux": {
     "label": "Probabilité d'enfant atteint — parents normaux",
     "matiere_id": "svt",
     "aliases": []
   },
   "svt.probabilite-et-proportion-d-heterozygotes": {
-    "label": "Probabilité et proportion d'hétérozygotes",
+    "label": "Analyse de la proportion d'hétérozygotes dans une population",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Probabilité et proportion d'hétérozygotes",
+      "Proportion d'hétérozygotes dans une population"
+    ]
   },
   "svt.genotypes-des-individus-d-un-arbre-genealogique": {
     "label": "Génotypes des individus d'un arbre généalogique",
@@ -9893,9 +9758,13 @@
     "aliases": []
   },
   "svt.retrocontrole-sur-hypophyse-et-uterus": {
-    "label": "Rétrocontrôle sur hypophyse et utérus",
+    "label": "Rétrocontrôle hormonal",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Rétrocontrôle sur hypophyse et utérus",
+      "Rétrocontrôles hormonaux",
+      "Rétrocontrôles hypophysaires"
+    ]
   },
   "svt.amniocentese-colchicine-et-milieu-hypotonique": {
     "label": "Amniocentèse — colchicine et milieu hypotonique",
@@ -9961,11 +9830,6 @@
   },
   "svt.hormones-ovariennes-h1-et-h2": {
     "label": "Hormones ovariennes H1 et H2",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.structures-ovarienne-et-cycle": {
-    "label": "Structures ovarienne et cycle",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -10042,9 +9906,12 @@
     "aliases": []
   },
   "svt.comparaison-de-l-excitabilite-de-deux-fibres": {
-    "label": "Comparaison de l'excitabilité de deux fibres",
+    "label": "Analyse et comparaison de l'excitabilité de fibres nerveuses",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Comparaison de l'excitabilité de deux fibres",
+      "Courbes d'excitabilité et comparaison de fibres"
+    ]
   },
   "svt.reponse-a-une-excitation-de-9-ma": {
     "label": "Réponse à une excitation de 9 mA",
@@ -10130,16 +9997,6 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.brassage-inter-et-intrachromosomique-gametes": {
-    "label": "Brassage inter et intrachromosomique — gamètes",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.crossing-over-et-proportion-de-gametes-recombina": {
-    "label": "Crossing-over et proportion de gamètes recombinants",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.electrophorese-et-conclusion-genetique": {
     "label": "Électrophorèse et conclusion génétique",
     "matiere_id": "svt",
@@ -10175,11 +10032,6 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.courbes-d-excitabilite-et-comparaison-de-fibres": {
-    "label": "Courbes d'excitabilité et comparaison de fibres",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.potentiel-de-repos-et-seuil-d-excitation": {
     "label": "Potentiel de repos et seuil d'excitation",
     "matiere_id": "svt",
@@ -10197,11 +10049,6 @@
   },
   "svt.cellules-x-y-z-f-leydig-sertoli-follicule-ovocyt": {
     "label": "Cellules X, Y, Z, F (Leydig, Sertoli, follicule, ovocyte)",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.retrocontroles-hypophysaires": {
-    "label": "Rétrocontrôles hypophysaires",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -10226,14 +10073,20 @@
     "aliases": []
   },
   "svt.brassage-chromosomique-et-gametes": {
-    "label": "Brassage chromosomique et gamètes",
+    "label": "Brassage chromosomique — gamètes",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Brassage chromosomique et gamètes",
+      "Brassage inter et intrachromosomique — gamètes"
+    ]
   },
   "svt.crossing-over-et-gamete-recombinant": {
-    "label": "Crossing-over et gamète recombinant",
+    "label": "Crossing-over et gamètes recombinants",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Crossing-over et gamète recombinant",
+      "Crossing-over et proportion de gamètes recombinants"
+    ]
   },
   "svt.fecondation-nidation-et-hormones-urinaires": {
     "label": "Fécondation, nidation et hormones urinaires",
@@ -10309,11 +10162,6 @@
   },
   "svt.cycle-ovarien-hormones-et-structures": {
     "label": "Cycle ovarien — hormones et structures",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.retrocontroles-hormonaux": {
-    "label": "Rétrocontrôles hormonaux",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -10582,7 +10430,9 @@
   "svt.potentiels-post-synaptiques-excitateurs-et-inhib": {
     "label": "Potentiels post-synaptiques excitateurs et inhibiteurs",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Synapses excitatrices et inhibitrices — potentiels post-synaptiques"
+    ]
   },
   "svt.enchainement-des-evenements-jusqu-a-o3": {
     "label": "Enchaînement des événements jusqu'à O3",
@@ -10678,11 +10528,6 @@
   },
   "svt.chaine-neuronale-identification-et-trajet-de-l-i": {
     "label": "Chaîne neuronale — identification et trajet de l'influx",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.transmission-synaptique-facilitation-et-inhibiti": {
-    "label": "Transmission synaptique — facilitation et inhibition",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -10824,9 +10669,12 @@
     "aliases": []
   },
   "svt.anatomie-de-l-ovaire-structures-du-cycle": {
-    "label": "Anatomie de l'ovaire — structures du cycle",
+    "label": "Description et interprétation d'structures ovarienne",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Anatomie de l'ovaire — structures du cycle",
+      "Structures ovarienne et cycle"
+    ]
   },
   "svt.hormones-du-cycle-sexuel-fsh-lh-strogenes-proges": {
     "label": "Hormones du cycle sexuel (FSH, LH, œstrogènes, progestérone)",
@@ -11115,25 +10963,17 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.genetique-des-drosophiles-gene-lie-au-sexe": {
-    "label": "Génétique des drosophiles — gène lié au sexe",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.fecondation-evolution-de-la-quantite-d-adn": {
-    "label": "Fécondation — évolution de la quantité d'ADN",
+    "label": "Fécondation — évolution de la quantité d'ADN et du nombre de chromosomes",
     "matiere_id": "svt",
     "aliases": [
+      "Fécondation — quantité d'ADN et nombre de chromosomes",
+      "Fécondation — évolution de la quantité d'ADN",
       "Évolution de la quantité d'ADN — fécondation"
     ]
   },
   "svt.comportement-des-chromosomes-lors-de-la-fecondat": {
     "label": "Comportement des chromosomes lors de la fécondation",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.regulation-de-la-secretion-de-lh-par-les-strogen": {
-    "label": "Régulation de la sécrétion de LH par les œstrogènes",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -11160,9 +11000,12 @@
     "aliases": []
   },
   "svt.regulation-de-la-lh-par-l-stradiol": {
-    "label": "Régulation de la LH par l'œstradiol",
+    "label": "Régulation de la LH par les œstrogènes",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Régulation de la LH par l'œstradiol",
+      "Régulation de la sécrétion de LH par les œstrogènes"
+    ]
   },
   "svt.diabete-de-type-1-origine-auto-immune": {
     "label": "Diabète de type 1 — origine auto-immune",
@@ -11292,9 +11135,12 @@
     "aliases": []
   },
   "svt.fixation-de-l-insuline-radioactive-sur-cellules-": {
-    "label": "Fixation de l'insuline radioactive sur cellules hépatiques",
+    "label": "Fixation de l'insuline sur cellules hépatiques",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Fixation de l'insuline radioactive sur cellules hépatiques",
+      "Insuline radioactive — fixation membranaire hépatique"
+    ]
   },
   "svt.diabete-de-type-i-vs-type-ii-recepteurs-et-insul": {
     "label": "Diabète de type I vs type II — récepteurs et insuline exogène",
@@ -11521,11 +11367,6 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.types-de-neurones-a-b-c-excitateurs-et-inhibiteu": {
-    "label": "Types de neurones A, B, C — excitateurs et inhibiteurs",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.sommation-temporelle-et-spatiale": {
     "label": "Sommation temporelle et spatiale",
     "matiere_id": "svt",
@@ -11539,25 +11380,18 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.glycemie-post-prandiale-diagnostic-du-diabete": {
-    "label": "Glycémie post-prandiale — diagnostic du diabète",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.insuline-radioactive-fixation-membranaire-hepati": {
-    "label": "Insuline radioactive — fixation membranaire hépatique",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.diabete-insulino-dependant-vs-resistant-a-l-insu": {
     "label": "Diabète insulino-dépendant vs résistant à l'insuline",
     "matiere_id": "svt",
     "aliases": []
   },
   "svt.diagnostic-du-diabete-par-courbe-glycemique-post": {
-    "label": "Diagnostic du diabète par courbe glycémique post-prandiale",
+    "label": "Diagnostic du diabète — courbe glycémique post-prandiale",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Diagnostic du diabète par courbe glycémique post-prandiale",
+      "Glycémie post-prandiale — diagnostic du diabète"
+    ]
   },
   "svt.duree-et-hormones-du-cycle-ovarien": {
     "label": "Durée et hormones du cycle ovarien",
@@ -11702,9 +11536,12 @@
     "aliases": []
   },
   "svt.gene-r-heredite-liee-au-sexe-chez-drosophile": {
-    "label": "Gène r — hérédité liée au sexe chez drosophile",
+    "label": "Génétique des drosophiles — hérédité liée au sexe",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Gène r — hérédité liée au sexe chez drosophile",
+      "Génétique des drosophiles — gène lié au sexe"
+    ]
   },
   "svt.echiquier-f1-et-bilan-phenotypique": {
     "label": "Échiquier F1' et bilan phénotypique",
@@ -11886,11 +11723,6 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.synapses-excitatrices-et-inhibitrices-potentiels": {
-    "label": "Synapses excitatrices et inhibitrices — potentiels post-synaptiques",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.sommation-temporelle-stimulations-rapprochees": {
     "label": "Sommation temporelle — stimulations rapprochées",
     "matiere_id": "svt",
@@ -11904,9 +11736,12 @@
     "aliases": []
   },
   "svt.facilitation-et-inhibition-synaptiques-integrati": {
-    "label": "Facilitation et inhibition synaptiques — intégration",
+    "label": "Transmission synaptique — facilitation et inhibition",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Facilitation et inhibition synaptiques — intégration",
+      "Transmission synaptique — facilitation et inhibition"
+    ]
   },
   "svt.identification-des-nerfs-sympathique-et-parasymp": {
     "label": "Identification des nerfs sympathique et parasympathique",
@@ -11950,11 +11785,6 @@
   },
   "svt.anomalie-de-spermatogenese-traitement-hormonal": {
     "label": "Anomalie de spermatogenèse — traitement hormonal",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.fecondation-quantite-d-adn-et-nombre-de-chromoso": {
-    "label": "Fécondation — quantité d'ADN et nombre de chromosomes",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -12234,10 +12064,12 @@
     "aliases": []
   },
   "svt.immunite-humorale-et-immunite-cellulaire": {
-    "label": "Immunité humorale et immunité cellulaire",
+    "label": "Réponse immunitaire humorale et cellulaire",
     "matiere_id": "svt",
     "aliases": [
-      "Immunité à médiation humorale vs cellulaire"
+      "Immunité humorale et immunité cellulaire",
+      "Immunité à médiation humorale vs cellulaire",
+      "Réponse immunitaire humorale et cellulaire"
     ]
   },
   "svt.lieux-de-deroulement-des-reponses-specifiques": {
@@ -12285,15 +12117,12 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.reponse-immunitaire-humorale-et-cellulaire": {
-    "label": "Réponse immunitaire humorale et cellulaire",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.organes-lymphoides-lieu-des-reponses-specifiques": {
     "label": "Organes lymphoïdes — lieu des réponses spécifiques",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Organes lymphoïdes secondaires — réponse spécifique"
+    ]
   },
   "svt.tableau-comparatif-des-deux-immunites-specifique": {
     "label": "Tableau comparatif des deux immunités spécifiques",
@@ -12415,11 +12244,6 @@
     "matiere_id": "svt",
     "aliases": []
   },
-  "svt.maladie-recessive-liee-a-l-x-electrophorese": {
-    "label": "Maladie récessive liée à l'X — électrophorèse",
-    "matiere_id": "svt",
-    "aliases": []
-  },
   "svt.jumeaux-vrais-ou-faux-justification": {
     "label": "Jumeaux vrais ou faux — justification",
     "matiere_id": "svt",
@@ -12462,11 +12286,6 @@
   },
   "svt.comparaison-des-reponses-specifiques": {
     "label": "Comparaison des réponses spécifiques",
-    "matiere_id": "svt",
-    "aliases": []
-  },
-  "svt.organes-lymphoides-secondaires-reponse-specifiqu": {
-    "label": "Organes lymphoïdes secondaires — réponse spécifique",
     "matiere_id": "svt",
     "aliases": []
   },
@@ -12573,7 +12392,9 @@
   "svt.neurones-a-b-c-excitateur-inhibiteur-interneuron": {
     "label": "Neurones A, B, C — excitateur, inhibiteur, interneurone",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Types de neurones A, B, C — excitateurs et inhibiteurs"
+    ]
   },
   "svt.propagation-et-transmission-zones-x-et-y": {
     "label": "Propagation et transmission — zones X et Y",
@@ -12666,9 +12487,12 @@
     "aliases": []
   },
   "svt.electrophorese-maladie-dominante-liee-a-l-x": {
-    "label": "Électrophorèse — maladie dominante liée à l'X",
+    "label": "Étude de transmission d'une maladie liée à l'X — électrophorèse",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Maladie récessive liée à l'X — électrophorèse",
+      "Électrophorèse — maladie dominante liée à l'X"
+    ]
   },
   "svt.f-tus-f-genotype-a-partir-de-l-electrophorese": {
     "label": "Fœtus f — génotype à partir de l'électrophorèse",
@@ -12733,6 +12557,2158 @@
   "svt.blocage-canaux-na-absence-de-potentiel-d-action": {
     "label": "Blocage canaux Na+ — absence de potentiel d'action",
     "matiere_id": "svt",
+    "aliases": []
+  },
+  "math.etude-du-signe-d-une-fonction-derivee": {
+    "label": "Étude du signe d'une fonction dérivée",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la convexité d'une fonction — Fonction dérivée seconde",
+      "Étude de la variation d'une fonction sur un intervalle",
+      "Étude de la variation d'une fonction sur un intervalle — Tableau de variation",
+      "Étude de la variation d'une fonction — Fonction dérivée",
+      "Étude de la variation d'une fonction — Méthode",
+      "Étude de la variation d'une fonction — sur un intervalle",
+      "Tableau de variation d'une fonction définie sur un intervalle",
+      "Étude de la variation d'une fonction définie par morceaux",
+      "Étude de la convexité d'une fonction définie par morceaux",
+      "Étude de la variation d'une fonction définie par une expression logarithmique",
+      "Étude de la variation d'une fonction définie par une expression polynomiale et logarithmique",
+      "Étude de la continuité en un point d'une fonction définie par morceaux",
+      "Intégration d'une fonction définie par morceaux",
+      "Établissement d'un tableau de variation pour une fonction définie",
+      "Établissement d'un tableau de variation pour une fonction dérivée",
+      "Étude de la continuité à droite d'une fonction en un point",
+      "Étude de la dérivabilité à droite d'une fonction en un point",
+      "Étude de la concavité d'une fonction à l'aide de la dérivée seconde",
+      "Tableau de variation d'une fonction définie par une fraction rationnelle",
+      "Analyser la variation d'une fonction définie par morceaux",
+      "Étude de la limite d'une fonction en un point",
+      "Étude de la limite d'une fonction logarithmique en 0+ et +∞",
+      "Établissement d'un tableau de variation pour une fonction définie par une puissance de ln(x)",
+      "Établir un tableau de variation d'une fonction définie par un quotient",
+      "Continuité et dérivabilité à droite d'une fonction en un point",
+      "Variations d'une fonction définie par morceaux",
+      "Étude de la limite d'une fonction fractionnaire en un point de son domaine",
+      "Étude de la continuité et de la dérivabilité d'une fonction à droite en un point",
+      "Étude des variations de la dérivée d'une fonction",
+      "Établissement d'un tableau de variation d'une fonction",
+      "Étude de la bijection d'une fonction sur un intervalle",
+      "Étude de la continuité et de la dérivabilité d'une fonction en un point",
+      "Analyse des variations d'une fonction dérivée",
+      "Établissement d'un tableau de variation pour une fonction",
+      "Recherche de la bijection d'une fonction restreinte à un intervalle",
+      "Étude des variations d'une fonction définie par une expression algébro-logarithmique",
+      "Étude de la bijection d'une fonction sur un intervalle donné",
+      "Tableau de variation d'une fonction définie par une somme",
+      "Étude de la variation d'une fonction logarithme",
+      "Étude de la fonction définie par f(x) = x + 2 + e^x",
+      "Étude de la fonction logarithmique composée",
+      "Dérivée d'une fonction définie par morceaux",
+      "Étude de la continuité d'une fonction en un point",
+      "Étude de la variation d'une fonction à l'aide de sa dérivée",
+      "Étude de la limite d'un quotient avec une fonction logarithmique — en approche de 0+",
+      "Étude des variations d'une fonction à l'aide de sa dérivée seconde",
+      "Tableau de variation d'une fonction définie par une somme de puissances et de logarithmes",
+      "Étude de la croissance d'une fonction sur un intervalle",
+      "Étude du signe d'une fonction à l'aide de sa dérivée",
+      "Étude de la variation d'une fonction à l'aide d'un tableau de variation",
+      "Étude de la limite à l'infini d'une fonction produit",
+      "Étude de la dérivée d'une fonction produit",
+      "Analyse de la convexité d'une fonction à l'aide de la dérivée seconde",
+      "Étude des variations d'une fonction à l'aide de sa dérivée",
+      "Dérivée d'une fonction définie par morceaux avec une fonction logarithme",
+      "Étude de la limite d'une fonction à l'infini",
+      "Détermination de la bijection d'une fonction restreinte à un intervalle",
+      "Étude de la dérivabilité d'une fonction en un point",
+      "Étude de la convexité d'une fonction à l'aide de la dérivée seconde",
+      "Tableau de variation d'une fonction définie par une expression algébro-logarithmique",
+      "Étude du signe d'une fonction sur un intervalle",
+      "Étude de la dérivée d'une fonction définie par une expression algébro-logarithmique",
+      "Étude de la bijection d'une fonction restreinte à un intervalle",
+      "Étude de l'inversibilité d'une fonction restreinte à un intervalle",
+      "Établissement du tableau de variation de la réciproque d'une fonction",
+      "Étude de la limite d'une fonction à droite d'un point",
+      "Bijection d'une fonction sur un intervalle"
+    ]
+  },
+  "math.etude-des-limites-d-une-fonction-forme-indetermi": {
+    "label": "Étude des limites d'une fonction — Forme indéterminée",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude des limites d'une fonction à l'aide de la forme indéterminée",
+      "Étude de la limite d'une fonction à l'aide de la forme indéterminée",
+      "Étude de la limite d'une fonction à l'aide de règles de calcul",
+      "Calcul de la limite d'une fonction à l'aide d'une forme indéterminée",
+      "Calculer la limite d'une fonction à l'aide de la forme indéterminée",
+      "Étudier la limite d'une fonction à l'aide de la règle de l'Hôpital — cas d'une forme indéterminée",
+      "Calcul de limite d'une fonction à l'aide de la règle de L'Hôpital",
+      "Calculer la limite d'une fonction à l'aide de la règle de l'Hôpital",
+      "Calcul de la limite d'une fonction à l'aide de la forme indéterminée"
+    ]
+  },
+  "math.demonstration-d-une-inegalite-utilisation-de-pro": {
+    "label": "Démonstration d'une inégalité — Utilisation de propriétés de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-derivees-regle-de-la-chaine-et-de-la-s": {
+    "label": "Calcul de dérivées — Règle de la chaîne et de la somme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-l-allure-d-une-courbe-etude-de-la-t": {
+    "label": "Recherche de l'allure d'une courbe — Étude de la tangente horizontale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.analyser-les-variations-d-une-fonction-methode-d": {
+    "label": "Analyser les variations d'une fonction — Méthode de tableau de signes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.identifier-les-points-communs-entre-plusieurs-co": {
+    "label": "Identifier les points communs entre plusieurs courbes — Méthode d'équations simultanées",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-position-relative-de-deux-courbes-": {
+    "label": "Déterminer la position relative de deux courbes — Méthode de comparaison de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaitre-une-courbe-a-partir-de-son-equation-": {
+    "label": "Reconnaître une courbe à partir de son équation — Méthode d'identification graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-l-appartenance-d-un-point-a-une-courbe-m": {
+    "label": "Montrer l'appartenance d'un point à une courbe — Méthode de vérification d'équation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-convergence-d-une-suite-definie-par-u": {
+    "label": "Étudier la convergence d'une suite définie par une intégrale",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de l'existence d'une suite définie par une intégrale",
+      "Étudier la convergence d'une suite définie par récurrence",
+      "Étudier la convergence d'une suite définie par récurrence — méthode des encadrements",
+      "Étudier la convergence d'une suite — Limite d'une suite",
+      "Étudier la convergence d'une suite — Méthode de limite",
+      "Étudier la convergence d'une suite — Suite définie par récurrence",
+      "Étudier la convergence d'une suite — avec majoration et limite",
+      "Étudier la convergence d'une suite — méthode de limite",
+      "Étudier la convergence d'une suite — propriété de limite",
+      "Étudier la décroissance d'une suite — avec inégalité et limite",
+      "Étudier la limite d'une suite définie par une intégrale",
+      "Étudier la convergence d'une suite définie par intégrales",
+      "Étude de la convergence d'une suite définie par intégrales",
+      "Étude de convergence d'une suite définie par récurrence",
+      "Étude de convergence d'une suite d'intégrales",
+      "Étude de l'existence d'une suite définie par intégrales",
+      "Étude de la convergence d'une suite définie par récurrence",
+      "Étudier la convergence d'une suite définie par récurrence et encadrement",
+      "Étude de la limite d'une suite définie par récurrence",
+      "Étude de la convergence d'une suite définie récursivement",
+      "Étude de la convergence d'une suite définie par une intégrale",
+      "Étude de la limite d'une suite définie par une intégrale"
+    ]
+  },
+  "math.recherche-de-points-fixes-equations": {
+    "label": "Recherche de points fixes — Équations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.comparaison-de-fonctions-inegalites": {
+    "label": "Comparaison de fonctions — Inégalités",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-position-relative-de-courbes-geometr": {
+    "label": "Étude de la position relative de courbes — Géométrie analytique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-tangentes-horizontales-calcul-diffe": {
+    "label": "Recherche de tangentes horizontales — Calcul différentiel",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrement-de-sommes-inegalites-et-integrales": {
+    "label": "Encadrement de sommes — Inégalités et intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-les-derivees-d-une-fonction-regles-de": {
+    "label": "Déterminer les dérivées d'une fonction — règles de dérivation",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer la dérivée d'une fonction — utilisation de règles de dérivation"
+    ]
+  },
+  "math.etablir-un-tableau-de-variation-d-une-fonction-a": {
+    "label": "Établir un tableau de variation d'une fonction — analyse de la dérivée",
+    "matiere_id": "math",
+    "aliases": [
+      "Construction et analyse d'un tableau de variation pour une fonction",
+      "Construction d'un tableau de variation pour une fonction dérivée",
+      "Construction d'un tableau de variation d'une fonction définie par morceaux",
+      "Construction d'un tableau de variation pour une fonction définie par une expression analytique",
+      "Construction d'un tableau de variation pour une fonction",
+      "Tableau de variation d'une fonction produit",
+      "Constitution d'un tableau de variation pour une fonction rationnelle",
+      "Établir un tableau de variation d'une fonction",
+      "Construction d'un tableau de variation pour une fonction définie par une expression rationnelle",
+      "Construction d'un tableau de variation pour une fonction définie par morceaux",
+      "Tableau de variation d'une fonction définie par une expression rationnelle",
+      "Tableau de variation d'une fonction",
+      "Construire un tableau de variation d'une fonction — à partir de sa dérivée",
+      "Constitution d'un tableau de variation pour une fonction dérivée",
+      "Tableau de variation d'une fonction dérivable",
+      "Tableau de variation d'une fonction dérivée"
+    ]
+  },
+  "math.resoudre-une-equation-fonctionnelle-utilisation-": {
+    "label": "Résoudre une équation fonctionnelle — utilisation de propriétés de fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Résoudre une équation d'une fonction dans son domaine de définition — Utilisation de propriétés de fonctions"
+    ]
+  },
+  "math.interpreter-graphiquement-une-equation-reconnais": {
+    "label": "Interpréter graphiquement une équation — reconnaissance de formes et de symétries",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-equation-d-une-courbe-utilisation-d": {
+    "label": "Déterminer l'équation d'une courbe — utilisation de propriétés de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaitre-une-symetrie-dans-une-courbe-analyse": {
+    "label": "Reconnaître une symétrie dans une courbe — analyse de propriétés géométriques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.decrire-une-transformation-geometrique-utilisati": {
+    "label": "Décrire une transformation géométrique — utilisation de notions de géométrie",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-limite-d-une-fonction-a-droite-et-a-": {
+    "label": "Calculer la limite d'une fonction à droite et à gauche",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.representer-graphiquement-une-fonction": {
+    "label": "Représenter graphiquement une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Construire graphiquement la courbe d'une fonction",
+      "Construire graphiquement la courbe d'une fonction et de sa réciproque",
+      "Construire graphiquement la réciproque d'une fonction — à partir de la courbe originale",
+      "Construire graphiquement une fonction",
+      "Construire la courbe d'une fonction et de sa dérivée — Représentation graphique",
+      "Construire la courbe d'une fonction et de sa réciproque — Représentation graphique",
+      "Construire la courbe d'une fonction et ses asymptotes",
+      "Construire la courbe d'une fonction — méthode graphique",
+      "Construire la courbe de la fonction inverse — méthode de réflexion graphique",
+      "Construire la courbe représentative d'une fonction",
+      "Construire la courbe représentative d'une fonction et de sa réciproque",
+      "Représenter graphiquement une fonction et sa primitive — propriétés des fonctions",
+      "Représenter graphiquement une fonction — Fonction continue",
+      "Représenter graphiquement une fonction — Utilisation d'un repère orthonormé",
+      "Représenter graphiquement une fonction — avec courbe",
+      "Représenter graphiquement une fonction — courbe",
+      "Représenter graphiquement une fonction — courbe et asymptotes",
+      "Représenter graphiquement une fonction — dans un repère orthonormé",
+      "Représenter graphiquement une fonction — et identifier ses propriétés",
+      "Représenter graphiquement une fonction — interprétation de ses propriétés",
+      "Représenter graphiquement une fonction — Équation cartésienne",
+      "Construire graphiquement une courbe",
+      "Construire la courbe d'une fonction logarithmique",
+      "Étude de la courbe représentative d'une fonction",
+      "Construire graphiquement une courbe et ses asymptotes",
+      "Construire la courbe représentative de la réciproque d'une fonction"
+    ]
+  },
+  "math.determiner-les-points-communs-entre-plusieurs-co": {
+    "label": "Déterminer les points communs entre plusieurs courbes",
+    "matiere_id": "math",
+    "aliases": [
+      "Recherche de points communs à plusieurs courbes",
+      "Recherche de points fixes communs à plusieurs courbes"
+    ]
+  },
+  "math.trouver-l-equation-d-une-tangente-a-une-courbe": {
+    "label": "Trouver l'équation d'une tangente à une courbe",
+    "matiere_id": "math",
+    "aliases": [
+      "Détermination d'une équation de la tangente à une courbe",
+      "Équation de la tangente à une courbe"
+    ]
+  },
+  "math.construire-une-courbe-a-partir-de-plusieurs-autr": {
+    "label": "Construire une courbe à partir de plusieurs autres courbes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-le-domaine-de-definition-d-une-foncti": {
+    "label": "Déterminer le domaine de définition d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-d-une-integrale-definie-application-d": {
+    "label": "Évaluation d'une intégrale définie — Application des règles d'intégration",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-convergence-d-une-fonction-utilisati": {
+    "label": "Étude de la convergence d'une fonction — Utilisation des propriétés des limites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.analyse-de-l-inegalite-utilisation-des-propriete": {
+    "label": "Analyse de l'inégalité — Utilisation des propriétés des fonctions exponentielles et logarithmiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.representation-graphique-d-une-fonction": {
+    "label": "Représentation graphique d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Représentation graphique d'une fonction — Étude de l'allure d'une fonction",
+      "Représentation graphique d'une fonction définie sur un intervalle",
+      "Représentation graphique d'une fonction exponentielle polynomiale",
+      "Représentation graphique d'une fonction rationnelle avec exponentielle",
+      "Représentation graphique d'une fonction logarithmique",
+      "Intégration d'une fonction rationnelle avec exponentielle",
+      "Représentation graphique de la courbe d'une fonction inverse",
+      "Représentation graphique d'une fonction et de son inverse",
+      "Dérivée d'une fonction rationnelle avec exponentielle",
+      "Représentation graphique d'une fonction à exponentielle",
+      "Calcul de la dérivée d'une fonction produit avec une exponentielle",
+      "Calcul de la dérivée d'une fonction quotient avec une fonction logarithmique",
+      "Calcul de la dérivée d'une fonction quotient",
+      "Représentation graphique d'une fonction et de sa tangente",
+      "Calcul de la dérivée d'une fonction composée",
+      "Représentation graphique d'une fonction et interprétation de ses propriétés",
+      "Calcul de la dérivée d'une fonction inverse",
+      "Représentation graphique d'une fonction et de son asymptote",
+      "Dérivée d'une fonction avec un terme logarithmique",
+      "Calcul de la réciproque d'une fonction et de sa dérivée",
+      "Représentation graphique d'une fonction et de sa tangente en un point",
+      "Représentation graphique d'une fonction dans un repère orthonormé",
+      "Dérivée d'un quotient avec une fonction logarithmique",
+      "Interprétation graphique d'une fonction",
+      "Calcul de la dérivée d'une fonction avec un produit et une fonction logarithme",
+      "Dérivée d'une fonction réciproque",
+      "Dérivation d'une fonction quotient avec une fonction logarithmique",
+      "Fonction réciproque et calcul de sa dérivée"
+    ]
+  },
+  "math.etude-de-la-continuite-d-une-fonction-utilisatio": {
+    "label": "Étude de la continuité d'une fonction — Utilisation des propriétés des fonctions intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-les-limites-d-une-fonction-en-un-poin": {
+    "label": "Déterminer les limites d'une fonction en un point",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer les limites d'une fonction rationnelle en un point"
+    ]
+  },
+  "math.etudier-les-limites-d-une-fonction": {
+    "label": "Étudier les limites d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Interpréter graphiquement la limite d'une fonction",
+      "Interpréter graphiquement les limites d'une fonction — Analyse de la courbe représentative",
+      "Interpréter graphiquement une limite",
+      "Interpréter graphiquement une limite — en fonction de la courbe représentative",
+      "Interpréter la limite d'une fonction — Fonction",
+      "Interpréter les limites d'une fonction",
+      "Étudier les asymptotes d'une fonction"
+    ]
+  },
+  "math.trouver-l-equation-cartesienne-d-un-lieu-geometr": {
+    "label": "Trouver l'équation cartésienne d'un lieu géométrique",
+    "matiere_id": "math",
+    "aliases": [
+      "Détermination de l'équation cartésienne d'un lieu géométrique"
+    ]
+  },
+  "math.resoudre-une-equation-transcendante": {
+    "label": "Résoudre une équation transcendante",
+    "matiere_id": "math",
+    "aliases": [
+      "Résoudre une équation impliquant une fonction transcendante",
+      "Résoudre une équation — Équation",
+      "Résoudre une équation — Équation impliquant une fonction",
+      "Résoudre une équation — Équation transcendante",
+      "Résoudre une équation fonctionnelle impliquant une fonction logarithmique",
+      "Résolution d'une équation transcendante",
+      "Résolution d'une équation impliquant une fonction logarithmique",
+      "Résoudre une équation transcendante impliquant la fonction logarithme",
+      "Résolution d'une équation impliquant une fonction exponentielle",
+      "Recherche d'une solution unique pour une équation impliquant une fonction logarithmique",
+      "Résolution d'une équation transcendante avec une fonction exponentielle",
+      "Résolution d'une équation impliquant une fonction transcendante"
+    ]
+  },
+  "math.deriver-une-fonction-composee-avec-une-fonction-": {
+    "label": "Dériver une fonction composée — avec une fonction logarithmique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-croissance-d-une-fonction-avec-une-de": {
+    "label": "Étudier la croissance d'une fonction — avec une dérivée",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier l'injectivité d'une fonction — avec une fonction dérivée"
+    ]
+  },
+  "math.decomposer-une-fonction-rationnelle-en-parties-p": {
+    "label": "Décomposition d'une fraction rationnelle en éléments simples",
+    "matiere_id": "math",
+    "aliases": [
+      "Décomposer une fonction rationnelle en parties fractionnaires — méthode de la division polynomiale",
+      "Décomposer une fonction rationnelle — en parties polynomiale et fractionnaire",
+      "Décomposition d'une fonction rationnelle en fractions partielles — Méthode de calcul",
+      "Décomposition d'une fonction rationnelle en parties fractionnaires",
+      "Décomposition d'une fonction rationnelle en somme de fractions partielles — Méthode de calcul"
+    ]
+  },
+  "math.resolution-d-une-equation-par-etude-de-la-foncti": {
+    "label": "Résolution d'une équation — par étude de la fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Résolution d'une équation à l'aide de la fonction inverse"
+    ]
+  },
+  "math.determination-du-signe-d-une-fonction-en-fonctio": {
+    "label": "Détermination du signe d'une fonction — en fonction de son expression",
+    "matiere_id": "math",
+    "aliases": [
+      "Détermination du signe d'une fonction définie par une expression logarithmique",
+      "Détermination du signe d'une fonction à l'aide de sa dérivée"
+    ]
+  },
+  "math.recherche-des-zeros-d-une-fonction-par-etude-de-": {
+    "label": "Recherche des zéros d'une fonction — par étude de sa variation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-une-integrale-par-application-de-la-pro": {
+    "label": "Calcul d'une intégrale — par application de la propriété d'additivité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-d-une-primitive-d-une-fonction-sur-un-": {
+    "label": "Recherche d'une primitive d'une fonction sur un intervalle — Méthode de calcul",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul d'une primitive d'une fonction sur un intervalle",
+      "Calcul d'une primitive d'une fonction à exponentielle"
+    ]
+  },
+  "math.recherche-des-points-d-intersection-de-deux-cour": {
+    "label": "Recherche des points d'intersection de deux courbes — Méthode de calcul",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-une-aire-entre-une-courbe-et-les-axes-m": {
+    "label": "Calcul d'une aire entre courbes ou axes — Méthode d'intégration",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul d'une aire entre une courbe et les axes — Méthode d'intégration",
+      "Calculer l'aire entre deux courbes — en utilisant l'intégration"
+    ]
+  },
+  "math.determiner-les-intervalles-de-croissance-et-de-d": {
+    "label": "Déterminer les intervalles de croissance et de décroissance d'une fonction — étude de la dérivée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-l-aire-sous-une-courbe-en-utilisant-des": {
+    "label": "Calculer l'aire sous une courbe — en utilisant des intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer l'aire sous une courbe par intégration — méthode des primitives",
+      "Calculer l'aire sous une courbe — Utilisation de l'intégration",
+      "Calcul d'une aire sous une courbe en utilisant les intégrales",
+      "Calcul d'une aire sous une courbe par intégration",
+      "Calcul d'aire sous une courbe à l'aide d'intégrales"
+    ]
+  },
+  "math.calculer-une-integrale-impropre-methode-de-conve": {
+    "label": "Calculer une intégrale impropre — méthode de convergence",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer une intégrale impropre — méthode de la convergence uniforme"
+    ]
+  },
+  "math.determiner-la-limite-d-une-suite-definie-par-int": {
+    "label": "Déterminer la limite d'une suite définie par intégrales — méthode des encadrements",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-par-parties-d-une-fonction": {
+    "label": "Intégration par parties d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Intégration par parties d'une fonction logarithmique",
+      "Intégration par parties",
+      "Intégration d'une fonction exponentielle par parties",
+      "Intégration par parties d'une fonction comportant un logarithme",
+      "Intégration par parties d'une fonction avec un terme logarithmique"
+    ]
+  },
+  "math.calculer-une-integrale-definie": {
+    "label": "Calculer une intégrale définie",
+    "matiere_id": "math",
+    "aliases": [
+      "Évaluation d'une intégrale définie",
+      "Évaluation d'une intégrale impropre",
+      "Évaluer une intégrale définie",
+      "Évaluation d'une intégrale définie pour une fonction à variables"
+    ]
+  },
+  "math.utilisation-de-l-inegalite-pour-encadrer-une-exp": {
+    "label": "Utilisation de l'inégalité pour encadrer une expression",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developpement-de-la-somme-d-une-serie-arithmetiq": {
+    "label": "Développement de la somme d'une série arithmétique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-des-proprietes-des-logarithmes-pour-": {
+    "label": "Utilisation des propriétés des logarithmes pour simplifier une expression",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-differentielle-lineaire-du": {
+    "label": "Résoudre une équation différentielle linéaire du premier ordre — Équation de la forme y' - y = f(x)",
+    "matiere_id": "math",
+    "aliases": [
+      "Résolution d'une équation différentielle linéaire du premier ordre"
+    ]
+  },
+  "math.resoudre-une-recurrence-relation-de-recurrence-e": {
+    "label": "Résoudre une récurrence — Relation de récurrence et sommation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-par-etude-de-signe-methode": {
+    "label": "Résoudre une équation par étude de signe — méthode de variation",
+    "matiere_id": "math",
+    "aliases": [
+      "Résoudre une équation par étude de fonction — Méthode graphique"
+    ]
+  },
+  "math.determiner-la-derivabilite-d-une-fonction-theore": {
+    "label": "Déterminer la dérivabilité d'une fonction — théorème de dérivabilité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-proprietes-d-une-fonction-definie-pa": {
+    "label": "Étudier les propriétés d'une fonction définie par intégration — lien avec la fonction originale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-limite-d-une-fonction-definie-par-": {
+    "label": "Évaluation d'une limite — propriétés des intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer la limite d'une fonction définie par intégration — propriétés des intégrales",
+      "Évaluation d'une limite — par application des propriétés des intégrales"
+    ]
+  },
+  "math.representation-graphique-d-une-fonction-utilisat": {
+    "label": "Représentation graphique d'une fonction — Utilisation d'un tableau de variation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-une-integrale-definie-methode-de-substi": {
+    "label": "Calcul d'une intégrale définie — Méthode de substitution ou de reconnaissance de formes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-la-somme-d-une-suite-formule-de-sommat": {
+    "label": "Calcul de la somme d'une suite — Formule de sommation",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul de la somme d'une série géométrique — Formule de sommation"
+    ]
+  },
+  "math.etude-de-la-limite-d-une-suite-utilisation-des-p": {
+    "label": "Étude d'une fonction — Utilisation des propriétés et calcul d'intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la limite d'une suite — Utilisation des propriétés des fonctions",
+      "Étudier les propriétés d'une suite — en utilisant les propriétés des fonctions"
+    ]
+  },
+  "math.resoudre-une-equation-differentielle-lineaire-co": {
+    "label": "Résoudre une équation différentielle linéaire — Coefficients constants",
+    "matiere_id": "math",
+    "aliases": [
+      "Résolution d'une équation différentielle linéaire du deuxième ordre à coefficients constants"
+    ]
+  },
+  "math.determiner-la-limite-d-une-suite-inegalite-et-co": {
+    "label": "Déterminer la limite d'une suite — Inégalité et convergence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.appliquer-le-principe-d-induction-suites-recurre": {
+    "label": "Appliquer le principe d'induction — Suites récurrentes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.simplifier-une-integrale-fonctions-rationnelles-": {
+    "label": "Simplifier une intégrale — Fonctions rationnelles et exponentielles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.approximer-une-valeur-par-une-somme-partielle-se": {
+    "label": "Approximer une valeur par une somme partielle — Série convergente",
+    "matiere_id": "math",
+    "aliases": [
+      "Approximation d'une valeur par une somme partielle d'une série"
+    ]
+  },
+  "math.etudier-la-convergence-d-une-suite-utilisation-d": {
+    "label": "Étudier la convergence d'une suite — Utilisation de critères de convergence",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier la convergence d'une suite — Utilisation des propriétés des intégrales",
+      "Étudier la convergence d'une suite — en utilisant les propriétés des suites et des intégrales"
+    ]
+  },
+  "math.definir-une-suite-recursive-avec-formule-de-recu": {
+    "label": "Définir une suite récursive — avec formule de récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-une-integrale-definie-avec-theoreme-fon": {
+    "label": "Calculer une intégrale définie — avec théorème fondamental de l'analyse",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaitre-une-serie-convergente-avec-somme-d-u": {
+    "label": "Reconnaître une série convergente — avec somme d'une série",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-le-comportement-asymptotique-d-une-fonct": {
+    "label": "Étudier le comportement asymptotique d'une fonction — grandeur et signe",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier le comportement asymptotique d'une fonction"
+    ]
+  },
+  "math.determiner-les-asymptotes-d-une-courbe": {
+    "label": "Déterminer les asymptotes d'une courbe",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer l'asymptote d'une courbe",
+      "Déterminer l'asymptote oblique d'une courbe",
+      "Déterminer l'équation d'une courbe — équation paramétrique ou explicite",
+      "Déterminer une asymptote oblique pour une courbe — Équation paramétrique",
+      "Étudier l'asymptote oblique d'une courbe",
+      "Déterminer l'asymptote oblique d'une courbe représentative d'une fonction"
+    ]
+  },
+  "math.etudier-les-proprietes-d-une-suite-de-fonctions-": {
+    "label": "Étudier les propriétés d'une suite de fonctions — convergence et homothétie",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-equation-de-la-tangente-a-une-courb": {
+    "label": "Déterminer l'équation de la tangente à une courbe — pente et ordonnée à l'origine",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.representer-graphiquement-une-famille-de-courbes": {
+    "label": "Représenter graphiquement une famille de courbes — homothétie et translation",
+    "matiere_id": "math",
+    "aliases": [
+      "Représenter graphiquement une famille de courbes"
+    ]
+  },
+  "math.rechercher-les-points-d-inflexion-d-une-fonction": {
+    "label": "Rechercher les points d'inflexion d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developper-une-fonction-en-serie": {
+    "label": "Développer une fonction en série",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-que-une-fonction-est-une-bijection": {
+    "label": "Montrer que une fonction est une bijection",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer si une fonction est une bijection sur un intervalle",
+      "Déterminer si une fonction est une bijection — Fonction",
+      "Montrer que une fonction est une bijection — Utilisation de la définition de la bijection",
+      "Montrer que la restriction d'une fonction sur un intervalle est une bijection"
+    ]
+  },
+  "math.trouver-l-expression-d-une-fonction-inverse-fonc": {
+    "label": "Trouver l'expression d'une fonction inverse — Fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-les-points-fixes-d-une-famille-de-fon": {
+    "label": "Déterminer les points fixes d'une famille de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-symetrie-d-une-courbe-par-rapport-a-l": {
+    "label": "Étudier la symétrie d'une courbe par rapport à l'axe des ordonnées",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la symétrie d'une courbe par rapport à un axe",
+      "Étude de la symétrie d'une courbe par rapport à l'axe des ordonnées"
+    ]
+  },
+  "math.etudier-la-convergence-d-une-serie-entiere": {
+    "label": "Étudier la convergence d'une série entière",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier la convergence d'une série — Critère de convergence",
+      "Étudier la convergence d'une série entière et calculer sa somme"
+    ]
+  },
+  "math.utiliser-l-inegalite-des-accroissements-finis-po": {
+    "label": "Utiliser l'inégalité des accroissements finis pour encadrer une somme",
+    "matiere_id": "math",
+    "aliases": [
+      "Utiliser l'inégalité des accroissements finis pour encadrer une intégrale"
+    ]
+  },
+  "math.etudier-les-positions-relatives-de-deux-courbes-": {
+    "label": "Étudier les positions relatives de deux courbes — Fonctions paramétrées",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.majorer-une-integrale-definie-inegalite-de-fonct": {
+    "label": "Majorer une intégrale définie — Inégalité de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-variations-d-une-fonction-a-l-aide-d": {
+    "label": "Étudier les variations d'une fonction à l'aide de sa dérivée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrer-une-somme-par-des-majorations-et-des-mi": {
+    "label": "Encadrer une somme par des majorations et des minorations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-inegalites-entre-fonctions-methode-d": {
+    "label": "Étudier les inégalités entre fonctions — méthode d'analyse comparative",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-points-d-inflexion-d-une-courbe-deux": {
+    "label": "Étudier les points d'inflexion d'une courbe — deuxième dérivée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-bijection-d-une-fonction-sur-un-inter": {
+    "label": "Étudier la bijection d'une fonction sur un intervalle — propriétés des fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-les-positions-relatives-entre-deux-co": {
+    "label": "Déterminer les positions relatives entre deux courbes — analyse graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrer-une-fonction-par-parties": {
+    "label": "Intégrer une fonction par parties",
+    "matiere_id": "math",
+    "aliases": [
+      "Intégrer une fonction produit — Intégration par parties",
+      "Intégrer une fonction — par substitution"
+    ]
+  },
+  "math.decomposer-une-fraction-rationnelle-en-elements-": {
+    "label": "Décomposer une fraction rationnelle — en éléments simples",
+    "matiere_id": "math",
+    "aliases": [
+      "Décomposition d'une fraction rationnelle en éléments simples",
+      "Décomposition d'une fraction rationnelle en parties simples",
+      "Décomposition d'une fraction rationnelle en termes d'expressions plus simples"
+    ]
+  },
+  "math.resoudre-une-equation-par-inspection-ou-numeriqu": {
+    "label": "Résoudre une équation — par inspection ou numériquement",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-differentielle-par-inspect": {
+    "label": "Résoudre une équation différentielle — par inspection ou séparation des variables",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etablir-une-inegalite-sur-une-integrale": {
+    "label": "Établir une inégalité sur une intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-convergence-d-une-suite": {
+    "label": "Déterminer la convergence d'une suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-decroissance-d-une-suite": {
+    "label": "Étudier la décroissance d'une suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utiliser-le-test-de-convergence-d-une-suite": {
+    "label": "Utiliser le test de convergence d'une suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developper-une-serie-entiere": {
+    "label": "Développer une série entière",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-l-existence-et-l-unicite-d-une-solution-": {
+    "label": "Étudier l'existence et l'unicité d'une solution pour une équation",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer l'existence et l'unicité d'une solution pour une équation"
+    ]
+  },
+  "math.utiliser-l-inegalite-pour-comparer-des-quantites": {
+    "label": "Utiliser l'inégalité pour comparer des quantités",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.appliquer-le-principe-d-induction-pour-etablir-u": {
+    "label": "Appliquer le principe d'induction pour établir une relation de récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrer-une-fonction-inegalites-et-majorations": {
+    "label": "Encadrer une fonction — inégalités et majorations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluer-une-somme-formules-de-sommation": {
+    "label": "Évaluer une somme — formules de sommation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-limite-d-une-suite-proprietes-des-li": {
+    "label": "Calculer la limite d'une suite — propriétés des limites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-limite-d-une-fonction-a-une-borne-": {
+    "label": "Déterminer la limite d'une fonction à une borne de son domaine",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer la limite d'une fonction à l'approche d'une borne de son domaine"
+    ]
+  },
+  "math.calculer-l-integrale-d-une-fonction-sur-un-inter": {
+    "label": "Calculer l'intégrale d'une fonction sur un intervalle",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer une intégrale par parties — Fonction définie sur un intervalle",
+      "Intégrer une fonction sur un intervalle — Intégrale définie"
+    ]
+  },
+  "math.utiliser-l-inegalite-des-parties-integrales-pour": {
+    "label": "Utiliser l'inégalité des parties intégrales pour comparer des intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-convergence-d-une-suite-a-l-aide-de-l": {
+    "label": "Étudier la convergence d'une suite à l'aide de la règle des racines",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-bijection-d-une-fonction-sur-un-in": {
+    "label": "Déterminer la bijection d'une fonction sur un intervalle — Fonction injective et surjective",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-intersections-entre-deux-courbes-met": {
+    "label": "Étudier les intersections entre deux courbes — Méthode graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-ensemble-de-definition-d-une-foncti": {
+    "label": "Déterminer l'ensemble de définition d'une fonction à partir de son tableau de variation — Analyse de tableau",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer l'ensemble de définition d'une fonction à partir de son tableau de variation — Analyse de fonction"
+    ]
+  },
+  "math.identifier-les-asymptotes-d-une-courbe-represent": {
+    "label": "Identifier les asymptotes d'une courbe représentative d'une fonction — Analyse graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.interpreter-un-tableau-de-variation-pour-une-fon": {
+    "label": "Interpréter un tableau de variation pour une fonction — Lecture et compréhension de données",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaitre-les-proprietes-d-une-fonction-a-part": {
+    "label": "Reconnaître les propriétés d'une fonction à partir de son graphique — Analyse visuelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-si-une-fonction-est-biunivoque-etude-": {
+    "label": "Déterminer si une fonction est biunivoque — Étude de l'injectivité et de la surjectivité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-utilisation-de-methodes-nu": {
+    "label": "Résoudre une équation — Utilisation de méthodes numériques ou algébriques",
+    "matiere_id": "math",
+    "aliases": [
+      "Résoudre une équation transcendante — Utilisation de méthodes numériques ou d'approximation"
+    ]
+  },
+  "math.determiner-une-primitive-d-une-fonction-utilisat": {
+    "label": "Déterminer une primitive d'une fonction — Utilisation de règles de calcul d'intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-un-terme-d-une-suite-arithmetique-a-par": {
+    "label": "Calculer un terme d'une suite arithmétique — à partir de la raison et d'un terme connu",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-somme-d-une-suite-arithmetique-en-": {
+    "label": "Déterminer la somme d'une suite arithmétique — en fonction de la raison, du premier terme et du nombre de termes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-somme-d-une-suite-geometrique-en-fon": {
+    "label": "Calculer la somme d'une suite géométrique — en fonction du premier terme et du rapport",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-monotonicite-d-une-suite-en-fonction-": {
+    "label": "Étudier la monotonicité d'une suite — en fonction de son terme général",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer la convergence d'une suite — en fonction de son terme général"
+    ]
+  },
+  "math.etudier-les-proprietes-de-bornage-d-une-suite-en": {
+    "label": "Étudier les propriétés de bornage d'une suite — en fonction de la relation avec une autre suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-position-d-une-courbe-par-rapport-a-s": {
+    "label": "Étudier la position d'une courbe par rapport à sa tangente — en un point donné",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-aire-d-un-domaine-delimite-integral": {
+    "label": "Déterminer l'aire d'un domaine délimité — Intégrale définie",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer l'aire d'un domaine plan — à l'aide d'une intégrale définie"
+    ]
+  },
+  "math.montrer-qu-une-fonction-est-biunivoque-sur-un-in": {
+    "label": "Montrer qu'une fonction est biunivoque sur un intervalle",
+    "matiere_id": "math",
+    "aliases": [
+      "Montrer l'injectivité d'une fonction — Fonction définie sur un intervalle",
+      "Montrer qu'une fonction est injective — Fonction définie sur un intervalle"
+    ]
+  },
+  "math.calculer-la-limite-d-une-fonction-a-droite-d-un-": {
+    "label": "Calculer la limite d'une fonction à droite d'un point — Utilisation de la définition de la continuité",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer la continuité d'une fonction en un point — Utilisation de la définition de la continuité",
+      "Déterminer la continuité et la dérivabilité d'une fonction en un point — à l'aide de la définition"
+    ]
+  },
+  "math.etudier-la-limite-d-une-fonction-a-l-infini-anal": {
+    "label": "Étudier la limite d'une fonction à l'infini — Analyse de la croissance d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-intersections-d-une-courbe-avec-les-": {
+    "label": "Étudier les intersections d'une courbe avec les axes — Utilisation de la fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier les intersections d'une courbe avec les axes — Utilisation de la fonction et de ses propriétés"
+    ]
+  },
+  "math.calculer-une-primitive-d-une-fonction-utilisatio": {
+    "label": "Calculer une primitive d'une fonction — Utilisation de la dérivée et de la fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-aire-sous-une-courbe": {
+    "label": "Déterminer l'aire sous une courbe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.definition-d-une-suite-numerique-formule-explici": {
+    "label": "Définition d'une suite numérique — Formule explicite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-croissance-ou-de-la-decroissance-d-u": {
+    "label": "Étude de la croissance ou de la décroissance d'une suite — Analyse de la différence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-de-la-convergence-ou-de-la-divergence": {
+    "label": "Évaluation de la convergence ou de la divergence d'une suite — Critères de convergence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-la-valeur-d-une-expression-logarithmiq": {
+    "label": "Calcul de la valeur d'une expression logarithmique — Propriétés des logarithmes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-nature-d-une-suite-constante-croissa": {
+    "label": "Étude de la nature d'une suite — Constante, croissante, décroissante",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-la-valeur-d-une-variable-equation-e": {
+    "label": "Recherche de la valeur d'une variable — Équation exponentielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developper-une-fonction-produit-fonction-exponen": {
+    "label": "Développer une fonction produit — Fonction exponentielle et polynôme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-equation-d-une-asymptote-oblique-fo": {
+    "label": "Déterminer l'équation d'une asymptote oblique — Fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrer-une-fonction-exponentielle-integration-": {
+    "label": "Intégrer une fonction exponentielle — Intégration directe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-l-existence-d-une-asymptote-horizontale-": {
+    "label": "Montrer l'existence d'une asymptote horizontale pour une courbe",
+    "matiere_id": "math",
+    "aliases": [
+      "Recherche d'une asymptote horizontale d'une courbe",
+      "Recherche d'une asymptote oblique pour une courbe",
+      "Recherche d'une asymptote oblique à une courbe",
+      "Recherche d'une asymptote oblique pour une courbe représentative"
+    ]
+  },
+  "math.calculer-l-integrale-d-une-fonction-utilisation-": {
+    "label": "Calculer une intégrale — Utilisation de propriétés et méthodes d'intégration",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer l'intégrale d'une fonction — Utilisation de méthodes d'intégration",
+      "Calculer une intégrale — en utilisant les propriétés des fonctions et des intégrales"
+    ]
+  },
+  "math.determiner-le-type-d-une-suite-numerique-context": {
+    "label": "Déterminer le type d'une suite numérique — contexte de reconnaissance de suites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etablir-une-relation-de-recurrence-methode-itera": {
+    "label": "Établir une relation de récurrence — méthode itérative",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.exprimer-une-suite-en-fonction-de-son-indice-pro": {
+    "label": "Exprimer une suite en fonction de son indice — propriété de dépendance",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.definir-une-nouvelle-suite-a-partir-d-une-suite-": {
+    "label": "Définir une nouvelle suite à partir d'une suite existante — opération de transformation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-le-produit-d-une-suite-operation-de-mul": {
+    "label": "Calculer le produit d'une suite — opération de multiplication",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-equation-de-la-tangente-a-une-courb-2": {
+    "label": "Déterminer l'équation de la tangente à une courbe — Courbe représentative d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-methode-numerique": {
+    "label": "Résoudre une équation — Méthode numérique",
+    "matiere_id": "math",
+    "aliases": [
+      "Résoudre une équation — Fonction numérique",
+      "Résoudre une équation — méthode numérique ou algébrique"
+    ]
+  },
+  "math.trouver-les-points-d-intersection-d-une-courbe-a": {
+    "label": "Trouver les points d'intersection d'une courbe avec un axe",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer le point d'intersection d'une courbe avec un axe — Équation de la courbe",
+      "Déterminer les points d'intersection d'une courbe avec l'axe des x — Étude de fonctions",
+      "Déterminer les points d'intersection d'une courbe avec un axe — Utilisation d'équations",
+      "Déterminer les points d'intersection d'une courbe avec un axe — Utilisation de la définition de la fonction",
+      "Déterminer les points d'intersection d'une courbe avec un axe — équation de la courbe"
+    ]
+  },
+  "math.etudier-les-proprietes-d-une-fonction-injectivit": {
+    "label": "Étudier les propriétés d'une fonction — injectivité, surjectivité, bijection",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaitre-la-parite-d-une-fonction-a-partir-de": {
+    "label": "Reconnaître la parité d'une fonction à partir de ses propriétés — Fonctions paires et impaires",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.compter-le-nombre-d-asymptotes-d-une-courbe-etud": {
+    "label": "Compter le nombre d'asymptotes d'une courbe — Étude de fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Compter le nombre de tangentes horizontales d'une courbe — Étude de fonctions"
+    ]
+  },
+  "math.resoudre-une-equation-de-la-forme-f-x-c-methodes": {
+    "label": "Résoudre une équation de la forme f(x) = c — Méthodes de résolution d'équations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-derivee-d-une-fonction-inverse-avec-": {
+    "label": "Calculer la dérivée d'une fonction inverse — avec la formule de la dérivée inverse",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer la dérivée de la réciproque d'une fonction — en utilisant la formule de la dérivée de l'inverse"
+    ]
+  },
+  "math.discuter-graphiquement-le-nombre-de-solutions-d-": {
+    "label": "Discuter graphiquement le nombre de solutions d'une équation — Fonction exponentielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-valeur-d-une-suite-pour-un-entier-na": {
+    "label": "Calculer la valeur d'une suite pour un entier naturel donné — utilisation d'une formule",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-limite-d-une-suite-analyse-de-comp": {
+    "label": "Déterminer la limite d'une suite — analyse de comportement",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.classer-une-suite-comme-croissante-decroissante-": {
+    "label": "Classer une suite comme croissante, décroissante ou non monotone — étude de variations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.identifier-le-type-d-une-suite-reconnaissance-de": {
+    "label": "Identifier le type d'une suite — reconnaissance de modèles arithmétiques ou géométriques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-le-terme-general-d-une-suite-utilisat": {
+    "label": "Déterminer le terme général d'une suite — utilisation de propriétés logarithmiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-somme-d-une-serie-geometrique-finie-": {
+    "label": "Calculer la somme d'une série géométrique finie — application de formules de sommation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-limite-d-une-fonction-a-l-infini-uti": {
+    "label": "Calculer la limite d'une fonction à l'infini — Utilisation de la forme indéterminée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-l-asymptote-d-une-courbe-equation-de-la-": {
+    "label": "Étudier l'asymptote d'une courbe — Équation de la droite asymptote",
+    "matiere_id": "math",
+    "aliases": [
+      "Étudier la position relative d'une courbe et d'une droite — Asymptote oblique"
+    ]
+  },
+  "math.construire-graphiquement-une-courbe-repere-ortho": {
+    "label": "Construire graphiquement une courbe — Repère orthonormé",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluer-une-fonction-polynomiale-a-coefficients-": {
+    "label": "Évaluer une fonction polynomiale à coefficients complexes en un point donné — utilisation d'un nombre complexe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.factoriser-un-polynome-a-coefficients-complexes-": {
+    "label": "Factoriser un polynôme à coefficients complexes — méthode de factorisation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-polynomiale-a-coefficients": {
+    "label": "Résoudre une équation polynomiale à coefficients complexes — méthode algébrique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-proprietes-d-une-suite-geometrique-u": {
+    "label": "Étudier les propriétés d'une suite géométrique — utilisation de la formule de la somme d'une suite géométrique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.deriver-une-fonction-fonction-numerique": {
+    "label": "Dériver une fonction — Fonction numérique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.trouver-une-primitive-d-une-fonction-fonction-nu": {
+    "label": "Trouver une primitive d'une fonction — Fonction numérique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.interpreter-graphiquement-les-proprietes-d-une-f": {
+    "label": "Interpréter graphiquement les propriétés d'une fonction — Fonction numérique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-l-aire-d-un-domaine-delimite-par-des-co": {
+    "label": "Calculer l'aire d'un domaine délimité par des courbes et des droites",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul de l'aire d'un domaine plan délimité par une courbe et des droites"
+    ]
+  },
+  "math.montrer-l-existence-d-une-derivee-et-la-calculer": {
+    "label": "Montrer l'existence d'une dérivée et la calculer",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-qu-une-fonction-est-injective-et-surject": {
+    "label": "Montrer qu'une fonction est injective et surjective",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utiliser-les-proprietes-des-integrales-pour-simp": {
+    "label": "Utiliser les propriétés des intégrales pour simplifier une expression",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-les-points-d-inflexion-d-une-courbe": {
+    "label": "Déterminer les points d'inflexion d'une courbe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-proprietes-d-une-fonction-pour-montr": {
+    "label": "Étudier les propriétés d'une fonction pour montrer qu'elle est une bijection",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-la-decroissance-et-la-minorite-d-une-sui": {
+    "label": "Montrer la décroissance et la minorité d'une suite — Suites numériques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.justifier-l-egalite-de-deux-expressions-calculs-": {
+    "label": "Justifier l'égalité de deux expressions — Calculs algébriques et intégraux",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.deduire-la-valeur-d-une-limite-suites-et-fonctio": {
+    "label": "Déduire la valeur d'une limite — Suites et fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrer-une-fonction-sous-forme-d-expression-al": {
+    "label": "Intégrer une fonction sous forme d'expression algébrique — avec substitution",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-la-monotonicite-d-une-suite-par-comparai": {
+    "label": "Étudier la monotonicité d'une suite — par comparaison de termes consécutifs",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resoudre-une-equation-de-recurrence-lineaire-par": {
+    "label": "Résoudre une équation de récurrence linéaire — par identification de pattern",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluer-une-somme-telescopique-en-factorisant-le": {
+    "label": "Évaluer une somme télescopique — en factorisant les termes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-la-limite-d-une-suite-par-etude-de-la": {
+    "label": "Déterminer la limite d'une suite — par étude de la somme d'une série",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utiliser-l-inegalite-triangulaire-pour-majorer-u": {
+    "label": "Utiliser l'inégalité triangulaire — pour majorer une somme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developper-une-serie-entiere-pour-reconnaitre-un": {
+    "label": "Développer une série entière — pour reconnaître une fonction usuelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.dresser-le-tableau-de-variation-d-une-fonction-u": {
+    "label": "Dresser le tableau de variation d'une fonction — Utilisation de la dérivée et de points critiques",
+    "matiere_id": "math",
+    "aliases": [
+      "Dresser le tableau de variation de la réciproque d'une fonction — Utilisation de la dérivée de la réciproque",
+      "Tableau de variation d'une fonction avec points critiques",
+      "Tableau de variation d'une fonction avec une fonction logarithme"
+    ]
+  },
+  "math.construire-la-courbe-representative-d-une-foncti": {
+    "label": "Construire la courbe représentative d'une fonction — Utilisation de points critiques et de tableaux de variation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.montrer-l-existence-d-une-reciproque-d-une-fonct": {
+    "label": "Montrer l'existence d'une réciproque d'une fonction — Utilisation de propriétés de fonctions injectives",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.deriver-une-fonction-a-l-aide-de-la-regle-du-quo": {
+    "label": "Dériver une fonction à l'aide de la règle du quotient",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer la dérivée d'une fonction à l'aide de la règle du quotient et de la chaîne"
+    ]
+  },
+  "math.justifier-la-convergence-d-une-integrale": {
+    "label": "Justifier la convergence d'une intégrale",
+    "matiere_id": "math",
+    "aliases": [
+      "Justification de la convergence d'une intégrale"
+    ]
+  },
+  "math.calculer-la-somme-d-une-serie": {
+    "label": "Calcul de la somme d'une série",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer la somme d'une série",
+      "Calculer la somme d'une série — opération de sommation"
+    ]
+  },
+  "math.derivabilite-a-droite-d-une-fonction-en-un-point": {
+    "label": "Dérivabilité à droite d'une fonction en un point",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la continuité et de la dérivabilité d'une fonction en un point",
+      "Étude de la continuité et de la dérivabilité d'une fonction à droite d'un point"
+    ]
+  },
+  "math.identification-de-fonctions-a-partir-de-leur-gra": {
+    "label": "Identification de fonctions à partir de leur graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.demonstration-d-appartenance-d-un-point-a-une-co": {
+    "label": "Démonstration d'appartenance d'un point à une courbe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-aire-sous-une-courbe-et-etude-de-sa-lim": {
+    "label": "Calcul d'aire sous une courbe et étude de sa limite",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul d'aire sous une courbe entre deux droites verticales",
+      "Calcul d'une aire sous une courbe entre deux limites"
+    ]
+  },
+  "math.calculer-la-limite-d-une-fonction-a-l-infini": {
+    "label": "Calculer la limite d'une fonction à l'infini",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul de la limite en l'infini d'une fonction polynomiale avec logarithme",
+      "Calcul de la limite à l'infini d'une fonction",
+      "Calculer la limite d'une fonction en un point",
+      "Calculer la limite d'une fonction logarithmique en un point critique",
+      "Étude de la limite d'une fonction exponentielle en ±∞",
+      "Étude de la limite d'une fonction produit à l'infini négatif",
+      "Étude de la limite d'une fonction rationnelle en infini",
+      "Étude de la limite d'une fonction rationnelle à l'infini",
+      "Étude de la limite d'une fonction à l'aide d'une fonction exponentielle",
+      "Étude de la limite d'une fonction à l'infini et interprétation",
+      "Étude de la limite en 0+ d'une fonction rationnelle avec logarithme",
+      "Étude de la limite en l'infini d'une fonction rationnelle avec logarithme",
+      "Étude de la positivité d'une fonction rationnelle",
+      "Étude de la réciproque d'une fonction à exponentielle",
+      "Étude des limites en 0 et en l'infini d'une fonction fractionnaire avec logarithme"
+    ]
+  },
+  "math.etudier-la-variation-d-une-fonction-definie-par-": {
+    "label": "Étudier la variation d'une fonction définie par morceaux",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etablir-des-relations-entre-les-derivees-de-fonc": {
+    "label": "Établir des relations entre les dérivées de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrer-des-fonctions-a-l-aide-de-methodes-de-c": {
+    "label": "Intégrer des fonctions à l'aide de méthodes de calcul",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-derivee-d-une-fonction-rationnelle": {
+    "label": "Calculer la dérivée d'une fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivee-d-une-fonction-comportant-un-logarithme": {
+    "label": "Dérivée d'une fonction comportant un logarithme",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul de la dérivée d'une fonction avec un terme logarithmique",
+      "Calcul de la dérivée d'une fonction comportant un quotient",
+      "Calcul de la dérivée d'une fonction fractionnaire avec logarithme",
+      "Calcul de la dérivée d'une fonction quotient avec exponentielle",
+      "Calcul de la dérivée d'une fonction quotient avec une fonction logarithmique au numérateur",
+      "Calcul de la dérivée seconde d'une fonction comportant un logarithme",
+      "Dérivation d'une fonction composée",
+      "Dérivation d'une fonction composée avec une exponentielle",
+      "Dérivation d'une fonction quotient avec exponentielle",
+      "Dérivée d'une fonction avec logarithme naturel",
+      "Dérivée d'une fonction composée avec exponentielle",
+      "Dérivée d'une fonction composée avec exponentielle et racine carrée",
+      "Dérivée d'une fonction composée avec exponentielle — Étude de variations",
+      "Dérivée d'une fonction impliquant une exponentielle et une racine carrée",
+      "Déterminer la dérivée d'une fonction comportant un logarithme et une fraction",
+      "Intégration d'une fonction fractionnaire avec logarithme"
+    ]
+  },
+  "math.etablir-un-tableau-de-variation-pour-une-fonctio": {
+    "label": "Établir un tableau de variation pour une fonction définie par un logarithme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.interpreter-graphiquement-une-equation-fonctionn": {
+    "label": "Interpréter graphiquement une équation fonctionnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-proprietes-de-symetrie-d-une-courbe-": {
+    "label": "Étudier les propriétés de symétrie d'une courbe représentant une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-image-d-une-courbe-par-une-transfor": {
+    "label": "Déterminer l'image d'une courbe par une transformation géométrique simple",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.comparer-les-proprietes-de-courbes-associees-a-d": {
+    "label": "Comparer les propriétés de courbes associées à des fonctions paramétrées",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-d-asymptotes-verticales-et-horizontale": {
+    "label": "Recherche d'asymptotes verticales et horizontales pour une fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resolution-d-une-equation-transcendante-avec-log": {
+    "label": "Résolution d'une équation transcendante avec logarithme",
+    "matiere_id": "math",
+    "aliases": [
+      "Résolution d'une équation transcendante avec une fonction exponentielle"
+    ]
+  },
+  "math.etude-de-la-derivee-d-une-fonction-definie-par-u": {
+    "label": "Étude de la dérivée d'une fonction définie par une différence de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-fonction-reciproque-d-une-fonction-l": {
+    "label": "Étude de la fonction réciproque d'une fonction logarithme — Étude de variations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrale-d-une-fonction-exponentielle-avec-comp": {
+    "label": "Intégrale d'une fonction exponentielle avec composée logarithme — Calcul d'intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-convergence-d-une-integrale-impropre": {
+    "label": "Étude de la convergence d'une intégrale impropre — Étude de limites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.inegalite-entre-une-fonction-et-son-integrale-et": {
+    "label": "Inégalité — majoration d'intégrale",
+    "matiere_id": "math",
+    "aliases": [
+      "Inégalité entre une fonction et son intégrale — Étude de majorations",
+      "Inégalité — majoration d'intégrale et limite"
+    ]
+  },
+  "math.etude-de-la-fonction-logarithme-etude-de-proprie": {
+    "label": "Étude de la fonction logarithme — Étude de propriétés",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-decroissance-d-une-fonction-etude-de": {
+    "label": "Étude de la décroissance d'une fonction — Utilisation de la notion de dérivée et d'étude de variations",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la décroissance d'une fonction — Utilisation de la notion de dérivée",
+      "Étude de la décroissance d'une fonction — Étude de variations"
+    ]
+  },
+  "math.tableau-de-variation-d-une-fonction-definie-par-": {
+    "label": "Tableau de variation d'une fonction définie par intégrale — Représentation graphique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-monotonie-d-une-fonction-a-l-aide-de": {
+    "label": "Étude de la monotonie d'une fonction à l'aide de sa dérivée",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la bijectivité d'une fonction à l'aide de sa dérivée"
+    ]
+  },
+  "math.constitution-de-la-reciproque-d-une-fonction": {
+    "label": "Constitution de la réciproque d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Constitution de la fonction réciproque d'une fonction donnée"
+    ]
+  },
+  "math.calcul-d-une-integrale-definie-a-l-aide-de-la-me": {
+    "label": "Calcul d'une intégrale définie à l'aide de la méthode des primitives",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-primitives-d-une-fonction": {
+    "label": "Recherche de primitives d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Recherche de primitives d'une fonction rationnelle"
+    ]
+  },
+  "math.calcul-de-limites-en-utilisant-les-proprietes-de": {
+    "label": "Calcul de limites en utilisant les propriétés des fonctions logarithmiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-solutions-pour-une-equation-polynom": {
+    "label": "Recherche de solutions pour une équation polynomiale avec une fonction logarithmique",
+    "matiere_id": "math",
+    "aliases": [
+      "Recherche de solutions pour une équation transcendante impliquant une fonction logarithmique"
+    ]
+  },
+  "math.calcul-de-la-derivee-d-une-fonction-impliquant-d": {
+    "label": "Calcul de la dérivée d'une fonction impliquant des logarithmes",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul de la dérivée d'une fonction impliquant une expression logarithmique et un produit",
+      "Recherche de la dérivée d'une fonction impliquant des logarithmes et des produits"
+    ]
+  },
+  "math.calcul-d-une-integrale-definie-impliquant-une-fo": {
+    "label": "Calcul d'une intégrale définie impliquant une fonction polynomiale et logarithmique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-limite-d-une-fonction-produit-en-un-": {
+    "label": "Étude de la limite d'une fonction produit en un point de son domaine",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determination-de-la-croissance-ou-de-la-decroiss": {
+    "label": "Déterminer la croissance ou la décroissance d'une fonction sur un intervalle",
+    "matiere_id": "math",
+    "aliases": [
+      "Détermination de la croissance ou de la décroissance d'une fonction sur un intervalle",
+      "Déterminer la croissance d'une fonction sur un intervalle — Fonction définie sur un intervalle"
+    ]
+  },
+  "math.calcul-d-une-integrale-impropre-pour-justifier-l": {
+    "label": "Calcul d'une intégrale impropre pour justifier l'existence d'une suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-derivabilite-et-de-la-croissance-d-u": {
+    "label": "Étude de la dérivabilité et de la croissance d'une fonction intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-de-limites-en-pour-une-fonction-ratio": {
+    "label": "Évaluation de limites en ±∞ pour une fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-aires-sous-des-courbes-definies-par-des": {
+    "label": "Calcul d'aires sous des courbes définies par des fonctions analytiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-d-integrales-definies-pour-des-foncti": {
+    "label": "Évaluation d'intégrales définies pour des fonctions analytiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-l-integration-pour-etablir-des-re": {
+    "label": "Utilisation de l'intégration pour établir des relations entre des quantités physiques ou mathématiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-convergence-d-une-serie": {
+    "label": "Étudier la convergence d'une série numérique",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de convergence d'une série",
+      "Étude de la convergence d'une série numérique",
+      "Étude de la convergence d'une série — Utilisation des tests de convergence",
+      "Étudier la convergence d'une série — par comparaison avec une série connue",
+      "Étudier la convergence d'une série — par rapport à une série de référence"
+    ]
+  },
+  "math.representation-d-une-somme-en-termes-d-integrale": {
+    "label": "Représentation d'une somme en termes d'intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-la-derivee-d-un-produit-de-fonctions": {
+    "label": "Calcul de la dérivée d'un produit de fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Calculer la dérivée d'un produit de fonctions",
+      "Dérivée d'un produit de fonctions avec logarithme"
+    ]
+  },
+  "math.utilisation-de-l-inegalite-pour-prouver-la-conve": {
+    "label": "Utilisation de l'inégalité pour prouver la convergence d'une suite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.application-du-theoreme-des-accroissements-finis": {
+    "label": "Application du théorème des accroissements finis pour établir une relation de récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-d-une-integrale-par-recurrence-et-rec": {
+    "label": "Évaluation d'une intégrale par récurrence et reconnaissance d'une série convergente",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.application-du-principe-d-interpolation-pour-int": {
+    "label": "Application du principe d'interpolation pour intégrer une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.interpretation-graphique-d-une-limite": {
+    "label": "Interprétation graphique d'une limite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-l-inegalite-pour-borner-une-integ": {
+    "label": "Utilisation de l'inégalité pour borner une intégrale",
+    "matiere_id": "math",
+    "aliases": [
+      "Utilisation de l'inégalité des intégrales pour borner une fonction intégrale",
+      "Utilisation de l'inégalité pour minorer et majorer une intégrale"
+    ]
+  },
+  "math.evaluation-de-la-limite-d-une-suite-d-integrales": {
+    "label": "Évaluation de la limite d'une suite d'intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Évaluation de la limite d'une suite définie par intégrales"
+    ]
+  },
+  "math.application-de-l-inegalite-triangulaire-pour-maj": {
+    "label": "Application de l'inégalité triangulaire pour majorer une intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-l-integration-par-parties-pour-et": {
+    "label": "Utilisation de l'intégration par parties pour établir une récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.simplification-d-une-integrale-en-utilisant-une-": {
+    "label": "Simplification d'une intégrale en utilisant une décomposition en éléments simples",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-des-extrema-d-une-fonction-a-l-aide-de": {
+    "label": "Recherche des extrema d'une fonction à l'aide de la dérivée",
+    "matiere_id": "math",
+    "aliases": [
+      "Recherche d'un point critique d'une fonction à l'aide de la dérivée",
+      "Recherche des extrema d'une fonction à l'aide du tableau de variation"
+    ]
+  },
+  "math.etude-de-la-variation-d-une-fonction-rationnelle": {
+    "label": "Étude de la variation d'une fonction rationnelle avec exponentielle au dénominateur",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-d-une-fonction-definie-par-une-expre": {
+    "label": "Intégration d'une fonction définie par une expression rationnelle avec exponentielle",
+    "matiere_id": "math",
+    "aliases": [
+      "Représentation graphique d'une fonction définie par une fraction rationnelle avec exponentielle",
+      "Étude de variations d'une fonction définie par une fraction rationnelle avec exponentielle"
+    ]
+  },
+  "math.utilisation-de-l-inegalite-pour-comparer-des-sui": {
+    "label": "Utilisation de l'inégalité pour comparer des suites",
+    "matiere_id": "math",
+    "aliases": [
+      "Utiliser l'inégalité pour comparer des suites — Inégalité et majoration"
+    ]
+  },
+  "math.calcul-d-une-integrale-par-parties-pour-une-fonc": {
+    "label": "Évaluer une intégrale par parties ou substitution — Fonctions exponentielles",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul d'une intégrale par parties pour une fonction exponentielle",
+      "Évaluer une intégrale par parties — Fonctions exponentielles",
+      "Évaluer une intégrale par substitution — Fonction exponentielle"
+    ]
+  },
+  "math.etude-de-la-limite-d-une-suite-definie-par-une-s": {
+    "label": "Étude de la limite d'une suite définie par une somme de fractions rationnelles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.reconnaissance-de-la-serie-entiere-de-l-exponent": {
+    "label": "Reconnaissance de la série entière de l'exponentielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-d-une-bijection-et-calcul-de-la-foncti": {
+    "label": "Recherche d'une bijection et calcul de la fonction inverse",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-une-integrale-avec-une-fonction-rationn": {
+    "label": "Calcul d'une intégrale avec une fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": [
+      "Calcul d'une intégrale avec une fonction logarithmique et une puissance"
+    ]
+  },
+  "math.encadrement-d-une-quantite-a-l-aide-de-limites": {
+    "label": "Encadrement d'une quantité à l'aide de limites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-bijection-d-une-fonction-et-calcul-d": {
+    "label": "Étude de la bijection d'une fonction et construction de son inverse",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la bijection d'une fonction et calcul de sa réciproque",
+      "Étude de la bijection d'une fonction et construction de son inverse"
+    ]
+  },
+  "math.calcul-de-la-derivee-de-la-reciproque-d-une-fonc": {
+    "label": "Calcul de la dérivée de la réciproque d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-d-une-fonction-rationnelle-avec-une-": {
+    "label": "Intégration d'une fonction rationnelle avec une racine carrée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-l-image-d-une-courbe-par-une-homothet": {
+    "label": "Déterminer l'image d'une courbe par une homothétie",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-d-une-fonction-logarithmique": {
+    "label": "Intégration d'une fonction logarithmique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developpement-en-serie-d-une-fonction-rationnell": {
+    "label": "Développement en série d'une fonction rationnelle",
+    "matiere_id": "math",
+    "aliases": [
+      "Développement en série d'une fonction logarithmique"
+    ]
+  },
+  "math.derivation-d-une-fonction-puissance-avec-une-fon": {
+    "label": "Dérivation d'une fonction puissance avec une fonction logarithme au numérateur",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resolution-d-une-equation-recursive-pour-une-sui": {
+    "label": "Résolution d'une équation récursive pour une suite définie par une intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-convergence-d-une-serie-entiere-et-d": {
+    "label": "Étude de la convergence d'une série entière et de sa relation avec une fonction transcendante",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-une-integrale-definie-a-l-aide-de-l-ine": {
+    "label": "Calculer une intégrale définie à l'aide de l'inégalité des accroissements finis",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utiliser-le-developpement-en-serie-entiere-d-une": {
+    "label": "Utiliser le développement en série entière d'une fonction pour calculer une intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-d-inegalites-pour-etudier-les-variat": {
+    "label": "Utilisation d'inégalités pour étudier les variations d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-l-asymptote-oblique-d-une-fonction": {
+    "label": "Détermination de l'asymptote oblique d'une fonction",
+    "matiere_id": "math",
+    "aliases": [
+      "Déterminer l'asymptote oblique d'une fonction — méthode d'étude de comportement",
+      "Recherche d'une asymptote oblique pour une fonction",
+      "Étude de l'asymptote oblique d'une fonction"
+    ]
+  },
+  "math.analyse-de-la-convergence-d-une-suite-definie-pa": {
+    "label": "Étude de la convergence d'une suite — Analyse",
+    "matiere_id": "math",
+    "aliases": [
+      "Analyse de la convergence d'une suite définie par une fonction",
+      "Étude de la convergence d'une suite et recherche de sa limite",
+      "Étude de la convergence d'une suite à l'aide de la comparaison",
+      "Étude de la convergence d'une suite — Analyse"
+    ]
+  },
+  "math.etude-de-la-derivabilite-et-de-la-continuite-d-u": {
+    "label": "Étude de la dérivabilité et de la continuité d'une suite de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivee-d-un-quotient-avec-logarithme-au-numerat": {
+    "label": "Dérivée d'un quotient avec logarithme au numérateur",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-d-une-primitive-qui-s-annule-en-un-poi": {
+    "label": "Recherche d'une primitive qui s'annule en un point donné",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-aire-entre-une-courbe-et-l-axe-des-x": {
+    "label": "Calcul d'aire entre une courbe et l'axe des x",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrement-d-une-somme-de-fractions-rationnelle": {
+    "label": "Encadrement d'une somme de fractions rationnelles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.application-du-theoreme-d-integration-par-partie": {
+    "label": "Application du théorème d'intégration par parties pour simplifier une intégrale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivation-d-une-fonction-produit-et-d-une-fonct": {
+    "label": "Dérivation d'une fonction produit et d'une fonction puissance",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.recherche-de-l-aire-comprise-entre-deux-courbes": {
+    "label": "Recherche de l'aire comprise entre deux courbes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.changement-de-variable-pour-integrer-une-fonctio": {
+    "label": "Changement de variable pour intégrer une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrement-d-une-integrale-avec-une-fonction-po": {
+    "label": "Encadrement d'une intégrale avec une fonction positive décroissante",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.encadrement-d-une-fonction-a-l-aide-d-integrales": {
+    "label": "Encadrement d'une fonction à l'aide d'intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-sommes-de-fractions-rationnelles": {
+    "label": "Calcul de sommes de fractions rationnelles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-limite-d-une-somme-de-fonctions": {
+    "label": "Étude de la limite d'une somme de fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la limite d'un quotient de fonctions"
+    ]
+  },
+  "math.evaluation-d-une-integrale-a-l-aide-du-theoreme-": {
+    "label": "Évaluation d'une intégrale à l'aide du théorème des accroissements finis",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determination-de-la-limite-d-une-fonction-a-l-ai": {
+    "label": "Détermination de la limite d'une fonction à l'aide de règles de calcul",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.conception-graphique-d-une-fonction-et-de-ses-de": {
+    "label": "Conception graphique d'une fonction et de ses dérivées",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivee-d-une-fonction-somme": {
+    "label": "Dérivée d'une fonction somme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determination-d-une-bijection-et-de-son-interval": {
+    "label": "Détermination d'une bijection et de son intervalle d'arrivée",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-la-courbe-representative-d-une-fonction": {
+    "label": "Étude de la courbe représentative d'une fonction avec asymptotes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-d-une-bijection-et-recherche-de-la-recipro": {
+    "label": "Étude d'une bijection et recherche de la réciproque",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-les-limites-d-une-fonction-a-exponentie": {
+    "label": "Calculer les limites d'une fonction à exponentielle en -∞ et +∞",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determination-de-la-derivee-d-une-fonction-a-exp": {
+    "label": "Determination de la dérivée d'une fonction à exponentielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-limite-d-une-fonction-avec-logarithme-": {
+    "label": "Calcul de limite d'une fonction avec logarithme naturel — à droite d'une borne",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.demonstration-de-la-continuite-d-une-fonction-pa": {
+    "label": "Démonstration de la continuité d'une fonction par calcul de limite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivation-d-un-produit-de-fonctions": {
+    "label": "Dérivation d'un produit de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-d-une-fonction-a-l-aide-d-une-primit": {
+    "label": "Intégration d'une fonction — Méthode des primitives",
+    "matiere_id": "math",
+    "aliases": [
+      "Intégration d'une fonction à l'aide d'une primitive",
+      "Intégration d'une fonction — Méthode des primitives"
+    ]
+  },
+  "math.decomposition-d-une-fonction-en-facteurs-pour-et": {
+    "label": "Décomposition d'une fonction en facteurs pour étudier ses limites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-la-derivee-d-une-fonction-pour-en": {
+    "label": "Utilisation de la dérivée d'une fonction pour en déduire son comportement",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.bijection-et-inverse-d-une-fonction": {
+    "label": "Bijection et inverse d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.bijection-entre-deux-intervalles": {
+    "label": "Bijection entre deux intervalles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptote-d-une-courbe-representative": {
+    "label": "Asymptote d'une courbe représentative",
+    "matiere_id": "math",
+    "aliases": [
+      "Asymptote oblique d'une courbe représentative d'une fonction"
+    ]
+  },
+  "math.calcul-d-une-derivee-en-utilisant-la-regle-du-qu": {
+    "label": "Calcul d'une dérivée en utilisant la règle du quotient",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developpement-d-une-fonction-produit-en-somme-de": {
+    "label": "Développement d'une fonction produit en somme de fractions rationnelles et exponentielles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivee-d-un-produit-avec-une-fonction-logarithm": {
+    "label": "Dérivée d'un produit avec une fonction logarithmique",
+    "matiere_id": "math",
+    "aliases": [
+      "Dérivée d'un produit de fonctions polynomiale et logarithmique"
+    ]
+  },
+  "math.resolution-graphique-d-une-equation": {
+    "label": "Résolution graphique d'une équation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.decomposition-d-une-fonction-en-sommes-de-foncti": {
+    "label": "Décomposition d'une fonction en sommes de fonctions plus simples",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.developper-une-fonction-a-l-aide-d-une-identite-": {
+    "label": "Développer une fonction à l'aide d'une identité algébrique — avec produit de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculer-la-derivee-d-une-fonction-a-l-aide-de-l": {
+    "label": "Calculer la dérivée d'une fonction à l'aide de la règle du produit et de la chaîne",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-le-signe-d-une-fonction-derivee-en-fonct": {
+    "label": "Étudier le signe d'une fonction dérivée — en fonction du signe d'autres fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-proprietes-d-une-fonction-restreinte": {
+    "label": "Étudier les propriétés d'une fonction restreinte à un intervalle — en particulier l'injectivité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-la-regle-de-l-hopital-pour-calcul": {
+    "label": "Utilisation de la règle de l'Hôpital pour calculer des limites indéterminées",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.resolution-d-une-equation-transcendante-a-l-aide": {
+    "label": "Résolution d'une équation transcendante à l'aide d'une méthode numérique",
+    "matiere_id": "math",
+    "aliases": [
+      "Résolution d'une équation transcendante à l'aide de méthodes numériques ou analytiques"
+    ]
+  },
+  "math.somme-d-une-serie-geometrique-finie": {
+    "label": "Somme d'une série géométrique finie",
+    "matiere_id": "math",
+    "aliases": [
+      "Étude de la somme d'une série géométrique"
+    ]
+  },
+  "math.demonstration-de-la-bijection-d-une-fonction": {
+    "label": "Démonstration de la bijection d'une fonction",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-limites-a-droite-et-a-gauche-pour-une-": {
+    "label": "Calcul de limites à droite et à gauche pour une fonction définie par une expression algébro-logarithmique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etudier-les-variations-d-une-fonction-polynomial": {
+    "label": "Étudier les variations d'une fonction polynomiale avec un terme logarithmique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.determiner-le-signe-de-la-derivee-d-une-fonction": {
+    "label": "Déterminer le signe de la dérivée d'une fonction pour en déduire son tableau de variations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-des-variations-d-une-fonction-definie-par-": {
+    "label": "Étude des variations d'une fonction définie par une formule explicite",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-une-integrale-definie-sur-un-intervalle": {
+    "label": "Calcul d'une intégrale définie sur un intervalle fermé",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-des-proprietes-d-une-suite-definie-par-une": {
+    "label": "Étude des propriétés d'une suite définie par une formule récursive",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.utilisation-de-la-formule-de-recurrence-pour-sim": {
+    "label": "Utilisation de la formule de récurrence pour simplifier une expression",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivation-d-une-fonction-pour-etablir-une-relat": {
+    "label": "Dérivation d'une fonction pour établir une relation de récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evaluation-d-une-somme-a-l-aide-d-une-relation-d": {
+    "label": "Évaluation d'une somme à l'aide d'une relation de récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.fonction-reciproque-et-ses-proprietes": {
+    "label": "Fonction réciproque et ses propriétés",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrale-d-une-somme-de-fonctions": {
+    "label": "Intégrale d'une somme de fonctions",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.serie-geometrique-et-somme-partielle": {
+    "label": "Série géométrique et somme partielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-integrale-definie-et-etude-de-sa-limite": {
+    "label": "Calcul d'intégrale définie et étude de sa limite",
+    "matiere_id": "math",
     "aliases": []
   }
 }

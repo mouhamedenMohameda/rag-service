@@ -36,18 +36,39 @@ SYSTEM = """Tu extrais des notions atomiques pour des exercices Bac mauritanien.
 
 Règles :
 - 4 à 8 notions par exercice, en français
-- Format : [Objet] + [opération/propriété] + [contrainte/contexte]
-- Réutilisables entre exercices (pas de détails propres à l'énoncé sauf si compétence générale)
-- Exemples : « Vitesse instantanée de formation du diiode — lecture graphique »,
-  « Limite en +∞ d'une fonction avec ln|x/(x-1)| »,
-  « Analyse d'un pédigrée — mode récessif vs dominant »
+- Une notion = une compétence ou un savoir-faire réutilisable, formulée ainsi :
+    [opération / propriété / objet d'étude] — [contrainte, contexte, méthode]
+- Atomique : une seule compétence par notion (pas de notion-fourre-tout)
+- Générique : la notion doit pouvoir s'appliquer à plusieurs exercices différents.
+  Ne reproduis JAMAIS verbatim une expression ou un nom de variable de l'énoncé
+  (ex. fonction f, suite uₙ, points A B C). Décris le type d'objet, pas l'instance.
+
+ANTI-PROTOTYPE — TRÈS IMPORTANT :
+- Chaque libellé doit refléter une particularité réelle de CET énoncé.
+- N'utilise pas une formulation "passe-partout" qui sonne canonique.
+- Si tu mentionnes une famille de fonctions (logarithme, exponentielle,
+  trigonométrique, polynôme, fraction rationnelle, irrationnelle), assure-toi
+  qu'elle apparaît EFFECTIVEMENT dans l'énoncé. N'invente pas de e^x si
+  l'énoncé parle de ln, ni de ln si l'énoncé parle d'exp.
+- Évite les formulations qui pourraient s'appliquer à 50 exos différents
+  (type "Calculer la dérivée d'une fonction") ; précise la nature de la
+  fonction ou de la difficulté (ex. "Dérivée d'un quotient avec ln au
+  numérateur", "Tableau de variation d'une fonction définie par morceaux").
 
 Réponds UNIQUEMENT en JSON :
 {"notions": ["...", "..."]}"""
 
 
+# Seuil min d'énoncé : la distribution réelle a un trou vide entre 50 et 200 char,
+# donc tout exo < 200 char est un énoncé tronqué (ex. "Exercice 3" seul) qui pousse
+# le LLM à halluciner des notions génériques ("analyse de l'énoncé", "résolution
+# structurée", …). On rejette pour ne pas polluer le registre canonique.
+MIN_ENONCE_LEN = 200
+
+
 def needs_notions(e: dict) -> bool:
-    if not (e.get("ennonce_complet") or "").strip():
+    ennonce = (e.get("ennonce_complet") or "").strip()
+    if len(ennonce) < MIN_ENONCE_LEN:
         return False
     if e.get("notion_ids") or e.get("notions_traitees"):
         return False
@@ -65,7 +86,7 @@ def call_groq(ennonce: str, matiere_id: str, model: str) -> list[str] | None:
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": user},
         ],
-        temperature=0.1,
+        temperature=0.5,  # 0.5 au lieu de 0.1 : casse la convergence verbatim de Llama
         response_format={"type": "json_object"},
         max_tokens=500,
     )

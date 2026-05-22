@@ -14,3 +14,17 @@ data/
 
 # Local outils
 extract_exercises.py
+.env
+
+# Artefacts intermédiaires du pipeline notions (recréables)
+scripts/cluster_candidates_*.json
+scripts/cluster_decisions_*.json
+scripts/_reextract_targets.json
+scripts/notions_reextract.json
+scripts/notions_first_100.json
+scripts/notions_101_200.json
+scripts/notions_remaining.json
+scripts/pending_notions_batches/
+
+# cours.json est généré et géré sur le VPS, comme json_bac.json
+cours.json
