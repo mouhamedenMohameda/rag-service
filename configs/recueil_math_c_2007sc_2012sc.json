@@ -1,0 +1,26 @@
+{
+  "_doc": "Recueil Bac C Maths 2002→2012 (édition IPN 2013). Scope demandé : 2007 SC → 2012 SC inclus. Pour réutiliser sur un autre recueil, dupliquer ce fichier et adapter image_dir + sessions.",
+
+  "source_pdf_name": "Bac C 2002 a 2012 sn et sc corrigé.docx",
+  "image_dir": "/Users/mohameda/Downloads/ilovepdf_pages-to-jpg",
+  "image_pattern": "Bac C 2002 a 2012 sn et sc corrigé_page-{page:04d}.jpg",
+
+  "matiere_id": "math",
+  "matiere_label": "Mathématiques",
+  "filiere_id": "C",
+  "filiere_label": "Série C",
+
+  "sessions": [
+    {"annee": 2012, "session": "Normale",        "pages_enonce": [5, 7],   "pages_corrige": [70, 75]},
+    {"annee": 2012, "session": "Complémentaire", "pages_enonce": [8, 9],   "pages_corrige": [76, 79]},
+    {"annee": 2011, "session": "Normale",        "pages_enonce": [10, 12], "pages_corrige": [80, 84]},
+    {"annee": 2011, "session": "Complémentaire", "pages_enonce": [13, 14], "pages_corrige": [85, 89]},
+    {"annee": 2010, "session": "Normale",        "pages_enonce": [15, 16], "pages_corrige": [90, 93]},
+    {"annee": 2010, "session": "Complémentaire", "pages_enonce": [17, 18], "pages_corrige": [94, 98]},
+    {"annee": 2009, "session": "Normale",        "pages_enonce": [19, 20], "pages_corrige": [99, 103]},
+    {"annee": 2009, "session": "Complémentaire", "pages_enonce": [21, 22], "pages_corrige": [104, 107]},
+    {"annee": 2008, "session": "Normale",        "pages_enonce": [23, 24], "pages_corrige": [108, 112]},
+    {"annee": 2008, "session": "Complémentaire", "pages_enonce": [25, 27], "pages_corrige": [113, 117]},
+    {"annee": 2007, "session": "Complémentaire", "pages_enonce": [31, 33], "pages_corrige": [124, 128]}
+  ]
+}

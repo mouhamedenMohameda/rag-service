@@ -1,0 +1,32 @@
+{
+  "_doc": "Math Bac C 2014 — énoncé typographié (PDF→JPEG) + corrigé manuscrit (Equipe Maths, Ecoles privées Elmaarif et Erraja, par M. Elmoctar Elhady). Énoncé et corrigé proviennent de sources différentes, d'où l'override per-session de enonce_dir / corrige_dir.",
+
+  "source_pdf_name": "Bac C 2014 MA (Elhady).pdf",
+  "matiere_id": "math",
+  "matiere_label": "Mathématiques",
+  "filiere_id": "C",
+  "filiere_label": "Série C",
+
+  "sessions": [
+    {
+      "annee": 2014,
+      "session": "Normale",
+      "enonce_dir": "/Users/mohameda/Downloads/ilovepdf_pages-to-jpg (2)/Bac-C-2014-MA-sn",
+      "enonce_pattern": "Bac C 2014 MA sn_page-{page:04d}.jpg",
+      "pages_enonce": [1, 2],
+      "corrige_dir": "/Users/mohameda/Downloads/ilovepdf_pages-to-jpg (1)/BacC2014sn-corr",
+      "corrige_pattern": "BacC2014sn corr_page-{page:04d}.jpg",
+      "pages_corrige": [1, 9]
+    },
+    {
+      "annee": 2014,
+      "session": "Complémentaire",
+      "enonce_dir": "/Users/mohameda/Downloads/ilovepdf_pages-to-jpg (2)/Bac-C-2014-MA-sc",
+      "enonce_pattern": "Bac C 2014 MA sc_page-{page:04d}.jpg",
+      "pages_enonce": [1, 3],
+      "corrige_dir": "/Users/mohameda/Downloads/ilovepdf_pages-to-jpg (1)/BacC2014sc-corr",
+      "corrige_pattern": "BacC2014sc corr_page-{page:04d}.jpg",
+      "pages_corrige": [1, 9]
+    }
+  ]
+}

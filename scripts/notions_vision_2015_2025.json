@@ -1,0 +1,2097 @@
+{
+  "bac-c-2015-sc-math-ex1": [
+    "Équations diophantiennes",
+    "Congruences"
+  ],
+  "bac-c-2015-sc-math-ex2": [
+    "Polynômes complexes",
+    "Similitudes complexes"
+  ],
+  "bac-c-2015-sc-math-ex3": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Similitudes",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2015-sc-math-ex4": [
+    "Étude de fonctions",
+    "Intégration par parties d'une fonction",
+    "Suites et séries"
+  ],
+  "bac-c-2015-sc-math-ex5": [
+    "Étude de fonctions",
+    "Intégration par parties d'une fonction",
+    "Suites et séries"
+  ],
+  "bac-c-2015-sn-math-ex1": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2015-sn-math-ex2": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Parabole"
+  ],
+  "bac-c-2015-sn-math-ex3": [
+    "Limites et continuité",
+    "Bijection et fonction réciproque — intersections",
+    "Intégration"
+  ],
+  "bac-c-2015-sn-math-ex4": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-c-2016-sc-math-ex1": [
+    "Polynômes complexes",
+    "Barycentre",
+    "Similitude complexe",
+    "Transformations complexes"
+  ],
+  "bac-c-2016-sc-math-ex2": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Calculer l'aire sous une courbe — en utilisant des intégrales",
+    "Inégalités de suites",
+    "Limites de suites"
+  ],
+  "bac-c-2016-sc-math-ex3": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Propriétés des fonctions",
+    "Calcul d'intégrales",
+    "Transformations géométriques planes — rotations, similitudes, symétries"
+  ],
+  "bac-c-2016-sc-math-ex4": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Symétrie glissante — forme réduite",
+    "Antidéplacement",
+    "Caractérisation d'un parallélogramme à partir de points donnés"
+  ],
+  "bac-c-2016-sn-math-ex1": [
+    "Équations diophantiennes"
+  ],
+  "bac-c-2016-sn-math-ex2": [
+    "Polynômes complexes",
+    "Équations complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2016-sn-math-ex3": [
+    "Étude de fonctions",
+    "Limites et asymptotes",
+    "Homothéties de courbes"
+  ],
+  "bac-c-2016-sn-math-ex4": [
+    "Étude de fonctions",
+    "Séries et intégrales",
+    "Calcul d'aires sous des courbes"
+  ],
+  "bac-c-2016-sn-math-ex5": [
+    "Transformations complexes",
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Barycentres et alignements"
+  ],
+  "bac-c-2017-sc-math-ex1": [
+    "Équations diophantiennes",
+    "Inverses modulo"
+  ],
+  "bac-c-2017-sc-math-ex2": [
+    "Équations complexes",
+    "Transformations complexes"
+  ],
+  "bac-c-2017-sc-math-ex3": [
+    "Transformations complexes",
+    "Propriétés des paraboles"
+  ],
+  "bac-c-2017-sc-math-ex4": [
+    "Étude de fonctions",
+    "Intégration par parties d'une fonction",
+    "Séries numériques"
+  ],
+  "bac-c-2017-sc-math-ex5": [
+    "Fonctions définies par intégrales",
+    "Étude de fonctions"
+  ],
+  "bac-c-2017-sn-math-ex1": [
+    "Équations complexes",
+    "Transformations complexes",
+    "Lieux géométriques",
+    "Isobarycentre",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2017-sn-math-ex2": [
+    "Triangle équilatéral",
+    "Symétrie glissante — forme réduite",
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Similitude directe s : M→R, N→S",
+    "Lieu d'alignement M, M₁, M₂",
+    "Suite wₙ — IPP et limite nulle"
+  ],
+  "bac-c-2017-sn-math-ex3": [
+    "Point fixe",
+    "Établir un tableau de variation d'une fonction — analyse de la dérivée",
+    "Symétrie de courbes",
+    "Étude de fonctions",
+    "f'(x)=u(x)/x²",
+    "Suite fₙ — majoration et intégrale"
+  ],
+  "bac-c-2017-sn-math-ex4": [
+    "Établir un tableau de variation d'une fonction — analyse de la dérivée",
+    "Suite décroissante",
+    "Intégration par parties d'une fonction",
+    "Série numérique",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-c-2018-sc-math-ex1": [
+    "Polynômes complexes",
+    "Barycentre",
+    "Ensembles de points",
+    "Similitudes et homothéties"
+  ],
+  "bac-c-2018-sc-math-ex2": [
+    "Dérivabilité et continuité en 0",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Bijection et fonction réciproque — intersections",
+    "Convergence des suites"
+  ],
+  "bac-c-2018-sc-math-ex3": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Similitude et homothétie",
+    "Hyperbole"
+  ],
+  "bac-c-2018-sc-math-ex4": [
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Bijection et fonction réciproque — intersections",
+    "Suite fₙ — majoration et intégrale",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-c-2018-sn-math-ex1": [
+    "Équations diophantiennes",
+    "Algorithme d'Euclide"
+  ],
+  "bac-c-2018-sn-math-ex2": [
+    "Polynômes complexes",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2018-sn-math-ex3": [
+    "Propriétés des parallélogrammes",
+    "Transformations complexes"
+  ],
+  "bac-c-2018-sn-math-ex4": [
+    "Équations complexes",
+    "Étude de fonctions"
+  ],
+  "bac-c-2018-sn-math-ex5": [
+    "Étude de fonctions",
+    "Suites et séries"
+  ],
+  "bac-c-2019-sc-math-ex1": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Similitude complexe",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2019-sc-math-ex2": [
+    "Intégration par parties d'une fonction",
+    "Convergence des suites",
+    "Inégalités de suites"
+  ],
+  "bac-c-2019-sc-math-ex3": [
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S",
+    "Homothétie"
+  ],
+  "bac-c-2019-sc-math-ex4": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Limites et asymptotes",
+    "Convergence des suites"
+  ],
+  "bac-c-2019-sn-math-ex1": [
+    "Équations diophantiennes",
+    "Congruences"
+  ],
+  "bac-c-2019-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Hyperbole"
+  ],
+  "bac-c-2019-sn-math-ex3": [
+    "Dérivabilité et continuité en 0",
+    "Calculer la limite d'une fonction à l'infini",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-c-2019-sn-math-ex4": [
+    "Symétrie glissante — forme réduite",
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2019-sn-math-ex5": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Intégration par substitution",
+    "Suites et séries"
+  ],
+  "bac-c-2020-sn-math-ex1": [
+    "Équations diophantiennes",
+    "Congruences",
+    "Systèmes de congruences"
+  ],
+  "bac-c-2020-sn-math-ex2": [
+    "Polynômes complexes",
+    "Géométrie complexe",
+    "Transformations complexes"
+  ],
+  "bac-c-2020-sn-math-ex3": [
+    "Géométrie du triangle",
+    "Cocyclicité A, F, T, L",
+    "Barycentres"
+  ],
+  "bac-c-2020-sn-math-ex4": [
+    "Étude de fonctions",
+    "Suites et intégrales",
+    "Limites et asymptotes"
+  ],
+  "bac-c-2020-sn-math-ex5": [
+    "Étude de fonctions",
+    "Suites et intégrales",
+    "Limites et asymptotes"
+  ],
+  "bac-c-2021-sn-math-ex1": [
+    "Divisibilité",
+    "Matrices inversibles"
+  ],
+  "bac-c-2021-sn-math-ex2": [
+    "Triangles équilatéraux",
+    "Cercles circonscrits",
+    "Symétries glissantes",
+    "Similitudes directes"
+  ],
+  "bac-c-2021-sn-math-ex3": [
+    "Équations complexes",
+    "Similitudes complexes",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2021-sn-math-ex4": [
+    "Étude de fonctions",
+    "Bijections et réciproques"
+  ],
+  "bac-c-2021-sn-math-ex5": [
+    "Étude de fonctions",
+    "Suites et intégrales",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-c-2022-sc-math-ex1": [
+    "Congruences",
+    "Équations diophantiennes"
+  ],
+  "bac-c-2022-sc-math-ex2": [
+    "Plans dans l'espace",
+    "Matrices et systèmes linéaires"
+  ],
+  "bac-c-2022-sc-math-ex3": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Similitudes et homothéties"
+  ],
+  "bac-c-2022-sc-math-ex4": [
+    "Limites et asymptotes",
+    "Dérivées et variations",
+    "Fonctions réciproques",
+    "Points d'inflexion",
+    "Primitives et intégrales"
+  ],
+  "bac-c-2022-sc-math-ex5": [
+    "Limites et asymptotes",
+    "Dérivées et variations",
+    "Intégration par parties d'une fonction",
+    "Séries et sommes"
+  ],
+  "bac-c-2022-sn-math-ex1": [
+    "Loi binomiale B(n;0,05)",
+    "Espérance mathématique",
+    "Probabilité conditionnelle"
+  ],
+  "bac-c-2022-sn-math-ex2": [
+    "Polynômes complexes",
+    "Hyperbole"
+  ],
+  "bac-c-2022-sn-math-ex3": [
+    "Transformations complexes",
+    "Symétrie glissante — forme réduite",
+    "Transformations géométriques planes — rotations, similitudes, symétries"
+  ],
+  "bac-c-2022-sn-math-ex4": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Calcul d'aire"
+  ],
+  "bac-c-2022-sn-math-ex5": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Intégration par parties d'une fonction",
+    "Limites et convergence"
+  ],
+  "bac-c-2023-sc-math-ex1": [
+    "Systèmes de congruences",
+    "Équations diophantiennes"
+  ],
+  "bac-c-2023-sc-math-ex2": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Translations",
+    "Homothéties",
+    "Similitudes"
+  ],
+  "bac-c-2023-sc-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Bijections"
+  ],
+  "bac-c-2023-sc-math-ex4": [
+    "Polynômes complexes",
+    "Similitudes complexes"
+  ],
+  "bac-c-2023-sc-math-ex5": [
+    "Étude de fonctions",
+    "Suites et intégrales"
+  ],
+  "bac-c-2023-sn-math-ex1": [
+    "Produits scalaires",
+    "Projection orthogonale",
+    "Volume du tétraèdre ABCD",
+    "Équation cartésienne d'une parabole",
+    "Distance d'un point à un plan",
+    "Aire d'un triangle"
+  ],
+  "bac-c-2023-sn-math-ex2": [
+    "Homothétie",
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Antidéplacement",
+    "Symétrie glissante — forme réduite",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2023-sn-math-ex3": [
+    "Équation polynomiale complexe",
+    "Similitude directe s : M→R, N→S",
+    "Lieux géométriques",
+    "Parabole",
+    "Tangente à une parabole en un point"
+  ],
+  "bac-c-2023-sn-math-ex4": [
+    "Étude de fonctions",
+    "Dérivée et tableau de variations de f_m",
+    "Fonction — point d'inflexion",
+    "Trouver l'équation d'une tangente à une courbe",
+    "Intersection avec les axes",
+    "Bijection et fonction réciproque — intersections",
+    "Équation fonctionnelle",
+    "Aire — intégrale et domaine plan"
+  ],
+  "bac-c-2023-sn-math-ex5": [
+    "Étude de fonctions",
+    "Dérivée et tableau de variations de f_m",
+    "Similitude directe — angle, rapport et centre",
+    "Fonction — point d'inflexion",
+    "Calculer une intégrale définie",
+    "Suite décroissante",
+    "Inégalités intégrales"
+  ],
+  "bac-c-2024-sn-math-ex1": [
+    "Équations diophantiennes"
+  ],
+  "bac-c-2024-sn-math-ex2": [
+    "Intégrale dépendant d'un paramètre gₙ(x)",
+    "Suites et séries"
+  ],
+  "bac-c-2024-sn-math-ex3": [
+    "Polynômes complexes",
+    "Lieu géométrique — ellipse à partir d'affixes"
+  ],
+  "bac-c-2024-sn-math-ex4": [
+    "Étude de fonctions",
+    "Calculer l'aire sous une courbe — en utilisant des intégrales"
+  ],
+  "bac-c-2024-sn-math-ex5": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Cercle circonscrit"
+  ],
+  "bac-c-2024-sc-math-ex1": [
+    "Représentation paramétrique d'une droite",
+    "Équation cartésienne d'une parabole",
+    "Intersection de plans"
+  ],
+  "bac-c-2024-sc-math-ex2": [
+    "Dérivabilité et continuité en 0",
+    "Limites et asymptotes",
+    "Bijection et fonction réciproque — intersections"
+  ],
+  "bac-c-2024-sc-math-ex3": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Homothétie",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-c-2024-sc-math-ex4": [
+    "Équations complexes",
+    "Hyperbole",
+    "Propriétés géométriques des coniques"
+  ],
+  "bac-c-2024-sc-math-ex5": [
+    "Étude de fonctions",
+    "Séries et intégrales",
+    "Limites et asymptotes"
+  ],
+  "bac-d-2015-sc-math-ex1": [
+    "Suites arithmétiques et géométriques",
+    "Convergence des suites",
+    "Monotonie des suites",
+    "Somme des termes d'une suite géométrique"
+  ],
+  "bac-d-2015-sc-math-ex2": [
+    "Équations complexes",
+    "Forme trigonométrique des nombres complexes",
+    "Transformation de Möbius",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2015-sc-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes et comportement à l'infini",
+    "Équations complexes"
+  ],
+  "bac-d-2015-sc-math-ex4": [
+    "Limites et asymptotes",
+    "Étude de fonctions",
+    "Équations complexes",
+    "Calculer l'aire sous une courbe — en utilisant des intégrales"
+  ],
+  "bac-d-2015-sn-math-ex1": [
+    "Probabilités conditionnelles",
+    "Événements indépendants"
+  ],
+  "bac-d-2015-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2015-sn-math-ex3": [
+    "Étude de fonctions",
+    "Limites et continuité",
+    "Primitives et intégrales"
+  ],
+  "bac-d-2015-sn-math-ex4": [
+    "Étude de fonctions",
+    "Limites et continuité",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2016-sc-math-ex1": [
+    "Convergence des suites",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2016-sc-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2016-sc-math-ex3": [
+    "Limites et asymptotes",
+    "Étude de fonctions",
+    "Primitives et intégrales"
+  ],
+  "bac-d-2016-sc-math-ex4": [
+    "Limites et asymptotes",
+    "Étude de fonctions",
+    "Primitives et intégrales",
+    "Équations logarithmiques"
+  ],
+  "bac-d-2016-sn-math-ex1": [
+    "Probabilités conditionnelles"
+  ],
+  "bac-d-2016-sn-math-ex2": [
+    "Polynômes complexes",
+    "Équations complexes",
+    "Géométrie complexe"
+  ],
+  "bac-d-2016-sn-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Primitives et intégrales"
+  ],
+  "bac-d-2016-sn-math-ex4": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2017-sc-math-ex1": [
+    "Suites arithmétiques et géométriques",
+    "Convergence des suites"
+  ],
+  "bac-d-2017-sc-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2017-sc-math-ex3": [
+    "Asymptotes et comportement asymptotique",
+    "Étude de fonctions",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2017-sc-math-ex4": [
+    "Étude de fonctions avec logarithmes",
+    "Asymptotes et comportement asymptotique",
+    "Étude de fonctions"
+  ],
+  "bac-d-2018-sc-math-ex1": [
+    "Suites arithmétiques et géométriques",
+    "Suites définies par récurrence"
+  ],
+  "bac-d-2018-sc-math-ex2": [
+    "Calculs avec les nombres complexes",
+    "Similitude directe s : M→R, N→S",
+    "Interprétation géométrique des transformations complexes"
+  ],
+  "bac-d-2018-sc-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes et tangentes",
+    "Fonctions réciproques"
+  ],
+  "bac-d-2018-sc-math-ex4": [
+    "Étude de fonctions",
+    "Intégrale U_n=∫₀¹ x^n e^(1−x) dx — intégration par parties",
+    "Asymptotes et tangentes"
+  ],
+  "bac-d-2018-sn-math-ex1": [
+    "Probabilités conditionnelles",
+    "Loi uniforme"
+  ],
+  "bac-d-2018-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2018-sn-math-ex3": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Points d'inflexion"
+  ],
+  "bac-d-2018-sn-math-ex4": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Bijection et fonction réciproque — intersections",
+    "Suites récurrentes",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2019-sc-math-ex1": [
+    "Établir un tableau de variation d'une fonction — analyse de la dérivée",
+    "Propriétés des fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Tangentes"
+  ],
+  "bac-d-2019-sc-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2019-sc-math-ex3": [
+    "Dérivabilité et continuité en 0",
+    "Limites et asymptotes",
+    "Bijection et fonction réciproque — intersections",
+    "Établir un tableau de variation d'une fonction — analyse de la dérivée"
+  ],
+  "bac-d-2019-sc-math-ex4": [
+    "Asymptotes obliques",
+    "Dérivées et variations",
+    "Tangentes",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2019-sn-math-ex1": [
+    "Suites arithmétiques et géométriques",
+    "Convergence des suites",
+    "Somme des termes d'une suite géométrique",
+    "Différence de termes consécutifs"
+  ],
+  "bac-d-2019-sn-math-ex2": [
+    "Polynômes complexes",
+    "Équations polynomiales dans \\mathbb{C}",
+    "Représentation géométrique des nombres complexes",
+    "Similitude directe s : M→R, N→S",
+    "Forme trigonométrique des nombres complexes"
+  ],
+  "bac-d-2019-sn-math-ex3": [
+    "Équations différentielles linéaires",
+    "Conditions initiales",
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Dérivées et variations",
+    "Points d'inflexion",
+    "Tangentes et positions relatives"
+  ],
+  "bac-d-2019-sn-math-ex4": [
+    "Étude de fonctions",
+    "Dérivées et variations",
+    "Équations complexes",
+    "Bijections et fonctions inverses",
+    "Intégration par parties d'une fonction",
+    "Calculer l'aire sous une courbe — en utilisant des intégrales"
+  ],
+  "bac-d-2020-sn-math-ex1": [
+    "Suites convergentes",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2020-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2020-sn-math-ex3": [
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Étude de fonctions",
+    "Limites infinies"
+  ],
+  "bac-d-2020-sn-math-ex4": [
+    "Continuité",
+    "Dérivabilité",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2021-sn-math-ex1": [
+    "Suites récurrentes",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2021-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2021-sn-math-ex3": [
+    "Étude de fonctions",
+    "Calcul intégral"
+  ],
+  "bac-d-2021-sn-math-ex4": [
+    "Étude de fonctions",
+    "Asymptotes et tangentes"
+  ],
+  "bac-d-2022-sc-math-ex1": [
+    "Probabilités conditionnelles",
+    "Loi uniforme"
+  ],
+  "bac-d-2022-sc-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Fonctions complexes"
+  ],
+  "bac-d-2022-sc-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes et comportement à l'infini"
+  ],
+  "bac-d-2022-sc-math-ex4": [
+    "Étude de fonctions",
+    "Asymptotes et comportement à l'infini",
+    "Calcul intégral"
+  ],
+  "bac-d-2022-sn-math-ex1": [
+    "Probabilités conditionnelles",
+    "Loi exponentielle"
+  ],
+  "bac-d-2022-sn-math-ex2": [
+    "Polynômes complexes",
+    "Forme exponentielle de Z_0",
+    "Géométrie complexe"
+  ],
+  "bac-d-2022-sn-math-ex3": [
+    "Suites récurrentes",
+    "Limite de la suite (U_n)"
+  ],
+  "bac-d-2022-sn-math-ex4": [
+    "Équations différentielles linéaires",
+    "Asymptotes et variations"
+  ],
+  "bac-d-2022-sn-math-ex5": [
+    "Limites et asymptotes",
+    "Dérivation et intégration de fonctions logarithmiques"
+  ],
+  "bac-d-2017-sn-math-ex1": [
+    "Probabilités conditionnelles",
+    "Espérance mathématique"
+  ],
+  "bac-d-2017-sn-math-ex2": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S"
+  ],
+  "bac-d-2017-sn-math-ex3": [
+    "Calculer la limite d'une fonction à l'infini",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2017-sn-math-ex4": [
+    "Étude du signe d'une fonction dérivée",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2020-sc-math-ex1": [
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Limites infinies",
+    "Tangentes"
+  ],
+  "bac-d-2020-sc-math-ex2": [
+    "Calcul de puissances complexes",
+    "Équations complexes",
+    "Similitude directe s : M→R, N→S",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2020-sc-math-ex3": [
+    "Limites et asymptotes",
+    "Étude de fonctions",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2020-sc-math-ex4": [
+    "Limites et asymptotes",
+    "Étude de fonctions",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2021-sc-math-ex1": [
+    "Suites récurrentes",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2021-sc-math-ex2": [
+    "Similitude directe s : M→R, N→S",
+    "Équations complexes",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2021-sc-math-ex3": [
+    "Limites et asymptotes",
+    "Dérivation",
+    "Intégration par parties d'une fonction"
+  ],
+  "bac-d-2021-sc-math-ex4": [
+    "Étude de fonctions",
+    "Asymptotes et variations"
+  ],
+  "bac-d-2023-sn-math-ex1": [
+    "Suites définies par récurrence",
+    "Suites convergentes",
+    "Suites arithmétiques et géométriques"
+  ],
+  "bac-d-2023-sn-math-ex2": [
+    "Probabilités conditionnelles",
+    "Formule des probabilités totales"
+  ],
+  "bac-d-2023-sn-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Équations différentielles linéaires",
+    "Primitives et intégrales"
+  ],
+  "bac-d-2023-sn-math-ex4": [
+    "Similitude directe s : M→R, N→S",
+    "Équations complexes"
+  ],
+  "bac-d-2023-sn-math-ex5": [
+    "Étude de fonctions",
+    "Asymptotes obliques",
+    "Bijection et fonction réciproque — intersections"
+  ],
+  "bac-d-2024-sn-math-ex1": [
+    "Probabilités conditionnelles",
+    "Événements indépendants"
+  ],
+  "bac-d-2024-sn-math-ex2": [
+    "Équations différentielles linéaires",
+    "Problème de Cauchy"
+  ],
+  "bac-d-2024-sn-math-ex3": [
+    "Étude de fonctions",
+    "Asymptotes de (x−2)(1+eˣ)",
+    "Équations complexes"
+  ],
+  "bac-d-2024-sn-math-ex4": [
+    "Polynômes complexes",
+    "Similitude directe s : M→R, N→S",
+    "Modules et arguments"
+  ],
+  "bac-d-2024-sn-math-ex5": [
+    "Étude de fonctions",
+    "Dérivabilité et continuité en 0",
+    "Points d'inflexion"
+  ],
+  "bac-c-2025-sn-math-ex1": [
+    "Équations diophantiennes",
+    "Théorème de Fermat"
+  ],
+  "bac-c-2025-sn-math-ex2": [
+    "Polynômes complexes",
+    "Géométrie complexe"
+  ],
+  "bac-c-2025-sn-math-ex3": [
+    "Transformations géométriques planes — rotations, similitudes, symétries",
+    "Symétries glissantes",
+    "Similitudes"
+  ],
+  "bac-c-2025-sn-math-ex4": [
+    "Étude de fonctions",
+    "Intégrales"
+  ],
+  "bac-c-2025-sn-math-ex5": [
+    "Étude de fonctions",
+    "Fonctions réciproques",
+    "Séries et intégrales"
+  ],
+  "bac-c-2024-sn-pc-ex1": [
+    "Vitesse de formation d'un produit",
+    "Impédance d'un circuit RC",
+    "pH d'un acide faiblement ionisé",
+    "Condition d'effet photoélectrique",
+    "Interférences lumineuses en lumière blanche"
+  ],
+  "bac-c-2024-sn-pc-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Dosage acide méthanoïque par soude",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-c-2024-sn-pc-ex3": [
+    "Cinétique de réaction",
+    "Dosage iodométrique du diiode par thiosulfate"
+  ],
+  "bac-c-2024-sn-pc-ex4": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Oscillations mécaniques",
+    "Propagation d'ondes"
+  ],
+  "bac-c-2024-sn-pc-ex5": [
+    "Mouvement sur un plan incliné",
+    "Mouvement parabolique"
+  ],
+  "bac-c-2024-sn-pc-ex6": [
+    "Constante de temps du circuit RL"
+  ],
+  "bac-c-2025-sn-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Facteurs cinétiques",
+    "Rendement d'une réaction chimique"
+  ],
+  "bac-c-2025-sn-pc-ex2": [
+    "Dispositif de dosage acido-basique",
+    "Constante d'acidité",
+    "Dilution et concentration"
+  ],
+  "bac-c-2025-sn-pc-ex3": [
+    "Inductance théorique — formule du solénoïde",
+    "Force électromotrice induite — loi de Faraday",
+    "Tension aux bornes d'un solénoïde"
+  ],
+  "bac-c-2025-sn-pc-ex4": [
+    "Constante radioactive λ",
+    "Trajectoire d'une particule chargée dans un champ magnétique",
+    "Champ électrique et mouvement d'une particule"
+  ],
+  "bac-c-2025-sn-pc-ex5": [
+    "Charge et décharge d'un condensateur",
+    "Construction de Fresnel",
+    "Constante de temps du circuit RL"
+  ],
+  "bac-c-2022-sc-pc-ex1": [
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Tableau d'avancement"
+  ],
+  "bac-c-2022-sc-pc-ex2": [
+    "Oxydation ménagée par dichromate",
+    "Hydratation des alcènes",
+    "Oxydation ménagée — aldéhyde (Schiff)"
+  ],
+  "bac-c-2022-sc-pc-ex3": [
+    "Énergie mécanique et énergie cinétique à un instant donné",
+    "Théorème de l'énergie cinétique — énoncé",
+    "Mouvement sur un plan incliné",
+    "Énergie potentielle",
+    "Énergie mécanique et conservation"
+  ],
+  "bac-c-2022-sc-pc-ex4": [
+    "Régime transitoire",
+    "Constante de temps du circuit RL",
+    "Inductance et capacité",
+    "Établissement du courant"
+  ],
+  "bac-c-2022-sc-pc-ex5": [
+    "Niveaux d'énergie de l'atome d'hydrogène E_n = −13,6/n²",
+    "Potentiel d'arrêt",
+    "Énergie d'extraction"
+  ],
+  "bac-c-2023-sc-pc-ex1": [
+    "Identification du réactif limitant",
+    "Catalyseur",
+    "Satellite géostationnaire — altitude",
+    "Déduction de la longueur d'onde λ",
+    "Force de Lorentz"
+  ],
+  "bac-c-2023-sc-pc-ex2": [
+    "Ester — formule brute CnH2nO2",
+    "Caractéristiques de la réaction d'hydrolyse d'un ester",
+    "Réaction d'hydratation",
+    "Oxydation d'un alcool",
+    "Réaction avec le chlorure de thionyle",
+    "Synthèse d'un ester"
+  ],
+  "bac-c-2023-sc-pc-ex3": [
+    "Acide faible",
+    "Dilution et pH",
+    "Dosage acide méthanoïque par soude",
+    "Indicateur de pH"
+  ],
+  "bac-c-2023-sc-pc-ex4": [
+    "Force de Laplace",
+    "Bilan des forces",
+    "Mouvement sur un plan incliné",
+    "Force électromotrice induite — loi de Faraday"
+  ],
+  "bac-c-2023-sc-pc-ex5": [
+    "Fusion nucléaire",
+    "Énergie libérée",
+    "Déduction de la longueur d'onde λ",
+    "Demi-vie radioactive"
+  ],
+  "bac-c-2023-sc-pc-ex6": [
+    "Montage RLC",
+    "Oscilloscope",
+    "Déphasage",
+    "Calcul de l'inductance"
+  ],
+  "bac-c-2024-sc-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Force de Lorentz",
+    "Déshydratation intramoléculaire",
+    "Constante de temps du circuit RL",
+    "Orbite géostationnaire"
+  ],
+  "bac-c-2024-sc-pc-ex2": [
+    "Isomères d'ester — formules semi-développées",
+    "Réactions d'hydrolyse",
+    "Oxydation ménagée par dichromate"
+  ],
+  "bac-c-2024-sc-pc-ex3": [
+    "Identification de solutions par pH",
+    "Calcul de pH",
+    "Solutions tampons"
+  ],
+  "bac-c-2024-sc-pc-ex4": [
+    "Déviation de particules chargées",
+    "Trajectoires circulaires dans un champ magnétique",
+    "Identification de particules"
+  ],
+  "bac-c-2024-sc-pc-ex5": [
+    "Interfrange et calcul de λ",
+    "Longueurs d'onde des radiations",
+    "Effet de la lumière blanche"
+  ],
+  "bac-c-2024-sc-pc-ex6": [
+    "Effet photoélectrique — définition",
+    "Potentiel d'arrêt et courbe caractéristique",
+    "Calcul de l'intensité et rendement quantique"
+  ],
+  "bac-d-2018-sc-pc-ex1": [
+    "Réactions d'oxydoréduction",
+    "Cinétique de réaction"
+  ],
+  "bac-d-2018-sc-pc-ex2": [
+    "Acides forts et faibles",
+    "Dissociation acide",
+    "Réactions acide-base",
+    "Synthèse organique"
+  ],
+  "bac-d-2018-sc-pc-ex3": [
+    "Mouvement rectiligne",
+    "Mouvement sous l'effet de la gravité",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2018-sc-pc-ex4": [
+    "Force électromagnétique",
+    "Induction électromagnétique",
+    "Loi de Lenz"
+  ],
+  "bac-d-2020-sc-pc-ex1": [
+    "Vitesse volumique — expression et valeur initiale",
+    "Identification du réactif limitant",
+    "Facteurs cinétiques"
+  ],
+  "bac-d-2020-sc-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Degré d'acidité du vinaigre"
+  ],
+  "bac-d-2020-sc-pc-ex3": [
+    "Oscillateur harmonique",
+    "Énergie mécanique et conservation",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2020-sc-pc-ex4": [
+    "Mouvement circulaire uniforme dans un champ B",
+    "Énergie potentielle et mécanique en orbite",
+    "Changement d'orbite"
+  ],
+  "bac-d-2024-sc-pc-ex1": [
+    "Nomenclature des composés organiques",
+    "Hydrolyse des esters",
+    "Oxydation ménagée par dichromate"
+  ],
+  "bac-d-2024-sc-pc-ex2": [
+    "Identification de solutions par pH",
+    "Calcul de pH de mélanges",
+    "Solutions tampons"
+  ],
+  "bac-d-2024-sc-pc-ex3": [
+    "Équation du mouvement de M — à 12,5 cm de S",
+    "Forces motrices et frottements",
+    "Étude de trajectoire"
+  ],
+  "bac-d-2024-sc-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Effet de la lumière blanche"
+  ],
+  "bac-d-2015-sc-pc-ex1": [
+    "Formule brute et semi-développée",
+    "Estérification — équation, suivi et équilibre",
+    "Titrage acido-basique"
+  ],
+  "bac-d-2015-sc-pc-ex2": [
+    "pH et pKa",
+    "Réactions acide-base",
+    "Titrage acido-basique"
+  ],
+  "bac-d-2015-sc-pc-ex3": [
+    "Énergie potentielle élastique d'un ressort",
+    "Énergie mécanique et conservation",
+    "Oscillateur harmonique"
+  ],
+  "bac-d-2015-sc-pc-ex4": [
+    "Onde transversale",
+    "Célérité de l'onde",
+    "Équation horaire du mouvement harmonique"
+  ],
+  "bac-d-2015-sn-pc-ex1": [
+    "Calcul de pH",
+    "Coefficient d'ionisation α",
+    "Estérification — équation, suivi et équilibre",
+    "Oxydation ménagée par dichromate"
+  ],
+  "bac-d-2015-sn-pc-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Cinétique de réaction"
+  ],
+  "bac-d-2015-sn-pc-ex3": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Trajectoire dans un champ électrique"
+  ],
+  "bac-d-2015-sn-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Induction électromagnétique",
+    "Flux magnétique Φ = B·S(t)"
+  ],
+  "bac-d-2016-sc-pc-ex1": [
+    "Réactions d'oxydoréduction",
+    "Cinétique de réaction"
+  ],
+  "bac-d-2016-sc-pc-ex2": [
+    "Indicateurs colorés",
+    "Réactions acide-base",
+    "Solutions tampons"
+  ],
+  "bac-d-2016-sc-pc-ex3": [
+    "Mouvement circulaire uniforme dans un champ B",
+    "Satellite géostationnaire — altitude"
+  ],
+  "bac-d-2016-sc-pc-ex4": [
+    "Vibrations sinusoïdales",
+    "Interférences d'ondes"
+  ],
+  "bac-d-2016-sn-pc-ex1": [
+    "Réactions acido-basiques",
+    "Solutions tampons",
+    "Dispositif de dosage acido-basique"
+  ],
+  "bac-d-2016-sn-pc-ex2": [
+    "Hydrolyse des esters",
+    "Oxydation ménagée par dichromate",
+    "Réactions avec le chlorure d'éthanoyle"
+  ],
+  "bac-d-2016-sn-pc-ex3": [
+    "Forces de Laplace",
+    "Induction électromagnétique",
+    "Flux magnétique Φ = B·S(t)"
+  ],
+  "bac-d-2016-sn-pc-ex4": [
+    "Mouvement sur un plan incliné",
+    "Forces et mouvements circulaires",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2017-sc-pc-ex1": [
+    "Nomenclature des composés organiques",
+    "Estérification — équation, suivi et équilibre",
+    "Chiralité"
+  ],
+  "bac-d-2017-sc-pc-ex2": [
+    "Titrage acide-base",
+    "Dilution et pH",
+    "Acides forts et faibles"
+  ],
+  "bac-d-2017-sc-pc-ex3": [
+    "Trajectoire dans un champ électrique",
+    "Rayon de trajectoire d'un ion dans un champ B",
+    "Charge massique"
+  ],
+  "bac-d-2017-sc-pc-ex4": [
+    "Champ magnétique d'un solénoïde",
+    "Induction électromagnétique",
+    "Force électromotrice induite — loi de Faraday"
+  ],
+  "bac-d-2017-sn-pc-ex1": [
+    "Vitesse volumique — expression et valeur initiale",
+    "Identification du réactif limitant",
+    "Dosage par titrage"
+  ],
+  "bac-d-2017-sn-pc-ex2": [
+    "Oxydation ménagée par dichromate",
+    "Oxydation ménagée — aldéhyde (Schiff)",
+    "Estérification — équation, suivi et équilibre",
+    "Dosage par titrage"
+  ],
+  "bac-d-2017-sn-pc-ex3": [
+    "Oscillations mécaniques",
+    "Énergie mécanique et conservation",
+    "Mouvement sur une piste"
+  ],
+  "bac-d-2017-sn-pc-ex4": [
+    "Interférences lumineuses",
+    "Différence de marche",
+    "Interfrange et calcul de λ"
+  ],
+  "bac-d-2018-sn-pc-ex1": [
+    "Isomérie des esters",
+    "Hydrolyse des esters",
+    "Équilibre chimique"
+  ],
+  "bac-d-2018-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Point d'équivalence",
+    "Constante d'acidité"
+  ],
+  "bac-d-2018-sn-pc-ex3": [
+    "Satellite géostationnaire — altitude",
+    "Mouvement circulaire uniforme dans un champ B"
+  ],
+  "bac-d-2018-sn-pc-ex4": [
+    "Ondes transversales",
+    "Interférences d'ondes"
+  ],
+  "bac-d-2019-sc-pc-ex1": [
+    "Isomères d'ester — formules semi-développées",
+    "Chiralité",
+    "Oxydation ménagée par dichromate",
+    "Réaction avec un alcool"
+  ],
+  "bac-d-2019-sc-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Base faible",
+    "Calcul de pH",
+    "Formule semi-développée d'une amine"
+  ],
+  "bac-d-2019-sc-pc-ex3": [
+    "Flux magnétique Φ = B·S(t)",
+    "f.é.m. induite",
+    "Courant induit dans un circuit",
+    "Force de Laplace sur une tige conductrice"
+  ],
+  "bac-d-2019-sc-pc-ex4": [
+    "Interfrange et calcul de λ",
+    "Effet photoélectrique — définition",
+    "Déduction de la longueur d'onde λ",
+    "Énergie mécanique et énergie cinétique à un instant donné"
+  ],
+  "bac-d-2019-sn-pc-ex1": [
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Dosage par titrage"
+  ],
+  "bac-d-2019-sn-pc-ex2": [
+    "Dosage acide méthanoïque par soude",
+    "Coefficient d'ionisation α",
+    "Constante d'équilibre K"
+  ],
+  "bac-d-2019-sn-pc-ex3": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Trajectoire des particules chargées"
+  ],
+  "bac-d-2019-sn-pc-ex4": [
+    "Oscillateur harmonique",
+    "Énergie mécanique et conservation",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2020-sn-pc-ex1": [
+    "Cinétique de décomposition",
+    "Dosage iodométrique du diiode par thiosulfate"
+  ],
+  "bac-d-2020-sn-pc-ex2": [
+    "Acide faible",
+    "Dispositif de dosage acido-basique"
+  ],
+  "bac-d-2020-sn-pc-ex3": [
+    "Mouvement sur un plan incliné",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2020-sn-pc-ex4": [
+    "Trajectoire d'électrons dans champs électriques et magnétiques"
+  ],
+  "bac-d-2021-sc-pc-ex1": [
+    "Hydrolyse des esters",
+    "Constante d'équilibre K",
+    "Caractère énergétique des réactions"
+  ],
+  "bac-d-2021-sc-pc-ex2": [
+    "Acides forts et faibles",
+    "Constante d'acidité",
+    "Coefficient de dissociation",
+    "Dilution et pH"
+  ],
+  "bac-d-2021-sc-pc-ex3": [
+    "Mouvement sur un plan incliné",
+    "Énergie mécanique et conservation",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2021-sc-pc-ex4": [
+    "Interférences lumineuses",
+    "Interfrange et calcul de λ",
+    "Spectre visible"
+  ],
+  "bac-d-2021-sn-pc-ex1": [
+    "Facteurs cinétiques",
+    "Vitesse volumique — expression et valeur initiale",
+    "Oxydation de l'ion iodure"
+  ],
+  "bac-d-2021-sn-pc-ex2": [
+    "Nomenclature des composés organiques",
+    "Isomérie",
+    "Réactions d'oxydation",
+    "Formation d'amides"
+  ],
+  "bac-d-2021-sn-pc-ex3": [
+    "Calcul de la raideur d'un ressort",
+    "Équation horaire du mouvement harmonique",
+    "Énergie mécanique et conservation"
+  ],
+  "bac-d-2021-sn-pc-ex4": [
+    "Force électromagnétique",
+    "Champ magnétique d'un solénoïde",
+    "Induction électromagnétique"
+  ],
+  "bac-d-2022-sc-pc-ex1": [
+    "Tableau d'avancement",
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale"
+  ],
+  "bac-d-2022-sc-pc-ex2": [
+    "Identification de fonctions organiques",
+    "Réactions d'oxydation",
+    "Solutions tampons"
+  ],
+  "bac-d-2022-sc-pc-ex3": [
+    "Mouvement sur un plan incliné",
+    "Force de frottement",
+    "Équation de trajectoire parabolique"
+  ],
+  "bac-d-2022-sc-pc-ex4": [
+    "Potentiel d'arrêt",
+    "Énergie d'extraction",
+    "Niveaux d'énergie de l'atome d'hydrogène E_n = −13,6/n²"
+  ],
+  "bac-d-2022-sn-pc-ex1": [
+    "Estérification — équation, suivi et équilibre",
+    "Constante d'équilibre K",
+    "Rendement d'une réaction chimique"
+  ],
+  "bac-d-2022-sn-pc-ex2": [
+    "Concentration molaire",
+    "Taux d'avancement",
+    "Constante d'acidité",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-d-2022-sn-pc-ex3": [
+    "Oscillateur harmonique",
+    "Équation horaire du mouvement harmonique",
+    "Énergie mécanique et conservation",
+    "Interférences d'ondes"
+  ],
+  "bac-d-2022-sn-pc-ex4": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Vitesse d'ions",
+    "Séparation d'ions par champ magnétique"
+  ],
+  "bac-d-2023-sc-pc-ex1": [
+    "Acide faible",
+    "pH",
+    "Dosage acide méthanoïque par soude"
+  ],
+  "bac-d-2023-sc-pc-ex2": [
+    "Identification du réactif limitant",
+    "Vitesse volumique — expression et valeur initiale",
+    "Estérification — équation, suivi et équilibre"
+  ],
+  "bac-d-2023-sc-pc-ex3": [
+    "Mouvement rectiligne",
+    "Mouvement circulaire uniforme dans un champ B",
+    "Forces de frottement"
+  ],
+  "bac-d-2023-sc-pc-ex4": [
+    "Énergie des photons",
+    "Travail d'extraction",
+    "Potentiel d'arrêt"
+  ],
+  "bac-d-2024-sn-pc-ex1": [
+    "Vitesse de formation d'un produit",
+    "Déshydratation intramoléculaire",
+    "pH d'un acide faiblement ionisé",
+    "Effet photoélectrique — définition",
+    "Constante de Rydberg"
+  ],
+  "bac-d-2024-sn-pc-ex2": [
+    "Estérification — équation, suivi et équilibre",
+    "Dosage acide méthanoïque par soude",
+    "Solution tampon — propriétés et préparation"
+  ],
+  "bac-d-2024-sn-pc-ex3": [
+    "Bilan redox I⁻ / S₂O₈²⁻ (peroxodisulfate)",
+    "Vitesse volumique — expression et valeur initiale",
+    "Temps de demi-réaction — détermination graphique"
+  ],
+  "bac-d-2024-sn-pc-ex4": [
+    "Période et fréquence cyclotron en fonction de q, m et B",
+    "Force électromotrice induite — loi de Faraday",
+    "Oscillations mécaniques",
+    "Ondes stationnaires"
+  ],
+  "bac-d-2024-sn-pc-ex5": [
+    "Mouvement circulaire uniforme dans un champ B",
+    "Satellite géostationnaire — altitude",
+    "Demi-vie radioactive",
+    "Constante radioactive λ"
+  ],
+  "bac-d-2023-sn-pc-ex1": [
+    "Constante d'acidité",
+    "Réactif de Tollens",
+    "Effet photoélectrique — définition",
+    "Interfrange et calcul de λ"
+  ],
+  "bac-d-2023-sn-pc-ex2": [
+    "Réaction d'oxydoréduction",
+    "Tableau d'avancement",
+    "Vitesse volumique — expression et valeur initiale"
+  ],
+  "bac-d-2023-sn-pc-ex3": [
+    "Estérification — équation, suivi et équilibre",
+    "Réaction avec le chlorure de thionyle",
+    "Amide monosubstitué",
+    "Acide faible"
+  ],
+  "bac-d-2023-sn-pc-ex4": [
+    "Trajectoire dans un champ électrique",
+    "Constante radioactive λ"
+  ],
+  "bac-d-2023-sn-pc-ex5": [
+    "Flux magnétique Φ = B·S(t)",
+    "Force électromotrice induite — loi de Faraday",
+    "Mouvement sinusoïdal",
+    "Stroboscope"
+  ],
+  "bac-c-2023-sc-svt-ex1": [
+    "FSH et LH",
+    "Spermatogenèse",
+    "Cycle cellulaire"
+  ],
+  "bac-c-2023-sc-svt-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse de l'ADN",
+    "Lecture d'un caryotype fœtal et déduction génotypique"
+  ],
+  "bac-c-2023-sc-svt-ex3": [
+    "Cycle menstruel",
+    "Méthodes contraceptives"
+  ],
+  "bac-c-2023-sc-svt-ex4": [
+    "Potentiel local et potentiel d'action",
+    "Synapses",
+    "Intégration synaptique"
+  ],
+  "bac-c-2015-sc-svt-ex1": [
+    "Cycle cellulaire",
+    "Synthèse de l'ADN"
+  ],
+  "bac-c-2015-sc-svt-ex2": [
+    "Réflexe myotatique",
+    "Circuits nerveux"
+  ],
+  "bac-c-2015-sc-svt-ex3": [
+    "Cellules effectrices — lymphocytes B et T",
+    "Ultrastructure cellulaire"
+  ],
+  "bac-c-2015-sc-svt-ex4": [
+    "Hérédité",
+    "Croisements génétiques"
+  ],
+  "bac-c-2015-sn-svt-ex1": [
+    "Gamétogenèse",
+    "Devenir du corps jaune",
+    "Relation hypophyse-caractères sexuels"
+  ],
+  "bac-c-2015-sn-svt-ex2": [
+    "Potentiel local et potentiel d'action",
+    "Propriétés des fibres nerveuses",
+    "Rôle des racines nerveuses"
+  ],
+  "bac-c-2015-sn-svt-ex3": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse",
+    "Phénotypes et génotypes des enfants"
+  ],
+  "bac-c-2016-sc-svt-ex1": [
+    "Amniocentèse",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Anomalies chromosomiques"
+  ],
+  "bac-c-2016-sc-svt-ex2": [
+    "Greffe",
+    "Rejet de greffe",
+    "Mémoire immunitaire"
+  ],
+  "bac-c-2016-sc-svt-ex3": [
+    "Hérédité",
+    "Croisement génétique",
+    "Liaison génétique"
+  ],
+  "bac-c-2016-sn-svt-ex1": [
+    "Gamétogenèse",
+    "Cycle ovarien",
+    "Hormones de la reproduction"
+  ],
+  "bac-c-2016-sn-svt-ex2": [
+    "Réflexe myotatique",
+    "Voie nerveuse",
+    "Synapse"
+  ],
+  "bac-c-2016-sn-svt-ex3": [
+    "Transmission héréditaire",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Probabilité génétique"
+  ],
+  "bac-c-2017-sc-svt-ex1": [
+    "Cycle ovarien",
+    "Hormones sexuelles",
+    "Stérilité féminine"
+  ],
+  "bac-c-2017-sc-svt-ex2": [
+    "Excitabilité nerveuse",
+    "Rhéobase",
+    "Chronaxie"
+  ],
+  "bac-c-2017-sc-svt-ex3": [
+    "Électrophorèse",
+    "Transmission génétique",
+    "Maladies génétiques"
+  ],
+  "bac-c-2017-sn-svt-ex1": [
+    "Cycle ovarien",
+    "Ménopause",
+    "Contraception"
+  ],
+  "bac-c-2017-sn-svt-ex2": [
+    "Potentiel de repos",
+    "Dépolarisation",
+    "PPSE et PPSI"
+  ],
+  "bac-c-2017-sn-svt-ex3": [
+    "Structure des anticorps",
+    "Fonctions des anticorps"
+  ],
+  "bac-c-2017-sn-svt-ex4": [
+    "Croisements génétiques",
+    "Carte génétique"
+  ],
+  "bac-c-2018-sc-svt-ex1": [
+    "Excitabilité des fibres nerveuses",
+    "Message nerveux"
+  ],
+  "bac-c-2018-sc-svt-ex2": [
+    "Interactions hormonales"
+  ],
+  "bac-c-2018-sc-svt-ex3": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Hérédité liée au sexe"
+  ],
+  "bac-c-2018-sn-svt-ex1": [
+    "Cycle menstruel",
+    "Hormones sexuelles",
+    "Grossesse et jumeaux"
+  ],
+  "bac-c-2018-sn-svt-ex2": [
+    "Réflexes nerveux",
+    "Structure du système nerveux"
+  ],
+  "bac-c-2018-sn-svt-ex3": [
+    "Hérédité",
+    "Maladies héréditaires",
+    "Génétique mendélienne"
+  ],
+  "bac-c-2019-sc-svt-ex1": [
+    "Brassage interchromosomique",
+    "Brassage intrachromosomique",
+    "Croisement génétique",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-c-2019-sc-svt-ex2": [
+    "Hormones sexuelles",
+    "Cycle menstruel",
+    "Fécondation",
+    "Nidation",
+    "Pénétration du spermatozoïde",
+    "Transformations cytologiques et nucléaires",
+    "Maintien de la grossesse"
+  ],
+  "bac-c-2019-sc-svt-ex3": [
+    "Transmission synaptique — expérience 1",
+    "Types de synapses",
+    "Potentiel de repos",
+    "Potentiel local et potentiel d'action",
+    "Rôle des canaux ioniques"
+  ],
+  "bac-c-2019-sn-svt-ex1": [
+    "Électrophorèse de l'ADN",
+    "Génétique des drosophiles",
+    "Cartes factorielles"
+  ],
+  "bac-c-2019-sn-svt-ex2": [
+    "Dosage de LH",
+    "Cycle menstruel",
+    "Hormone HCG"
+  ],
+  "bac-c-2019-sn-svt-ex3": [
+    "Propagation de l'influx nerveux",
+    "Rôle du Ca²⁺ dans la synapse"
+  ],
+  "bac-c-2020-sc-svt-ex1": [
+    "Gamétogenèse",
+    "Cellules germinales"
+  ],
+  "bac-c-2020-sc-svt-ex2": [
+    "Histologie des testicules",
+    "Cycle sexuel féminin",
+    "Rôle des œstrogènes"
+  ],
+  "bac-c-2020-sc-svt-ex3": [
+    "Croisements génétiques",
+    "Analyse de la descendance",
+    "Phénotypes et génotypes des enfants"
+  ],
+  "bac-c-2020-sn-svt-ex1": [
+    "Croisement monohybride",
+    "Génotype et phénotype — définitions",
+    "Recombinaison génétique"
+  ],
+  "bac-c-2020-sn-svt-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Hérédité liée au sexe",
+    "Probabilité génétique"
+  ],
+  "bac-c-2020-sn-svt-ex3": [
+    "Cycle ovarien",
+    "Hormones sexuelles",
+    "Physiologie de l'endomètre"
+  ],
+  "bac-c-2021-sn-svt-ex1": [
+    "Ovogenèse",
+    "Cycle menstruel",
+    "Hormones sexuelles",
+    "Grossesse et placenta",
+    "Jumeaux et chromosomes"
+  ],
+  "bac-c-2021-sn-svt-ex2": [
+    "Potentiel de récepteur",
+    "Potentiel local et potentiel d'action",
+    "Message nerveux",
+    "Rôle du fuseau neuromusculaire"
+  ],
+  "bac-c-2021-sn-svt-ex3": [
+    "Transmission génétique",
+    "Analyse de l'ADN",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Électrophorèse"
+  ],
+  "bac-c-2022-sn-svt-ex1": [
+    "Cartes factorielles",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Génétique moléculaire",
+    "Test-cross et linkage",
+    "Maladies héréditaires",
+    "Phénotypes et génotypes des enfants"
+  ],
+  "bac-c-2022-sn-svt-ex2": [
+    "Structure histologique du testicule",
+    "Spermatogenèse",
+    "Régulation de la glycémie",
+    "Cycle ovarien",
+    "Ovariectomie et hormones hypophysaires",
+    "Cycle menstruel",
+    "Rétrocontrôle hormonal",
+    "Structures ovariennes"
+  ],
+  "bac-c-2022-sn-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Mécanismes ioniques",
+    "Propagation de l'influx nerveux",
+    "Message nerveux",
+    "Réflexes neuromusculaires",
+    "Dépolarisation"
+  ],
+  "bac-c-2023-sn-svt-ex1": [
+    "Aquifères",
+    "Nappes phréatiques",
+    "Hydrogéologie de la Mauritanie",
+    "Gisements de pétrole"
+  ],
+  "bac-c-2023-sn-svt-ex2": [
+    "Hormones ovariennes H1 et H2",
+    "Cycle sexuel féminin",
+    "Endomètre"
+  ],
+  "bac-c-2023-sn-svt-ex3": [
+    "Phénomènes électriques dans les fibres nerveuses",
+    "Propriétés des fibres nerveuses"
+  ],
+  "bac-c-2023-sn-svt-ex4": [
+    "Transmission des allèles",
+    "Croisements génétiques chez la drosophile"
+  ],
+  "bac-c-2024-sn-svt-ex1": [
+    "Paléontologie et stratigraphie",
+    "Niveau piézométrique"
+  ],
+  "bac-c-2024-sn-svt-ex2": [
+    "Cycle sexuel féminin",
+    "Hormones sexuelles"
+  ],
+  "bac-c-2024-sn-svt-ex3": [
+    "Hérédité chez la drosophile",
+    "Cartographie génétique"
+  ],
+  "bac-c-2024-sn-svt-ex4": [
+    "Transmission synaptique — expérience 1",
+    "Potentiel local et potentiel d'action"
+  ],
+  "bac-c-2025-sc-svt-ex1": [
+    "Transmission héréditaire",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-c-2025-sc-svt-ex2": [
+    "Fonction reproductrice",
+    "Hormones ovariennes H1 et H2",
+    "Cycle menstruel"
+  ],
+  "bac-c-2025-sc-svt-ex3": [
+    "Structure du système nerveux",
+    "Potentiel local et potentiel d'action",
+    "Conduction nerveuse"
+  ],
+  "bac-c-2025-sn-svt-ex1": [
+    "Roches et ressources naturelles",
+    "Géographie géologique de la Mauritanie"
+  ],
+  "bac-c-2025-sn-svt-ex2": [
+    "Cycle menstruel",
+    "Interactions hormonales",
+    "Stérilité féminine"
+  ],
+  "bac-c-2025-sn-svt-ex3": [
+    "Hérédité chez la drosophile",
+    "Croisements génétiques",
+    "Loi de Mendel"
+  ],
+  "bac-c-2025-sn-svt-ex4": [
+    "Transmission synaptique — expérience 1",
+    "Potentiels d'action",
+    "Synapses chimiques"
+  ],
+  "bac-d-2023-sc-svt-ex1": [
+    "Enzymes de l'acrosome",
+    "ABP et hormones",
+    "Effets du sel sur l'organisme",
+    "Angiotensine",
+    "Hypovolémie",
+    "Noradrénaline",
+    "Phénomènes biologiques de reproduction",
+    "Aménorrhée et hormones"
+  ],
+  "bac-d-2023-sc-svt-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Allèles autosomiques",
+    "Dominance et récessivité",
+    "Génotypes",
+    "Anomalies chromosomiques"
+  ],
+  "bac-d-2023-sc-svt-ex3": [
+    "Sommation de potentiels post-synaptiques",
+    "Transmission synaptique — expérience 1",
+    "Potentiels d'action"
+  ],
+  "bac-d-2023-sc-svt-ex4": [
+    "Réponse immunitaire",
+    "Vaccination",
+    "Sérum thérapeutique"
+  ],
+  "bac-d-2024-sn-svt-ex1": [
+    "Mémoire immunitaire",
+    "Cycle de vie des angiospermes",
+    "Mode d'action du VIH sur les lymphocytes T",
+    "Anomalies héréditaires",
+    "Réflexe correcteur",
+    "Réaction allergique",
+    "Réponse immunitaire",
+    "Transmission génétique",
+    "Régulation de la pression artérielle",
+    "Croisement génétique",
+    "Vaccination",
+    "Reproduction des spermaphytes"
+  ],
+  "bac-d-2024-sn-svt-ex2": [
+    "Méiose",
+    "Injection hormonale",
+    "Stérilité féminine",
+    "Cycle menstruel",
+    "Avortements spontanés",
+    "Structures ovariennes"
+  ],
+  "bac-d-2024-sn-svt-ex3": [
+    "Croisements génétiques",
+    "Arbre généalogique de Koumba",
+    "Phénotypes et génotypes des enfants",
+    "Transmission génétique",
+    "Électrophorèse de l'ADN",
+    "Types de gamètes"
+  ],
+  "bac-d-2024-sn-svt-ex4": [
+    "Activité musculaire",
+    "Expériences de stimulation neuronale",
+    "Arc réflexe",
+    "Message nerveux",
+    "Réflexe tendineux",
+    "Transmission synaptique — expérience 1"
+  ],
+  "bac-d-2015-sn-svt-ex1": [
+    "Gamétogenèse",
+    "Cycle menstruel",
+    "Hormones sexuelles"
+  ],
+  "bac-d-2015-sn-svt-ex2": [
+    "Régulation de la glycémie",
+    "Rôle des hormones digestives",
+    "Nerf pneumogastrique"
+  ],
+  "bac-d-2015-sn-svt-ex3": [
+    "Régulation de la fréquence cardiaque",
+    "Rôle des nerfs cardiaques"
+  ],
+  "bac-d-2015-sn-svt-ex4": [
+    "Hérédité chez la drosophile",
+    "Croisements génétiques",
+    "Phénotypes et génotypes des enfants"
+  ],
+  "bac-d-2016-sn-svt-ex1": [
+    "Ovariectomie",
+    "Hormones de la grossesse",
+    "Méthodes contraceptives"
+  ],
+  "bac-d-2016-sn-svt-ex2": [
+    "Contraction musculaire",
+    "Sources d'énergie musculaire"
+  ],
+  "bac-d-2016-sn-svt-ex3": [
+    "Myasthénie",
+    "Anticorps anti-récepteurs",
+    "Transmission materno-fœtale"
+  ],
+  "bac-d-2016-sn-svt-ex4": [
+    "Transmission génétique",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-d-2017-sn-svt-ex1": [
+    "Cycle menstruel",
+    "Hormones sexuelles",
+    "Stérilité féminine"
+  ],
+  "bac-d-2017-sn-svt-ex2": [
+    "Contraction musculaire",
+    "Réponse musculaire à la stimulation"
+  ],
+  "bac-d-2017-sn-svt-ex3": [
+    "Réflexe de régulation de la pression artérielle",
+    "Hypertension rénovasculaire"
+  ],
+  "bac-d-2017-sn-svt-ex4": [
+    "Hérédité chez la drosophile",
+    "Croisement génétique",
+    "Localisation des gènes"
+  ],
+  "bac-d-2017-sn-svt-ex5": [
+    "Réflexe nerveux",
+    "Codage du message nerveux en fréquence",
+    "Acétylcholine"
+  ],
+  "bac-d-2017-sn-svt-ex6": [
+    "Séropositivité VIH",
+    "Réaction allergique",
+    "Anticorps"
+  ],
+  "bac-d-2017-sn-svt-ex7": [
+    "Régulation de la glycémie",
+    "Diabète",
+    "Pancréas artificiel"
+  ],
+  "bac-d-2017-sn-svt-ex8": [
+    "Transmission génétique",
+    "Arbre généalogique de Koumba",
+    "Probabilité génétique"
+  ],
+  "bac-d-2018-sn-svt-ex1": [
+    "Hormones et leurs fonctions",
+    "Réflexes et accoutumance"
+  ],
+  "bac-d-2018-sn-svt-ex2": [
+    "Cartes génétiques",
+    "Croisements génétiques"
+  ],
+  "bac-d-2018-sn-svt-ex3": [
+    "Causes de la stérilité",
+    "Traitements hormonaux"
+  ],
+  "bac-d-2018-sn-svt-ex4": [
+    "Homéostasie",
+    "Fonctions rénales"
+  ],
+  "bac-d-2019-sn-svt-ex1": [
+    "Croisements génétiques",
+    "Phénotypes et génotypes des enfants",
+    "Hormones et leurs rôles"
+  ],
+  "bac-d-2019-sn-svt-ex2": [
+    "Transmission génétique",
+    "Arbre généalogique de Koumba",
+    "Maladies héréditaires"
+  ],
+  "bac-d-2019-sn-svt-ex3": [
+    "Fécondation in vitro",
+    "Cycle menstruel",
+    "Hormones sexuelles"
+  ],
+  "bac-d-2019-sn-svt-ex4": [
+    "Message nerveux",
+    "Réflexe inné",
+    "Propriétés des fibres nerveuses"
+  ],
+  "bac-d-2019-sn-svt-ex5": [
+    "Choc anaphylactique",
+    "Histamine",
+    "Réponse immunitaire"
+  ],
+  "bac-d-2020-sn-svt-ex1": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Hérédité liée au sexe"
+  ],
+  "bac-d-2020-sn-svt-ex2": [
+    "Gènes autosomiques",
+    "Croisements et échiquiers",
+    "Carte factorielle"
+  ],
+  "bac-d-2020-sn-svt-ex3": [
+    "Évolution de l'endomètre",
+    "Cycle menstruel",
+    "Rétrocontrôle hormonal"
+  ],
+  "bac-d-2020-sn-svt-ex4": [
+    "Circuit neuronique",
+    "Transmission synaptique — expérience 1",
+    "Effet de substances chimiques sur la synapse"
+  ],
+  "bac-d-2021-sc-svt-ex1": [
+    "Transmission héréditaire",
+    "Lecture d'un caryotype fœtal et déduction génotypique",
+    "Électrophorèse de l'ADN"
+  ],
+  "bac-d-2021-sc-svt-ex2": [
+    "Cycle menstruel",
+    "Régulation de la glycémie",
+    "Grossesse"
+  ],
+  "bac-d-2021-sc-svt-ex3": [
+    "Potentiel local et potentiel d'action",
+    "Transmission synaptique — expérience 1",
+    "Propriétés électriques des neurones"
+  ],
+  "bac-d-2021-sc-svt-ex4": [
+    "Réponses immunitaires",
+    "Comparaison des réponses humorale et cellulaire"
+  ],
+  "bac-d-2021-sc-svt-ex5": [
+    "Régulation de la glycémie",
+    "Hormones parathyroïdienne et thyroïdienne"
+  ],
+  "bac-d-2022-sc-svt-ex1": [
+    "Phénomène biologique chez les angiospermes"
+  ],
+  "bac-d-2022-sc-svt-ex2": [
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante",
+    "Génétique des anomalies récessives et liées au sexe"
+  ],
+  "bac-d-2022-sc-svt-ex3": [
+    "Fonction reproductrice",
+    "Hormones sexuelles",
+    "Contrôle endocrinien de la reproduction"
+  ],
+  "bac-d-2022-sc-svt-ex4": [
+    "Transmission synaptique — expérience 1",
+    "Phénomènes électriques neuronaux"
+  ],
+  "bac-d-2022-sc-svt-ex5": [
+    "Immunité spécifique",
+    "Réponses immunitaires"
+  ],
+  "bac-d-2022-sn-svt-ex1": [
+    "Reproduction des plantes",
+    "Cycle de reproduction chez les angiospermes",
+    "Fécondation chez les spermaphytes",
+    "Appareil génital féminin",
+    "Implantation embryonnaire"
+  ],
+  "bac-d-2022-sn-svt-ex2": [
+    "Maladies héréditaires",
+    "Cartographie génétique",
+    "Croisement génétique chez la drosophile"
+  ],
+  "bac-d-2022-sn-svt-ex3": [
+    "Communication nerveuse",
+    "Propriétés des fibres nerveuses",
+    "Conduction nerveuse",
+    "Effet des substances sur la transmission nerveuse"
+  ],
+  "bac-d-2022-sn-svt-ex4": [
+    "Réponse immunitaire",
+    "Effet de l'anatoxine",
+    "Rôle des cellules immunitaires"
+  ],
+  "bac-d-2022-sn-svt-ex5": [
+    "Réflexe de régulation de la pression artérielle",
+    "Rôle du nerf de Hering",
+    "Réponse à la stimulation carotidienne"
+  ],
+  "bac-d-2023-sn-svt-ex1": [
+    "Plantes monoïques et dioïques",
+    "Formation des graines",
+    "Réponses immunitaires",
+    "Greffes et compatibilité",
+    "Cycle de vie des angiospermes"
+  ],
+  "bac-d-2023-sn-svt-ex2": [
+    "Fréquence cardiaque et transplantation cardiaque"
+  ],
+  "bac-d-2023-sn-svt-ex3": [
+    "Transmission des gènes",
+    "Liaison génétique"
+  ],
+  "bac-d-2023-sn-svt-ex4": [
+    "Phénomènes de la reproduction humaine",
+    "Hormones de la reproduction",
+    "Contraception hormonale"
+  ],
+  "bac-d-2023-sn-svt-ex5": [
+    "Physiologie nerveuse",
+    "Potentiel local et potentiel d'action",
+    "Synapses et neurones",
+    "Réflexes nerveux"
+  ],
+  "bac-d-2015-sc-svt-ex1": [
+    "Régulation de la glycémie",
+    "Fonctionnement des testicules"
+  ],
+  "bac-d-2015-sc-svt-ex2": [
+    "Potentiel local et potentiel d'action",
+    "Période réfractaire — stimulations I1 et I2",
+    "Comparaison muscle cardiaque et squelettique"
+  ],
+  "bac-d-2015-sc-svt-ex3": [
+    "Régulation de la glycémie",
+    "Fonction endocrine et exocrine du pancréas"
+  ],
+  "bac-d-2015-sc-svt-ex4": [
+    "Arbre généalogique de Koumba",
+    "Transmission génétique",
+    "Diagnostic prénatal"
+  ],
+  "bac-d-2016-sc-svt-ex1": [
+    "Dosage de l'ADN",
+    "Cycle cellulaire",
+    "Fécondation"
+  ],
+  "bac-d-2016-sc-svt-ex2": [
+    "Régulation de la glycémie",
+    "Rôle des parathyroïdes",
+    "Hyperparathyroïdie"
+  ],
+  "bac-d-2016-sc-svt-ex3": [
+    "Réponse immunitaire",
+    "Vaccination",
+    "Réponse immunitaire humorale et cellulaire"
+  ],
+  "bac-d-2016-sc-svt-ex4": [
+    "Déterminisme du sexe",
+    "Hérédité chez les abeilles",
+    "Croisements génétiques"
+  ],
+  "bac-d-2016-sc-svt-ex5": [
+    "Réponse nerveuse",
+    "Propriétés des fibres nerveuses",
+    "Stimulation nerveuse"
+  ],
+  "bac-d-2016-sc-svt-ex6": [
+    "Types de fibres musculaires",
+    "Réponse musculaire à l'exercice",
+    "Adaptation musculaire"
+  ],
+  "bac-d-2016-sc-svt-ex7": [
+    "Maladie de Gaucher",
+    "Transmission génétique",
+    "Analyse généalogique"
+  ],
+  "bac-d-2017-sc-svt-ex1": [
+    "Cycle ovarien",
+    "Hormones sexuelles",
+    "Lactation"
+  ],
+  "bac-d-2017-sc-svt-ex2": [
+    "Réponse immunitaire",
+    "Anticorps",
+    "Sérum thérapeutique"
+  ],
+  "bac-d-2017-sc-svt-ex3": [
+    "Hérédité liée au sexe",
+    "Daltonisme",
+    "Analyse d'un pédigrée — hypothèse récessive vs dominante"
+  ],
+  "bac-d-2017-sc-svt-ex4": [
+    "Potentiel de repos",
+    "Potentiel local et potentiel d'action",
+    "Propagation de l'influx nerveux"
+  ],
+  "bac-d-2017-sc-svt-ex5": [
+    "Régulation de la pression artérielle",
+    "Structure du système nerveux"
+  ],
+  "bac-d-2017-sc-svt-ex6": [
+    "Hérédité mendélienne",
+    "Croisements génétiques",
+    "Dominance et récessivité"
+  ],
+  "bac-d-2018-sc-svt-ex1": [
+    "Structure du système nerveux",
+    "Hormones",
+    "Réponse immunitaire"
+  ],
+  "bac-d-2018-sc-svt-ex2": [
+    "Liaison génétique",
+    "Position des gènes sur les chromosomes"
+  ],
+  "bac-d-2018-sc-svt-ex3": [
+    "Types de synapses",
+    "Effets des substances sur les synapses"
+  ],
+  "bac-d-2018-sc-svt-ex4": [
+    "Rôle des reins dans l'excrétion du sodium",
+    "Effet des corticosurrénales"
+  ]
+}

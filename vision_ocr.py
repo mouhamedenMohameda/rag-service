@@ -119,6 +119,7 @@ def ocr_page_via_vision(page: "fitz.Page") -> Optional[str]:
                     model=VISION_MODEL,
                     temperature=0,
                     max_tokens=MAX_TOKENS,
+                    timeout=45.0,
                     messages=[
                         {
                             "role": "user",

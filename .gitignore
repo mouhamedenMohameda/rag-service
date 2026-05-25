@@ -28,3 +28,33 @@ scripts/pending_notions_batches/
 
 # cours.json est généré et géré sur le VPS, comme json_bac.json
 cours.json
+
+# ─── Données & artefacts générés (recréables, gérés sur VPS) ───
+json_bac.prod*.json
+json_bac_2020_*.json
+extracted_last_5_years.json
+enonces_verifies_math_C.json
+exercices_extraits_ennonces_complets.*
+json_math.json
+exercises_extracted/
+exo_extracted/*.json
+exo_extracted/corrections/
+
+# LaTeX généré (json_to_latex.py / merge_and_export.py)
+*.tex
+
+# Rapports & sorties de pipeline
+*_report*.json
+injection_report.md
+
+# Caches
+.correction_cache/
+
+# Sorties de test
+test_*_output.json
+test_pdf_dir/
+
+# Backups laissés sur disque, hors git (NE PAS supprimer)
+*.backup*.json
+*.bak-*
+*.bak

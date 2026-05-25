@@ -116,111 +116,14 @@ class CourseGenerateRequest(BaseModel):
     max_context_exos: int = 5  # nb d'exos à passer au LLM comme contexte
 
 
-# ─── Prompt système pour la génération ──────────────────────────────────────
+# ─── Génération déléguée au module course_generator (partagé avec le batch) ─
+#
+# Le prompt 12-sections KaTeX-safe et le routing 2-étages (Llama 3.3 70B /
+# DeepSeek R1 distill 70B) vivent dans ``course_generator.py``. Cette API
+# ne fait plus que coordonner storage + validation.
 
-
-COURSE_SYSTEM = """Tu es un professeur expert du Bac mauritanien (séries C et D).
-On te donne une NOTION atomique du programme et 3 à 5 ÉNONCÉS d'exercices Bac
-qui la mettent en jeu. Tu rédiges un cours **structuré et pédagogique**,
-adapté à un élève de terminale qui révise.
-
-STRUCTURE EXIGÉE — utilise EXACTEMENT ces 6 sections, dans cet ordre :
-
-## 1. Notions de base
-Définitions et rappels indispensables. Court (3-6 lignes).
-
-## 2. Propriétés essentielles
-Théorèmes, formules clés, relations à savoir par cœur. Présente sous forme
-de liste à puces ou de blocs « Propriété : ... ». Numérote si utile.
-
-## 3. Méthode de résolution
-Étapes type à suivre face à un exercice de cette notion. Style :
-« 1. Identifier ... ; 2. Calculer ... ; 3. Vérifier ... ».
-
-## 4. Exemple type Bac
-**Choisis 1 des énoncés fournis** et résous-le étape par étape, en explicitant
-chaque étape de la méthode ci-dessus. Énonce avant de résoudre.
-
-## 5. Pièges fréquents
-3 à 6 erreurs typiques que les élèves font sur cette notion, sous forme de
-liste « ❌ Erreur : ... → ✅ Correct : ... » (sans emoji si tu préfères).
-
-## 6. Pour aller plus loin
-Une ou deux remarques avancées (lien avec d'autres notions, cas particuliers,
-extensions hors-programme mais culturellement utiles).
-
-RÈGLES DE FORMAT :
-- Markdown avec LaTeX inline ``$...$`` et bloc ``$$...$$``.
-- Équations chimiques avec ``\\ce{...}`` (PC/SVT uniquement).
-- Pas de ``\\documentclass``, pas de section ``# Cours sur ...`` redondante.
-- Le titre principal sera ajouté par l'UI. Tu commences DIRECTEMENT par ``## 1. Notions de base``.
-- Pas de phrase d'intro ni de conclusion en dehors de ces 6 sections.
-- Le ton doit être direct, pas de blabla. L'élève est en révision intense.
-
-Réponds uniquement en Markdown brut, sans entourer d'``` ```.
-"""
-
-
-def _build_user_prompt(
-    label: str,
-    matiere_id: str,
-    chapitre: str,
-    exos_context: list[dict],
-) -> str:
-    """Construit le user prompt avec contexte d'exos."""
-    lines = [
-        f"NOTION : « {label} »",
-        f"Matière : {matiere_id}",
-        f"Chapitre : {chapitre or '(non spécifié)'}",
-        "",
-        f"ÉNONCÉS D'EXERCICES Bac mettant en jeu cette notion ({len(exos_context)} exos) :",
-        "",
-    ]
-    for i, e in enumerate(exos_context, 1):
-        ennonce = (e.get("ennonce_complet") or "").strip()
-        # Tronquer si trop long pour rester dans la fenêtre contexte
-        if len(ennonce) > 1500:
-            ennonce = ennonce[:1500] + "…"
-        lines.append(f"--- Exo {i} ({e['id']}, Bac {e.get('annee')} série {e.get('filiere_id')}, "
-                     f"session {e.get('session', '?')}) ---")
-        lines.append(ennonce)
-        lines.append("")
-    return "\n".join(lines)
-
-
-def _call_groq_for_course(
-    user_prompt: str,
-    model: str = "llama-3.3-70b-versatile",
-) -> str:
-    """Appelle Groq pour générer le cours. Renvoie le markdown brut."""
-    try:
-        from groq import Groq
-    except ImportError as e:
-        raise HTTPException(500, f"Package 'groq' manquant : {e}")
-    api_key = os.environ.get("GROQ_API_KEY")
-    if not api_key:
-        raise HTTPException(500, "GROQ_API_KEY absente sur le serveur.")
-
-    client = Groq(api_key=api_key)
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": COURSE_SYSTEM},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.4,
-        max_tokens=3500,
-    )
-    content = (resp.choices[0].message.content or "").strip()
-    if not content:
-        raise HTTPException(502, "Groq a renvoyé une réponse vide.")
-    # Nettoyer un éventuel ``` autour
-    if content.startswith("```"):
-        # retire la 1re ligne (```markdown ou ```)
-        content = content.split("\n", 1)[1] if "\n" in content else content[3:]
-        if content.rstrip().endswith("```"):
-            content = content.rstrip()[:-3].rstrip()
-    return content
+from course_generator import generate_course as _generate_course  # noqa: E402
+from katex_validator import validate as _validate_katex  # noqa: E402
 
 
 # ─── Router ─────────────────────────────────────────────────────────────────
@@ -398,21 +301,38 @@ def build_courses_router(
         exos_context = candidates[: body.max_context_exos]
         context_exo_ids = [e["id"] for e in exos_context]
 
-        user_prompt = _build_user_prompt(label, matiere_id, chapitre, exos_context)
-        model = "llama-3.3-70b-versatile"
-        log.info("Génération cours notion=%s model=%s nb_exos=%d",
-                 notion_id, model, len(exos_context))
-        content = _call_groq_for_course(user_prompt, model=model)
+        try:
+            result = _generate_course(
+                label=label,
+                notion_id=notion_id,
+                chapitre=chapitre,
+                annales_bac=exos_context,
+                serie_hint=None,
+            )
+        except RuntimeError as e:
+            raise HTTPException(500, str(e))
+
+        report = _validate_katex(result.content)
 
         now = datetime.utcnow().isoformat(timespec="seconds")
         entry = {
-            "content": content,
-            "model": model,
+            "content": result.content,
+            "model": result.model,
             "generated_at": now,
             "edited_at": None,
             "validated_by_admin": False,
             "notion_label": label,
             "context_exo_ids": context_exo_ids,
+            "validation": {
+                "ok": report.ok,
+                "errors": report.errors,
+                "warnings": report.warnings,
+            },
+            "metrics": {
+                "prompt_tokens": result.prompt_tokens,
+                "completion_tokens": result.completion_tokens,
+                "cost_usd": result.cost_usd,
+            },
         }
         with _lock:
             courses = courses_store.load()  # re-load pour sécurité multi-thread

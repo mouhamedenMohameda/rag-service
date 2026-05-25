@@ -20,7 +20,9 @@
       "Dosage iodométrique du diiode — relation C = C₁V₁/(2V)",
       "Volume de thiosulfate à l'équivalence du dosage",
       "Dosage iodométrique du diiode",
-      "Dosage du diiode par thiosulfate"
+      "Dosage du diiode par thiosulfate",
+      "Dosage du diiode",
+      "Dosage par thiosulfate"
     ]
   },
   "pc.cinetique.vitesse-formation-i2": {
@@ -52,7 +54,10 @@
       "Vitesse instantanée — définition et valeur à t = 20 min",
       "Vitesse instantanée — lecture graphique",
       "Vitesse de réaction et vitesse volumique",
-      "Vitesse volumique — expression initiale"
+      "Vitesse volumique — expression initiale",
+      "Vitesse de réaction",
+      "Vitesse volumique de réaction",
+      "Vitesse volumique"
     ]
   },
   "pc.acide-base.equation-eau": {
@@ -70,7 +75,8 @@
       "pH après ajout partiel de soude — calcul à 40 mL versés",
       "Dilution d'acide faible — effet sur le coefficient d'ionisation",
       "pH après ajout partiel de base — calcul",
-      "Coefficient d'ionisation α d'un acide faible"
+      "Coefficient d'ionisation α d'un acide faible",
+      "Coefficient d'ionisation"
     ]
   },
   "pc.cinetique.diminution-vitesse": {
@@ -110,7 +116,10 @@
       "Gène autosomal ou gonosomal — pedigree enzymatique",
       "Pédigrée famille C — génotypes et risque pour le fœtus",
       "Pédigrée — génotypes et risques de transmission",
-      "Pédigrée — phénotypes vs génotypes en premier"
+      "Pédigrée — phénotypes vs génotypes en premier",
+      "Analyse de pedigree",
+      "Pedigree",
+      "Analyse de pédigrée"
     ]
   },
   "svt.genetique.caryotype-meiose": {
@@ -122,7 +131,9 @@
       "Caryotype fœtal et déduction génotypique",
       "Caryotype — obtention par culture et colchicine",
       "Différences caryotype homme (XY) / femme (XX)",
-      "Ovocyte II — caryotype et type de division"
+      "Ovocyte II — caryotype et type de division",
+      "Caryotype",
+      "Analyse de caryotype"
     ]
   },
   "pc.cinetique.bilan-redox-i-peroxo": {
@@ -134,7 +145,8 @@
       "Réaction iodure-peroxodisulfate — potentiels standard des couples",
       "Demi-équations redox — iodure et peroxodisulfate",
       "Demi-équations redox peroxodisulfate / iodure",
-      "Réactif limitant — peroxodisulfate"
+      "Réactif limitant — peroxodisulfate",
+      "Réaction entre peroxodisulfate et iodure"
     ]
   },
   "pc.cinetique.reactif-limitant": {
@@ -147,7 +159,8 @@
       "Concentrations initiales — réactif limitant à t = 0",
       "Réactif limitant — déduction des mélanges",
       "Réactif limitant et concentration finale de I₂",
-      "Réactif limitant — comparaison de deux expériences"
+      "Réactif limitant — comparaison de deux expériences",
+      "Réactif limitant"
     ]
   },
   "pc.cinetique.facteurs-cinetiques": {
@@ -193,7 +206,9 @@
       "Dosage acido-basique de mélange d'acides par soude",
       "Dosage acide faible par soude — courbe pH = f(Vb)",
       "Dosage d'un acide carboxylique par NaOH",
-      "pH à l'équivalence d'un dosage acide-base"
+      "pH à l'équivalence d'un dosage acide-base",
+      "Dosage acide-base",
+      "Dosage par la soude"
     ]
   },
   "pc.acide-base.pka-demi-equiv": {
@@ -223,7 +238,12 @@
       "Équation différentielle — circuit RL à t = 0",
       "Solution i(t) = I₀(1 − e^(−t/τ) et constante de temps",
       "Circuit RL — équation différentielle i(t)",
-      "Constante de temps et inductance L"
+      "Constante de temps et inductance L",
+      "Réponse d'un circuit RL à une tension constante",
+      "Réponse d'un circuit RLC à une tension sinusoïdale",
+      "Impédance d'un circuit RLC",
+      "Équation différentielle du circuit RLC",
+      "Réactance d'un circuit RLC"
     ]
   },
   "pc.ondes.progressive": {
@@ -245,7 +265,10 @@
       "Longueur d'onde du photon émis",
       "Équation d'une onde progressive le long d'une corde",
       "Longueur d'onde seuil et énergie d'extraction",
-      "Longueur d'onde et couleur des radiations"
+      "Longueur d'onde et couleur des radiations",
+      "Longueur d'onde d'un photon",
+      "Longueur d'onde du rayonnement",
+      "Longueur d'onde seuil"
     ]
   },
   "pc.orga.esterification": {
@@ -286,7 +309,11 @@
       "Vitesse instantanée et vitesse moyenne d'estérification",
       "Réaction estérification — identification des réactifs",
       "Réaction acide + alcool — estérification limitée",
-      "Estérification acide + alcool"
+      "Estérification acide + alcool",
+      "Réaction d'estérification",
+      "Réactions d'estérification",
+      "Effet de la température sur la vitesse de réaction",
+      "Estérification"
     ]
   },
   "pc.meca.champ-b-mcu": {
@@ -295,7 +322,10 @@
     "aliases": [
       "Mouvement circulaire uniforme d'une charge dans un champ B perpendiculaire",
       "Mouvement circulaire d'une charge dans un champ magnétique",
-      "Période cyclotron et fréquence"
+      "Période cyclotron et fréquence",
+      "Mouvement dans un champ magnétique",
+      "Mouvement dans un champ électrique",
+      "Mouvement d'ions dans un champ électrique"
     ]
   },
   "pc.optique.young": {
@@ -319,7 +349,10 @@
       "Interfrange i — expression et calcul de λ",
       "Fentes de Young — interfrange et nature des franges",
       "Longueur d'onde par mesure d'interfrange",
-      "Interfrange de Young — définition et expression"
+      "Interfrange de Young — définition et expression",
+      "Interfrange et interférences",
+      "Interférences et interfrange",
+      "Interfrange"
     ]
   },
   "pc.orga.alcool-isomeres-oxydation": {
@@ -346,7 +379,9 @@
       "Oxydation ménagée — réactif de Schiff",
       "Tests DNPH et liqueur de Fehling — aldéhyde vs cétone",
       "Tests DNPH et Fehling — aldéhyde, cétone, alcool",
-      "Oxydation ménagée d'un alcool — tests DNPH et Schiff"
+      "Oxydation ménagée d'un alcool — tests DNPH et Schiff",
+      "Réactions avec 2,4-DNPH et réactif de Schiff",
+      "Test de DNPH"
     ]
   },
   "pc.meca.ressort-harmonique": {
@@ -360,7 +395,9 @@
       "Ressort sur tige — raideur K = 40 N/m",
       "Oscillations libres — équation différentielle",
       "Période et fréquence du mouvement harmonique",
-      "Équation différentielle d'un oscillateur harmonique"
+      "Équation différentielle d'un oscillateur harmonique",
+      "Équation horaire du mouvement",
+      "Équation différentielle du mouvement"
     ]
   },
   "pc.orga.ester-hydrolyse-equilibre": {
@@ -370,7 +407,8 @@
       "Hydrolyse d'un ester — sens de la réaction et composition à l'équilibre",
       "Hydrolyse d'un ester — identification des produits",
       "Hydrolyse d'un ester — équilibre et constante K",
-      "Hydrolyse d'un ester — identification acide et alcool"
+      "Hydrolyse d'un ester — identification acide et alcool",
+      "Hydrolyse d'un ester"
     ]
   },
   "pc.gravitation.satellite": {
@@ -403,7 +441,11 @@
       "Calcul de la masse de la Terre",
       "Mouvement circulaire d'un satellite — nature",
       "Période de révolution",
-      "Énergie mécanique d'un satellite en orbite"
+      "Énergie mécanique d'un satellite en orbite",
+      "Troisième loi de Kepler",
+      "Gravitation universelle",
+      "Force gravitationnelle",
+      "Satellites géostationnaires"
     ]
   },
   "pc.radioactivite.desintegration": {
@@ -420,7 +462,10 @@
       "Désintégration α — équation nucléaire",
       "Désintégration β⁻ de l'iode 131 — lois de conservation",
       "Constante radioactive λ et activité",
-      "Équation de désintégration β⁻ du phosphore-32"
+      "Équation de désintégration β⁻ du phosphore-32",
+      "Désintégration radioactive",
+      "Équation de désintégration",
+      "Désintégration nucléaire"
     ]
   },
   "pc.radioactivite.noyaux": {
@@ -442,7 +487,9 @@
       "Séparation d'isotopes par spectrographie de masse",
       "Rayon de trajectoire — expression en B, U, m, e",
       "Spectrographe de masse — rayon de trajectoire en fonction de m",
-      "Enchaînement E puis B — spectrographie"
+      "Enchaînement E puis B — spectrographie",
+      "Trajectoire dans un champ magnétique",
+      "Trajectoire dans un champ électrique"
     ]
   },
   "pc.acide-base.tampon": {
@@ -465,7 +512,8 @@
       "Préparation d'une solution tampon acide-base",
       "Mélange acide fort + base faible — solution tampon à pH = pKa",
       "Préparation d'une solution tampon acétique",
-      "Préparation d'une solution tampon"
+      "Préparation d'une solution tampon",
+      "Solution tampon"
     ]
   },
   "pc.orga.amine-formule-isomeres": {
@@ -587,7 +635,22 @@
       "Représenter des points dans le plan complexe muni d'un repère orthonormé — utilisation des affixes",
       "Déterminer la nature d'un triangle ou d'un quadrilatère à partir de ses sommets — géométrie du plan complexe",
       "Déterminer l'ensemble des points d'affixe z tels que le module d'une fonction est égal à un nombre réel donné — utilisation des propriétés des modules",
-      "Déterminer l'ensemble des points d'affixe z tels que l'argument d'une fonction est égal à un nombre réel donné — utilisation des propriétés des arguments"
+      "Déterminer l'ensemble des points d'affixe z tels que l'argument d'une fonction est égal à un nombre réel donné — utilisation des propriétés des arguments",
+      "Barycentre dans le plan complexe",
+      "Similitude directe",
+      "Coniques dans le plan complexe",
+      "Barycentre et affixe",
+      "Triangle dans le plan complexe",
+      "Transformations dans le plan complexe",
+      "Ensembles de points dans le plan complexe",
+      "Forme trigonométrique des complexes",
+      "Affixes et géométrie complexe",
+      "Géométrie complexe",
+      "Forme trigonométrique et algébrique",
+      "Forme trigonométrique des nombres complexes",
+      "Forme trigonométrique",
+      "Forme algébrique et trigonométrique des complexes",
+      "Géométrie dans le plan complexe"
     ]
   },
   "math.geo.transformations": {
@@ -660,7 +723,13 @@
       "Flux en fonction du temps — rotation de bobine",
       "Points M1, M2 et rotation R",
       "Rotation R — A→I, I→B",
-      "Angle d'une rotation dans l'espace"
+      "Angle d'une rotation dans l'espace",
+      "Rotations",
+      "Rotation",
+      "Rotation dans le plan",
+      "Similitudes et rotations",
+      "Rotation et symétrie",
+      "Symétries et rotations"
     ]
   },
   "pc.relation-n-i2-cv-2-a-l-equivalence-du-dosage": {
@@ -734,7 +803,8 @@
     "aliases": [
       "Champ magnétique d'un solénoïde — caractéristiques du vecteur B",
       "Champ magnétique — valeur dans le solénoïde",
-      "Champ magnétique d'un solénoïde — caractéristiques"
+      "Champ magnétique d'un solénoïde — caractéristiques",
+      "Champ magnétique"
     ]
   },
   "pc.flux-magnetique-a-travers-une-petite-bobine": {
@@ -828,7 +898,9 @@
     "label": "Énergie mécanique et énergie cinétique à un instant donné",
     "matiere_id": "pc",
     "aliases": [
-      "Énergie cinétique à un instant donné"
+      "Énergie cinétique à un instant donné",
+      "Énergie cinétique",
+      "Énergie cinétique des électrons"
     ]
   },
   "pc.mouvement-sur-trajectoire-circulaire-vitesse-en-": {
@@ -973,7 +1045,8 @@
       "Conservation de l'énergie mécanique",
       "Chute parabolique — conservation de l'énergie mécanique",
       "Conservation de l'énergie mécanique — montée inclinée",
-      "Conservation de l'énergie mécanique — sommet du plan"
+      "Conservation de l'énergie mécanique — sommet du plan",
+      "Énergie mécanique"
     ]
   },
   "pc.formule-et-fonction-d-un-ester-ethanoate-de-buty": {
@@ -1056,7 +1129,9 @@
   "pc.energie-potentielle-et-mecanique-en-orbite": {
     "label": "Énergie potentielle et mécanique en orbite",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Énergie mécanique en orbite"
+    ]
   },
   "pc.hydratation-du-but-1-ene-alcools-possibles-et-re": {
     "label": "Hydratation du but-1-ène — alcools possibles et règle de Markovnikov",
@@ -1219,19 +1294,24 @@
   "pc.flux-magnetique-b-s-t": {
     "label": "Flux magnétique Φ = B·S(t)",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Flux magnétique"
+    ]
   },
   "pc.force-electromotrice-induite-loi-de-faraday": {
     "label": "Force électromotrice induite — loi de Faraday",
     "matiere_id": "pc",
     "aliases": [
-      "F.é.m. induite — loi de Faraday"
+      "F.é.m. induite — loi de Faraday",
+      "Force électromotrice induite"
     ]
   },
   "pc.courant-induit-dans-un-circuit": {
     "label": "Courant induit dans un circuit",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Courant induit"
+    ]
   },
   "pc.ph-d-une-solution-d-acide-fort": {
     "label": "pH d'une solution d'acide fort",
@@ -1329,7 +1409,9 @@
       "Déviation magnétique d'un ion — mouvement circulaire uniforme",
       "Mouvement dans champ B — nature circulaire uniforme",
       "Déviation magnétique — mouvement circulaire",
-      "Mouvement circulaire uniforme en champ B"
+      "Mouvement circulaire uniforme en champ B",
+      "Mouvement circulaire uniforme",
+      "Mouvement circulaire"
     ]
   },
   "pc.isomeres-d-amines-saturees": {
@@ -1372,7 +1454,9 @@
     "label": "Niveaux d'énergie de l'atome d'hydrogène E_n = −13,6/n²",
     "matiere_id": "pc",
     "aliases": [
-      "Niveaux d'énergie de l'atome d'hydrogène — formule En"
+      "Niveaux d'énergie de l'atome d'hydrogène — formule En",
+      "Niveaux d'énergie de l'atome d'hydrogène",
+      "Niveaux d'énergie de l'hydrogène"
     ]
   },
   "pc.transition-emissive-n-3-n-2": {
@@ -1454,7 +1538,8 @@
     "matiere_id": "pc",
     "aliases": [
       "Constante K — calcul à l'équilibre",
-      "Constante d'équilibre et masses à l'équilibre"
+      "Constante d'équilibre et masses à l'équilibre",
+      "Constante d'équilibre"
     ]
   },
   "pc.decroissance-de-l-activite-dans-le-temps": {
@@ -1649,7 +1734,8 @@
       "Dérivée et tableau de variations",
       "Dérivée f'(x)=g(x)/x³ — tableau de variation",
       "Dérivée et tableau de variations de f",
-      "Dérivée et variations de f sur ]-1,+∞["
+      "Dérivée et variations de f sur ]-1,+∞[",
+      "Dérivée et variations"
     ]
   },
   "math.point-fixe-et-centre-de-symetrie-d-une-famille-d": {
@@ -1708,7 +1794,8 @@
       "Calculer l'intégrale d'une fonction par parties",
       "Évaluation d'une intégrale par parties",
       "Intégration par parties pour calculer une intégrale définie",
-      "Calcul d'intégrale par parties"
+      "Calcul d'intégrale par parties",
+      "Calcul d'intégrales par parties"
     ]
   },
   "math.encadrement-de-u-n": {
@@ -1749,7 +1836,8 @@
       "Calcul de limite d'une fonction avec ln en facteur",
       "Calcul de la limite d'une fonction à l'infini",
       "Calcul de limites à droite et à gauche",
-      "Calcul de la limite d'une fonction à l'infini négatif"
+      "Calcul de la limite d'une fonction à l'infini négatif",
+      "Limite de suite"
     ]
   },
   "math.carres-construits-sur-les-cotes-d-un-triangle-pr": {
@@ -1849,7 +1937,10 @@
       "Ellipse — foyers, grand axe et équation",
       "Ellipse — foyers A, B et foyer C",
       "Centre, sommets, excentricité et asymptotes",
-      "Lieu de G — ellipse et excentricité"
+      "Lieu de G — ellipse et excentricité",
+      "Ellipses",
+      "Ellipse",
+      "Équation d'une ellipse"
     ]
   },
   "math.geo.similitude-directe": {
@@ -1866,7 +1957,8 @@
       "Similitude S=h∘r — rapport et angle",
       "Centre de S comme barycentre de A, B et C",
       "Reconnaître le centre de symétrie d'une courbe",
-      "Recherche d'un centre de symétrie pour une courbe"
+      "Recherche d'un centre de symétrie pour une courbe",
+      "Centre de symétrie"
     ]
   },
   "math.analyse.sommes-riemann": {
@@ -2008,7 +2100,8 @@
     "label": "Intégrale dépendant d'un paramètre gₙ(x)",
     "matiere_id": "math",
     "aliases": [
-      "Intégrale dépendant d'un paramètre — intégration par parties"
+      "Intégrale dépendant d'un paramètre — intégration par parties",
+      "Intégrales dépendant d'un paramètre"
     ]
   },
   "math.inegalite-ln-t-t-1-encadrement-d-integrales": {
@@ -2231,7 +2324,9 @@
   "math.distance-d-un-point-a-un-plan": {
     "label": "Distance d'un point à un plan",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Distance point-plan"
+    ]
   },
   "math.barycentre-a-coefficients-construction-de-d": {
     "label": "Barycentre à coefficients — construction de D",
@@ -2467,7 +2562,8 @@
     "label": "Équation cartésienne d'une parabole",
     "matiere_id": "math",
     "aliases": [
-      "Équation cartésienne d'un plan"
+      "Équation cartésienne d'un plan",
+      "Équation d'un plan"
     ]
   },
   "math.lieu-du-milieu-d-une-corde-droite-mobile": {
@@ -2655,7 +2751,9 @@
   "math.cocyclicite-a-f-t-l": {
     "label": "Cocyclicité A, F, T, L",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Cocyclicité"
+    ]
   },
   "math.lieu-des-points-alignes-m-m-m": {
     "label": "Lieu des points alignés M, M', M''",
@@ -2799,7 +2897,10 @@
       "Déterminer la bijection d'une fonction — et trouver sa réciproque",
       "Déterminer la bijection d'une fonction — et trouver son inverse",
       "Étudier la bijection d'une fonction et trouver son inverse",
-      "Déterminer la bijection d'une fonction sur un intervalle"
+      "Déterminer la bijection d'une fonction sur un intervalle",
+      "Fonction réciproque",
+      "Bijection et réciproque",
+      "Bijection et réciproque de fonctions"
     ]
   },
   "math.aire-entre-c-et-c-integration-par-parties": {
@@ -3008,7 +3109,8 @@
     "label": "Lieu d'alignement M, M₁, M₂",
     "matiere_id": "math",
     "aliases": [
-      "Alignement — lieu de points M₁, M₂"
+      "Alignement — lieu de points M₁, M₂",
+      "Alignement de points"
     ]
   },
   "math.segment-m1m2-longueur-et-direction-constantes": {
@@ -3108,7 +3210,9 @@
   "math.volume-du-tetraedre-abcd": {
     "label": "Volume du tétraèdre ABCD",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Volume du tétraèdre"
+    ]
   },
   "math.lieux-md2-et-me2-spheres-ou-quadriques": {
     "label": "Lieux MD² et ME² — sphères ou quadriques",
@@ -3229,7 +3333,8 @@
       "Suite d'intégrales — majoration et limite nulle",
       "Suite uₙ — majoration géométrique",
       "Suite vₙ — majoration géométrique",
-      "Suite — majoration géométrique et limite nulle"
+      "Suite — majoration géométrique et limite nulle",
+      "Suite géométrique"
     ]
   },
   "math.suite-de-sommes-partielles-lien-avec-integrale-e": {
@@ -3554,7 +3659,9 @@
   "math.aire-integrale-et-domaine-plan": {
     "label": "Aire — intégrale et domaine plan",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Aire d'un domaine plan"
+    ]
   },
   "math.serie-geometrique-finie-expression-et-somme-alte": {
     "label": "Série géométrique finie — expression et somme alternée",
@@ -3593,7 +3700,8 @@
       "Fonction — point d'inflexion et variations",
       "Recherche d'un point d'inflexion pour une fonction",
       "Recherche d'un point d'inflexion d'une courbe",
-      "Recherche de points d'inflexion pour une courbe"
+      "Recherche de points d'inflexion pour une courbe",
+      "Point d'inflexion"
     ]
   },
   "math.serie-alternee-developpement-limite-de-ln-1-x": {
@@ -3626,7 +3734,10 @@
   "math.suite-fn-majoration-et-integrale": {
     "label": "Suite fₙ — majoration et intégrale",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Suite intégrale",
+      "Suite et intégrale"
+    ]
   },
   "math.nombre-de-solutions-de-f-x-2": {
     "label": "Nombre de solutions de f(x)=-2",
@@ -4097,7 +4208,8 @@
     "matiere_id": "math",
     "aliases": [
       "Continuité et dérivabilité à droite en 0",
-      "Dérivabilité à gauche et à droite en 0"
+      "Dérivabilité à gauche et à droite en 0",
+      "Continuité et dérivabilité"
     ]
   },
   "math.primitive-via-g-x": {
@@ -4155,7 +4267,8 @@
     "label": "Formule des probabilités totales",
     "matiere_id": "math",
     "aliases": [
-      "Probabilité totale et formule des probabilités"
+      "Probabilité totale et formule des probabilités",
+      "Probabilités totales"
     ]
   },
   "math.factorisation-de-p-z-z3-10z2-33z-34": {
@@ -4184,7 +4297,9 @@
   "math.asymptotes-de-x-2-1-ex": {
     "label": "Asymptotes de (x−2)(1+eˣ)",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Asymptotes"
+    ]
   },
   "math.aires-et-integrales-entre-0-et-2": {
     "label": "Aires et intégrales entre 0 et 2",
@@ -4376,7 +4491,8 @@
       "Dérivée de h^{-1}",
       "Dérivée f'(x)=-u(x)/(x(x-1)²)",
       "Dérivée g_n'(x)=(n-x)x^{n-1}e^{-x}",
-      "f'(x)=-u(x)/(x+1)²"
+      "f'(x)=-u(x)/(x+1)²",
+      "Dérivée"
     ]
   },
   "math.probabilite-d-un-evenement-lecture-d-un-tableau": {
@@ -4499,7 +4615,8 @@
     "matiere_id": "math",
     "aliases": [
       "Parallélogramme ABDC",
-      "Triangle ABC et parallélogramme ABDC"
+      "Triangle ABC et parallélogramme ABDC",
+      "Parallélogramme"
     ]
   },
   "math.solution-particuliere-avec-conditions-initiales": {
@@ -4568,7 +4685,8 @@
     "label": "Forme exponentielle de Z_0",
     "matiere_id": "math",
     "aliases": [
-      "Résolution P(z)=0 et forme exponentielle"
+      "Résolution P(z)=0 et forme exponentielle",
+      "Forme algébrique et exponentielle"
     ]
   },
   "math.plus-petit-n-tel-que-z-n-2020": {
@@ -4609,7 +4727,9 @@
   "math.loi-binomiale-b-n-0-05": {
     "label": "Loi binomiale B(n;0,05)",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Loi binomiale"
+    ]
   },
   "math.probabilite-p-x-2-et-p-x-1": {
     "label": "Probabilité P(X=2) et P(X≥1)",
@@ -4651,7 +4771,9 @@
   "math.points-d-inflexion": {
     "label": "Points d'inflexion",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Tangentes et points d'inflexion"
+    ]
   },
   "math.primitive-f-x-ax2-bx-c-e-x": {
     "label": "Primitive F(x)=(ax²+bx+c)e^{-x}",
@@ -4691,7 +4813,9 @@
   "math.tangente-a-une-parabole-en-un-point": {
     "label": "Tangente à une parabole en un point",
     "matiere_id": "math",
-    "aliases": []
+    "aliases": [
+      "Tangente à une parabole"
+    ]
   },
   "math.aire-du-domaine-entre-c-et-c": {
     "label": "Aire du domaine entre (C) et (C')",
@@ -4862,14 +4986,17 @@
   "pc.ester-formule-brute-cnh2no2": {
     "label": "Ester — formule brute CnH2nO2",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Formule brute d'un ester"
+    ]
   },
   "pc.isomeres-d-ester-formules-semi-developpees": {
     "label": "Isomères d'ester — formules semi-développées",
     "matiere_id": "pc",
     "aliases": [
       "Isomères d'ester — formules semi-développées et noms",
-      "Isomères propanol — formules semi-développées"
+      "Isomères propanol — formules semi-développées",
+      "Formules semi-développées"
     ]
   },
   "pc.saponification-equation-avec-soude": {
@@ -5388,7 +5515,8 @@
     "matiere_id": "pc",
     "aliases": [
       "Théorème de l'énergie cinétique sur plan incliné",
-      "Théorème de l'énergie cinétique — vitesse en fonction de x"
+      "Théorème de l'énergie cinétique — vitesse en fonction de x",
+      "Théorème de l'énergie cinétique"
     ]
   },
   "pc.frottement-sur-plan-incline-valeur-de-f-et-de-v0": {
@@ -5537,7 +5665,8 @@
     "label": "Inductance théorique — formule du solénoïde",
     "matiere_id": "pc",
     "aliases": [
-      "Inductance de solénoïde — formule en R, l et N"
+      "Inductance de solénoïde — formule en R, l et N",
+      "Inductance d'un solénoïde"
     ]
   },
   "pc.f-e-m-d-auto-induction-valeurs-selon-graphe-i-t": {
@@ -5927,7 +6056,8 @@
     "label": "Énergie potentielle élastique d'un ressort",
     "matiere_id": "pc",
     "aliases": [
-      "Énergie potentielle élastique — forme aV² + b"
+      "Énergie potentielle élastique — forme aV² + b",
+      "Énergie potentielle élastique"
     ]
   },
   "pc.constantes-m-et-k-deduction-de-epe-f-v": {
@@ -7378,7 +7508,9 @@
   "pc.equation-du-mouvement-de-m-a-12-5-cm-de-s": {
     "label": "Équation du mouvement de M — à 12,5 cm de S",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Équation de mouvement"
+    ]
   },
   "pc.diagrammes-ys-t-et-ym-t-retard-et-phase": {
     "label": "Diagrammes yS(t) et yM(t) — retard et phase",
@@ -7794,7 +7926,8 @@
     "label": "Équation de trajectoire parabolique",
     "matiere_id": "pc",
     "aliases": [
-      "Équation de trajectoire parabolique dans un condensateur"
+      "Équation de trajectoire parabolique dans un condensateur",
+      "Trajectoire parabolique"
     ]
   },
   "pc.deviation-angulaire-electrique-et-tension-u": {
@@ -7815,7 +7948,9 @@
   "pc.force-de-laplace-sur-une-tige-conductrice": {
     "label": "Force de Laplace sur une tige conductrice",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Force appliquée sur une tige conductrice"
+    ]
   },
   "pc.equilibre-d-une-tige-sur-rails-dans-un-champ-mag": {
     "label": "Équilibre d'une tige sur rails dans un champ magnétique",
@@ -8893,12 +9028,18 @@
   "pc.oxydation-menagee-par-dichromate": {
     "label": "Oxydation ménagée par dichromate",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Oxydation ménagée",
+      "Oxydation ménagée des alcools",
+      "Oxydation des alcools"
+    ]
   },
   "pc.dispositif-de-dosage-acido-basique": {
     "label": "Dispositif de dosage acido-basique",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Dosage acido-basique"
+    ]
   },
   "pc.base-faible-pkb-et-concentration": {
     "label": "Base faible — pKb et concentration",
@@ -8928,7 +9069,10 @@
   "pc.effet-photoelectrique-definition": {
     "label": "Effet photoélectrique — définition",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Définition de l'effet photoélectrique",
+      "Effet photoélectrique"
+    ]
   },
   "pc.energie-cinetique-maximale-et-potentiel-d-arret": {
     "label": "Énergie cinétique maximale et potentiel d'arrêt",
@@ -8953,7 +9097,9 @@
   "pc.degre-d-acidite-du-vinaigre": {
     "label": "Degré d'acidité du vinaigre",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Degré d'acidité"
+    ]
   },
   "pc.vitesse-d-arrivee-au-sol": {
     "label": "Vitesse d'arrivée au sol",
@@ -9229,7 +9375,9 @@
   "pc.identification-de-solutions-par-ph": {
     "label": "Identification de solutions par pH",
     "matiere_id": "pc",
-    "aliases": []
+    "aliases": [
+      "Identification de solutions par mesure de pH"
+    ]
   },
   "pc.melange-pour-ph-neutre": {
     "label": "Mélange pour pH neutre",
@@ -9428,7 +9576,8 @@
       "Potentiel de repos et potentiel d'action",
       "Potentiel de repos et potentiel d'action — axone géant",
       "Potentiel de repos et potentiel d'action — enregistrements",
-      "Potentiel local gradué vs potentiel d'action"
+      "Potentiel local gradué vs potentiel d'action",
+      "Potentiel d'action"
     ]
   },
   "svt.proprietes-de-la-fibre-tout-ou-rien-periode-refr": {
@@ -9624,13 +9773,16 @@
     "label": "Transmission synaptique — expérience 1",
     "matiere_id": "svt",
     "aliases": [
-      "Transmission synaptique — expériences calmar"
+      "Transmission synaptique — expériences calmar",
+      "Transmission synaptique"
     ]
   },
   "svt.role-du-ca2-dans-la-synapse": {
     "label": "Rôle du Ca²⁺ dans la synapse",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Rôle du calcium dans la synapse"
+    ]
   },
   "svt.inventaire-des-forces-sur-une-tige-sur-rails-inc": {
     "label": "Inventaire des forces sur une tige sur rails inclinés",
@@ -9710,7 +9862,9 @@
   "svt.genotype-et-phenotype-definitions": {
     "label": "Génotype et phénotype — définitions",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Phénotype et génotype"
+    ]
   },
   "svt.test-cross-et-phenotypes-nouveaux": {
     "label": "Test-cross et phénotypes nouveaux",
@@ -9831,7 +9985,9 @@
   "svt.hormones-ovariennes-h1-et-h2": {
     "label": "Hormones ovariennes H1 et H2",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Hormones ovariennes"
+    ]
   },
   "svt.ovulation-menstruation-et-endometre": {
     "label": "Ovulation, menstruation et endomètre",
@@ -9848,7 +10004,9 @@
     "matiere_id": "svt",
     "aliases": [
       "Codage en fréquence du message nerveux",
-      "Propriétés du message nerveux (codage en fréquence)"
+      "Propriétés du message nerveux (codage en fréquence)",
+      "Codage du message nerveux",
+      "Message nerveux"
     ]
   },
   "svt.representation-des-reponses-a-i1-et-i7": {
@@ -9931,7 +10089,10 @@
   "svt.phenotypes-et-genotypes-des-enfants": {
     "label": "Phénotypes et génotypes des enfants",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Génotypes et phénotypes",
+      "Phénotypes et génotypes"
+    ]
   },
   "svt.genotype-d-un-garcon-e3-explication": {
     "label": "Génotype d'un garçon E3 — explication",
@@ -10108,7 +10269,9 @@
   "svt.role-du-fuseau-neuromusculaire": {
     "label": "Rôle du fuseau neuromusculaire",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Fuseau neuromusculaire"
+    ]
   },
   "svt.electrophorese-gene-non-autosomal": {
     "label": "Électrophorèse — gène non autosomal",
@@ -10188,7 +10351,9 @@
   "svt.devenir-du-corps-jaune": {
     "label": "Devenir du corps jaune",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Corps jaune"
+    ]
   },
   "svt.fuseau-neuromusculaire-et-arc-reflexe": {
     "label": "Fuseau neuromusculaire et arc réflexe",
@@ -10218,7 +10383,9 @@
   "svt.ovariectomie-et-hormones-hypophysaires": {
     "label": "Ovariectomie et hormones hypophysaires",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Hormones hypophysaires"
+    ]
   },
   "svt.role-de-l-ovaire-dans-le-cycle-sexuel": {
     "label": "Rôle de l'ovaire dans le cycle sexuel",
@@ -10261,13 +10428,16 @@
     "matiere_id": "svt",
     "aliases": [
       "Période réfractaire et stimulations répétées",
-      "Période réfractaire relative — stimulations successives"
+      "Période réfractaire relative — stimulations successives",
+      "Période réfractaire"
     ]
   },
   "svt.test-cross-et-linkage": {
     "label": "Test-cross et linkage",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Test-cross"
+    ]
   },
   "svt.genotypes-parents-et-f1": {
     "label": "Génotypes parents et F1",
@@ -10344,7 +10514,8 @@
     "label": "Sommation de potentiels post-synaptiques",
     "matiere_id": "svt",
     "aliases": [
-      "Sommation des potentiels post-synaptiques"
+      "Sommation des potentiels post-synaptiques",
+      "Potentiels post-synaptiques"
     ]
   },
   "svt.completion-du-tableau-de-ddp": {
@@ -10554,7 +10725,9 @@
   "svt.mode-d-action-du-vih-sur-les-lymphocytes-t": {
     "label": "Mode d'action du VIH sur les lymphocytes T",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Mode d'action du VIH"
+    ]
   },
   "svt.groupes-sanguins-abo-attribution-parent-enfant": {
     "label": "Groupes sanguins ABO — attribution parent-enfant",
@@ -10875,7 +11048,10 @@
     "matiere_id": "svt",
     "aliases": [
       "Régulation hormonale de la calcémie",
-      "Régulation hormonale de la glycémie"
+      "Régulation hormonale de la glycémie",
+      "Régulation hormonale",
+      "Régulation de la calcémie",
+      "Régulation hormonale de la reproduction"
     ]
   },
   "svt.source-d-energie-musculaire-atp-et-glycogene": {
@@ -12069,7 +12245,8 @@
     "aliases": [
       "Immunité humorale et immunité cellulaire",
       "Immunité à médiation humorale vs cellulaire",
-      "Réponse immunitaire humorale et cellulaire"
+      "Réponse immunitaire humorale et cellulaire",
+      "Immunité cellulaire"
     ]
   },
   "svt.lieux-de-deroulement-des-reponses-specifiques": {
@@ -12132,7 +12309,9 @@
   "svt.cellules-effectrices-lymphocytes-b-et-t": {
     "label": "Cellules effectrices — lymphocytes B et T",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Cellules effectrices"
+    ]
   },
   "svt.courbes-de-calcemie-hormones-p-et-t": {
     "label": "Courbes de calcémie — hormones P et T",
@@ -12232,7 +12411,10 @@
   "svt.reflexe-de-regulation-de-la-pression-arterielle": {
     "label": "Réflexe de régulation de la pression artérielle",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Régulation hormonale de la pression artérielle",
+      "Régulation nerveuse de la pression artérielle"
+    ]
   },
   "svt.nerfs-sympathiques-et-pincement-carotidien": {
     "label": "Nerfs sympathiques et pincement carotidien",
@@ -12372,7 +12554,9 @@
   "svt.arbre-genealogique-de-koumba": {
     "label": "Arbre généalogique de Koumba",
     "matiere_id": "svt",
-    "aliases": []
+    "aliases": [
+      "Arbre généalogique"
+    ]
   },
   "svt.mode-de-transmission-dominant-lie-a-l-x": {
     "label": "Mode de transmission — dominant lié à l'X",
@@ -12629,7 +12813,8 @@
       "Étude de l'inversibilité d'une fonction restreinte à un intervalle",
       "Établissement du tableau de variation de la réciproque d'une fonction",
       "Étude de la limite d'une fonction à droite d'un point",
-      "Bijection d'une fonction sur un intervalle"
+      "Bijection d'une fonction sur un intervalle",
+      "Étude de fonction logarithmique"
     ]
   },
   "math.etude-des-limites-d-une-fonction-forme-indetermi": {
@@ -12766,7 +12951,8 @@
       "Construire un tableau de variation d'une fonction — à partir de sa dérivée",
       "Constitution d'un tableau de variation pour une fonction dérivée",
       "Tableau de variation d'une fonction dérivable",
-      "Tableau de variation d'une fonction dérivée"
+      "Tableau de variation d'une fonction dérivée",
+      "Tableau de variation"
     ]
   },
   "math.resoudre-une-equation-fonctionnelle-utilisation-": {
@@ -12846,7 +13032,8 @@
     "matiere_id": "math",
     "aliases": [
       "Détermination d'une équation de la tangente à une courbe",
-      "Équation de la tangente à une courbe"
+      "Équation de la tangente à une courbe",
+      "Tangente à une courbe"
     ]
   },
   "math.construire-une-courbe-a-partir-de-plusieurs-autr": {
@@ -13040,7 +13227,10 @@
       "Calculer l'aire sous une courbe — Utilisation de l'intégration",
       "Calcul d'une aire sous une courbe en utilisant les intégrales",
       "Calcul d'une aire sous une courbe par intégration",
-      "Calcul d'aire sous une courbe à l'aide d'intégrales"
+      "Calcul d'aire sous une courbe à l'aide d'intégrales",
+      "Calcul d'aire sous une courbe",
+      "Calcul intégral et aire sous la courbe",
+      "Calcul d'aires sous une courbe"
     ]
   },
   "math.calculer-une-integrale-impropre-methode-de-conve": {
@@ -13073,7 +13263,8 @@
       "Évaluation d'une intégrale définie",
       "Évaluation d'une intégrale impropre",
       "Évaluer une intégrale définie",
-      "Évaluation d'une intégrale définie pour une fonction à variables"
+      "Évaluation d'une intégrale définie pour une fonction à variables",
+      "Intégrale définie"
     ]
   },
   "math.utilisation-de-l-inegalite-pour-encadrer-une-exp": {
@@ -13964,7 +14155,10 @@
       "Étude de la limite en l'infini d'une fonction rationnelle avec logarithme",
       "Étude de la positivité d'une fonction rationnelle",
       "Étude de la réciproque d'une fonction à exponentielle",
-      "Étude des limites en 0 et en l'infini d'une fonction fractionnaire avec logarithme"
+      "Étude des limites en 0 et en l'infini d'une fonction fractionnaire avec logarithme",
+      "Étude de fonction exponentielle",
+      "Étude de fonction",
+      "Fonction exponentielle"
     ]
   },
   "math.etudier-la-variation-d-une-fonction-definie-par-": {
@@ -14709,6 +14903,2491 @@
   "math.calcul-d-integrale-definie-et-etude-de-sa-limite": {
     "label": "Calcul d'intégrale définie et étude de sa limite",
     "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equations-diophantiennes": {
+    "label": "Équations diophantiennes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.congruences": {
+    "label": "Congruences",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.polynomes-complexes": {
+    "label": "Polynômes complexes",
+    "matiere_id": "math",
+    "aliases": [
+      "Factorisation de polynômes complexes",
+      "Polynômes et racines complexes",
+      "Racines carrées complexes",
+      "Racines carrées de nombres complexes",
+      "Racines complexes",
+      "Racines de polynômes complexes"
+    ]
+  },
+  "math.similitudes-complexes": {
+    "label": "Similitudes complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.similitudes": {
+    "label": "Similitudes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-fonctions": {
+    "label": "Étude de fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Dérivation et variations",
+      "Dérivation et étude de fonctions",
+      "Dérivation et étude de variations",
+      "Limites de fonctions",
+      "Limites de fonctions exponentielles",
+      "Limites de fonctions logarithmiques",
+      "Étude de fonctions exponentielles",
+      "Étude de fonctions logarithmiques"
+    ]
+  },
+  "math.suites-et-series": {
+    "label": "Suites et séries",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.parabole": {
+    "label": "Parabole",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.limites-et-continuite": {
+    "label": "Limites et continuité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration": {
+    "label": "Intégration",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.barycentre": {
+    "label": "Barycentre",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.similitude-complexe": {
+    "label": "Similitude complexe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.transformations-complexes": {
+    "label": "Transformations complexes",
+    "matiere_id": "math",
+    "aliases": [
+      "Parabole et transformations géométriques",
+      "Similitudes et transformations géométriques",
+      "Transformations géométriques",
+      "Transformations géométriques complexes"
+    ]
+  },
+  "math.inegalites-de-suites": {
+    "label": "Inégalités de suites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.limites-de-suites": {
+    "label": "Limites de suites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.proprietes-des-fonctions": {
+    "label": "Propriétés des fonctions",
+    "matiere_id": "math",
+    "aliases": [
+      "Propriétés des fonctions impaires"
+    ]
+  },
+  "math.calcul-d-integrales": {
+    "label": "Calcul d'intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.antideplacement": {
+    "label": "Antidéplacement",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equations-complexes": {
+    "label": "Équations complexes",
+    "matiere_id": "math",
+    "aliases": [
+      "Bijection et résolution d'équations",
+      "Résolution d'équations",
+      "Résolution d'équations complexes",
+      "Résolution d'équations dans \\(\\mathbb{C}\\)",
+      "Résolution d'équations différentielles",
+      "Résolution d'équations quadratiques dans \\(\\mathbb{C}\\)",
+      "Équations polynomiales complexes"
+    ]
+  },
+  "math.limites-et-asymptotes": {
+    "label": "Limites et asymptotes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.homotheties-de-courbes": {
+    "label": "Homothéties de courbes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.series-et-integrales": {
+    "label": "Séries et intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Intégrales et séries"
+    ]
+  },
+  "math.calcul-d-aires-sous-des-courbes": {
+    "label": "Calcul d'aires sous des courbes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.barycentres-et-alignements": {
+    "label": "Barycentres et alignements",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.inverses-modulo": {
+    "label": "Inverses modulo",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.proprietes-des-paraboles": {
+    "label": "Propriétés des paraboles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.series-numeriques": {
+    "label": "Séries numériques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.fonctions-definies-par-integrales": {
+    "label": "Fonctions définies par intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.lieux-geometriques": {
+    "label": "Lieux géométriques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.isobarycentre": {
+    "label": "Isobarycentre",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.triangle-equilateral": {
+    "label": "Triangle équilatéral",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.point-fixe": {
+    "label": "Point fixe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.symetrie-de-courbes": {
+    "label": "Symétrie de courbes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suite-decroissante": {
+    "label": "Suite décroissante",
+    "matiere_id": "math",
+    "aliases": [
+      "Suite décroissante et convergente"
+    ]
+  },
+  "math.serie-numerique": {
+    "label": "Série numérique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.ensembles-de-points": {
+    "label": "Ensembles de points",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.similitudes-et-homotheties": {
+    "label": "Similitudes et homothéties",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.convergence-des-suites": {
+    "label": "Convergence des suites",
+    "matiere_id": "math",
+    "aliases": [
+      "Convergence de suites",
+      "Convergence et divergence des suites",
+      "Suites et convergence"
+    ]
+  },
+  "math.similitude-et-homothetie": {
+    "label": "Similitude et homothétie",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.hyperbole": {
+    "label": "Hyperbole",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.algorithme-d-euclide": {
+    "label": "Algorithme d'Euclide",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.proprietes-des-parallelogrammes": {
+    "label": "Propriétés des parallélogrammes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.homothetie": {
+    "label": "Homothétie",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integration-par-substitution": {
+    "label": "Intégration par substitution",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.systemes-de-congruences": {
+    "label": "Systèmes de congruences",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.geometrie-complexe": {
+    "label": "Géométrie complexe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.geometrie-du-triangle": {
+    "label": "Géométrie du triangle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.barycentres": {
+    "label": "Barycentres",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suites-et-integrales": {
+    "label": "Suites et intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Intégrales et suites"
+    ]
+  },
+  "math.divisibilite": {
+    "label": "Divisibilité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.matrices-inversibles": {
+    "label": "Matrices inversibles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.triangles-equilateraux": {
+    "label": "Triangles équilatéraux",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.cercles-circonscrits": {
+    "label": "Cercles circonscrits",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.symetries-glissantes": {
+    "label": "Symétries glissantes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.similitudes-directes": {
+    "label": "Similitudes directes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.bijections-et-reciproques": {
+    "label": "Bijections et réciproques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.plans-dans-l-espace": {
+    "label": "Plans dans l'espace",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.matrices-et-systemes-lineaires": {
+    "label": "Matrices et systèmes linéaires",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivees-et-variations": {
+    "label": "Dérivées et variations",
+    "matiere_id": "math",
+    "aliases": [
+      "Dérivées et variations de fonctions"
+    ]
+  },
+  "math.fonctions-reciproques": {
+    "label": "Fonctions réciproques",
+    "matiere_id": "math",
+    "aliases": [
+      "Réciproques de fonctions"
+    ]
+  },
+  "math.primitives-et-integrales": {
+    "label": "Primitives et intégrales",
+    "matiere_id": "math",
+    "aliases": [
+      "Primitives et intégrales définies"
+    ]
+  },
+  "math.series-et-sommes": {
+    "label": "Séries et sommes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.esperance-mathematique": {
+    "label": "Espérance mathématique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-d-aire": {
+    "label": "Calcul d'aire",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.limites-et-convergence": {
+    "label": "Limites et convergence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.translations": {
+    "label": "Translations",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.homotheties": {
+    "label": "Homothéties",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.bijections": {
+    "label": "Bijections",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.produits-scalaires": {
+    "label": "Produits scalaires",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.projection-orthogonale": {
+    "label": "Projection orthogonale",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.aire-d-un-triangle": {
+    "label": "Aire d'un triangle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equation-polynomiale-complexe": {
+    "label": "Équation polynomiale complexe",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.intersection-avec-les-axes": {
+    "label": "Intersection avec les axes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equation-fonctionnelle": {
+    "label": "Équation fonctionnelle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.inegalites-integrales": {
+    "label": "Inégalités intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.cercle-circonscrit": {
+    "label": "Cercle circonscrit",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.intersection-de-plans": {
+    "label": "Intersection de plans",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.proprietes-geometriques-des-coniques": {
+    "label": "Propriétés géométriques des coniques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suites-arithmetiques-et-geometriques": {
+    "label": "Suites arithmétiques et géométriques",
+    "matiere_id": "math",
+    "aliases": [
+      "Suites arithmétiques",
+      "Suites complexes",
+      "Suites géométriques",
+      "Suites géométriques complexes",
+      "Suites géométriques et arithmétiques"
+    ]
+  },
+  "math.monotonie-des-suites": {
+    "label": "Monotonie des suites",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.forme-trigonometrique-des-nombres-complexes": {
+    "label": "Forme trigonométrique des nombres complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.transformation-de-mobius": {
+    "label": "Transformation de Möbius",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptotes-et-comportement-a-l-infini": {
+    "label": "Asymptotes et comportement à l'infini",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.probabilites-conditionnelles": {
+    "label": "Probabilités conditionnelles",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.evenements-independants": {
+    "label": "Événements indépendants",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equations-logarithmiques": {
+    "label": "Équations logarithmiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptotes-et-comportement-asymptotique": {
+    "label": "Asymptotes et comportement asymptotique",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.etude-de-fonctions-avec-logarithmes": {
+    "label": "Étude de fonctions avec logarithmes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suites-definies-par-recurrence": {
+    "label": "Suites définies par récurrence",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calculs-avec-les-nombres-complexes": {
+    "label": "Calculs avec les nombres complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.interpretation-geometrique-des-transformations-c": {
+    "label": "Interprétation géométrique des transformations complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptotes-et-tangentes": {
+    "label": "Asymptotes et tangentes",
+    "matiere_id": "math",
+    "aliases": [
+      "Tangentes et asymptotes"
+    ]
+  },
+  "math.loi-uniforme": {
+    "label": "Loi uniforme",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suites-recurrentes": {
+    "label": "Suites récurrentes",
+    "matiere_id": "math",
+    "aliases": [
+      "Suites récurrentes linéaires"
+    ]
+  },
+  "math.tangentes": {
+    "label": "Tangentes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptotes-obliques": {
+    "label": "Asymptotes obliques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.difference-de-termes-consecutifs": {
+    "label": "Différence de termes consécutifs",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equations-polynomiales-dans-mathbb-c": {
+    "label": "Équations polynomiales dans \\mathbb{C}",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.representation-geometrique-des-nombres-complexes": {
+    "label": "Représentation géométrique des nombres complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.equations-differentielles-lineaires": {
+    "label": "Équations différentielles linéaires",
+    "matiere_id": "math",
+    "aliases": [
+      "Équations différentielles linéaires du premier ordre",
+      "Équations différentielles linéaires à coefficients constants"
+    ]
+  },
+  "math.conditions-initiales": {
+    "label": "Conditions initiales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.tangentes-et-positions-relatives": {
+    "label": "Tangentes et positions relatives",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.bijections-et-fonctions-inverses": {
+    "label": "Bijections et fonctions inverses",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.suites-convergentes": {
+    "label": "Suites convergentes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.limites-infinies": {
+    "label": "Limites infinies",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.continuite": {
+    "label": "Continuité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivabilite": {
+    "label": "Dérivabilité",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-integral": {
+    "label": "Calcul intégral",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.fonctions-complexes": {
+    "label": "Fonctions complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.loi-exponentielle": {
+    "label": "Loi exponentielle",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.asymptotes-et-variations": {
+    "label": "Asymptotes et variations",
+    "matiere_id": "math",
+    "aliases": [
+      "Asymptotes et variations de fonctions"
+    ]
+  },
+  "math.derivation-et-integration-de-fonctions-logarithm": {
+    "label": "Dérivation et intégration de fonctions logarithmiques",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.calcul-de-puissances-complexes": {
+    "label": "Calcul de puissances complexes",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.derivation": {
+    "label": "Dérivation",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.probleme-de-cauchy": {
+    "label": "Problème de Cauchy",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.modules-et-arguments": {
+    "label": "Modules et arguments",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.theoreme-de-fermat": {
+    "label": "Théorème de Fermat",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "math.integrales": {
+    "label": "Intégrales",
+    "matiere_id": "math",
+    "aliases": []
+  },
+  "pc.vitesse-de-formation-d-un-produit": {
+    "label": "Vitesse de formation d'un produit",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.impedance-d-un-circuit-rc": {
+    "label": "Impédance d'un circuit RC",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.ph-d-un-acide-faiblement-ionise": {
+    "label": "pH d'un acide faiblement ionisé",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.condition-d-effet-photoelectrique": {
+    "label": "Condition d'effet photoélectrique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.interferences-lumineuses-en-lumiere-blanche": {
+    "label": "Interférences lumineuses en lumière blanche",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.cinetique-de-reaction": {
+    "label": "Cinétique de réaction",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.oscillations-mecaniques": {
+    "label": "Oscillations mécaniques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.propagation-d-ondes": {
+    "label": "Propagation d'ondes",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.mouvement-sur-un-plan-incline": {
+    "label": "Mouvement sur un plan incliné",
+    "matiere_id": "pc",
+    "aliases": [
+      "Mouvement sur plan incliné",
+      "Plan incliné"
+    ]
+  },
+  "pc.mouvement-parabolique": {
+    "label": "Mouvement parabolique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.facteurs-cinetiques": {
+    "label": "Facteurs cinétiques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.rendement-d-une-reaction-chimique": {
+    "label": "Rendement d'une réaction chimique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.constante-d-acidite": {
+    "label": "Constante d'acidité",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.dilution-et-concentration": {
+    "label": "Dilution et concentration",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.tension-aux-bornes-d-un-solenoide": {
+    "label": "Tension aux bornes d'un solénoïde",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.trajectoire-d-une-particule-chargee-dans-un-cham": {
+    "label": "Trajectoire d'une particule chargée dans un champ magnétique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.champ-electrique-et-mouvement-d-une-particule": {
+    "label": "Champ électrique et mouvement d'une particule",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.charge-et-decharge-d-un-condensateur": {
+    "label": "Charge et décharge d'un condensateur",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.construction-de-fresnel": {
+    "label": "Construction de Fresnel",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.tableau-d-avancement": {
+    "label": "Tableau d'avancement",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.hydratation-des-alcenes": {
+    "label": "Hydratation des alcènes",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.energie-potentielle": {
+    "label": "Énergie potentielle",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.regime-transitoire": {
+    "label": "Régime transitoire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.inductance-et-capacite": {
+    "label": "Inductance et capacité",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.etablissement-du-courant": {
+    "label": "Établissement du courant",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.potentiel-d-arret": {
+    "label": "Potentiel d'arrêt",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.energie-d-extraction": {
+    "label": "Énergie d'extraction",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.catalyseur": {
+    "label": "Catalyseur",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.force-de-lorentz": {
+    "label": "Force de Lorentz",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reaction-d-hydratation": {
+    "label": "Réaction d'hydratation",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.oxydation-d-un-alcool": {
+    "label": "Oxydation d'un alcool",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reaction-avec-le-chlorure-de-thionyle": {
+    "label": "Réaction avec le chlorure de thionyle",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.synthese-d-un-ester": {
+    "label": "Synthèse d'un ester",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.acide-faible": {
+    "label": "Acide faible",
+    "matiere_id": "pc",
+    "aliases": [
+      "Acide faible et fort"
+    ]
+  },
+  "pc.dilution-et-ph": {
+    "label": "Dilution et pH",
+    "matiere_id": "pc",
+    "aliases": [
+      "Dilution"
+    ]
+  },
+  "pc.indicateur-de-ph": {
+    "label": "Indicateur de pH",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.force-de-laplace": {
+    "label": "Force de Laplace",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.bilan-des-forces": {
+    "label": "Bilan des forces",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.fusion-nucleaire": {
+    "label": "Fusion nucléaire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.energie-liberee": {
+    "label": "Énergie libérée",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.demi-vie-radioactive": {
+    "label": "Demi-vie radioactive",
+    "matiere_id": "pc",
+    "aliases": [
+      "Demi-vie et activité radioactive"
+    ]
+  },
+  "pc.montage-rlc": {
+    "label": "Montage RLC",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.oscilloscope": {
+    "label": "Oscilloscope",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.dephasage": {
+    "label": "Déphasage",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.calcul-de-l-inductance": {
+    "label": "Calcul de l'inductance",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.deshydratation-intramoleculaire": {
+    "label": "Déshydratation intramoléculaire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.orbite-geostationnaire": {
+    "label": "Orbite géostationnaire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-d-hydrolyse": {
+    "label": "Réactions d'hydrolyse",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.calcul-de-ph": {
+    "label": "Calcul de pH",
+    "matiere_id": "pc",
+    "aliases": [
+      "Calcul de pKa"
+    ]
+  },
+  "pc.solutions-tampons": {
+    "label": "Solutions tampons",
+    "matiere_id": "pc",
+    "aliases": [
+      "Préparation de solutions tampons"
+    ]
+  },
+  "pc.deviation-de-particules-chargees": {
+    "label": "Déviation de particules chargées",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.trajectoires-circulaires-dans-un-champ-magnetiqu": {
+    "label": "Trajectoires circulaires dans un champ magnétique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.identification-de-particules": {
+    "label": "Identification de particules",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.longueurs-d-onde-des-radiations": {
+    "label": "Longueurs d'onde des radiations",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.effet-de-la-lumiere-blanche": {
+    "label": "Effet de la lumière blanche",
+    "matiere_id": "pc",
+    "aliases": [
+      "Spectre de la lumière blanche"
+    ]
+  },
+  "pc.potentiel-d-arret-et-courbe-caracteristique": {
+    "label": "Potentiel d'arrêt et courbe caractéristique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.calcul-de-l-intensite-et-rendement-quantique": {
+    "label": "Calcul de l'intensité et rendement quantique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-d-oxydoreduction": {
+    "label": "Réactions d'oxydoréduction",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.acides-forts-et-faibles": {
+    "label": "Acides forts et faibles",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.dissociation-acide": {
+    "label": "Dissociation acide",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-acide-base": {
+    "label": "Réactions acide-base",
+    "matiere_id": "pc",
+    "aliases": [
+      "Réaction acide-base"
+    ]
+  },
+  "pc.synthese-organique": {
+    "label": "Synthèse organique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.mouvement-rectiligne": {
+    "label": "Mouvement rectiligne",
+    "matiere_id": "pc",
+    "aliases": [
+      "Mouvement rectiligne uniforme"
+    ]
+  },
+  "pc.mouvement-sous-l-effet-de-la-gravite": {
+    "label": "Mouvement sous l'effet de la gravité",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.force-electromagnetique": {
+    "label": "Force électromagnétique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.induction-electromagnetique": {
+    "label": "Induction électromagnétique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.loi-de-lenz": {
+    "label": "Loi de Lenz",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.oscillateur-harmonique": {
+    "label": "Oscillateur harmonique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.changement-d-orbite": {
+    "label": "Changement d'orbite",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.nomenclature-des-composes-organiques": {
+    "label": "Nomenclature des composés organiques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.hydrolyse-des-esters": {
+    "label": "Hydrolyse des esters",
+    "matiere_id": "pc",
+    "aliases": [
+      "Hydrolyse d'esters"
+    ]
+  },
+  "pc.calcul-de-ph-de-melanges": {
+    "label": "Calcul de pH de mélanges",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.forces-motrices-et-frottements": {
+    "label": "Forces motrices et frottements",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.etude-de-trajectoire": {
+    "label": "Étude de trajectoire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.formule-brute-et-semi-developpee": {
+    "label": "Formule brute et semi-développée",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.titrage-acido-basique": {
+    "label": "Titrage acido-basique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.ph-et-pka": {
+    "label": "pH et pKa",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.onde-transversale": {
+    "label": "Onde transversale",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.celerite-de-l-onde": {
+    "label": "Célérité de l'onde",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.trajectoire-dans-un-champ-electrique": {
+    "label": "Trajectoire dans un champ électrique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.indicateurs-colores": {
+    "label": "Indicateurs colorés",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.vibrations-sinusoidales": {
+    "label": "Vibrations sinusoïdales",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.interferences-d-ondes": {
+    "label": "Interférences d'ondes",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-acido-basiques": {
+    "label": "Réactions acido-basiques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-avec-le-chlorure-d-ethanoyle": {
+    "label": "Réactions avec le chlorure d'éthanoyle",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.forces-de-laplace": {
+    "label": "Forces de Laplace",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.forces-et-mouvements-circulaires": {
+    "label": "Forces et mouvements circulaires",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.chiralite": {
+    "label": "Chiralité",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.titrage-acide-base": {
+    "label": "Titrage acide-base",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.charge-massique": {
+    "label": "Charge massique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.dosage-par-titrage": {
+    "label": "Dosage par titrage",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.mouvement-sur-une-piste": {
+    "label": "Mouvement sur une piste",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.interferences-lumineuses": {
+    "label": "Interférences lumineuses",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.difference-de-marche": {
+    "label": "Différence de marche",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.isomerie-des-esters": {
+    "label": "Isomérie des esters",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.equilibre-chimique": {
+    "label": "Équilibre chimique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.point-d-equivalence": {
+    "label": "Point d'équivalence",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.ondes-transversales": {
+    "label": "Ondes transversales",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reaction-avec-un-alcool": {
+    "label": "Réaction avec un alcool",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.base-faible": {
+    "label": "Base faible",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.formule-semi-developpee-d-une-amine": {
+    "label": "Formule semi-développée d'une amine",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.f-e-m-induite": {
+    "label": "f.é.m. induite",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.trajectoire-des-particules-chargees": {
+    "label": "Trajectoire des particules chargées",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.cinetique-de-decomposition": {
+    "label": "Cinétique de décomposition",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.trajectoire-d-electrons-dans-champs-electriques-": {
+    "label": "Trajectoire d'électrons dans champs électriques et magnétiques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.caractere-energetique-des-reactions": {
+    "label": "Caractère énergétique des réactions",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.coefficient-de-dissociation": {
+    "label": "Coefficient de dissociation",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.spectre-visible": {
+    "label": "Spectre visible",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.oxydation-de-l-ion-iodure": {
+    "label": "Oxydation de l'ion iodure",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.isomerie": {
+    "label": "Isomérie",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactions-d-oxydation": {
+    "label": "Réactions d'oxydation",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.formation-d-amides": {
+    "label": "Formation d'amides",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.calcul-de-la-raideur-d-un-ressort": {
+    "label": "Calcul de la raideur d'un ressort",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.identification-de-fonctions-organiques": {
+    "label": "Identification de fonctions organiques",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.force-de-frottement": {
+    "label": "Force de frottement",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.concentration-molaire": {
+    "label": "Concentration molaire",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.taux-d-avancement": {
+    "label": "Taux d'avancement",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.vitesse-d-ions": {
+    "label": "Vitesse d'ions",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.separation-d-ions-par-champ-magnetique": {
+    "label": "Séparation d'ions par champ magnétique",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.ph": {
+    "label": "pH",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.forces-de-frottement": {
+    "label": "Forces de frottement",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.energie-des-photons": {
+    "label": "Énergie des photons",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.travail-d-extraction": {
+    "label": "Travail d'extraction",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.constante-de-rydberg": {
+    "label": "Constante de Rydberg",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.ondes-stationnaires": {
+    "label": "Ondes stationnaires",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reactif-de-tollens": {
+    "label": "Réactif de Tollens",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.reaction-d-oxydoreduction": {
+    "label": "Réaction d'oxydoréduction",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.amide-monosubstitue": {
+    "label": "Amide monosubstitué",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.mouvement-sinusoidal": {
+    "label": "Mouvement sinusoïdal",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "pc.stroboscope": {
+    "label": "Stroboscope",
+    "matiere_id": "pc",
+    "aliases": []
+  },
+  "svt.fsh-et-lh": {
+    "label": "FSH et LH",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.spermatogenese": {
+    "label": "Spermatogenèse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cycle-cellulaire": {
+    "label": "Cycle cellulaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.electrophorese-de-l-adn": {
+    "label": "Électrophorèse de l'ADN",
+    "matiere_id": "svt",
+    "aliases": [
+      "Électrophorèse d'ADN"
+    ]
+  },
+  "svt.cycle-menstruel": {
+    "label": "Cycle menstruel",
+    "matiere_id": "svt",
+    "aliases": [
+      "Hormones du cycle menstruel"
+    ]
+  },
+  "svt.methodes-contraceptives": {
+    "label": "Méthodes contraceptives",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.synapses": {
+    "label": "Synapses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.integration-synaptique": {
+    "label": "Intégration synaptique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.synthese-de-l-adn": {
+    "label": "Synthèse de l'ADN",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexe-myotatique": {
+    "label": "Réflexe myotatique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.circuits-nerveux": {
+    "label": "Circuits nerveux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.ultrastructure-cellulaire": {
+    "label": "Ultrastructure cellulaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.heredite": {
+    "label": "Hérédité",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisements-genetiques": {
+    "label": "Croisements génétiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.gametogenese": {
+    "label": "Gamétogenèse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.relation-hypophyse-caracteres-sexuels": {
+    "label": "Relation hypophyse-caractères sexuels",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.proprietes-des-fibres-nerveuses": {
+    "label": "Propriétés des fibres nerveuses",
+    "matiere_id": "svt",
+    "aliases": [
+      "Propriétés des structures nerveuses"
+    ]
+  },
+  "svt.role-des-racines-nerveuses": {
+    "label": "Rôle des racines nerveuses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.electrophorese": {
+    "label": "Électrophorèse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.amniocentese": {
+    "label": "Amniocentèse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.anomalies-chromosomiques": {
+    "label": "Anomalies chromosomiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.greffe": {
+    "label": "Greffe",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.rejet-de-greffe": {
+    "label": "Rejet de greffe",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.memoire-immunitaire": {
+    "label": "Mémoire immunitaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisement-genetique": {
+    "label": "Croisement génétique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.liaison-genetique": {
+    "label": "Liaison génétique",
+    "matiere_id": "svt",
+    "aliases": [
+      "Dominance et liaison génétique",
+      "Dominance génétique"
+    ]
+  },
+  "svt.cycle-ovarien": {
+    "label": "Cycle ovarien",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-de-la-reproduction": {
+    "label": "Hormones de la reproduction",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.voie-nerveuse": {
+    "label": "Voie nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.synapse": {
+    "label": "Synapse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transmission-hereditaire": {
+    "label": "Transmission héréditaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.probabilite-genetique": {
+    "label": "Probabilité génétique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-sexuelles": {
+    "label": "Hormones sexuelles",
+    "matiere_id": "svt",
+    "aliases": [
+      "Hormones sexuelles féminines"
+    ]
+  },
+  "svt.sterilite-feminine": {
+    "label": "Stérilité féminine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.excitabilite-nerveuse": {
+    "label": "Excitabilité nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.rheobase": {
+    "label": "Rhéobase",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.chronaxie": {
+    "label": "Chronaxie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transmission-genetique": {
+    "label": "Transmission génétique",
+    "matiere_id": "svt",
+    "aliases": [
+      "Mode de transmission génétique"
+    ]
+  },
+  "svt.maladies-genetiques": {
+    "label": "Maladies génétiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.menopause": {
+    "label": "Ménopause",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.contraception": {
+    "label": "Contraception",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.potentiel-de-repos": {
+    "label": "Potentiel de repos",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.depolarisation": {
+    "label": "Dépolarisation",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.ppse-et-ppsi": {
+    "label": "PPSE et PPSI",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.structure-des-anticorps": {
+    "label": "Structure des anticorps",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fonctions-des-anticorps": {
+    "label": "Fonctions des anticorps",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.carte-genetique": {
+    "label": "Carte génétique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.excitabilite-des-fibres-nerveuses": {
+    "label": "Excitabilité des fibres nerveuses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.message-nerveux": {
+    "label": "Message nerveux",
+    "matiere_id": "svt",
+    "aliases": [
+      "Propagation du message nerveux"
+    ]
+  },
+  "svt.interactions-hormonales": {
+    "label": "Interactions hormonales",
+    "matiere_id": "svt",
+    "aliases": [
+      "Interactions hormonales dans la reproduction"
+    ]
+  },
+  "svt.heredite-liee-au-sexe": {
+    "label": "Hérédité liée au sexe",
+    "matiere_id": "svt",
+    "aliases": [
+      "Hérédité autosomique et liée au sexe",
+      "Transmission autosomique et liée au sexe",
+      "Transmission génétique liée au sexe"
+    ]
+  },
+  "svt.grossesse-et-jumeaux": {
+    "label": "Grossesse et jumeaux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexes-nerveux": {
+    "label": "Réflexes nerveux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.structure-du-systeme-nerveux": {
+    "label": "Structure du système nerveux",
+    "matiere_id": "svt",
+    "aliases": [
+      "Système nerveux",
+      "Système nerveux autonome"
+    ]
+  },
+  "svt.maladies-hereditaires": {
+    "label": "Maladies héréditaires",
+    "matiere_id": "svt",
+    "aliases": [
+      "Transmission des caractères",
+      "Transmission des caractères héréditaires",
+      "Transmission des maladies héréditaires"
+    ]
+  },
+  "svt.genetique-mendelienne": {
+    "label": "Génétique mendélienne",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.brassage-interchromosomique": {
+    "label": "Brassage interchromosomique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.brassage-intrachromosomique": {
+    "label": "Brassage intrachromosomique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fecondation": {
+    "label": "Fécondation",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.nidation": {
+    "label": "Nidation",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.penetration-du-spermatozoide": {
+    "label": "Pénétration du spermatozoïde",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transformations-cytologiques-et-nucleaires": {
+    "label": "Transformations cytologiques et nucléaires",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.maintien-de-la-grossesse": {
+    "label": "Maintien de la grossesse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.types-de-synapses": {
+    "label": "Types de synapses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-canaux-ioniques": {
+    "label": "Rôle des canaux ioniques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.genetique-des-drosophiles": {
+    "label": "Génétique des drosophiles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cartes-factorielles": {
+    "label": "Cartes factorielles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.dosage-de-lh": {
+    "label": "Dosage de LH",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormone-hcg": {
+    "label": "Hormone HCG",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cellules-germinales": {
+    "label": "Cellules germinales",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.histologie-des-testicules": {
+    "label": "Histologie des testicules",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cycle-sexuel-feminin": {
+    "label": "Cycle sexuel féminin",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-strogenes": {
+    "label": "Rôle des œstrogènes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.analyse-de-la-descendance": {
+    "label": "Analyse de la descendance",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisement-monohybride": {
+    "label": "Croisement monohybride",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.recombinaison-genetique": {
+    "label": "Recombinaison génétique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.physiologie-de-l-endometre": {
+    "label": "Physiologie de l'endomètre",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.ovogenese": {
+    "label": "Ovogenèse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.grossesse-et-placenta": {
+    "label": "Grossesse et placenta",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.jumeaux-et-chromosomes": {
+    "label": "Jumeaux et chromosomes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.potentiel-de-recepteur": {
+    "label": "Potentiel de récepteur",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.analyse-de-l-adn": {
+    "label": "Analyse de l'ADN",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.genetique-moleculaire": {
+    "label": "Génétique moléculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.structure-histologique-du-testicule": {
+    "label": "Structure histologique du testicule",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.structures-ovariennes": {
+    "label": "Structures ovariennes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.mecanismes-ioniques": {
+    "label": "Mécanismes ioniques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexes-neuromusculaires": {
+    "label": "Réflexes neuromusculaires",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.aquiferes": {
+    "label": "Aquifères",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.nappes-phreatiques": {
+    "label": "Nappes phréatiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hydrogeologie-de-la-mauritanie": {
+    "label": "Hydrogéologie de la Mauritanie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.gisements-de-petrole": {
+    "label": "Gisements de pétrole",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.endometre": {
+    "label": "Endomètre",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.phenomenes-electriques-dans-les-fibres-nerveuses": {
+    "label": "Phénomènes électriques dans les fibres nerveuses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transmission-des-alleles": {
+    "label": "Transmission des allèles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisements-genetiques-chez-la-drosophile": {
+    "label": "Croisements génétiques chez la drosophile",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.paleontologie-et-stratigraphie": {
+    "label": "Paléontologie et stratigraphie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.niveau-piezometrique": {
+    "label": "Niveau piézométrique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.heredite-chez-la-drosophile": {
+    "label": "Hérédité chez la drosophile",
+    "matiere_id": "svt",
+    "aliases": [
+      "Hérédité chez les drosophiles"
+    ]
+  },
+  "svt.cartographie-genetique": {
+    "label": "Cartographie génétique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fonction-reproductrice": {
+    "label": "Fonction reproductrice",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.conduction-nerveuse": {
+    "label": "Conduction nerveuse",
+    "matiere_id": "svt",
+    "aliases": [
+      "Vitesse de conduction nerveuse"
+    ]
+  },
+  "svt.roches-et-ressources-naturelles": {
+    "label": "Roches et ressources naturelles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.geographie-geologique-de-la-mauritanie": {
+    "label": "Géographie géologique de la Mauritanie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.loi-de-mendel": {
+    "label": "Loi de Mendel",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.potentiels-d-action": {
+    "label": "Potentiels d'action",
+    "matiere_id": "svt",
+    "aliases": [
+      "Analyse de potentiels d'action"
+    ]
+  },
+  "svt.synapses-chimiques": {
+    "label": "Synapses chimiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.enzymes-de-l-acrosome": {
+    "label": "Enzymes de l'acrosome",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.abp-et-hormones": {
+    "label": "ABP et hormones",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effets-du-sel-sur-l-organisme": {
+    "label": "Effets du sel sur l'organisme",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.angiotensine": {
+    "label": "Angiotensine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hypovolemie": {
+    "label": "Hypovolémie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.noradrenaline": {
+    "label": "Noradrénaline",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.phenomenes-biologiques-de-reproduction": {
+    "label": "Phénomènes biologiques de reproduction",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.amenorrhee-et-hormones": {
+    "label": "Aménorrhée et hormones",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.alleles-autosomiques": {
+    "label": "Allèles autosomiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.dominance-et-recessivite": {
+    "label": "Dominance et récessivité",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.genotypes": {
+    "label": "Génotypes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponse-immunitaire": {
+    "label": "Réponse immunitaire",
+    "matiere_id": "svt",
+    "aliases": [
+      "Réaction immunitaire",
+      "Réaction immunitaire spécifique",
+      "Réponse immunitaire spécifique"
+    ]
+  },
+  "svt.vaccination": {
+    "label": "Vaccination",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.serum-therapeutique": {
+    "label": "Sérum thérapeutique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cycle-de-vie-des-angiospermes": {
+    "label": "Cycle de vie des angiospermes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.anomalies-hereditaires": {
+    "label": "Anomalies héréditaires",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexe-correcteur": {
+    "label": "Réflexe correcteur",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reaction-allergique": {
+    "label": "Réaction allergique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reproduction-des-spermaphytes": {
+    "label": "Reproduction des spermaphytes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.meiose": {
+    "label": "Méiose",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.injection-hormonale": {
+    "label": "Injection hormonale",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.avortements-spontanes": {
+    "label": "Avortements spontanés",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.types-de-gametes": {
+    "label": "Types de gamètes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.activite-musculaire": {
+    "label": "Activité musculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.experiences-de-stimulation-neuronale": {
+    "label": "Expériences de stimulation neuronale",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.arc-reflexe": {
+    "label": "Arc réflexe",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexe-tendineux": {
+    "label": "Réflexe tendineux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-hormones-digestives": {
+    "label": "Rôle des hormones digestives",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.nerf-pneumogastrique": {
+    "label": "Nerf pneumogastrique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.regulation-de-la-frequence-cardiaque": {
+    "label": "Régulation de la fréquence cardiaque",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-nerfs-cardiaques": {
+    "label": "Rôle des nerfs cardiaques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.ovariectomie": {
+    "label": "Ovariectomie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-de-la-grossesse": {
+    "label": "Hormones de la grossesse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.contraction-musculaire": {
+    "label": "Contraction musculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.sources-d-energie-musculaire": {
+    "label": "Sources d'énergie musculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.myasthenie": {
+    "label": "Myasthénie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.anticorps-anti-recepteurs": {
+    "label": "Anticorps anti-récepteurs",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transmission-materno-f-tale": {
+    "label": "Transmission materno-fœtale",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponse-musculaire-a-la-stimulation": {
+    "label": "Réponse musculaire à la stimulation",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hypertension-renovasculaire": {
+    "label": "Hypertension rénovasculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.localisation-des-genes": {
+    "label": "Localisation des gènes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexe-nerveux": {
+    "label": "Réflexe nerveux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.acetylcholine": {
+    "label": "Acétylcholine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.seropositivite-vih": {
+    "label": "Séropositivité VIH",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.anticorps": {
+    "label": "Anticorps",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.diabete": {
+    "label": "Diabète",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.pancreas-artificiel": {
+    "label": "Pancréas artificiel",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-et-leurs-fonctions": {
+    "label": "Hormones et leurs fonctions",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexes-et-accoutumance": {
+    "label": "Réflexes et accoutumance",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cartes-genetiques": {
+    "label": "Cartes génétiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.causes-de-la-sterilite": {
+    "label": "Causes de la stérilité",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.traitements-hormonaux": {
+    "label": "Traitements hormonaux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.homeostasie": {
+    "label": "Homéostasie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fonctions-renales": {
+    "label": "Fonctions rénales",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-et-leurs-roles": {
+    "label": "Hormones et leurs rôles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fecondation-in-vitro": {
+    "label": "Fécondation in vitro",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reflexe-inne": {
+    "label": "Réflexe inné",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.choc-anaphylactique": {
+    "label": "Choc anaphylactique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.histamine": {
+    "label": "Histamine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.genes-autosomiques": {
+    "label": "Gènes autosomiques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisements-et-echiquiers": {
+    "label": "Croisements et échiquiers",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.circuit-neuronique": {
+    "label": "Circuit neuronique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effet-de-substances-chimiques-sur-la-synapse": {
+    "label": "Effet de substances chimiques sur la synapse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.grossesse": {
+    "label": "Grossesse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.proprietes-electriques-des-neurones": {
+    "label": "Propriétés électriques des neurones",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponses-immunitaires": {
+    "label": "Réponses immunitaires",
+    "matiere_id": "svt",
+    "aliases": [
+      "Allergènes et réponses immunitaires",
+      "Réponses immunitaires spécifiques",
+      "VIH et réponses immunitaires"
+    ]
+  },
+  "svt.comparaison-des-reponses-humorale-et-cellulaire": {
+    "label": "Comparaison des réponses humorale et cellulaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones-parathyroidienne-et-thyroidienne": {
+    "label": "Hormones parathyroïdienne et thyroïdienne",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.phenomene-biologique-chez-les-angiospermes": {
+    "label": "Phénomène biologique chez les angiospermes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.genetique-des-anomalies-recessives-et-liees-au-s": {
+    "label": "Génétique des anomalies récessives et liées au sexe",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.controle-endocrinien-de-la-reproduction": {
+    "label": "Contrôle endocrinien de la reproduction",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.phenomenes-electriques-neuronaux": {
+    "label": "Phénomènes électriques neuronaux",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.immunite-specifique": {
+    "label": "Immunité spécifique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reproduction-des-plantes": {
+    "label": "Reproduction des plantes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.cycle-de-reproduction-chez-les-angiospermes": {
+    "label": "Cycle de reproduction chez les angiospermes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fecondation-chez-les-spermaphytes": {
+    "label": "Fécondation chez les spermaphytes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.appareil-genital-feminin": {
+    "label": "Appareil génital féminin",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.implantation-embryonnaire": {
+    "label": "Implantation embryonnaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.croisement-genetique-chez-la-drosophile": {
+    "label": "Croisement génétique chez la drosophile",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.communication-nerveuse": {
+    "label": "Communication nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effet-des-substances-sur-la-transmission-nerveus": {
+    "label": "Effet des substances sur la transmission nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effet-de-l-anatoxine": {
+    "label": "Effet de l'anatoxine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-cellules-immunitaires": {
+    "label": "Rôle des cellules immunitaires",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-du-nerf-de-hering": {
+    "label": "Rôle du nerf de Hering",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponse-a-la-stimulation-carotidienne": {
+    "label": "Réponse à la stimulation carotidienne",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.plantes-monoiques-et-dioiques": {
+    "label": "Plantes monoïques et dioïques",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.formation-des-graines": {
+    "label": "Formation des graines",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.greffes-et-compatibilite": {
+    "label": "Greffes et compatibilité",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.frequence-cardiaque-et-transplantation-cardiaque": {
+    "label": "Fréquence cardiaque et transplantation cardiaque",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.transmission-des-genes": {
+    "label": "Transmission des gènes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.phenomenes-de-la-reproduction-humaine": {
+    "label": "Phénomènes de la reproduction humaine",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.contraception-hormonale": {
+    "label": "Contraception hormonale",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.physiologie-nerveuse": {
+    "label": "Physiologie nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.synapses-et-neurones": {
+    "label": "Synapses et neurones",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fonctionnement-des-testicules": {
+    "label": "Fonctionnement des testicules",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.comparaison-muscle-cardiaque-et-squelettique": {
+    "label": "Comparaison muscle cardiaque et squelettique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.fonction-endocrine-et-exocrine-du-pancreas": {
+    "label": "Fonction endocrine et exocrine du pancréas",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.diagnostic-prenatal": {
+    "label": "Diagnostic prénatal",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.dosage-de-l-adn": {
+    "label": "Dosage de l'ADN",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-parathyroides": {
+    "label": "Rôle des parathyroïdes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hyperparathyroidie": {
+    "label": "Hyperparathyroïdie",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.determinisme-du-sexe": {
+    "label": "Déterminisme du sexe",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.heredite-chez-les-abeilles": {
+    "label": "Hérédité chez les abeilles",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponse-nerveuse": {
+    "label": "Réponse nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.stimulation-nerveuse": {
+    "label": "Stimulation nerveuse",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.types-de-fibres-musculaires": {
+    "label": "Types de fibres musculaires",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.reponse-musculaire-a-l-exercice": {
+    "label": "Réponse musculaire à l'exercice",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.adaptation-musculaire": {
+    "label": "Adaptation musculaire",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.maladie-de-gaucher": {
+    "label": "Maladie de Gaucher",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.analyse-genealogique": {
+    "label": "Analyse généalogique",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.lactation": {
+    "label": "Lactation",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.daltonisme": {
+    "label": "Daltonisme",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.heredite-mendelienne": {
+    "label": "Hérédité mendélienne",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.hormones": {
+    "label": "Hormones",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.position-des-genes-sur-les-chromosomes": {
+    "label": "Position des gènes sur les chromosomes",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effets-des-substances-sur-les-synapses": {
+    "label": "Effets des substances sur les synapses",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.role-des-reins-dans-l-excretion-du-sodium": {
+    "label": "Rôle des reins dans l'excrétion du sodium",
+    "matiere_id": "svt",
+    "aliases": []
+  },
+  "svt.effet-des-corticosurrenales": {
+    "label": "Effet des corticosurrénales",
+    "matiere_id": "svt",
     "aliases": []
   }
 }
