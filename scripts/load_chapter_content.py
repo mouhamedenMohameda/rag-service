@@ -12,14 +12,17 @@ Ce que fait --apply :
   3. publications.json : fixe la liste de notions du chapitre pour chaque
      série (C, D…) si elle n'a pas encore été enregistrée (--force-lists pour
      remplacer). Le statut (brouillon / publié) n'est pas modifié.
-  4. --tag : ajoute aux exercices du chapitre les notions canoniques détectées
-     par mots-clés dans l'énoncé et la correction (les notion_ids existants
-     sont conservés). À relire ensuite dans l'atelier chapitre.
+  4. --tag : pose les notions canoniques sur les exercices du chapitre.
+     Exercices listés dans EXERCISE_TAGS (vérifiés à la main) : les notions
+     canoniques sont REMPLACÉES par la liste vérifiée. Autres exercices :
+     ajout par mots-clés. --clean-old retire en plus les anciennes notions
+     (non canoniques) de ces exercices.
 
 Usage (depuis rag-service/) :
   python scripts/load_chapter_content.py nombres_complexes            # simulation
   python scripts/load_chapter_content.py nombres_complexes --tag      # simulation + tags
   python scripts/load_chapter_content.py nombres_complexes --tag --apply
+  python scripts/load_chapter_content.py nombres_complexes --tag --clean-old --apply
 """
 from __future__ import annotations
 
@@ -67,6 +70,8 @@ def main() -> int:
     ap.add_argument("--tag", action="store_true", help="taguer les exercices du chapitre")
     ap.add_argument("--force-lessons", action="store_true", help="remplacer les cours NON validés existants")
     ap.add_argument("--force-lists", action="store_true", help="remplacer les listes de notions déjà enregistrées")
+    ap.add_argument("--clean-old", action="store_true",
+                    help="avec --tag : retirer des exercices du chapitre les anciennes notions non canoniques")
     args = ap.parse_args()
 
     c = load_content(args.content)
@@ -170,6 +175,11 @@ def main() -> int:
         print(f"3. Série {s} : liste → {len(wanted)} notions (statut {status} inchangé)")
 
     # ── 4. Tags exercices ──────────────────────────────────────────────────
+    # Tags vérifiés (EXERCISE_TAGS) : ils REMPLACENT les notions canoniques de
+    # l'exercice. Exercice absent de la liste : détection par mots-clés (ajout).
+    # --clean-old : retire aussi les anciennes notions (hors notions canoniques
+    # du chapitre) des exercices du chapitre.
+    verified = getattr(c, "EXERCISE_TAGS", {})
     data = bac_store.load()
     tagged_changes = 0
     coverage: dict[str, Counter] = {s: Counter() for s in series}
@@ -179,20 +189,29 @@ def main() -> int:
             if not _in_chapter(e, s, matiere, chapitre):
                 continue
             allowed = [n for n in notions if s in n["series"]]
-            found = detect(f"{e.get('ennonce_complet') or ''}\n{e.get('correction') or ''}", allowed)
             existing = list(e.get("notion_ids") or [])
-            canon_now = [i for i in existing if i in ids]
-            new = [i for i in found if i not in existing]
-            if args.tag and new:
-                e["notion_ids"] = existing + new
+            others = [i for i in existing if i not in ids]
+            if e.get("id") in verified:
+                canon, how = list(verified[e["id"]]), "vérifié"
+            else:
+                found = detect(f"{e.get('ennonce_complet') or ''}\n{e.get('correction') or ''}", allowed)
+                canon = [i for i in existing if i in ids] + [i for i in found if i not in existing]
+                how = "mots-clés"
+            kept = [] if args.clean_old else others
+            target = kept + [i for i in canon if i not in kept]
+            changed = target != existing
+            if args.tag and changed:
+                e["notion_ids"] = target
                 tagged_changes += 1
-            final = canon_now + (new if args.tag else [])
+            final = canon if args.tag else [i for i in existing if i in ids]
             for i in final:
                 coverage[s][i] += 1
             if not final:
                 untagged.append(f"{e.get('id')} ({s})")
             if args.tag:
-                print(f"   {e.get('id'):38} +{len(new)} {[i.split('.')[-1] for i in new]}")
+                removed_old = len(others) if args.clean_old else 0
+                print(f"   {e.get('id'):30} {how:9} {len(canon)} notions"
+                      + (f", {removed_old} ancienne(s) retirée(s)" if removed_old else ""))
     if args.tag:
         print(f"4. Tags : {tagged_changes} exercice(s) modifié(s)")
     else:

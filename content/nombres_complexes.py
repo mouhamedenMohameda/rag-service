@@ -561,3 +561,67 @@ $|Z| = 1$ donc $AC = AB$, et $\arg Z \equiv \dfrac{\pi}{2}$ donc $(\overrightarr
 """,
     },
 ]
+
+# ─── Tags vérifiés exercice par exercice (lecture des énoncés 2015-2025) ─────
+# Clés courtes → ids ci-dessus. Seules les notions réellement mobilisées par
+# une question de l'exercice sont listées (les parties barycentre / coniques /
+# suites relèvent d'autres chapitres et ne sont pas taguées ici).
+_K = {
+    "FA": "math.complexes.forme-algebrique",
+    "RG": "math.complexes.representation-geometrique",
+    "CJ": "math.complexes.conjugue",
+    "MO": "math.complexes.module",
+    "AR": "math.complexes.argument",
+    "TE": "math.complexes.forme-trigo-exponentielle",
+    "EM": "math.complexes.euler-moivre",
+    "E1": "math.complexes.equations-premier-degre",
+    "RC": "math.complexes.racines-carrees",
+    "E2": "math.complexes.equation-second-degre",
+    "E3": "math.complexes.equation-troisieme-degre",
+    "RN": "math.complexes.racines-n-iemes",
+    "TR": "math.complexes.ecriture-complexe-transformations",
+    "AG": "math.complexes.applications-geometriques",
+}
+
+_TAGS = {
+    # Série C
+    "bac-c-2015-sc-math-ex2": "E3 E2 RG TR AG",
+    "bac-c-2015-sn-math-ex1": "E3 E2 RG TR AG",
+    "bac-c-2016-sc-math-ex1": "E3 E2 RG AG TR",
+    "bac-c-2016-sn-math-ex2": "E3 E2 MO RG FA AG",
+    "bac-c-2017-sc-math-ex2": "E3 E2 RG AG TR CJ",
+    "bac-c-2017-sn-math-ex1": "E2 TR TE AG RG",
+    "bac-c-2018-sc-math-ex1": "E3 E2 RG AG TR",
+    "bac-c-2018-sn-math-ex2": "E3 E2 MO RG AG",
+    "bac-c-2019-sc-math-ex1": "E3 E2 RG TR AG",
+    "bac-c-2019-sn-math-ex2": "E3 E2 RG AG",
+    "bac-c-2020-sn-math-ex2": "E3 E2 MO RG AG TR E1",
+    "bac-c-2021-sn-math-ex3": "RC E2 TR AG RG",
+    "bac-c-2022-sn-math-ex2": "E3 E2 MO RG",
+    "bac-c-2023-sc-math-ex4": "E3 E2 TE E1 FA RG AG TR",
+    "bac-c-2023-sn-math-ex3": "E3 TR AG RG",
+    "bac-c-2024-sc-math-ex4": "E2 RG",
+    "bac-c-2024-sn-math-ex3": "E3 E2 RG",
+    "bac-c-2025-sn-math-ex2": "E3 E2 TE TR AG RG MO",
+    # Série D
+    "bac-d-2015-sc-math-ex2": "E2 TE FA AG RG",
+    "bac-d-2015-sn-math-ex2": "E3 E2 TE AG RG MO",
+    "bac-d-2016-sc-math-ex2": "E3 E2 MO AR AG RG",
+    "bac-d-2016-sn-math-ex2": "E3 E2 AG RG",
+    "bac-d-2017-sc-math-ex2": "E3 E2 AG RG",
+    "bac-d-2017-sn-math-ex2": "E3 E2 AG RG TE MO",
+    "bac-d-2018-sc-math-ex2": "RC E2 TE FA AG E1 RG",
+    "bac-d-2018-sn-math-ex2": "RC E3 E2 AG RG TE MO",
+    "bac-d-2019-sc-math-ex2": "RC E3 E2 RG FA AG MO",
+    "bac-d-2019-sn-math-ex2": "RC E2 AG RG TE MO",
+    "bac-d-2020-sc-math-ex2": "FA E3 E2 AG RG TE MO",
+    "bac-d-2020-sn-math-ex2": "E3 E2 AG RG FA TE MO",
+    "bac-d-2021-sc-math-ex2": "RC E2 TE MO AG RG",
+    "bac-d-2021-sn-math-ex2": "E3 E2 AG AR TE MO RG",
+    "bac-d-2022-sc-math-ex2": "RC E3 E2 RG AG FA",
+    "bac-d-2022-sn-math-ex2": "RC E3 E2 RG TE AG MO AR",
+    "bac-d-2023-sn-math-ex4": "RC E3 E2 RG TE AG MO AR",
+    "bac-d-2024-sn-math-ex4": "E3 E2 RC RG TE MO AG",
+}
+
+EXERCISE_TAGS = {eid: [_K[k] for k in keys.split()] for eid, keys in _TAGS.items()}
