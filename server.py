@@ -23,6 +23,7 @@ from pydantic import BaseModel, Field
 
 from admin_api import AdminStore, build_admin_router
 from admin_courses import CoursesStore, build_courses_router
+from admin_chapters import PublicationsStore, RegistryStore, build_chapters_routers
 from common import SUBJECTS, get_env
 from retrieval import BM25Index, rrf_fuse
 
@@ -128,6 +129,24 @@ async def lifespan(_app: FastAPI):
     )
     _app.include_router(courses_router)
     log.info("Admin Courses API mountée sur /admin/courses (cours: %s)", cours_path)
+
+    # Admin Chapters API — publication par série × matière × chapitre
+    publications = PublicationsStore(
+        path=json_path.parent / "publications.json", backup_dir=backup_dir,
+    )
+    registry_store = RegistryStore(
+        path=json_path.parent / "notions_registry.json", backup_dir=backup_dir,
+    )
+    chapters_admin, catalog_router = build_chapters_routers(
+        json_bac_store=store,
+        courses_store=courses_store,
+        publications=publications,
+        registry_store=registry_store,
+        api_key=state.api_key,
+    )
+    _app.include_router(chapters_admin)
+    _app.include_router(catalog_router)
+    log.info("Admin Chapters API mountée sur /admin/chapters + /catalog")
     yield
 
 

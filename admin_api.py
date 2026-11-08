@@ -136,6 +136,7 @@ class ExerciceUpdate(BaseModel):
     ennonce_complet: Optional[str] = None
     correction: Optional[str] = None
     notions_traitees: Optional[list[str]] = None
+    notion_ids: Optional[list[str]] = None
     chapitre: Optional[str] = None
     fichier: Optional[str] = None
     validated_by_admin: Optional[bool] = None
