@@ -70,6 +70,10 @@ def main() -> int:
     ap.add_argument("--tag", action="store_true", help="taguer les exercices du chapitre")
     ap.add_argument("--force-lessons", action="store_true", help="remplacer les cours NON validés existants")
     ap.add_argument("--force-lists", action="store_true", help="remplacer les listes de notions déjà enregistrées")
+    ap.add_argument("--corrections", metavar="MODULE",
+                    help="module de content/ avec CORRECTIONS = {exercice_id: {enonce, correction, note}}")
+    ap.add_argument("--force-corrections", action="store_true",
+                    help="avec --corrections : remplacer une correction déjà présente (exercice non validé)")
     ap.add_argument("--clean-old", action="store_true",
                     help="avec --tag : retirer des exercices du chapitre les anciennes notions non canoniques")
     args = ap.parse_args()
@@ -217,6 +221,50 @@ def main() -> int:
     else:
         print("4. Tags : non demandés (--tag)")
 
+    # ── 5. Énoncés vérifiés + corrections ──────────────────────────────────
+    corr_changes = 0
+    if args.corrections:
+        cm = load_content(args.corrections)
+        by_id = {e.get("id"): e for e in data}
+        now_s = datetime.now().isoformat(timespec="seconds")
+        print(f"5. Corrections ({args.corrections}) : {len(cm.CORRECTIONS)} exercice(s)")
+        for eid, item in cm.CORRECTIONS.items():
+            e = by_id.get(eid)
+            if e is None:
+                print(f"   ✗ {eid} : introuvable")
+                continue
+            if katex_validate:
+                errs = [x for k in ("enonce", "correction") if item.get(k)
+                        for x in katex_validate(item[k]).errors if not x.startswith("Sections manquantes")]
+                if errs:
+                    print(f"   ✗ {eid} : KaTeX {errs[:2]}")
+                    continue
+            if e.get("validated_by_admin"):
+                print(f"   = {eid} : déjà validé par l'admin — pas touché")
+                continue
+            what = []
+            new_enonce = (item.get("enonce") or "").strip()
+            if new_enonce and new_enonce != (e.get("ennonce_complet") or "").strip():
+                if not e.get("ennonce_ocr"):
+                    e["ennonce_ocr"] = e.get("ennonce_complet") or ""
+                e["ennonce_complet"] = new_enonce + "\n"
+                what.append("énoncé")
+            new_corr = (item.get("correction") or "").strip()
+            has_corr = bool((e.get("correction") or "").strip())
+            if new_corr and (not has_corr or args.force_corrections):
+                e["correction"] = new_corr + "\n"
+                what.append("correction")
+            elif new_corr and has_corr:
+                what.append("correction existante gardée")
+            if item.get("note"):
+                e["note_admin"] = item["note"]
+            if any(w in ("énoncé", "correction") for w in what):
+                e["is_skeleton"] = False
+                e["updated_at"] = now_s
+                corr_changes += 1
+            print(f"   {'+' if what else '='} {eid} : {', '.join(what) or 'rien à changer'}"
+                  + (" ⚠ note" if item.get("note") else ""))
+
     print("\nCouverture (exercices par notion) :")
     for s in series:
         print(f"  Série {s} :")
@@ -236,7 +284,7 @@ def main() -> int:
         courses_store.save(courses)
     for s, wanted in list_updates.items():
         pub_store.upsert(s, matiere, chapitre, notion_ids=wanted)
-    if args.tag and tagged_changes:
+    if (args.tag and tagged_changes) or corr_changes:
         bac_store.save(data)
     print("\nÉcrit. Sauvegardes dans json_backups/. Relis et valide les cours dans /admin/chapitres.")
     return 0
