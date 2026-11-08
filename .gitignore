@@ -58,3 +58,6 @@ test_pdf_dir/
 *.backup*.json
 *.bak-*
 *.bak
+
+# cache des réponses IA des indices
+hint_cache/

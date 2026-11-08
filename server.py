@@ -23,6 +23,7 @@ from pydantic import BaseModel, Field
 
 from admin_api import AdminStore, build_admin_router
 from admin_courses import CoursesStore, build_courses_router
+from hint_cache import HintCacheStore, build_hint_cache_router
 from admin_chapters import PublicationsStore, RegistryStore, build_chapters_routers
 from common import SUBJECTS, get_env
 from retrieval import BM25Index, rrf_fuse
@@ -147,6 +148,11 @@ async def lifespan(_app: FastAPI):
     _app.include_router(chapters_admin)
     _app.include_router(catalog_router)
     log.info("Admin Chapters API mountée sur /admin/chapters + /catalog")
+
+    # Cache des réponses IA des indices (partagé web + mobile)
+    hint_cache_dir = json_path.parent / "hint_cache"
+    _app.include_router(build_hint_cache_router(HintCacheStore(hint_cache_dir), api_key=state.api_key))
+    log.info("Cache des indices monté sur /cache/hints (dossier : %s)", hint_cache_dir)
     yield
 
 
