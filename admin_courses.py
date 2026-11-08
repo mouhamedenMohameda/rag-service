@@ -103,6 +103,25 @@ def _load_map(root: Path) -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def _linked_exos(notion_id: str, mp: dict, bac: list[dict]) -> list[dict]:
+    """Exos liés à une notion : ceux de notions_map.json (snapshot) + ceux dont
+    ``notion_ids`` contient la notion dans json_bac.json (état actuel, inclut
+    les notions créées / réaffectées depuis l'atelier chapitre)."""
+    by_id = {e.get("id"): e for e in bac}
+    out: list[dict] = []
+    seen: set[str] = set()
+    for ex in mp.get(notion_id, {}).get("exercices") or []:
+        e = by_id.get(ex.get("id"))
+        if e and e["id"] not in seen:
+            seen.add(e["id"])
+            out.append(e)
+    for e in bac:
+        if e.get("id") not in seen and notion_id in (e.get("notion_ids") or []):
+            seen.add(e["id"])
+            out.append(e)
+    return out
+
+
 # ─── Schemas Pydantic ────────────────────────────────────────────────────────
 
 
@@ -237,14 +256,9 @@ def build_courses_router(
             raise HTTPException(404, f"Notion '{notion_id}' inconnue.")
         mp = _load_map(root)
         bac = json_bac_store.load()
-        by_id = {e["id"]: e for e in bac}
         reg_entry = registry[notion_id]
-        exos_refs = mp.get(notion_id, {}).get("exercices") or []
         exos = []
-        for ex in exos_refs:
-            e = by_id.get(ex["id"])
-            if not e:
-                continue
+        for e in _linked_exos(notion_id, mp, bac):
             exos.append({
                 "id": e["id"],
                 "annee": e.get("annee"),
@@ -285,14 +299,9 @@ def build_courses_router(
         # Récupérer les exos liés (max N)
         mp = _load_map(root)
         bac = json_bac_store.load()
-        by_id = {e["id"]: e for e in bac}
-        exos_refs = mp.get(notion_id, {}).get("exercices") or []
         # On préfère les exos avec énoncé long (≥200 char)
         candidates = []
-        for ex in exos_refs:
-            e = by_id.get(ex["id"])
-            if not e:
-                continue
+        for e in _linked_exos(notion_id, mp, bac):
             if len((e.get("ennonce_complet") or "").strip()) < 200:
                 continue
             candidates.append(e)
@@ -351,7 +360,21 @@ def build_courses_router(
         with _lock:
             courses = courses_store.load()
             if notion_id not in courses:
-                raise HTTPException(404, "Pas de cours pour cette notion.")
+                if update.content is None:
+                    raise HTTPException(404, "Pas de cours pour cette notion.")
+                registry = _load_registry(root)
+                if notion_id not in registry:
+                    raise HTTPException(404, f"Notion '{notion_id}' inconnue.")
+                # Cours rédigé directement par l'admin (sans génération IA).
+                courses[notion_id] = {
+                    "content": "",
+                    "model": "admin",
+                    "generated_at": None,
+                    "edited_at": None,
+                    "validated_by_admin": False,
+                    "notion_label": registry[notion_id].get("label", ""),
+                    "context_exo_ids": [],
+                }
             entry = courses[notion_id]
             if update.content is not None:
                 entry["content"] = update.content
