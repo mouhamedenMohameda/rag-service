@@ -1,4 +1,4 @@
-"""OCR Vision via Groq (llama-4-scout) pour les pages scannées des PDFs.
+"""OCR Vision via Groq (Qwen3.8-27B) pour les pages scannées des PDFs.
 
 Activé uniquement si GROQ_API_KEY est défini dans l'environnement. Sinon,
 les fonctions renvoient None et l'appelant skip silencieusement la page.
@@ -16,7 +16,8 @@ import fitz  # PyMuPDF
 
 log = logging.getLogger("vision-ocr")
 
-VISION_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
+# Llama 4 Scout retiré par Groq le 17/07/2026 → Qwen3.8-27B (multimodal).
+VISION_MODEL = os.environ.get("GROQ_VISION_MODEL", "qwen/qwen3.8-27b")
 MAX_TOKENS = 1200
 # Groq Vision a un plafond ~4 MB par image. Avec PNG zoom 2x on dépasse
 # régulièrement sur les pages denses, donc on rend en JPEG qualité 80.
@@ -120,6 +121,8 @@ def ocr_page_via_vision(page: "fitz.Page") -> Optional[str]:
                     temperature=0,
                     max_tokens=MAX_TOKENS,
                     timeout=45.0,
+                    # Transcription pure : pas de raisonnement (Qwen3.8 sur Groq)
+                    extra_body={"reasoning_effort": "none"},
                     messages=[
                         {
                             "role": "user",

@@ -44,13 +44,13 @@ _HARD_NOTION_KEYWORDS = (
     "lieu",
 )
 
-MODEL_FAST = "llama-3.3-70b-versatile"  # étage 1 — généraliste rapide
+MODEL_FAST = "openai/gpt-oss-120b"  # étage 1 (llama-3.3-70b-versatile n'est plus en libre-service chez Groq)
 MODEL_DEEP = "openai/gpt-oss-120b"      # étage 2 — meilleur raisonnement math sur Groq
 
 # Prix Groq par 1M tokens (in / out) — à mettre à jour si tarification change.
 _PRICING = {
-    MODEL_FAST: (0.59, 0.79),
-    MODEL_DEEP: (0.15, 0.75),  # gpt-oss-120b est moins cher en input que Llama
+    MODEL_FAST: (0.15, 0.60),
+    MODEL_DEEP: (0.15, 0.60),
 }
 
 
