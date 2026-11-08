@@ -29,6 +29,8 @@ Routes admin (``X-Api-Key`` S2S) :
 Routes catalogue (S2S, appelées par Next.js pour les élèves) :
   - GET  /catalog/chapters                    chapitres publiés d'une série
   - GET  /catalog/chapter                     vue élève d'un chapitre publié
+  - POST /catalog/analyze                     texte d'une photo → exercice du bac
+                                              reconnu, chapitre, notions, annales
 """
 from __future__ import annotations
 
@@ -44,7 +46,9 @@ from pathlib import Path
 from typing import Any, Optional
 
 from fastapi import APIRouter, Depends, Header, HTTPException, Query
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+
+import scan_match
 
 log = logging.getLogger("rag-admin-chapters")
 
@@ -220,6 +224,11 @@ class ChapterNotionsUpdate(ChapterRef):
 
 class ChapterPublish(ChapterRef):
     published: bool
+
+
+class AnalyzeBody(BaseModel):
+    filiere: str
+    text: str = Field(min_length=10, max_length=20000)
 
 
 class RegistryNotionCreate(BaseModel):
@@ -576,5 +585,83 @@ def build_chapters_routers(
         )
         view["status"] = "published"
         return view
+
+    @catalog.post("/analyze", dependencies=[Depends(require_key)])
+    def analyze(body: AnalyzeBody) -> dict[str, Any]:
+        """Texte lu sur la photo d'un élève → ce qu'il doit voir.
+
+        status :
+          - ``matched``        exercice de bac reconnu ET validé (correction incluse si remplie)
+          - ``detected``       chapitre + notions détectés (exercice inconnu ou non validé)
+          - ``not_published``  chapitre reconnu mais pas encore publié pour cette série
+          - ``unknown``        rien de fiable : l'app propose les indices classiques
+        Aucun contenu d'un chapitre non publié n'est renvoyé.
+        """
+        f = body.filiere.strip().upper()
+        if f not in FILIERES:
+            raise HTTPException(400, "filiere invalide.")
+        idx = scan_match.get_index(json_bac_store)
+        neighbors = idx.search(body.text, filiere=f, k=8)
+        pubs = publications.load()
+
+        def published(m: str, c: str) -> Optional[dict]:
+            p = pubs.get(chapter_key(f, m, c))
+            return p if p and p.get("status") == "published" else None
+
+        base: dict[str, Any] = {"filiere_id": f, "best_score": round(neighbors[0][0], 3) if neighbors else 0.0}
+        match = scan_match.pick_match(neighbors)
+        exercise = None
+        if match:
+            score, e = match
+            m = _canon_matiere(e.get("matiere_id") or "")
+            chs = [c for c in [(e.get("chapitre") or "").strip()] if c] + sorted(_chapters_of(e))
+            chs = list(dict.fromkeys(chs))
+            pub = next((published(m, c) for c in chs if published(m, c)), None)
+            if not pub:
+                return {**base, "status": "not_published", "matiere_id": m,
+                        "chapitre": chs[0] if chs else None, "message": NOT_PUBLISHED_MESSAGE}
+            chapitre, allowed = pub["chapitre"], list(pub.get("notion_ids") or [])
+            detected = [i for i in allowed if i in (e.get("notion_ids") or [])]
+            if e.get("validated_by_admin"):
+                exercise = {
+                    "id": e.get("id"), "annee": e.get("annee"), "session": e.get("session"),
+                    "exercice_numero": e.get("exercice_numero"), "score": round(score, 3),
+                    "enonce": e.get("ennonce_complet") or "",
+                    "correction": (e.get("correction") or None) if _has_correction(e) else None,
+                }
+        else:
+            ranked = scan_match.rank_chapters(neighbors, _chapters_of)
+            if not ranked or ranked[0][2] < 0.45 or base["best_score"] < 0.2:
+                return {**base, "status": "unknown"}
+            m, chapitre, conf = ranked[0]
+            m = _canon_matiere(m)
+            pub = published(m, chapitre)
+            if not pub:
+                return {**base, "status": "not_published", "matiere_id": m, "chapitre": chapitre,
+                        "confidence": round(conf, 3), "message": NOT_PUBLISHED_MESSAGE}
+            allowed, detected = list(pub.get("notion_ids") or []), []
+
+        registry = registry_store.load()
+        if not detected:
+            keywords = {n: (registry.get(n) or {}).get("keywords") or [] for n in allowed}
+            detected = [n for n, _ in scan_match.score_notions(body.text, neighbors, allowed, keywords)]
+        data = json_bac_store.load()
+        view = build_student_view(data, registry, courses_store.load(), f, m, chapitre, detected)
+        if exercise:  # pas de doublon : l'exercice reconnu est affiché à part
+            for n in view["notions"]:
+                n["occurrences"] = [o for o in n["occurrences"] if o["id"] != exercise["id"]]
+                n["years"] = sorted({int(o["annee"]) for o in n["occurrences"] if o.get("annee")})
+        return {
+            **base,
+            "status": "matched" if exercise else "detected",
+            "matiere_id": m,
+            "chapitre": chapitre,
+            "exercise": exercise,
+            "notions": view["notions"],
+            "other_notions": [
+                {"notion_id": n, "label": (registry.get(n) or {}).get("label") or n}
+                for n in allowed if n not in detected
+            ],
+        }
 
     return admin, catalog

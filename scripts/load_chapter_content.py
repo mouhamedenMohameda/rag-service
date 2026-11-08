@@ -124,7 +124,13 @@ def main() -> int:
     # ── 1. Registry ────────────────────────────────────────────────────────
     registry = reg_store.load()
     new_reg = [n for n in notions if n["id"] not in registry]
-    print(f"1. Registry : {len(new_reg)} notion(s) à créer, {len(notions) - len(new_reg)} déjà présente(s)")
+    kw_updates = 0
+    for n in notions:
+        if n["id"] in registry and registry[n["id"]].get("keywords") != n.get("keywords", []):
+            registry[n["id"]]["keywords"] = n.get("keywords", [])
+            kw_updates += 1
+    print(f"1. Registry : {len(new_reg)} notion(s) à créer, {len(notions) - len(new_reg)} déjà présente(s)"
+          + (f", mots-clés mis à jour pour {kw_updates}" if kw_updates else ""))
     for n in new_reg:
         registry[n["id"]] = {
             "label": n["label"],
@@ -132,6 +138,7 @@ def main() -> int:
             "aliases": [],
             "chapitre": chapitre,
             "programme": n.get("programme", []),
+            "keywords": n.get("keywords", []),
         }
 
     # ── 2. Cours ───────────────────────────────────────────────────────────
@@ -278,7 +285,7 @@ def main() -> int:
     if not args.apply:
         print("\nSimulation terminée : rien n'a été écrit.")
         return 0
-    if new_reg:
+    if new_reg or kw_updates:
         reg_store.save(registry)
     if ins or rep:
         courses_store.save(courses)
