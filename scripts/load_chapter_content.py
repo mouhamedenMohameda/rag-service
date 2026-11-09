@@ -76,6 +76,10 @@ def main() -> int:
                     help="avec --corrections : remplacer une correction déjà présente (exercice non validé)")
     ap.add_argument("--clean-old", action="store_true",
                     help="avec --tag : retirer des exercices du chapitre les anciennes notions non canoniques")
+    ap.add_argument("--fill-empty-validated", choices=["keep", "draft"],
+                    help="avec --corrections : exercice VALIDÉ dont la correction est vide → écrire la correction "
+                         "(seulement si l'énoncé validé est identique au nôtre). keep = reste validé, "
+                         "draft = repasse en brouillon (caché des chapitres jusqu'à ta validation)")
     ap.add_argument("--skip-check", action="store_true",
                     help="ne pas bloquer --apply sur les erreurs du contrôle qualité (déconseillé)")
     args = ap.parse_args()
@@ -268,7 +272,27 @@ def main() -> int:
                     print(f"   ✗ {eid} : KaTeX {errs[:2]}")
                     continue
             if e.get("validated_by_admin"):
-                print(f"   = {eid} : déjà validé par l'admin — pas touché")
+                new_corr = (item.get("correction") or "").strip()
+                empty = not (e.get("correction") or "").strip()
+                if args.fill_empty_validated and empty and new_corr:
+                    same = (item.get("enonce") or "").strip() == (e.get("ennonce_complet") or "").strip()
+                    if not item.get("enonce") or same:
+                        e["correction"] = new_corr + "\n"
+                        e["note_admin"] = ((item.get("note") or "") + " Correction ajoutée (vérifiée par le contrôle "
+                                           "automatique) sur un exercice déjà validé dont la correction était vide : "
+                                           "à relire.").strip()
+                        if args.fill_empty_validated == "draft":
+                            e["validated_by_admin"] = False
+                        e["updated_at"] = now_s
+                        corr_changes += 1
+                        print(f"   + {eid} : correction ajoutée (était vide) — "
+                              + ("reste validé" if args.fill_empty_validated == "keep" else "repassé en brouillon"))
+                    else:
+                        print(f"   ✗ {eid} : validé, correction vide, MAIS l'énoncé validé diffère du nôtre — "
+                              "pas touché (à traiter à la main)")
+                    continue
+                print(f"   = {eid} : déjà validé par l'admin — pas touché"
+                      + (" ⚠ CORRECTION VIDE (voir --fill-empty-validated)" if empty and new_corr else ""))
                 continue
             what = []
             new_enonce = (item.get("enonce") or "").strip()
