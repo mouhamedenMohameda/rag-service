@@ -4,6 +4,9 @@ content/ qui définit ``ENONCES = {id: {chapitre, chapitres, enonce, note}}``.
     python scripts/load_enonces.py enonces_d_2010_2014            # simulation
     python scripts/load_enonces.py enonces_d_2010_2014 --apply    # écriture
 
+Le contrôle qualité (content_check.py) tourne d'abord ; --apply est refusé s'il
+trouve une erreur (--skip-check pour passer outre, déconseillé).
+
 Règles :
   - l'exercice doit déjà exister en base (id du squelette) ;
   - un exercice validé par l'admin n'est jamais modifié ;
@@ -35,9 +38,26 @@ def main() -> int:
     ap.add_argument("content", help="module de content/ avec ENONCES = {id: {...}}")
     ap.add_argument("--apply", action="store_true", help="écrire (sinon simulation)")
     ap.add_argument("--force", action="store_true", help="remplacer un énoncé déjà présent (exercice non validé)")
+    ap.add_argument("--skip-check", action="store_true",
+                    help="ne pas bloquer --apply sur les erreurs du contrôle qualité (déconseillé)")
     args = ap.parse_args()
 
-    enonces: dict[str, dict] = importlib.import_module(args.content).ENONCES
+    module = importlib.import_module(args.content)
+    enonces: dict[str, dict] = module.ENONCES
+
+    # Contrôle qualité (LaTeX/KaTeX, orthographe, questions, calculs, CHECKS) avant tout.
+    from content_check import check_module  # noqa: E402
+    qrep, st = check_module(module)
+    print(f"Contrôle qualité : {st['textes']} textes, {st['formules']} formules, "
+          f"{st['controles_math']} contrôles math — {len(qrep.errors)} erreur(s), {len(qrep.warnings)} avertissement(s)")
+    for e in qrep.errors[:20]:
+        print(f"  ✗ {e}")
+    for w in qrep.warnings[:10]:
+        print(f"  ⚠ {w}")
+    if qrep.errors and args.apply and not args.skip_check:
+        print("Arrêt : corrige les erreurs ci-dessus avant --apply (détail : python scripts/check_content.py).")
+        return 1
+    print()
     json_path = Path(os.environ.get("RAG_JSON_BAC", ROOT / "json_bac.json")).resolve()
     store = AdminStore(json_path=json_path, backup_dir=json_path.parent / "json_backups")
     data = store.load()

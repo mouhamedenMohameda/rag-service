@@ -1209,3 +1209,207 @@ d) Vérifier que la courbe $(C)$ admet un point d'inflexion $B$ et déterminer s
 **3.** Construire la courbe $(C)$ et la tangente $(T)$ dans le repère $(O;\vec{i},\vec{j})$.
 """, note="Retouche : en II.1c le sujet écrit « Calculer lim g(x) = +∞ et lim g(x)/x = +∞ » (valeurs données dans "
           "la consigne) ; reformulé en « Calculer lim g(x) et lim g(x)/x ».")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Contrôles mathématiques rejoués par scripts/check_content.py (voir content_check.py).
+# Chaque ligne vérifie une affirmation de l'énoncé : encadrement d'une racine,
+# dérivée « vérifier que », valeur f(α), réécriture, intégrale donnée…
+# Les erreurs du sujet original sont vérifiées dans le sens de la VÉRITÉ.
+CHECKS: dict[str, list[str]] = {
+    "bac-d-2015-sn-math-ex3": [
+        "same(D(3*x - 3 - 2*x*ln(x)), 1 - 2*ln(x))",
+        "close(D(3*x - 3 - 2*x*ln(x)).subs(x, sqrt(e)), 0)",
+        "same(3*x - 3 + D(x**2/2 - x**2*ln(x)), 3*x - 3 - 2*x*ln(x))",
+        "lim(3*x - 3 - 2*x*ln(x), 0, -3)",
+    ],
+    "bac-d-2015-sc-math-ex3": [
+        "same(D(x + 2 + (2*x - 1)*exp(x)), (2*x + 1)*exp(x) + 1)",
+        "lim((2*x - 1)*exp(x), -oo, 0)",
+        # Erreur du sujet : la racine est dans ]-0,85 ; -0,84[, pas dans ]-0,86 ; -0,85[.
+        "racine(x + 2 + (2*x - 1)*exp(x), -0.85, -0.84)",
+        "not racine(x + 2 + (2*x - 1)*exp(x), -0.86, -0.85)",
+    ],
+    "bac-d-2015-sc-math-ex4": [
+        "racine(2*x**2 + ln(x), 0.54, 0.55)",
+        "same(D(2*x - (1 + ln(x))/x), (2*x**2 + ln(x))/x**2)",
+        "en_racine(2*x**2 + ln(x), 0.54, 0.55, 2*x - (1 + ln(x))/x, (4*x**2 - 1)/x)",
+    ],
+    "bac-d-2016-sn-math-ex3": [
+        "same(D(x - 1 + x*exp(-x)), (1 - x + exp(x))/exp(x))",
+        "same(D(-(x + 1)*exp(-x)), (x - 1 + x*exp(-x)) - x + 1)",
+    ],
+    "bac-d-2016-sn-math-ex4": [
+        "racine(x**3 - 2 + 4*ln(x), 1.1, 1.2)",
+        "same(D(x - 1 - 2*ln(x)/x**2), (x**3 - 2 + 4*ln(x))/x**3)",
+        "en_racine(x**3 - 2 + 4*ln(x), 1.1, 1.2, x - 1 - 2*ln(x)/x**2, (3*x**3 - 2*x**2 - 2)/(2*x**2))",
+        "racine(x - 1 - 2*ln(x)/x**2, 1.3, 1.4)",
+        "(x - 1 - 2*ln(x)/x**2).subs(x, 1.2) < 0",
+    ],
+    "bac-d-2016-sc-math-ex3": [
+        "same(x*exp(x) - exp(x) + x - 1, (x - 1)*(exp(x) + 1))",
+        "same(x*exp(x) - exp(x) + x - 1, D(x*exp(x) - exp(x) + x - 1) - exp(x) + x - 2)",
+    ],
+    "bac-d-2016-sc-math-ex4": [
+        "racine(x - 2 - ln(x), 0.1, 0.2)",
+        "racine(x - 2 - ln(x), 3.1, 3.2)",
+        "close(exp(root_in(x - 2 - ln(x), 0.1, 0.2))/exp(root_in(x - 2 - ln(x), 3.1, 3.2)),"
+        " root_in(x - 2 - ln(x), 0.1, 0.2)/root_in(x - 2 - ln(x), 3.1, 3.2))",
+        "integ(ln(x), 1, e, 1)",
+    ],
+    "bac-d-2017-sn-math-ex3": [
+        "close(D(exp(-x) + 2*x - 2).subs(x, -ln(2)), 0)",
+        "racine(exp(-x) + 2*x - 2, -1.7, -1.6)",
+        "racine(exp(-x) + 2*x - 2, 0.7, 0.8)",
+    ],
+    "bac-d-2017-sn-math-ex4": [
+        "racine(1/x + 1 - ln(x), 3.5, 3.6)",
+        "same(D((2 - 2*x)*(ln(x) - 2)), 2*(1/x + 1 - ln(x)))",
+        "en_racine(1/x + 1 - ln(x), 3.5, 3.6, (2 - 2*x)*(ln(x) - 2), 2*(1 - x)**2/x)",
+        "racine((2 - 2*x)*(ln(x) - 2), 7.38, 7.39)",
+        "integ((2 - 2*x)*ln(x), 1, 2, -Rational(1, 2))",
+        # Erreur du sujet (4° a) : « α = 1,8 et f(α) = 2,7 » ; en réalité α ≈ 3,59 et f(α) ≈ 3,74.
+        "not racine(1/x + 1 - ln(x), 1.75, 1.85)",
+        "abs(float(((2 - 2*x)*(ln(x) - 2)).subs(x, root_in(1/x + 1 - ln(x), 3.5, 3.6))) - 3.74) < 0.01",
+    ],
+    "bac-d-2017-sc-math-ex3": [
+        "same((x + 2)*(1 + exp(-x)), x + 2 + x/exp(x) + 2/exp(x))",
+        "same(D((x + 2)*(1 + exp(-x))), 1 - (x + 1)*exp(-x))",
+    ],
+    "bac-d-2017-sc-math-ex4": [
+        "same((2*x - 1 + ln(x))/(x - 1), 2 + 1/(x - 1) + ln(x)/(x - 1))",
+        "same(D((2*x - 1 + ln(x))/(x - 1)), -(1 + x*ln(x))/(x*(x - 1)**2))",
+        "close((1 + x*ln(x)).subs(x, 1/e), 1 - 1/e)",
+        "racine((2*x - 1 + ln(x))/(x - 1), 0.6, 0.8)",
+    ],
+    "bac-d-2018-sn-math-ex4": [
+        "same((2 + x + x*ln(x))/x, 2/x + 1 + ln(x))",
+        "racine(2/x + 1 + ln(x) - x, 2, 3)",
+        "integ(ln(x), 1, e, 1)",
+    ],
+    "bac-d-2018-sn-math-ex3": [
+        "same(D(2*x - 1 + 2*x*exp(-x), 2), (2*x - 4)*exp(-x))",
+        "racine(2*x - 1 + 2*x*exp(-x), 0.2, 0.3)",
+    ],
+    "bac-d-2018-sc-math-ex3": [
+        "racine(x + 2 - exp(x), -1.9, -1.8)",
+        "racine(x + 2 - exp(x), 1.1, 1.2)",
+        "en_racine(x + 2 - exp(x), -1.9, -1.8, x + 1 - exp(x), -1)",
+        "en_racine(x + 2 - exp(x), 1.1, 1.2, x + 1 - exp(x), -1)",
+        "en_racine(x + 2 - exp(x), -1.9, -1.8, 1/(1 - exp(x)), -1/(1 + x))",
+    ],
+    "bac-d-2018-sc-math-ex4": [
+        "racine(-x + 3 - 2*ln(x), 1.8, 1.9)",
+        "same(D((x - 1 + ln(x))/x**2), (-x + 3 - 2*ln(x))/x**3)",
+        "en_racine(-x + 3 - 2*ln(x), 1.8, 1.9, (x - 1 + ln(x))/x**2, (x + 1)/(2*x**2))",
+    ],
+    "bac-d-2019-sn-math-ex4": [
+        "racine(1/x - ln(x), 1.7, 1.8)",
+        "same(D((x - 1)*(1 - ln(x))), 1/x - ln(x))",
+        "en_racine(1/x - ln(x), 1.7, 1.8, (x - 1)*(1 - ln(x)), (x - 1)**2/x)",
+        "integ((x - 1)*ln(x), 1, e, (e**2 - 3)/4)",
+    ],
+    "bac-d-2019-sc-math-ex3": [
+        "same((x + 1)**2*ln(x + 1) - (x + 1), (x + 1)*((x + 1)*ln(x + 1) - 1))",
+        "lim(((x + 1)**2*ln(x + 1) - (x + 1))/(x + 1), -1, -1, '+')",
+        "same(D((x + 1)**2*ln(x + 1) - (x + 1)), 2*(x + 1)*ln(x + 1) + x)",
+        "racine((x + 1)**2*ln(x + 1) - (x + 1), 0.7, 0.8)",
+        "en_racine((x + 1)**2*ln(x + 1) - (x + 1), 0.7, 0.8, 2*(x + 1)*ln(x + 1) + x, x + 2)",
+    ],
+    "bac-d-2019-sc-math-ex4": [
+        "same(D((2*x - 2)*(1 + exp(x)), 2), (2*x + 2)*exp(x))",
+    ],
+    "bac-d-2020-sn-math-ex3": [
+        "same(x - 2 + exp(-x), (x*exp(x) - 2*exp(x) + 1)/exp(x))",
+        "same((x - 2 + exp(-x))/x, 1 - 2/x + 1/(x*exp(x)))",
+        "same(D(x - 2 + exp(-x)), 1 - exp(-x))",
+        "racine(x - 2 + exp(-x), 1.8, 1.9)",
+        "en_racine(x - 2 + exp(-x), 1.8, 1.9, 1 - exp(-x), x - 1)",
+    ],
+    "bac-d-2020-sn-math-ex4": [
+        "lim(x - x*ln(x), 0, 0, '+')",
+        "close(1/D(x - x*ln(x)).subs(x, e), -1)",
+        "close((x - x*ln(x)).subs(x, e), 0)",
+    ],
+    "bac-d-2020-sc-math-ex3": [
+        "close(D(-3*x + 2 + exp(x)).subs(x, ln(3)), 0)",
+    ],
+    "bac-d-2020-sc-math-ex4": [
+        "close(D(x - 2 - 2*x*ln(x)).subs(x, 1/sqrt(e)), 0)",
+        "close((x - 2 - 2*x*ln(x)).subs(x, 1/sqrt(e)), 2/sqrt(e) - 2)",
+        "same(D(ln(x)/(x - 2)**2), (x - 2 - 2*x*ln(x))/(x*(x - 2)**3))",
+        "same(1/(x*(x - 2)), (1/(x - 2) - 1/x)/2)",
+        "integ(1/(x*(x - 2)), 3, 4, ln(Rational(3, 2))/2)",
+        "integ(ln(x)/(x - 2)**2, 3, 4, (-ln(4)/2 + ln(3)) + ln(Rational(3, 2))/2)",
+    ],
+    "bac-d-2021-sn-math-ex3": [
+        "same(1 + (x + 2)*exp(-x), 1 + x/exp(x) + 2/exp(x))",
+        "racine(1 + (x + 2)*exp(-x), -2.2, -2)",
+        "same(1 + (x + 2)*exp(-x), 1 + D(-(x + 3)*exp(-x)))",
+        "en_racine(1 + (x + 2)*exp(-x), -2.2, -2, exp(-x), -1/(x + 2))",
+        "close(Integral(1 + (x + 2)*exp(-x), (x, root_in(1 + (x + 2)*exp(-x), -2.2, -2), 0)).evalf(30),"
+        " (-(x + 3)**2/(x + 2)).subs(x, root_in(1 + (x + 2)*exp(-x), -2.2, -2)))",
+    ],
+    "bac-d-2021-sn-math-ex4": [
+        "same(D(x - 2 + 2*ln(x)/x), (x**2 + 2 - 2*ln(x))/x**2)",
+        "racine(x - 2 + 2*ln(x)/x, 1.47, 1.48)",
+        "close((x - 2 + 2*ln(x)/x).subs(x, 1), -1)",
+    ],
+    "bac-d-2021-sc-math-ex3": [
+        "lim((4*x**2 + 1 + 2*ln(x))/(2*x**2), oo, 2)",
+        "same(D((4*x**2 + 1 + 2*ln(x))/(2*x**2)), -2*ln(x)/x**3)",
+        "racine((4*x**2 + 1 + 2*ln(x))/(2*x**2), 0.4, 0.5)",
+    ],
+    "bac-d-2021-sc-math-ex4": [
+        "racine((2*x - 2)*exp(x) - 2, 1.2, 1.3)",
+        "same(D((2*x - 4)*(exp(x) - 1)), (2*x - 2)*exp(x) - 2)",
+        "en_racine((2*x - 2)*exp(x) - 2, 1.2, 1.3, (2*x - 4)*(exp(x) - 1), -2*(x - 2)**2/(x - 1))",
+    ],
+    "bac-d-2019-sn-math-ex3": [
+        "same(D((x - 1)*exp(2*x), 2) - 4*D((x - 1)*exp(2*x)) + 4*(x - 1)*exp(2*x), 0*x)",
+        "close(((x - 1)*exp(2*x)).subs(x, 0), -1)",
+        "close(D((x - 1)*exp(2*x)).subs(x, 0), -1)",
+        "same((x - 1)*exp(2*x) + 2*x - 2, (x - 1)*(2 + exp(2*x)))",
+        "same(D((x - 1)*(2 + exp(2*x))), 2 + (2*x - 1)*exp(2*x))",
+    ],
+    "bac-d-2022-sn-math-ex4": [
+        "same(D(-(x + 1)*exp(-x), 2) + 2*D(-(x + 1)*exp(-x)) - (x + 1)*exp(-x), 0*x)",
+        "close((-(x + 1)*exp(-x)).subs(x, 0), -1)",
+        "close((-(x + 1)*exp(-x)).subs(x, -1), 0)",
+        "same(D(-(x + 1)*exp(-x) - 1), x*exp(-x))",
+        "racine(-(x + 1)*exp(-x) - 1, -1.3, -1.2)",
+    ],
+    "bac-d-2023-sn-math-ex3": [
+        "same(D((x**2 - x - 1)*exp(-x) + 1), x*(3 - x)*exp(-x))",
+        "same(D((x**2 - x - 1)*exp(-x) + 1, 2) + 2*D((x**2 - x - 1)*exp(-x) + 1) + (x**2 - x - 1)*exp(-x) + 1,"
+        " 2*exp(-x) + 1)",
+    ],
+    "bac-d-2022-sn-math-ex5": [
+        "lim(x**2*(2*ln(x) - 1) + 1, 0, 1, '+')",
+        "same(D(x**2*(2*ln(x) - 1) + 1), 4*x*ln(x))",
+    ],
+    "bac-d-2022-sc-math-ex3": [
+        "same(D((x - 1)*exp(x) + x), x*exp(x) + 1)",
+        "lim(x*exp(x) + 1, -oo, 1)",
+    ],
+    "bac-d-2022-sc-math-ex4": [
+        "lim((x + 1 + ln(x))/x, oo, 1)",
+        "same(D((x + 1 + ln(x))/x), -ln(x)/x**2)",
+        "racine((x + 1 + ln(x))/x, 0.27, 0.28)",
+        "integ(ln(x)/x, 1, e, Rational(1, 2))",
+    ],
+    "bac-d-2023-sn-math-ex5": [
+        "racine(x**2 - 4 + 3*ln(x), 1.6, 1.7)",
+        "same(D(x - 2 + (1 - 3*ln(x))/x), (x**2 - 4 + 3*ln(x))/x**2)",
+        "en_racine(x**2 - 4 + 3*ln(x), 1.6, 1.7, x - 2 + (1 - 3*ln(x))/x, (2*x**2 - 2*x - 3)/x)",
+    ],
+    "bac-d-2024-sn-math-ex3": [
+        "racine(x - 3 + exp(x)/2, 1.2, 1.3)",
+    ],
+    "bac-d-2024-sn-math-ex5": [
+        "(2*x - 1 - ln(x)).subs(x, Rational(1, 2)) > 0",
+        "lim(x**2 - 2 - x*ln(x), 0, -2, '+')",
+        "same(D(x**2 - 2 - x*ln(x)), 2*x - 1 - ln(x))",
+        "racine(x**2 - 2 - x*ln(x), 1.7, 1.8)",
+    ],
+}

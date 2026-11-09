@@ -210,7 +210,7 @@ $z' = (1+i)(z - 1 - 3i) + 1 + 3i$, soit $\boxed{z' = (1+i)z + 3 - i}$.
 
 **4) a)** La directrice $(BC)$ est la droite $x = 1$. L'axe focal est la perpendiculaire à $(BC)$ passant par $A$ : la **droite $y = 1$**. Le sommet est le milieu de $A$ et de son projeté $(1;1)$ sur la directrice : $S(0;1)$.
 
-**c)** $M \in P \iff MA^2 = d(M,(BC))^2 \iff (x+1)^2 + (y-1)^2 = (x-1)^2$, soit
+**c)** (traitée avant b), car le tracé s'appuie sur les équations.) $M \in P \iff MA^2 = d(M,(BC))^2 \iff (x+1)^2 + (y-1)^2 = (x-1)^2$, soit
 $$P : (y - 1)^2 = -4x.$$
 
 $P' = s(P)$ est la parabole de foyer $s(A) = B$ et de directrice $s\big((BC)\big)$. Comme $s(C) = C$ et $s(B) = (1+i)(1-i) + 3 - i = 5 - i$, la directrice est la droite passant par $(1;3)$ et $(5;-1)$ : $x + y - 4 = 0$.
@@ -1059,4 +1059,11 @@ $$\frac{(x - 2)^2}{9} + \frac{y^2}{16} = 1.$$
 $G$ est sur l'ellipse de centre $(2;0)$, grand axe vertical : $a = 4$, $b = 3$, $c = \sqrt{7}$, $e = \dfrac{\sqrt{7}}{4}$. (Comme $\cos\alpha > 0$, $G$ décrit la demi-ellipse $x > 2$.)
 """,
     },
+}
+
+
+# Avertissements du contrôle (scripts/check_content.py) relus à la main et acceptés.
+ACCEPTED: dict[str, list[str]] = {
+    # 4 c) est traitée avant 4 b) : le tracé de P et P' utilise leurs équations (dit dans la correction).
+    "bac-c-2016-sc-math-ex1": ["sous-questions ['a', 'c', 'b']"],
 }

@@ -50,7 +50,7 @@ Recopie sur la feuille et complète le tableau suivant en choisissant la bonne r
 | Question | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | Réponse | | | | | | |
-""")
+""", note="Question 6 : l'espérance exacte est E(X) = 6 × 4/7 = 24/7 ≈ 3,43, qui ne figure pas parmi les réponses ; le corrigé officiel retient B (3), l'entier le plus proche. La correction doit le dire.")
 
 _add("bac-d-2011-sn-math-ex2", "Nombres complexes", r"""
 **Exercice 2 (5 points)**
@@ -169,7 +169,10 @@ Recopie sur la feuille et complète le tableau suivant en choisissant la bonne r
 | Question | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | Réponse | | | | | | |
-""", ["Probabilités"], note="Le sujet numérote 1 et 2 les questions de la partie 2) ; renumérotées 5 et 6 pour correspondre au tableau réponse.")
+""", ["Probabilités"], note="Le sujet numérote 1 et 2 les questions de la partie 2) ; renumérotées 5 et 6 pour correspondre au tableau réponse. "
+     "Q5 : p(X ≥ 75) = 16/20 = 4/5 n'est pas proposé ; 3/4 = p(X ≤ 75) (le corrigé officiel retient C). "
+     "Q6 : E(X) = 1500,1/20 = 75,005 n'est pas proposé (le corrigé officiel retient A, 75,001). "
+     "Le corrigé officiel donne aussi A à Q2 et C à Q4 : c'est faux (asymptote y = 5 → B ; f croissante sur ℝ → A).")
 
 _add("bac-d-2011-sc-math-ex2", "Nombres complexes", r"""
 **Exercice 2 (4 points)**
@@ -1162,3 +1165,228 @@ b) Soit $n$ un entier naturel, $n \ge 1$, et $U_n$ l'aire du domaine plan limit�
 
 c) Calculer et interpréter graphiquement $\lim\limits_{n \to +\infty} U_n$.
 """, ["Suites numériques"], replace_ocr=True)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Contrôles mathématiques rejoués par scripts/check_content.py (voir content_check.py).
+# Chaque ligne vérifie une affirmation de l'énoncé (racine encadrée, dérivée donnée,
+# f(α), primitive, intégrale…). Erreurs du sujet : vérifiées dans le sens de la vérité.
+CHECKS: dict[str, list[str]] = {
+    # ── QCM : une seule bonne réponse par question (sinon le défaut est documenté en note) ──
+    "bac-d-2011-sn-math-ex1": [
+        "une_seule(Rational(3, 7), [Rational(3, 7), binomial(7, 3), ff(7, 3)], 'A')",
+        "une_seule(Rational(4, 7), [Rational(1, 2), Rational(4, 3), Rational(4, 7)], 'C')",
+        "une_seule(binomial(6, 5)*Rational(3, 7)**5*Rational(4, 7),"
+        " [Rational(3, 7)**5, binomial(6, 5)*Rational(3, 7)**5*Rational(4, 7), Rational(4, 7)**5*Rational(3, 7)], 'B')",
+        "une_seule(1 - Rational(3, 7)**6, [1 - Rational(3, 7)**6, 1 - Rational(4, 7)**5, Rational(4, 7)], 'A')",
+        # Q6 : E(X) = 24/7 n'est pas proposé (noté) ; B = 3 est l'entier le plus proche.
+        "nb_egaux(6*Rational(4, 7), [2, 3, 4]) == 0",
+        "min([2, 3, 4], key=lambda o: abs(Rational(24, 7) - o)) == 3",
+    ],
+    "bac-d-2011-sc-math-ex1": [
+        # f(4 - x) + f(x) = 8 : centre Ω(2 ; 4) ; lim en -oo = 8 - 5 = 3.
+        "8 - 5 == 3",
+        # Q5 et Q6 : aucune réponse exacte (noté) ; 3/4 = p(X ≤ 75).
+        "nb_egaux(Rational(16, 20), [Rational(1, 20), Rational(1, 5), Rational(3, 4)]) == 0",
+        "close(Rational(1 + 3 + 11, 20), Rational(3, 4))",
+        "close((Rational(748, 10)*1 + Rational(749, 10)*3 + 75*11 + Rational(751, 10)*4 + Rational(752, 10)*1)/20,"
+        " Rational(75005, 1000))",
+        "nb_egaux(Rational(75005, 1000), [Rational(75001, 1000), 75, Rational(7499, 100)]) == 0",
+    ],
+    "bac-d-2012-sn-math-ex1": [
+        "une_seule(0.2 + 0.3 - 0.1, [0.9, 0.4, 0.6], 'B')",
+        "une_seule(1 - 0.4, [0.8, 0.6, 0.5], 'B')",
+        "une_seule(0.4 - 0.1, [0.3, 0.4, 0.6], 'A')",
+        "une_seule((0.3 - 0.1)/0.3, [Rational(1, 2), Rational(2, 3), Rational(1, 3)], 'B')",
+        "une_seule(0.2 + 0.3, [0.8, 0.6, 0.5], 'C')",
+    ],
+    "bac-d-2012-sc-math-ex1": [
+        "all(1 + 3**k == (2 if k == 0 else 3*(1 + 3**(k - 1)) - 2) for k in range(8))",
+        "all(sum(1 + 3**j for j in range(k + 1)) == k + Rational(1, 2) + Rational(3**(k + 1), 2) for k in range(8))",
+        "all(sum(1 + 3**j for j in range(k + 1)) != Rational(1 + 3**(k + 1), 2) for k in range(1, 8))",
+    ],
+    "bac-d-2013-sn-math-ex1": [
+        "binomial(6, 2) == 15",
+        "une_seule(Rational(binomial(4, 2), 15), [Rational(4, 6), Rational(6, 15), Rational(4, 6)**2], 'B')",
+        "une_seule(Rational(4*2, 15), [Rational(8, 15), Rational(1, 6), Rational(2, 6)], 'A')",
+        "une_seule(Rational(1, 15), [Rational(4, 6), Rational(6, 15), Rational(1, 15)], 'C')",
+        "une_seule(Rational(8, 15) + 2*Rational(1, 15), [Rational(2, 3), Rational(16, 15), 4], 'A')",
+    ],
+    "bac-d-2013-sc-math-ex1": [
+        "une_seule(15 + 3*10, [153, 13, 45], 'C')",
+        "[k for k in range(300) if sum(15 + 3*j for j in range(k + 1)) == 204] == [7]",
+    ],
+    "bac-d-2014-sn-math-ex1": [
+        # 6 pigeons : couples blancs (MB1, FB1), (MB2, FB2) ; femelles grises FG1, FG2.
+        "une_seule(Rational(1, 15), [Rational(4, 15), Rational(1, 15), Rational(2, 15)], 'B')",
+        "une_seule(Rational(binomial(4, 2) + 1, 15), [Rational(1, 15), Rational(7, 15), Rational(8, 15)], 'B')",
+        "une_seule(Rational(binomial(4, 2) + 1, 15), [Rational(2, 15), Rational(8, 15), Rational(7, 15)], 'C')",
+        "une_seule(Rational(3, 7), [Rational(1, 3), Rational(3, 7), Rational(7, 15)], 'B')",
+    ],
+    "bac-d-2014-sc-math-ex1": [
+        "une_seule(Rational(1, 4)**8, [Rational(1, 4)*8, Rational(1, 4)**8, Rational(1, 8)**8], 'B')",
+        "une_seule(Rational(3, 4)**8, [1 - Rational(1, 4)**8, Rational(3, 4)**8, 1 - Rational(7, 8)**8], 'B')",
+        "une_seule(1 - Rational(3, 4)**8, [1 - Rational(1, 4)**8, Rational(1, 4)*Rational(3, 4)**7, 1 - Rational(3, 4)**8], 'C')",
+        "une_seule(binomial(8, 2)*Rational(1, 4)**2*Rational(3, 4)**6,"
+        " [binomial(8, 2)*Rational(1, 4)**2*Rational(3, 4)**6, Rational(1, 4)**2, 1 - Rational(3, 4)**6], 'A')",
+        "une_seule(8*Rational(1, 4), [8, 6, 2], 'C')",
+    ],
+    "bac-d-2010-sc-math-ex1": [
+        "une_seule(17 + 5*3, [34, 32, 85], 'B')",
+        "[k for k in range(100) if sum(Rational(11, 2) + 10*j for j in range(k + 1)) == 2010] == [19]",
+        "all(sum(2**j for j in range(k + 1)) == 2**(k + 1) - 1 for k in range(10))",
+        "abs(N(Rational((-1)**200, (-1)**200 + 200**2))) < 1e-4",
+        "[10**k/factorial(k) < 10**(k + 1)/factorial(k + 1) for k in range(1, 12)].count(True) not in (0, 11)",
+    ],
+    # ── Complexes : racines, valeurs calculées dans l'énoncé ──
+    "bac-d-2011-sn-math-ex2": [
+        "expand((z - 1)*(z**2 - 4*z + 8)) == expand(z**3 - 5*z**2 + 12*z - 8)",
+        "simplify((2 + 2*I)/(2 - 2*I)) == I",
+    ],
+    "bac-d-2011-sc-math-ex2": [
+        "expand((1 + I)**2 - 2*(1 + I)) == -2",
+        "expand((1 + sqrt(3)*I)**2 - 2*(1 + sqrt(3)*I)) == -4",
+        "close(cos(7*pi/12), (sqrt(2) - sqrt(6))/4) and close(sin(7*pi/12), (sqrt(6) + sqrt(2))/4)",
+    ],
+    "bac-d-2012-sn-math-ex2": [
+        "set(solve(z**2 - 4*z + 5, z)) == {2 + I, 2 - I}",
+        "close((3 - I - 2 - I)/(3 - I - 1 + 2*I), (1 - 2*I)/(2 + I))",
+    ],
+    "bac-d-2012-sc-math-ex2": [
+        "set(solve(z**2 - 2*z + 5, z)) == {1 + 2*I, 1 - 2*I}",
+    ],
+    "bac-d-2013-sn-math-ex2": [
+        "set(solve(z**2 + 2*z + 10, z)) == {-1 + 3*I, -1 - 3*I}",
+        "set(solve(z**2 - 4*z + 20, z)) == {2 + 4*I, 2 - 4*I}",
+    ],
+    "bac-d-2013-sc-math-ex2": [
+        "set(solve(z**2 - 6*z + 18, z)) == {3 + 3*I, 3 - 3*I}",
+        "set(solve(z**2 - 2*sqrt(3)*z + 4, z)) == {sqrt(3) + I, sqrt(3) - I}",
+        "close(cos(pi/12), (sqrt(6) + sqrt(2))/4) and close(sin(pi/12), (sqrt(6) - sqrt(2))/4)",
+    ],
+    "bac-d-2014-sn-math-ex2": [
+        "set(solve(z**2 - 2*z + 17, z)) == {1 + 4*I, 1 - 4*I}",
+        "set(solve(z**2 + 8*z + 17, z)) == {-4 + I, -4 - I}",
+        "close((-1 + 4*I - 1 + 4*I)/(-1 + 4*I + 4 + I), (-2 + 8*I)/(3 + 5*I))",
+    ],
+    "bac-d-2014-sc-math-ex2": [
+        "simplify((-1 + 7*I)/(3 + 4*I)) == 1 + I",
+        "expand((1 + I)**2) == 2*I",
+        "simplify((4 - 8*I)/(1 + 3*I)) == -2 - 2*I",
+        "set(solve(z**2 + 2*z + 10, z)) == {-1 + 3*I, -1 - 3*I}",
+    ],
+    "bac-d-2010-sn-math-ex2": [
+        "expand((z - 3)*(z**2 + 2*z + 2)) == expand(z**3 - z**2 - 4*z - 6)",
+        "close(((3 + 2*I) + (-1 - I))/2, ((-1 + I) + 3)/2)",
+    ],
+    "bac-d-2010-sc-math-ex2": [
+        "set(solve(z**2 - 4*z + 13, z)) == {2 + 3*I, 2 - 3*I}",
+    ],
+    # ── Suites ──
+    "bac-d-2011-sc-math-ex3": [
+        "all(Rational((k + 1)**2, 2**(k + 1))/Rational(k**2, 2**k) == Rational(1, 2)*Rational(k + 1, k)**2 for k in range(1, 9))",
+        "all(Rational(1, 2)*((k + 1)/Integer(k))**2 <= Rational(3, 4) for k in range(5, 40))",
+        "Rational(5**2, 2**5) == Rational(25, 32)",
+    ],
+    "bac-d-2013-sn-math-ex3": [
+        "[2*3**k - 5*k + 4 for k in range(4)] == [6, 3*6 + 0 - 13, 3*(3*6 - 13) + 10 - 13, 43]",
+        "all(2*3**(k + 1) - 5*(k + 1) + 4 == 3*(2*3**k - 5*k + 4) + 10*k - 13 for k in range(10))",
+    ],
+    "bac-d-2010-sn-math-ex3": [
+        "all(Rational(k**2 + k + 1, k*(k + 1)) == Rational((k + 1)**2 - 1, k + 1) - Rational(k**2 - 1, k) for k in range(1, 10))",
+        "all(simplify(sum(log((j**2 - 1)/Integer(j)) for j in range(2, k + 1)) - log(factorial(k + 1)/(2*Integer(k)))) == 0"
+        " for k in range(2, 8))",
+    ],
+    "bac-d-2011-sn-math-ex3": [
+        "same(D((x + 2)*exp(x)), (x + 2)*exp(x) + exp(x))",
+    ],
+    "bac-d-2011-sn-math-ex4": [
+        "close((x**2 - ln(x)).subs(x, 1/sqrt(2)), (1 + ln(2))/2)",
+        "same(D(x - 1 + (1 + ln(x))/x), (x**2 - ln(x))/x**2)",
+        "racine(x - 1 + (1 + ln(x))/x, 1/e, 0.5)",
+        "lim(x - 1 + (1 + ln(x))/x - (x - 1), oo, 0)",
+    ],
+    "bac-d-2011-sc-math-ex4": [
+        "racine(2*x - 1 + ln(x), 0.6, 0.7)",
+        "solve(Eq(D(2*x - 1 + ln(x)), 3), x) == [1]",
+    ],
+    "bac-d-2012-sn-math-ex3": [
+        "racine(exp(-2*x - 1) + 3*x - 1, -1.3, -1.2)",
+        "racine(exp(-2*x - 1) + 3*x - 1, 0.2, 0.3)",
+    ],
+    "bac-d-2012-sn-math-ex4": [
+        "close(D((2*x + 1)/(x + 1) - ln(x + 1)).subs(x, 0), 0)",
+        "close(D((2*x + 1)/(x + 1) - ln(x + 1), 2).subs(x, 1), 0)",
+        "racine((2*x + 1)/(x + 1) - ln(x + 1), -0.7, -0.6)",
+        "racine((2*x + 1)/(x + 1) - ln(x + 1), 5.3, 5.4)",
+        "same(D(3*x - (x + 2)*ln(x + 1)), (2*x + 1)/(x + 1) - ln(x + 1))",
+    ],
+    "bac-d-2012-sc-math-ex3": [
+        "racine(x - 2 - 2*ln(x), 0.4, 0.5)",
+        "racine(x - 2 - 2*ln(x), 5.3, 5.4)",
+        "close((x**2).subs(x, root_in(x - 2 - 2*ln(x), 0.4, 0.5))*exp(root_in(x - 2 - 2*ln(x), 5.3, 5.4)),"
+        " (x**2).subs(x, root_in(x - 2 - 2*ln(x), 5.3, 5.4))*exp(root_in(x - 2 - 2*ln(x), 0.4, 0.5)), 1e-6)",
+        "integ(ln(x), 1, 2, 2*ln(2) - 1)",
+    ],
+    "bac-d-2012-sc-math-ex4": [
+        "racine(x*exp(x) - 1, 0.5, 0.6)",
+        "lim((exp(x) - x)/(x + 1), -oo, -1)",
+        "same(D((exp(x) - x)/(x + 1)), (x*exp(x) - 1)/(x + 1)**2)",
+        "en_racine(x*exp(x) - 1, 0.5, 0.6, (exp(x) - x)/(x + 1), (1 - x**2)/(x**2 + x))",
+    ],
+    "bac-d-2013-sn-math-ex4": [
+        "racine(x**3 - 3 + 2*ln(x), 1.34, 1.35)",
+        "same(D(x - 2 + (1 - ln(x))/x**2), (x**3 - 3 + 2*ln(x))/x**3)",
+        "en_racine(x**3 - 3 + 2*ln(x), 1.34, 1.35, x - 2 + (1 - ln(x))/x**2, (3*x**3 - 4*x**2 - 1)/(2*x**2))",
+        "lim(x - 2 + (1 - ln(x))/x**2 - (x - 2), oo, 0)",
+        # Note : le sujet donnait g(x) = x² − 3 + 2 ln x ; avec x³ tout est cohérent (f' = g/x³).
+    ],
+    "bac-d-2013-sc-math-ex3": [
+        "racine(x - 2 + ln(x + 1), 1.2, 1.3)",
+        "same(x - 2 + ln(x + 1), D((x + 1)*ln(x + 1)) + x - 3)",
+    ],
+    "bac-d-2013-sc-math-ex4": [
+        "lim((2*x + 3)*exp(x + 1) + 1, -oo, 1)",
+        "same(D(x - 3 + (2*x + 1)*exp(x + 1)), (2*x + 3)*exp(x + 1) + 1)",
+        "racine(x - 3 + (2*x + 1)*exp(x + 1), 0, 0.1)",
+        "en_racine(x - 3 + (2*x + 1)*exp(x + 1), 0, 0.1, ln((3 - x)/(2*x + 1)) - x, 1)",
+        "solve(Eq(D(x - 3 + (2*x + 1)*exp(x + 1)), 1), x) == [-Rational(3, 2)]",
+    ],
+    "bac-d-2014-sn-math-ex3": [
+        "racine(2*x - 1 + 2*exp(x), -0.3, -0.2)",
+        "en_racine(2*x - 1 + 2*exp(x), -0.3, -0.2, 1/(2 + 2*exp(x)), 1/(-2*x + 3))",
+    ],
+    "bac-d-2014-sn-math-ex4": [
+        "racine(x - 3 + 3*ln(x), 1.59, 1.60)",
+        "same((x - 3)*ln(x)/x, ln(x) - 3*ln(x)/x)",
+        "same(D((x - 3)*ln(x)/x), (x - 3 + 3*ln(x))/x**2)",
+        "en_racine(x - 3 + 3*ln(x), 1.59, 1.60, (x - 3)*ln(x)/x, -(x - 3)**2/(3*x))",
+        "integ(ln(x)/x, 1, e, Rational(1, 2))",
+        "integ(ln(x), 1, e, 1)",
+        "((x - 3)*ln(x)/x).subs(x, 2) < 0",
+    ],
+    "bac-d-2014-sc-math-ex3": [
+        "same(D((x**2 + 2*x + 1)*exp(x)), (x + 1)*(x + 3)*exp(x))",
+        "same(D((x**2 + 1)*exp(x)), (x**2 + 2*x + 1)*exp(x))",
+    ],
+    "bac-d-2014-sc-math-ex4": [
+        "racine(2 - x - ln(x), 1.55, 1.56)",
+        "same((1 - 1/x)*(1 - ln(x)), 1 - ln(x) - 1/x + ln(x)/x)",
+        "same(D((1 - 1/x)*(1 - ln(x))), (2 - x - ln(x))/x**2)",
+        "en_racine(2 - x - ln(x), 1.55, 1.56, (1 - 1/x)*(1 - ln(x)), (x - 1)**2/x)",
+    ],
+    "bac-d-2010-sn-math-ex4": [
+        "racine(x + 2 + exp(x), -2.5, -2)",
+        "close(Integral(x + 2 + exp(x), (x, root_in(x + 2 + exp(x), -2.5, -2), 0)).evalf(30),"
+        " ((6 - 2*x - x**2)/2).subs(x, root_in(x + 2 + exp(x), -2.5, -2)))",
+        "en_racine(x + 2 + exp(x), -2.5, -2, 1/(1 + exp(x)), -1/(x + 1))",
+    ],
+    "bac-d-2010-sc-math-ex3": [
+        "same(D(1/x + ln(x)), (x - 1)/x**2)",
+        "integ(ln(x), 1, e, 1)",
+    ],
+    "bac-d-2010-sc-math-ex4": [
+        "same(D(exp(x)/(exp(x) - 1)), -(exp(x)/(exp(x) - 1))/(exp(x) - 1))",
+        "same(D(ln(exp(x) - 1)), exp(x)/(exp(x) - 1), (0.3, 0.9, 1.7, 2.5))",
+    ],
+}

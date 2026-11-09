@@ -258,7 +258,9 @@ e) Vérifier que les trois ensembles $\Gamma_1$, $\Gamma_2$ et $\Gamma_3$ passen
 
 **c)** $z^2 - 2\sqrt{2}\,z + 4 = 0$ : $\Delta' = 2 - 4 = -2 = (i\sqrt{2})^2$, d'où $z = \sqrt{2} \pm i\sqrt{2}$. Solutions : $2\sqrt{2}$, $\sqrt{2} + i\sqrt{2}$ et $\sqrt{2} - i\sqrt{2}$.
 
-**2) b)** $\dfrac{z_C - z_B}{z_A - z_B} = \dfrac{-\sqrt{2} + i\sqrt{2}}{-\sqrt{2} - i\sqrt{2}} = \dfrac{-1 + i}{-1 - i} = -i$. Donc $BC = BA$ et $(\overrightarrow{BA}, \overrightarrow{BC}) \equiv -\dfrac{\pi}{2} \ [2\pi]$ : $ABC$ est **rectangle isocèle en $B$**.
+**2) a)** On place $A(\sqrt{2};-\sqrt{2})$, $B(2\sqrt{2};0)$ et $C(\sqrt{2};\sqrt{2})$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\dfrac{z_C - z_B}{z_A - z_B} = \dfrac{-\sqrt{2} + i\sqrt{2}}{-\sqrt{2} - i\sqrt{2}} = \dfrac{-1 + i}{-1 - i} = -i$. Donc $BC = BA$ et $(\overrightarrow{BA}, \overrightarrow{BC}) \equiv -\dfrac{\pi}{2} \ [2\pi]$ : $ABC$ est **rectangle isocèle en $B$**.
 
 $z_A + z_C = 2\sqrt{2} = z_O + z_B$ : les diagonales $[AC]$ et $[OB]$ ont le même milieu, donc $OABC$ est un parallélogramme. Il a un angle droit en $B$ et deux côtés consécutifs égaux ($BA = BC = 2$) : $OABC$ est un **carré**.
 
@@ -314,7 +316,9 @@ b) Déterminer la plus petite valeur de l'entier $n$ telle que $|z_n| \geq 2017$
 
 **c)** $z^2 - 8z + 20 = 0$ : $\Delta' = 16 - 20 = -4 = (2i)^2$, d'où $z = 4 \pm 2i$. Solutions : $2$, $4 - 2i$ et $4 + 2i$.
 
-**2) b)** $\dfrac{z_C - z_B}{z_A - z_B} = \dfrac{2 + 2i}{2 - 2i} = \dfrac{(1 + i)^2}{2} = i$ : $BC = BA$ et $(\overrightarrow{BA}, \overrightarrow{BC}) \equiv \dfrac{\pi}{2} \ [2\pi]$. $ABC$ est **rectangle isocèle en $B$**.
+**2) a)** On place $A(4;-2)$, $B(2;0)$ et $C(4;2)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\dfrac{z_C - z_B}{z_A - z_B} = \dfrac{2 + 2i}{2 - 2i} = \dfrac{(1 + i)^2}{2} = i$ : $BC = BA$ et $(\overrightarrow{BA}, \overrightarrow{BC}) \equiv \dfrac{\pi}{2} \ [2\pi]$. $ABC$ est **rectangle isocèle en $B$**.
 
 **c)** $\overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = 6$. ($ABCD$ est même un carré.)
 
@@ -364,6 +368,8 @@ d) Déterminer et construire l'ensemble $\Gamma_3$ des points $M$ d'affixe $z$ t
 $|z_C| = \dfrac{(3\sqrt{2})^3}{(\sqrt{2})^5} = \dfrac{54\sqrt{2}}{4\sqrt{2}} = \dfrac{27}{2}$ et $\arg z_C \equiv 3 \times \dfrac{3\pi}{4} - 5 \times \dfrac{\pi}{4} = \pi \ [2\pi]$.
 
 Donc $z_C = \dfrac{27}{2}(\cos\pi + i\sin\pi)$, c'est-à-dire $z_C = -\dfrac{27}{2}$.
+
+**b)** On place $A(1;1)$ et $B(-3;3)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
 
 **c)** $\dfrac{z_B}{z_A} = \dfrac{(-3 + 3i)(1 - i)}{2} = \dfrac{-3 + 3i + 3i + 3}{2} = 3i$.
 
@@ -420,7 +426,9 @@ c) Calculer la limite de $(v_n)$ et exprimer en fonction de $n$ la somme $S_n = 
 
 **d)** $z^2 - (3 + i)z + 4 = 0$ : $\Delta = (3 + i)^2 - 16 = -8 + 6i = (1 + 3i)^2$. Donc $z = \dfrac{3 + i \pm (1 + 3i)}{2}$, soit $2 + 2i$ ou $1 - i$. Solutions : $i$, $1 - i$ et $2 + 2i$.
 
-**2) b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{2 + i}{1 - 2i} = \dfrac{i(1 - 2i)}{1 - 2i} = i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv \dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
+**2) a)** On place $A(0;1)$, $B(1;-1)$ et $C(2;2)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{2 + i}{1 - 2i} = \dfrac{i(1 - 2i)}{1 - 2i} = i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv \dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
 
 **c)** $\overrightarrow{AB} = \overrightarrow{CD} \iff z_D = z_B + z_C - z_A = 3$. ($ABDC$ est même un carré.)
 
@@ -474,7 +482,9 @@ b) En déduire que $(u_n)$ est une suite géométrique et montrer que $u_0 + u_1
 
 **d)** $z^2 - 4z + 7 + 4i = 0$ : $\Delta = 16 - 28 - 16i = -12 - 16i = (2 - 4i)^2$. Donc $z = \dfrac{4 \pm (2 - 4i)}{2}$, soit $3 - 2i$ ou $1 + 2i$. Solutions : $-i$, $1 + 2i$ et $3 - 2i$.
 
-**2) b)** $ABCD$ parallélogramme $\iff \overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = 1 + 2i + 3 - 2i + i = 4 + i$.
+**2) a)** On place $A(1;2)$, $B(0;-1)$ et $C(3;-2)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $ABCD$ parallélogramme $\iff \overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = 1 + 2i + 3 - 2i + i = 4 + i$.
 
 **c)** $\dfrac{z_D - z_C}{z_D - z_A} = \dfrac{1 + 3i}{3 - i} = \dfrac{(1 + 3i)(3 + i)}{10} = \dfrac{10i}{10} = i$.
 
@@ -525,7 +535,9 @@ b) Déterminer la longueur du segment $[OM_{2019}]$, où $M_{2019}$ est le point
 
 **b)** $\Delta = (3 - 6i)^2 + 4(6 + 10i) = 9 - 36i - 36 + 24 + 40i = -3 + 4i = (1 + 2i)^2$. Donc $z = \dfrac{-3 + 6i \pm (1 + 2i)}{2}$ : $z = -1 + 4i$ ou $z = -2 + 2i$.
 
-**2) b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{1 + 2i}{2 - i} = \dfrac{i(2 - i)}{2 - i} = i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv \dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
+**2) a)** On place $A(-2;2)$, $B(0;1)$ et $C(-1;4)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{1 + 2i}{2 - i} = \dfrac{i(2 - i)}{2 - i} = i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv \dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
 
 **c)** $\overrightarrow{AB} = \overrightarrow{CD} \iff z_D = z_B + z_C - z_A = 1 + 3i$.
 
@@ -640,7 +652,9 @@ c) Vérifier que le point d'affixe $z_{2020}$ appartient à l'axe des abscisses.
 
 **c)** $z^2 - (7 + 5i)z + 8 + 16i = 0$ : $\Delta = (7 + 5i)^2 - 4(8 + 16i) = 24 + 70i - 32 - 64i = -8 + 6i = (1 + 3i)^2$. Donc $z = \dfrac{7 + 5i \pm (1 + 3i)}{2}$, soit $4 + 4i$ ou $3 + i$. Solutions : $2i$, $3 + i$ et $4 + 4i$.
 
-**2) b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{1 + 3i}{-3 + i} = \dfrac{(1 + 3i)(-3 - i)}{10} = \dfrac{-10i}{10} = -i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv -\dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
+**2) a)** On place $A(3;1)$, $B(0;2)$ et $C(4;4)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\dfrac{z_C - z_A}{z_B - z_A} = \dfrac{1 + 3i}{-3 + i} = \dfrac{(1 + 3i)(-3 - i)}{10} = \dfrac{-10i}{10} = -i$ : $AC = AB$ et $(\overrightarrow{AB}, \overrightarrow{AC}) \equiv -\dfrac{\pi}{2}$. $ABC$ est **rectangle isocèle en $A$**.
 
 **c)** $\overrightarrow{AB} = \overrightarrow{CD} \iff z_D = z_B + z_C - z_A = 1 + 5i$.
 
@@ -795,7 +809,9 @@ $(z - 1)(z^2 + az + b) = z^3 + (a - 1)z^2 + (b - a)z - b$. Par identification : 
 
 **c)** $z^2 - (4 + 4i)z - 3 + 12i = 0$ : $\Delta = (4 + 4i)^2 - 4(-3 + 12i) = 32i + 12 - 48i = 12 - 16i = (4 - 2i)^2$. Donc $z = \dfrac{4 + 4i \pm (4 - 2i)}{2}$, soit $4 + i$ ou $3i$. Solutions : $1$, $3i$ et $4 + i$.
 
-**2) b)** $\overrightarrow{AB} = \overrightarrow{CD} \iff z_D = z_B + z_C - z_A = 3 + 4i$.
+**2) a)** On place $A(1;0)$, $B(0;3)$ et $C(4;1)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\overrightarrow{AB} = \overrightarrow{CD} \iff z_D = z_B + z_C - z_A = 3 + 4i$.
 
 **3) a)** $f(1) = \dfrac{1 - 3i}{-3 - i} = \dfrac{(1 - 3i)(-3 + i)}{10} = \dfrac{10i}{10} = i$.
 
@@ -840,7 +856,9 @@ $(z - 2i)(z^2 + az + b) = z^3 + (a - 2i)z^2 + (b - 2ia)z - 2ib$. Par identificat
 
 **c)** $z^2 - 2z - 2 + 4i = 0$ : $\Delta = 4 + 8 - 16i = 12 - 16i = (4 - 2i)^2$. Donc $z = \dfrac{2 \pm (4 - 2i)}{2}$, soit $3 - i$ ou $-1 + i$. Solutions : $2i$, $3 - i$ et $-1 + i$.
 
-**2) b)** $\overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = -1 + i + 3 - i - 2i = 2 - 2i$.
+**2) a)** On place $A(-1;1)$, $B(0;2)$ et $C(3;-1)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = -1 + i + 3 - i - 2i = 2 - 2i$.
 
 **c)** $z_A = \sqrt{2}\,e^{i\frac{3\pi}{4}}$ et $z_B = 2e^{i\frac{\pi}{2}}$.
 
@@ -889,7 +907,9 @@ $(z - i)(z^2 + az + b) = z^3 + (a - i)z^2 + (b - ia)z - ib$. Par identification 
 
 **c)** $z^2 - 4z + 7 - 4i = 0$ : $\Delta = 16 - 28 + 16i = -12 + 16i = (2 + 4i)^2$. Donc $z = \dfrac{4 \pm (2 + 4i)}{2}$, soit $3 + 2i$ ou $1 - 2i$. Solutions : $i$, $1 - 2i$ et $3 + 2i$.
 
-**2) b)** $\overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = 1 - 2i + 3 + 2i - i = 4 - i$.
+**2) a)** On place $A(1;-2)$, $B(0;1)$ et $C(3;2)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $\overrightarrow{AB} = \overrightarrow{DC} \iff z_D = z_A + z_C - z_B = 1 - 2i + 3 + 2i - i = 4 - i$.
 
 **c)** $\dfrac{z_C - z_B}{z_A - z_B} = \dfrac{3 + i}{1 - 3i} = \dfrac{(3 + i)(1 + 3i)}{10} = \dfrac{10i}{10} = i = \cos\dfrac{\pi}{2} + i\sin\dfrac{\pi}{2}$.
 
@@ -936,7 +956,9 @@ b) Déterminer et construire l'ensemble $\Gamma$ des points $M$ d'affixe $z$ tel
 
 **c)** $z^2 - (4 + 4i)z - 3 + 12i = 0$ : $\Delta = (4 + 4i)^2 + 12 - 48i = 12 - 16i = (4 - 2i)^2$. Donc $z = \dfrac{4 + 4i \pm (4 - 2i)}{2}$, soit $4 + i$ ou $3i$. Solutions : $1$, $3i$ et $4 + i$.
 
-**2) b)** $z_I = \dfrac{z_A + z_C}{2} = \dfrac{4 + 4i}{2} = 2 + 2i = 2\sqrt{2}\left(\cos\dfrac{\pi}{4} + i\sin\dfrac{\pi}{4}\right)$.
+**2) a)** On place $A(0;3)$, $B(1;0)$ et $C(4;1)$ : l'abscisse est la partie réelle de l'affixe, l'ordonnée sa partie imaginaire.
+
+**b)** $z_I = \dfrac{z_A + z_C}{2} = \dfrac{4 + 4i}{2} = 2 + 2i = 2\sqrt{2}\left(\cos\dfrac{\pi}{4} + i\sin\dfrac{\pi}{4}\right)$.
 
 **c)** $|z_I|^n = (2\sqrt{2})^n = 2^{3n/2}$. $(2\sqrt{2})^7 = 2^{10.5} \approx 1448 < 2024$ et $(2\sqrt{2})^8 = 2^{12} = 4096 \geq 2024$ : $n = 8$.
 

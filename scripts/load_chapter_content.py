@@ -76,6 +76,8 @@ def main() -> int:
                     help="avec --corrections : remplacer une correction déjà présente (exercice non validé)")
     ap.add_argument("--clean-old", action="store_true",
                     help="avec --tag : retirer des exercices du chapitre les anciennes notions non canoniques")
+    ap.add_argument("--skip-check", action="store_true",
+                    help="ne pas bloquer --apply sur les erreurs du contrôle qualité (déconseillé)")
     args = ap.parse_args()
 
     c = load_content(args.content)
@@ -119,6 +121,25 @@ def main() -> int:
     print(f"Cours : {len(notions) - bad_katex}/{len(notions)} valides\n")
     if bad_katex and args.apply:
         print("Arrêt : corrige les cours invalides avant --apply.")
+        return 1
+
+    # Contrôle qualité complet (LaTeX rendu par KaTeX, orthographe, questions,
+    # calculs, contrôles math) — voir content_check.py / scripts/check_content.py.
+    from content_check import check_module  # noqa: E402
+    to_check = [(args.content, c)] + ([(args.corrections, load_content(args.corrections))] if args.corrections else [])
+    n_err = 0
+    for name, mod in to_check:
+        qrep, st = check_module(mod)
+        n_err += len(qrep.errors)
+        print(f"Contrôle {name} : {st['textes']} textes, {st['formules']} formules — "
+              f"{len(qrep.errors)} erreur(s), {len(qrep.warnings)} avertissement(s)")
+        for e in qrep.errors[:20]:
+            print(f"  ✗ {e}")
+        for w in qrep.warnings[:10]:
+            print(f"  ⚠ {w}")
+    print()
+    if n_err and args.apply and not args.skip_check:
+        print("Arrêt : le contrôle qualité a trouvé des erreurs (python scripts/check_content.py pour le détail).")
         return 1
 
     # ── 1. Registry ────────────────────────────────────────────────────────
