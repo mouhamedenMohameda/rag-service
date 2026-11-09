@@ -100,3 +100,10 @@ def test_avertissements_acceptes():
 def test_contenu_versionne_sans_erreur(name):
     rep, _ = cc.check_module(importlib.import_module(name), katex=False, spelling=False)
     assert rep.errors == [], rep.errors[:5]
+
+
+def test_valeur_approchee_fausse_detectee():
+    if not cc._arith_available():
+        pytest.skip("antlr4-python3-runtime absent")
+    rep, st = _run(ENONCES={"t": {"enonce": "$e^{-2} \\approx 0{,}2$ et $\\sqrt{2} \\approx 1{,}41$ et $p(X = 0) = 0{,}6$"}})
+    assert len(rep.errors) == 1 and "valeur approchée fausse" in rep.errors[0]

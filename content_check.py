@@ -170,7 +170,7 @@ cm unité unités ua mru dm mm km ml
 ln log exp sin cos tan lim inf sup max min arg re im
 cf ex éq resp
 géométriquement inéquation inéquations croissances binôme euler linéariser moivre factorise factoriser horner
-ième ièmes colinéaires colinéaire triplet triplets
+binomiale binomiales ième ièmes colinéaires colinéaire triplet triplets
 """.split())
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿ]+)?")
@@ -286,7 +286,7 @@ def check_questions(where: str, text: str, rep: Report) -> list[tuple[str, str]]
         if letters != expected:
             rep.warn(where, f"question {num} : sous-questions {letters} (attendu {expected})")
     # renvois
-    for m in re.finditer(r"question\s+(\d+)\s*°?\s*([a-h])?\)?", text, re.I):
+    for m in re.finditer(r"question\s+(\d+)\s*°?\s*(?:([a-h])\)|\)?)", text, re.I):
         num, sub = m.group(1), m.group(2)
         nums = {re.sub(r"^[A-Za-z]*\.?", "", t) for t in tops}
         if num not in nums:
@@ -385,7 +385,7 @@ def math_namespace() -> dict:
         return idx == ["ABCDEF".index(lettre)]
 
     ns = {name: getattr(sp, name) for name in dir(sp) if not name.startswith("_")}
-    ns.update(x=x, z=sp.Symbol("z"), n=sp.Symbol("n", integer=True, positive=True), I=sp.I, e=sp.E, E=sp.E, pi=sp.pi, ln=sp.log, oo=sp.oo, D=lambda f, k=1: sp.diff(f, x, k),
+    ns.update(x=x, t=sp.Symbol("t", real=True), z=sp.Symbol("z"), n=sp.Symbol("n", integer=True, positive=True), I=sp.I, e=sp.E, E=sp.E, pi=sp.pi, ln=sp.log, oo=sp.oo, D=lambda f, k=1: sp.diff(f, x, k),
               same=same, racine=racine, nb_egaux=nb_egaux, une_seule=une_seule, en_racine=en_racine, integ=integ, lim=lim, close=close,
               root_in=root_in)
     return ns
@@ -424,6 +424,8 @@ def _numeric(s: str):
         s = s.replace(a, b)
     if not s or not re.search(r"\d|(?<![a-zA-Z\\])i(?![a-zA-Z])", s):
         return None
+    if s.count("(") != s.count(")") or s.count("{") != s.count("}"):
+        return None
     if not set(re.findall(r"\\([a-zA-Z]+)", s)) <= _ARITH_CMDS:
         return None
     rest = re.sub(r"(?<![a-zA-Z])e(?=\^)", "", re.sub(r"\\[a-zA-Z]+", "", s))
@@ -457,6 +459,29 @@ def check_arithmetic(where: str, formulas: list[tuple[str, bool]], rep: Report) 
                 n += 1
                 if abs(d) > 1e-9 * max(1.0, abs(va)):
                     rep.err(where, f"calcul faux : « {pa.strip()} = {pb.strip()} » ({sp.N(a, 6)} ≠ {sp.N(b, 6)})")
+        # Valeurs approchées « a ≈ 0,05 » : l'écart doit rester dans la précision affichée.
+        for seg in re.split(r"\\(?:iff|Rightarrow|Leftrightarrow|quad|qquad|text\{[^}]*\})|,\s|;|\\\\|&", f):
+            if "\\approx" not in seg and "\\simeq" not in seg:
+                continue
+            pieces = re.split(r"\\approx|\\simeq", seg)
+            for left, right in zip(pieces, pieces[1:]):
+                lt, rt = left.split("=")[-1].strip(), right.split("=")[0].strip()
+                m = re.fullmatch(r"-?\s*\d+(?:\.(\d+))?", rt)
+                if not m:
+                    continue
+                a = _numeric(lt)
+                if a is None:
+                    continue
+                try:
+                    va = complex(sp.N(a, 30))
+                except Exception:
+                    continue
+                if abs(va.imag) > 1e-12:
+                    continue
+                tol = 0.6 * 10.0 ** (-len(m.group(1) or ""))  # arrondi (pas troncature)
+                n += 1
+                if abs(va.real - float(rt.replace(" ", ""))) > tol:
+                    rep.err(where, f"valeur approchée fausse : « {lt} ≈ {rt} » (vaut {va.real:.6g})")
     return n
 
 
