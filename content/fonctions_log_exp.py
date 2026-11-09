@@ -511,8 +511,8 @@ $\dfrac{e^x - x}{x^2} = \dfrac{e^x}{x^2} - \dfrac{1}{x}$. Par croissance compar�
 ]
 
 # ═══════════════════════ Notions de chaque exercice (vérifiées) ═══════════════════
-# Lues dans chaque énoncé (séries C et D). À revoir exercice par exercice quand
-# les énoncés 2015-2025 auront été vérifiés sur les PDF. Clés courtes :
+# Lues dans chaque énoncé. Série D : énoncés vérifiés sur les PDF (enonces_d_2010_2014,
+# enonces_logexp_d). Série C : à revoir quand les énoncés C auront été vérifiés. Clés courtes :
 _K = {
     "LD": "math.logexp.ln-definition-proprietes",
     "LE": "math.logexp.ln-equations",
@@ -581,24 +581,24 @@ _TAGS: dict[str, str] = {
     "bac-d-2014-sc-math-ex4": "LS LL LV LP",
     # Série D — 2015-2025
     "bac-d-2015-sc-math-ex3": "XS XL XV CC",
-    "bac-d-2015-sc-math-ex4": "LS LL LV LP",
+    "bac-d-2015-sc-math-ex4": "LS LL LV LP CC",
     "bac-d-2015-sn-math-ex3": "LS LL LV LP CC",
     "bac-d-2015-sn-math-ex4": "XS XL XV CC",
     "bac-d-2016-sc-math-ex3": "XS XL XV CC",
     "bac-d-2016-sc-math-ex4": "LS LL LV LP XD",
     "bac-d-2016-sn-math-ex3": "XS XL XV CC",
-    "bac-d-2016-sn-math-ex4": "LS LL LV LP",
+    "bac-d-2016-sn-math-ex4": "LS LL LV LP CC",
     "bac-d-2017-sc-math-ex3": "XS XL XV CC",
     "bac-d-2017-sc-math-ex4": "LS LL LV CC",
-    "bac-d-2017-sn-math-ex3": "XS XL XV XE",
+    "bac-d-2017-sn-math-ex3": "XS XL XV XE XD",
     "bac-d-2017-sn-math-ex4": "LS LL LV LP",
     "bac-d-2018-sc-math-ex3": "XS XL XV",
     "bac-d-2018-sc-math-ex4": "LS LL LV LP CC",
-    "bac-d-2018-sn-math-ex4": "LS LL LV LP",
+    "bac-d-2018-sn-math-ex4": "LS LL LV LP CC",
     "bac-d-2019-sc-math-ex3": "LS LL LV CC",
     "bac-d-2019-sc-math-ex4": "XS XL XV CC",
     "bac-d-2019-sn-math-ex4": "LS LL LV LP",
-    "bac-d-2020-sc-math-ex3": "XS XL XV XE",
+    "bac-d-2020-sc-math-ex3": "XS XL XV XE XD",
     "bac-d-2020-sc-math-ex4": "LS LL LV LP CC",
     "bac-d-2020-sn-math-ex3": "XS XL XV",
     "bac-d-2020-sn-math-ex4": "LS LL LV LP CC",
@@ -608,9 +608,15 @@ _TAGS: dict[str, str] = {
     "bac-d-2022-sc-math-ex3": "XS XL XV CC",
     "bac-d-2022-sc-math-ex4": "LS LL LV LP CC",
     "bac-d-2022-sn-math-ex5": "LS LL LV LP CC",
-    "bac-d-2023-sn-math-ex5": "LS LL LV LP",
+    "bac-d-2023-sn-math-ex5": "LS LL LV CC",
     "bac-d-2024-sn-math-ex3": "XS XL XV",
     "bac-d-2024-sn-math-ex5": "LS LL LV CC",
+    # Études de fonctions exponentielles rangées dans d'autres chapitres (log/exp en principal ou en second)
+    "bac-d-2018-sn-math-ex3": "XS XL XV CC",
+    "bac-d-2019-sn-math-ex3": "XS XL XV CC",
+    "bac-d-2021-sn-math-ex3": "XS XL XV CC",
+    "bac-d-2022-sn-math-ex4": "XS XL XV CC",
+    "bac-d-2023-sn-math-ex3": "XS XL XV CC",
 }
 
 EXERCISE_TAGS = {eid: [_K[k] for k in keys.split()] for eid, keys in _TAGS.items()}

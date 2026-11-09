@@ -74,7 +74,8 @@ def main() -> int:
             e["ennonce_ocr"] = e["ennonce_complet"]
         e["ennonce_complet"] = item["enonce"].strip() + "\n"
         e["chapitre"] = item["chapitre"]
-        e["chapitres"] = item.get("chapitres") or None
+        # Convention de la base : « chapitres » contient le chapitre principal en tête.
+        e["chapitres"] = list(dict.fromkeys([item["chapitre"], *item.get("chapitres", [])]))
         e["is_skeleton"] = False
         e["validated_by_admin"] = False
         if item.get("note"):
