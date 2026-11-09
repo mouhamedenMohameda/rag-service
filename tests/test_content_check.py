@@ -107,3 +107,12 @@ def test_valeur_approchee_fausse_detectee():
         pytest.skip("antlr4-python3-runtime absent")
     rep, st = _run(ENONCES={"t": {"enonce": "$e^{-2} \\approx 0{,}2$ et $\\sqrt{2} \\approx 1{,}41$ et $p(X = 0) = 0{,}6$"}})
     assert len(rep.errors) == 1 and "valeur approchée fausse" in rep.errors[0]
+
+
+def test_numerotation_decimale():
+    labels = cc.question_labels("**1.** Texte.\n\n**1.1.** a\n\n**1.2.** b\n\n**2.1.1.** c\n\nOn a $x = 1,5$.")
+    assert labels == [("1", ""), ("1", ".1"), ("1", ".2"), ("2", ".1.1")]
+    rep, _ = _run(CORRECTIONS={"t": {"enonce": "**1.** T\n\n**1.1.** a\n\n**1.2.** b", "correction": "**1.1.** r\n\n**1.2.** r"}})
+    assert not [w for w in rep.warnings if "sans réponse" in w]
+    rep, _ = _run(CORRECTIONS={"t": {"enonce": "**1.1.** a\n\n**1.2.** b", "correction": "**1.1.** r"}})
+    assert any("sans réponse" in w and "1 .2)" in w for w in rep.warnings)

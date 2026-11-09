@@ -171,6 +171,7 @@ ln log exp sin cos tan lim inf sup max min arg re im
 cf ex éq resp
 géométriquement inéquation inéquations croissances binôme euler linéariser moivre factorise factoriser horner
 binomiale binomiales ième ièmes colinéaires colinéaire triplet triplets
+fig newton newtons oscillateur oscillateurs radians linéairement paramétriques élongation élongations
 """.split())
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿ]+)?")
@@ -252,6 +253,11 @@ def question_labels(text: str) -> list[tuple[str, str]]:
             part = next(g for g in mpart.groups() if g) + "."
             current = ""
             s = s[mpart.end():]
+        md = re.match(r"^\**\s*(\d+)((?:\.\d+)+)\.?(?!\d|,)", s)  # numérotation décimale 1.1. / 2.1.1.
+        if md:
+            current = f"{part}{md.group(1)}"
+            labels.append((current, md.group(2)))
+            continue
         m = re.match(r"^\**\s*(\d+)\s*(?:°\s*\)?|\)|\.(?![\d,]))\s*\**\s*(?:([a-h])\))?", s)
         if m:
             current = f"{part}{m.group(1)}"
@@ -282,6 +288,9 @@ def check_questions(where: str, text: str, rep: Report) -> list[tuple[str, str]]
         if nums != list(range(1, len(nums) + 1)):
             rep.warn(where, f"numérotation des questions {('partie ' + part + ' ') if part else ''}: {nums}")
     for num, letters in subs.items():
+        letters = [x for x in letters if not x.startswith(".")]
+        if not letters:
+            continue
         expected = [chr(ord("a") + i) for i in range(len(letters))]
         if letters != expected:
             rep.warn(where, f"question {num} : sous-questions {letters} (attendu {expected})")
@@ -304,6 +313,8 @@ def check_correction_coverage(where: str, enonce: str, correction: str, rep: Rep
     for num, sub in q:
         if (num, sub) in a or (not sub and num in a_nums):
             continue
+        if sub.startswith(".") and any(n == num and s.startswith(sub + ".") for n, s in a):
+            continue  # en-tête 2.1 dont les sous-questions 2.1.1, 2.1.2 sont traitées
         if sub and (num, "") in a and not any(n == num and s for n, s in a):
             continue  # correction groupée pour la question entière
         missing.append(f"{num}{(' ' + sub + ')') if sub else ''}")
