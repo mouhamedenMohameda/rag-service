@@ -80,6 +80,10 @@ def main() -> int:
                     help="avec --corrections : exercice VALIDÉ dont la correction est vide → écrire la correction "
                          "(seulement si l'énoncé validé est identique au nôtre). keep = reste validé, "
                          "draft = repasse en brouillon (caché des chapitres jusqu'à ta validation)")
+    ap.add_argument("--replace-validated", metavar="IDS",
+                    help="avec --corrections : liste d'ids (séparés par des virgules) d'exercices VALIDÉS dont "
+                         "l'énoncé ET la correction sont remplacés par la version vérifiée ; l'exercice reste validé, "
+                         "l'ancien énoncé est gardé dans ennonce_avant_remplacement")
     ap.add_argument("--skip-check", action="store_true",
                     help="ne pas bloquer --apply sur les erreurs du contrôle qualité (déconseillé)")
     args = ap.parse_args()
@@ -271,6 +275,28 @@ def main() -> int:
                 if errs:
                     print(f"   ✗ {eid} : KaTeX {errs[:2]}")
                     continue
+            replace_ids = {x.strip() for x in (args.replace_validated or "").split(",") if x.strip()}
+            if e.get("validated_by_admin") and eid in replace_ids:
+                new_en = (item.get("enonce") or "").strip()
+                new_corr = (item.get("correction") or "").strip()
+                if not new_en or not new_corr:
+                    print(f"   ✗ {eid} : énoncé ou correction manquant dans le module — pas touché")
+                    continue
+                old_en = (e.get("ennonce_complet") or "").strip()
+                if old_en == new_en and (e.get("correction") or "").strip() == new_corr:
+                    print(f"   = {eid} : déjà à jour")
+                    continue
+                if old_en != new_en:
+                    e["ennonce_avant_remplacement"] = e.get("ennonce_complet") or ""
+                    e["ennonce_complet"] = new_en + "\n"
+                e["correction"] = new_corr + "\n"
+                e["note_admin"] = ((item.get("note") or "") + " Énoncé revérifié sur le PDF officiel et correction "
+                                   "ajoutée (contrôle automatique OK) ; ancien énoncé dans "
+                                   "ennonce_avant_remplacement.").strip()
+                e["updated_at"] = now_s
+                corr_changes += 1
+                print(f"   + {eid} : énoncé + correction remplacés (reste validé)")
+                continue
             if e.get("validated_by_admin"):
                 new_corr = (item.get("correction") or "").strip()
                 empty = not (e.get("correction") or "").strip()
