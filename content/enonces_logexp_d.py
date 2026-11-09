@@ -59,7 +59,9 @@ a) Montrer que la suite $(U_n)$ est décroissante.
 b) Exprimer $U_n$ en fonction de $n$.
 
 c) Calculer $\lim\limits_{n \to +\infty} U_n$.
-""", ["Intégration et Primitives", "Suites numériques"])
+""", ["Intégration et Primitives", "Suites numériques"],
+     note="Erreur du sujet original (question 1. b) : la limite du taux d'accroissement en 0⁺ vaut +∞ "
+          "(= lim (3 − 2 ln x)), pas −∞ ; vérifié par calcul. L'énoncé est recopié tel quel ; la correction le signale.")
 
 _add("bac-d-2015-sn-math-ex4", r"""
 **Exercice 4 (6 points)**
@@ -1222,6 +1224,8 @@ CHECKS: dict[str, list[str]] = {
         "close(D(3*x - 3 - 2*x*ln(x)).subs(x, sqrt(e)), 0)",
         "same(3*x - 3 + D(x**2/2 - x**2*ln(x)), 3*x - 3 - 2*x*ln(x))",
         "lim(3*x - 3 - 2*x*ln(x), 0, -3)",
+        # Erreur du sujet (1. b) : la limite du taux d'accroissement en 0⁺ vaut +∞, pas −∞.
+        "lim((3*x - 3 - 2*x*ln(x) + 3)/x, 0, oo, '+')",
     ],
     "bac-d-2015-sc-math-ex3": [
         "same(D(x + 2 + (2*x - 1)*exp(x)), (2*x + 1)*exp(x) + 1)",
