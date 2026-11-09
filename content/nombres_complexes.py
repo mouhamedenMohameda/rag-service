@@ -603,6 +603,17 @@ _TAGS = {
     "bac-c-2024-sc-math-ex4": "E2 RG",
     "bac-c-2024-sn-math-ex3": "E3 E2 RG",
     "bac-c-2025-sn-math-ex2": "E3 E2 TE TR AG RG MO",
+    # Série D — 2010-2014 (énoncés retranscrits, content/enonces_d_2010_2014.py)
+    "bac-d-2010-sn-math-ex2": "E3 E2 RG AG MO",
+    "bac-d-2010-sc-math-ex2": "E2 FA TE RG AG",
+    "bac-d-2011-sn-math-ex2": "E3 E2 MO AR FA RG AG",
+    "bac-d-2011-sc-math-ex2": "E2 FA TE",
+    "bac-d-2012-sn-math-ex2": "E2 FA TE RG AG MO",
+    "bac-d-2012-sc-math-ex2": "E2 FA TE RG AG MO",
+    "bac-d-2013-sn-math-ex2": "E2 FA TE RG AG MO",
+    "bac-d-2013-sc-math-ex2": "E2 FA TE",
+    "bac-d-2014-sn-math-ex2": "E2 FA TE RG AG MO",
+    "bac-d-2014-sc-math-ex2": "E2 FA TE RG AG MO",
     # Série D
     "bac-d-2015-sc-math-ex2": "E2 TE FA AG RG",
     "bac-d-2015-sn-math-ex2": "E3 E2 TE AG RG MO",
