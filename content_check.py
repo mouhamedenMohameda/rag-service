@@ -68,7 +68,26 @@ def split_math(text: str) -> tuple[list[tuple[str, bool]], str]:
         return "⟨math⟩"
 
     plain = _MATH_RE.sub(repl, text)
+    plain = _IMG_RE.sub(lambda m: m.group(1), plain)  # image Markdown : on garde la légende
     return formulas, plain
+
+
+_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)\)")
+
+
+def check_images(where: str, text: str, rep: "Report") -> None:
+    """Images Markdown : chemin public /static/… et fichier présent dans app/public (si le dossier est là)."""
+    roots = [os.environ.get("APP_PUBLIC_DIR", ""), str(Path(__file__).resolve().parent.parent / "app" / "public")]
+    root = next((r for r in roots if r and Path(r).is_dir()), None)
+    for m in _IMG_RE.finditer(text):
+        url = m.group(2)
+        if not m.group(1).strip():
+            rep.warn(where, f"image sans légende : {url}")
+        if not url.startswith("/static/"):
+            rep.err(where, f"image hors de /static/ (non servie sans session) : {url}")
+            continue
+        if root and not (Path(root) / url.lstrip("/")).is_file():
+            rep.err(where, f"image introuvable dans app/public : {url}")
 
 
 # ─────────────────────────────── 1. LaTeX ─────────────────────────────────────
@@ -172,6 +191,18 @@ cf ex éq resp
 géométriquement inéquation inéquations croissances binôme euler linéariser moivre factorise factoriser horner
 binomiale binomiales ième ièmes colinéaires colinéaire triplet triplets
 fig newton newtons oscillateur oscillateurs radians linéairement paramétriques élongation élongations
+anti doc docs gamétogenèse germinale germinales légendez légender cytoplasme dupliqué dupliqués endomètre folliculaire
+folliculaires fœtale granulosa haploïde diploïde lutéale lutéales métaphase prophase anaphase télophase oviducte
+ovocyte ovocytes ovogenèse spermatocyte spermatocytes spermatogenèse spermatide spermatides séminifère séminifères
+thèque thèques œstradiol œstrogène œstrogènes progestérone ovariectomie antrum chorionique gnrh fsh lh hcg hpl
+gonadotrope gonadotropes graaf hypersécrétion hyposécrétion hypophysaire hypothalamus hypothalamique lactogène
+mifépristone progestatif progestatifs placentaire prolactine pronucléus rétrocontrôle trophoblaste nidation
+spermatogonie spermatogonies ovogonie ovogonies testostérone leydig sertoli castration castré castrée ovulation
+menstruation menstruel menstruelle hypophyse ovarien ovarienne ovariens ovariennes utérin utérine utérins
+pubère puberté gestation lutéinisante folliculostimulante endométrial pelvien muqueuse ménopause atrésie
+spermatozoïde spermatozoïdes acrosome zygote embryon méiose mitose chromatide chromatides gonade gonades
+galiléen galiléenne géocentrique héliocentrique géostationnaire tangentielle kepler antineutrino nucléide nucléides
+nucléon nucléons xénon webcam mev kev radioactivité désintégration vectoriellement
 """.split())
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿ]+)?")
@@ -212,6 +243,9 @@ def check_spelling(where: str, plain: str, rep: Report, extra_ok: set[str]) -> N
 def check_typography(where: str, plain: str, rep: Report) -> None:
     for m in re.finditer(r"\b(\w+)\s+\1\b", plain, re.I):
         w = m.group(1).lower()
+        a, b = m.group(0).split()[0], m.group(0).split()[-1]
+        if a != b and (a[0].isupper() != b[0].isupper()):
+            continue  # « Madame A a », « De Graaf » : pas une répétition
         if w not in {"nous", "vous", "tous"} and not w.isdigit():
             rep.err(where, f"mot répété : « {m.group(0)} »")
     stack = 0
@@ -599,6 +633,7 @@ def check_module(mod, *, katex: bool = True, spelling: bool = True) -> tuple[Rep
         if spelling:
             check_spelling(where, plain, rep, extra_ok)
         check_typography(where, plain, rep)
+        check_images(where, text, rep)
         if "[cours]" not in where:
             check_questions(where, text, rep)
 

@@ -12,13 +12,15 @@ elle est écrite dans l'énoncé (« D'après la figure : … »).
 
 CH = "Cinématique et lois de Newton"
 MCU = "Mouvements dans des champs uniformes"
+GRAV = "Gravitation et Satellites"
+NUC = "Radioactivité et réactions nucléaires"
 
 ENONCES: dict[str, dict] = {}
 CORRECTIONS: dict[str, dict] = {}
 
 
-def _add(eid: str, enonce: str, correction: str, chapitres=None, note: str = "") -> None:
-    ENONCES[eid] = {"chapitre": CH, "chapitres": list(chapitres or []), "enonce": enonce.strip() + "\n",
+def _add(eid: str, enonce: str, correction: str, chapitres=None, note: str = "", chapitre: str = CH) -> None:
+    ENONCES[eid] = {"chapitre": chapitre, "chapitres": list(chapitres or []), "enonce": enonce.strip() + "\n",
                     "note": note, "replace_ocr": True}
     CORRECTIONS[eid] = {"enonce": enonce.strip() + "\n", "correction": correction.strip() + "\n", "note": note}
 
@@ -672,6 +674,312 @@ Trajectoire : $y = -\dfrac{g}{2V_A^2\sin^2\alpha}x^2 + \dfrac{\cos\alpha}{\sin\a
 """, note="Données lues sur le graphe : V² = 30,25 m²/s² en x = 0 et 4 m²/s² en x = OA = 1,5 m ; elles donnent cos α = 0,6, c'est-à-dire l'angle 52° dont le sujet fournit les lignes trigonométriques.")
 
 
+# ═══════════════════════════════ D 2016 — session complémentaire ══════════════
+
+_add("bac-d-2016-sc-pc-ex3", r"""
+**Exercice 3 (5 points)**
+
+On considère le mouvement de la Terre autour du Soleil dans le référentiel héliocentrique considéré comme galiléen. On suppose que ce mouvement se fait sur une trajectoire circulaire, de rayon $r = 1{,}5 \times 10^{11}\ \text{m}$. On néglige l'action de tout autre astre et on s'aidera du schéma suivant.
+
+*D'après le schéma :* le vecteur unitaire $\vec{u}$, placé au centre de la Terre, est dirigé de la Terre vers le Soleil.
+
+**1.** Donner les caractéristiques de la force subie par la Terre et la représenter.
+
+**2.** Appliquer la R.F.D. à la Terre et montrer que son mouvement est uniforme.
+
+**3.** En déduire l'expression du vecteur accélération de la Terre en fonction de la constante de gravitation universelle $G$, de la masse du Soleil $M_S$, du rayon $r$ de la trajectoire et du vecteur unitaire $\vec{u}$ ; le représenter sans considération d'échelle sur le schéma.
+
+**4.** Quelle relation peut-on alors écrire entre l'accélération $a$ et la vitesse $V$ du centre d'inertie de la Terre ?
+
+**5.** Donner l'expression de la vitesse $V$ en fonction de la constante de gravitation universelle $G$, la masse du Soleil $M_S$ et le rayon $r$ de la trajectoire. Calculer la valeur de cette vitesse.
+
+**6.** Donner l'expression de la période de rotation $T$ de la Terre autour du Soleil en fonction de la vitesse $V$ et du rayon $r$ de sa trajectoire. Montrer alors qu'on peut écrire que $T = 2\pi r\sqrt{\dfrac{r}{GM_S}}$, puis calculer sa valeur.
+
+On donne : $G = 6{,}67 \times 10^{-11}\ \text{S.I.}$ ; $M_S = 2 \times 10^{30}\ \text{kg}$.
+""", r"""
+**1.** La Terre (masse $m$) subit la force de gravitation exercée par le Soleil :
+- point d'application : le centre $T$ de la Terre ;
+- direction : la droite joignant les centres du Soleil et de la Terre ;
+- sens : de la Terre vers le Soleil (force attractive) ;
+- intensité : $F = \dfrac{GM_Sm}{r^2}$.
+
+Vectoriellement : $\vec{F} = \dfrac{GM_Sm}{r^2}\vec{u}$ (on la représente par une flèche partant de la Terre, dirigée vers le Soleil).
+
+**2.** R.F.D. : $\vec{F} = m\vec{a}$, donc $\vec{a} = \dfrac{\vec{F}}{m}$ est dirigée vers le centre de la trajectoire : l'accélération est **centripète**, sans composante tangentielle. Or $a_t = \dfrac{dV}{dt}$ ; donc $\dfrac{dV}{dt} = 0$ et $V$ est constante : le mouvement circulaire est **uniforme**.
+
+**3.** $\vec{a} = \dfrac{GM_S}{r^2}\vec{u}$ : vecteur partant du centre de la Terre, dirigé vers le Soleil (même direction et même sens que $\vec{F}$).
+
+**4.** Pour un mouvement circulaire uniforme, l'accélération est normale : $a = \dfrac{V^2}{r}$.
+
+**5.** $\dfrac{V^2}{r} = \dfrac{GM_S}{r^2} \iff V = \sqrt{\dfrac{GM_S}{r}} = \sqrt{\dfrac{6{,}67 \times 10^{-11} \times 2 \times 10^{30}}{1{,}5 \times 10^{11}}} \approx 2{,}98 \times 10^{4}\ \text{m/s}$ (environ $30\ \text{km/s}$).
+
+**6.** En une période, la Terre parcourt le périmètre $2\pi r$ à vitesse constante : $T = \dfrac{2\pi r}{V}$. Avec $V = \sqrt{\dfrac{GM_S}{r}}$ :
+$$T = 2\pi r\sqrt{\dfrac{r}{GM_S}} = \dfrac{2\pi \times 1{,}5 \times 10^{11}}{2{,}98 \times 10^{4}} \approx 3{,}16 \times 10^{7}\ \text{s},$$
+soit environ $366$ jours (cohérent avec une année).
+""", [CH], chapitre=GRAV, note="Exercice classé à tort dans « Mouvements dans des champs uniformes » : il porte sur la gravitation (mouvement de la Terre autour du Soleil).")
+
+# ═══════════════════════════════ D 2018 — session normale ═════════════════════
+
+_add("bac-d-2018-sn-pc-ex3", r"""
+**Exercice 3 (6 points)**
+
+On donne : $G = 6{,}67 \times 10^{-11}\ \text{S.I.}$ ; la période de révolution de la Terre autour d'elle-même $T = 86\,400\ \text{s}$ ; rayon de la Terre $R = 6380\ \text{km}$.
+
+**1.** Un satellite artificiel $S$ de masse $m$ tourne autour de la Terre sur une orbite circulaire à l'altitude $Z$.
+
+**1.1.** Donner les caractéristiques de la force gravitationnelle $\vec{F}$ exercée par la Terre sur $S$. Exprimer l'intensité $F$ de la force $\vec{F}$ en fonction de $Z$, $m$, $G$, $R$ et $M$ (masse de la Terre).
+
+**1.2.** Montrer que le mouvement du satellite est uniforme. Exprimer sa vitesse $V$ sur son orbite.
+
+**1.3.** Donner l'expression de la période $T$ de révolution de $S$ autour de la Terre en fonction de $G$, $M$ et $r$ (rayon de l'orbite du satellite). Montrer que $\dfrac{T^2}{r^3}$ est une constante pour tous les satellites de la Terre.
+
+**2.** La Lune tourne autour de la Terre sur une orbite circulaire de rayon $r = 385\,000\ \text{km}$ ; sa période est de $27{,}3$ jours. Calculer la masse de la Terre.
+
+**3.** On considère maintenant un satellite géostationnaire.
+
+**3.1.** Quelle est la particularité de ce satellite ?
+
+**3.2.** Exprimer l'altitude $Z$ à laquelle évolue un tel satellite puis la calculer.
+""", r"""
+**1.1.** Force exercée par la Terre sur $S$ :
+- point d'application : le centre d'inertie de $S$ ;
+- direction : la droite joignant le centre $O$ de la Terre et $S$ ;
+- sens : de $S$ vers $O$ (attractive) ;
+- intensité : $F = \dfrac{GMm}{(R + Z)^2}$.
+
+**1.2.** Dans le référentiel géocentrique (galiléen), $\vec{F} = m\vec{a}$ : l'accélération est dirigée vers le centre $O$ de la trajectoire, donc sa composante tangentielle $\dfrac{dV}{dt}$ est nulle et $V$ est constante : le mouvement est **uniforme**.
+
+Accélération normale : $\dfrac{V^2}{R + Z} = \dfrac{GM}{(R + Z)^2} \iff V = \sqrt{\dfrac{GM}{R + Z}}$.
+
+**1.3.** Avec $r = R + Z$ : $T = \dfrac{2\pi r}{V} = 2\pi\sqrt{\dfrac{r^3}{GM}}$, donc
+$$\dfrac{T^2}{r^3} = \dfrac{4\pi^2}{GM},$$
+qui ne dépend que de la masse de la Terre : c'est la même constante pour tous ses satellites (troisième loi de Kepler).
+
+**2.** Pour la Lune : $M = \dfrac{4\pi^2r^3}{GT^2}$ avec $r = 3{,}85 \times 10^{8}\ \text{m}$ et $T = 27{,}3 \times 86\,400 \approx 2{,}36 \times 10^{6}\ \text{s}$ :
+$$M = \dfrac{4\pi^2 \times (3{,}85 \times 10^{8})^3}{6{,}67 \times 10^{-11} \times (2{,}36 \times 10^{6})^2} \approx 6{,}07 \times 10^{24}\ \text{kg}.$$
+
+**3.1.** Un satellite géostationnaire paraît **immobile** pour un observateur terrestre : il tourne dans le plan de l'équateur, dans le même sens que la Terre, avec une période égale à la période de rotation de la Terre sur elle-même ($T = 86\,400\ \text{s}$).
+
+**3.2.** D'après 1.3 : $(R + Z)^3 = \dfrac{GMT^2}{4\pi^2}$, donc
+$$Z = \sqrt[3]{\dfrac{GMT^2}{4\pi^2}} - R.$$
+
+Avec $M \approx 6{,}07 \times 10^{24}\ \text{kg}$ : $R + Z \approx 4{,}25 \times 10^{7}\ \text{m}$, d'où $Z \approx 3{,}61 \times 10^{7}\ \text{m} \approx 36\,100\ \text{km}$.
+""", [CH], chapitre=GRAV, note="Exercice classé à tort dans « Mouvements dans des champs uniformes » : il porte sur les satellites (gravitation). Question 1.1 : le sujet demande F en fonction de Z, m, G, R et M (le texte OCR avait perdu R).")
+
+# ═══════════════════════════════ D 2020 — session complémentaire ══════════════
+
+_add("bac-d-2020-sc-pc-ex4", r"""
+**Exercice 4 (5 points)**
+
+Pour étudier le passage d'une comète au voisinage de notre planète, un satellite est mis en orbite autour de la Terre.
+
+Données : $G = 6{,}67 \times 10^{-11}\ \text{N·m}^2\text{·kg}^{-2}$ ; masse de la Terre $M = 6 \times 10^{24}\ \text{kg}$ ; rayon de la Terre $R = 6400\ \text{km}$.
+
+**1. Étude du mouvement circulaire du satellite dans le référentiel géocentrique.**
+
+Le satellite est supposé mis en orbite circulaire de rayon $r_0$. Il évolue avec une vitesse de valeur $V_0$ à l'altitude $h_0 = 400\ \text{km}$.
+
+**1.1.** En supposant ce satellite uniquement soumis au champ gravitationnel terrestre, déterminer la nature de son mouvement.
+
+**1.2.** Exprimer la vitesse $V_0$ en fonction de $G$, $M$, $R$ et $h_0$ et calculer sa valeur.
+
+**1.3.** Établir l'expression de sa période $T_0$ en fonction de $R$, $h_0$, $V_0$ et la calculer.
+
+**2. Étude énergétique.**
+
+L'énergie potentielle de gravitation s'écrit $E_p = -\dfrac{GmM}{r}$, $r$ étant le rayon de l'orbite et $m$ la masse du satellite.
+
+**2.1.** Exprimer l'énergie mécanique $E_{m0}$ du satellite sur l'orbite circulaire de rayon $r_0$ en fonction de $M$, $m$ et $r_0$.
+
+**2.2.** Exprimer successivement l'énergie mécanique $E_{m0}$ et l'énergie cinétique $E_{c0}$ en fonction de l'énergie potentielle $E_{p0}$ sur cette même orbite.
+
+**2.3.** Exprimer l'énergie $W$ fournie par les moteurs pour que le satellite passe de l'orbite de rayon $r_0$ à une orbite plus haute de rayon $r$ en fonction de $G$, $M$, $m$, $r_0$ et $r$.
+""", r"""
+**1.1.** Seule force : $\vec{F} = m\vec{\mathcal{G}}$, dirigée vers le centre $O$ de la Terre. D'après la R.F.D., $\vec{a} = \vec{\mathcal{G}}$ est centripète : la composante tangentielle $\dfrac{dV}{dt}$ est nulle. Le mouvement est **circulaire uniforme**.
+
+**1.2.** $\dfrac{V_0^2}{R + h_0} = \dfrac{GM}{(R + h_0)^2} \iff V_0 = \sqrt{\dfrac{GM}{R + h_0}}$.
+$$V_0 = \sqrt{\dfrac{6{,}67 \times 10^{-11} \times 6 \times 10^{24}}{6{,}8 \times 10^{6}}} \approx 7{,}67 \times 10^{3}\ \text{m/s}.$$
+
+**1.3.** $T_0 = \dfrac{2\pi(R + h_0)}{V_0} = \dfrac{2\pi \times 6{,}8 \times 10^{6}}{7{,}67 \times 10^{3}} \approx 5{,}57 \times 10^{3}\ \text{s}$ (environ $1\ \text{h}\ 33\ \text{min}$).
+
+**2.1.** $E_{c0} = \dfrac{1}{2}mV_0^2 = \dfrac{GMm}{2r_0}$ et $E_{p0} = -\dfrac{GMm}{r_0}$, donc
+$$E_{m0} = E_{c0} + E_{p0} = -\dfrac{GMm}{2r_0}.$$
+
+**2.2.** $E_{m0} = \dfrac{E_{p0}}{2}$ et $E_{c0} = -\dfrac{E_{p0}}{2}$.
+
+**2.3.** L'énergie fournie par les moteurs est la variation de l'énergie mécanique :
+$$W = E_m(r) - E_{m0} = -\dfrac{GMm}{2r} + \dfrac{GMm}{2r_0} = \dfrac{GMm}{2}\left(\dfrac{1}{r_0} - \dfrac{1}{r}\right) > 0 \quad (r > r_0).$$
+""", [CH], chapitre=GRAV, note="Exercice classé à tort dans « Mouvements dans des champs uniformes » : il porte sur les satellites (gravitation).")
+
+# ═══════════════════════════════ D 2023 — session normale ═════════════════════
+
+_add("bac-d-2023-sn-pc-ex4", r"""
+**Exercice 3 (4 points)**
+
+*Les deux questions 1 et 2 de l'exercice sont indépendantes.*
+
+**1.** Une particule $X$ de charge $q = 3{,}2 \times 10^{-19}\ \text{C}$ et de masse $m = 6{,}68 \times 10^{-27}\ \text{kg}$ pénètre entre les armatures d'un condensateur constitué de 2 plaques parallèles métalliques rectangulaires horizontales $A$ et $B$ de longueur $l = 10\ \text{cm}$, séparées par une distance $d = 6\ \text{cm}$ comme le montre la figure. Le point $O$ est équidistant des deux plaques. La particule entre au point $O$ avec une vitesse $\vec{V}_0$ formant un angle $\alpha$ avec l'axe horizontal.
+
+*D'après la figure :* $A$ est la plaque du haut et $B$ celle du bas ; le champ $\vec{E}$ est vertical, dirigé vers le haut ; $\vec{V}_0$ est dirigée vers le bas (sous l'axe $Ox$) ; l'axe $Ox$ est horizontal, l'axe $Oy$ vertical vers le haut ; $O'$ est le point de l'axe $Ox$ situé à la sortie des plaques ($OO' = l$).
+
+**1.1.** Préciser les signes des armatures et de la tension $U_{BA}$.
+
+**1.2.** Établir l'équation cartésienne de la trajectoire de la particule.
+
+**1.3.** Déterminer la valeur de l'angle $\alpha$ pour que la particule passe par le point $O'$.
+
+**1.4.** Déterminer les coordonnées du point le plus bas de la trajectoire.
+
+Données : $E = 8350\ \text{V/m}$ ; $V_0 = 2 \times 10^{5}\ \text{m/s}$.
+
+**2.** La désintégration du nucléide $^{232}_{92}\text{U}$ donne la particule $X$ précédente avec le nucléide $^{228}_{90}\text{Th}$.
+
+**2.1.** Écrire l'équation de la réaction de désintégration, préciser le type de radioactivité et la nature de la particule $X$.
+
+**2.2.** Calculer, en MeV, l'énergie émise lors de cette désintégration.
+
+**2.3.** Calculer la valeur de la constante de désintégration $\lambda$ de l'uranium 232 si sa période est $69{,}8$ ans.
+
+Données : $m_U = 232{,}0371548\ \text{u}$ ; $m_{Th} = 228{,}0287411\ \text{u}$ ; $m_X = 4{,}0026\ \text{u}$ ; $1\ \text{u} = 931{,}5\ \text{MeV}/c^2$.
+""", r"""
+**1.1.** La particule est positive ($q > 0$) et $\vec{E}$ est dirigé vers le haut, de $B$ vers $A$. Le champ va de l'armature positive vers l'armature négative : $B$ est **positive**, $A$ est **négative**, et $U_{BA} = V_B - V_A > 0$ (avec $U_{BA} = E\,d = 8350 \times 0{,}06 = 501\ \text{V}$).
+
+**1.2.** Le poids est négligeable devant la force électrique ($mg \approx 6{,}5 \times 10^{-26}\ \text{N}$, $qE \approx 2{,}7 \times 10^{-15}\ \text{N}$). R.F.D. : $\vec{a} = \dfrac{q\vec{E}}{m}$, soit $a_x = 0$ et $a_y = \dfrac{qE}{m} = 4 \times 10^{11}\ \text{m/s}^2$.
+
+Conditions initiales en $O$ : $V_{0x} = V_0\cos\alpha$, $V_{0y} = -V_0\sin\alpha$. Donc
+$$x = V_0\cos\alpha\,t, \qquad y = \dfrac{qE}{2m}t^2 - V_0\sin\alpha\,t,$$
+$$y = \dfrac{qE}{2mV_0^2\cos^2\alpha}x^2 - x\tan\alpha.$$
+
+**1.3.** $O'(l\,;\,0)$ est sur la trajectoire :
+$$\dfrac{qEl}{2mV_0^2\cos^2\alpha} = \tan\alpha \iff \sin 2\alpha = \dfrac{qEl}{mV_0^2} = \dfrac{4 \times 10^{11} \times 0{,}1}{4 \times 10^{10}} = 1,$$
+donc $2\alpha = 90^\circ$ : $\alpha = 45^\circ$.
+
+**1.4.** Avec $\alpha = 45^\circ$ : $y = 10x^2 - x$ ($x$, $y$ en m), car $\dfrac{qE}{2mV_0^2\cos^2\alpha} = \dfrac{4 \times 10^{11}}{2 \times 4 \times 10^{10} \times 0{,}5} = 10\ \text{m}^{-1}$.
+
+Au point le plus bas, $\dfrac{dy}{dx} = 20x - 1 = 0$ : $x = 0{,}05\ \text{m}$ et $y = 0{,}025 - 0{,}05 = -0{,}025\ \text{m}$.
+
+Point le plus bas : $(5\ \text{cm}\,;\,-2{,}5\ \text{cm})$. Comme $2{,}5\ \text{cm} < \dfrac{d}{2} = 3\ \text{cm}$, la particule ne touche pas la plaque $B$.
+
+**2.1.** Conservation du nombre de masse et du nombre de charge : $232 = 228 + A$ et $92 = 90 + Z$, donc $A = 4$, $Z = 2$ :
+$$^{232}_{92}\text{U} \longrightarrow\ ^{228}_{90}\text{Th} +\ ^{4}_{2}\text{He}.$$
+
+C'est une radioactivité **$\alpha$** ; la particule $X$ est un noyau d'hélium $^{4}_{2}\text{He}$ (particule $\alpha$), ce qui est cohérent avec $q = 2e$ et $m \approx 4\ \text{u}$.
+
+**2.2.** $\Delta m = m_U - m_{Th} - m_X = 232{,}0371548 - 228{,}0287411 - 4{,}0026 = 0{,}0058137\ \text{u}$.
+$$E = \Delta m\,c^2 = 0{,}0058137 \times 931{,}5 \approx 5{,}42\ \text{MeV}.$$
+
+**2.3.** $\lambda = \dfrac{\ln 2}{T} = \dfrac{0{,}693}{69{,}8} \approx 9{,}93 \times 10^{-3}\ \text{an}^{-1}$, soit $\lambda = \dfrac{0{,}693}{69{,}8 \times 365{,}25 \times 86\,400} \approx 3{,}15 \times 10^{-10}\ \text{s}^{-1}$.
+""", [NUC], chapitre=MCU, note="Dans la base cet exercice porte le numéro 4 (le QCM compte comme exercice 1) ; sur le sujet c'est l'« Exercice 3 ». Les orientations (E vers le haut, V0 sous l'axe) sont lues sur la figure.")
+
+# ═══════════════════════════════ D 2024 — session normale ═════════════════════
+
+_add("bac-d-2024-sn-pc-ex5", r"""
+**Exercice 4 (4 points)**
+
+*Les questions 1 et 2 de l'exercice sont indépendantes. On donne la constante de gravitation $G = 6{,}67 \times 10^{-11}\ \text{S.I.}$*
+
+**1.** La station spatiale internationale connue sous le nom d'ISS tourne autour de la Terre de masse $M = 6 \times 10^{24}\ \text{kg}$ et de rayon $R = 6400\ \text{km}$ d'un mouvement supposé circulaire uniforme à une altitude $h = 400\ \text{km}$. Cette station est habitée par des astronautes qui restent dans l'espace de longues durées pendant lesquelles ils procèdent à des expériences scientifiques.
+
+**1.1.** Donner l'expression de la force $F$ qu'exerce la Terre sur la station en fonction de $G$, $R$, $m$, $M$ et $h$.
+
+**1.2.** Exprimer la vitesse $V$ de la station en fonction de $m$, $F$, $R$ et $h$. Calculer sa valeur.
+
+**1.3.** Exprimer la période $T$ de la station en fonction de $V$, $R$ et $h$. Calculer la valeur de $T$ et en déduire le nombre de tours effectués par la station en une journée.
+
+**1.4.** L'énergie potentielle de gravitation du système {ISS-Terre} s'écrit $E_p = -\dfrac{mGM}{R + h}$. Donner l'expression de l'énergie mécanique du système {ISS-Terre} en fonction de $M$, $G$, $m$, $R$ et $h$.
+
+**2.** Les astronautes qui habitent la station subissent à leur retour sur terre plusieurs examens médicaux. L'un de ces examens consiste à injecter à l'astronaute un échantillon d'une substance radioactive de masse $m_0 = 0{,}8\ \text{g}$ contenant l'isotope $^{131}_{53}\text{I}$ de l'iode, émetteur du rayonnement $\beta^-$ de demi-vie $t_{1/2} = 8$ jours.
+
+**2.1.** Déterminer la composition du nucléide $^{131}_{53}\text{I}$.
+
+**2.2.** Écrire l'équation de désintégration de ce nucléide. On donne : $_{51}\text{Sb}$, $_{52}\text{Te}$, $_{54}\text{Xe}$, $_{55}\text{Cs}$.
+
+**2.3.** Calculer le nombre $N_0$ de noyaux dans l'échantillon radioactif initial si la masse d'un nucléide $^{131}_{53}\text{I}$ est $2{,}176 \times 10^{-25}\ \text{kg}$, et en déduire son activité initiale $A_0$.
+
+**2.4.** Après une durée $t_1$, l'activité de l'échantillon se réduit à $20\,\%$ de son activité initiale $A_0$. Montrer que $t_1 = \dfrac{t_{1/2}}{\ln 2} \times \ln\dfrac{A_0}{A(t_1)}$, avec $A(t_1)$ l'activité à l'instant $t_1$. Calculer $t_1$.
+""", r"""
+**1.1.** $F = \dfrac{GMm}{(R + h)^2}$ ($m$ : masse de la station).
+
+**1.2.** Mouvement circulaire uniforme : la R.F.D. donne $F = m\dfrac{V^2}{R + h}$, donc
+$$V = \sqrt{\dfrac{F(R + h)}{m}} = \sqrt{\dfrac{GM}{R + h}} = \sqrt{\dfrac{6{,}67 \times 10^{-11} \times 6 \times 10^{24}}{6{,}8 \times 10^{6}}} \approx 7{,}67 \times 10^{3}\ \text{m/s}.$$
+
+**1.3.** $T = \dfrac{2\pi(R + h)}{V} = \dfrac{2\pi \times 6{,}8 \times 10^{6}}{7{,}67 \times 10^{3}} \approx 5{,}57 \times 10^{3}\ \text{s}$.
+
+En une journée : $\dfrac{86\,400}{5{,}57 \times 10^{3}} \approx 15{,}5$ : la station effectue environ $15{,}5$ tours, soit $15$ tours complets.
+
+**1.4.** $E_c = \dfrac{1}{2}mV^2 = \dfrac{GMm}{2(R + h)}$, donc
+$$E_m = E_c + E_p = -\dfrac{GMm}{2(R + h)}.$$
+
+**2.1.** $^{131}_{53}\text{I}$ : $Z = 53$ protons et $A - Z = 131 - 53 = 78$ neutrons ($131$ nucléons).
+
+**2.2.** Désintégration $\beta^-$ : émission d'un électron $^{0}_{-1}e$ (et d'un antineutrino). Le noyau fils a $Z = 54$ : c'est le xénon.
+$$^{131}_{53}\text{I} \longrightarrow\ ^{131}_{54}\text{Xe} +\ ^{0}_{-1}e\ (+\ \bar{\nu}).$$
+
+**2.3.** $N_0 = \dfrac{m_0}{m(\text{I})} = \dfrac{0{,}8 \times 10^{-3}}{2{,}176 \times 10^{-25}} \approx 3{,}68 \times 10^{21}$ noyaux.
+
+$\lambda = \dfrac{\ln 2}{t_{1/2}} = \dfrac{0{,}693}{8 \times 86\,400} \approx 1{,}00 \times 10^{-6}\ \text{s}^{-1}$, donc $A_0 = \lambda N_0 \approx 3{,}69 \times 10^{15}\ \text{Bq}$.
+
+**2.4.** $A(t) = A_0e^{-\lambda t}$, donc $\ln\dfrac{A_0}{A(t_1)} = \lambda t_1 = \dfrac{\ln 2}{t_{1/2}}t_1$, d'où $t_1 = \dfrac{t_{1/2}}{\ln 2} \times \ln\dfrac{A_0}{A(t_1)}$.
+
+Avec $\dfrac{A_0}{A(t_1)} = \dfrac{1}{0{,}2} = 5$ : $t_1 = \dfrac{8 \times \ln 5}{\ln 2} \approx 18{,}6$ jours.
+""", [CH, NUC], chapitre=GRAV, note="Exercice classé à tort dans « Mouvements dans des champs uniformes » : il porte sur la gravitation (ISS) et la radioactivité. Dans la base il porte le numéro 5 ; sur le sujet c'est l'« Exercice 4 ».")
+
+# ═══════════════════════════════ C 2024 — session normale ═════════════════════
+
+_add("bac-c-2024-sn-pc-ex5", r"""
+**Exercice 4 (3 points)**
+
+Un solide $S$ ponctuel de masse $m = 200\ \text{g}$ glisse sur un plan $AB$ incliné d'un angle $\alpha = 60^\circ$ par rapport à la verticale suivant l'axe $X'X$.
+
+Le solide a été photographié par une caméra Webcam à différents instants. Par une analyse convenable de la vidéo on a obtenu les résultats du tableau suivant :
+
+| $t\ (\text{s})$ | $0$ | $0{,}2$ | $0{,}4$ | $0{,}6$ | $0{,}8$ | $1$ |
+|---|---|---|---|---|---|---|
+| $V\ (\text{m/s})$ | $V_0$ | $2{,}4$ | $2{,}8$ | $3{,}2$ | $3{,}6$ | $4$ |
+
+*D'après la figure :* $S$ descend le plan de $A$ vers $B$ ; $B$ est à la verticale d'un point $C$ du sol, à la hauteur $h$ ; le repère $(B; \vec{i}, \vec{j})$ a $\vec{i}$ horizontal, dirigé du côté où le solide se déplace, et $\vec{j}$ vertical vers le haut ; $D$ est sur le sol.
+
+**1.** Représenter le graphe de la fonction $V = f(t)$.
+
+**2.** À partir du graphe, déterminer la nature du mouvement du solide et en déduire les valeurs de l'accélération expérimentale $a$ du mouvement et de la vitesse initiale $V_0$.
+
+**3.** En négligeant les frottements, calculer la valeur $a_0$ de l'accélération théorique. Comparer $a$ et $a_0$ et trouver l'intensité de la force de frottement si elle existe.
+
+**4.** Le solide arrive en $B$ à $t = 1\ \text{s}$. Après $B$, situé sur la verticale d'un point $C$ à une hauteur $h = 2\ \text{m}$, le mobile effectue un mouvement aérien pour tomber en un point $D$ du sol (voir la figure).
+
+**4.1.** Trouver dans le repère $(B, \vec{i}, \vec{j})$ l'équation de la trajectoire en fonction de $\alpha$, $g$ et $V_B$. *On choisira de nouveau pour instant initial l'instant où commence le mouvement à partir de $B$ et on négligera la résistance de l'air.*
+
+**4.2.** Déterminer les coordonnées du point de chute $D$ dans le repère $(B, \vec{i}, \vec{j})$.
+
+*On prendra $g = 10\ \text{m/s}^2$.*
+""", r"""
+**1.** Les points $(0{,}2\,;\,2{,}4)$, $(0{,}4\,;\,2{,}8)$, …, $(1\,;\,4)$ sont alignés : le graphe $V = f(t)$ est une **droite**.
+
+**2.** $V$ est une fonction affine du temps et le mouvement est rectiligne : mouvement **rectiligne uniformément accéléré**. L'accélération est le coefficient directeur :
+$$a = \dfrac{4 - 2{,}4}{1 - 0{,}2} = 2\ \text{m/s}^2.$$
+
+L'ordonnée à l'origine donne $V_0$ : $V = 2t + V_0$ et $2{,}4 = 2 \times 0{,}2 + V_0$, donc $V_0 = 2\ \text{m/s}$.
+
+**3.** Sans frottement, la R.F.D. projetée sur la ligne de pente (la réaction est perpendiculaire au plan) donne, le plan faisant $\alpha = 60^\circ$ avec la verticale :
+$$a_0 = g\cos\alpha = 10 \times 0{,}5 = 5\ \text{m/s}^2.$$
+
+$a = 2\ \text{m/s}^2 < a_0$ : il existe une force de frottement $\vec{f}$, opposée au mouvement. R.F.D. : $mg\cos\alpha - f = ma$, donc
+$$f = m(a_0 - a) = 0{,}2 \times (5 - 2) = 0{,}6\ \text{N}.$$
+
+**4.1.** En $B$ ($t = 1\ \text{s}$), $V_B = 4\ \text{m/s}$, dirigée suivant la pente vers le bas : elle fait l'angle $\alpha$ avec la verticale. Composantes : $V_{Bx} = V_B\sin\alpha$, $V_{By} = -V_B\cos\alpha$.
+
+Dans l'air, seul le poids agit : $a_x = 0$, $a_y = -g$. Donc
+$$x = V_B\sin\alpha\,t, \qquad y = -\dfrac{1}{2}gt^2 - V_B\cos\alpha\,t,$$
+$$y = -\dfrac{g}{2V_B^2\sin^2\alpha}x^2 - \dfrac{x}{\tan\alpha}.$$
+
+Numériquement : $y = -\dfrac{5}{12}x^2 - \dfrac{\sqrt{3}}{3}x \approx -0{,}417\,x^2 - 0{,}577\,x$.
+
+**4.2.** Le sol est à $y_D = -h = -2\ \text{m}$ :
+$$\dfrac{5}{12}x^2 + \dfrac{\sqrt{3}}{3}x - 2 = 0,$$
+dont la racine positive est $x_D \approx 1{,}61\ \text{m}$. Donc $D(1{,}61\ \text{m}\,;\,-2\ \text{m})$.
+""", [MCU], note="Le tableau du sujet porte « V₀ » (inconnue) à t = 0, et non 2 m/s comme dans le texte OCR : V₀ = 2 m/s se déduit du graphe (question 2). Dans la base l'exercice porte le numéro 5 ; sur le sujet c'est l'« Exercice 4 ».")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Contrôles numériques, rejoués par scripts/check_content.py.
 CHECKS: dict[str, list[str]] = {
@@ -753,5 +1061,38 @@ CHECKS: dict[str, list[str]] = {
         "close(Rational(1, 10)*Rational(3025, 100), Rational(3025, 1000)) and close(Rational(2, 10)*10*Rational(6, 10), Rational(12, 10))",
         "close(sqrt(Rational(3025, 100) - Rational(35, 2)*Rational(3, 2)), 2)",
         "abs(N(10/(2*4*Rational(79, 100)**2)) - 2.0) < 0.005 and abs(N(Rational(6, 10)/Rational(79, 100)) - 0.76) < 0.005",
+    ],
+    "bac-d-2016-sc-pc-ex3": [
+        "abs(N(sqrt(Rational(667, 100)*10**-11*2*10**30/(Rational(15, 10)*10**11))) - 2.98e4) < 50",
+        "abs(N(2*pi*Rational(15, 10)*10**11*sqrt(Rational(15, 10)*10**11/(Rational(667, 100)*10**-11*2*10**30))) - 3.16e7) < 5e4",
+        "abs(N(2*pi*Rational(15, 10)*10**11*sqrt(Rational(15, 10)*10**11/(Rational(667, 100)*10**-11*2*10**30))/86400) - 366) < 1",
+    ],
+    "bac-d-2018-sn-pc-ex3": [
+        "abs(N(4*pi**2*(Rational(385, 1000)*10**9)**3/(Rational(667, 100)*10**-11*(Rational(273, 10)*86400)**2)) - 6.07e24) < 0.01e24",
+        "abs(N((Rational(667, 100)*10**-11*Rational(607, 100)*10**24*86400**2/(4*pi**2))**Rational(1, 3)) - 4.25e7) < 0.01e7",
+        "abs(N((Rational(667, 100)*10**-11*Rational(607, 100)*10**24*86400**2/(4*pi**2))**Rational(1, 3) - Rational(638, 100)*10**6) - 3.61e7) < 0.01e7",
+    ],
+    "bac-d-2020-sc-pc-ex4": [
+        "abs(N(sqrt(Rational(667, 100)*10**-11*6*10**24/(Rational(68, 10)*10**6))) - 7.67e3) < 5",
+        "abs(N(2*pi*Rational(68, 10)*10**6/sqrt(Rational(667, 100)*10**-11*6*10**24/(Rational(68, 10)*10**6))) - 5.57e3) < 5",
+    ],
+    "bac-d-2023-sn-pc-ex4": [
+        "close(Rational(32, 10)*10**-19*8350/(Rational(668, 100)*10**-27), 4*10**11)",
+        "close(4*10**11*Rational(1, 10)/(2*10**5)**2, 1) and close(4*10**11/(2*(2*10**5)**2*cos(pi/4)**2), 10)",
+        "close((10*x**2 - x).subs(x, Rational(1, 20)), -Rational(1, 40)) and close(8350*Rational(6, 100), 501)",
+        "abs(N((Rational(2320371548, 10**7) - Rational(2280287411, 10**7) - Rational(40026, 10**4))*Rational(9315, 10)) - 5.42) < 0.005",
+        "abs(N(log(2)/Rational(698, 10)) - 9.93e-3) < 5e-6 and abs(N(log(2)/(Rational(698, 10)*Rational(36525, 100)*86400)) - 3.15e-10) < 0.005e-10",
+    ],
+    "bac-d-2024-sn-pc-ex5": [
+        "abs(N(86400/(2*pi*Rational(68, 10)*10**6/sqrt(Rational(667, 100)*10**-11*6*10**24/(Rational(68, 10)*10**6)))) - 15.5) < 0.05",
+        "abs(N(Rational(8, 10)*10**-3/(Rational(2176, 1000)*10**-25)) - 3.68e21) < 0.005e21",
+        "abs(N(log(2)/(8*86400)*Rational(8, 10)*10**-3/(Rational(2176, 1000)*10**-25)) - 3.69e15) < 0.005e15",
+        "abs(N(8*log(5)/log(2)) - 18.6) < 0.05",
+    ],
+    "bac-c-2024-sn-pc-ex5": [
+        "close((4 - Rational(24, 10))/(1 - Rational(2, 10)), 2) and close(Rational(24, 10) - 2*Rational(2, 10), 2)",
+        "close(10*cos(pi/3), 5) and close(Rational(2, 10)*(5 - 2), Rational(6, 10))",
+        "close(10/(2*16*sin(pi/3)**2), Rational(5, 12)) and close(1/tan(pi/3), sqrt(3)/3)",
+        "abs(N(max(solve(Rational(5, 12)*x**2 + sqrt(3)/3*x - 2, x))) - 1.61) < 0.005",
     ],
 }
