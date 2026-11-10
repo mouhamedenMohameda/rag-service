@@ -465,5 +465,167 @@ Seuls les embryons $XX$ se développent.
 """, note="Correction croisée avec le corrigé officiel. Les noms A–E viennent du corrigé (flèches du scan peu lisibles), ce que dit la correction. Différences : en B.4 le corrigé écrit « RC⁻ » à J−1 pour le cycle normal tout en citant « pic de LH, ovulation » (coquille : c'est un rétrocontrôle positif) . En B.3, le tableau ne permet qu'une date approchée des menstruations (J+13–J+14 et J+20–J+22).")
 
 
+# ═══════════════════════════════ D 2023 — session normale ═════════════════════
+
+E = "bac-d-2023-sn-svt-ex4"
+_add(E, rf"""
+**Exercice 2 (5 points)**
+
+Aïcha, élève de la 7ᵉ SN, essaie d'expliquer à sa sœur, mariée et enceinte, quelques aspects de la reproduction chez l'espèce humaine.
+
+Dans ce but, elle se base sur les figures du document ci-contre observées chez une femme.
+
+{fig(E, 1, "Figure 1 : phénomènes X, Y, Z et W ; figure 2 : schémas 1, 2 et 3")}
+
+**1.** Nommer les phénomènes $X$, $Y$, $Z$ et $W$ en les classant selon l'ordre chronologique.
+
+**2.** Donner un titre pour chaque schéma de la figure 2.
+
+**3.** Nommer l'hormone qui déclenche le phénomène $X$ et celle qui marque le phénomène $Y$.
+
+**4.** Une échographie réalisée chez la sœur d'Aïcha a révélé l'existence de deux embryons et d'un seul corps jaune.
+
+a) Comment expliquer ce phénomène ?
+
+b) Ces embryons peuvent-ils être de sexes différents ? Justifier.
+
+**5.** Au terme de la grossesse de la sœur d'Aïcha, on assiste à la chute d'une hormone $H_1$ suite à l'effet d'une autre hormone $H_2$.
+
+a) Identifier $H_1$ et $H_2$.
+
+b) Rappeler le(s) rôle(s) de l'hormone $H_1$ pendant la gestation et préciser le rôle cité de l'hormone $H_2$.
+
+**6.** Afin d'espacer les naissances, Aïcha conseille à sa sœur de faire recours à une méthode contraceptive à base de $H_1$. Citer trois choix possibles et leur(s) niveau(x) d'action en remplissant le tableau suivant.
+
+| | Choix 1 : … | Choix 2 : … | Choix 3 : … |
+|---|---|---|---|
+| Niveau a : … | | | ✕ |
+| Niveau b : … | | | ✕ |
+| Niveau c : … | | ✕ | |
+
+*(✕ : case barrée sur le sujet.)*
+""", r"""
+**1.** $X$ = **ovulation** (expulsion de l'ovocyte hors du follicule) ; $Y$ = **nidation** (implantation du blastocyste dans l'endomètre) ; $Z$ = **fécondation** (ovocyte entouré de spermatozoïdes, avec les deux pronucléus) ; $W$ = **menstruation** (destruction de la muqueuse utérine).
+
+Ordre chronologique : $W \to X \to Z \to Y$ (menstruation au début du cycle, ovulation, fécondation, puis nidation environ une semaine plus tard).
+
+**2.** Schéma 1 : embryon au stade **2 blastomères** (première division de la cellule-œuf) ; schéma 2 : **blastocyste** ; schéma 3 : **morula**.
+
+**3.** L'ovulation ($X$) est déclenchée par le **pic de LH**. La nidation ($Y$) est marquée par l'apparition de l'**HCG**, sécrétée par le trophoblaste.
+
+**4. a)** Deux embryons pour un seul corps jaune : une seule ovulation, donc une seule cellule-œuf, qui s'est séparée en deux au début du développement. Ce sont de **vrais jumeaux** (jumeaux monozygotes).
+
+**b)** Non : ils proviennent de la même cellule-œuf et ont le même patrimoine génétique, donc les mêmes chromosomes sexuels. Ils sont obligatoirement de **même sexe**.
+
+**5. a)** $H_1$ = **progestérone** ; $H_2$ = **cortisol** (sécrété en fin de grossesse).
+
+**b)** Rôles de la progestérone pendant la gestation :
+- maintien de la muqueuse utérine développée (dentelle utérine) ;
+- **silence utérin** (elle inhibe les contractions du myomètre) ;
+- inhibition des cycles par **rétrocontrôle négatif** sur l'hypothalamus et l'hypophyse.
+
+Rôle du cortisol : il fait chuter la progestérone (en favorisant sa transformation en œstrogènes au niveau du placenta). La levée du silence utérin permet les **contractions utérines** de l'accouchement.
+
+**6.** Niveaux d'action : a = **endomètre**, b = **col de l'utérus** (glaire cervicale), c = **complexe hypothalamo-hypophysaire**.
+
+| | Choix 1 : pilule combinée | Choix 2 : micropilule | Choix 3 : pilule séquentielle |
+|---|---|---|---|
+| a : endomètre | développement anormal, pas de dentelle : pas de nidation | développement anormal : pas de nidation | ✕ |
+| b : col de l'utérus | glaire épaisse, imperméable aux spermatozoïdes : pas de fécondation | glaire imperméable : pas de fécondation | ✕ |
+| c : complexe hypothalamo-hypophysaire | rétrocontrôle négatif : pas de pic de LH, pas d'ovulation | ✕ | rétrocontrôle négatif : pas d'ovulation |
+
+(Les niveaux a et b peuvent être inversés.)
+""", note="Correction conforme au corrigé officiel (W–X–Z–Y ; 2 blastomères, blastocyste, morula ; LH et HCG ; vrais jumeaux ; H1 progestérone, H2 cortisol ; pilule combinée, micropilule, pilule séquentielle).")
+
+# ═══════════════════════════════ D 2024 — session normale ═════════════════════
+
+E = "bac-d-2024-sn-svt-ex2"
+_add(E, rf"""
+**Exercice 1 (6 points)**
+
+**A.** Les schémas du document ci-contre représentent des étapes d'un phénomène observé chez l'espèce humaine.
+
+{fig(E, 1, "Document : étapes A, B et C (éléments 1 à 8)")}
+
+**1.** Annotez ce document.
+
+**2.** Classer les étapes $A$, $B$ et $C$ dans leur ordre chronologique.
+
+**3.** On considère volontairement $2n = 4$, dont une paire de gonosomes. Soit un gène $G = B/b$ porté par le chromosome $X$. Sachant que ce phénomène est étudié chez un couple dont la mère est de phénotype $[b]$ et le père de phénotype $[B]$ pour ce gène, complétez le tableau ci-contre :
+
+| Élément | 2 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|
+| Formule chromosomique | | | | | |
+| Nombre d'allèle(s) de $G$ | | | | | |
+| Type d'allèle(s) de $G$ | | | | | |
+
+**B.** On dose à partir du $14^{{\text{{e}}}}$ jour du cycle la concentration plasmatique d'une hormone $H$ (en ng/mL) chez une femme ayant des cycles de 28 jours, dans quatre situations différentes ($A$, $B$, $C$ et $D$) :
+- $A$ = cycle fécond ;
+- $B$ = cycle normal ;
+- $C$ = cycle avec injection d'une substance placentaire $X$ du jour 20 au jour 25 ;
+- $D$ = cycle avec injection d'une substance synthétique $Y$ du jour 18 au jour 21.
+
+Des événements $E_1$, $E_2$, $E_3$ et $E_4$ peuvent être constatés pendant cette période :
+- $E_3$ est constaté dans les quatre situations ;
+- $E_2$ et $E_1$ sont caractéristiques de la situation $A$ ;
+- $E_4$ est commun aux situations $B$, $C$ et $D$ mais apparaît à des temps différents selon chaque situation.
+
+| Jours | 14 | 16 | 18 | 21 | 23 | 26 | 28 | 32 | 35 | 38 | 42 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Cycle A | trace | 7 | 11 | 18 | 21 | 24 | 27 | 30 | 33 | 36 | 43 |
+| Cycle C | trace | 7 | 11 | 18 | 20 | 23 | 27 | 16 | 3 | trace | trace |
+| Cycles B et D | trace | 7 | 11 | 18 | 14 | 5 | trace | trace | trace | trace | trace |
+
+**1.** Représenter la variation de l'hormone $H$ dans la situation $B$ et identifier cette hormone.
+
+**2.** Nommer les événements $E$, sachant que l'événement $E_1$ nécessite un silence utérin.
+
+**3.** L'événement $E_4$ peut être constaté aux jours 22, 28 et 37 selon la situation.
+
+a) Faites une correspondance entre ces temps (jours) et les différentes situations.
+
+b) Déduisez le nom des substances $X$ et $Y$.
+
+**4.** À partir de ces données et de vos connaissances, élaborer un schéma bilan montrant les interactions hormonales survenues au cours du cycle fécond (du $J_{{21}}$ au $J_{{42}}$).
+""", r"""
+**A. 1.** Le document montre la fécondation et le début du développement :
+1 = cellule folliculaire (de la corona radiata) ; 2 = spermatozoïde ; 3 = 1ᵉʳ globule polaire ; 4 = 2ᵉ globule polaire ; 5 = chromosomes de l'ovocyte II en métaphase II ; 6 = chromosomes métaphasiques (première mitose de la cellule-œuf) ; 7 = pronucléus mâle ; 8 = pronucléus femelle.
+
+**A. 2.** $C$ (pénétration du spermatozoïde dans l'ovocyte II) $\to$ $B$ (expulsion du 2ᵉ globule polaire, formation des pronucléus) $\to$ $A$ (première mitose de la cellule-œuf).
+
+**A. 3.** La mère $[b]$ est $X^bX^b$ ; le père $[B]$ est $X^BY$. Chaque chromosome à deux chromatides porte deux exemplaires de l'allèle.
+
+| Élément | 2 (spermatozoïde) | 4 (2ᵉ globule polaire) | 5 (ovocyte II en métaphase II) | 6 (cellule-œuf en mitose) | 7 (pronucléus mâle) |
+|---|---|---|---|---|---|
+| Formule chromosomique | $n = 1A + X$ ou $n = 1A + Y$ | $n = 1A + X$ | $n = 1A + X$ | $2n = 2A + XX$ ou $2n = 2A + XY$ | $n = 1A + X$ ou $n = 1A + Y$ |
+| Nombre d'allèle(s) de $G$ | 1 ou 0 | 1 | 2 | 4 ou 2 | 2 ou 0 |
+| Type d'allèle(s) de $G$ | $B$ ou aucun | $b$ | $b$ ($b$, $b$) | $B$, $B$, $b$, $b$ (fille) ou $b$, $b$ (garçon) | $B$, $B$ ou aucun |
+
+(Chromosomes à une chromatide : spermatozoïde et 2ᵉ globule polaire ; à deux chromatides : ovocyte II en métaphase II, chromosomes métaphasiques de la mitose, et pronucléus mâle après la réplication de son ADN.)
+
+**B. 1.** Dans la situation $B$, $H$ est à l'état de traces à $J_{14}$, augmente jusqu'à un maximum de $18\ \text{ng/mL}$ à $J_{21}$, puis diminue (14 à $J_{23}$, 5 à $J_{26}$) jusqu'à l'état de traces à $J_{28}$. Une hormone sécrétée seulement en deuxième partie de cycle (phase lutéale), avec un seul pic, est la **progestérone**, sécrétée par le corps jaune.
+
+**B. 2.** $E_1$ = **nidation** (elle nécessite le silence utérin dû à la progestérone) ; $E_2$ = **fécondation** ; $E_3$ = **ovulation** (à $J_{14}$, dans les quatre situations) ; $E_4$ = **menstruation**.
+
+**B. 3. a)**
+
+| Jour de $E_4$ | 22 | 28 | 37 |
+|---|---|---|---|
+| Situation | $D$ | $B$ | $C$ |
+
+- $B$ (cycle normal) : la progestérone revient à l'état de traces à $J_{28}$ : menstruation à $J_{28}$.
+- $C$ : la progestérone reste élevée jusqu'à $J_{28}$, puis chute (3 à $J_{35}$, traces à $J_{38}$) : menstruation retardée vers $J_{37}$.
+- $D$ : la progestérone a la même évolution que dans le cycle normal, mais la menstruation survient plus tôt, à $J_{22}$ : la substance $Y$ empêche la progestérone d'agir sur l'endomètre.
+
+**b)** $X$ (substance placentaire qui prolonge l'activité du corps jaune) = **HCG**. $Y$ (substance de synthèse qui provoque les règles malgré une progestérone normale, en bloquant ses récepteurs) = **RU 486 (mifépristone)**.
+
+**B. 4.** Schéma bilan (cycle fécond, $J_{21}$ à $J_{42}$) :
+- le **trophoblaste** de l'embryon sécrète l'**HCG** ;
+- l'HCG stimule (+) le **corps jaune**, qui se maintient et continue à sécréter **progestérone et œstradiol** ;
+- ces hormones agissent (+) sur l'**endomètre** (maintien de la dentelle utérine, silence utérin : nidation et gestation possibles) ;
+- elles exercent un **rétrocontrôle négatif** (−) sur l'hypothalamus et l'hypophyse : la sécrétion de FSH et de LH est freinée, il n'y a pas de nouveau cycle.
+""", note="Correction conforme au corrigé officiel (annotations 1 à 8, C → B → A, tableau des allèles, progestérone, E1 nidation / E2 fécondation / E3 ovulation / E4 menstruation, 22 = D, 28 = B, 37 = C, X = HCG, Y = RU 486). Pour l'élément 7, le corrigé compte 2 allèles : c'est vrai après la réplication de l'ADN du pronucléus, ce que précise la correction. Le schéma bilan cite le corps jaune (le corrigé écrit « ovaires »).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {}
