@@ -849,5 +849,64 @@ Schéma chez la femelle :
 """, note="Pas de corrigé officiel disponible pour cette session. Les réponses se lisent sans ambiguïté sur les documents (X = testostérone, Y = œstradiol, rôle de l'hypophyse) ; la question 4 demande une hypothèse, présentée comme telle (levée du rétrocontrôle négatif chez le castré).")
 
 
+# ═══════════════════════════════ C 2015 — session normale ═════════════════════
+
+E = "bac-c-2015-sn-svt-ex1"
+_add(E, rf"""
+**Reproduction (8 points)**
+
+**A.** Le document 1 correspond à une coupe transversale d'un organe sexuel de mammifère.
+
+{fig(E, 1, "Document 1 : coupe d'un organe sexuel de mammifère (cellules a à f)")}
+
+**1.** Nommez les cellules $a$, $b$ et $c$ et précisez le rôle de chacune.
+
+**2.** Identifiez les stades de division cellulaire correspondant aux cellules $d$, $e$ et $f$. Schématisez les stades $d$ et $e$.
+
+**3.** Précisez les phases de la gamétogenèse illustrées par ce document.
+
+**B.** L'observation des ovaires d'une femelle $A$ de mammifère montre la présence de 7 corps jaunes.
+
+**1.** Ce chiffre peut-il être une indication précise sur le nombre de petits susceptibles d'être rencontrés dans la portée correspondante ? Discutez.
+
+**2.** L'utérus d'une autre femelle $B$ contient deux embryons de même sexe. Combien de corps jaunes peut-on trouver dans ses ovaires ? Justifiez votre réponse.
+
+**3.** L'ablation de l'hypophyse pratiquée sur une femelle $C$ provoque la disparition de quelques caractères sexuels.
+
+a) Quelle relation existe entre l'hypophyse et ces caractères ?
+
+b) Comment peut-on remédier expérimentalement aux symptômes observés chez cette femelle ?
+""", r"""
+Le document est une coupe de **testicule** : un tube séminifère et le tissu interstitiel voisin.
+
+**A. 1.**
+- $a$ = **cellule de Leydig** (tissu interstitiel) : elle sécrète la **testostérone**.
+- $b$ = **cellule de Sertoli** : elle soutient et nourrit les cellules germinales ; elle sécrète l'ABP (qui concentre la testostérone dans le tube) et l'inhibine (qui freine la FSH).
+- $c$ = **spermatozoïde** : le gamète mâle ; il apporte le lot haploïde de chromosomes du père à l'ovocyte et détermine le sexe de l'embryon (chromosome $X$ ou $Y$).
+
+**A. 2.** D'après le corrigé officiel (le scan ne permet pas de distinguer finement les chromosomes) : $d$ = **anaphase I**, $e$ = **anaphase II**, $f$ = **prophase I** de la méiose.
+
+Schémas attendus (avec $2n = 4$, par exemple) :
+- $d$, anaphase I : les chromosomes homologues, chacun à deux chromatides, se séparent et migrent vers les deux pôles (2 chromosomes à deux chromatides vers chaque pôle) ;
+- $e$, anaphase II : dans une cellule haploïde, les chromatides de chaque chromosome se séparent (2 chromatides vers chaque pôle).
+
+**A. 3.** Le document montre la **multiplication** (spermatogonies, en périphérie du tube), l'**accroissement** (spermatocytes I), la **maturation** (méiose) et la **différenciation** (spermiogenèse : des spermatides aux spermatozoïdes, vers la lumière du tube).
+
+**B. 1.** Non, pas de façon précise. Chaque corps jaune correspond à une ovulation, donc à un ovocyte libéré : 7 corps jaunes signifient au plus 7 cellules-œufs.
+- Le nombre de petits peut être **inférieur** : tous les ovocytes ne sont pas fécondés, et certains embryons ne se nidifient pas ou meurent.
+- Il peut être **supérieur** : une cellule-œuf peut donner de vrais jumeaux. Dans le cas extrême où chacune des 7 cellules-œufs donne des jumeaux, il y a 14 petits.
+
+Le nombre de petits est donc compris entre 0 et 14 : les corps jaunes n'en donnent qu'une indication relative.
+
+**B. 2.** **Un ou deux corps jaunes** :
+- 1 corps jaune : une seule ovulation, une cellule-œuf qui s'est divisée en deux ; ce sont de **vrais jumeaux** (forcément de même sexe) ;
+- 2 corps jaunes : deux ovulations, deux cellules-œufs ; ce sont de **faux jumeaux**, qui peuvent être de même sexe.
+
+**B. 3. a)** La relation est **indirecte** : l'hypophyse sécrète les gonadostimulines (FSH et LH) qui stimulent les ovaires ; les ovaires sécrètent les hormones sexuelles (œstrogènes et progestérone), qui maintiennent les caractères sexuels. Sans hypophyse, les ovaires ne sont plus stimulés et les caractères sexuels régressent.
+
+**b)** Par des **injections de FSH et de LH** (gonadostimulines), qui relancent l'activité ovarienne ; des injections d'hormones ovariennes (œstrogènes, progestérone) rétabliraient aussi directement les caractères sexuels.
+""", note="Correction croisée avec le corrigé officiel (a Leydig, b Sertoli, c spermatozoïde ; d anaphase I, e anaphase II, f prophase I ; 0 à 14 petits ; 1 ou 2 corps jaunes ; relation indirecte, injection de FSH et LH). Les stades d, e, f sont repris du corrigé (le scan ne permet pas de les vérifier finement), ce que dit la correction.")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {}
