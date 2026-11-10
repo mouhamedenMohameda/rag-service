@@ -908,5 +908,185 @@ Le nombre de petits est donc compris entre 0 et 14 : les corps jaunes n'en donne
 """, note="Correction croisée avec le corrigé officiel (a Leydig, b Sertoli, c spermatozoïde ; d anaphase I, e anaphase II, f prophase I ; 0 à 14 petits ; 1 ou 2 corps jaunes ; relation indirecte, injection de FSH et LH). Les stades d, e, f sont repris du corrigé (le scan ne permet pas de les vérifier finement), ce que dit la correction.")
 
 
+# ═══════════════════════════════ C 2017 — session normale ═════════════════════
+
+E = "bac-c-2017-sn-svt-ex1"
+_add(E, r"""
+**Reproduction (6 points)**
+
+**1.** La vie génitale d'une femme commence à la puberté et se termine à la ménopause.
+
+a) Quel phénomène apparent marque l'entrée dans la période de la puberté ?
+
+b) Précisez l'origine de la ménopause.
+
+Durant cette vie génitale, on observe des cycles ovariens caractérisés par un développement des follicules.
+
+**2.** Citez les différentes phases d'un cycle ovarien.
+
+**3.** Précisez le déterminisme de chaque phase.
+
+**4.** Pendant la grossesse, le taux des gonadostimulines est très faible et les cycles sont interrompus. Expliquez.
+
+**5.** Certaines femmes interrompent volontairement leurs cycles.
+
+a) Qu'appelle-t-on cette pratique ?
+
+b) Quel est son intérêt ?
+
+c) Donnez un exemple des méthodes contraceptives.
+""", r"""
+**1. a)** L'apparition des **premières règles** (menstruations), signe du début des cycles sexuels.
+
+**b)** La ménopause est due à l'**épuisement du stock de follicules** de l'ovaire : il n'y a plus de croissance folliculaire, donc plus de sécrétion cyclique d'œstrogènes et de progestérone, ni d'ovulation et de règles.
+
+**2.** Le cycle ovarien comprend :
+- la **phase folliculaire** (croissance des follicules jusqu'au follicule mûr) ;
+- l'**ovulation** (vers le 14ᵉ jour d'un cycle de 28 jours) ;
+- la **phase lutéale** (formation puis régression du corps jaune).
+
+**3.**
+
+| Phase | Déterminisme hormonal | Déterminisme structural |
+|---|---|---|
+| Folliculaire | la FSH (et la LH) stimule la croissance des follicules, qui sécrètent des œstrogènes | follicules en croissance (follicule mûr) |
+| Ovulation | taux élevé d'œstradiol → rétrocontrôle positif → pic de LH | rupture du follicule mûr |
+| Lutéale | la LH entretient le corps jaune, qui sécrète progestérone et œstrogènes | corps jaune |
+
+**4.** Pendant la grossesse, le corps jaune gestatif (maintenu par l'HCG) puis le placenta sécrètent beaucoup d'œstrogènes et de progestérone. Ces taux élevés et constants exercent un **rétrocontrôle négatif** permanent sur l'hypothalamus et l'hypophyse : la sécrétion de FSH et de LH est très faible, aucun follicule ne se développe, il n'y a ni ovulation ni règles.
+
+**5. a)** C'est la **contraception**.
+
+**b)** Elle permet d'**éviter une grossesse** non désirée et d'**espacer les naissances** (maîtrise de la procréation).
+
+**c)** Exemple : la **pilule combinée** (œstrogène + progestatif de synthèse), qui exerce un rétrocontrôle négatif sur l'hypothalamus et l'hypophyse et bloque l'ovulation. (Autres exemples : micropilule, stérilet, préservatif.)
+""", note="Correction conforme au corrigé officiel (premières règles ; épuisement des stocks folliculaires ; phases folliculaire et lutéale ; RC négatif des hormones ovariennes pendant la grossesse ; contraception, pilule combinée). Le corrigé cite aussi le RU 486 comme exemple de « méthode contraceptive » ; c'est une contragestion (il agit après la fécondation) : la correction ne le retient pas comme contraceptif.")
+
+# ═══════════════════════════════ C 2019 — session normale ═════════════════════
+
+E = "bac-c-2019-sn-svt-ex2"
+_add(E, rf"""
+**Exercice 2 (7 points)**
+
+Le document 1 montre les résultats de dosage de LH chez une femme normale durant 40 jours.
+
+{fig(E, 1, "Document 1 : taux de LH (ng/mL) chez une femme normale pendant 40 jours")}
+
+**1.** Analysez ce graphe en vue de déduire :
+
+**1.1.** la durée du cycle ;
+
+**1.2.** la (les) date(s) d'ovulation.
+
+**2.** Précisez le déterminisme du pic de LH.
+
+Le dosage chez deux autres femmes $X$ et $Y$ du taux de LH durant la même période a donné les courbes du document 2.
+
+{fig(E, 2, "Document 2 : taux de LH (ng/mL) chez les femmes X et Y pendant 40 jours")}
+
+**3.** Analysez ces deux courbes et déduisez l'état possible de chaque femme.
+
+**4.** L'échographie ovarienne a révélé chez l'une de ces femmes l'absence de follicules ovariens.
+
+**4.1.** Reconnaissez cette femme ; expliquez son état.
+
+**4.2.** Interprétez l'allure de la courbe chez cette femme.
+
+**5.** L'autre femme a remarqué la disparition de sa menstruation. Après des analyses, son médecin confirme la présence de HCG dans ses urines.
+
+**5.1.** Qu'apportent ces données ?
+
+**5.2.** En utilisant l'axe de temps du document 2, estimez à partir de quel jour débute la sécrétion de cette hormone par rapport au pic de LH. Justifiez votre réponse.
+
+**5.3.** Montrez comment la sécrétion de cette hormone était, directement ou indirectement, à l'origine de la :
+
+**5.3.1.** disparition de la menstruation de cette femme ;
+
+**5.3.2.** variation du taux de LH.
+""", r"""
+**1.** Le taux de LH reste bas (environ 5 ng/mL) presque tout le temps, avec deux pics brefs et élevés (environ 25 ng/mL), vers le **5ᵉ jour** et vers le **33ᵉ jour**.
+
+**1.1.** Les deux pics sont séparés d'environ 28 jours : le cycle dure **28 jours**.
+
+**1.2.** L'ovulation suit le pic de LH : ovulations vers le **5ᵉ jour** et vers le **33ᵉ jour**. (La menstruation notée vers le 19ᵉ jour se place bien 14 jours après la première ovulation.)
+
+**2.** En fin de phase folliculaire, le follicule mûr sécrète beaucoup d'œstradiol. Ce taux élevé exerce un **rétrocontrôle positif** sur l'hypothalamus (décharge de GnRH) et l'hypophyse, qui libère brutalement une grande quantité de LH : c'est le **pic de LH**, qui déclenche l'ovulation.
+
+**3.**
+- Femme $X$ : un pic de LH vers le 5ᵉ jour, comme chez la femme normale (ovulation), puis le taux baisse et reste très bas, sans nouveau pic vers le 33ᵉ jour : pas de nouveau cycle. État possible : **femme enceinte**.
+- Femme $Y$ : taux de LH **élevé et constant** (environ 25 ng/mL), sans pic. État possible : **femme ménopausée** (ou dont les ovaires ont été enlevés).
+
+**4.1.** C'est la femme **$Y$** : sans follicules, ses ovaires ne fonctionnent plus (ménopause, épuisement du stock de follicules).
+
+**4.2.** Sans follicules, il n'y a plus de sécrétion d'œstrogènes ni de progestérone. Le **rétrocontrôle négatif** qu'exercent normalement ces hormones sur l'hypothalamus et l'hypophyse est **levé** : l'hypophyse sécrète en permanence beaucoup de LH (et de FSH), sans pic, car il n'y a plus de rétrocontrôle positif.
+
+**5.1.** L'HCG est sécrétée par le trophoblaste de l'embryon après la nidation : la femme $X$ est **enceinte**.
+
+**5.2.** Estimation : l'HCG apparaît à la **nidation**, environ 7 jours après la fécondation, qui suit elle-même de peu l'ovulation (pic de LH vers le 5ᵉ jour). Sa sécrétion débute donc vers le **12ᵉ jour** environ, soit une semaine après le pic de LH. C'est cohérent avec la courbe de $X$ : le taux de LH baisse encore nettement à partir du 15ᵉ jour environ, quand le corps jaune, entretenu par l'HCG, renforce le rétrocontrôle négatif.
+
+**5.3.1.** L'HCG **maintient le corps jaune** (corps jaune gestatif), qui continue à sécréter de la progestérone et des œstrogènes : l'endomètre reste développé et ne se détruit pas, d'où l'absence de menstruation.
+
+**5.3.2.** Indirectement : les œstrogènes et la progestérone sécrétés par le corps jaune maintenu par l'HCG exercent un **rétrocontrôle négatif** sur l'hypothalamus et l'hypophyse : le taux de LH reste faible et il n'y a pas de nouveau pic.
+""", note="Correction croisée avec le corrigé officiel (femme Y : absence de follicules ; femme X enceinte ; HCG maintient le corps jaune ; RC négatif → LH faible). Différence : en 4-2, le corrigé écrit que l'absence de RC⁻ « favorise la RC⁺ » ; sans œstrogènes il n'y a pas de rétrocontrôle positif : la LH est élevée parce que le rétrocontrôle négatif est levé. La date de début de l'HCG (5.2) n'est pas donnée par le corrigé : la correction l'estime (vers J12, nidation) et le présente comme une estimation.")
+
+
+# ═══════════════════════════════ C 2023 — session normale ═════════════════════
+
+E = "bac-c-2023-sn-svt-ex2"
+_add(E, rf"""
+**Exercice 1 (6 points)**
+
+**A.** On pratique sur une femme (pour des raisons médicales) une intervention chirurgicale. On constate, après analyse, une baisse brutale de la production des hormones ovariennes.
+
+**1.** Quels sont les organes qui ont pu être enlevés au cours de l'opération ?
+
+**2.** Si on injecte à cette femme des hormones hypophysaires, la production normale d'hormones ovariennes reprend.
+
+a) Que pouvez-vous en déduire quant à l'organe enlevé ?
+
+b) Précisez son rôle dans le cycle sexuel.
+
+**B.** On suit la variation du taux plasmatique d'une hormone ($H_1$) chez une femme normale du 16 mars au 13 avril dans le but d'étudier les transformations qui se déroulent dans l'utérus et l'ovaire au cours d'un cycle sexuel. Le document suivant représente la fluctuation du taux de ($H_1$) chez cette femme.
+
+{fig(E, 1, "Document : taux de H1 (pg/mL) du 16 mars au 16 avril (pics le 16 mars et le 13 avril, petit pic le 25 mars)")}
+
+**1.** Identifiez cette hormone. Justifiez votre réponse.
+
+**2.** Précisez la date :
+- de l'ovulation ;
+- du début de la menstruation ;
+- du développement maximum du corps jaune.
+
+**3.** Précisez la durée du cycle sexuel chez cette femme.
+
+**4.** Représentez la variation du taux plasmatique de la deuxième hormone ($H_2$) sécrétée par le même organe durant la même période.
+
+**5.** Représentez l'évolution de l'endomètre du 16 mars au 10 avril, sachant que la durée de la menstruation chez cette femme est de 4 jours.
+""", r"""
+**A. 1.** Les hormones ovariennes peuvent baisser si l'on enlève les **ovaires** (qui les sécrètent) ou l'**hypophyse** (qui stimule les ovaires par la FSH et la LH).
+
+**A. 2. a)** Les ovaires de cette femme sont toujours capables de fonctionner quand on leur fournit des hormones hypophysaires : l'organe enlevé est l'**hypophyse**.
+
+**b)** L'hypophyse commande l'activité des ovaires : la **FSH** stimule la croissance des follicules (et leur sécrétion d'œstradiol), la **LH** déclenche l'ovulation (pic de LH) et entretient le corps jaune.
+
+**B. 1.** $H_1$ est l'**œstradiol** (œstrogènes) : elle est sécrétée pendant tout le cycle, avec **deux pics** : un pic élevé en fin de phase folliculaire (16 mars, puis 13 avril) et un pic plus faible en phase lutéale (vers le 25 mars), sécrété par le corps jaune.
+
+**B. 2.**
+- **Ovulation** : vers le **17 mars**, juste après le pic d'œstradiol du 16 mars (qui déclenche le pic de LH).
+- **Début de la menstruation** : le **1ᵉʳ avril**, quand l'œstradiol est au plus bas, en fin de cycle.
+- **Développement maximum du corps jaune** : vers le **25 mars** (pic lutéal d'œstradiol).
+
+**B. 3.** Deux pics préovulatoires successifs sont séparés de 28 jours (16 mars → 13 avril) : le cycle dure **28 jours**.
+
+**B. 4.** $H_2$ est la **progestérone**, sécrétée par le corps jaune : elle est presque nulle avant l'ovulation (16–17 mars), augmente après l'ovulation, atteint son maximum vers le **25 mars** (corps jaune au maximum), puis diminue jusqu'à un taux presque nul vers le **1ᵉʳ avril** ; elle reste faible pendant la phase folliculaire suivante (jusqu'au 13 avril).
+
+**B. 5.** Évolution de l'endomètre :
+- du 16 au 25 mars environ (phase lutéale) : l'endomètre est épais ; il devient très vascularisé, avec des glandes en tube contournées : c'est la **dentelle utérine**, maximale vers le 25 mars ;
+- fin mars : il régresse quand la progestérone chute ;
+- du **1ᵉʳ au 4 avril** : **menstruation**, destruction de la couche superficielle de l'endomètre (4 jours) ;
+- du 5 au 10 avril (phase folliculaire) : l'endomètre se **reconstitue** et s'épaissit de nouveau sous l'effet de l'œstradiol.
+""", note="Correction conforme au corrigé officiel (organe enlevé : hypophyse ; H1 œstradiol, 2 pics ; ovulation 17 mars, menstruation 1er avril, corps jaune maximal le 25 mars ; cycle de 28 jours ; H2 progestérone). En A1, le corrigé cite « ovaires, hypophyse » (plus un mot raturé) : la correction retient ces deux organes.")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {}
