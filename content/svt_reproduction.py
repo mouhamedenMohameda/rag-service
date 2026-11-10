@@ -627,5 +627,227 @@ b) Déduisez le nom des substances $X$ et $Y$.
 """, note="Correction conforme au corrigé officiel (annotations 1 à 8, C → B → A, tableau des allèles, progestérone, E1 nidation / E2 fécondation / E3 ovulation / E4 menstruation, 22 = D, 28 = B, 37 = C, X = HCG, Y = RU 486). Pour l'élément 7, le corrigé compte 2 allèles : c'est vrai après la réplication de l'ADN du pronucléus, ce que précise la correction. Le schéma bilan cite le corps jaune (le corrigé écrit « ovaires »).")
 
 
+# ═══════════════════════════════ D 2015 — session complémentaire ══════════════
+
+E = "bac-d-2015-sc-svt-ex1"
+_add(E, rf"""
+**Reproduction (6 points)**
+
+Le testicule produit de la testostérone de façon constante grâce à un système de régulation que l'on se propose de découvrir en réalisant les expériences suivantes.
+
+**Expérience 1**
+
+On injecte des gonadostimulines à un animal mâle impubère ayant des cellules testiculaires inactives. Les conséquences de ces injections sur trois types de cellules testiculaires sont consignées dans le tableau 1.
+
+| Cellules testiculaires | Injection de LH | Injection de FSH |
+|---|---|---|
+| Spermatogonies | inactives | activées |
+| Cellules de Sertoli | non développées | développées |
+| Cellules de Leydig | activées | inactives |
+
+**1.** Citer le rôle des cellules de Sertoli et de Leydig.
+
+**2.** Analyser les résultats de l'expérience 1 et en dégager les cellules cibles de chacune des hormones hypophysaires.
+
+**Expérience 2**
+
+Des cellules de Leydig sont cultivées in vitro. On ajoute, au milieu de culture, différentes molécules, LH et/ou TNFα, et on mesure en parallèle la production de testostérone. Le document 1 résume les résultats de cette expérience.
+
+{fig(E, 1, "Document 1 : production de testostérone (UA) sans LH et avec LH, sans TNFα et avec ajout de TNFα")}
+
+**3.** Analyser ces résultats et déduire l'effet de la TNFα.
+
+**4.** Proposer une hypothèse quant au mode d'action de la TNFα.
+
+**Expérience 3**
+
+Afin d'étudier l'action de certains types de cellules testiculaires sur l'activité des cellules hypophysaires, on réalise des cultures dans des milieux appropriés et on mesure le taux de gonadostimulines libérées (tableau 2).
+
+| | Milieu 1 : cellules hypophysaires ($X$) seules | Milieu 2 : cellules ($X$) + cellules $Y$ | Milieu 3 : cellules ($X$) + cellules $Z$ |
+|---|---|---|---|
+| Libération de FSH | 100 % | 100 % | 40 % |
+| Libération de LH | 100 % | 40 % | 100 % |
+
+**5.** Analyser les résultats de l'expérience 3 et identifier les cellules $Y$ et $Z$.
+
+**6.** Représenter les différentes relations entre l'hypophyse et le testicule.
+""", r"""
+**1.**
+- **Cellules de Sertoli** (dans la paroi des tubes séminifères) : elles nourrissent et soutiennent les cellules de la lignée germinale et permettent la spermatogenèse ; elles sécrètent aussi l'inhibine et la protéine qui fixe la testostérone (ABP).
+- **Cellules de Leydig** (dans le tissu interstitiel, entre les tubes) : elles sécrètent la **testostérone**.
+
+**2.**
+- Avec la LH, seules les cellules de Leydig sont activées ; spermatogonies et cellules de Sertoli restent inactives.
+- Avec la FSH, les spermatogonies sont activées et les cellules de Sertoli se développent, mais les cellules de Leydig restent inactives.
+
+Cellules cibles : la **LH** agit sur les **cellules de Leydig** ; la **FSH** agit sur les **cellules de Sertoli** (et, par leur intermédiaire, active les spermatogonies, donc la spermatogenèse).
+
+**3.**
+- Sans LH, les cellules de Leydig ne produisent presque pas de testostérone, avec ou sans TNFα.
+- Avec LH seule, la production est forte (environ $4{,}8$ UA).
+- Avec LH et TNFα, elle reste très faible (environ $0{,}4$ UA).
+
+La LH stimule la sécrétion de testostérone, et la TNFα **inhibe cet effet de la LH** (elle n'a pas d'effet propre sans LH).
+
+**4.** Hypothèse : la TNFα empêche la LH d'agir sur la cellule de Leydig, par exemple en **bloquant les récepteurs membranaires à la LH** (ou en bloquant la chaîne de réactions déclenchée dans la cellule après la fixation de la LH).
+
+**5.**
+- Les cellules hypophysaires seules libèrent 100 % de FSH et de LH (témoin).
+- Avec les cellules $Y$, la libération de LH tombe à 40 % ; celle de FSH ne change pas : $Y$ freine sélectivement la LH.
+- Avec les cellules $Z$, la libération de FSH tombe à 40 % ; celle de LH ne change pas : $Z$ freine sélectivement la FSH.
+
+$Y$ = **cellules de Leydig** : leur testostérone exerce un rétrocontrôle négatif sur la sécrétion de LH. $Z$ = **cellules de Sertoli** : elles sécrètent l'**inhibine**, qui exerce un rétrocontrôle négatif sur la sécrétion de FSH.
+
+**6.** Schéma des relations :
+- hypophyse → **LH** → (+) cellules de Leydig → **testostérone** ;
+- hypophyse → **FSH** → (+) cellules de Sertoli → spermatogenèse ; la testostérone agit aussi (+) sur la spermatogenèse ;
+- testostérone → (−) hypophyse (et hypothalamus) : freine la sécrétion de LH ;
+- cellules de Sertoli → **inhibine** → (−) hypophyse : freine la sécrétion de FSH.
+
+Ce double rétrocontrôle négatif maintient constante la production de testostérone.
+""", note="Pas de corrigé officiel disponible pour cette session. Les réponses se déduisent directement des tableaux et du document (cellules cibles, Y = Leydig, Z = Sertoli/inhibine). Le mode d'action de la TNFα est demandé sous forme d'hypothèse : la correction en propose une, présentée comme telle.")
+
+
+# ═══════════════════════════════ D 2016 — session complémentaire ══════════════
+
+E = "bac-d-2016-sc-svt-ex1"
+_add(E, rf"""
+**Reproduction (7 points)**
+
+**A.** Les dosages des quantités d'ADN contenues dans trois catégories de cellules germinales de testicules de deux sujets adultes $A$ et $B$ ont donné les résultats suivants :
+
+| | | Cellules $X$ | Cellules $Y$ | Cellules $Z$ |
+|---|---|---|---|---|
+| Sujet $A$ | Nombre de cellules (UA) | 8 | 4 | 2 |
+| | Quantité d'ADN | $x$ | $2x$ | $4x$ |
+| Sujet $B$ | Nombre de cellules (UA) | 2 | 10 | 2 |
+| | Quantité d'ADN | $x$ | $2x$ | $4x$ |
+
+**1.** Comparez le nombre de cellules puis la quantité d'ADN des cellules $X$, $Y$, $Z$ du sujet $A$.
+
+**2.** Expliquez les résultats constatés chez $A$.
+
+**3.** Identifiez les cellules $X$, $Y$ et $Z$.
+
+**4.** Analysez les résultats obtenus chez le sujet $B$. Que peut-on en déduire ?
+
+**5.** Proposez une explication à l'anomalie constatée chez le sujet $B$.
+
+**6.** Quel traitement hormonal pourrait corriger ce dysfonctionnement ?
+
+**B.** Le document 1 représente l'évolution de la quantité d'ADN par noyau depuis la maturation de l'ovocyte jusqu'à l'obtention d'un embryon de deux cellules chez un mammifère.
+
+{fig(E, 1, "Document 1 : quantité d'ADN par noyau (Q/2, Q, 2Q) en fonction du temps ; repères t1 à t5, segments 1, 2, 3 et noyaux a, b, c, d, e")}
+
+**1.** Déterminez les phénomènes qui se sont déroulés :
+
+a) entre $t_1$ et $t_2$ ;
+
+b) entre $t_2$ et $t_3$ ;
+
+c) entre $t_4$ et $t_5$.
+
+**2.** Nommez les phases de la fécondation qui correspondent aux segments 1, 2 et 3.
+
+**3.** Précisez le nombre de chromosomes et le nombre de chromatides par chromosome pour les noyaux $b$, $c$, $d$ et $e$.
+""", r"""
+**A. 1.** Chez $A$, le nombre de cellules double de $Z$ à $Y$ (2 → 4) puis de $Y$ à $X$ (4 → 8), tandis que la quantité d'ADN par cellule est divisée par deux à chaque fois ($4x$ → $2x$ → $x$).
+
+**A. 2.** Chaque cellule $Z$ donne deux cellules $Y$, et chaque cellule $Y$ donne deux cellules $X$, avec à chaque fois un partage de l'ADN en deux, sans réplication entre les deux divisions : ce sont les **deux divisions successives de la méiose** (spermatogenèse).
+
+**A. 3.**
+- $Z$ ($4x$) = **spermatocytes I** : diploïdes, chromosomes à deux chromatides.
+- $Y$ ($2x$) = **spermatocytes II** : haploïdes, chromosomes à deux chromatides.
+- $X$ ($x$) = **spermatides** : haploïdes, chromosomes à une chromatide ; elles se différencient ensuite en spermatozoïdes.
+
+**A. 4.** Chez $B$, les spermatocytes I sont en nombre normal (2), mais les spermatocytes II s'accumulent (10 au lieu de 4) et les spermatides sont très peu nombreuses (2 au lieu de 8). La première division de méiose se fait, mais la **deuxième division de méiose est bloquée** (ou très ralentie) : la production de spermatides, donc de spermatozoïdes, est fortement réduite (risque de stérilité).
+
+**A. 5.** Explication possible : un **déficit hormonal** des hormones qui contrôlent la spermatogenèse, en particulier un taux insuffisant de **testostérone** (sécrétée par les cellules de Leydig sous l'action de la LH), qui est nécessaire au déroulement complet de la méiose, ou un déficit en FSH (qui agit par les cellules de Sertoli).
+
+**A. 6.** Un traitement par **testostérone**, ou par des gonadostimulines (LH, qui stimule la sécrétion de testostérone, et FSH), pourrait rétablir la spermatogenèse, si l'anomalie est bien d'origine hormonale.
+
+**B. 1.**
+- **a)** À $t_1$, la quantité d'ADN passe de $2Q$ à $Q$ : la **première division de méiose** vient de s'achever (expulsion du 1ᵉʳ globule polaire). Entre $t_1$ et $t_2$, le noyau $a$ est celui de l'**ovocyte II**, bloqué en métaphase II ; c'est sous cette forme qu'il est expulsé lors de l'ovulation.
+- **b)** Entre $t_2$ et $t_3$, la quantité d'ADN passe de $Q$ à $\dfrac{Q}{2}$ : c'est la **deuxième division de méiose**, déclenchée par la pénétration du spermatozoïde (expulsion du 2ᵉ globule polaire).
+- **c)** Entre $t_4$ et $t_5$, la quantité passe de $2Q$ à $Q$ : c'est la **première mitose** de la cellule-œuf, qui donne un embryon de deux cellules.
+
+**B. 2.**
+- Segment 1 : **pénétration du spermatozoïde et activation de l'ovocyte** (achèvement de la méiose et expulsion du 2ᵉ globule polaire).
+- Segment 2 : **formation des pronucléus et réplication de leur ADN** (de $\dfrac{Q}{2}$ à $Q$).
+- Segment 3 : **amphimixie (caryogamie)** : union des pronucléus mâle et femelle ($Q + Q = 2Q$) ; la cellule-œuf est formée.
+
+**B. 3.**
+
+| Noyau | b | c | d | e |
+|---|---|---|---|---|
+| Quantité d'ADN | $\dfrac{Q}{2}$ | $Q$ | $2Q$ | $Q$ |
+| Nombre de chromosomes | $n$ | $n$ | $2n$ | $2n$ |
+| Chromatides par chromosome | 1 | 2 | 2 | 1 |
+
+($b$ : noyau haploïde après la méiose ; $c$ : pronucléus après réplication ; $d$ : cellule-œuf avant sa première mitose ; $e$ : noyau de chaque cellule de l'embryon à deux cellules.)
+""", note="Pas de corrigé officiel disponible pour cette session. Identification des cellules (8 : 4 : 2 et x, 2x, 4x) et lecture du document B déduites sans ambiguïté des données. Les questions A5–A6 demandent une explication et un traitement : la correction les présente comme hypothèse (déficit en testostérone ou en gonadostimulines).")
+
+
+# ═══════════════════════════════ D 2022 — session complémentaire ══════════════
+
+E = "bac-d-2022-sc-svt-ex3"
+_add(E, rf"""
+**Exercice 2 (5 points)**
+
+On se propose d'étudier quelques aspects de la fonction reproductrice à partir des résultats des séries d'expériences suivantes.
+
+**1ʳᵉ série d'expériences**
+
+- La castration d'un animal jeune (mâle ou femelle) supprime la gamétogenèse et l'animal demeure impubère.
+- On injecte à des rats mâles impubères des doses croissantes d'une hormone $X$ extraite à partir des testicules d'un rat mâle adulte. Le document 1 montre l'évolution du poids des vésicules séminales et de la prostate chez ces rats suite à ce traitement.
+- On injecte à des rattes impubères des doses croissantes d'une hormone $Y$ extraite à partir de l'ovaire d'une ratte pubère. Le document 2 montre l'évolution du poids de leurs utérus suite à ce traitement.
+
+{fig(E, 1, "Document 1 : poids (mg) des vésicules séminales et de la prostate en fonction de la dose d'hormone X (mg)")}
+
+{fig(E, 2, "Document 2 : poids de l'utérus (mg) en fonction de la dose d'hormone Y (µg)")}
+
+Analysez les résultats de ces expériences en vue :
+
+**1.** de préciser le mode d'action des gonades sur certains organes de l'appareil génital (vésicules séminales, prostate et utérus) ;
+
+**2.** d'identifier les hormones $X$ et $Y$.
+
+**2ᵉ série d'expériences**
+
+Afin de préciser certains contrôles du fonctionnement des gonades, on réalise les expériences suivantes :
+- L'ablation de l'hypophyse chez des animaux immatures empêche la maturité sexuelle et les gonades demeurent atrophiées.
+
+**3.** Quelle information tirez-vous à partir de l'analyse de cette expérience ?
+
+- La parabiose effectuée entre un rat mâle adulte castré depuis 30 jours avec un rat mâle (ou femelle) impubère entraîne une maturité sexuelle précoce (puberté précoce).
+
+**4.** Proposez une hypothèse expliquant la maturité sexuelle précoce chez le rat (ou la ratte).
+
+**5.** À partir de vos connaissances, réalisez deux schémas qui résument les relations entre les différents organes intervenant dans la régulation de l'activité sexuelle (mâle et femelle).
+""", r"""
+**1.** La castration supprime la gamétogenèse et la puberté. Chez le rat impubère, l'injection d'un extrait testiculaire ($X$) fait augmenter le poids des vésicules séminales (de 100 à 250 mg) et de la prostate (de 50 à environ 125 mg) d'autant plus que la dose est forte (de 0,1 à 1 mg). Chez la ratte impubère, l'extrait ovarien ($Y$) fait augmenter le poids de l'utérus, d'environ 10 mg à environ 145 mg, en fonction de la dose (à partir de quelques millièmes de µg).
+
+Les gonades agissent donc sur ces organes génitaux par **voie hormonale** : elles sécrètent dans le sang des hormones qui stimulent le développement et l'activité de leurs organes cibles, avec un effet proportionnel à la dose.
+
+**2.** $X$, hormone testiculaire qui stimule les glandes annexes mâles, est la **testostérone**. $Y$, hormone ovarienne qui fait croître l'utérus, est l'**œstradiol** (œstrogènes).
+
+**3.** Sans hypophyse, les gonades restent atrophiées et la maturité sexuelle n'est pas atteinte : le fonctionnement des gonades dépend de l'**hypophyse**, qui les stimule par ses hormones (les gonadostimulines **FSH et LH**).
+
+**4.** Hypothèse : chez le rat castré, l'absence de testostérone lève le **rétrocontrôle négatif** exercé sur l'hypothalamus et l'hypophyse ; ceux-ci sécrètent alors de grandes quantités de gonadostimulines (FSH et LH). Par la circulation sanguine commune établie par la parabiose, ces gonadostimulines passent chez l'animal impubère et stimulent précocement ses gonades, qui se mettent à fonctionner : la puberté est précoce.
+
+**5.** Schéma chez le mâle :
+- hypothalamus → **GnRH** → (+) hypophyse ;
+- hypophyse → **LH** → (+) cellules de Leydig → **testostérone** → (+) organes cibles (vésicules séminales, prostate, caractères sexuels) ;
+- hypophyse → **FSH** → (+) cellules de Sertoli → spermatogenèse (avec la testostérone) ;
+- testostérone → (−) hypothalamus et hypophyse ; inhibine (cellules de Sertoli) → (−) hypophyse (FSH).
+
+Schéma chez la femelle :
+- hypothalamus → **GnRH** → (+) hypophyse ;
+- hypophyse → **FSH** et **LH** → (+) ovaire (follicules, puis corps jaune) ;
+- ovaire → **œstradiol** et **progestérone** → (+) utérus (endomètre) et autres organes cibles ;
+- œstradiol et progestérone → (−) hypothalamus et hypophyse pendant la plus grande partie du cycle ; un taux élevé d'œstradiol en fin de phase folliculaire exerce un rétrocontrôle **positif**, qui déclenche le pic de LH et l'ovulation.
+""", note="Pas de corrigé officiel disponible pour cette session. Les réponses se lisent sans ambiguïté sur les documents (X = testostérone, Y = œstradiol, rôle de l'hypophyse) ; la question 4 demande une hypothèse, présentée comme telle (levée du rétrocontrôle négatif chez le castré).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {}

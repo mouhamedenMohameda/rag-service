@@ -202,7 +202,7 @@ menstruation menstruel menstruelle hypophyse ovarien ovarienne ovariens ovarienn
 pubère puberté gestation lutéinisante folliculostimulante endométrial pelvien muqueuse ménopause atrésie
 spermatozoïde spermatozoïdes acrosome zygote embryon méiose mitose chromatide chromatides gonade gonades
 galiléen galiléenne géocentrique héliocentrique géostationnaire tangentielle kepler antineutrino nucléide nucléides
-nucléon nucléons xénon webcam mev kev radioactivité désintégration vectoriellement plasmatique hypophysaires gestatif hypothalamo vitro cavitaire mme fivete autosome autosomes caryotype caryotypes cytochalasine gonosome gonosomes porteuse rétrocontrôles scan aïcha sœur sœurs œuf œufs allèle allèles phénotype phénotypes génotype génotypes blastocyste blastomère blastomères cortisol micropilule monozygote monozygotes morula myomètre corona radiata métaphasique métaphasiques
+nucléon nucléons xénon webcam mev kev radioactivité désintégration vectoriellement plasmatique hypophysaires gestatif hypothalamo vitro cavitaire mme fivete autosome autosomes caryotype caryotypes cytochalasine gonosome gonosomes porteuse rétrocontrôles scan aïcha sœur sœurs œuf œufs allèle allèles phénotype phénotypes génotype génotypes blastocyste blastomère blastomères cortisol micropilule monozygote monozygotes morula myomètre corona radiata métaphasique métaphasiques gonadostimuline gonadostimulines testiculaire testiculaires inhibine interstitiel interstitielle membranaire membranaires amphimixie caryogamie diploïdes haploïdes parabiose ratte rattes séminale séminales
 """.split())
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿ]+)?")
