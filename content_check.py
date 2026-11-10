@@ -202,7 +202,7 @@ menstruation menstruel menstruelle hypophyse ovarien ovarienne ovariens ovarienn
 pubère puberté gestation lutéinisante folliculostimulante endométrial pelvien muqueuse ménopause atrésie
 spermatozoïde spermatozoïdes acrosome zygote embryon méiose mitose chromatide chromatides gonade gonades
 galiléen galiléenne géocentrique héliocentrique géostationnaire tangentielle kepler antineutrino nucléide nucléides
-nucléon nucléons xénon webcam mev kev radioactivité désintégration vectoriellement
+nucléon nucléons xénon webcam mev kev radioactivité désintégration vectoriellement plasmatique hypophysaires gestatif hypothalamo vitro cavitaire mme fivete autosome autosomes caryotype caryotypes cytochalasine gonosome gonosomes porteuse rétrocontrôles scan
 """.split())
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿ]+)?")
