@@ -467,6 +467,233 @@ On en déduit que, chez la femelle, la liaison est **partielle** : un crossing-o
 """, note="Correction conforme au corrigé officiel (test cross, liaison totale chez le mâle ; p = 12 % ; gamète parental 44 % ; 1440, 440, 60, 60).")
 
 
+# ═══════════════════════════════ C 2018 — session normale ═════════════════════
+
+E = "bac-c-2018-sn-svt-ex3"
+_add(E, r"""
+**Exercice 3 (6 points)**
+
+Afin d'étudier, chez une plante, le mode de transmission de deux caractères, couleur de la fleur et longueur de la tige, on effectue deux croisements.
+
+- Le croisement d'une plante à fleurs rouges et tige courte avec une plante à fleurs jaunes et tige longue donne une génération $F_1$ formée de plantes à fleurs bicolores et tiges longues.
+
+**1.** Que pouvez-vous en déduire ?
+
+- Le croisement d'une plante de $F_1$ avec une plante à fleurs bicolores et tige courte donne une $F_2$ :
+  - 200 plantes à fleurs bicolores et tiges longues ;
+  - 200 plantes à fleurs bicolores et tiges courtes ;
+  - 160 plantes à fleurs rouges et tiges courtes ;
+  - 160 plantes à fleurs jaunes et tiges longues ;
+  - 40 plantes à fleurs rouges et tiges longues ;
+  - 40 plantes à fleurs jaunes et tiges courtes.
+
+**2.** Analysez ces résultats afin de préciser si les gènes sont liés ou indépendants.
+
+**3.** Écrivez les génotypes des parents et des individus de la $F_1$.
+
+**4.** Expliquez les résultats de la $F_2$ en réalisant l'échiquier de croisement.
+
+**5.** Précisez la position relative des gènes.
+
+*Attention : utilisez les symboles suivants : $R$ = rouge ; $B$ = jaune ; $L$ = longue ; $n$ = courte.*
+""", r"""
+**1.** La $F_1$ est homogène : les parents sont de **race pure**.
+- Tige : la $F_1$ a la tige longue, donc **$L$ domine $n$**.
+- Couleur : la $F_1$ a des fleurs bicolores (rouge et jaune), donc **$R$ et $B$ sont codominants**.
+
+**2.** Si les gènes étaient indépendants, le croisement $F_1$ × (bicolore, courte) donnerait 6 phénotypes dans les proportions $\dfrac{1}{8}$, $\dfrac{1}{8}$, $\dfrac{1}{8}$, $\dfrac{1}{8}$, $\dfrac{1}{4}$, $\dfrac{1}{4}$ (soit 100, 100, 100, 100, 200 et 200 sur 800 plantes). Or on obtient 160 rouges-courtes et 160 jaunes-longues (combinaisons des parents de départ) contre seulement 40 rouges-longues et 40 jaunes-courtes (combinaisons nouvelles) : les gènes sont **liés**, avec crossing-over (**liaison partielle**).
+
+**3.** Parents : $\dfrac{R\,n}{R\,n}$ (rouge, courte) et $\dfrac{B\,L}{B\,L}$ (jaune, longue) ; $F_1$ : $\dfrac{R\,n}{B\,L}$ (bicolore, longue).
+
+La plante testeuse (bicolore, courte) est $\dfrac{R\,n}{B\,n}$.
+
+**4.** La $F_1$ produit $Rn$ et $BL$ (parentaux, $\dfrac{1 - p}{2}$ chacun), $RL$ et $Bn$ (recombinés, $\dfrac{p}{2}$ chacun). La plante testeuse produit $\dfrac{1}{2}\,Rn$ et $\dfrac{1}{2}\,Bn$.
+
+| testeuse \ $F_1$ | $Rn$ ($\frac{1 - p}{2}$) | $BL$ ($\frac{1 - p}{2}$) | $RL$ ($\frac{p}{2}$) | $Bn$ ($\frac{p}{2}$) |
+|---|---|---|---|---|
+| $Rn$ ($\frac{1}{2}$) | $[Rn]$ rouge, courte | $[RBL]$ bicolore, longue | $[RL]$ rouge, longue | $[RBn]$ bicolore, courte |
+| $Bn$ ($\frac{1}{2}$) | $[RBn]$ bicolore, courte | $[BL]$ jaune, longue | $[RBL]$ bicolore, longue | $[Bn]$ jaune, courte |
+
+D'où : bicolore-longue $\dfrac{1}{4}$ ; bicolore-courte $\dfrac{1}{4}$ ; rouge-courte et jaune-longue $\dfrac{1 - p}{4}$ chacune ; rouge-longue et jaune-courte $\dfrac{p}{4}$ chacune.
+
+Sur 800 plantes : $\dfrac{1}{4} \times 800 = 200$ ✓ ; $\dfrac{p}{4} = \dfrac{40}{800} = 5\ \%$, d'où $p = 20\ \%$ ; alors $\dfrac{1 - p}{4} \times 800 = 160$ ✓.
+
+**5.** $p = 20\ \%$ : les deux gènes sont portés par le même chromosome, distants de **20 cM**.
+""", note="Correction conforme au corrigé officiel (R et B codominants, L > n ; gènes liés ; parents Rn/Rn × BL/BL, F1 Rn/BL ; p/4 = 5 %, p = 20 %, 20 cM).")
+
+
+# ═══════════════════════════════ C 2019 — session normale ═════════════════════
+
+E = "bac-c-2019-sn-svt-ex1"
+_add(E, rf"""
+**Exercice 1 (7 points)**
+
+**A.** Le tableau ci-contre est le résultat d'une électrophorèse réalisée sur l'ADN des membres d'une famille dont certains sont atteints par une maladie héréditaire.
+
+{fig(E, 1, "Électrophorèse : allèles A et B chez le père, la mère, la fille (sains) et le fils (malade)")}
+
+*Lecture du document :* le père ne présente que l'allèle $A$ ; la mère présente $A$ et $B$ ; la fille ne présente que $A$ ; le fils, malade, ne présente que $B$.
+
+Écrire les génotypes des membres de cette famille.
+
+**B.** On considère chez une drosophile trois gènes $G_1$ ($B/b$), $G_2$ ($N/n$) et $G_3$ ($R/r$).
+
+Le tableau suivant montre des résultats partiels de quelques croisements tests réalisés chez cette drosophile.
+
+| Gènes | ($B/b$)–($N/n$) | ($N/n$)–($R/r$) | ($B/b$)–($R/r$) |
+|---|---|---|---|
+| % d'un phénotype recombiné | 7 | 4 | ? |
+
+**1.** Exploitez ces résultats en vue de déterminer :
+
+**1.1.** si les gènes sont liés ou indépendants ;
+
+**1.2.** les génotypes des individus croisés dans chaque colonne, sachant que les phénotypes $[Bn]$ et $[Nr]$ sont recombinés ;
+
+**1.3.** la répartition phénotypique de chaque descendance pour les deux premières colonnes.
+
+**2.** Déduisez la distance entre $G_1$ et $G_3$.
+
+**3.** Dressez les cartes factorielles possibles.
+""", r"""
+**A.**
+- La mère est saine et possède les deux allèles $A$ et $B$ : l'allèle de la maladie est **récessif**. Le fils malade ne possède que $B$, donc $B$ est l'allèle muté (récessif) et $A$ l'allèle normal (dominant).
+- Le père ne possède que $A$ et pourtant son fils ne possède que $B$ : le fils n'a reçu aucun allèle de son père, ce qui s'explique si le gène est **porté par le chromosome $X$** (le fils reçoit le $Y$ de son père et le $X^B$ de sa mère).
+
+| Individu | Père | Mère | Fille | Fils |
+|---|---|---|---|---|
+| Génotype | $X^AY$ | $X^AX^B$ | $X^AX^A$ | $X^BY$ |
+
+**B. 1.1.** Dans un croisement test, deux gènes indépendants donnent 4 phénotypes à 25 % chacun ; un phénotype recombiné à 7 % (ou 4 %) est très inférieur à 25 % : les gènes sont **liés** deux à deux, avec une **liaison partielle** (crossing-over).
+
+**B. 1.2.** $[Bn]$ est recombiné, donc les combinaisons parentales sont $BN$ et $bn$ ; $[Nr]$ est recombiné, donc les combinaisons parentales sont $NR$ et $nr$.
+- 1ʳᵉ colonne : $\dfrac{B\,N}{b\,n} \times \dfrac{b\,n}{b\,n}$ ;
+- 2ᵉ colonne : $\dfrac{N\,R}{n\,r} \times \dfrac{n\,r}{n\,r}$ ;
+- 3ᵉ colonne : $\dfrac{B\,R}{b\,r} \times \dfrac{b\,r}{b\,r}$ (d'après les deux premières, $B$, $N$ et $R$ sont sur le même chromosome).
+
+**B. 1.3.**
+
+| 1ʳᵉ colonne | $[BN]$ | $[bn]$ | $[Bn]$ | $[bN]$ |
+|---|---|---|---|---|
+| Proportion | 43 % | 43 % | 7 % | 7 % |
+
+| 2ᵉ colonne | $[NR]$ | $[nr]$ | $[Nr]$ | $[nR]$ |
+|---|---|---|---|---|
+| Proportion | 46 % | 46 % | 4 % | 4 % |
+
+(Chaque phénotype recombiné vaut $\dfrac{p}{2}$ et chaque phénotype parental $\dfrac{1 - p}{2}$.)
+
+**B. 2.** $G_1$–$G_2$ : $p = 2 \times 7 = 14\ \%$, soit **14 cM**. $G_2$–$G_3$ : $p = 2 \times 4 = 8\ \%$, soit **8 cM**.
+
+Selon la position de $G_3$ : $G_1$–$G_3$ = $14 + 8 = $ **22 cM**, ou $14 - 8 = $ **6 cM**.
+
+**B. 3.** Deux cartes factorielles possibles :
+- $G_1$ — 14 cM — $G_2$ — 8 cM — $G_3$ (soit $G_1$–$G_3$ = 22 cM) ;
+- $G_1$ — 6 cM — $G_3$ — 8 cM — $G_2$ (soit $G_1$–$G_2$ = 14 cM).
+""", note="Correction conforme au corrigé officiel (B récessif lié à X ; gènes liés ; 43/43/7/7 et 46/46/4/4 ; 14 cM et 8 cM ; 22 ou 6 cM). Le corrigé note le génotype de la mère « X^A/Y^B » : coquille, c'est X^A X^B (la mère a deux chromosomes X). L'électrophorèse du scan est lisible mais peu nette : sa lecture est écrite dans l'énoncé et concorde avec le corrigé.")
+
+
+E = "bac-c-2020-sn-svt-ex2"
+_add(E, rf"""
+**Exercice 2 (6 points)**
+
+Le pedigree ci-contre est celui d'une famille dont certains membres sont atteints par une maladie oculaire.
+
+{fig(E, 1, "Pedigree : I1 × I2 ; II2 atteint, marié à II1 ; II3 marié à II4 ; enfants à naître III1 et III2")}
+
+**1.** L'allèle de cette maladie est-il dominant ou récessif ?
+
+Un examen ophtalmologique est réalisé chez certains membres de cette famille. Le document 1 montre le fond de l'œil de différents sujets :
+- $[a]$ s'observe chez les sujets à vision normale ;
+- $[b]$ s'observe chez les sujets à vision très diminuée ;
+- $[c]$ s'observe chez tous les sujets malades.
+
+{fig(E, 2, "Document 1 : fonds d'œil a, b et c")}
+
+**2.** Qu'apportent ces informations ?
+
+**3.** L'allèle responsable de la maladie est-il porté par $X$, $Y$ ou par un autosome ?
+
+**4.** Des études médicales ont précisé que le fond $[b]$ s'observe chez les hommes.
+
+a) Que déduisez-vous ?
+
+b) Donnez les génotypes des individus suivants : $I_2$, $II_1$, $II_2$ et $II_3$.
+
+Sachant que la fréquence des hybrides dans cette population est de $\dfrac{1}{50}$ :
+
+**5.** Quelle est la probabilité pour que le sujet :
+
+a) $III_1$ soit un garçon atteint ;
+
+b) $III_2$ soit atteint.
+""", r"""
+On note $S$ l'allèle normal et $M$ l'allèle de la maladie.
+
+**1.** Le couple $I_1$ × $I_2$, sain, a un fils atteint ($II_2$) : l'allèle de la maladie était présent chez les parents sans s'exprimer. Il est **récessif**.
+
+**2.** Il y a **trois phénotypes** de fond d'œil : $[a]$ (normal), $[c]$ (malade) et un phénotype intermédiaire $[b]$ (vision très diminuée), qui correspond aux hétérozygotes $S/M$. Les deux allèles s'expriment chez l'hétérozygote : il y a **codominance** au niveau du fond d'œil, tandis que la maladie elle-même n'apparaît que chez les homozygotes $M/M$.
+
+**3.**
+- **Porté par $Y$** : rejeté, car le père $I_1$ n'est pas atteint alors que son fils $II_2$ l'est.
+- **Autosomique** : possible, si $I_1$ et $I_2$ sont tous deux hétérozygotes.
+- **Porté par $X$** : possible, si la mère $I_2$ est hétérozygote ($X^SX^M$).
+
+**4. a)** Un homme ne possède qu'un seul chromosome $X$ ; si le gène était porté par $X$, un homme ne pourrait pas être hétérozygote, donc pas présenter le fond $[b]$. Puisque des hommes ont le fond $[b]$, le gène est **autosomique**.
+
+**b)** $I_2$ : $S/M$ (mère d'un enfant $M/M$, non atteinte) ; $II_1$ : $S/S$ ou $S/M$ (non atteinte, d'origine extérieure à la famille) ; $II_2$ : $M/M$ (atteint) ; $II_3$ : $S/S$ ou $S/M$ (non atteint, enfant de deux hétérozygotes).
+
+**5. a)** $III_1$ est un garçon atteint ($M/M$) si sa mère $II_1$ est hybride (probabilité $\dfrac{1}{50}$) et lui transmet $M$ ($\dfrac{1}{2}$), le père $II_2$ ($M/M$) transmettant toujours $M$ ($1$), et si l'enfant est un garçon ($\dfrac{1}{2}$) :
+$$P = \dfrac{1}{50} \times \dfrac{1}{2} \times 1 \times \dfrac{1}{2} = \dfrac{1}{200}.$$
+
+**b)** $II_3$ est sain, enfant de deux hétérozygotes : il est hybride avec la probabilité $\dfrac{2}{3}$. $II_4$ est hybride avec la probabilité $\dfrac{1}{50}$. Deux hybrides ont un enfant $M/M$ avec la probabilité $\dfrac{1}{4}$ :
+$$P = \dfrac{2}{3} \times \dfrac{1}{50} \times \dfrac{1}{4} = \dfrac{1}{300}.$$
+""", note="Correction conforme au corrigé officiel (récessif ; codominance au niveau du fond d'œil ; Y rejeté, X et autosome possibles ; [b] chez des hommes → autosomique ; I2 S/M, II1 S/S ou S/M, II2 M/M, II3 S/S ou S/M ; 1/200 et 1/300). La correction précise que la codominance porte sur le fond d'œil, la maladie restant récessive. Comme le corrigé, elle traite II1 et II4 comme non examinés (fréquence des hybrides de la population).")
+
+
+# ═══════════════════════════════ D 2024 — session normale ═════════════════════
+
+E = "bac-d-2024-sn-svt-ex3"
+_add(E, r"""
+**Exercice 2 (4 points)**
+
+Koumba décrit les membres de sa famille où sévit une maladie héréditaire :
+
+« Ma mère Pinda est normale comme moi, mais mon père Sidi et mon fils Souley souffrent de cette maladie. Mon frère Ali est sain, contrairement à mon mari Oumar et ma fille Fatma. Raki, l'épouse de mon frère, est malade et ce couple a un garçon, Baba, sain. Habi, l'épouse de mon fils Souley, est saine et attend un enfant dans quelques mois. »
+
+**1.** Établir l'arbre généalogique de cette famille.
+
+**2.** Discuter le mode de transmission de cette maladie.
+
+**3.** La séparation par électrophorèse des fragments d'ADN du gène en question a montré que Fatma ne présente qu'un seul type d'ADN. Qu'apporte cette donnée ?
+
+**4.** Écrire les génotypes de Koumba et de ses parents.
+
+**5.** Donner le génotype de l'enfant de Habi sachant qu'il est de sexe masculin.
+
+*NB : on considère l'allèle normal ($N$ ou $n$) et l'allèle muté ($M$ ou $m$).*
+""", r"""
+**1.** Arbre généalogique :
+- génération I : Sidi (homme **malade**) × Pinda (femme saine) ;
+- génération II : leurs enfants Koumba (femme saine) et Ali (homme sain). Koumba est mariée à Oumar (homme **malade**), Ali à Raki (femme **malade**) ;
+- génération III : enfants de Koumba et Oumar, Souley (garçon **malade**) et Fatma (fille **malade**) ; enfant d'Ali et Raki, Baba (garçon sain). Souley est marié à Habi (femme saine) ;
+- génération IV : le fœtus de Souley et Habi.
+
+**2.**
+- **Récessif autosomique** : possible, si les individus sains qui ont un parent ou un enfant malade sont hétérozygotes.
+- **Dominant autosomique** : possible, si les malades sont hétérozygotes et les sains homozygotes.
+- **Récessif lié à $X$** : rejeté. Raki est malade ($X^mX^m$) et son fils Baba est sain : il aurait reçu $X^m$ de sa mère et serait malade.
+- **Dominant lié à $X$** : rejeté. Sidi est malade ($X^MY$) et sa fille Koumba est saine : elle aurait reçu $X^M$ de son père et serait malade.
+- **Lié à $Y$** : rejeté, car des femmes sont malades.
+
+**3.** Fatma est malade et ne possède qu'un seul type d'allèle : elle est **homozygote**. Si l'allèle de la maladie était dominant, un malade homozygote $M/M$ aurait deux parents porteurs de $M$, donc deux parents malades ; or sa mère Koumba est saine. L'allèle de la maladie est donc **récessif autosomique** ($N > m$).
+
+**4.** Koumba (saine, fille d'un père $m/m$) : $N/m$ ; Sidi (malade) : $m/m$ ; Pinda (saine) : $N/N$ ou $N/m$.
+
+**5.** Souley est malade ($m/m$) et transmet toujours $m$. Habi est saine : $N/N$ ou $N/m$. L'enfant est donc $N/m$ (sain, porteur) ou $m/m$ (malade, seulement si Habi est $N/m$). Le gène étant autosomique, le sexe de l'enfant ne change rien à ce résultat.
+""", note="Le texte en base pour cet identifiant (« Exercice 2 (4,5 pts), drosophiles b, vg, r ») ne correspond pas au sujet officiel D 2024 session normale, dont l'exercice 2 est celui de la famille de Koumba : l'énoncé est remplacé par celui du PDF (l'ancien texte reste dans ennonce_ocr). Correction conforme au corrigé officiel (arbre ; récessif X rejeté par Raki/Baba, dominant X par Sidi/Koumba ; Fatma homozygote → récessif autosomique ; Koumba N/m, Sidi m/m, Pinda N/N ou N/m ; enfant N/m ou m/m).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {
     "bac-d-2017-sn-svt-ex4": [
@@ -500,5 +727,17 @@ CHECKS: dict[str, list[str]] = {
     "bac-c-2023-sn-svt-ex4": [
         "close((1 - Rational(12, 100))/4, Rational(22, 100)) and close((1 - Rational(12, 100))/2, Rational(44, 100))",
         "close((3 - Rational(12, 100))/4*2000, 1440) and close(Rational(22, 100)*2000, 440) and close(Rational(12, 100)/4*2000, 60)",
+    ],
+    "bac-c-2018-sn-svt-ex3": [
+        "200 + 200 + 160 + 160 + 40 + 40 == 800 and close(Rational(40, 800)*4, Rational(20, 100))",
+        "close((1 - Rational(20, 100))/4*800, 160) and close(Rational(1, 4)*800, 200)",
+    ],
+    "bac-c-2019-sn-svt-ex1": [
+        "close((1 - Rational(14, 100))/2, Rational(43, 100)) and close((1 - Rational(8, 100))/2, Rational(46, 100))",
+        "14 + 8 == 22 and 14 - 8 == 6",
+    ],
+    "bac-c-2020-sn-svt-ex2": [
+        "close(Rational(1, 50)*Rational(1, 2)*1*Rational(1, 2), Rational(1, 200))",
+        "close(Rational(2, 3)*Rational(1, 50)*Rational(1, 4), Rational(1, 300))",
     ],
 }
