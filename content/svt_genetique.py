@@ -256,6 +256,217 @@ Les deux gènes sont sur des chromosomes différents : ils sont **indépendants*
 # ═══════════════════════════════ D 2024 — session normale ═════════════════════
 
 
+# ═══════════════════════════════ D 2018 — session normale ═════════════════════
+
+E = "bac-d-2018-sn-svt-ex2"
+_add(E, r"""
+**Exercice 1 (5 points)**
+
+On considère chez une espèce animale (lapin) trois gènes ($A/a$), ($B/b$) et ($R/r$) portés par des autosomes.
+
+Afin de tester le degré de compréhension de ses élèves, un professeur propose à sa classe de 7ᵉ D une représentation simplifiée de la carte génétique et les résultats partiels de deux croisements (tableau ci-dessous).
+
+*Carte génétique proposée :* deux segments de chromosome, l'un portant $A,a$ et $B,b$ séparés de $X$ cM, l'autre portant $B,b$ et $R,r$ séparés de $Y$ cM.
+
+| | Croisement 1 (test cross) | Croisement 2 (autocroisement) |
+|---|---|---|
+| Phénotypes des individus croisés | $[AB] \times [ab]$ | $[BR] \times [BR]$ |
+| Parmi les phénotypes obtenus | 42 % $[Ab]$ | 3 % $[bR]$ |
+
+**1.** Déterminez les valeurs $X$ et $Y$.
+
+**2.** Quels sont les gamètes formés par les individus du croisement 1 et dans quelles proportions ?
+
+**3.** Mohamed suggère à son professeur de représenter les gènes sur un même chromosome, au lieu de deux. Justifiez cette suggestion.
+
+**4.** Suite à la suggestion de Mohamed, le professeur demande à ses élèves de représenter ces gènes sur un seul chromosome. Niang et Sidi proposent deux réponses justes mais qui diffèrent l'une de l'autre. Quelles sont ces deux réponses ?
+
+**5.** Camara annonce à son professeur qu'il peut confirmer la réponse de Sidi. Justifiez par un croisement l'annonce de Camara.
+""", r"""
+**1.**
+- **Croisement 1** (test cross) : le parent $[ab]$ est double récessif ($ab/ab$) et ne fournit que des gamètes $ab$, donc les phénotypes reflètent les gamètes du parent $[AB]$ (double hétérozygote). 42 % de $[Ab]$ est une proportion **parentale** : $\dfrac{1 - p}{2} = 42\ \%$, d'où $p = 16\ \%$ et **$X = 16$ cM**. Le parent $[AB]$ est $\dfrac{A\,b}{a\,B}$.
+- **Croisement 2** (autocroisement de deux doubles hétérozygotes) : 3 % de $[bR]$ est faible, c'est un phénotype **recombiné**. Les parents sont donc $\dfrac{B\,R}{b\,r}$ ; ils produisent $BR$ et $br$ avec la fréquence $\dfrac{1 - p}{2}$ chacun, $Br$ et $bR$ avec $\dfrac{p}{2}$ chacun. Un individu $[bR]$ est $\dfrac{b\,R}{b\,R}$ ou $\dfrac{b\,R}{b\,r}$ :
+$$\left(\dfrac{p}{2}\right)^2 + 2 \times \dfrac{p}{2} \times \dfrac{1 - p}{2} = \dfrac{2p - p^2}{4} = 0{,}03 \iff p^2 - 2p + 0{,}12 = 0,$$
+d'où $p = 1 - \sqrt{0{,}88} \approx 0{,}062$ (l'autre racine est supérieure à 1). Donc **$Y \approx 6$ cM**.
+
+(Comme $p$ est petit, $\dfrac{p^2}{4}$ est négligeable et on retrouve directement $\dfrac{p}{2} \approx 3\ \%$.)
+
+**2.**
+- Parent $[AB]$, de génotype $\dfrac{A\,b}{a\,B}$ : 4 types de gamètes, $Ab$ 42 %, $aB$ 42 % (parentaux), $AB$ 8 % et $ab$ 8 % (recombinés).
+- Parent $[ab]$, de génotype $\dfrac{a\,b}{a\,b}$ : un seul type de gamète, $ab$ (100 %).
+
+**3.** $A/a$ est lié à $B/b$, et $B/b$ est lié à $R/r$ : les trois gènes sont donc portés par le **même chromosome** (le gène $B/b$ ne peut pas être sur deux chromosomes différents).
+
+**4.** On connaît les distances $A$–$B$ = 16 cM et $B$–$R$ = 6 cM, mais pas l'ordre des gènes. Deux cartes sont possibles :
+- **Niang** : $R$ est à l'extérieur, de l'autre côté de $B$ : $A$ — 16 cM — $B$ — 6 cM — $R$, soit $A$–$R$ = 22 cM.
+- **Sidi** : $R$ est entre $A$ et $B$ : $A$ — 10 cM — $R$ — 6 cM — $B$, soit $A$–$R$ = 10 cM.
+
+**5.** Il suffit de mesurer la distance $A$–$R$ par un **test cross** : $\dfrac{A\,R}{a\,r} \times \dfrac{a\,r}{a\,r}$.
+
+Si la carte de Sidi est juste ($A$–$R$ = 10 cM), on obtient : $[AR]$ 45 %, $[ar]$ 45 %, $[Ar]$ 5 %, $[aR]$ 5 %. (Avec la carte de Niang, 22 cM, on aurait 11 % pour chaque phénotype recombiné.) Obtenir 5 % de chaque recombiné confirme la réponse de Sidi.
+""", note="Correction conforme au corrigé officiel (X = 16 cM, Y = 6 cM ; gamètes 42/42/8/8 ; gènes sur un même chromosome ; cartes A–B–R et A–R–B ; test cross AR/ar × ar/ar donnant 45/5/5/45 pour Sidi). Y vaut exactement 1 − √0,88 ≈ 6,2 cM, arrondi à 6 cM comme dans le corrigé. Le NB du corrigé (« hypothèse I celle de Sidi … 11 % ») inverse les noms : 11 % correspond à la carte de Niang (22 cM).")
+
+
+# ═══════════════════════════════ C 2017 — session normale ═════════════════════
+
+E = "bac-c-2017-sn-svt-ex4"
+_add(E, r"""
+**Génétique (5 points)**
+
+On croise deux drosophiles, l'une de type sauvage $[a^+b^+]$, l'autre du type mutant $[ab]$. Tous les individus de la $F_1$ ont le phénotype sauvage $[a^+b^+]$.
+
+**1.** Que déduisez-vous ?
+
+Ensuite on croise entre eux les individus de la $F_1$ ; on obtient une $F_2$ composée de :
+- 70 % de drosophiles de type $[a^+b^+]$ ;
+- 20 % de drosophiles de type $[ab]$ ;
+- 5 % de drosophiles de type $[a^+b]$ ;
+- 5 % de drosophiles de type $[ab^+]$.
+
+**2.** Donnez le génotype de chacun des deux parents et celui de la $F_1$.
+
+**3.** Interprétez les résultats obtenus en $F_2$.
+
+**4.** Prévoir la répartition de 700 drosophiles issues d'un croisement d'une femelle de $F_1$ avec un mâle de type $[ab]$.
+
+**5.** Il existe un troisième gène $n^+/n$, distant du gène $a^+/a$ de 6 centimorgans. Représentez la carte génétique des trois gènes.
+""", r"""
+**1.** On étudie deux caractères (dihybridisme). La $F_1$ est homogène : les parents sont de **race pure** (première loi de Mendel). La $F_1$ a le phénotype sauvage : les allèles sauvages sont **dominants**, $a^+ > a$ et $b^+ > b$.
+
+**2.** Parents : $\dfrac{a^+\,b^+}{a^+\,b^+}$ et $\dfrac{a\,b}{a\,b}$ ; $F_1$ : $\dfrac{a^+\,b^+}{a\ \,b}$ (gènes liés, voir 3).
+
+**3.** Si les gènes étaient indépendants, la $F_2$ serait en proportions $\dfrac{9}{16}$, $\dfrac{3}{16}$, $\dfrac{3}{16}$, $\dfrac{1}{16}$ (56,25 %, 18,75 %, 18,75 %, 6,25 %). On obtient 70 %, 20 %, 5 %, 5 % : les gènes sont **liés**, avec des phénotypes recombinés peu nombreux, donc un **crossing-over** partiel.
+
+Chez la drosophile, il n'y a pas de crossing-over chez le mâle : le mâle $F_1$ donne $\dfrac{1}{2}\,a^+b^+$ et $\dfrac{1}{2}\,ab$. La femelle $F_1$ donne $a^+b^+$ et $ab$ (parentaux, $\dfrac{1 - p}{2}$ chacun), $a^+b$ et $ab^+$ (recombinés, $\dfrac{p}{2}$ chacun).
+
+$[ab]$ s'obtient seulement par $ab$ (femelle) × $ab$ (mâle) : $\dfrac{1 - p}{2} \times \dfrac{1}{2} = 20\ \%$, d'où $\dfrac{1 - p}{2} = 40\ \%$ et $p = 20\ \%$.
+
+| ♀ \ ♂ | $a^+b^+$ ($\frac{1}{2}$) | $ab$ ($\frac{1}{2}$) |
+|---|---|---|
+| $a^+b^+$ (40 %) | $[a^+b^+]$ 20 % | $[a^+b^+]$ 20 % |
+| $ab$ (40 %) | $[a^+b^+]$ 20 % | $[ab]$ 20 % |
+| $a^+b$ (10 %) | $[a^+b^+]$ 5 % | $[a^+b]$ 5 % |
+| $ab^+$ (10 %) | $[a^+b^+]$ 5 % | $[ab^+]$ 5 % |
+
+Bilan : $[a^+b^+]$ 70 %, $[ab]$ 20 %, $[a^+b]$ 5 %, $[ab^+]$ 5 % : c'est bien le résultat observé. Les deux gènes sont distants de **20 cM**.
+
+**4.** Croisement test : ♀ $\dfrac{a^+\,b^+}{a\ \,b}$ × ♂ $\dfrac{a\,b}{a\,b}$. Les phénotypes reflètent les gamètes de la femelle : $[a^+b^+]$ 40 %, $[ab]$ 40 %, $[a^+b]$ 10 %, $[ab^+]$ 10 %.
+
+Sur 700 drosophiles : $[a^+b^+]$ : 280 ; $[ab]$ : 280 ; $[a^+b]$ : 70 ; $[ab^+]$ : 70.
+
+**5.** On connaît $a$–$b$ = 20 cM et $a$–$n$ = 6 cM, mais pas le côté où se trouve $n$. Deux cartes sont possibles :
+- $n$ entre $a$ et $b$ : $a$ — 6 cM — $n$ — 14 cM — $b$ ;
+- $n$ à l'extérieur, du côté opposé à $b$ : $n$ — 6 cM — $a$ — 20 cM — $b$ (soit $n$–$b$ = 26 cM).
+
+Seul un croisement donnant la distance $n$–$b$ permettrait de choisir entre les deux.
+""", note="Correction croisée avec le corrigé officiel, qui ne traite que les questions 1, 2 et le début de 3. Le corrigé écrit « b > b⁺ » : coquille, la F1 sauvage montre que b⁺ domine b. Les questions 3 à 5 sont entièrement recalculées (p = 20 %, 280/280/70/70) ; en 5, les deux positions possibles de n sont données car l'énoncé ne permet pas de trancher.")
+
+
+# ═══════════════════════════════ C 2020 — session normale ═════════════════════
+
+E = "bac-c-2020-sn-svt-ex1"
+_add(E, r"""
+**Exercice 1 (4 points)**
+
+On croise deux lignées de drosophiles, l'une à corps gris et ailes longues, l'autre à corps noir et ailes vestigiales. Les hybrides de la $F_1$ ont tous un phénotype corps gris, ailes longues.
+
+**1.** Définissez les mots génotype et phénotype.
+
+**2.** Expliquez le résultat de ce croisement.
+
+**3.** Le croisement de drosophiles femelles hybrides de la $F_1$ avec des mâles doubles récessifs donne 17 % de phénotypes nouveaux.
+
+a) Quels sont les phénotypes nouveaux obtenus ?
+
+b) Quelle est la proportion d'un gamète parental ?
+
+c) Nommez et représentez le phénomène à l'origine de l'apparition des phénotypes nouveaux.
+
+d) Donnez les résultats de la $F_2$. Justifiez par un échiquier de croisement.
+""", r"""
+On note $G$ (corps gris) et $n$ (corps noir), $L$ (ailes longues) et $v$ (ailes vestigiales).
+
+**1.**
+- **Génotype** : ensemble des allèles que possède un individu pour le ou les gènes considérés.
+- **Phénotype** : ensemble des caractères observables (l'expression du génotype).
+
+**2.** La $F_1$ est homogène : les parents sont de **race pure** (dihybridisme). Elle a le phénotype gris, ailes longues : $G$ domine $n$ et $L$ domine $v$. Le caractère se transmet de la même façon aux deux sexes (gènes **autosomiques**). Génotypes : parents $\dfrac{G\,L}{G\,L}$ et $\dfrac{n\,v}{n\,v}$ ; $F_1$ $\dfrac{G\,L}{n\,v}$.
+
+**3. a)** Les phénotypes nouveaux (recombinés) sont $[Gv]$ (corps gris, ailes vestigiales) et $[nL]$ (corps noir, ailes longues).
+
+**b)** Croisement test : les phénotypes reflètent les gamètes de la femelle $F_1$. 17 % de recombinés : $p = 17\ \%$, donc chaque gamète parental ($GL$ ou $nv$) représente $\dfrac{1 - p}{2} = 41{,}5\ \%$ (et chaque gamète recombiné $\dfrac{p}{2} = 8{,}5\ \%$).
+
+**c)** C'est le **brassage intrachromosomique** dû au **crossing-over** : pendant la prophase I de méiose, les chromatides de deux chromosomes homologues échangent des segments entre les gènes $G/n$ et $L/v$ ; on obtient des chromatides recombinées $G\,v$ et $n\,L$.
+
+**d)** On entend par $F_2$ le croisement des individus de la $F_1$ entre eux. Chez la drosophile, il n'y a pas de crossing-over chez le mâle : le mâle $F_1$ produit $\dfrac{1}{2}\,GL$ et $\dfrac{1}{2}\,nv$.
+
+| ♂ \ ♀ | $GL$ (41,5 %) | $nv$ (41,5 %) | $Gv$ (8,5 %) | $nL$ (8,5 %) |
+|---|---|---|---|---|
+| $GL$ ($\frac{1}{2}$) | $[GL]$ | $[GL]$ | $[GL]$ | $[GL]$ |
+| $nv$ ($\frac{1}{2}$) | $[GL]$ | $[nv]$ | $[Gv]$ | $[nL]$ |
+
+Résultats : $[GL] = \dfrac{3 - p}{4} = 70{,}75\ \%$ ; $[nv] = \dfrac{1 - p}{4} = 20{,}75\ \%$ ; $[Gv] = [nL] = \dfrac{p}{4} = 4{,}25\ \%$.
+""", note="Correction conforme au corrigé officiel (Gv et nL ; gamète parental 41,5 % ; crossing-over ; F2 : (3−p)/4, (1−p)/4, p/4, p/4). L'échiquier du corrigé contient une coquille (case nv × nv notée [GL] au lieu de [nv]) ; son bilan final est juste. La correction précise l'interprétation de « F2 » retenue (F1 × F1, sans crossing-over chez le mâle).")
+
+
+# ═══════════════════════════════ C 2023 — session normale ═════════════════════
+
+E = "bac-c-2023-sn-svt-ex4"
+_add(E, r"""
+**Exercice 3 (6 points)**
+
+On se propose d'étudier la transmission de deux couples d'allèles chez la drosophile ($b^+$, $b$) et ($n^+$, $n$).
+
+Le croisement d'un mâle $[b^+n^+]$ avec une femelle $[b\,n]$ donne une génération $F_1$ formée de drosophiles $[b^+n^+]$.
+
+**1.** Que peut-on déduire ?
+
+**2.** Le croisement d'un mâle de la $F_1$ avec une femelle $[b\,n]$ donne les résultats suivants : 101 $[b^+n^+]$ ; 99 $[b\,n]$.
+
+a) Nommez ce type de croisement et précisez son intérêt.
+
+b) Que déduisez-vous des résultats de ce croisement ?
+
+c) Donnez les génotypes des parents et ceux de la $F_1$.
+
+**3.** Le croisement de deux drosophiles de la $F_1$ donne une génération $F_2$ dont 22 % de phénotype $[b\,n]$.
+
+a) Expliquez les résultats de ce croisement en justifiant votre réponse par un échiquier.
+
+b) Calculez le pourcentage d'un gamète parental produit par la femelle de $F_1$. Que déduisez-vous ?
+
+c) Donnez la répartition phénotypique de cette descendance sur un total de 2000 drosophiles.
+""", r"""
+**1.** La $F_1$ est homogène : les parents sont de **race pure**. Elle a le phénotype $[b^+n^+]$ : les allèles $b^+$ et $n^+$ sont **dominants** ($b^+ > b$, $n^+ > n$).
+
+**2. a)** C'est un **croisement test** (test cross) : on croise l'individu étudié avec un double récessif $[b\,n]$, qui ne fournit que des gamètes $b\,n$. Les phénotypes des descendants reflètent directement les gamètes de l'individu testé (leurs types et leurs proportions).
+
+**b)** On obtient seulement les deux phénotypes parentaux, en proportions égales (101 et 99, soit environ 50 % chacun), sans phénotype recombiné. Le mâle $F_1$ ne produit que deux types de gamètes, $b^+n^+$ et $b\,n$ : les deux gènes sont **liés** (portés par le même chromosome), avec une **liaison totale** chez le mâle (pas de crossing-over chez la drosophile mâle).
+
+**c)** Parents : ♂ $\dfrac{b^+\,n^+}{b^+\,n^+}$ et ♀ $\dfrac{b\,n}{b\,n}$ ; $F_1$ : $\dfrac{b^+\,n^+}{b\ \,n}$.
+
+**3. a)** Mâle $F_1$ : $\dfrac{1}{2}\,b^+n^+$ et $\dfrac{1}{2}\,b\,n$. Femelle $F_1$ (crossing-over possible) : $b^+n^+$ et $b\,n$ à $\dfrac{1 - p}{2}$ chacun, $b^+n$ et $b\,n^+$ à $\dfrac{p}{2}$ chacun.
+
+| ♂ \ ♀ | $b^+n^+$ ($\frac{1 - p}{2}$) | $b^+n$ ($\frac{p}{2}$) | $b\,n^+$ ($\frac{p}{2}$) | $b\,n$ ($\frac{1 - p}{2}$) |
+|---|---|---|---|---|
+| $b^+n^+$ ($\frac{1}{2}$) | $[b^+n^+]$ | $[b^+n^+]$ | $[b^+n^+]$ | $[b^+n^+]$ |
+| $b\,n$ ($\frac{1}{2}$) | $[b^+n^+]$ | $[b^+n]$ | $[b\,n^+]$ | $[b\,n]$ |
+
+D'où $[b^+n^+] = \dfrac{3 - p}{4}$, $[b\,n] = \dfrac{1 - p}{4}$, $[b^+n] = [b\,n^+] = \dfrac{p}{4}$.
+
+**b)** $\dfrac{1 - p}{4} = 22\ \%$, donc $1 - p = 88\ \%$ et $p = 12\ \%$. Un gamète parental de la femelle représente $\dfrac{1 - p}{2} = 44\ \%$.
+
+On en déduit que, chez la femelle, la liaison est **partielle** : un crossing-over se produit entre les deux gènes, distants de **12 cM**.
+
+**c)** Sur 2000 drosophiles :
+
+| Phénotype | $[b^+n^+]$ | $[b\,n]$ | $[b^+n]$ | $[b\,n^+]$ |
+|---|---|---|---|---|
+| Proportion | $\dfrac{3 - p}{4} = 72\ \%$ | $22\ \%$ | $3\ \%$ | $3\ \%$ |
+| Effectif | 1440 | 440 | 60 | 60 |
+""", note="Correction conforme au corrigé officiel (test cross, liaison totale chez le mâle ; p = 12 % ; gamète parental 44 % ; 1440, 440, 60, 60).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {
     "bac-d-2017-sn-svt-ex4": [
@@ -270,5 +481,24 @@ CHECKS: dict[str, list[str]] = {
     "bac-d-2023-sn-svt-ex3": [
         "close(Rational(3, 4)*Rational(1, 2), Rational(6, 16)) and close(Rational(1, 4)*Rational(1, 2), Rational(2, 16))",
         "close(Rational(6, 16)*224, 84) and close(Rational(2, 16)*224, 28) and 84 + 84 + 28 + 28 == 224",
+    ],
+    "bac-d-2018-sn-svt-ex2": [
+        "close((1 - Rational(16, 100))/2, Rational(42, 100))",
+        "abs(N(1 - sqrt(Rational(88, 100))) - 0.062) < 0.001 and close(((1 - sqrt(Rational(88, 100)))*2 - (1 - sqrt(Rational(88, 100)))**2)/4, Rational(3, 100))",
+        "close((1 - Rational(10, 100))/2, Rational(45, 100)) and close(Rational(22, 100)/2, Rational(11, 100))",
+    ],
+    "bac-c-2017-sn-svt-ex4": [
+        "close((1 - Rational(20, 100))/2*Rational(1, 2), Rational(20, 100)) and close(Rational(20, 100)/2*Rational(1, 2), Rational(5, 100))",
+        "close(Rational(1, 2)*1 + Rational(1, 2)*Rational(40, 100), Rational(70, 100)) and close(Rational(1, 2)*Rational(40, 100), Rational(20, 100))",
+        "close(Rational(40, 100)*700, 280) and close(Rational(10, 100)*700, 70)",
+    ],
+    "bac-c-2020-sn-svt-ex1": [
+        "close((1 - Rational(17, 100))/2, Rational(415, 1000)) and close(Rational(17, 100)/2, Rational(85, 1000))",
+        "close(Rational(1, 2) + Rational(1, 2)*Rational(415, 1000), (3 - Rational(17, 100))/4) and close((3 - Rational(17, 100))/4, Rational(7075, 10000))",
+        "close((1 - Rational(17, 100))/4, Rational(2075, 10000)) and close(Rational(17, 100)/4, Rational(425, 10000))",
+    ],
+    "bac-c-2023-sn-svt-ex4": [
+        "close((1 - Rational(12, 100))/4, Rational(22, 100)) and close((1 - Rational(12, 100))/2, Rational(44, 100))",
+        "close((3 - Rational(12, 100))/4*2000, 1440) and close(Rational(22, 100)*2000, 440) and close(Rational(12, 100)/4*2000, 60)",
     ],
 }
