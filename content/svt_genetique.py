@@ -694,6 +694,145 @@ Koumba décrit les membres de sa famille où sévit une maladie héréditaire :
 """, note="Le texte en base pour cet identifiant (« Exercice 2 (4,5 pts), drosophiles b, vg, r ») ne correspond pas au sujet officiel D 2024 session normale, dont l'exercice 2 est celui de la famille de Koumba : l'énoncé est remplacé par celui du PDF (l'ancien texte reste dans ennonce_ocr). Correction conforme au corrigé officiel (arbre ; récessif X rejeté par Raki/Baba, dominant X par Sidi/Koumba ; Fatma homozygote → récessif autosomique ; Koumba N/m, Sidi m/m, Pinda N/N ou N/m ; enfant N/m ou m/m).")
 
 
+# ═══════════════════════════════ D 2015 — session normale ═════════════════════
+
+E = "bac-d-2015-sn-svt-ex4"
+_add(E, r"""
+**Génétique (6 points)**
+
+Les drosophiles de type sauvage sont notamment $[b^+, vg^+, r^+]$.
+
+**A.** On croise une drosophile femelle de type sauvage $[b^+, vg^+]$ avec un mâle $[b, vg]$. Toutes les drosophiles de la $F_1$ sont $[b^+, vg^+]$.
+
+**1.** Quelles conclusions peut-on tirer de ce croisement ?
+
+On croise ensuite des drosophiles femelles obtenues en $F_1$ avec des mâles $[b, vg]$. On obtient les résultats suivants :
+- 51 drosophiles $[b^+, vg^+]$ ;
+- 52 drosophiles $[b, vg^+]$ ;
+- 48 drosophiles $[b, vg]$ ;
+- 49 drosophiles $[b^+, vg]$.
+
+**2.** Comment appelle-t-on ce type de croisement ? Quel renseignement apporte le résultat de ce croisement ?
+
+**3.** Précisez les génotypes des parents et celui de la $F_1$. Vérifiez par des croisements les résultats obtenus.
+
+**B.** On croise une drosophile femelle $[b^+, r]$ avec un mâle $[b, r^+]$, les deux drosophiles étant de race pure. On obtient une première génération ($F'_1$) où toutes les drosophiles sont $[b^+]$, mais tous les mâles sont $[r]$ et toutes les femelles sont $[r^+]$.
+
+**1.** Interprétez ces résultats et écrivez les génotypes des individus croisés et ceux de la $F'_1$.
+
+**2.** Réalisez le croisement entre les individus de la $F'_1$ puis donnez le bilan phénotypique.
+""", r"""
+**A. 1.** La $F_1$ est homogène : les parents sont de **race pure** (première loi de Mendel). Elle a le phénotype sauvage : $b^+ > b$ et $vg^+ > vg$.
+
+**A. 2.** C'est un **croisement test** (test cross) : le mâle double récessif ne fournit que des gamètes $b\,vg$, donc les phénotypes des descendants reflètent les gamètes de la femelle $F_1$.
+
+On obtient 4 phénotypes en proportions **égales** (51, 52, 48, 49 sur 200, soit environ 25 % chacun) : la femelle $F_1$ produit 4 types de gamètes équiprobables. Les deux gènes sont **indépendants** (portés par des chromosomes différents).
+
+**A. 3.** Parents : $\dfrac{b^+}{b^+}\,\dfrac{vg^+}{vg^+}$ et $\dfrac{b}{b}\,\dfrac{vg}{vg}$ ; $F_1$ : $\dfrac{b^+}{b}\,\dfrac{vg^+}{vg}$.
+
+Vérification (croisement test $F_1$ × $\dfrac{b}{b}\,\dfrac{vg}{vg}$) :
+
+| ♀ $F_1$ \ ♂ | $b\,vg$ (100 %) |
+|---|---|
+| $b^+vg^+$ ($\frac{1}{4}$) | $[b^+vg^+]$ |
+| $b^+vg$ ($\frac{1}{4}$) | $[b^+vg]$ |
+| $b\,vg^+$ ($\frac{1}{4}$) | $[b\,vg^+]$ |
+| $b\,vg$ ($\frac{1}{4}$) | $[b\,vg]$ |
+
+On attend 4 phénotypes à 25 %, soit 50 de chaque sur 200 : c'est conforme aux résultats observés.
+
+**B. 1.**
+- **Gène $b$** : toute la $F'_1$ est $[b^+]$, quel que soit le sexe ; $b^+$ domine $b$ et le gène est **autosomique**.
+- **Gène $r$** : les mâles ont le phénotype de leur mère ($[r]$) et les femelles celui de leur père ($[r^+]$). La transmission dépend du sexe : le gène est **porté par le chromosome $X$**. Les femelles $[r^+]$ ont reçu $X^{r^+}$ de leur père et $X^r$ de leur mère : $r^+$ domine $r$.
+- Les deux gènes, l'un autosomique et l'autre lié à $X$, sont **indépendants**.
+
+Génotypes : ♀ $\dfrac{b^+}{b^+}\,X^rX^r$ × ♂ $\dfrac{b}{b}\,X^{r^+}Y$.
+
+$F'_1$ : femelles $\dfrac{b^+}{b}\,X^{r^+}X^r$ $[b^+r^+]$ ; mâles $\dfrac{b^+}{b}\,X^rY$ $[b^+r]$.
+
+**B. 2.** Croisement $F'_1$ × $F'_1$ : ♀ $\dfrac{b^+}{b}\,X^{r^+}X^r$ × ♂ $\dfrac{b^+}{b}\,X^rY$.
+
+| ♀ \ ♂ | $b^+X^r$ | $b\,X^r$ | $b^+Y$ | $b\,Y$ |
+|---|---|---|---|---|
+| $b^+X^{r^+}$ | ♀ $[b^+r^+]$ | ♀ $[b^+r^+]$ | ♂ $[b^+r^+]$ | ♂ $[b^+r^+]$ |
+| $b^+X^r$ | ♀ $[b^+r]$ | ♀ $[b^+r]$ | ♂ $[b^+r]$ | ♂ $[b^+r]$ |
+| $b\,X^{r^+}$ | ♀ $[b^+r^+]$ | ♀ $[b\,r^+]$ | ♂ $[b^+r^+]$ | ♂ $[b\,r^+]$ |
+| $b\,X^r$ | ♀ $[b^+r]$ | ♀ $[b\,r]$ | ♂ $[b^+r]$ | ♂ $[b\,r]$ |
+
+Bilan phénotypique (identique dans les deux sexes) : $[b^+r^+]$ $\dfrac{6}{16}$ ; $[b^+r]$ $\dfrac{6}{16}$ ; $[b\,r^+]$ $\dfrac{2}{16}$ ; $[b\,r]$ $\dfrac{2}{16}$.
+""", note="Correction conforme au corrigé officiel (F1 b+/b vg+/vg, gènes indépendants ; gène r porté par X ; ♀ b+/b+ XrXr × ♂ b/b Xr+Y ; bilan 6/16, 6/16, 2/16, 2/16).")
+
+
+# ═══════════════════════════════ D 2016 — session normale ═════════════════════
+
+E = "bac-d-2016-sn-svt-ex4"
+_add(E, rf"""
+**Hérédité humaine (6 points)**
+
+On s'intéresse à la transmission d'une maladie héréditaire qui se présente sous deux formes différentes : $X$ et $Y$. Les tableaux 1 et 2 présentent le résultat de l'analyse de l'ADN de certains membres de deux familles A et B présentant chacune l'une des formes $X$ ou $Y$.
+
+Tableau 1 (forme $X$) :
+
+| Famille A | père | mère | Fatma | Mariem |
+|---|---|---|---|---|
+| Allèle $A_1$ | ? | + | + | + |
+| Allèle $A_2$ | ? | − | + | − |
+
+Tableau 2 (forme $Y$) :
+
+| Famille B | père | mère | Amadou | Omar |
+|---|---|---|---|---|
+| Allèle $A_1$ | − | ? | − | + |
+| Allèle $A_2$ | + | ? | + | − |
+
+(+ = présence ; − = absence)
+
+*NB : chaque famille ne présente qu'une seule forme ($X$ ou $Y$) de la maladie. On sait que le père de la famille A est sain, ainsi que la mère de la famille B.*
+
+**1.** Analysez ces résultats afin de déduire :
+
+**a.** si le gène de chaque forme est autosomal ou porté par $X$ ;
+
+**b.** si l'allèle de chaque forme est dominant ou récessif ;
+
+**c.** le génotype du père de la famille A et celui de la mère de la famille B.
+
+**2.** Le pedigree ci-contre est celui d'une autre famille C dont certains membres sont atteints de l'une des formes précitées.
+
+{fig(E, 1, "Pedigree de la famille C : I1 (homme sain) × I2 (femme saine) ; enfants II1 (garçon malade), II2 (fille saine), II3 (fœtus)")}
+
+**a.** Précisez, si possible, la forme de la maladie dans la famille C.
+
+**b.** L'analyse de l'ADN de certains membres de la famille C montre la présence de l'allèle $A_1$ chez les individus $I_1$, $II_1$ et $II_2$. Que pouvez-vous en déduire ?
+
+**3.** Écrivez les génotypes des individus $I_1$, $I_2$, $II_1$ et $II_2$ de la famille C.
+
+**4.** Précisez les individus malades de la famille A.
+
+**5.** Quel est le risque pour que le fœtus ($II_3$) soit une fille malade ?
+""", r"""
+**1. a.**
+- **Forme $X$ (famille A)** : la mère ne possède que $A_1$ (homozygote $A_1A_1$). Fatma possède $A_2$, qu'elle n'a pu recevoir que de son père ; Mariem ne possède que $A_1$, elle a donc reçu $A_1$ de son père. Le père possède donc $A_1$ et $A_2$. Si le gène était porté par $X$, le père transmettrait son unique chromosome $X$, donc le **même** allèle, à toutes ses filles ; or Fatma et Mariem ont reçu de lui deux allèles différents. Le gène de la forme $X$ est donc **autosomal**.
+- **Forme $Y$ (famille B)** : Omar ne possède que $A_1$, alors que son père ne possède pas $A_1$. Si le gène était autosomal, Omar aurait reçu un allèle de son père, donc $A_2$. Omar n'a reçu aucun allèle de ce gène de son père : le gène est **porté par $X$** (le père transmet $Y$ à ses fils).
+
+**b.**
+- **Forme $X$** : le père de la famille A possède les deux allèles $A_1$ et $A_2$ et il est sain ; l'allèle de la maladie, présent chez lui, est masqué : il est **récessif**.
+- **Forme $Y$** : Amadou (qui ne possède que $A_2$) et Omar (qui ne possède que $A_1$) ont reçu leur chromosome $X$ de leur mère, qui possède donc $A_1$ et $A_2$. Elle est saine et porte l'allèle de la maladie : il est **récessif**.
+
+**c.** Père de la famille A : $A_1//A_2$ ; mère de la famille B : $X^{A_1}X^{A_2}$.
+
+**2. a.** Les parents $I_1$ et $I_2$ sont sains et ont un garçon malade $II_1$ : l'allèle de la maladie est récessif. Ce pedigree est compatible avec les deux formes (gène autosomal récessif ou gène récessif porté par $X$) : il ne permet pas, à lui seul, de préciser la forme.
+
+**b.** Si la forme était $Y$ (gène porté par $X$), un homme ne posséderait qu'un seul allèle : $I_1$, sain, porteur de $A_1$, montrerait que $A_1$ est l'allèle normal, et $II_1$, malade, porteur de $A_1$, montrerait que $A_1$ est l'allèle de la maladie : contradiction. La famille C est donc atteinte de la **forme $X$** (autosomale récessive). $II_1$ malade possède $A_1$ : $A_1$ est l'allèle de la maladie (forme $X$), $A_2$ l'allèle normal.
+
+**3.** $II_1$ (malade) : $A_1//A_1$ ; il a reçu $A_1$ de chacun de ses parents, sains : $I_1$ : $A_1//A_2$ et $I_2$ : $A_1//A_2$. $II_2$ (saine, porteuse de $A_1$) : $A_1//A_2$.
+
+**4.** Dans la famille A (forme $X$, allèle de la maladie $A_1$ récessif), les malades sont les homozygotes $A_1//A_1$ : **la mère et Mariem**. Le père et Fatma ($A_1//A_2$) sont sains.
+
+**5.** $I_1$ ($A_1//A_2$) × $I_2$ ($A_1//A_2$) : la probabilité d'un enfant malade $A_1//A_1$ est $\dfrac{1}{4}$, celle d'une fille est $\dfrac{1}{2}$ (indépendante du gène autosomal). Risque que le fœtus soit une fille malade : $\dfrac{1}{4} \times \dfrac{1}{2} = \dfrac{1}{8}$.
+""", note="Le texte OCR en base contenait des valeurs fausses dans les tableaux (A2 « + » chez la mère et Mariem de la famille A, colonne « mère » absente de la famille B) et des individus mal numérotés (I3, I4) : l'énoncé est retranscrit du PDF officiel (l'ancien texte reste dans ennonce_ocr). Correction conforme au corrigé officiel (forme X autosomale récessive, forme Y liée à X récessive ; père A A1//A2, mère B XA1XA2 ; famille C forme X, A1 allèle morbide ; I1, I2, II2 A1//A2, II1 A1//A1 ; malades de A : la mère et Mariem ; risque 1/8).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {
     "bac-d-2017-sn-svt-ex4": [
@@ -739,5 +878,12 @@ CHECKS: dict[str, list[str]] = {
     "bac-c-2020-sn-svt-ex2": [
         "close(Rational(1, 50)*Rational(1, 2)*1*Rational(1, 2), Rational(1, 200))",
         "close(Rational(2, 3)*Rational(1, 50)*Rational(1, 4), Rational(1, 300))",
+    ],
+    "bac-d-2015-sn-svt-ex4": [
+        "51 + 52 + 48 + 49 == 200 and all(abs(k - 50) <= 2 for k in (51, 52, 48, 49))",
+        "close(Rational(3, 4)*Rational(1, 2), Rational(6, 16)) and close(Rational(1, 4)*Rational(1, 2), Rational(2, 16))",
+    ],
+    "bac-d-2016-sn-svt-ex4": [
+        "close(Rational(1, 4)*Rational(1, 2), Rational(1, 8))",
     ],
 }
