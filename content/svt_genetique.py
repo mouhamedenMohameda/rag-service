@@ -833,6 +833,185 @@ Tableau 2 (forme $Y$) :
 """, note="Le texte OCR en base contenait des valeurs fausses dans les tableaux (A2 « + » chez la mère et Mariem de la famille A, colonne « mère » absente de la famille B) et des individus mal numérotés (I3, I4) : l'énoncé est retranscrit du PDF officiel (l'ancien texte reste dans ennonce_ocr). Correction conforme au corrigé officiel (forme X autosomale récessive, forme Y liée à X récessive ; père A A1//A2, mère B XA1XA2 ; famille C forme X, A1 allèle morbide ; I1, I2, II2 A1//A2, II1 A1//A1 ; malades de A : la mère et Mariem ; risque 1/8).")
 
 
+# ═══════════════════════════════ C 2015 — session normale ═════════════════════
+
+E = "bac-c-2015-sn-svt-ex3"
+_add(E, rf"""
+**Génétique (6 points)**
+
+Le document 5 représente l'arbre généalogique d'une famille dont certains membres sont atteints d'une maladie héréditaire.
+
+{fig(E, 1, "Document 5 : arbre généalogique. I1 (homme sain) × I2 (femme malade) ; leurs enfants II1 (fille saine), II2 et II3 (garçons malades), II5 (fille saine) ; II3 × II4 (femme saine) → III2 et III3 (filles saines) ; II5 × II6 (homme sain) → III4 (garçon malade), III5 et III6 (jumelles saines), III7 (garçon sain) ; III1 (homme sain) × III2 → IV1 (garçon sain) et IV2 (enfant à naître) ; III7 × III8 (femme saine) → IV3 (garçon sain) et IV4 (enfant à naître)")}
+
+**1.** L'allèle de cette maladie est-il :
+
+**a.** dominant ou récessif ?
+
+**b.** autosomique ou gonosomique ? Discutez.
+
+**2.** On fait, par la technique d'électrophorèse, l'analyse des fragments d'ADN correspondant aux allèles $A$ et $B$ du gène impliqué dans cette maladie. Le document 6 montre les résultats obtenus chez certains membres de cette famille.
+
+Document 6 (électrophorèse) :
+
+| | $I_2$ | $II_2$ | $II_6$ |
+|---|---|---|---|
+| Fragment $A$ | bande | bande | bande |
+| Fragment $B$ | — | — | bande |
+
+**a.** Identifiez, parmi les allèles $A$ et $B$, l'allèle normal et l'allèle responsable de la maladie.
+
+**b.** Vérifiez la validité des hypothèses retenues.
+
+**c.** Écrivez les génotypes des individus $III_1$, $III_2$, $III_4$ et $III_7$.
+
+**3.** Pouvez-vous préciser la nature des jumelles $III_5$ et $III_6$ ?
+
+**4.** Quel est le risque pour que :
+
+**a.** $IV_2$ soit une fille malade ;
+
+**b.** $IV_4$ soit malade ?
+
+*NB : on considère que la fréquence des hybrides dans la population à laquelle appartient cette famille est $\dfrac{{1}}{{40}}$.*
+""", r"""
+**1. a.** Le couple $II_5 \times II_6$, sain, a un garçon malade $III_4$ : l'allèle de la maladie, présent chez au moins un des parents, y est masqué. Il est **récessif**.
+
+**b.**
+- **Gène porté par $Y$** : rejeté, car la maladie touche aussi des femmes ($I_2$).
+- **Gène porté par $X$** : possible. La mère malade $I_2$ ($X^mX^m$) a tous ses garçons malades ($II_2$, $II_3$) ; ses filles $II_1$ et $II_5$ sont saines et conductrices ($X^NX^m$) ; $II_5$ transmet $X^m$ à son fils $III_4$ ; le père malade $II_3$ ($X^mY$) a des filles saines conductrices ($III_2$, $III_3$).
+- **Gène autosomique** : possible.
+
+**2. a.** $I_2$ et $II_2$ sont malades et ne possèdent que le fragment $A$ : ils sont homozygotes pour l'allèle de la maladie. **$A$ est l'allèle responsable de la maladie, $B$ l'allèle normal** ($B > A$).
+
+**b.** $II_6$ est un homme sain qui possède **deux** allèles, $A$ et $B$ : le gène est présent en deux exemplaires chez l'homme, il n'est donc pas porté par $X$. Il est **autosomique**. $II_6$, hétérozygote $B//A$ et sain, confirme que $A$ est récessif. Hypothèse retenue : **allèle récessif autosomique**.
+
+**c.**
+- $III_1$ (homme sain extérieur à la famille) : $B//B$ ou $B//A$ ;
+- $III_2$ (saine, fille du père malade $II_3$ qui lui a transmis $A$) : $B//A$ ;
+- $III_4$ (malade) : $A//A$ ;
+- $III_7$ (sain, fils de $II_5$ et $II_6$ tous deux $B//A$) : $B//B$ ou $B//A$.
+
+**3.** Non. $III_5$ et $III_6$ sont deux filles saines, de génotype $B//B$ ou $B//A$ : elles peuvent être de vraies jumelles (même génotype) comme de fausses jumelles ; les données ne permettent pas de trancher.
+
+**4. a.** $III_2$ est sûrement $B//A$. Pour que $IV_2$ soit malade, il faut que $III_1$ soit hybride (probabilité $\dfrac{1}{40}$), puis que l'enfant reçoive $A$ de chacun ($\dfrac{1}{4}$) ; la probabilité d'une fille est $\dfrac{1}{2}$ :
+$$P = \dfrac{1}{40} \times \dfrac{1}{4} \times \dfrac{1}{2} = \dfrac{1}{320}.$$
+
+**b.** $III_7$ est sain, issu de deux parents $B//A$ : la probabilité qu'il soit hybride est $\dfrac{2}{3}$. $III_8$, issue de la population, est hybride avec la probabilité $\dfrac{1}{40}$ :
+$$P = \dfrac{2}{3} \times \dfrac{1}{40} \times \dfrac{1}{4} = \dfrac{1}{240}.$$
+""", note="Document 6 retranscrit en tableau (scan peu lisible ; lecture confirmée par la version dactylographiée et le corrigé : I2 et II2 n'ont que A, II6 a A et B). Corrections conformes au corrigé officiel pour 1, 2 et 3. Question 4 : le corrigé officiel donne 1/40 × 1/40 × 1/4 × 1/2 et 1/40 × 1/40 × 1/4, ce qui est faux : III2 est sûrement B//A (son père II3 est malade), donc un seul facteur 1/40 pour IV2 (1/320) ; III7, sain et issu de deux hétérozygotes, est hybride avec la probabilité 2/3 et non 1/40 (IV4 : 1/240).")
+
+
+# ═══════════════════════════════ C 2013 — session normale ═════════════════════
+
+E = "bac-c-2013-sn-svt-ex3"
+_add(E, r"""
+**Génétique (6 points)**
+
+On se propose d'étudier la transmission de deux caractères chez la drosophile à partir des croisements suivants.
+
+**1er croisement** : entre 2 souches de drosophiles :
+- $P_1$ : souche mutante à ailes vestigiales et yeux pourpres ;
+- $P_2$ : souche sauvage à ailes normales et yeux rouges.
+
+La génération $F_1$ est constituée de drosophiles de type sauvage.
+
+**1.** Que déduisez-vous ?
+
+**2e croisement** : le croisement entre les individus de $F_1$ donne une génération $F_2$ dans laquelle on dénombre :
+- 727 drosophiles de type sauvage ;
+- 208 drosophiles de type mutant ;
+- 33 drosophiles à ailes normales et yeux pourpres ;
+- 32 drosophiles à ailes vestigiales et yeux rouges.
+
+**2.** Interprétez, croisement à l'appui, les résultats obtenus.
+
+**3.** Déduisez la position des gènes étudiés.
+
+**4.** Donnez la répartition attendue sur 1000 drosophiles issues d'un croisement d'une femelle de $F_1$ × mâle mutant.
+""", r"""
+Notations : $vg^+$ (ailes normales) / $vg$ (ailes vestigiales) ; $pr^+$ (yeux rouges) / $pr$ (yeux pourpres).
+
+**1.** Il s'agit d'un **dihybridisme** (deux caractères). La $F_1$ est homogène : les parents sont de race pure (1re loi de Mendel). La $F_1$ ne présente que les phénotypes sauvages : les allèles sauvages sont **dominants** : $vg^+ > vg$ et $pr^+ > pr$.
+
+**2.** Si les gènes étaient indépendants, la $F_2$ présenterait les proportions $\dfrac{9}{16}$, $\dfrac{3}{16}$, $\dfrac{3}{16}$, $\dfrac{1}{16}$, soit environ 562, 188, 188 et 63 drosophiles sur 1000. Les résultats observés (727, 208, 33, 32) en sont très éloignés : les phénotypes parentaux sont largement majoritaires, les phénotypes recombinés rares. Les deux gènes sont donc **liés** (portés par le même chromosome), avec une **liaison partielle** (crossing-over).
+
+Chez la drosophile, le crossing-over n'a lieu que chez la femelle.
+
+Croisement : $F_1$ ♀ $\dfrac{vg^+\ pr^+}{vg\ \ pr}$ × $F_1$ ♂ $\dfrac{vg^+\ pr^+}{vg\ \ pr}$.
+
+Gamètes, en notant $p$ le taux de recombinaison :
+- femelle : $vg^+pr^+$ et $vg\,pr$ (parentaux) : $\dfrac{1-p}{2}$ chacun ; $vg^+pr$ et $vg\,pr^+$ (recombinés) : $\dfrac{p}{2}$ chacun ;
+- mâle (liaison totale) : $vg^+pr^+$ : $\dfrac{1}{2}$ ; $vg\,pr$ : $\dfrac{1}{2}$.
+
+| ♀ \ ♂ | $vg^+pr^+$ $\left(\dfrac{1}{2}\right)$ | $vg\,pr$ $\left(\dfrac{1}{2}\right)$ |
+|---|---|---|
+| $vg^+pr^+$ $\left(\dfrac{1-p}{2}\right)$ | $[vg^+pr^+]$ $\dfrac{1-p}{4}$ | $[vg^+pr^+]$ $\dfrac{1-p}{4}$ |
+| $vg\,pr$ $\left(\dfrac{1-p}{2}\right)$ | $[vg^+pr^+]$ $\dfrac{1-p}{4}$ | $[vg\,pr]$ $\dfrac{1-p}{4}$ |
+| $vg^+pr$ $\left(\dfrac{p}{2}\right)$ | $[vg^+pr^+]$ $\dfrac{p}{4}$ | $[vg^+pr]$ $\dfrac{p}{4}$ |
+| $vg\,pr^+$ $\left(\dfrac{p}{2}\right)$ | $[vg^+pr^+]$ $\dfrac{p}{4}$ | $[vg\,pr^+]$ $\dfrac{p}{4}$ |
+
+Répartition phénotypique théorique : $[vg^+pr^+]$ $\dfrac{3-p}{4}$ ; $[vg\,pr]$ $\dfrac{1-p}{4}$ ; $[vg^+pr]$ $\dfrac{p}{4}$ ; $[vg\,pr^+]$ $\dfrac{p}{4}$. Elle explique bien les deux classes recombinées peu nombreuses et à peu près égales (33 et 32).
+
+**3.** Les deux classes recombinées représentent $\dfrac{p}{4} + \dfrac{p}{4} = \dfrac{p}{2}$ de la $F_2$ :
+$$\dfrac{p}{2} = \dfrac{33 + 32}{1000} = 0{,}065 \quad\Rightarrow\quad p = 0{,}13 = 13\ \%.$$
+Les deux gènes sont portés par le même chromosome et distants de **13 centimorgans** (13 cM). (Avec $p = 0{,}13$, on attend environ 717, 218, 32 et 32 drosophiles sur 1000, proche des effectifs observés.)
+
+**4.** Croisement test : $F_1$ ♀ $\dfrac{vg^+\ pr^+}{vg\ \ pr}$ × ♂ $\dfrac{vg\ \ pr}{vg\ \ pr}$. Le mâle ne fournit que des gamètes $vg\,pr$ : les phénotypes des descendants reflètent les gamètes de la femelle.
+- $[vg^+pr^+]$ : $\dfrac{1-p}{2} = 0{,}435$, soit **435** drosophiles ;
+- $[vg\,pr]$ : $0{,}435$, soit **435** drosophiles ;
+- $[vg^+pr]$ : $\dfrac{p}{2} = 0{,}065$, soit **65** drosophiles ;
+- $[vg\,pr^+]$ : $0{,}065$, soit **65** drosophiles.
+""", note="Exercice absent de la base (squelette vide) : énoncé retranscrit du PDF officiel C 2013 session normale. Correction conforme au corrigé officiel (gènes liés, crossing-over chez la femelle seulement ; répartition (3−p)/4, (1−p)/4, p/4, p/4 ; distance 13 cM ; croisement test 435, 435, 65, 65). Le corrigé calcule p à partir de la seule classe de 32 (p = 0,128 ≈ 13 %) ; ici p est calculé à partir des deux classes recombinées (p = 0,13), même conclusion.")
+
+
+# ═══════════════════════════════ C 2014 — session normale ═════════════════════
+
+E = "bac-c-2014-sn-svt-ex3"
+_add(E, r"""
+**Génétique (6 points)**
+
+Chez une famille atteinte d'une maladie héréditaire rare, on réalise une électrophorèse des allèles (fragments d'ADN) du gène responsable de cette maladie. Les résultats sont donnés par le tableau suivant ($I_1$ et $I_2$ sont les parents ; $II_1$, $II_2$ et $II_3$ leurs enfants) :
+
+| Individus | $I_1$ | $I_2$ | $II_1$ | $II_2$ | $II_3$ |
+|---|---|---|---|---|---|
+| Fragment $A_1$ | bande | bande | — | — | bande |
+| Fragment $A_2$ | bande | bande | bande | bande | bande |
+| Phénotype | ♂ | ♀ saine | ♂ malade | ♀ | ♀ |
+
+**1.** Quel est l'allèle responsable de cette maladie ? Pourquoi ?
+
+**2.** S'agit-il d'une maladie :
+
+**a.** récessive ou dominante ? Pourquoi ?
+
+**b.** liée au sexe ou autosomale ? Pourquoi ?
+
+**3.** Dressez le pedigree de cette famille.
+
+**4.** Précisez les génotypes des individus de cette famille.
+
+**5.** La femme $II_3$ se marie à un homme phénotypiquement normal. Quelle est la probabilité pour que leur premier enfant soit un garçon malade ?
+""", r"""
+**1.** $II_1$ est malade et ne possède que le fragment $A_2$ : l'allèle responsable de la maladie est **$A_2$** ($A_1$ est l'allèle normal).
+
+**2. a.** La femme $I_2$ possède les deux allèles $A_1$ et $A_2$ (hétérozygote) et elle est saine : l'allèle $A_2$ de la maladie est masqué, il est **récessif** ($A_1 > A_2$).
+
+**b.** L'homme $I_1$ possède deux allèles, $A_1$ et $A_2$. Si le gène était porté par $X$, un homme n'en posséderait qu'un seul exemplaire ; s'il était porté par $Y$, la femme $I_2$ n'en posséderait aucun. Le gène est donc **autosomal**.
+
+**3.** Pedigree :
+- génération I : $I_1$ (homme, hétérozygote donc **sain**) × $I_2$ (femme saine) ;
+- génération II : $II_1$ (garçon **malade**), $II_2$ (fille ne possédant que $A_2$, donc **malade**), $II_3$ (fille hétérozygote, donc **saine**).
+
+**4.** $I_1$ : $A_1//A_2$ ; $I_2$ : $A_1//A_2$ ; $II_1$ : $A_2//A_2$ ; $II_2$ : $A_2//A_2$ ; $II_3$ : $A_1//A_2$.
+
+**5.** $II_3$ est $A_1//A_2$. L'enfant ne peut être malade ($A_2//A_2$) que si le mari, phénotypiquement normal, est lui aussi hétérozygote $A_1//A_2$.
+- La maladie étant **rare**, le mari est très probablement homozygote $A_1//A_1$ : la probabilité d'avoir un enfant malade est alors **nulle**.
+- S'il était hétérozygote, la probabilité d'un enfant malade serait $\dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$, et celle d'un garçon malade $\dfrac{1}{4} \times \dfrac{1}{2} = \dfrac{1}{8}$.
+
+L'énoncé ne donnant pas la fréquence des hétérozygotes dans la population, on ne peut pas donner une valeur unique : la probabilité vaut $\dfrac{1}{8} \times f$, où $f$ est la probabilité que le mari soit hétérozygote, très faible pour une maladie rare.
+""", note="Exercice absent de la base (squelette vide) : énoncé retranscrit du PDF officiel C 2014 session normale ; le tableau d'électrophorèse est retranscrit (bande A2 de I1 peu visible sur le scan, confirmée par la version dactylographiée et par le corrigé, qui qualifie I1 de « mâle hybride »). Questions 1 et 2 conformes au corrigé officiel (A2 allèle muté, récessif, autosomal). Question 3 : le pedigree du corrigé représente II3 par un carré, alors que le tableau la donne de sexe féminin (♀) ; corrigé ici. Les questions 4 et 5 ne sont pas traitées dans le corrigé : les génotypes découlent directement du tableau ; pour la question 5, l'énoncé ne donne pas la fréquence des hétérozygotes, la réponse est donc donnée en fonction de celle-ci (1/8 si le mari est hétérozygote, quasi nulle sinon).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {
     "bac-d-2017-sn-svt-ex4": [
@@ -885,5 +1064,18 @@ CHECKS: dict[str, list[str]] = {
     ],
     "bac-d-2016-sn-svt-ex4": [
         "close(Rational(1, 4)*Rational(1, 2), Rational(1, 8))",
+    ],
+    "bac-c-2015-sn-svt-ex3": [
+        "close(Rational(1, 40)*Rational(1, 4)*Rational(1, 2), Rational(1, 320))",
+        "close(Rational(2, 3)*Rational(1, 40)*Rational(1, 4), Rational(1, 240)) and close((Rational(2, 4))/(Rational(3, 4)), Rational(2, 3))",
+    ],
+    "bac-c-2013-sn-svt-ex3": [
+        "727 + 208 + 33 + 32 == 1000 and close(Rational(33 + 32, 1000)*2, Rational(13, 100))",
+        "close((3 - Rational(13, 100))/4*1000, Rational(7175, 10)) and close((1 - Rational(13, 100))/4*1000, Rational(2175, 10)) and close(Rational(13, 100)/4*1000, Rational(325, 10))",
+        "close((1 - Rational(13, 100))/2*1000, 435) and close(Rational(13, 100)/2*1000, 65)",
+        "abs(Rational(9, 16)*1000 - 562) < 1 and abs(Rational(3, 16)*1000 - 188) < 1 and abs(Rational(1, 16)*1000 - 63) < 1",
+    ],
+    "bac-c-2014-sn-svt-ex3": [
+        "close(Rational(1, 2)*Rational(1, 2)*Rational(1, 2), Rational(1, 8))",
     ],
 }

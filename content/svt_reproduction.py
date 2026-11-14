@@ -1088,5 +1088,127 @@ b) Précisez son rôle dans le cycle sexuel.
 """, note="Correction conforme au corrigé officiel (organe enlevé : hypophyse ; H1 œstradiol, 2 pics ; ovulation 17 mars, menstruation 1er avril, corps jaune maximal le 25 mars ; cycle de 28 jours ; H2 progestérone). En A1, le corrigé cite « ovaires, hypophyse » (plus un mot raturé) : la correction retient ces deux organes.")
 
 
+# ═══════════════════════════════ C 2012 — session normale ═════════════════════
+
+E = "bac-c-2012-sn-svt-ex1"
+_add(E, rf"""
+**Reproduction (7 points)**
+
+La conception d'un être humain nécessite de nombreuses étapes, parmi elles celles indiquées sur le document 1.
+
+{fig(E, 1, "Document 1 : étapes a, b et c (granulosa, les 2 thèques)")}
+
+**1.** Identifiez les étapes $a$, $b$ et $c$.
+
+**2.** Classez les étapes $a$, $b$ et $c$ selon l'ordre chronologique.
+
+**3.** Précisez le(s) déterminisme(s) hormonal ou hormonaux des étapes $b$ et $c$.
+
+Pour remédier à certaines formes de stérilité, on a recours à la FIVETE.
+
+**4.** Indiquez les cas de stérilité conduisant un couple à envisager cette méthode de conception.
+
+Après l'étape $c$, le placenta se constitue afin d'assurer le lien entre l'embryon et la mère.
+
+**5.** Précisez le rôle du placenta.
+""", r"""
+**1.**
+- Étape $a$ : **fécondation** (ovocyte entouré de sa corona radiata, au contact duquel a lieu la rencontre avec le spermatozoïde) ;
+- étape $b$ : **ovulation** (rupture du follicule mûr, entouré de la granulosa et des deux thèques, qui libère l'ovocyte) ;
+- étape $c$ : **nidation** (implantation de l'embryon dans la muqueuse utérine).
+
+**2.** Ordre chronologique : $b$ (ovulation) → $a$ (fécondation) → $c$ (nidation).
+
+**3.**
+- **Ovulation ($b$)** : elle est déclenchée par le **pic de LH** (accompagné d'un pic de FSH) sécrété par l'hypophyse. Ce pic résulte du rétrocontrôle positif exercé sur le complexe hypothalamo-hypophysaire par le taux élevé d'œstradiol sécrété par le follicule mûr.
+- **Nidation ($c$)** : la muqueuse utérine est préparée (dentelle utérine) par les **œstrogènes et la progestérone** sécrétés par le corps jaune. Après la fécondation, l'embryon (trophoblaste) sécrète l'**HCG**, qui maintient le corps jaune et donc la sécrétion de progestérone : la muqueuse ne se détruit pas et l'embryon peut s'y implanter.
+
+**4.** La FIVETE (fécondation in vitro et transfert d'embryon) est envisagée lorsque la rencontre des gamètes est impossible ou trop peu probable dans les voies génitales :
+- obstruction ou malformation des trompes chez la femme ;
+- insuffisance de spermatozoïdes (oligospermie) ou spermatozoïdes peu mobiles chez l'homme ;
+- en cas d'azoospermie (absence de spermatozoïdes), la FIVETE n'est possible qu'avec des spermatozoïdes prélevés directement dans le testicule ou issus d'un donneur.
+
+**5.** Rôles du placenta :
+- **rôle nutritif et d'échanges** : il assure les échanges entre le sang maternel et le sang fœtal (nutriments, $O_2$ vers le fœtus ; déchets, $CO_2$ vers la mère) sans mélange des deux sangs ;
+- **rôle protecteur** : il arrête certains microbes et substances, et laisse passer des anticorps maternels ;
+- **rôle endocrine** : il sécrète l'HCG, puis, vers la fin du premier trimestre, il prend le relais du corps jaune en sécrétant œstrogènes et progestérone, qui maintiennent la gestation.
+""", note="Énoncé retranscrit du PDF officiel C 2012 session normale (le texte OCR en base était tronqué). Correction conforme au corrigé officiel (a fécondation, b ovulation, c nidation ; ordre b – a – c ; pic de LH, HCG ; FIVETE : trompes, oligospermie ; rôles nutritif, protecteur, hormonal du placenta), complétée : rôle des œstrogènes et de la progestérone dans la préparation de la muqueuse, et précision que l'azoospermie (citée par le corrigé) n'est traitée par FIVETE qu'avec des spermatozoïdes prélevés dans le testicule ou d'un donneur.")
+
+
+# ═══════════════════════════════ C 2014 — session normale ═════════════════════
+
+E = "bac-c-2014-sn-svt-ex1"
+_add(E, rf"""
+**Reproduction (8 points)**
+
+Le document 1 représente deux caryotypes anormaux de deux individus $A$ et $B$.
+
+{fig(E, 1, "Document 1 : caryotypes des individus A et B")}
+
+**1.** Donnez la formule chromosomique de chaque caryotype.
+
+**2.** Déduisez le sexe de $A$ et de $B$.
+
+**3.** Quelle anomalie présente chaque individu ?
+
+**4.** Quelle est l'origine de l'anomalie de l'individu $A$ ?
+
+Le document 2 illustre la spermatogenèse chez un homme normal.
+
+{fig(E, 2, "Document 2 : portion de tube séminifère, stades cellulaires a, b, c, d et e (de la paroi vers la lumière), noyau de cellule de Sertoli")}
+
+**5.** Nommez les stades cellulaires notés $a$, $b$, $c$, $d$ et $e$.
+
+Un phénomène important se déroule entre les stades $b$ et $d$.
+
+**6.** Nommez ce phénomène et précisez son importance.
+
+On suppose que le caryotype $A$ résulte de la fécondation d'un ovule normal par un spermatozoïde anormal.
+
+**7.** Quelle était la garniture chromosomique du spermatozoïde fécondant ? À quelle phase du phénomène situez-vous l'origine de l'anomalie ?
+
+**8.** Diverses hormones interviennent dans la régulation de la fonction reproductrice humaine. Complétez le tableau suivant :
+
+| Hormone | HCG | Testostérone | Inhibine | Ocytocine |
+|---|---|---|---|---|
+| Cellules sécrétrices | | | | |
+| Cellules cibles | | | | |
+| Effets | | | | |
+""", r"""
+**1.** Les 22 paires d'autosomes sont normales dans les deux caryotypes ; seuls les gonosomes diffèrent :
+- $A$ : $44A + XXY$, soit $2n + 1 = 47$ chromosomes ;
+- $B$ : $44A + X$ (noté $44A + X0$), soit $2n - 1 = 45$ chromosomes.
+
+**2.** $A$ possède un chromosome $Y$ : c'est un individu de **sexe masculin**. $B$ ne possède pas de $Y$ : c'est un individu de **sexe féminin**.
+
+**3.**
+- $A$ : trisomie gonosomique $XXY$, **syndrome de Klinefelter** ;
+- $B$ : monosomie $X$, **syndrome de Turner**.
+
+**4.** L'anomalie de $A$ provient d'une **méiose anormale** au cours de la formation d'un des gamètes parentaux : une non-disjonction des gonosomes a produit un gamète possédant un gonosome de trop ($XX$ ou $XY$), qui a été fécondé par un gamète normal.
+
+**5.**
+- $a$ : spermatogonie ;
+- $b$ : spermatocyte I (de premier ordre) ;
+- $c$ : spermatocyte II (de second ordre) ;
+- $d$ : spermatide ;
+- $e$ : spermatozoïde.
+
+**6.** Entre les stades $b$ (spermatocyte I) et $d$ (spermatide) se déroule la **méiose** (phase de maturation). Importance :
+- elle réduit de moitié le nombre de chromosomes ($2n \to n$) : les gamètes sont haploïdes, et la fécondation rétablit la diploïdie, ce qui maintient constant le nombre de chromosomes de l'espèce ;
+- par les brassages interchromosomique et intrachromosomique, elle produit des gamètes génétiquement variés, source de diversité des descendants.
+
+**7.** L'ovule normal apporte $22A + X$. Pour obtenir $44A + XXY$, le spermatozoïde fécondant possédait $22A + XY$, soit **24 chromosomes**. La présence simultanée de $X$ et de $Y$ (les deux gonosomes homologues) dans le même spermatozoïde montre qu'ils ne se sont pas séparés lors de la première division de méiose : l'anomalie a eu lieu en **anaphase I**.
+
+**8.**
+
+| Hormone | HCG | Testostérone | Inhibine | Ocytocine |
+|---|---|---|---|---|
+| Cellules sécrétrices | cellules du trophoblaste (embryon), puis du placenta | cellules de Leydig (cellules interstitielles du testicule) | cellules de Sertoli | neurones de l'hypothalamus (hormone libérée par la posthypophyse) |
+| Cellules cibles | cellules du corps jaune | cellules des organes génitaux et des caractères sexuels secondaires, cellules de la lignée germinale (spermatogenèse), complexe hypothalamo-hypophysaire | cellules de l'antéhypophyse | cellules musculaires de l'utérus (myomètre), cellules musculaires des glandes mammaires |
+| Effets | maintien du corps jaune et de sa sécrétion de progestérone et d'œstrogènes (corps jaune gestatif) | développement et maintien des caractères sexuels, déclenchement et entretien de la spermatogenèse, rétrocontrôle négatif sur la sécrétion de GnRH et de LH | rétrocontrôle négatif sur la sécrétion de FSH | contractions de l'utérus lors de l'accouchement (parturition), éjection du lait |
+""", note="Exercice absent de la base (squelette vide) : énoncé retranscrit du PDF officiel C 2014 session normale ; le document 1, rogné en haut sur le scan officiel, est repris de la version dactylographiée qui accompagne le corrigé. Correction conforme au corrigé officiel (47, XXY Klinefelter ; 45, X0 Turner ; méiose anormale ; spermatogonie, spermatocyte I, spermatocyte II, spermatide, spermatozoïde ; méiose ; spermatozoïde 22 + XY = 24 chromosomes, anaphase I ; tableau des hormones).")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKS: dict[str, list[str]] = {}
